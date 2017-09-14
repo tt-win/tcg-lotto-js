@@ -2,7 +2,7 @@ import _isNumber from 'lodash/isNumber';
 import _findIndex from 'lodash/findIndex';
 import _reverse from 'lodash/reverse';
 import _find from 'lodash/find';
-import { i18n } from './locales';
+import { i18n } from './lang/i18n-key-finder';
 import { orderDigitsI18n } from './configs/basic_play_menu';
 import { PlayMenu } from './configs/play_menu';
 

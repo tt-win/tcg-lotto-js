@@ -63,7 +63,7 @@ const uglifyJsPlugin = new webpack.optimize.UglifyJsPlugin({
 
 module.exports = {
   entry: {
-    bundle: ['./src/export.js'],
+    bundle: ['./src/i18n/lott-translator-export.js'],
   },
 
   output: {

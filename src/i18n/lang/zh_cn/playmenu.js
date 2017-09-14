@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 // 娛樂城的playMenu拉出去做
-import entertainmentPlayMenu from './entertainmentPlayMenu';
-import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './lhc';
+import entertainmentPlayMenu from './play-ent';
+import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
 
 const playMenu = {
   playId: {
