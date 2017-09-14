@@ -1,0 +1,16 @@
+{
+  "name": "b2b-ui",
+  "description": "",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

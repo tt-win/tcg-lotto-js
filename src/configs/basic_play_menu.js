@@ -1,0 +1,405 @@
+/**
+ * 定義所有與 order 有關的多語系對應
+ */
+
+const groupSSCDigitsI18n = {
+  digitsI18n: {
+    0: 'startDigit.ones',
+    1: 'startDigit.tens',
+    2: 'startDigit.hundreds',
+    3: 'startDigit.thousands',
+    4: 'startDigit.tenThousands',
+  },
+};
+
+const groupSSCManualDigitsI18n = {
+  digitsI18n: {
+    1: 'startDigit.tenThousands2',
+    2: 'startDigit.thousands2',
+    3: 'startDigit.hundreds2',
+    4: 'startDigit.tens2',
+    5: 'startDigit.ones2',
+  },
+};
+
+const group11X5DigitsI18n = {
+  digitsI18n: {
+    4: 'startDigit.first',
+    3: 'startDigit.second',
+    2: 'startDigit.third',
+  },
+};
+
+const groupPK10DigitsI18n = {
+  digitsI18n: {
+    0: 'startDigit.pk10_first',
+    1: 'startDigit.pk10_second',
+    2: 'startDigit.pk10_third',
+    3: 'startDigit.pk10_fourth',
+    4: 'startDigit.pk10_fifth',
+    5: 'startDigit.pk10_sixth',
+    6: 'startDigit.pk10_seventh',
+    7: 'startDigit.pk10_eighth',
+    8: 'startDigit.pk10_ninth',
+    9: 'startDigit.pk10_tenth',
+  },
+};
+
+// 顯示在購物車或訂單查詢 digits 多語系對應
+// key: play_code, value: object, digitsI18n, 定義成object未來擴充用
+export const orderDigitsI18n = {
+  // 定位膽
+  FixedPlace: { ...groupSSCDigitsI18n },
+  Any2Sum_SSC: { ...groupSSCManualDigitsI18n },
+  Any2Com_SSC_Single: { ...groupSSCManualDigitsI18n },
+  Any3Sum_SSC: { ...groupSSCManualDigitsI18n },
+  Any2Com_SSC: { ...groupSSCManualDigitsI18n },
+  Any3Com3_SSC: { ...groupSSCManualDigitsI18n },
+  Any3Com_SSC: { ...groupSSCManualDigitsI18n },
+  Any3Com6_SSC: { ...groupSSCManualDigitsI18n },
+  Any4Com12_SSC: { ...groupSSCManualDigitsI18n },
+  Any4Com6_SSC: { ...groupSSCManualDigitsI18n },
+  Any4Com4_SSC: { ...groupSSCManualDigitsI18n },
+  Any4Com24_SSC: { ...groupSSCManualDigitsI18n },
+  FixedPlace_11X5: { ...group11X5DigitsI18n },
+  FixedPlace_LF: { ...groupSSCDigitsI18n },
+  First5Fixed_PK10: { ...groupPK10DigitsI18n },
+  Last5Fixed_PK10: { ...groupPK10DigitsI18n },
+  First5BSOE_PK10: { ...groupPK10DigitsI18n },
+  Last5BSOE_PK10: { ...groupPK10DigitsI18n },
+};
+
+export default {};
+
+// 彩種組預設玩法
+export const groupCodeDefaultActive = {
+  SSC: {
+    defaultActive: 'Last_3',
+    subPlayMenu: {
+      defaultActive: 'Last3Straight',
+    },
+  },
+  '11X5': {
+    defaultActive: 'First_3_11X5',
+    subPlayMenu: {
+      defaultActive: 'First3Straight_11X5',
+    },
+  },
+  PK10: {
+    defaultActive: 'Fixed_Place_PK10',
+    subPlayMenu: {
+      defaultActive: 'First5Fixed_PK10',
+    },
+  },
+  LF: {
+    defaultActive: 'Last_3_3D',
+    subPlayMenu: {
+      defaultActive: 'Last3Straight_LF',
+    },
+  },
+};
+// 彩種客製化預設玩法
+export const playMenuDefaultActive = {
+  FC3D: {
+    defaultActive: 'Last_3_3D',
+    subPlayMenu: {
+      defaultActive: 'Last3Straight_LF',
+    },
+  },
+  TCP3P5: {
+    defaultActive: 'P3_Straight_LF',
+    subPlayMenu: {
+      defaultActive: 'P3Straight_LF',
+    },
+  },
+  HK6: {
+    defaultActive: 'Special_LHC',
+    subPlayMenu: {},
+  },
+
+  // 天彩TC
+  TCSSC: {
+    defaultActive: 'Last_3',
+    subPlayMenu: {
+      defaultActive: 'Last3Straight',
+    },
+  },
+  TC11X5: {
+    defaultActive: 'First_3_11X5',
+    subPlayMenu: {
+      defaultActive: 'First3Straight_11X5',
+    },
+  },
+};
+
+export const PlayMenu = {
+  FixedPlace: 14,
+  First2Straight: 34,
+  First2Split: 36,
+  First2Join: 38,
+  First3Straight: 40,
+  First3Com: 44,
+  First3Join: 45,
+  First4Straight: 48,
+  First4Join: 49,
+  Middle3Straight: 50,
+  Middle3Com: 54,
+  Middle3Join: 55,
+  First4Straight_Single: 83,
+  First4Join_Single: 84,
+  First3Straight_Single: 87,
+  First3Join_Single: 88,
+  Middle3Straight_Single: 89,
+  Middle3Join_Single: 90,
+  First2Straight_Single: 93,
+  First2Join_Single: 94,
+
+  First2Straight_LF: 1416,
+  First2Straight_LF_Single: 112,
+  P3Straight_LF: 1430,
+  P3Straight_LF_Single: 114,
+  P3Last2Straight_LF: 1440,
+  P3Last2Straight_LF_Single: 116,
+  P3Com_LF: 1434,
+  P5First2Straight_LF: 1438,
+  P5First2Straight_LF_Single: 115,
+
+  FixedPlace_LF_FC3D: 1422,
+  FixedPlace_LF_P3P5: 1447,
+  FixedPlace_11X5: 923,
+  First5Fixed_PK10: 1462,
+  Last5Fixed_PK10: 1463,
+
+  First2BSOE: 62,
+  Last2BSOE: 63,
+  First2BSOE_LF: 1420,
+  Last2BSOE_LF_FC3D: 1421,
+  P5First2BSOE_LF: 1444,
+  P3Last2BSOE_LF: 1445,
+  Last2BSOE_LF_P3P5: 1446,
+  First5BSOE_PK10: 1467,
+  Last5BSOE_PK10: 1468,
+  First2SumBSOE_PK10: 1469,
+
+  OECounts_11X5: 916,
+
+  Dragon_Tiger_1_VS_10: 1470,
+  Dragon_Tiger_2_VS_9: 1471,
+  Dragon_Tiger_3_VS_8: 1472,
+  Dragon_Tiger_4_VS_7: 1473,
+  Dragon_Tiger_5_VS_6: 1474,
+
+  // 2017 0531 added by G 龍虎和
+  Dragon_Tiger_10T_T_SSC: 1738,
+  Dragon_Tiger_10T_H_SSC: 1739,
+  Dragon_Tiger_10T_10_SSC: 1740,
+  Dragon_Tiger_10T_1_SSC: 1741,
+  Dragon_Tiger_T_H_SSC: 1742,
+  Dragon_Tiger_T_10_SSC: 1743,
+  Dragon_Tiger_T_1_SSC: 1744,
+  Dragon_Tiger_H_10_SSC: 1745,
+  Dragon_Tiger_H_1_SSC: 1746,
+  Dragon_Tiger_10_1_SSC: 1747,
+
+  // 2017 0607 added by G 不定位新玩法
+  Last4StraightAnyCode1_SSC: 1748,   // 四星一码不定位
+  Last4StraightAnyCode2_SSC: 1749,   // 四星二码不定位
+  AllStraightAnyCode1_SSC: 1750,     // 五星一码不定位
+  AllStraightAnyCode2_SSC: 1751,     // 五星二码不定位
+  AllStraightAnyCode3_SSC: 1752,     // 五星三码不定位
+
+  // ENT
+  Combined_ENT: 1753,
+  First_ENT: 1754,
+  Second_ENT: 1764,
+  Third_ENT: 1774,
+  Fourth_ENT: 1784,
+  Fifth_ENT: 1794,
+  Two_Side_ENT: 1828,
+  Dragon_Tiger_Tie_ENT: 1841,
+  Five_Have_One_ENT: 1853,
+
+
+  Any4Com24_SSC: 174,
+  Any4Com12_SSC: 175,
+  Any4Com6_SSC: 176,
+  Any4Com4_SSC: 177,
+  Any3Sum_SSC: 178,
+  Any3Com3_SSC: 179,
+  Any3Com6_SSC: 180,
+  Any3Com_SSC: 181,
+  Any2Sum_SSC: 182,
+  Any2Com_SSC: 183,
+  Any2Com_SSC_Single: 184,
+
+  Special_Zodiac_LHC: 1691,
+  Not_Winning_Numbers_LHC: 1688,
+  Normal_FirstToSixth_LHC: 1657,
+  Normal_Special_Animal_Or_Tail_LHC: 1654,
+  Head_Tail_LHC: 1649,
+  Two_Sides_LHC: 1642,
+  Color_LHC: 1634,
+  Normal_Fixed_Place_LHC: 1622,
+  Normal_LHC: 1619,
+  Special_LHC: 1615,
+  Combine_Chinese_Zodiac: 1728,
+
+  Special_Combine_Chinese_Zodiac_LHC: 1730,
+  SpecialB_Animal_LHC: 1714,
+  SpecialA_Animal_LHC: 1713,
+  Fixed_Sixth_Color_LHC: 1712,
+  Fixed_Sixth_TOSum_OE_LHC: 1711,
+  Fixed_Sixth_BSOE_LHC: 1710,
+  Fixed_Fifth_Color_LHC: 1709,
+  Fixed_Fifth_TOSum_OE_LHC: 1708,
+  Fixed_Fifth_BSOE_LHC: 1707,
+  Fixed_Fourth_Color_LHC: 1706,
+  Fixed_Fourth_TOSum_OE_LHC: 1705,
+  Fixed_Fourth_BSOE_LHC: 1704,
+  Fixed_Third_Color_LHC: 1703,
+  Fixed_Third_TOSum_OE_LHC: 1702,
+  Fixed_Third_BSOE_LHC: 1701,
+  Fixed_Second_Color_LHC: 1700,
+  Fixed_Second_TOSum_OE_LHC: 1699,
+  Fixed_Second_BSOE_LHC: 1698,
+  Fixed_First_Color_LHC: 1697,
+  Fixed_First_TOSum_OE_LHC: 1696,
+  Fixed_First_BSOE_LHC: 1695,
+  Normal_Special_One_Zodiac_LHC: 1694,
+  Special_Zodiac_Straight_LHC: 1693,
+  Choose_Not_in_Winning_Numbers_LHC: 1690,
+  Normal_Sixth_Tail_BS_LHC: 1687,
+  Normal_Sixth_Color_LHC: 1686,
+  Normal_Sixth_TOSum_BSOE_LHC: 1685,
+  Normal_Sixth_BSOE_LHC: 1684,
+  Normal_Fifth_Tail_BS_LHC: 1683,
+  Normal_Fifth_Color_LHC: 1682,
+  Normal_Fifth_TOSum_BSOE_LHC: 1681,
+  Normal_Fifth_BSOE_LHC: 1680,
+  Normal_Fourth_Tail_BS_LHC: 1679,
+  Normal_Fourth_Color_LHC: 1678,
+  Normal_Fourth_TOSum_BSOE_LHC: 1677,
+  Normal_Fourth_BSOE_LHC: 1676,
+  Normal_Third_Tail_BS_LHC: 1675,
+  Normal_Third_Color_LHC: 1674,
+  Normal_Third_TOSum_BSOE_LHC: 1673,
+  Normal_Third_BSOE_LHC: 1672,
+  Normal_Second_Tail_BS_LHC: 1671,
+  Normal_Second_Color_LHC: 1670,
+  Normal_Second_TOSum_BSOE_LHC: 1669,
+  Normal_Second_BSOE_LHC: 1668,
+  Normal_First_Tail_BS_LHC: 1667,
+  Normal_First_Color_LHC: 1666,
+  Normal_First_TOSum_BSOE_LHC: 1665,
+  Normal_First_BSOE_LHC: 1664,
+  Normal_Special_Tail_No_LHC: 1656,
+  Normal_Total_BSOE_LHC: 1653,
+  Head_Tail_Special_LHC: 1651,
+  Two_Sides_Total_Sum_BSOE_LHC: 1648,
+  Two_Sides_Special_Animal_LHC: 1647,
+  Two_Sides_Special_TOSum_BSOE_LHC: 1646,
+  Two_Sides_Special_BS_LHC: 1645,
+  Two_Sides_Special_BSOE_LHC: 1644,
+  SpecialB_TOSum_BSOE_LHC: 1641,
+  SpecialA_TOSum_BSOE_LHC: 1640,
+  SpecialB_Tail_BS_LHC: 1639,
+  SpecialA_Tail_BS_LHC: 1638,
+  Color_BS_OE_LHC: 1637,
+  Color_BSOE_LHC: 1636,
+  Color_Straight_LHC: 1635,
+  SpecialB_BS_OE_LHC: 1633,
+  SpecialA_BS_OE_LHC: 1632,
+  SpecialB_BSOE_LHC: 1631,
+  SpecialA_BSOE_LHC: 1630,
+  Sixth_Fixed_LHC: 1628,
+  Fifth_Fixed_LHC: 1627,
+  Fourth_Fixed_LHC: 1626,
+  Third_Fixed_LHC: 1625,
+  Second_Fixed_LHC: 1624,
+  First_Fixed_LHC: 1623,
+  Normal_Straight_LHC: 1621,
+  SpecialA_Straight_LHC: 1617,
+  SpecialB_Straight_LHC: 1618,
+  Normal_Sixth_LHC: 1663,
+  Normal_Fifth_LHC: 1662,
+  Normal_Fourth_LHC: 1661,
+  Normal_Third_LHC: 1660,
+  Normal_Second_LHC: 1659,
+  Normal_First_LHC: 1658,
+  Normal_Special_One_Zodiac_Straight_LHC: 1731,
+  Normal_Special_Tail_LHC: 1655,
+  Fixed_First_Fun_LHC: 1722,
+  Fixed_Second_Fun_LHC: 1723,
+  Fixed_Third_Fun_LHC: 1724,
+  Fixed_Fourth_Fun_LHC: 1725,
+  Fixed_Fifth_Fun_LHC: 1726,
+  Fixed_Sixth_Fun_LHC: 1727,
+
+  // ENT config
+  First_Straight_ENT: 1756,
+  First_BSOE_ENT: 1758,
+  First_Total_Sum_ENT: 1759,
+  First_First3_ENT: 1761,
+  First_Middle3_ENT: 1762,
+  First_Last3_ENT: 1763,
+  Second_Straight_ENT: 1766,
+  Second_BSOE_ENT: 1768,
+  Second_Total_Sum_ENT: 1769,
+  Second_First3_ENT: 1771,
+  Second_Middle3_ENT: 1772,
+  Second_Last3_ENT: 1773,
+  Third_Straight_ENT: 1776,
+  Third_BSOE_ENT: 1778,
+  Third_Total_Sum_ENT: 1779,
+  Third_First3_ENT: 1781,
+  Third_Middle3_ENT: 1782,
+  Third_Last3_ENT: 1783,
+  Fourth_Straight_ENT: 1786,
+  Fourth_BSOE_ENT: 1788,
+  Fourth_Total_Sum_ENT: 1789,
+  Fourth_First3_ENT: 1791,
+  Fourth_Middle3_ENT: 1792,
+  Fourth_Last3_ENT: 1793,
+  Fifth_Straight_ENT: 1796,
+  Fifth_BSOE_ENT: 1798,
+  Fifth_Total_Sum_ENT: 1799,
+  Fifth_First3_ENT: 1801,
+  Fifth_Middle3_ENT: 1802,
+  Fifth_Last3_ENT: 1803,
+  Dragon_Tiger_Tie_5_4_ENT: 1843,
+  Dragon_Tiger_Tie_5_3_ENT: 1844,
+  Dragon_Tiger_Tie_5_2_ENT: 1845,
+  Dragon_Tiger_Tie_5_1_ENT: 1846,
+  Dragon_Tiger_Tie_4_3_ENT: 1847,
+  Dragon_Tiger_Tie_4_2_ENT: 1848,
+  Dragon_Tiger_Tie_4_1_ENT: 1849,
+  Dragon_Tiger_Tie_3_2_ENT: 1850,
+  Dragon_Tiger_Tie_3_1_ENT: 1851,
+  Dragon_Tiger_Tie_2_1_ENT: 1852,
+  Five_Have_One_Straight_ENT: 1855,
+  // ENT兩面
+  Two_Side_First_BSOE_ENT: 1830,
+  Two_Side_Second_BSOE_ENT: 1832,
+  Two_Side_Third_BSOE_ENT: 1834,
+  Two_Side_Fourth_BSOE_ENT: 1836,
+  Two_Side_Fifth_BSOE_ENT: 1838,
+  Two_Side_Total_Sum_BSOE_ENT: 1840,
+  // ENT整合
+  Combine_First_Straight_ENT: 1805,
+  Combine_First_BSOE_ENT: 1806,
+  Combine_Second_Straight_ENT: 1808,
+  Combine_Second_BSOE_ENT: 1809,
+  Combine_Third_Straight_ENT: 1811,
+  Combine_Third_BSOE_ENT: 1812,
+  Combine_Fourth_Straight_ENT: 1814,
+  Combine_Fourth_BSOE_ENT: 1815,
+  Combine_Fifth_Straight_ENT: 1817,
+  Combine_Fifth_BSOE_ENT: 1818,
+  Combine_First3_ENT: 1820,
+  Combine_Middle3_ENT: 1822,
+  Combine_Last3_ENT: 1824,
+  Combine_Total_Sum_ENT: 1826,
+  Combine_Dragon_Tiger_Tie_ENT: 1827,
+
+
+};
