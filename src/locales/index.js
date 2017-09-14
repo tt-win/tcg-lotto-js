@@ -14,13 +14,7 @@ const defaultLang = 'ZH_CN';
  * @param args
  * @returns {*}
  */
-
- const findDefaultI18nKey = (key, ...args) => {
-   return findByI18nKey(defaultLang,key,args);
- };
-
-const findByI18nKey = (langKey,key, ...args) => {
-  langKey = langKey ? langKey.toUpperCase().replace('-', '_') : langKey;
+const findByI18nKey = (langKey, key, ...args) => {
   const userLang = lang[langKey] ? lang[langKey] : lang[defaultLang];
   const val = _property(key)(userLang);
   if (!val) {
@@ -43,6 +37,10 @@ const findByI18nKey = (langKey,key, ...args) => {
   }
   return val;
 };
+
+const findDefaultI18nKey = (key, ...args) =>
+  findByI18nKey(defaultLang, key, args);
+
 
 export const i18n = findDefaultI18nKey;
 export default {};

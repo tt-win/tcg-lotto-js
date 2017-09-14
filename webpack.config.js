@@ -1,16 +1,10 @@
 const { resolve } = require('path');
 const NpmHtmlWebpackPlugin = require('html-webpack-plugin');
 const NpmExtractTextPlugin = require('extract-text-webpack-plugin');
-const merge = require('webpack-merge');
-const WebpackMd5Hash = require('webpack-md5-hash');
-const NpmInlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin');
 const NpmCleanWebpackPlugin = require('clean-webpack-plugin');
 
-var LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
-
-var webpack = require('webpack');
 const isDev = process.env.NODE_ENV === 'development';
-
+const webpack = require('webpack');
 
 // ----------------------------------------------------------------------------
 // plugins
@@ -48,7 +42,6 @@ const extractTextPlugin = new NpmExtractTextPlugin({
   filename: isDev ? '[name].css' : '[name].[contenthash:8].css',
 });
 
-
 const cleanWebpackPlugin = new NpmCleanWebpackPlugin(['dist'], {
   root: resolve(__dirname, '.'),
   verbose: false,
@@ -68,54 +61,45 @@ const uglifyJsPlugin = new webpack.optimize.UglifyJsPlugin({
   unused: true,
 });
 
-
-//-- plugins
-
-const vendors = [
-  'lodash',
-];
-
-
-
 module.exports = {
-    entry: {
-      bundle : ['./src/export.js'],
-    },
+  entry: {
+    bundle: ['./src/export.js'],
+  },
 
-    output: {
-        path: resolve(__dirname, 'dist'),
-        filename: 'lott-translator.js',
-        libraryTarget: 'var',
-        library: 'LottoTranslator'
-    },
+  output: {
+    path: resolve(__dirname, 'dist'),
+    filename: 'lott-translator.js',
+    libraryTarget: 'var',
+    library: 'LottoTranslator',
+  },
 
-    plugins: [
-        cleanWebpackPlugin,
-        uglifyJsPlugin,
-        loaderOptionsPlugin,
-        htmlWebpackPlugin,
-        commonsPlugin,
-        definePlugin,
-        extractTextPlugin,
-        new webpack.optimize.OccurrenceOrderPlugin(),
-        new webpack.optimize.ModuleConcatenationPlugin(),
+  plugins: [
+    cleanWebpackPlugin,
+    uglifyJsPlugin,
+    loaderOptionsPlugin,
+    htmlWebpackPlugin,
+    commonsPlugin,
+    definePlugin,
+    extractTextPlugin,
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.optimize.ModuleConcatenationPlugin(),
+  ],
+
+  module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        query: {
+          plugins: ['lodash'],
+          presets: ['es2015'],
+        },
+      },
     ],
-
-    module: {
-        loaders: [
-            {
-                test: /\.js$/,
-                loader: 'babel-loader',
-                exclude: /node_modules/,
-                query: {
-                    plugins: ['lodash'],
-                    presets: ['es2015']
-                }
-            }
-        ]
-    },
-    stats: {
-        colors: true
-    },
-    devtool: 'source-map'
+  },
+  stats: {
+    colors: true,
+  },
+  devtool: 'source-map',
 };

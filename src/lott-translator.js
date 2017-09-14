@@ -6,8 +6,6 @@ import { i18n } from './locales';
 import { orderDigitsI18n } from './configs/basic_play_menu';
 import { PlayMenu } from './configs/play_menu';
 
-
-
 // 大小單雙 i18n key
 const BALL_BSOE_KEY = ['big', 'small', 'odd', 'even'];
 
