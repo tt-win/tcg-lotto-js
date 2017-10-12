@@ -2,6 +2,7 @@ import _isNumber from 'lodash/isNumber';
 import _findIndex from 'lodash/findIndex';
 import _reverse from 'lodash/reverse';
 import _find from 'lodash/find';
+import _padStart from 'lodash/padStart';
 import { i18n } from './lang/i18n-key-finder';
 import { orderDigitsI18n } from './configs/basic_play_menu';
 import { PlayMenu } from './configs/play_menu';
@@ -694,6 +695,39 @@ export const getPlayMenuNameWithDigit = ({ playMenu, startDigit }) => {
   return `${i18n(`playId.${playId}`)}${startDigitI18n}`;
 };
 
+/**
+ * Trunc ball text for showing, shopping cart and order logs query.
+ * @param ballText
+ * @return {string}
+ */
+export const truncBallText = (ballText) => {
+  const digitsStrLength = 4;
+  const totalLength = 8;
+  const truncText = ballText
+    .substr(0, totalLength); // .replace(/ \| /g, '|')
+
+  const replacePattern = (str) => str.replace(/\|/g, ' | ');
+
+  // for manual digit trunc
+  if (ballText.indexOf('(') >= 0 && ballText.indexOf(')') >= 0) {
+    const digitsStr = ballText.substr(0, ballText.indexOf(')') + 1);
+    if (digitsStr.length > digitsStrLength) {
+      // 長度4, (萬千百...
+      return `${digitsStr.substr(0, digitsStrLength)}...`;
+    } else if (truncText.length === (digitsStrLength + 1)) {
+      // 長度5, (百十)1
+      return `${truncText.substr(0, digitsStrLength + 1)}`;
+    }
+
+    // 長度5, (百十)1...
+    return `${truncText.substr(0, digitsStrLength + 1)}...`;
+  }
+
+  if (truncText.length > (totalLength - 1)) {
+    return `${replacePattern(truncText.substr(0, totalLength - 1))}...`;
+  }
+  return replacePattern(truncText);
+};
 
 export const getPlayName = ({ playId, playCode, bettingContent }) => {
   const parameter = {
@@ -726,6 +760,43 @@ export const getPlayName = ({ playId, playCode, bettingContent }) => {
   }
 
   return getPlayMenuNameWithDigit(parameter);
+};
+
+/**
+ * 產生 投注記錄 / 訂單編號 欄位的顯示內容
+ *
+ * @param orderNumber 原始訂單編號
+ * @param chasing 是否有追號
+ * @param chasingOrder 追的第幾期
+ *
+ * @returns {string} 投注記錄 / 訂單編號 欄位的顯示內容
+ */
+export const genOrderNumberText = ({ orderNumber = '', chasing = false, chasingOrder = 0 }) => {
+  const orderNoText = orderNumber.slice(-6);
+  if (chasing) {
+    const chaseOrdText = _padStart(chasingOrder, 3, '0');
+    return `${orderNoText}-${chaseOrdText}`;
+  }
+  return orderNoText;
+};
+
+/**
+ * 產生 投注記錄 / 追號 欄位的顯示內容
+ *
+ * @param chasing 是否有追號
+ * @param chasingOrder 追的第幾期
+ * @param chasingPhase 追幾期
+ *
+ * @returns {string} 投注記錄 / 追號 欄位的顯示內容
+ */
+export const genChasingOrderText = ({ chasing, chasingOrder, chasingPhase }) => {
+  if (chasing) {
+    if (chasingOrder === 1) { // 第一期
+      return i18n('chasingPhaseAmount', chasingPhase);
+    }
+    return i18n('chasingChildOrder');
+  }
+  return '-';
 };
 
 /**
