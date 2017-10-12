@@ -63,14 +63,15 @@ const uglifyJsPlugin = new webpack.optimize.UglifyJsPlugin({
 
 module.exports = {
   entry: {
-    bundle: ['./src/i18n/lott-translator-export.js'],
+    lottTranslator: ['./src/i18n/lott-translator-export.js'],
+    bettingCompress: ['./src/compress/export.js'],
   },
 
   output: {
     path: resolve(__dirname, 'dist'),
-    filename: 'lott-translator.js',
+    filename: '[name].js',
     libraryTarget: 'var',
-    library: 'LottoTranslator',
+    library: '[name]',
   },
 
   plugins: [
