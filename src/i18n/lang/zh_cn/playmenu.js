@@ -453,6 +453,16 @@ const playMenu = {
   playKey: {
     ...lhcPlayKey,
     // 下面開始是娛樂城的，總和大小單雙上面有就不新增了
+    zero: '0',
+    one: '1',
+    two: '2',
+    three: '3',
+    four: '4',
+    five: '5',
+    six: '6',
+    seven: '7',
+    eight: '8',
+    nine: '9',
     big: '大',
     small: '小',
     odd: '单',
