@@ -814,3 +814,10 @@ export const genBallContentText = ({ playId, bettingContent }) => {
   }
   return bettingContent;
 };
+
+
+export default {
+  getPlayMenuNameWithDigit,
+  getPlayName,
+  genBallContentText,
+};
