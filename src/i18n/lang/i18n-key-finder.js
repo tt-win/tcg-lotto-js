@@ -43,4 +43,5 @@ const findDefaultI18nKey = (key, ...args) =>
 
 
 export const i18n = findDefaultI18nKey;
+export const i18n3 = findByI18nKey;
 export default {};
