@@ -820,4 +820,5 @@ export default {
   getPlayMenuNameWithDigit,
   getPlayName,
   genBallContentText,
+  i18n:i18n,
 };

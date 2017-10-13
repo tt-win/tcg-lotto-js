@@ -1,9 +1,20 @@
 // ==================== 娛樂城PlayMenu ====================
-const ARR_STRAIGHT = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+const chreateNumberArray = (firstNum, length) => {
+  const arr = [];
+  for (let i = 0; i < length; i += 1) {
+    arr.push(`${firstNum + i}`);
+  }
+  return arr;
+};
+
+const ARR_STRAIGHT = chreateNumberArray(0, 10);
 const ARR_BSOE = ['大', '小', '单', '双'];
 const ARR_TOTALSUM = ['大', '小', '单', '双'];
 const ARR_SPECIAL = ['豹子', '顺子', '对子', '杂六', '半顺'];
 const ARR_DRAGON = ['虎', '龙', '和'];
+const ARR_PK10_STRAIGHT = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10'];
+const ARR_TWO_SUM = chreateNumberArray(3, 17);
+const ARR_THREE_SUM = chreateNumberArray(6, 22);
 const createObj = (playId, type) => {
   const obj = {};
   let item = [];
@@ -23,6 +34,15 @@ const createObj = (playId, type) => {
     case 'dragon':
       item = [].concat(ARR_DRAGON);
       break;
+    case 'pk10Straight':
+      item = [].concat(ARR_PK10_STRAIGHT);
+      break;
+    case 'twoSum':
+      item = [].concat(ARR_TWO_SUM);
+      break;
+    case 'threeSum':
+      item = [].concat(ARR_THREE_SUM);
+      break;
     default:
       break;
   }
@@ -32,6 +52,7 @@ const createObj = (playId, type) => {
   return obj;
 };
 
+// ======================= SSC =======================
 // 第一球
 const firstStraightENT = createObj(1756, 'straight');
 const firstBSOEENT = createObj(1758, 'bsoe');
@@ -111,8 +132,57 @@ const combineLast3ENT = createObj(1824, 'special');
 const combineTotalSumENT = createObj(1826, 'totalsum');
 // 龍虎鬥
 const combineDragonENT = createObj(1827, 'dragon');
+// ======================= SSC =======================
 
-const entertainmentPlayMenu = {
+// ====================== PK10 =======================
+// 兩面-冠亞和
+const PK10TwoSideFirst2SumBSOE = createObj(1858, 'bsoe');
+// 兩面-冠軍
+const PK10TwoSideFirstPlaceBSOE = createObj(1860, 'bsoe');
+const PK10TwoSideFirstPlaceDragonENT = createObj(1861, 'dragon');
+// 兩面-亞軍
+const PK10TwoSideSecondPlaceBSOE = createObj(1863, 'bsoe');
+const PK10TwoSideSecondPlaceDragonENT = createObj(1864, 'dragon');
+// 兩面-季军
+const PK10TwoSideThirdPlaceBSOE = createObj(1866, 'bsoe');
+const PK10TwoSideThirdPlaceDragonENT = createObj(1867, 'dragon');
+// 兩面-第四名
+const PK10TwoSideFourthPlaceBSOE = createObj(1869, 'bsoe');
+const PK10TwoSideFourthPlaceDragonENT = createObj(1870, 'dragon');
+// 兩面-第五名
+const PK10TwoSideFifthPlaceBSOE = createObj(1872, 'bsoe');
+const PK10TwoSideFifthPlaceDragonENT = createObj(1873, 'dragon');
+// 兩面-第六名 ~ 第十名
+const PK10TwoSideSixthPlaceBSOE = createObj(1875, 'bsoe');
+const PK10TwoSideSeventhPlaceBSOE = createObj(1877, 'bsoe');
+const PK10TwoSideEighthPlaceBSOE = createObj(1879, 'bsoe');
+const PK10TwoSideNinthPlaceBSOE = createObj(1881, 'bsoe');
+const PK10TwoSideTenthPlaceBSOE = createObj(1883, 'bsoe');
+// 第1-10名
+const PK10FixedPlaceFirst = createObj(1889, 'pk10Straight');
+const PK10FixedPlaceSecond = createObj(1890, 'pk10Straight');
+const PK10FixedPlaceThird = createObj(1891, 'pk10Straight');
+const PK10FixedPlaceFourth = createObj(1892, 'pk10Straight');
+const PK10FixedPlaceFifth = createObj(1893, 'pk10Straight');
+const PK10FixedPlaceSixth = createObj(1894, 'pk10Straight');
+const PK10FixedPlaceSeventh = createObj(1895, 'pk10Straight');
+const PK10FixedPlaceEighth = createObj(1896, 'pk10Straight');
+const PK10FixedPlaceNinth = createObj(1897, 'pk10Straight');
+const PK10FixedPlaceTenth = createObj(1898, 'pk10Straight');
+// 龍虎鬥
+const PK10Dragon1VS10 = createObj(1900, 'dragon');
+const PK10Dragon2VS9 = createObj(1901, 'dragon');
+const PK10Dragon3VS8 = createObj(1902, 'dragon');
+const PK10Dragon4VS7 = createObj(1903, 'dragon');
+const PK10Dragon5VS6 = createObj(1904, 'dragon');
+// 猜和值
+const PK10First2Sum = createObj(1885, 'twoSum');
+const PK10First3Sum = createObj(1886, 'threeSum');
+const PK10FirstLastSum = createObj(1887, 'twoSum');
+// ====================== PK10 =======================
+
+const EntPlayMenu = {
+  // ======================= SSC =======================
   // 第一球
   ...firstStraightENT,
   ...firstBSOEENT,
@@ -184,7 +254,43 @@ const entertainmentPlayMenu = {
   ...combineLast3ENT,
   ...combineTotalSumENT,
   ...combineDragonENT,
+  // ====================== PK10 =======================
+  ...PK10TwoSideFirstPlaceBSOE,
+  ...PK10TwoSideFirstPlaceDragonENT,
+  ...PK10TwoSideFirst2SumBSOE,
+  ...PK10TwoSideSecondPlaceBSOE,
+  ...PK10TwoSideSecondPlaceDragonENT,
+  ...PK10TwoSideThirdPlaceBSOE,
+  ...PK10TwoSideThirdPlaceDragonENT,
+  ...PK10TwoSideFourthPlaceBSOE,
+  ...PK10TwoSideFourthPlaceDragonENT,
+  ...PK10TwoSideFifthPlaceBSOE,
+  ...PK10TwoSideFifthPlaceDragonENT,
+  ...PK10TwoSideSixthPlaceBSOE,
+  ...PK10TwoSideSeventhPlaceBSOE,
+  ...PK10TwoSideEighthPlaceBSOE,
+  ...PK10TwoSideNinthPlaceBSOE,
+  ...PK10TwoSideTenthPlaceBSOE,
+  ...PK10First2Sum,
+  ...PK10First3Sum,
+  ...PK10FirstLastSum,
+  ...PK10FixedPlaceFirst,
+  ...PK10FixedPlaceSecond,
+  ...PK10FixedPlaceThird,
+  ...PK10FixedPlaceFourth,
+  ...PK10FixedPlaceFifth,
+  ...PK10FixedPlaceSixth,
+  ...PK10FixedPlaceSeventh,
+  ...PK10FixedPlaceEighth,
+  ...PK10FixedPlaceNinth,
+  ...PK10FixedPlaceTenth,
+  ...PK10FixedPlaceFifth,
+  ...PK10Dragon1VS10,
+  ...PK10Dragon2VS9,
+  ...PK10Dragon3VS8,
+  ...PK10Dragon4VS7,
+  ...PK10Dragon5VS6,
 };
 
-export default entertainmentPlayMenu;
+export default EntPlayMenu;
 // ==================== 娛樂城PlayMenu ====================

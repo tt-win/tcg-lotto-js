@@ -1,4 +1,5 @@
 import playMenu from './playmenu';
+import baseGame from './baseGame';
 
 const LANG = {
   ...playMenu,
@@ -275,6 +276,7 @@ const LANG = {
     P_GENERAL_TIE: '和',
     P_ODD_EVEN: '单双',
   },
+  ...baseGame,
 };
 
 export default LANG;
