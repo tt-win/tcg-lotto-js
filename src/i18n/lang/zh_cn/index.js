@@ -742,7 +742,7 @@ const LANG = {
     odd: '奇',
     even: '偶',
     clear: '清',
-  }
+  },
 
   /* road map */
   roadMap: {
