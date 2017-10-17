@@ -734,6 +734,16 @@ const LANG = {
   Dragon_Tiger_4_VS_7_PK10: '第四名vs第七名',
   Dragon_Tiger_5_VS_6_PK10: '第五名vs第六名',
 
+  // 全大小奇偶清
+  pickRow: {
+    all: '全',
+    big: '大',
+    small: '小',
+    odd: '奇',
+    even: '偶',
+    clear: '清',
+  }
+
   /* road map */
   roadMap: {
     /* tab */
