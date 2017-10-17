@@ -200,6 +200,10 @@ const LANG = {
     orderStatus_12: '空开撤单',
     orderStatus_16: '和局',
   },
+  shoppingCart: {
+    show: '查看购物车',
+    addItem: '放购物车',
+  },
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩种已关闭',
     LGS_BETTING_GAME_FESTIVAL_ERROR: '投注彩种已关闭',
