@@ -1,7 +1,7 @@
 import _property from 'lodash/property';
 import ZH_CN from './zh_cn';
 
-const lang = {
+export const lang = {
   ZH_CN,
 };
 

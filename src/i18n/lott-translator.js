@@ -3,7 +3,7 @@ import _findIndex from 'lodash/findIndex';
 import _reverse from 'lodash/reverse';
 import _find from 'lodash/find';
 import _padStart from 'lodash/padStart';
-import { i18n,i18n3 } from './lang/i18n-key-finder';
+import { i18n,i18n3,lang } from './lang/i18n-key-finder';
 import { orderDigitsI18n } from './configs/basic_play_menu';
 import { PlayMenu } from './configs/play_menu';
 
@@ -821,4 +821,5 @@ export default {
   getPlayName,
   genBallContentText,
   i18n:i18n3,
+  lang
 };
