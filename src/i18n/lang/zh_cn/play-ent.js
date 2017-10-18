@@ -46,9 +46,17 @@ const createObj = (playId, type) => {
     default:
       break;
   }
-  item.forEach((data, betContent) => {
-    obj[`${playId}_${betContent}`] = data;
-  });
+  if (type === 'pk10Straight' ||
+    type === 'twoSum' ||
+    type === 'threeSum') {
+    item.forEach((data) => {
+      obj[`${playId}_${data}`] = data;
+    });
+  } else {
+    item.forEach((data, betContent) => {
+      obj[`${playId}_${betContent}`] = data;
+    });
+  }
   return obj;
 };
 
