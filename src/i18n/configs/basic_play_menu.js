@@ -1,4 +1,6 @@
 /**
+ * original file name : play_menu_config.js & order_i18n_config.js
+ *
  * 定義所有與 order 有關的多語系對應
  */
 
@@ -400,6 +402,36 @@ export const PlayMenu = {
   Combine_Last3_ENT: 1824,
   Combine_Total_Sum_ENT: 1826,
   Combine_Dragon_Tiger_Tie_ENT: 1827,
-
+  // ENT PK10
+  Two_Side_PK10: 1856,
+  Sum_PK10: 1884,
+  First2Sum_PK10: 1885,
+  First3Sum_PK10: 1886,
+  FirstLastSum_PK10: 1887,
+  Fixed_Place_PK10: 1888,
+  Dragon_Tiger_PK10: 1899,
+  // ENT PK10 兩面玩法 (Key與傳統重複..有另外改)
+  Two_Side_First2SumBSOE_PK10: 1858,
+  Two_Side_FirstPlace_PK10: 1860,
+  Two_Side_FirstPlace_Dragon_PK10: 1861,
+  Two_Side_SecondPlace_PK10: 1863,
+  Two_Side_SecondPlace_Dragon_PK10: 1864,
+  Two_Side_ThirdPlace_PK10: 1866,
+  Two_Side_ThirdPlace_Dragon_PK10: 1867,
+  Two_Side_FourthPlace_PK10: 1869,
+  Two_Side_FourthPlace_Dragon_PK10: 1870,
+  Two_Side_FifthPlace_PK10: 1872,
+  Two_Side_FifthPlace_Dragon_PK10: 1873,
+  Two_Side_SixthPlace_PK10: 1875,
+  Two_Side_SeventhPlace_PK10: 1877,
+  Two_Side_EighthPlace_PK10: 1879,
+  Two_Side_NinthPlace_PK10: 1881,
+  Two_Side_TenthPlace_PK10: 1883,
+  // ENT PK10 龍虎鬥
+  Dragon_Tiger_1_VS_10_PK10: 1900,
+  Dragon_Tiger_2_VS_9_PK10: 1901,
+  Dragon_Tiger_3_VS_8_PK10: 1902,
+  Dragon_Tiger_4_VS_7_PK10: 1903,
+  Dragon_Tiger_5_VS_6_PK10: 1904,
 
 };
