@@ -542,15 +542,10 @@ const ballContentSpecialDisplayType = {
       // PK10
       PlayMenu.Two_Side_First2SumBSOE_PK10,
       PlayMenu.Two_Side_FirstPlace_PK10,
-      PlayMenu.Two_Side_FirstPlace_Dragon_PK10,
       PlayMenu.Two_Side_SecondPlace_PK10,
-      PlayMenu.Two_Side_SecondPlace_Dragon_PK10,
       PlayMenu.Two_Side_ThirdPlace_PK10,
-      PlayMenu.Two_Side_ThirdPlace_Dragon_PK10,
       PlayMenu.Two_Side_FourthPlace_PK10,
-      PlayMenu.Two_Side_FourthPlace_Dragon_PK10,
       PlayMenu.Two_Side_FifthPlace_PK10,
-      PlayMenu.Two_Side_FifthPlace_Dragon_PK10,
       PlayMenu.Two_Side_SixthPlace_PK10,
       PlayMenu.Two_Side_SeventhPlace_PK10,
       PlayMenu.Two_Side_EighthPlace_PK10,
@@ -574,6 +569,11 @@ const ballContentSpecialDisplayType = {
       PlayMenu.Dragon_Tiger_3_VS_8_PK10,
       PlayMenu.Dragon_Tiger_4_VS_7_PK10,
       PlayMenu.Dragon_Tiger_5_VS_6_PK10,
+      PlayMenu.Two_Side_FirstPlace_Dragon_PK10,
+      PlayMenu.Two_Side_SecondPlace_Dragon_PK10,
+      PlayMenu.Two_Side_ThirdPlace_Dragon_PK10,
+      PlayMenu.Two_Side_FourthPlace_Dragon_PK10,
+      PlayMenu.Two_Side_FifthPlace_Dragon_PK10,
     ],
     getText: (content) => i18n(`ball.dragonTiger.${content === '1' ? 'dragon' : 'tiger'}`),
   },
@@ -830,7 +830,7 @@ export const genChasingOrderText = ({ chasing, chasingOrder, chasingPhase }) => 
  *
  * @returns {string} 訂單詳情 / 投注內容 欄位的顯示內容
  */
-export const genBallContentText = ({ playId, bettingContent }) => {
+export const i18nOrderInfo = ({ playId, bettingContent }) => {
   const displayType = _find(ballContentSpecialDisplayType, (type) => (type.items.indexOf(playId) > -1));
   if (displayType) {
     return displayType.getText(bettingContent.replace(/,/g, ''));
@@ -838,11 +838,12 @@ export const genBallContentText = ({ playId, bettingContent }) => {
   return bettingContent;
 };
 
-
+/** genBallContentText , old name used by ods console */
 export default {
   getPlayMenuNameWithDigit,
   getPlayName,
-  genBallContentText,
+  i18nOrderInfo,
+  genBallContentText: i18nOrderInfo,
   i18n,
   lang,
 };
