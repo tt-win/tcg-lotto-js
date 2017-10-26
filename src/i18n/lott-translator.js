@@ -843,6 +843,8 @@ export default {
   getPlayMenuNameWithDigit,
   getPlayName,
   i18nOrderInfo,
+  genOrderNumberText,
+  genChasingOrderText,
   genBallContentText: i18nOrderInfo,
   i18n,
   lang,
