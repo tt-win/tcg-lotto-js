@@ -2,7 +2,7 @@
  base game i18n setting
  */
 
-const baseGame = {
+const BaseGame = {
   baseGame: {
     gameCode: {
       FFC: '天成分分彩',
@@ -15,4 +15,4 @@ const baseGame = {
   },
 };
 
-export default baseGame;
+export default BaseGame;

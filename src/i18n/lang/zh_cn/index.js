@@ -1,8 +1,8 @@
-import playMenu from './playMenu';
-import baseGame from './baseGame';
+import PlayMenu from './playmenu';
+import BaseGame from './base-game';
 
 const LANG = {
-  ...playMenu,
+  ...PlayMenu,
   prizeMode: {
     Tradition: '传统',
     ZY: '智贏',
@@ -906,7 +906,7 @@ const LANG = {
     P_GENERAL_TIE: '和',
     P_ODD_EVEN: '单双',
   },
-  ...baseGame,
+  ...BaseGame,
 };
 
 export default LANG;

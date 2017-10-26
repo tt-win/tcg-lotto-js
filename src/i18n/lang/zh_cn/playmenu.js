@@ -4,7 +4,7 @@ import entertainmentPlayMenu from './play-ent';
 import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
 import playRemark from './playRemark';
 
-const playMenu = {
+const PlayMenu = {
   playId: {
     1: '一星',
     2: '后二',
@@ -564,4 +564,4 @@ const playMenu = {
   },
 };
 
-export default playMenu;
+export default PlayMenu;
