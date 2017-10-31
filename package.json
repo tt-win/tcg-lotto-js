@@ -45,8 +45,8 @@
     "webpack-dev-server": "2.7.1",
     "webpack-md5-hash": "^0.0.5",
     "webpack-merge": "4.1.0",
-    "lodash-webpack-plugin":"0.11.4",
-    "babel-plugin-lodash":"3.2.11"
+    "lodash-webpack-plugin": "0.11.4",
+    "babel-plugin-lodash": "3.2.11"
   },
   "dependencies": {
     "pako": "^1.0.4",
