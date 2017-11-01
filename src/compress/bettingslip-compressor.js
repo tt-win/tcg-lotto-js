@@ -27,7 +27,7 @@ const generateEncodedSlip = (originalSlip) => {
   const bettingContent = originalSlip.split('~')[0].replace(/^\{.*"/, '');
   return {
     bettingContentAsBytes: encodedBettingContent(bettingContent),
-    briefBettingSlip: originalSlip.replace(/:".*?~/, ''),
+    briefBettingSlip: originalSlip.replace(/.*?~/, '~'),
   };
 };
 
