@@ -1,4 +1,4 @@
-import * as Compress from './compress/export';
+import * as Compress from './compress/index';
 
 const Components = { Compress };
 
