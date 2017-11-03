@@ -84,6 +84,13 @@ const LANG = {
     pk10_tenth: '（第十名）',
   },
   betMode: {
+    1: '元',
+    2: '角',
+    3: '分',
+    4: '厘',
+    Thousand: '千',
+    Hundred: '百',
+    Ten: '十',
     Dollar: '元',
     Dime: '角',
     Cent: '分',
