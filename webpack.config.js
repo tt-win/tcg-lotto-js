@@ -67,6 +67,13 @@ module.exports = {
     bettingCompress: ['./src/compress/export.js'],
   },
 
+  resolve: {
+    alias: {
+      'lott-js': resolve(__dirname, './src/index'),
+    },
+    extensions: ['.js', '.jsx'],
+  },
+
   output: {
     path: resolve(__dirname, 'dist'),
     filename: '[name].js',
