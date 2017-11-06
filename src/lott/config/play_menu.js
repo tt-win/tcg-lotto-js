@@ -1,7 +1,7 @@
+
 /**
- * Original : play_menu_config.js
+ * Not Used
  * */
-// 彩種組預設玩法
 export const groupCodeDefaultActive = {
   SSC: {
     defaultActive: 'Last_3',
@@ -28,7 +28,10 @@ export const groupCodeDefaultActive = {
     },
   },
 };
-// 彩種客製化預設玩法
+
+/**
+ * Not Used
+ * */
 export const playMenuDefaultActive = {
   FC3D: {
     defaultActive: 'Last_3_3D',
@@ -46,18 +49,81 @@ export const playMenuDefaultActive = {
     defaultActive: 'Special_LHC',
     subPlayMenu: {},
   },
+};
 
-  // 天彩TC
-  TCSSC: {
-    defaultActive: 'Last_3',
-    subPlayMenu: {
-      defaultActive: 'Last3Straight',
+/**
+ * H5 Used
+ * */
+export const defaultActivePlayMenu = {
+  trad: {
+    group: {
+      SSC: {
+        active: 'Last_3',
+        subPlayMenu: {
+          active: 'Last3Straight',
+        },
+      },
+      '11X5': {
+        active: 'First_3_11X5',
+        subPlayMenu: {
+          active: 'First3Straight_11X5',
+        },
+      },
+      PK10: {
+        active: 'Fixed_Place_PK10',
+        subPlayMenu: {
+          active: 'First5Fixed_PK10',
+        },
+      },
+      LF: {
+        active: 'Last_3_3D',
+        subPlayMenu: {
+          active: 'Last3Straight_LF',
+        },
+      },
+    },
+    specific: {
+      FC3D: {
+        active: 'Last_3_3D',
+        subPlayMenu: {
+          active: 'Last3Straight_LF',
+        },
+      },
+      TCP3P5: {
+        active: 'P3_Straight_LF',
+        subPlayMenu: {
+          active: 'P3Straight_LF',
+        },
+      },
+      // 天彩TC
+      TCSSC: {
+        active: 'Last_3',
+        subPlayMenu: {
+          active: 'Last3Straight',
+        },
+      },
+      TC11X5: {
+        active: 'First_3_11X5',
+        subPlayMenu: {
+          active: 'First3Straight_11X5',
+        },
+      },
     },
   },
-  TC11X5: {
-    defaultActive: 'First_3_11X5',
-    subPlayMenu: {
-      defaultActive: 'First3Straight_11X5',
+  ent: {
+    group: {
+      SSC: {
+        active: 'Combined_ENT',
+      },
+      PK10: {
+        active: 'Two_Side_PK10',
+      },
+    },
+    specific: {
+      // 六合彩預設是娛樂城
+      HK6: {
+        active: 'Special_LHC',
+      },
     },
   },
 };
@@ -172,7 +238,7 @@ export const PlayMenu = {
   Normal_Fixed_Place_LHC: 1622,
   Normal_LHC: 1619,
   Special_LHC: 1615,
-  Combine_Chinese_Zodiac: 1728,
+  Special_Combine_Zodiac_LHC: 1728,
 
   Special_Combine_Chinese_Zodiac_LHC: 1730,
   SpecialB_Animal_LHC: 1714,
