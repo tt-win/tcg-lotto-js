@@ -232,6 +232,7 @@ const LANG = {
     CANCEL_CHASE_ORDER_IS_NOT_LAST_START: '追号单需从最后一期开始撤单',
     ORDER_IS_CANCELED: '该订单已经撤单',
     'account.balance.not.enough': '中心钱包余额不足',
+    ACCOUNT_BALANCE_NOT_ENOUGH: '中心钱包余额不足',
     UNKNOWN_ERROR: '系统错误',
     CONNECTION_ERROR_: '所在地区网速延迟，请稍后再试或与客服联系，谢谢！',
     CUSTOMER_LOGOUT_: '您还没有登录，请先登录！',
