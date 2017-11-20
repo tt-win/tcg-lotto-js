@@ -82,33 +82,34 @@ export const defaultActivePlayMenu = {
         },
       },
     },
-    specific: {
-      FC3D: {
+    endsWith: {
+      '3D': {
         active: 'Last_3_3D',
         subPlayMenu: {
           active: 'Last3Straight_LF',
         },
       },
-      TCP3P5: {
+      P5: {
         active: 'P3_Straight_LF',
         subPlayMenu: {
           active: 'P3Straight_LF',
         },
       },
-      // 天彩TC
-      TCSSC: {
-        active: 'Last_3',
-        subPlayMenu: {
-          active: 'Last3Straight',
-        },
-      },
-      TC11X5: {
-        active: 'First_3_11X5',
-        subPlayMenu: {
-          active: 'First3Straight_11X5',
-        },
-      },
     },
+    // specific: {
+    //   FC3D: {
+    //     active: 'Last_3_3D',
+    //     subPlayMenu: {
+    //       active: 'Last3Straight_LF',
+    //     },
+    //   },
+    //   TCP3P5: {
+    //     active: 'P3_Straight_LF',
+    //     subPlayMenu: {
+    //       active: 'P3Straight_LF',
+    //     },
+    //   },
+    // },
   },
   ent: {
     group: {
@@ -118,10 +119,7 @@ export const defaultActivePlayMenu = {
       PK10: {
         active: 'Two_Side_PK10',
       },
-    },
-    specific: {
-      // 六合彩預設是娛樂城
-      HK6: {
+      LHC: {
         active: 'Special_LHC',
       },
     },
