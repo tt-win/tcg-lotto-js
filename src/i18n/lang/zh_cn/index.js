@@ -236,6 +236,7 @@ const LANG = {
     ORDER_IS_CANCELED: '该订单已经撤单',
     'account.balance.not.enough': '中心钱包余额不足',
     ACCOUNT_BALANCE_NOT_ENOUGH: '中心钱包余额不足',
+    ACCOUNT_TRANSFER_EXCEED_MIN: '转帐金额小于最低可转账金额',
     UNKNOWN_ERROR: '系统错误',
     CONNECTION_ERROR_: '所在地区网速延迟，请稍后再试或与客服联系，谢谢！',
     CUSTOMER_LOGOUT_: '您还没有登录，请先登录！',
