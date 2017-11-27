@@ -2,6 +2,7 @@
 // 娛樂城的playMenu拉出去做
 import entertainmentPlayMenu from './play-ent';
 import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
+import { lc28PlayKey } from './play-lc28';
 import playRemark from './playRemark';
 
 const PlayMenu = {
@@ -452,6 +453,7 @@ const PlayMenu = {
   },
   playKey: {
     ...lhcPlayKey,
+    ...lk28PlayKey,
     // 下面開始是娛樂城的，總和大小單雙上面有就不新增了
     zero: '0',
     one: '1',
