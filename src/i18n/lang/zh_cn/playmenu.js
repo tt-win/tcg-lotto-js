@@ -2,7 +2,7 @@
 // 娛樂城的playMenu拉出去做
 import entertainmentPlayMenu from './play-ent';
 import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
-import { lc28PlayKey } from './play-lc28';
+import { lk28PlayKey } from './play-lk28';
 import playRemark from './playRemark';
 
 const PlayMenu = {
