@@ -122,6 +122,9 @@ export const defaultActivePlayMenu = {
       LHC: {
         active: 'Special_LHC',
       },
+      PCB: {
+        active: 'Combined_PCB',
+      },
     },
   },
 };
@@ -425,5 +428,9 @@ export const PlayMenu = {
   Dragon_Tiger_3_VS_8_PK10: 1902,
   Dragon_Tiger_4_VS_7_PK10: 1903,
   Dragon_Tiger_5_VS_6_PK10: 1904,
+  // 幸運28
+  Combined_PCB: 1905,
+  Special_PCB: 1906,
+  Two_Side_PCB: 1908,
 };
 
