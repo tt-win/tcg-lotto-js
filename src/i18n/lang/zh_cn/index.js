@@ -241,6 +241,7 @@ const LANG = {
     CONNECTION_ERROR_: '所在地区网速延迟，请稍后再试或与客服联系，谢谢！',
     CUSTOMER_LOGOUT_: '您还没有登录，请先登录！',
     DRAW_FAIL_ERROR_: '系统繁忙，投注失败！',
+    NOT_SUPPORT_LANDSCAPE : '不支持横屏',
   },
   chasingStatus: {
     All: '全部',
