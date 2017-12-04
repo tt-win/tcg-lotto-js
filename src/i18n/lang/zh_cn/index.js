@@ -787,6 +787,8 @@ const LANG = {
     sumOneTwo: '冠亚和值',
     sumOneTwoOddEven: '冠亚和单双',
     sumOneTwoBigSmall: '冠亚和大小',
+    // 幸運28
+    special: '特码',
   },
 
   entPicture: {
