@@ -818,7 +818,8 @@ const LANG = {
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
   // mobile
   userAmount: '帐户余额',
-  alreadyChoose: '已选%@组',
+  alreadyChoose: '已选',
+  stack: '组',
   info: '说明',
   helper: '助手',
   chooseMode: '选择模式',
