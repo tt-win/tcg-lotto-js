@@ -241,6 +241,7 @@ const LANG = {
     CONNECTION_ERROR_: '所在地区网速延迟，请稍后再试或与客服联系，谢谢！',
     CUSTOMER_LOGOUT_: '您还没有登录，请先登录！',
     DRAW_FAIL_ERROR_: '系统繁忙，投注失败！',
+    NOT_SUPPORT_LANDSCAPE : '不支持横屏',
   },
   chasingStatus: {
     All: '全部',
@@ -698,6 +699,7 @@ const LANG = {
   times: '次数',
   types: '分类',
   sum: '总和',
+  sumValue: '和值',
   firstBall: '第一球',
   secondBall: '第二球',
   thirdBall: '第三球',
@@ -706,6 +708,8 @@ const LANG = {
   first3: '前三',
   middle3: '中三',
   last3: '后三',
+  twoSide: '两面',
+  pastime: '趣味',
   Dragon_Tiger_Tie_5_4_ENT: '第一球vs第二球',
   Dragon_Tiger_Tie_5_3_ENT: '第一球vs第三球',
   Dragon_Tiger_Tie_5_2_ENT: '第一球vs第四球',
@@ -787,6 +791,8 @@ const LANG = {
     sumOneTwo: '冠亚和值',
     sumOneTwoOddEven: '冠亚和单双',
     sumOneTwoBigSmall: '冠亚和大小',
+    // 幸運28
+    special: '特码',
   },
 
   entPicture: {
