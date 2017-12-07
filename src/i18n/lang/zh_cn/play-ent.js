@@ -228,7 +228,7 @@ const Special_Extremum_BS_PCB =  createObj(1911, 'extremum');
 //色波
 const Color_PCB =  createObj(1913, 'color');
 //豹子
-const Boazi_PCB =  createObj(1914, 'ARR_SPECIAL');
+const Boazi_PCB =  createObj(1914, 'special');
 // ======================= PCB =======================
 
 const EntPlayMenu = {
