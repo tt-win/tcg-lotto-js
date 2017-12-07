@@ -15,6 +15,10 @@ const ARR_DRAGON = ['虎', '龙', '和'];
 const ARR_PK10_STRAIGHT = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10'];
 const ARR_TWO_SUM = chreateNumberArray(3, 17);
 const ARR_THREE_SUM = chreateNumberArray(6, 22);
+
+const ARR_SPECIAL_SUM = chreateNumberArray(0, 27);
+const ARR_Extremum = ['极大', '极小' ];
+const ARR_Color = ['', '红', '蓝', '绿' ];
 const createObj = (playId, type) => {
   const obj = {};
   let item = [];
@@ -43,6 +47,14 @@ const createObj = (playId, type) => {
     case 'threeSum':
       item = [].concat(ARR_THREE_SUM);
       break;
+    case 'spcialSum':
+      item = [].concat(ARR_SPECIAL_SUM);
+      break;
+    case 'extremum':
+        item = [].concat(ARR_Extremum);
+    case 'color':
+        item = [].concat(ARR_Color);
+        break;
     default:
       break;
   }
@@ -189,6 +201,21 @@ const PK10First3Sum = createObj(1886, 'threeSum');
 const PK10FirstLastSum = createObj(1887, 'twoSum');
 // ====================== PK10 =======================
 
+// ======================= PCB =======================
+//和值
+const SpecialSum_PCB =  createObj(1907, 'spcialSum');
+//大小單雙
+const SpecialBSOE_PCB =  createObj(1909, 'bsoe');
+//組合大小單雙
+const Special_BS_OE_PCB =  createObj(1910, 'bsoe');
+//極值
+const Special_Extremum_BS_PCB =  createObj(1911, 'extremum');
+//色波
+const Color_PCB =  createObj(1913, 'color');
+//豹子
+const Boazi_PCB =  createObj(1914, 'ARR_SPECIAL');
+// ======================= PCB =======================
+
 const EntPlayMenu = {
   // ======================= SSC =======================
   // 第一球
@@ -298,6 +325,13 @@ const EntPlayMenu = {
   ...PK10Dragon3VS8,
   ...PK10Dragon4VS7,
   ...PK10Dragon5VS6,
+  // ====================== PCB =======================
+  ...SpecialSum_PCB,
+  ...SpecialBSOE_PCB,
+  ...Special_BS_OE_PCB,
+  ...Special_Extremum_BS_PCB ,
+  ...Color_PCB ,
+  ...Boazi_PCB ,
 };
 
 export default EntPlayMenu;
