@@ -612,6 +612,7 @@ const LANG = {
   autoTransferTip: '您的彩票余额不足，请问您是否选择从您的中心钱包余额中扣除 %@ ？',
   transferFailed: '转账失败',
   transferTimeout: '转账超时',
+  betStakeOverLimit: '该玩法可投上限为%@注，请重新下注！谢谢',
   drawAnnouncement: '开奖公告',
   today: '今天',
   yesterday: '昨天',
