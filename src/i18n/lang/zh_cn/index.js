@@ -143,6 +143,7 @@ const LANG = {
     LF: '低频彩',
     PK10: 'PK10',
     LHC: '六合彩',
+    TC: '视频彩',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
