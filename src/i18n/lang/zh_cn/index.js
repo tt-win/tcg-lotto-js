@@ -377,6 +377,10 @@ const LANG = {
     sumOddEven: '合单双',
     sumBigSmall: '合大小',
     bigSmallTail: '大小尾',
+    //28 web
+    ballOne: '第一球',
+    ballTwo: '第二球',
+    ballThree: '第三球',
     // mobile娛樂城
     SSC_first: '万',
     SSC_second: '千',
@@ -820,6 +824,11 @@ const LANG = {
     sumOneTwo: '冠亚和值',
     sumOneTwoOddEven: '冠亚和单双',
     sumOneTwoBigSmall: '冠亚和大小',
+    //PCB
+    firstBall: '第一球',
+    secondBall: '第二球',
+    thirdBall: '第三球',
+    special: '特码',
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
   // mobile
