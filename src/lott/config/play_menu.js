@@ -431,6 +431,13 @@ export const PlayMenu = {
   // 幸運28
   Combined_PCB: 1905,
   Special_PCB: 1906,
+  SpecialSum_PCB: 1907,
   Two_Side_PCB: 1908,
+  SpecialBSOE_PCB: 1909,
+  Special_BS_OE_PCB: 1910,
+  Special_Extremum_BS_PCB: 1911,
+  Color_PCB: 1913,
+  Boazi_PCB: 1914,
+  SpecialCom3_PCB: 1915,
 };
 

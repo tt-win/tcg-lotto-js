@@ -140,6 +140,26 @@ const LHC_KEY = {
   NORMAL_BSOE: ['normalBig', 'normalSmall', 'normalOdd', 'normalEven'],
 };
 
+const PCB_KEY = {
+    BS_OE: {
+        '02': 'bigOdd',
+        '03': 'bigEven',
+        12: 'smallOdd',
+        13: 'smallEven',
+    },
+
+    Extremum_BS: {
+        0: 'extremumBig',
+        1: 'extremumSmall',
+    },
+
+    Color: {
+      1: 'colorStraightRed',
+      2: 'colorStraightBlue',
+      3:'colorStraightGreen',
+    },
+}
+
 
 const LHCTranslator = {
   // 球號
@@ -493,6 +513,63 @@ const LHCTranslator = {
 
 };
 
+
+
+const PCBTranslator = {
+  //特碼
+    BALL_NUMBER_PCB: {
+        items: [
+            PlayMenu.SpecialSum_PCB,
+        ],
+        getText: (content) => content.split('-').reduce((result, val) =>
+            (`${result}${result ? ' | ' : ''}${val}`), ''),
+    },
+
+  //组合大小單雙
+    BS_OE_PCB: {
+        items: [
+            PlayMenu.Special_BS_OE_PCB,
+        ],
+        getText: (content) => i18n(`playKey.${PCB_KEY.BS_OE[content]}`),
+    },
+
+    // 极值
+    Extremum_BS_PCB: {
+        items: [
+            PlayMenu.Special_Extremum_BS_PCB,
+        ],
+        getText: (content) => i18n(`playKey.${PCB_KEY.Extremum_BS[content]}`),
+    },
+
+    // 色波
+    Color_PCB: {
+        items: [
+            PlayMenu.Color_PCB,
+        ],
+        getText: (content) => i18n(`playKey.${PCB_KEY.Color[content]}`),
+    },
+
+    //豹子
+    Boazi_PCB: {
+        items: [
+            PlayMenu.Boazi_PCB,
+        ],
+        getText: (content) => i18n(`playKey.baozi`),
+    },
+
+    //特碼包三
+    SpecialCom3_PCB: {
+        items: [
+            PlayMenu.SpecialCom3_PCB,
+        ],
+        getText: (content) => content.split('').reduce((result, val) =>
+            (`${result}${result ? ' ' : ''}${val}`), ''),
+    },
+};
+
+
+
+
 // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
 const OrderInfoTranslatorList = {
   BSOE: {
@@ -544,6 +621,8 @@ const OrderInfoTranslatorList = {
       PlayMenu.Two_Side_NinthPlace_PK10,
       PlayMenu.Two_Side_TenthPlace_PK10,
 
+        //PCB28
+      PlayMenu.SpecialBSOE_PCB,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -683,6 +762,7 @@ const OrderInfoTranslatorList = {
     },
   },
   ...LHCTranslator,
+  ...PCBTranslator,
 };
 
 const OrderInfoTranslator = {
