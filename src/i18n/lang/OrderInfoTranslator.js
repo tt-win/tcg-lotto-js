@@ -562,7 +562,7 @@ const PCBTranslator = {
         items: [
             PlayMenu.SpecialCom3_PCB,
         ],
-        getText: (content) => content.split('').reduce((result, val) =>
+        getText: (content) => content.split(',').reduce((result, val) =>
             (`${result}${result ? ' ' : ''}${val}`), ''),
     },
 };
@@ -765,11 +765,21 @@ const OrderInfoTranslatorList = {
   ...PCBTranslator,
 };
 
+const commaConfig = {
+    items: [
+        PlayMenu.SpecialCom3_PCB,
+    ],
+}
+
 const OrderInfoTranslator = {
 
-  getText: (playId, bettingContent) => {
+  getText: (playId, bettingContent,) => {
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
+    const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1))
     if (translator) {
+      if(noFilter) {
+        return translator.getText(bettingContent);
+      }
       return translator.getText(bettingContent.replace(/,/g, ''), bettingContent);
     }
     return bettingContent;
