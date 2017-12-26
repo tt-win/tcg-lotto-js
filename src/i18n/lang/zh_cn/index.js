@@ -143,6 +143,7 @@ const LANG = {
     LF: '低频彩',
     PK10: 'PK10',
     LHC: '六合彩',
+    TC: '视频彩',
     PCB: 'PC蛋蛋',
   },
   gameCode: {
@@ -378,6 +379,10 @@ const LANG = {
     sumOddEven: '合单双',
     sumBigSmall: '合大小',
     bigSmallTail: '大小尾',
+    //28 web
+    ballOne: '第一球',
+    ballTwo: '第二球',
+    ballThree: '第三球',
     // mobile娛樂城
     SSC_first: '万',
     SSC_second: '千',
@@ -588,6 +593,7 @@ const LANG = {
   isCompleted: '是否结束',
   choose: '选择',
   pkModeConfirmMsg: '该订单含有单挑玩法，请确认是否下注？',
+  skipOneClickBetMsg: '本次后不再进行确认提示',
   manualBetPlaceHolder: `每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetPlaceHolder_2Digit: `每注之间可以用回车丶逗号[,]或者分号[;]隔开
@@ -613,6 +619,7 @@ const LANG = {
   autoTransferTip: '您的彩票余额不足，请问您是否选择从您的中心钱包余额中扣除 %@ ？',
   transferFailed: '转账失败',
   transferTimeout: '转账超时',
+  betStakeOverLimit: '该玩法可投上限为%@注，请重新下注！谢谢',
   drawAnnouncement: '开奖公告',
   today: '今天',
   yesterday: '昨天',
@@ -821,11 +828,17 @@ const LANG = {
     sumOneTwo: '冠亚和值',
     sumOneTwoOddEven: '冠亚和单双',
     sumOneTwoBigSmall: '冠亚和大小',
+    //PCB
+    firstBall: '第一球',
+    secondBall: '第二球',
+    thirdBall: '第三球',
+    special: '特码',
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
   // mobile
   userAmount: '帐户余额',
-  alreadyChoose: '已选',
+  alreadyChoose: '已选%@组',
+  alreadyChooseStack: '已选',
   stack: '组',
   info: '说明',
   helper: '助手',

@@ -17,6 +17,7 @@ export const getPlayMenuNameWithDigit = ({ playMenu, startDigit }) => {
   const { playCode, playId } = playMenu;
   const { digitsI18n } = orderDigitsI18n[playCode] || {};
 
+
   // startDigit 存在才有可能需要顯示
   const startDigitI18n = _isNumber(startDigit) && digitsI18n ? i18n(digitsI18n[startDigit]) : '';
   // 娛樂城龍虎鬥要多加個抬頭
