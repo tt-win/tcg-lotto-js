@@ -415,7 +415,7 @@ const LANG = {
     bigOdd: '大单',
     sumBig: '合大',
     small: '小码',
-    bigEven: '大单',
+    bigEven: '大双',
     sumSmall: '合小',
     head0: '0头',
     tail0: '0尾',
