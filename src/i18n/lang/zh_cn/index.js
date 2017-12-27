@@ -144,6 +144,7 @@ const LANG = {
     PK10: 'PK10',
     LHC: '六合彩',
     TC: '视频彩',
+    PCB: 'PC蛋蛋',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
@@ -592,6 +593,7 @@ const LANG = {
   isCompleted: '是否结束',
   choose: '选择',
   pkModeConfirmMsg: '该订单含有单挑玩法，请确认是否下注？',
+  skipOneClickBetMsg: '本次后不再进行确认提示',
   manualBetPlaceHolder: `每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetPlaceHolder_2Digit: `每注之间可以用回车丶逗号[,]或者分号[;]隔开
