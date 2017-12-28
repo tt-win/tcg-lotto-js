@@ -1,4 +1,4 @@
-import * as action from '../actions/index';
+import * as action from 'actions';
 
 // cache action type
 export default {
