@@ -28,3 +28,11 @@ export function isSupportSeriesSlider(merchant, playCode) {
   return _.isEmpty(notSupportSeriesSlider);
 }
 
+export function isSupportSeriesChange(merchant, playCode) {
+  if (!config.exclude[merchant] || _.isEmpty(config.exclude[merchant])) {
+    return true;
+  }
+
+  const notSupportSeriesChange = _.find(config.exclude[merchant].playCodes, (o) => playCode === o);
+  return _.isEmpty(notSupportSeriesChange);
+}

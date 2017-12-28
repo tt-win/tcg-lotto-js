@@ -70,4 +70,21 @@ export const PlayModeKey = {
   2: 'Entertainment',
 };
 
+export const merchantCode = {
+  b2c: [
+    'fenghuangcai',
+    'caihong',
+    '500cai',
+    'deleasia',
+    'tcgdemo',
+    'haocai',
+    'hccdemo',
+    'hongda',
+    'xinying',
+    'cxstar',
+    'wbcity',
+    '2000cai',
+  ],
+};
+
 export default {};
