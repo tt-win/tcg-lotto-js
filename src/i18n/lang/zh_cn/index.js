@@ -4,7 +4,8 @@ import BaseGame from './base-game';
 const LANG = {
   ...PlayMenu,
   prizeMode: {
-    Tradition: '传统',
+    Lott: '官方',
+    Tradition: '传统', // TODO clean this
     ZY: '智贏',
   },
   betDigit: {
@@ -144,6 +145,7 @@ const LANG = {
     PK10: 'PK10',
     LHC: '六合彩',
     TC: '视频彩',
+    PCB: 'PC蛋蛋',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
@@ -242,7 +244,7 @@ const LANG = {
     CONNECTION_ERROR_: '所在地区网速延迟，请稍后再试或与客服联系，谢谢！',
     CUSTOMER_LOGOUT_: '您还没有登录，请先登录！',
     DRAW_FAIL_ERROR_: '系统繁忙，投注失败！',
-    NOT_SUPPORT_LANDSCAPE : '不支持横屏',
+    NOT_SUPPORT_LANDSCAPE: '不支持横屏',
   },
   chasingStatus: {
     All: '全部',
@@ -378,7 +380,7 @@ const LANG = {
     sumOddEven: '合单双',
     sumBigSmall: '合大小',
     bigSmallTail: '大小尾',
-    //28 web
+    // 28 web
     ballOne: '第一球',
     ballTwo: '第二球',
     ballThree: '第三球',
@@ -415,7 +417,7 @@ const LANG = {
     bigOdd: '大单',
     sumBig: '合大',
     small: '小码',
-    bigEven: '大单',
+    bigEven: '大双',
     sumSmall: '合小',
     head0: '0头',
     tail0: '0尾',
@@ -554,7 +556,7 @@ const LANG = {
     currentWinAmount: '当期奖金',
     yield: '利润率',
     winStop: '中奖即停',
-    youChase: '你追号',   // 你追号n期
+    youChase: '你追号', // 你追号n期
     confirmChasing: '确认追号',
     tip1: '您原计划实现%@期,实际实现%@期',
     tip2_1: '您的翻倍计划无法生成',
@@ -827,7 +829,7 @@ const LANG = {
     sumOneTwo: '冠亚和值',
     sumOneTwoOddEven: '冠亚和单双',
     sumOneTwoBigSmall: '冠亚和大小',
-    //PCB
+    // PCB
     firstBall: '第一球',
     secondBall: '第二球',
     thirdBall: '第三球',
