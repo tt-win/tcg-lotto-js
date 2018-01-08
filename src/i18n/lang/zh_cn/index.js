@@ -776,8 +776,8 @@ const LANG = {
     thirdBall: '第三球',
     fourthBall: '第四球',
     fifthBall: '第五球',
-    sumBigSmall: '总合大小',
-    sumOddEven: '总合单双',
+    sumBigSmall: '总和大小',
+    sumOddEven: '总和单双',
     /* 龍虎鬥 */
     oneVsTwo: '1VS2',
     oneVsThree: '1VS3',
