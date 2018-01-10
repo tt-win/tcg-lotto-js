@@ -173,7 +173,7 @@ const normalFirstToSix = {
 // 平特一肖尾數
 const normalSpecialOneZodiac = {
   // menu
-  1654: '平特一肖尾数',
+  1654: '平特肖尾',
 
   // sub menu
   1731: '平特一肖',
