@@ -60,7 +60,7 @@ export const URL = {
 };
 
 export const PrizeModeKey = {
-  1: 'Tradition',
+  1: 'Lott',
   2: 'ZY',
   3: 'Elott',
 };

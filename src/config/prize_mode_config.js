@@ -1,5 +1,5 @@
 const PRIZE_MODE = {
-  Tradition: 1,
+  Lott: 1,
   ZY: 2,
   Elott: 3,
 };
