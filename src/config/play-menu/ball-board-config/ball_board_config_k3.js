@@ -23,27 +23,29 @@ export default {
     //All_3_Same_K3
     1920: BallBoardConfigRecord({
         ...baseK3Props,
-        fixedBalls: ['0'],
+        fixedBalls: ['三同号通选'],
         betDigits: [betDigits.All_3_Same],
         formula: 'oneNum',
+        hasToolbar: false,
     }),
     //3_Different_Number_K3
     1922: BallBoardConfigRecord({
         ...baseK3Props,
-        betDigits: [betDigits.Three_Different_Number, betDigits.Three_Different_Number, betDigits.Three_Different_Number],
+        betDigits: [betDigits.Three_Different_Number],
         formula: 'combineSix',
     }),
     //All_3_Even_K3
     1924: BallBoardConfigRecord({
         ...baseK3Props,
-        fixedBalls: ['1'],
+        fixedBalls: ['三连号通选'],
         betDigits: [betDigits.All_3_Even],
         formula: 'oneNum',
+        hasToolbar: false,
     }),
     //Single_2_Same_K3
     1926: BallBoardConfigRecord({
         ...baseK3Props,
-        betDigits: [betDigits.Single_2_Same],
+        betDigits: [betDigits.Single_2_Same, betDigits.Single_2_Not_Same],
         formula: 'oneNum',
     }),
     //Multi_2_Same_K3

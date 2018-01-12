@@ -86,6 +86,7 @@ export const betDigits = {
   Three_Different_Number: '3_Different_Number',
   All_3_Even: 'All_3_Even',
   Single_2_Same: 'Single_2_Same',
+  Single_2_Not_Same: 'Single_2_Not_Same',
   Multi_2_Same: 'Multi_2_Same',
   Two_Different_Number: '2_Different_Number',
   Sum_BS_OE: 'Sum_BS_OE',
