@@ -57,6 +57,15 @@ const LANG = {
     FIRST_LAST_SUM: '首尾和',
     DRAGON_TIGER: '龙vs虎',
     DRAGON_TIGER_TIE: '龙虎和',
+    Single_3_Same: '三同号单选',
+    All_3_Same: '三同号通选',
+    '3_Different_Number': '三不同号',
+    All_3_Even: '三连号通选',
+    Single_2_Same: '二同号单选',
+    Multi_2_Same: '二同号复选',
+    '2_Different_Number': '二不同号',
+    Sum_BS_OE: '和值大小单双',
+
   },
   startDigit: {
     ones: '（个）',
