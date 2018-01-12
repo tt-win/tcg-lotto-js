@@ -329,6 +329,36 @@ const groupBetConfigPK10 = {
   }),
 };
 
+// const groupBetConfigK3 = {
+//   Sum_Number_K3: BetConfigRecord({
+//     isBetSlipByRow: true,
+//   }),
+//   Single_3_Same_3K: BetConfigRecord({
+//     isBetSlipByBall: true,
+//   }),
+//   All_3_Same_3K: BetConfigRecord({
+//     isBetSlipByBall: true,
+//   }),
+//   '3_Different_Number_K3': BetConfigRecord({
+//     minBalls: [3],
+//   }),
+//   All_3_Even_K3: BetConfigRecord({
+//     isBetSlipByBall: true,
+//   }),
+//   Single_2_Same_K3: BetConfigRecord({
+//     isBetSlipByBall: true,
+//   }),
+//   Multi_2_Same_K3: BetConfigRecord({
+//     isBetSlipByBall: true,
+//   }),
+//   '2_Different_Number_K3': BetConfigRecord({
+//     minBalls: [2],
+//   }),
+//   Sum_BS_OE_K3: BetConfigRecord({
+//     isBetSlipByRow: true,
+//   }),
+// };
+
 // 手工錄入
 const betConfigSingle = {
   Any2Com_SSC_Single: groupBetConfigSSC.Any2Com_SSC,
@@ -352,4 +382,5 @@ export default {
   ...groupBetConfigLF,
   ...groupBetConfigPK10,
   ...betConfigSingle,
+  // ...groupBetConfigK3,
 };

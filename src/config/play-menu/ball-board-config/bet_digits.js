@@ -33,6 +33,9 @@ export const betDigits = {
   // 和值
   SUM: 'SUM',
 
+  // 大小單雙
+  BSOE: 'BSOE',
+
   // 膽
   DAN: 'DAN',
   DAN1: 'DAN1',
@@ -78,6 +81,16 @@ export const betDigits = {
   FIRST_LAST_SUM: 'FIRST_LAST_SUM',
   DRAGON_TIGER: 'DRAGON_TIGER',
   DRAGON_TIGER_TIE: 'DRAGON_TIGER_TIE',
+
+  //K3
+
+  SINGLE_SAME_3 : 'Single_Same_3',
+  ALL_SAME_3: 'ALL_SAME_3',
+  All_3_Even_K3: 'All_3_Even_K3',
+  Different_3_Number_K3: 'Different_3_Number_K3',
+  Single_2_Same_K3: 'Single_2_Same_K3',
+  Multi_2_Same_K3: 'Multi_2_Same_K3',
+  Different_2_Number_K3: 'Different_2_Number_K3',
 };
 
 export default {};
