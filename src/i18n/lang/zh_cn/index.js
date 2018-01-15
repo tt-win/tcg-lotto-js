@@ -146,6 +146,11 @@ const LANG = {
       tigerEven: '虎双',
       tie: '和',
     },
+    k3:{
+      All_3_Same_K3: '三同号通选',
+      All_3_Even_K3: '三连号通选',
+
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',

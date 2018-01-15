@@ -12,18 +12,21 @@ export default {
         ...baseK3Props,
         ballRange: [3, 18],
         betDigits: [betDigits.SUM],
-        formula: 'oneNum',
+        formula: 'oneBallOneNum',
     }),
     //Single_3_Same_K3
     1919: BallBoardConfigRecord({
         ...baseK3Props,
         betDigits: [betDigits.Single_3_Same],
-        formula: 'oneNum',
+        formula: 'oneBallOneNum',
     }),
     //All_3_Same_K3
     1920: BallBoardConfigRecord({
         ...baseK3Props,
-        fixedBalls: ['三同号通选'],
+        fixedBalls: ['0'],
+        ballI18n: {
+            0: 'ball.k3.All_3_Same_K3',
+        },
         betDigits: [betDigits.All_3_Same],
         formula: 'oneNum',
         hasToolbar: false,
@@ -37,7 +40,10 @@ export default {
     //All_3_Even_K3
     1924: BallBoardConfigRecord({
         ...baseK3Props,
-        fixedBalls: ['三连号通选'],
+        fixedBalls: ['1'],
+        ballI18n: {
+            1: 'ball.k3.All_3_Same_K3',
+        },
         betDigits: [betDigits.All_3_Even],
         formula: 'oneNum',
         hasToolbar: false,
