@@ -53,6 +53,7 @@ export default {
         ...baseK3Props,
         betDigits: [betDigits.Single_2_Same, betDigits.Single_2_Not_Same],
         formula: 'oneBallOneNum',
+        rowMulti: false,
     }),
     //Multi_2_Same_K3
     1927: BallBoardConfigRecord({

@@ -26,6 +26,8 @@ export const BallBoardConfigRecord = Record({
 
   displayBallBonus: false,  // 是否顯示個別球最高獎金  2017.06.02 added by G
   prizeTypeMapping: {},   // prizeType對照
+
+  rowMulti: true, // 每一列球號是否多選 false:每一列球號不能相同
 });
 
 export const baseBSOEProps = {
