@@ -516,4 +516,6 @@ export const lhcPlayKey = {
   normalTOSumEven: '合双',
   normalTailBig: '尾大',
   normalTailSmall: '尾小',
+  allThreeSame: '三同号通选',
+  allThreeEven: '三连号通选',
 };

@@ -567,6 +567,42 @@ const PCBTranslator = {
     },
 };
 
+const K3Translator = {
+    //特碼
+    BALL_NUMBER_K3: {
+        items: [
+            PlayMenu.Sum_Number_K3,
+            PlayMenu.Single_3_Same_K3,
+            PlayMenu.Multi_2_Same_K3,
+        ],
+        getText: (content) => content.split('-').reduce((result, val) =>
+            (`${result}${result ? ' | ' : ''}${val}`), ''),
+    },
+
+    MULTI_BALL_NUMBER_K3: {
+        items: [
+            PlayMenu.Three_Different_Number_K3,
+            PlayMenu.Two_Different_Number_K3,
+        ],
+        getText: (content) => content.split('').reduce((result, val) =>
+            (`${result}${result ? ' ' : ''}${val}`), ''),
+    },
+
+    All_3_Same_K3: {
+        items: [
+            PlayMenu.All_3_Same_K3,
+        ],
+        getText: (content) => i18n(`playKey.allThreeSame`),
+    },
+
+    All_3_Even_K3: {
+        items: [
+            PlayMenu.All_3_Even_K3,
+        ],
+        getText: (content) => i18n(`playKey.allThreeEven`),
+    },
+};
+
 
 
 
@@ -621,8 +657,10 @@ const OrderInfoTranslatorList = {
       PlayMenu.Two_Side_NinthPlace_PK10,
       PlayMenu.Two_Side_TenthPlace_PK10,
 
-        //PCB28
+      // PCB28
       PlayMenu.SpecialBSOE_PCB,
+      // K3
+      PlayMenu.Sum_BS_OE_K3,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -763,6 +801,7 @@ const OrderInfoTranslatorList = {
   },
   ...LHCTranslator,
   ...PCBTranslator,
+  ...K3Translator,
 };
 
 const commaConfig = {

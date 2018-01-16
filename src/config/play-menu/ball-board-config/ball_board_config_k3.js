@@ -42,7 +42,7 @@ export default {
         ...baseK3Props,
         fixedBalls: ['1'],
         ballI18n: {
-            1: 'ball.k3.All_3_Same_K3',
+            1: 'ball.k3.All_3_Even_K3',
         },
         betDigits: [betDigits.All_3_Even],
         formula: 'oneNum',
@@ -52,24 +52,25 @@ export default {
     1926: BallBoardConfigRecord({
         ...baseK3Props,
         betDigits: [betDigits.Single_2_Same, betDigits.Single_2_Not_Same],
-        formula: 'oneNum',
+        formula: 'oneBallOneNum',
     }),
     //Multi_2_Same_K3
     1927: BallBoardConfigRecord({
         ...baseK3Props,
         betDigits: [betDigits.Multi_2_Same],
-        formula: 'oneNum',
+        formula: 'oneBallOneNum',
     }),
     //2_Different_Number_K3
     1929: BallBoardConfigRecord({
         ...baseK3Props,
         betDigits: [betDigits.Two_Different_Number],
-        formula: 'twoDifferent',
+        formula: 'combine6',
     }),
     //Sum_BS_OE_K3
     1931: BallBoardConfigRecord({
         ...baseBSOEProps,
         betDigits: [betDigits.Sum_BS_OE],
         formula: 'oneNum',
+        multi: true,
     }),
 };
