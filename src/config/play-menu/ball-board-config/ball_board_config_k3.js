@@ -13,6 +13,7 @@ export default {
         ballRange: [3, 18],
         betDigits: [betDigits.SUM],
         formula: 'oneBallOneNum',
+        hasToolbar: false,
     }),
     //Single_3_Same_K3
     1919: BallBoardConfigRecord({
