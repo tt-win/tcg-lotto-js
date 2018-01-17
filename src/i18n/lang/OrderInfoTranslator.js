@@ -513,7 +513,25 @@ const LHCTranslator = {
 
 };
 
+const PK10Translator = {
+    BALL_NUMBER_PK10: {
+        items: [
+            PlayMenu.First1_trad_PK10,
+            PlayMenu.First2_trad_PK10,
+            PlayMenu.First3_trad_PK10,
+            PlayMenu.First4_trad_PK10,
+            PlayMenu.First5_trad_PK10,
+            PlayMenu.First5Fixed_trad_PK10,
+            PlayMenu.Last5Fixed_trad_PK10,
+            PlayMenu.First2Sum_trad_PK10,
+            PlayMenu.First3Sum_trad_PK10,
+            PlayMenu.FirstLastSum_trad_PK10,
 
+        ],
+        getText: (content) => content.split('-').reduce((result, val) =>
+            (`${result}${result ? ' ' : ''}${val}`), ''),
+    },
+}
 
 const PCBTranslator = {
   //特碼
@@ -658,6 +676,10 @@ const OrderInfoTranslatorList = {
       PlayMenu.Two_Side_NinthPlace_PK10,
       PlayMenu.Two_Side_TenthPlace_PK10,
 
+      // PK10
+      PlayMenu.First5BSOE_trad_PK10,
+      PlayMenu.Last5BSOE_trad_PK10,
+      PlayMenu.First2SumBSOE_trad_PK10,
       // PCB28
       PlayMenu.SpecialBSOE_PCB,
       // K3
@@ -668,6 +690,11 @@ const OrderInfoTranslatorList = {
   },
   DRAGON_TIGER: {
     items: [
+      PlayMenu.Dragon_Tiger_1_VS_10_trad,
+      PlayMenu.Dragon_Tiger_2_VS_9_trad,
+      PlayMenu.Dragon_Tiger_3_VS_8_trad,
+      PlayMenu.Dragon_Tiger_4_VS_7_trad,
+      PlayMenu.Dragon_Tiger_5_VS_6_trad,
       PlayMenu.Dragon_Tiger_1_VS_10,
       PlayMenu.Dragon_Tiger_2_VS_9,
       PlayMenu.Dragon_Tiger_3_VS_8,
@@ -800,6 +827,7 @@ const OrderInfoTranslatorList = {
       return `(${digitPosText}) ${ballTextArray.join(' | ')}`;
     },
   },
+  ...PK10Translator,
   ...LHCTranslator,
   ...PCBTranslator,
   ...K3Translator,

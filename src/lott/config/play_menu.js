@@ -170,8 +170,6 @@ export const PlayMenu = {
   FixedPlace_LF_FC3D: 1422,
   FixedPlace_LF_P3P5: 1447,
   FixedPlace_11X5: 923,
-  First5Fixed_PK10: 1462,
-  Last5Fixed_PK10: 1463,
 
   First2BSOE: 62,
   Last2BSOE: 63,
@@ -180,17 +178,9 @@ export const PlayMenu = {
   P5First2BSOE_LF: 1444,
   P3Last2BSOE_LF: 1445,
   Last2BSOE_LF_P3P5: 1446,
-  First5BSOE_PK10: 1467,
-  Last5BSOE_PK10: 1468,
-  First2SumBSOE_PK10: 1469,
 
   OECounts_11X5: 916,
 
-  Dragon_Tiger_1_VS_10: 1470,
-  Dragon_Tiger_2_VS_9: 1471,
-  Dragon_Tiger_3_VS_8: 1472,
-  Dragon_Tiger_4_VS_7: 1473,
-  Dragon_Tiger_5_VS_6: 1474,
 
   // 2017 0531 added by G 龍虎和
   Dragon_Tiger_10T_T_SSC: 1738,
@@ -434,6 +424,26 @@ export const PlayMenu = {
   Dragon_Tiger_3_VS_8_PK10: 1902,
   Dragon_Tiger_4_VS_7_PK10: 1903,
   Dragon_Tiger_5_VS_6_PK10: 1904,
+
+  // PK10
+  First1_trad_PK10: 1457,
+  First2_trad_PK10: 1458,
+  First3_trad_PK10: 1459,
+  First4_trad_PK10: 1460,
+  First5_trad_PK10: 1461,
+  First5Fixed_trad_PK10: 1462,
+  Last5Fixed_trad_PK10: 1463,
+  First2Sum_trad_PK10:1464,
+  First3Sum_trad_PK10: 1465,
+  FirstLastSum_trad_PK10: 1466,
+  First5BSOE_trad_PK10: 1467,
+  Last5BSOE_trad_PK10: 1468,
+  First2SumBSOE_trad_PK10: 1469,
+  Dragon_Tiger_1_VS_10_trad: 1470,
+  Dragon_Tiger_2_VS_9_trad: 1471,
+  Dragon_Tiger_3_VS_8_trad: 1472,
+  Dragon_Tiger_4_VS_7_trad: 1473,
+  Dragon_Tiger_5_VS_6_trad: 1474,
   // 幸運28
   Combined_PCB: 1905,
   Special_PCB: 1906,
