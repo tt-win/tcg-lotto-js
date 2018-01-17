@@ -582,6 +582,7 @@ const K3Translator = {
     MULTI_BALL_NUMBER_K3: {
         items: [
             PlayMenu.Three_Different_Number_K3,
+            PlayMenu.Single_2_Same_K3,
             PlayMenu.Two_Different_Number_K3,
         ],
         getText: (content) => content.split('').reduce((result, val) =>

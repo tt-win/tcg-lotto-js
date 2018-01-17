@@ -52,7 +52,7 @@ export default {
     1926: BallBoardConfigRecord({
         ...baseK3Props,
         betDigits: [betDigits.Single_2_Same, betDigits.Single_2_Not_Same],
-        formula: 'oneBallOneNum',
+        formula: 'combineChooseOneAndOneAndNotDuplicatedAndByOne',
         rowMulti: false,
     }),
     //Multi_2_Same_K3

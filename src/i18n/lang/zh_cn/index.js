@@ -419,6 +419,10 @@ const LANG = {
     PK10_eighth: '八位',
     PK10_ninth: '九位',
     PK10_tenth: '十位',
+    K3_first: '百',
+    K3_second: '十',
+    K3_third: '个',
+    K3_sum: '和值',
   },
   quickBetLHC: {
     odd: '单码',

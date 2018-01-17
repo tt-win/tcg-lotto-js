@@ -8,6 +8,8 @@ const BetConfigRecord = Record({
   isBetSlipByRow: false,
   // 該玩法是否需要每顆球成立訂單
   isBetSlipByBall: false,
+  // 該玩法是否需要依列作球組合
+  isBetMatchBallRow: false,
   // 機選: 每列最少球數
   minBalls: [],
   // 機選: 最少選幾列, -1 表示不限制
@@ -336,9 +338,9 @@ const groupBetConfigK3 = {
   Single_3_Same_K3: BetConfigRecord({
     isBetSlipByBall: true,
   }),
-  // Single_2_Same_K3: BetConfigRecord({
-  //   isBetSlipByBall: true,
-  // }),
+  Single_2_Same_K3: BetConfigRecord({
+    isBetMatchBallRow: true,
+  }),
   Multi_2_Same_K3: BetConfigRecord({
     isBetSlipByBall: true,
   }),
