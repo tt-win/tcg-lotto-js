@@ -526,6 +526,7 @@ const PK10Translator = {
             PlayMenu.First2Sum_trad_PK10,
             PlayMenu.First3Sum_trad_PK10,
             PlayMenu.FirstLastSum_trad_PK10,
+            PlayMenu.FirstPlace_PK10,
             PlayMenu.First2Sum_PK10,
             PlayMenu.First3Sum_PK10,
             PlayMenu.FirstLastSum_PK10,
