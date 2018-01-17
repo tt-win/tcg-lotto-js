@@ -526,6 +526,18 @@ const PK10Translator = {
             PlayMenu.First2Sum_trad_PK10,
             PlayMenu.First3Sum_trad_PK10,
             PlayMenu.FirstLastSum_trad_PK10,
+            PlayMenu.First2Sum_PK10,
+            PlayMenu.First3Sum_PK10,
+            PlayMenu.FirstLastSum_PK10,
+            PlayMenu.SecondPlace_PK10,
+            PlayMenu.ThirdPlace_PK10,
+            PlayMenu.FourthPlace_PK10,
+            PlayMenu.FifthPlace_PK10,
+            PlayMenu.SixthPlace_PK10,
+            PlayMenu.SeventhPlace_PK10,
+            PlayMenu.EighthPlace_PK10,
+            PlayMenu.NinthPlace_PK10,
+            PlayMenu.TenthPlace_PK10,
 
         ],
         getText: (content) => content.split('-').reduce((result, val) =>
