@@ -4,6 +4,7 @@ import { betDigits } from './bet_digits';
 const baseK3Props = {
     ballRange: [1, 6],
     ballDigit: 1,
+    canShowHotGap: false,
 };
 
 export default {
@@ -28,6 +29,7 @@ export default {
         ballI18n: {
             0: 'ball.k3.All_3_Same_K3',
         },
+        boardClassNames: 'All_3_Same_K3',
         betDigits: [betDigits.All_3_Same],
         formula: 'oneNum',
         hasToolbar: false,
@@ -45,6 +47,7 @@ export default {
         ballI18n: {
             1: 'ball.k3.All_3_Even_K3',
         },
+        boardClassNames: 'All_3_Even_K3',
         betDigits: [betDigits.All_3_Even],
         formula: 'oneNum',
         hasToolbar: false,
@@ -74,5 +77,6 @@ export default {
         betDigits: [betDigits.Sum_BS_OE],
         formula: 'oneNum',
         multi: true,
+        canShowHotGap: false,
     }),
 };
