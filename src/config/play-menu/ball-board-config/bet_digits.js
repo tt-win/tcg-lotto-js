@@ -87,7 +87,7 @@ export const betDigits = {
   All_Even_3_K3: 'All_Even_3_K3',
   Single_2_Same: 'Single_2_Same',
   Single_2_Not_Same: 'Single_2_Not_Same',
-  Multi_2_Same: 'Multi_2_Same',
+  Multi_Same_2_K3: 'Multi_Same_2_K3',
   Different_2_K3: 'Different_2_K3',
   Sum_BS_OE_K3: 'Sum_BS_OE_K3',
 };
