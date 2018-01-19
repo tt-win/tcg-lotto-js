@@ -89,7 +89,7 @@ export const betDigits = {
   Single_2_Not_Same: 'Single_2_Not_Same',
   Multi_2_Same: 'Multi_2_Same',
   Different_2_K3: 'Different_2_K3',
-  Sum_BS_OE: 'Sum_BS_OE',
+  Sum_BS_OE_K3: 'Sum_BS_OE_K3',
 };
 
 export default {};
