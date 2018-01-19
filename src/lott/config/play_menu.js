@@ -82,7 +82,7 @@ export const defaultActivePlayMenu = {
         },
       },
       K3: {
-          active: 'Sum_Number_K3',
+          active: 'Sum_K3',
           subPlayMenu: {
               active: 'Sum_K3',
           },
