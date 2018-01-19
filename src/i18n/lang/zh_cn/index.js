@@ -423,6 +423,7 @@ const LANG = {
     K3_second: '十',
     K3_third: '个',
     K3_sum: '和值',
+    K3_sum_trend: '和值走势',
   },
   quickBetLHC: {
     odd: '单码',
