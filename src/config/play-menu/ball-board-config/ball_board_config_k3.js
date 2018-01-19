@@ -8,7 +8,7 @@ const baseK3Props = {
 };
 
 export default {
-    //Sum_Number_K3
+    //Sum_K3
     1917: BallBoardConfigRecord({
         ...baseK3Props,
         ballRange: [3, 18],
@@ -16,65 +16,65 @@ export default {
         formula: 'oneBallOneNum',
         hasToolbar: false,
     }),
-    //Single_3_Same_K3
+    //Single_Same_3_K3
     1919: BallBoardConfigRecord({
         ...baseK3Props,
-        betDigits: [betDigits.Single_3_Same],
+        betDigits: [betDigits.Single_Same_3_K3],
         formula: 'oneBallOneNum',
     }),
-    //All_3_Same_K3
+    //All_Same_3_K3
     1920: BallBoardConfigRecord({
         ...baseK3Props,
         fixedBalls: ['0'],
         ballI18n: {
-            0: 'ball.k3.All_3_Same_K3',
+            0: 'ball.k3.All_Same_3_K3',
         },
-        boardClassNames: 'All_3_Same_K3',
-        betDigits: [betDigits.All_3_Same],
+        boardClassNames: 'All_Same_3_K3',
+        betDigits: [betDigits.All_Same_3_K3],
         formula: 'oneNum',
         hasToolbar: false,
     }),
-    //3_Different_Number_K3
+    //Different_3_K3
     1922: BallBoardConfigRecord({
         ...baseK3Props,
-        betDigits: [betDigits.Three_Different_Number],
+        betDigits: [betDigits.Different_3_K3],
         formula: 'combineSix',
     }),
-    //All_3_Even_K3
+    //All_Even_3_K3
     1924: BallBoardConfigRecord({
         ...baseK3Props,
         fixedBalls: ['1'],
         ballI18n: {
-            1: 'ball.k3.All_3_Even_K3',
+            1: 'ball.k3.All_Even_3_K3',
         },
-        boardClassNames: 'All_3_Even_K3',
-        betDigits: [betDigits.All_3_Even],
+        boardClassNames: 'All_Even_3_K3',
+        betDigits: [betDigits.All_Even_3_K3],
         formula: 'oneNum',
         hasToolbar: false,
     }),
-    //Single_2_Same_K3
+    //Single_Same_2_K3
     1926: BallBoardConfigRecord({
         ...baseK3Props,
         betDigits: [betDigits.Single_2_Same, betDigits.Single_2_Not_Same],
         formula: 'combineChooseOneAndOneAndNotDuplicatedAndByOne',
         rowMulti: false,
     }),
-    //Multi_2_Same_K3
+    //Multi_Same_2_K3
     1927: BallBoardConfigRecord({
         ...baseK3Props,
-        betDigits: [betDigits.Multi_2_Same],
+        betDigits: [betDigits.Multi_Same_2_K3],
         formula: 'oneBallOneNum',
     }),
-    //2_Different_Number_K3
+    //Different_2_K3
     1929: BallBoardConfigRecord({
         ...baseK3Props,
-        betDigits: [betDigits.Two_Different_Number],
+        betDigits: [betDigits.Different_2_K3],
         formula: 'combine6',
     }),
     //Sum_BS_OE_K3
     1931: BallBoardConfigRecord({
         ...baseBSOEProps,
-        betDigits: [betDigits.Sum_BS_OE],
+        betDigits: [betDigits.Sum_BS_OE_K3],
         formula: 'oneNum',
         multi: true,
         canShowHotGap: false,

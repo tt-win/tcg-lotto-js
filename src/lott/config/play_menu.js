@@ -479,5 +479,15 @@ export const PlayMenu = {
   Multi_2_Same_K3: 1927,
   Two_Different_Number_K3: 1929,
   Sum_BS_OE_K3: 1931,
+
+  Sum_K3: 1917,
+  Single_Same_3_K3: 1919,
+  All_Same_3_K3: 1920,
+  Different_3_K3: 1922,
+  All_Even_3_K3: 1924,
+  Single_Same_2_K3: 1926,
+  Multi_Same_2_K3: 1927,
+  Different_2_K3: 1929,
+  Sum_BS_OE_K3: 1931,
 };
 

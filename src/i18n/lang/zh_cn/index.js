@@ -147,8 +147,8 @@ const LANG = {
       tie: '和',
     },
     k3:{
-      All_3_Same_K3: '三同号通选',
-      All_3_Even_K3: '三连号通选',
+      All_Same_3_K3: '三同号通选',
+      All_Even_3_K3: '三连号通选',
 
     },
   },

@@ -332,16 +332,16 @@ const groupBetConfigPK10 = {
 };
 
 const groupBetConfigK3 = {
-  Sum_Number_K3: BetConfigRecord({
+  Sum_K3: BetConfigRecord({
     isBetSlipByBall: true,
   }),
-  Single_3_Same_K3: BetConfigRecord({
+  Single_Same_3_K3: BetConfigRecord({
     isBetSlipByBall: true,
   }),
-  Single_2_Same_K3: BetConfigRecord({
+  Single_Same_2_K3: BetConfigRecord({
     isBetMatchBallRow: true,
   }),
-  Multi_2_Same_K3: BetConfigRecord({
+  Multi_Same_2_K3: BetConfigRecord({
     isBetSlipByBall: true,
   }),
 };
