@@ -470,16 +470,6 @@ export const PlayMenu = {
   SpecialCom3_PCB: 1915,
 
   // K3
-  Sum_Number_K3: 1917,
-  Single_3_Same_K3: 1919,
-  All_3_Same_K3: 1920,
-  Three_Different_Number_K3: 1922,
-  All_3_Even_K3: 1924,
-  Single_2_Same_K3: 1926,
-  Multi_2_Same_K3: 1927,
-  Two_Different_Number_K3: 1929,
-  Sum_BS_OE_K3: 1931,
-
   Sum_K3: 1917,
   Single_Same_3_K3: 1919,
   All_Same_3_K3: 1920,
