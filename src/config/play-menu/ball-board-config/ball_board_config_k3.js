@@ -76,7 +76,7 @@ export default {
         ...baseBSOEProps,
         betDigits: [betDigits.Sum_BS_OE_K3],
         formula: 'oneNum',
-        multi: true,
+        multi: false,
         canShowHotGap: false,
     }),
 };
