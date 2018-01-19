@@ -81,15 +81,15 @@ export const betDigits = {
 
   //K3
 
-  Single_3_Same : 'Single_3_Same',
-  All_3_Same: 'All_3_Same',
-  Three_Different_Number: '3_Different_Number',
-  All_3_Even: 'All_3_Even',
+  Single_Same_3_K3 : 'Single_Same_3_K3',
+  All_Same_3_K3: 'All_Same_3_K3',
+  Different_3_K3: 'Different_3_K3',
+  All_Even_3_K3: 'All_Even_3_K3',
   Single_2_Same: 'Single_2_Same',
   Single_2_Not_Same: 'Single_2_Not_Same',
-  Multi_2_Same: 'Multi_2_Same',
-  Two_Different_Number: '2_Different_Number',
-  Sum_BS_OE: 'Sum_BS_OE',
+  Multi_Same_2_K3: 'Multi_Same_2_K3',
+  Different_2_K3: 'Different_2_K3',
+  Sum_BS_OE_K3: 'Sum_BS_OE_K3',
 };
 
 export default {};

@@ -602,9 +602,9 @@ const K3Translator = {
     //特碼
     BALL_NUMBER_K3: {
         items: [
-            PlayMenu.Sum_Number_K3,
-            PlayMenu.Single_3_Same_K3,
-            PlayMenu.Multi_2_Same_K3,
+            PlayMenu.Sum_K3,
+            PlayMenu.Single_Same_3_K3,
+            PlayMenu.Multi_Same_2_K3,
         ],
         getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' | ' : ''}${val}`), ''),
@@ -612,24 +612,24 @@ const K3Translator = {
 
     MULTI_BALL_NUMBER_K3: {
         items: [
-            PlayMenu.Three_Different_Number_K3,
-            PlayMenu.Single_2_Same_K3,
-            PlayMenu.Two_Different_Number_K3,
+            PlayMenu.Different_3_K3,
+            PlayMenu.Single_Same_2_K3,
+            PlayMenu.Different_2_K3,
         ],
         getText: (content) => content.split('').reduce((result, val) =>
             (`${result}${result ? ' ' : ''}${val}`), ''),
     },
 
-    All_3_Same_K3: {
+    All_Same_3_K3: {
         items: [
-            PlayMenu.All_3_Same_K3,
+            PlayMenu.All_Same_3_K3,
         ],
         getText: (content) => i18n(`playKey.allThreeSame`),
     },
 
-    All_3_Even_K3: {
+    All_Even_3_K3: {
         items: [
-            PlayMenu.All_3_Even_K3,
+            PlayMenu.All_Even_3_K3,
         ],
         getText: (content) => i18n(`playKey.allThreeEven`),
     },
