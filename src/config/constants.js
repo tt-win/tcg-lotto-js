@@ -87,4 +87,10 @@ export const merchantCode = {
   ],
 };
 
+// live stream block time setting (seconds)
+export const liveStreamBlockTimeConfig = {
+  SSC: 600,
+  '11X5': 1200,
+};
+
 export default {};
