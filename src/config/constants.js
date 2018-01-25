@@ -40,6 +40,10 @@ export const PCBConfig = {
   },
 };
 
+export const K3Config = {
+  groupCode: 'K3',
+};
+
 export const ORDER_STATUS = {
   NotDrawYet: 2,
   Winning: 4,
