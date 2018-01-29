@@ -58,6 +58,7 @@ export default {
         betDigits: [betDigits.Single_2_Same, betDigits.Single_2_Not_Same],
         formula: 'combineChooseOneAndOneAndNotDuplicatedAndByOne',
         rowMulti: false,
+        hasToolbar: false,
     }),
     //Multi_Same_2_K3
     1927: BallBoardConfigRecord({
