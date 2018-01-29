@@ -725,7 +725,7 @@ const LANG = {
   quicklyAmountInfo: '注意：设置只保存在您的电脑，清空浏览器缓存或更换电脑会显示默认值。',
   playMenuHot: '出码排行',
   playMenuGap: '遗漏排行',
-  times: '次数',
+  times: '期数',
   types: '分类',
   sum: '总和',
   sumValue: '和值',
