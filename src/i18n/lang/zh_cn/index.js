@@ -160,6 +160,7 @@ const LANG = {
     LHC: '六合彩',
     TC: '视频彩',
     PCB: 'PC蛋蛋',
+    K3: '快三',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
