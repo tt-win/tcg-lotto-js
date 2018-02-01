@@ -19,6 +19,14 @@ export default {
     //Single_Same_3_K3
     1919: BallBoardConfigRecord({
         ...baseK3Props,
+        ballI18n: {
+            1: 'ball.k3.Single_Same_3_K3_ball_1',
+            2: 'ball.k3.Single_Same_3_K3_ball_2',
+            3: 'ball.k3.Single_Same_3_K3_ball_3',
+            4: 'ball.k3.Single_Same_3_K3_ball_4',
+            5: 'ball.k3.Single_Same_3_K3_ball_5',
+            6: 'ball.k3.Single_Same_3_K3_ball_6',
+        },
         boardClassNames: 'Single_Same_3_K3',
         betDigits: [betDigits.Single_Same_3_K3],
         formula: 'oneBallOneNum',
@@ -57,6 +65,15 @@ export default {
     1926: BallBoardConfigRecord({
         ...baseK3Props,
         betDigits: [betDigits.Single_2_Same, betDigits.Single_2_Not_Same],
+        ballI18nDigitExclude: [betDigits.Single_2_Not_Same],
+        ballI18n: {
+            1: 'ball.k3.Single_2_Same_ball_1',
+            2: 'ball.k3.Single_2_Same_ball_2',
+            3: 'ball.k3.Single_2_Same_ball_3',
+            4: 'ball.k3.Single_2_Same_ball_4',
+            5: 'ball.k3.Single_2_Same_ball_5',
+            6: 'ball.k3.Single_2_Same_ball_6',
+        },
         formula: 'combineChooseOneAndOneAndNotDuplicatedAndByOne',
         rowMulti: false,
         hasToolbar: false,

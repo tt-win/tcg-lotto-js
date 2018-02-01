@@ -150,7 +150,18 @@ const LANG = {
     k3:{
       All_Same_3_K3: '三同号通选',
       All_Even_3_K3: '三连号通选',
-
+      Single_Same_3_K3_ball_1: '111',
+      Single_Same_3_K3_ball_2: '222',
+      Single_Same_3_K3_ball_3: '333',
+      Single_Same_3_K3_ball_4: '444',
+      Single_Same_3_K3_ball_5: '555',
+      Single_Same_3_K3_ball_6: '666',
+      Single_2_Same_ball_1: '11',
+      Single_2_Same_ball_2: '22',
+      Single_2_Same_ball_3: '33',
+      Single_2_Same_ball_4: '44',
+      Single_2_Same_ball_5: '55',
+      Single_2_Same_ball_6: '66',
     },
   },
   gameGroupCode: {

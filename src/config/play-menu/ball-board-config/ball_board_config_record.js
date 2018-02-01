@@ -6,6 +6,7 @@ export const BallBoardConfigRecord = Record({
   ballRange: [],
   ballDigit: 1, // 數字位數 ex: 02 => 2位
   ballI18n: {}, // 特殊: 根據球號值對應 i18n, ex: 大小單雙, 定單雙, 龍虎, 龍虎和
+  ballI18nDigitExclude: [],  // 不須進行翻譯的ballDigit key
   fixedBalls: [], // 特殊: 固定球號, 球號無規律, ex: 定單雙
   betDigits: [], // 球號每列名稱
   boardClassNames: '', // ball board class
