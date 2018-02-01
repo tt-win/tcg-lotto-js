@@ -40,6 +40,10 @@ export const PCBConfig = {
   },
 };
 
+export const K3Config = {
+  groupCode: 'K3',
+};
+
 export const ORDER_STATUS = {
   NotDrawYet: 2,
   Winning: 4,
@@ -85,6 +89,12 @@ export const merchantCode = {
     'wbcity',
     '2000cai',
   ],
+};
+
+// live stream block time setting (seconds)
+export const liveStreamBlockTimeConfig = {
+  SSC: 600,
+  '11X5': 1200,
 };
 
 export default {};
