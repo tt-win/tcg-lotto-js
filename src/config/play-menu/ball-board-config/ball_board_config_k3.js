@@ -19,6 +19,7 @@ export default {
     //Single_Same_3_K3
     1919: BallBoardConfigRecord({
         ...baseK3Props,
+        boardClassNames: 'Single_Same_3_K3',
         betDigits: [betDigits.Single_Same_3_K3],
         formula: 'oneBallOneNum',
     }),
@@ -63,6 +64,7 @@ export default {
     //Multi_Same_2_K3
     1927: BallBoardConfigRecord({
         ...baseK3Props,
+        boardClassNames: 'Multi_Same_2_K3',
         betDigits: [betDigits.Multi_Same_2_K3],
         formula: 'oneBallOneNum',
     }),
@@ -75,6 +77,7 @@ export default {
     //Sum_BS_OE_K3
     1931: BallBoardConfigRecord({
         ...baseBSOEProps,
+        boardClassNames: 'Sum_BS_OE_K3',
         betDigits: [betDigits.Sum_BS_OE_K3],
         formula: 'oneNum',
         multi: false,
