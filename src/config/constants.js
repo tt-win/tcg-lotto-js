@@ -88,6 +88,9 @@ export const merchantCode = {
     'cxstar',
     'wbcity',
     '2000cai',
+    'botianxia',
+    'boyifang',
+    'heying',
   ],
 };
 

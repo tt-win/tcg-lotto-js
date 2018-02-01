@@ -16,6 +16,20 @@ export const config = {
         'Dragon_Tiger_10_1_SSC',
       ],
     },
+    heying: {
+      playCodes: [
+        'Dragon_Tiger_10T_T_SSC',
+        'Dragon_Tiger_10T_H_SSC',
+        'Dragon_Tiger_10T_10_SSC',
+        'Dragon_Tiger_10T_1_SSC',
+        'Dragon_Tiger_T_H_SSC',
+        'Dragon_Tiger_T_10_SSC',
+        'Dragon_Tiger_T_1_SSC',
+        'Dragon_Tiger_H_10_SSC',
+        'Dragon_Tiger_H_1_SSC',
+        'Dragon_Tiger_10_1_SSC',
+      ],
+    },
   },
 };
 
