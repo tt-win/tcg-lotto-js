@@ -82,6 +82,14 @@ export default {
     1927: BallBoardConfigRecord({
         ...baseK3Props,
         boardClassNames: 'Multi_Same_2_K3',
+        ballI18n: {
+            1: 'ball.k3.Single_2_Same_ball_1',
+            2: 'ball.k3.Single_2_Same_ball_2',
+            3: 'ball.k3.Single_2_Same_ball_3',
+            4: 'ball.k3.Single_2_Same_ball_4',
+            5: 'ball.k3.Single_2_Same_ball_5',
+            6: 'ball.k3.Single_2_Same_ball_6',
+        },
         betDigits: [betDigits.Multi_Same_2_K3],
         formula: 'oneBallOneNum',
     }),
