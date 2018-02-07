@@ -490,9 +490,10 @@ export const PlayMenu = {
   Sum_K3_ENT: 1933,
   Sum_BS_OE_K3_ENT: 1934,
   Different_2_K3_ENT: 1935,
-  Single_Same_2_K3_ENT: 1936,
+  Single_Same_K3_ENT: 1936,
   Single_Same_3_K3_ENT: 1937,
   All_Same_3_K3_ENT: 1938,
+  Single_Same_2_K3_ENT: 1939,
 
 };
 

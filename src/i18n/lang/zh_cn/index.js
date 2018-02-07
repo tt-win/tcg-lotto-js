@@ -789,6 +789,14 @@ const LANG = {
   Dragon_Tiger_4_VS_7_PK10: '第四名vs第七名',
   Dragon_Tiger_5_VS_6_PK10: '第五名vs第六名',
 
+  //K3 ENT
+  BS_OE: '和值大小单双',
+  Different_2: '两连',
+  Single_Same: '独胆',
+  Single_Same_3: '豹子',
+  Single_Same_2: '对子',
+  // : '对子',
+
   // 全大小奇偶清
   pickRow: {
     all: '全',
