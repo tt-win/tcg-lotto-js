@@ -487,13 +487,13 @@ export const PlayMenu = {
 
   // K3 ENT
   Combined_K3_ENT: 1932,
-  Sum_K3_ENT: 1933,
-  Sum_BS_OE_K3_ENT: 1934,
-  Different_2_K3_ENT: 1935,
-  Single_Same_K3_ENT: 1936,
-  Single_Same_3_K3_ENT: 1937,
-  All_Same_3_K3_ENT: 1938,
-  Single_Same_2_K3_ENT: 1939,
+  Sum_K3_ENT: 1934,
+  Sum_BS_OE_K3_ENT: 1936,
+  Different_2_K3_ENT: 1938,
+  Single_Same_K3_ENT: 1940,
+  Boazi_K3_ENT: 1942,
+  Any_Boazi_K3_ENT: 1943,
+  Single_Same_2_K3_ENT: 1945,
 
 };
 
