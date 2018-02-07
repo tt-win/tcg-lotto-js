@@ -793,7 +793,7 @@ const LANG = {
   BS_OE: '和值大小单双',
   Different_2: '两连',
   Single_Same: '独胆',
-  Single_Same_3: '豹子',
+  Boazi: '豹子',
   Single_Same_2: '对子',
   // : '对子',
 
