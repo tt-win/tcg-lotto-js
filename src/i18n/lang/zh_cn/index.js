@@ -686,6 +686,7 @@ const LANG = {
   number: '号码',
   odds: '赔率',
   amount: '金额',
+  balance: '余额',
   betOrderCount: '组数',
   totalAmount: '总金额',
   colorStraight: '色波',
