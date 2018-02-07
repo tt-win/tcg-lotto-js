@@ -5,6 +5,7 @@ const baseK3Props = {
     ballRange: [1, 6],
     ballDigit: 1,
     canShowHotGap: false,
+    isShowHotGapTabs: false,
 };
 
 export default {
