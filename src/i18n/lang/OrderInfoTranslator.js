@@ -542,7 +542,7 @@ const PK10Translator = {
 
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
-            (`${result}${result ? ' ' : ''}${val}`), ''),
+    (`${result}${result ? ' ' : ''}${val}`), ''),
   },
 };
 
@@ -553,7 +553,7 @@ const PCBTranslator = {
       PlayMenu.SpecialSum_PCB,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
-            (`${result}${result ? ' | ' : ''}${val}`), ''),
+      (`${result}${result ? ' | ' : ''}${val}`), ''),
   },
 
   // 组合大小單雙
@@ -594,30 +594,30 @@ const PCBTranslator = {
       PlayMenu.SpecialCom3_PCB,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
-            (`${result}${result ? ' ' : ''}${val}`), ''),
+      (`${result}${result ? ' ' : ''}${val}`), ''),
   },
 };
 
 const K3Translator = {
     // 特碼
   BALL_NUMBER_K3: {
-    items:
-    // 傳統
+    items: [
+      // 傳統
       PlayMenu.Sum_K3,
       // 娛樂城
-        PlayMenu.Sum_K3_ENT,
-        PlayMenu.Single_Same_K3_ENT,
+      PlayMenu.Sum_K3_ENT,
+      PlayMenu.Single_Same_K3_ENT,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
-            (`${result}${result ? ' | ' : ''}${val}`), ''),
+      (`${result}${result ? ' | ' : ''}${val}`), ''),
   },
 
   SINGLE_SAME_3_K3: {
-      items: [
-        PlayMenu.Single_Same_3_K3,
-      ],
-      getText: (content) => content.split('-').reduce((result, val) =>
-        (`${result}${result ? '  ' : ''}${val}${val}${val}`), ''),
+    items: [
+      PlayMenu.Single_Same_3_K3,
+    ],
+    getText: (content) => content.split('-').reduce((result, val) =>
+      (`${result}${result ? '  ' : ''}${val}${val}${val}`), ''),
   },
 
   MULTI_BALL_NUMBER_K3: {
@@ -626,7 +626,7 @@ const K3Translator = {
       PlayMenu.Different_2_K3,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-            (`${result}${result ? ' ' : ''}${val}`), ''),
+      (`${result}${result ? ' ' : ''}${val}`), ''),
   },
 
   SINGLE_SAME_2_K3: {
@@ -634,15 +634,15 @@ const K3Translator = {
       PlayMenu.Single_Same_2_K3,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-        (`${result}${result ? result+' | ' : ''}${val}`), ''),
+      (`${result}${result ? result+' | ' : ''}${val}`), ''),
   },
 
   MULTI_SAME_2_K3: {
-      items: [
-          PlayMenu.Multi_Same_2_K3,
-      ],
-      getText: (content) => content.split('').reduce((result, val) =>
-          (`${result}${result ? '  ' : ''}${val}${val}`), ''),
+    items: [
+      PlayMenu.Multi_Same_2_K3,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? '  ' : ''}${val}${val}`), ''),
   },
 
   ALL_SAME_3_K3: {
@@ -659,36 +659,36 @@ const K3Translator = {
     getText: () => i18n('playKey.allThreeEven'),
   },
 
-BOAZI: {
+  BOAZI: {
     items: [
-        PlayMenu.Boazi_K3_ENT,
+      PlayMenu.Boazi_K3_ENT,
     ],
-        getText: (content) => content.split('').reduce((result, val) =>
-        (`${result}${result ? ' ' : ''}${val},${val},${val}`), ''),
-},
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val},${val},${val}`), ''),
+  },
 
-ANY_BOAZI: {
+  ANY_BOAZI: {
     items: [
-        PlayMenu.Any_Boazi_K3_ENT,
+      PlayMenu.Any_Boazi_K3_ENT,
     ],
-        getText: (content) => i18n(`playKey.any_Boazi`),
-},
+    getText: (content) => i18n(`playKey.any_Boazi`),
+  },
 
-DIFFERENT_2_ENT:{
+  Different_2_K3_ENT:{
     items: [
-        PlayMenu.Different_2_K3_ENT,
+      PlayMenu.Different_2_K3_ENT,
     ],
-        getText: (content) => content.split('').reduce((result, val) =>
-        (`${result}${result ? ',' : ''}${val}`), ''),
-},
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? ',' : ''}${val}`), ''),
+  },
 
-SINGLE_SAME_2_ENT:{
+  Single_Same_2_K3_ENT:{
     items: [
-        PlayMenu.Single_Same_2_K3_ENT,
+      PlayMenu.Single_Same_2_K3_ENT,
     ],
-        getText: (content) => content.split('').reduce((result, val) =>
-        (`${result}${result ? ' ' : ''}${val},${val}`), ''),
-},
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val},${val}`), ''),
+  },
 };
 
 
