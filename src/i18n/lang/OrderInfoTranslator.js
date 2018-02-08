@@ -664,7 +664,7 @@ const K3Translator = {
       PlayMenu.Boazi_K3_ENT,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-      (`${result}${result ? ' ' : ''}${val},${val},${val}`), ''),
+      (`${result}${result ? ' ' : ''}${val} | ${val} | ${val}`), ''),
   },
 
   ANY_BOAZI: {
@@ -687,7 +687,7 @@ const K3Translator = {
       PlayMenu.Single_Same_2_K3_ENT,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-      (`${result}${result ? ' ' : ''}${val},${val}`), ''),
+      (`${result}${result ? ' ' : ''}${val} | ${val}`), ''),
   },
 };
 
