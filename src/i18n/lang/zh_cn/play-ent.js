@@ -21,6 +21,44 @@ const ARR_EXTREMUM = ['极大', '极小' ];
 const ARR_COLOR = ['', '红', '蓝', '绿' ];
 const ARR_BOE = ['大单', '大双' ];
 const ARR_SOE = ['小单', '小双' ];
+
+const ARR_K3_STRAIGHT = chreateNumberArray(3, 28);
+const ARR_K3_Different_Two =  {
+    '12': '1,2',
+    '13': '1,3',
+    '14': '1,4',
+    '15': '1,5',
+    '16': '1,6',
+    '23': '2,3',
+    '24': '2,4',
+    '25': '2,5',
+    '26': '2,6',
+    '34': '3,4',
+    '35': '3,5',
+    '36': '3,5',
+    '45': '4,5',
+    '46': '4,6',
+    '5': '5,6',
+};
+const ARR_K3_Single_Same = chreateNumberArray(1, 6);
+const ARR_K3_Boazi = {
+    '1': '1,1,1',
+    '2': '2,2,2',
+    '3': '3,3,3',
+    '4': '4,4,4',
+    '5': '5,5,5',
+    '6': '6,6,6',
+};
+const ARR_K3_Any_Boazi = ['任意豹子'];
+const ARR_K3_Single_SameTwo = {
+    '1': '1,1',
+    '2': '2,2',
+    '3': '3,3',
+    '4': '4,4',
+    '5': '5,5',
+    '6': '6,6',
+};
+
 const createObj = (playId, type) => {
     const obj = {};
     let item = [];
@@ -63,6 +101,24 @@ const createObj = (playId, type) => {
             break;
         case 'smallOe':
             item = [].concat(ARR_SOE);
+            break;
+        case 'k3Straight':
+            item = [].concat(ARR_K3_STRAIGHT);
+            break;
+        case 'k3DifferentTwo':
+            item = [].concat(ARR_K3_Different_Two);
+            break;
+        case 'k3SingleSame':
+            item = [].concat(ARR_K3_Single_Same);
+            break;
+        case 'k3Boazi':
+            item = [].concat(ARR_K3_Boazi);
+            break;
+        case 'k3AnyBoazi':
+            item = [].concat(ARR_K3_Any_Boazi);
+            break;
+        case 'k3SingleSameTwo':
+            item = [].concat(ARR_K3_Single_SameTwo);
             break;
         default:
             break;
@@ -231,6 +287,22 @@ const Color_PCB =  createObj(1913, 'color');
 const Boazi_PCB =  createObj(1914, 'special');
 // ======================= PCB =======================
 
+// ======================= K3 =======================
+// 和值
+const K3SpecialSum = createObj(1934, 'k3Straight');
+// 大小單雙
+const K3SpecialBSOE = createObj(1936, 'bsoe');
+// 兩連
+const K3DifferentTwo = createObj(1938, 'k3DifferentTwo');
+// 獨膽
+const K3SingleSame = createObj(1940, 'k3SingleSame');
+//豹子
+const K3Boazi =  createObj(1942, 'k3Boazi');
+// 任意豹子
+const K3AnyBoazi = createObj(1943, 'k3AnyBoazi');
+// 對子
+const K3SingleSameTwo = createObj(1945, 'k3SingleSameTwo');
+// ======================= PCB =======================
 const EntPlayMenu = {
     // ======================= SSC =======================
     // 第一球
@@ -348,6 +420,14 @@ const EntPlayMenu = {
     ...Special_Extremum_BS_PCB ,
     ...Color_PCB ,
     ...Boazi_PCB ,
+    // ====================== K3 =======================
+    ...K3SpecialSum,
+    ...K3SpecialBSOE,
+    ...K3DifferentTwo,
+    ...K3SingleSame,
+    ...K3Boazi,
+    ...K3AnyBoazi,
+    ...K3SingleSameTwo,
 };
 
 export default EntPlayMenu;

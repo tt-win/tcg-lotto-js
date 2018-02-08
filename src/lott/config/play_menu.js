@@ -131,6 +131,9 @@ export const defaultActivePlayMenu = {
       PCB: {
         active: 'Combined_PCB',
       },
+      K3: {
+          active: 'Combined_K3_ENT',
+      },
     },
   },
 };
