@@ -421,7 +421,13 @@ const EntPlayMenu = {
     ...Color_PCB ,
     ...Boazi_PCB ,
     // ====================== K3 =======================
-    ...
+    ...K3SpecialSum,
+    ...K3SpecialBSOE,
+    ...K3DifferentTwo,
+    ...K3SingleSame,
+    ...K3Boazi,
+    ...K3AnyBoazi,
+    ...K3SingleSameTwo,
 };
 
 export default EntPlayMenu;
