@@ -126,8 +126,8 @@ const createObj = (playId, type) => {
     if (type === 'pk10Straight' ||
         type === 'twoSum' ||
         type === 'threeSum' ||
-        type === 'ARR_K3_STRAIGHT' ||
-        type === 'ARR_K3_Single_Same') {
+        type === 'k3Straight' ||
+        type === 'k3SingleSame') {
         item.forEach((data) => {
             obj[`${playId}_${data}`] = data;
         });
