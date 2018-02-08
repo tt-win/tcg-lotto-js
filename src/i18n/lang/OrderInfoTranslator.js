@@ -565,7 +565,7 @@ const PCBTranslator = {
     },
 
     // 极值
-    Extremum_BS_PCB: {
+    Etremum_BS_PCB: {
         items: [
             PlayMenu.Special_Extremum_BS_PCB,
         ],
@@ -620,34 +620,54 @@ const K3Translator = {
             PlayMenu.Different_3_K3,
             PlayMenu.Single_Same_2_K3,
             PlayMenu.Different_2_K3,
-            // 娛樂城
-            PlayMenu.Different_2_K3_ENT,
-            PlayMenu.Boazi_K3_ENT,
-            PlayMenu.Single_Same_2_K3_ENT,
         ],
         getText: (content) => content.split('').reduce((result, val) =>
             (`${result}${result ? ' ' : ''}${val}`), ''),
     },
 
-    All_Same_3_K3: {
+    All_SAME_3_K3: {
         items: [
             PlayMenu.All_Same_3_K3,
         ],
         getText: (content) => i18n(`playKey.allThreeSame`),
     },
 
-    All_Even_3_K3: {
+    All_EVEN_3_K3: {
         items: [
             PlayMenu.All_Even_3_K3,
         ],
         getText: (content) => i18n(`playKey.allThreeEven`),
     },
 
-    Any_Boazi: {
+    BOAZI: {
+        items: [
+            PlayMenu.Boazi_K3_ENT,
+        ],
+        getText: (content) => content.split('').reduce((result, val) =>
+        (`${result}${result ? ' ' : ''}${val},${val},${val}`), ''),
+    },
+
+    ANY_BOAZI: {
         items: [
             PlayMenu.Any_Boazi_K3_ENT,
         ],
-        getText: (content) => i18n(`playKey.Any_Boazi`),
+        getText: (content) => i18n(`playKey.any_Boazi`),
+    },
+
+    DIFFERENT_2_ENT:{
+        items: [
+            PlayMenu.Different_2_K3_ENT,
+        ],
+        getText: (content) => content.split('').reduce((result, val) =>
+            (`${result}${result ? ',' : ''}${val}`), ''),
+    },
+
+    SINGLE_SAME_2_ENT:{
+        items: [
+            PlayMenu.Single_Same_2_K3_ENT,
+        ],
+        getText: (content) => content.split('').reduce((result, val) =>
+            (`${result}${result ? ' ' : ''}${val},${val}`), ''),
     },
 };
 
