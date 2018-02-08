@@ -22,8 +22,8 @@ const ARR_COLOR = ['', '红', '蓝', '绿' ];
 const ARR_BOE = ['大单', '大双' ];
 const ARR_SOE = ['小单', '小双' ];
 
-const ARR_K3_STRAIGHT = chreateNumberArray(3, 28);
-const ARR_K3_Different_Two =  {
+const ARR_K3_STRAIGHT = chreateNumberArray(3, 26);
+const OBJ_K3_Different_Two =  {
     '12': '1,2',
     '13': '1,3',
     '14': '1,4',
@@ -38,10 +38,10 @@ const ARR_K3_Different_Two =  {
     '36': '3,5',
     '45': '4,5',
     '46': '4,6',
-    '5': '5,6',
+    '56': '5,6',
 };
 const ARR_K3_Single_Same = chreateNumberArray(1, 6);
-const ARR_K3_Boazi = {
+const OBJ_K3_Boazi = {
     '1': '1,1,1',
     '2': '2,2,2',
     '3': '3,3,3',
@@ -50,7 +50,7 @@ const ARR_K3_Boazi = {
     '6': '6,6,6',
 };
 const ARR_K3_Any_Boazi = ['任意豹子'];
-const ARR_K3_Single_SameTwo = {
+const OBJ_K3_Single_SameTwo = {
     '1': '1,1',
     '2': '2,2',
     '3': '3,3',
@@ -106,32 +106,38 @@ const createObj = (playId, type) => {
             item = [].concat(ARR_K3_STRAIGHT);
             break;
         case 'k3DifferentTwo':
-            item = [].concat(ARR_K3_Different_Two);
+            item = OBJ_K3_Different_Two;
             break;
         case 'k3SingleSame':
             item = [].concat(ARR_K3_Single_Same);
             break;
         case 'k3Boazi':
-            item = [].concat(ARR_K3_Boazi);
+            item = OBJ_K3_Boazi;
             break;
         case 'k3AnyBoazi':
             item = [].concat(ARR_K3_Any_Boazi);
             break;
         case 'k3SingleSameTwo':
-            item = [].concat(ARR_K3_Single_SameTwo);
+            item = OBJ_K3_Single_SameTwo;
             break;
         default:
             break;
     }
     if (type === 'pk10Straight' ||
         type === 'twoSum' ||
-        type === 'threeSum') {
+        type === 'threeSum' ||
+        type === 'ARR_K3_STRAIGHT' ||
+        type === 'ARR_K3_Single_Same') {
         item.forEach((data) => {
             obj[`${playId}_${data}`] = data;
         });
     } else if(type === 'bigOe' || type === 'smallOe') {
         item.forEach((data, betContent) => {
             obj[`${playId}_${betContent+2}`] = data;
+        });
+    } else if(type == 'k3DifferentTwo' || type == 'k3Boazi' || type == 'k3SingleSameTwo'){
+        Object.keys(item).forEach((data) => {
+            obj[`${playId}_${data}`] = item[data];
         });
     }
     else {
