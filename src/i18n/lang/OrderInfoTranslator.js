@@ -603,31 +603,52 @@ const K3Translator = {
   BALL_NUMBER_K3: {
     items: [
       PlayMenu.Sum_K3,
-      PlayMenu.Single_Same_3_K3,
-      PlayMenu.Multi_Same_2_K3,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' | ' : ''}${val}`), ''),
   },
 
+  SINGLE_SAME_3_K3: {
+      items: [
+        PlayMenu.Single_Same_3_K3,
+      ],
+      getText: (content) => content.split('-').reduce((result, val) =>
+        (`${result}${result ? '  ' : ''}${val}${val}${val}`), ''),
+  },
+
   MULTI_BALL_NUMBER_K3: {
     items: [
       PlayMenu.Different_3_K3,
-      PlayMenu.Single_Same_2_K3,
       PlayMenu.Different_2_K3,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
             (`${result}${result ? ' ' : ''}${val}`), ''),
   },
 
-  All_Same_3_K3: {
+  SINGLE_SAME_2_K3: {
+    items: [
+      PlayMenu.Single_Same_2_K3,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
+        (`${result}${result ? result+' | ' : ''}${val}`), ''),
+  },
+
+  MULTI_SAME_2_K3: {
+      items: [
+          PlayMenu.Multi_Same_2_K3,
+      ],
+      getText: (content) => content.split('').reduce((result, val) =>
+          (`${result}${result ? '  ' : ''}${val}${val}`), ''),
+  },
+
+  ALL_SAME_3_K3: {
     items: [
       PlayMenu.All_Same_3_K3,
     ],
     getText: () => i18n('playKey.allThreeSame'),
   },
 
-  All_Even_3_K3: {
+  ALL_EVEN_3_K3: {
     items: [
       PlayMenu.All_Even_3_K3,
     ],
