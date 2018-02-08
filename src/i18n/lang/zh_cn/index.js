@@ -239,6 +239,7 @@ const LANG = {
     orderStatus_8: '个人撤单',
     orderStatus_12: '空开撤单',
     orderStatus_16: '和局',
+    orderStatus_99: '无效订单',
   },
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩种已关闭',
@@ -686,6 +687,7 @@ const LANG = {
   number: '号码',
   odds: '赔率',
   amount: '金额',
+  balance: '余额',
   betOrderCount: '组数',
   totalAmount: '总金额',
   colorStraight: '色波',

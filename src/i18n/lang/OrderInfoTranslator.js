@@ -141,24 +141,24 @@ const LHC_KEY = {
 };
 
 const PCB_KEY = {
-    BS_OE: {
-        '02': 'bigOdd',
-        '03': 'bigEven',
-        12: 'smallOdd',
-        13: 'smallEven',
-    },
+  BS_OE: {
+    '02': 'bigOdd',
+    '03': 'bigEven',
+    12: 'smallOdd',
+    13: 'smallEven',
+  },
 
-    Extremum_BS: {
-        0: 'extremumBig',
-        1: 'extremumSmall',
-    },
+  Extremum_BS: {
+    0: 'extremumBig',
+    1: 'extremumSmall',
+  },
 
-    Color: {
-      1: 'colorStraightRed',
-      2: 'colorStraightBlue',
-      3:'colorStraightGreen',
-    },
-}
+  Color: {
+    1: 'colorStraightRed',
+    2: 'colorStraightBlue',
+    3: 'colorStraightGreen',
+  },
+};
 
 
 const LHCTranslator = {
@@ -514,161 +514,181 @@ const LHCTranslator = {
 };
 
 const PK10Translator = {
-    BALL_NUMBER_PK10: {
-        items: [
-            PlayMenu.First1_PK10,
-            PlayMenu.First2_PK10,
-            PlayMenu.First3_PK10,
-            PlayMenu.First4_PK10,
-            PlayMenu.First5_PK10,
-            PlayMenu.First5Fixed_PK10,
-            PlayMenu.Last5Fixed_PK10,
-            PlayMenu.First2Sum_PK10,
-            PlayMenu.First3Sum_PK10,
-            PlayMenu.FirstLastSum_PK10,
-            PlayMenu.FirstPlace_PK10,
-            PlayMenu.First2Sum_PK10,
-            PlayMenu.First3Sum_PK10,
-            PlayMenu.FirstLastSum_PK10,
-            PlayMenu.SecondPlace_PK10,
-            PlayMenu.ThirdPlace_PK10,
-            PlayMenu.FourthPlace_PK10,
-            PlayMenu.FifthPlace_PK10,
-            PlayMenu.SixthPlace_PK10,
-            PlayMenu.SeventhPlace_PK10,
-            PlayMenu.EighthPlace_PK10,
-            PlayMenu.NinthPlace_PK10,
-            PlayMenu.TenthPlace_PK10,
+  BALL_NUMBER_PK10: {
+    items: [
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
+      PlayMenu.First5Fixed_PK10,
+      PlayMenu.Last5Fixed_PK10,
+      PlayMenu.First2Sum_PK10,
+      PlayMenu.First3Sum_PK10,
+      PlayMenu.FirstLastSum_PK10,
+      PlayMenu.FirstPlace_PK10,
+      PlayMenu.First2Sum_PK10,
+      PlayMenu.First3Sum_PK10,
+      PlayMenu.FirstLastSum_PK10,
+      PlayMenu.SecondPlace_PK10,
+      PlayMenu.ThirdPlace_PK10,
+      PlayMenu.FourthPlace_PK10,
+      PlayMenu.FifthPlace_PK10,
+      PlayMenu.SixthPlace_PK10,
+      PlayMenu.SeventhPlace_PK10,
+      PlayMenu.EighthPlace_PK10,
+      PlayMenu.NinthPlace_PK10,
+      PlayMenu.TenthPlace_PK10,
 
-        ],
-        getText: (content) => content.split('-').reduce((result, val) =>
+    ],
+    getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' ' : ''}${val}`), ''),
-    },
-}
+  },
+};
 
 const PCBTranslator = {
-  //特碼
-    BALL_NUMBER_PCB: {
-        items: [
-            PlayMenu.SpecialSum_PCB,
-        ],
-        getText: (content) => content.split('-').reduce((result, val) =>
+  // 特碼
+  BALL_NUMBER_PCB: {
+    items: [
+      PlayMenu.SpecialSum_PCB,
+    ],
+    getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' | ' : ''}${val}`), ''),
-    },
+  },
 
-  //组合大小單雙
-    BS_OE_PCB: {
-        items: [
-            PlayMenu.Special_BS_OE_PCB,
-        ],
-        getText: (content) => i18n(`playKey.${PCB_KEY.BS_OE[content]}`),
-    },
+  // 组合大小單雙
+  BS_OE_PCB: {
+    items: [
+      PlayMenu.Special_BS_OE_PCB,
+    ],
+    getText: (content) => i18n(`playKey.${PCB_KEY.BS_OE[content]}`),
+  },
 
     // 极值
-    Etremum_BS_PCB: {
-        items: [
-            PlayMenu.Special_Extremum_BS_PCB,
-        ],
-        getText: (content) => i18n(`playKey.${PCB_KEY.Extremum_BS[content]}`),
-    },
+  Extremum_BS_PCB: {
+    items: [
+      PlayMenu.Special_Extremum_BS_PCB,
+    ],
+    getText: (content) => i18n(`playKey.${PCB_KEY.Extremum_BS[content]}`),
+  },
 
     // 色波
-    Color_PCB: {
-        items: [
-            PlayMenu.Color_PCB,
-        ],
-        getText: (content) => i18n(`playKey.${PCB_KEY.Color[content]}`),
-    },
+  Color_PCB: {
+    items: [
+      PlayMenu.Color_PCB,
+    ],
+    getText: (content) => i18n(`playKey.${PCB_KEY.Color[content]}`),
+  },
 
-    //豹子
-    Boazi_PCB: {
-        items: [
-            PlayMenu.Boazi_PCB,
-        ],
-        getText: (content) => i18n(`playKey.baozi`),
-    },
+    // 豹子
+  Boazi_PCB: {
+    items: [
+      PlayMenu.Boazi_PCB,
+    ],
+    getText: () => i18n('playKey.baozi'),
+  },
 
-    //特碼包三
-    SpecialCom3_PCB: {
-        items: [
-            PlayMenu.SpecialCom3_PCB,
-        ],
-        getText: (content) => content.split(',').reduce((result, val) =>
+    // 特碼包三
+  SpecialCom3_PCB: {
+    items: [
+      PlayMenu.SpecialCom3_PCB,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
             (`${result}${result ? ' ' : ''}${val}`), ''),
-    },
+  },
 };
 
 const K3Translator = {
-    //特碼
-    BALL_NUMBER_K3: {
-        items: [
-            // 傳統
-            PlayMenu.Sum_K3,
-            PlayMenu.Single_Same_3_K3,
-            PlayMenu.Multi_Same_2_K3,
-            // 娛樂城
-            PlayMenu.Sum_K3_ENT,
-            PlayMenu.Single_Same_K3_ENT,
-        ],
-        getText: (content) => content.split('-').reduce((result, val) =>
+    // 特碼
+  BALL_NUMBER_K3: {
+    items:
+    // 傳統
+      PlayMenu.Sum_K3,
+      // 娛樂城
+        PlayMenu.Sum_K3_ENT,
+        PlayMenu.Single_Same_K3_ENT,
+    ],
+    getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' | ' : ''}${val}`), ''),
-    },
+  },
 
-    MULTI_BALL_NUMBER_K3: {
-        items: [
-            // 傳統
-            PlayMenu.Different_3_K3,
-            PlayMenu.Single_Same_2_K3,
-            PlayMenu.Different_2_K3,
-        ],
-        getText: (content) => content.split('').reduce((result, val) =>
+  SINGLE_SAME_3_K3: {
+      items: [
+        PlayMenu.Single_Same_3_K3,
+      ],
+      getText: (content) => content.split('-').reduce((result, val) =>
+        (`${result}${result ? '  ' : ''}${val}${val}${val}`), ''),
+  },
+
+  MULTI_BALL_NUMBER_K3: {
+    items: [
+      PlayMenu.Different_3_K3,
+      PlayMenu.Different_2_K3,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
             (`${result}${result ? ' ' : ''}${val}`), ''),
-    },
+  },
 
-    All_SAME_3_K3: {
-        items: [
-            PlayMenu.All_Same_3_K3,
-        ],
-        getText: (content) => i18n(`playKey.allThreeSame`),
-    },
+  SINGLE_SAME_2_K3: {
+    items: [
+      PlayMenu.Single_Same_2_K3,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
+        (`${result}${result ? result+' | ' : ''}${val}`), ''),
+  },
 
-    All_EVEN_3_K3: {
-        items: [
-            PlayMenu.All_Even_3_K3,
-        ],
-        getText: (content) => i18n(`playKey.allThreeEven`),
-    },
+  MULTI_SAME_2_K3: {
+      items: [
+          PlayMenu.Multi_Same_2_K3,
+      ],
+      getText: (content) => content.split('').reduce((result, val) =>
+          (`${result}${result ? '  ' : ''}${val}${val}`), ''),
+  },
 
-    BOAZI: {
-        items: [
-            PlayMenu.Boazi_K3_ENT,
-        ],
+  ALL_SAME_3_K3: {
+    items: [
+      PlayMenu.All_Same_3_K3,
+    ],
+    getText: () => i18n('playKey.allThreeSame'),
+  },
+
+  ALL_EVEN_3_K3: {
+    items: [
+      PlayMenu.All_Even_3_K3,
+    ],
+    getText: () => i18n('playKey.allThreeEven'),
+  },
+
+BOAZI: {
+    items: [
+        PlayMenu.Boazi_K3_ENT,
+    ],
         getText: (content) => content.split('').reduce((result, val) =>
         (`${result}${result ? ' ' : ''}${val},${val},${val}`), ''),
-    },
+},
 
-    ANY_BOAZI: {
-        items: [
-            PlayMenu.Any_Boazi_K3_ENT,
-        ],
+ANY_BOAZI: {
+    items: [
+        PlayMenu.Any_Boazi_K3_ENT,
+    ],
         getText: (content) => i18n(`playKey.any_Boazi`),
-    },
+},
 
-    DIFFERENT_2_ENT:{
-        items: [
-            PlayMenu.Different_2_K3_ENT,
-        ],
+DIFFERENT_2_ENT:{
+    items: [
+        PlayMenu.Different_2_K3_ENT,
+    ],
         getText: (content) => content.split('').reduce((result, val) =>
-            (`${result}${result ? ',' : ''}${val}`), ''),
-    },
+        (`${result}${result ? ',' : ''}${val}`), ''),
+},
 
-    SINGLE_SAME_2_ENT:{
-        items: [
-            PlayMenu.Single_Same_2_K3_ENT,
-        ],
+SINGLE_SAME_2_ENT:{
+    items: [
+        PlayMenu.Single_Same_2_K3_ENT,
+    ],
         getText: (content) => content.split('').reduce((result, val) =>
-            (`${result}${result ? ' ' : ''}${val},${val}`), ''),
-    },
+        (`${result}${result ? ' ' : ''}${val},${val}`), ''),
+},
 };
 
 
@@ -733,7 +753,6 @@ const OrderInfoTranslatorList = {
       PlayMenu.SpecialBSOE_PCB,
       // K3
       PlayMenu.Sum_BS_OE_K3,
-      PlayMenu.Sum_BS_OE_K3_ENT,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
