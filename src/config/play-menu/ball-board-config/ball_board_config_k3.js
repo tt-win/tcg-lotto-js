@@ -108,5 +108,6 @@ export default {
         formula: 'oneNum',
         multi: false,
         canShowHotGap: false,
+        isShowHotGapTabs: false,
     }),
 };
