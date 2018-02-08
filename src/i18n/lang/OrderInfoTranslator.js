@@ -602,9 +602,13 @@ const K3Translator = {
     //特碼
     BALL_NUMBER_K3: {
         items: [
+            // 傳統
             PlayMenu.Sum_K3,
             PlayMenu.Single_Same_3_K3,
             PlayMenu.Multi_Same_2_K3,
+            // 娛樂城
+            PlayMenu.Sum_K3_ENT,
+            PlayMenu.Single_Same_K3_ENT,
         ],
         getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' | ' : ''}${val}`), ''),
@@ -612,9 +616,14 @@ const K3Translator = {
 
     MULTI_BALL_NUMBER_K3: {
         items: [
+            // 傳統
             PlayMenu.Different_3_K3,
             PlayMenu.Single_Same_2_K3,
             PlayMenu.Different_2_K3,
+            // 娛樂城
+            PlayMenu.Different_2_K3_ENT,
+            PlayMenu.Boazi_K3_ENT,
+            PlayMenu.Single_Same_2_K3_ENT,
         ],
         getText: (content) => content.split('').reduce((result, val) =>
             (`${result}${result ? ' ' : ''}${val}`), ''),
@@ -632,6 +641,13 @@ const K3Translator = {
             PlayMenu.All_Even_3_K3,
         ],
         getText: (content) => i18n(`playKey.allThreeEven`),
+    },
+
+    Any_Boazi: {
+        items: [
+            PlayMenu.Any_Boazi_K3_ENT,
+        ],
+        getText: (content) => i18n(`playKey.Any_Boazi`),
     },
 };
 
@@ -697,6 +713,7 @@ const OrderInfoTranslatorList = {
       PlayMenu.SpecialBSOE_PCB,
       // K3
       PlayMenu.Sum_BS_OE_K3,
+      PlayMenu.Sum_BS_OE_K3_ENT,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
