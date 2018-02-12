@@ -844,6 +844,7 @@ const LANG = {
     sumOneTwoBigSmall: '冠亚和大小',
     // 幸運28
     special: '特码',
+    sum: '和值',
   },
 
   entPicture: {
