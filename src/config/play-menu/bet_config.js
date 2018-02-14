@@ -346,6 +346,7 @@ const groupBetConfigK3 = {
   }),
   Single_Same_2_K3: BetConfigRecord({
     isBetMatchBallRow: true,
+    isBetSlipByStake: true,
   }),
   Multi_Same_2_K3: BetConfigRecord({
     isBetSlipByBall: true,

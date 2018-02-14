@@ -5,6 +5,7 @@ const baseK3Props = {
     ballRange: [1, 6],
     ballDigit: 1,
     canShowHotGap: false,
+    isShowHotGapTabs: false,
 };
 
 export default {
@@ -28,7 +29,9 @@ export default {
             6: 'ball.k3.Single_Same_3_K3_ball_6',
         },
         boardClassNames: 'Single_Same_3_K3',
-        betDigits: [betDigits.Single_Same_3_K3],
+        // betDigits: [betDigits.Single_Same_3_K3],
+        betDigits: [betDigits.EMPTY],
+        hasToolbar: false,
         formula: 'oneBallOneNum',
     }),
     //All_Same_3_K3
@@ -39,7 +42,8 @@ export default {
             0: 'ball.k3.All_Same_3_K3',
         },
         boardClassNames: 'All_Same_3_K3',
-        betDigits: [betDigits.All_Same_3_K3],
+        // betDigits: [betDigits.All_Same_3_K3],
+        betDigits: [betDigits.EMPTY],
         formula: 'oneNum',
         hasToolbar: false,
     }),
@@ -57,7 +61,8 @@ export default {
             1: 'ball.k3.All_Even_3_K3',
         },
         boardClassNames: 'All_Even_3_K3',
-        betDigits: [betDigits.All_Even_3_K3],
+        // betDigits: [betDigits.All_Even_3_K3],
+        betDigits: [betDigits.EMPTY],
         formula: 'oneNum',
         hasToolbar: false,
     }),
@@ -107,5 +112,6 @@ export default {
         formula: 'oneNum',
         multi: false,
         canShowHotGap: false,
+        isShowHotGapTabs: false,
     }),
 };
