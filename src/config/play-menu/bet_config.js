@@ -10,6 +10,8 @@ const BetConfigRecord = Record({
   isBetSlipByBall: false,
   // 該玩法是否需要依列作球組合
   isBetMatchBallRow: false,
+  // 該玩法是否需要依注數組合 for K3 二同號單選
+  isBetSlipByStake: false,
   // 機選: 每列最少球數
   minBalls: [],
   // 機選: 最少選幾列, -1 表示不限制
