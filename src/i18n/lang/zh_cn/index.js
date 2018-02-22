@@ -5,7 +5,7 @@ const LANG = {
   ...PlayMenu,
   prizeMode: {
     Lott: '官方',
-    Tradition: '传统', // TODO clean this
+    Tradition: '官方', // TODO clean this
     ZY: '智贏',
   },
   betDigit: {
@@ -734,7 +734,7 @@ const LANG = {
   betOrderTotal: '总计',
   pleaseKeyAmount: '请输入金额',
   entertainment: '娱乐城',
-  tradition: '传统',
+  tradition: '官方',
   quicklyAmount: '快选金额',
   quicklyAmountInfo: '注意：设置只保存在您的电脑，清空浏览器缓存或更换电脑会显示默认值。',
   playMenuHot: '出码排行',
