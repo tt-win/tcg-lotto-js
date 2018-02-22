@@ -599,7 +599,7 @@ const PCBTranslator = {
 };
 
 const K3Translator = {
-    // 特碼
+    // 和值
   BALL_NUMBER_K3: {
     items: [
       // 傳統
@@ -679,7 +679,7 @@ const K3Translator = {
       PlayMenu.Different_2_K3_ENT,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-      (`${result}${result ? ',' : ''}${val}`), ''),
+      (`${result}${result ? ' | ' : ''}${val}`), ''),
   },
 
   Single_Same_2_K3_ENT:{
@@ -753,6 +753,7 @@ const OrderInfoTranslatorList = {
       PlayMenu.SpecialBSOE_PCB,
       // K3
       PlayMenu.Sum_BS_OE_K3,
+      PlayMenu.Sum_BS_OE_K3_ENT,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
