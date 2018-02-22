@@ -518,4 +518,5 @@ export const lhcPlayKey = {
   normalTailSmall: '尾小',
   allThreeSame: '三同号通选',
   allThreeEven: '三连号通选',
+  any_Boazi: '任意豹子',
 };

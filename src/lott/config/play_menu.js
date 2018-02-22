@@ -131,6 +131,9 @@ export const defaultActivePlayMenu = {
       PCB: {
         active: 'Combined_PCB',
       },
+      K3: {
+          active: 'Combined_K3_ENT',
+      },
     },
   },
 };
@@ -484,5 +487,16 @@ export const PlayMenu = {
   Multi_Same_2_K3: 1927,
   Different_2_K3: 1929,
   Sum_BS_OE_K3: 1931,
+
+  // K3 ENT
+  Combined_K3_ENT: 1932,
+  Sum_K3_ENT: 1934,
+  Sum_BS_OE_K3_ENT: 1936,
+  Different_2_K3_ENT: 1938,
+  Single_Same_K3_ENT: 1940,
+  Boazi_K3_ENT: 1942,
+  Any_Boazi_K3_ENT: 1943,
+  Single_Same_2_K3_ENT: 1945,
+
 };
 

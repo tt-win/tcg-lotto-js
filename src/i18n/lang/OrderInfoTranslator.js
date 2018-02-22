@@ -542,7 +542,7 @@ const PK10Translator = {
 
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
-            (`${result}${result ? ' ' : ''}${val}`), ''),
+    (`${result}${result ? ' ' : ''}${val}`), ''),
   },
 };
 
@@ -553,7 +553,7 @@ const PCBTranslator = {
       PlayMenu.SpecialSum_PCB,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
-            (`${result}${result ? ' | ' : ''}${val}`), ''),
+      (`${result}${result ? ' | ' : ''}${val}`), ''),
   },
 
   // 组合大小單雙
@@ -594,7 +594,7 @@ const PCBTranslator = {
       PlayMenu.SpecialCom3_PCB,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
-            (`${result}${result ? ' ' : ''}${val}`), ''),
+      (`${result}${result ? ' ' : ''}${val}`), ''),
   },
 };
 
@@ -602,18 +602,22 @@ const K3Translator = {
     // 特碼
   BALL_NUMBER_K3: {
     items: [
+      // 傳統
       PlayMenu.Sum_K3,
+      // 娛樂城
+      PlayMenu.Sum_K3_ENT,
+      PlayMenu.Single_Same_K3_ENT,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
-            (`${result}${result ? ' | ' : ''}${val}`), ''),
+      (`${result}${result ? ' | ' : ''}${val}`), ''),
   },
 
   SINGLE_SAME_3_K3: {
-      items: [
-        PlayMenu.Single_Same_3_K3,
-      ],
-      getText: (content) => content.split('-').reduce((result, val) =>
-        (`${result}${result ? '  ' : ''}${val}${val}${val}`), ''),
+    items: [
+      PlayMenu.Single_Same_3_K3,
+    ],
+    getText: (content) => content.split('-').reduce((result, val) =>
+      (`${result}${result ? '  ' : ''}${val}${val}${val}`), ''),
   },
 
   MULTI_BALL_NUMBER_K3: {
@@ -622,7 +626,7 @@ const K3Translator = {
       PlayMenu.Different_2_K3,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-            (`${result}${result ? ' ' : ''}${val}`), ''),
+      (`${result}${result ? ' ' : ''}${val}`), ''),
   },
 
   SINGLE_SAME_2_K3: {
@@ -630,15 +634,15 @@ const K3Translator = {
       PlayMenu.Single_Same_2_K3,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-        (`${result}${result ? result+' | ' : ''}${val}`), ''),
+      (`${result}${result ? result+' | ' : ''}${val}`), ''),
   },
 
   MULTI_SAME_2_K3: {
-      items: [
-          PlayMenu.Multi_Same_2_K3,
-      ],
-      getText: (content) => content.split('').reduce((result, val) =>
-          (`${result}${result ? '  ' : ''}${val}${val}`), ''),
+    items: [
+      PlayMenu.Multi_Same_2_K3,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? '  ' : ''}${val}${val}`), ''),
   },
 
   ALL_SAME_3_K3: {
@@ -654,7 +658,40 @@ const K3Translator = {
     ],
     getText: () => i18n('playKey.allThreeEven'),
   },
+
+  BOAZI: {
+    items: [
+      PlayMenu.Boazi_K3_ENT,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val} | ${val} | ${val}`), ''),
+  },
+
+  ANY_BOAZI: {
+    items: [
+      PlayMenu.Any_Boazi_K3_ENT,
+    ],
+    getText: (content) => i18n(`playKey.any_Boazi`),
+  },
+
+  Different_2_K3_ENT:{
+    items: [
+      PlayMenu.Different_2_K3_ENT,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? ',' : ''}${val}`), ''),
+  },
+
+  Single_Same_2_K3_ENT:{
+    items: [
+      PlayMenu.Single_Same_2_K3_ENT,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val} | ${val}`), ''),
+  },
 };
+
+
 
 
 // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
@@ -866,18 +903,18 @@ const OrderInfoTranslatorList = {
 };
 
 const commaConfig = {
-  items: [
-    PlayMenu.SpecialCom3_PCB,
-  ],
-};
+    items: [
+        PlayMenu.SpecialCom3_PCB,
+    ],
+}
 
 const OrderInfoTranslator = {
 
-  getText: (playId, bettingContent) => {
+  getText: (playId, bettingContent,) => {
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
-    const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
+    const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1))
     if (translator) {
-      if (noFilter) {
+      if(noFilter) {
         return translator.getText(bettingContent);
       }
       return translator.getText(bettingContent.replace(/,/g, ''), bettingContent);
