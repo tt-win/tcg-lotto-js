@@ -5,7 +5,7 @@ const LANG = {
   ...PlayMenu,
   prizeMode: {
     Lott: '官方',
-    Tradition: '传统', // TODO clean this
+    Tradition: '官方', // TODO clean this
     ZY: '智贏',
   },
   betDigit: {
@@ -734,7 +734,7 @@ const LANG = {
   betOrderTotal: '总计',
   pleaseKeyAmount: '请输入金额',
   entertainment: '娱乐城',
-  tradition: '传统',
+  tradition: '官方',
   quicklyAmount: '快选金额',
   quicklyAmountInfo: '注意：设置只保存在您的电脑，清空浏览器缓存或更换电脑会显示默认值。',
   playMenuHot: '出码排行',
@@ -791,6 +791,14 @@ const LANG = {
   Dragon_Tiger_4_VS_7_PK10: '第四名vs第七名',
   Dragon_Tiger_5_VS_6_PK10: '第五名vs第六名',
 
+  //K3 ENT
+  BS_OE: '和值大小单双',
+  Different_2: '两连',
+  Single_Same: '独胆',
+  Boazi: '豹子',
+  Single_Same_2: '对子',
+  // : '对子',
+
   // 全大小奇偶清
   pickRow: {
     all: '全',
@@ -836,6 +844,7 @@ const LANG = {
     sumOneTwoBigSmall: '冠亚和大小',
     // 幸運28
     special: '特码',
+    sum: '和值',
   },
 
   entPicture: {
