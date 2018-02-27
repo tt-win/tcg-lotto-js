@@ -114,4 +114,8 @@ export default {
         canShowHotGap: false,
         isShowHotGapTabs: false,
     }),
+    //Sum_K3_ENT
+    1934: BallBoardConfigRecord({
+        ...baseK3Props,
+    }),
 };
