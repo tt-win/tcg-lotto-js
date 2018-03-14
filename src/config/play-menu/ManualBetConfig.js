@@ -29,6 +29,8 @@ const ManualBetConfigRecord = Record({
   minChooseManualDigits: 0,
   // 是否使用bit壓縮
   bitCompression: false,
+  // bit壓縮的最小長度
+  bitCompressionSize: null,
 });
 
 const baseSSCProps = {
@@ -58,7 +60,6 @@ const manualDigitsProps = {
 const twoStraightSSCProps = ManualBetConfigRecord({
   ...baseSSCProps,
   ballCount: 2,
-  bitCompression: true,
 });
 
 // 3星直選
@@ -66,6 +67,7 @@ const threeStraightSSCProps = ManualBetConfigRecord({
   ...baseSSCProps,
   ballCount: 3,
   bitCompression: true,
+  bitCompressionSize: 500,
 });
 
 // 3星組選
@@ -82,6 +84,7 @@ const ManualBetConfigSSC = {
     ...baseSSCProps,
     ballCount: 5,
     bitCompression: true,
+    bitCompressionSize: 50000,
   }),
   // All5All_Single
   81: ManualBetConfigRecord({
@@ -99,6 +102,7 @@ const ManualBetConfigSSC = {
     ...baseSSCProps,
     ballCount: 4,
     bitCompression: true,
+    bitCompressionSize: 5000,
   }),
   // First4Join_Single
   84: ManualBetConfigRecord({
@@ -111,6 +115,7 @@ const ManualBetConfigSSC = {
     ...baseSSCProps,
     ballCount: 4,
     bitCompression: true,
+    bitCompressionSize: 5000,
   }),
   // Last4Join_Single
   86: ManualBetConfigRecord({
