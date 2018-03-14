@@ -562,6 +562,7 @@ const LANG = {
   to: '到',
   game: '游戏',
   order: '订单',
+  lock: '锁定',
   numeroAbbreviation: '期号',
   manualDigitsTip: '提示：至少选<span>%@</span>个位置,您已选了<span>%@</span>个位置，系统将自动生成<span>%@</span>个方案。',
   dayNamesMin: ['日', '一', '二', '三', '四', '五', '六'],
