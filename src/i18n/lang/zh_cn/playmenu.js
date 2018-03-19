@@ -555,6 +555,7 @@ const PlayMenu = {
     eight: '8',
     nine: '9',
     ten: '10',
+    eleven: '11',
     zeroZero: '00',
     zeroOne: '01',
     zeroTwo: '02',
