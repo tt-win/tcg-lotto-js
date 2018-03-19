@@ -122,6 +122,9 @@ export const defaultActivePlayMenu = {
       SSC: {
         active: 'Combined_ENT',
       },
+      '11X5': {
+        active: 'Two_Side_11X5_ENT',
+      },
       PK10: {
         active: 'Two_Side_PK10',
       },
@@ -132,7 +135,7 @@ export const defaultActivePlayMenu = {
         active: 'Combined_PCB',
       },
       K3: {
-          active: 'Combined_K3_ENT',
+        active: 'Combined_K3_ENT',
       },
     },
   },
