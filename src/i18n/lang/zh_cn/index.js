@@ -803,14 +803,14 @@ const LANG = {
 
   //11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
-    ny1_11X5_ENT: '一中一',
-    ny2_11X5_ENT: '二中二',
-    ny3_11X5_ENT: '三中三',
-    ny4_11X5_ENT: '四中四',
-    ny5_11X5_ENT: '五中五',
-    ny6_11X5_ENT: '六中五',
-    ny7_11X5_ENT: '七中五',
-    ny8_11X5_ENT: '八中五',
+  Any1_11X5_ENT: '一中一',
+  Any2_11X5_ENT: '二中二',
+  Any3_11X5_ENT: '三中三',
+  Any4_11X5_ENT: '四中四',
+  Any5_11X5_ENT: '五中五',
+  Any6_11X5_ENT: '六中五',
+  Any7_11X5_ENT: '七中五',
+  Any8_11X5_ENT: '八中五',
 
   // 全大小奇偶清
   pickRow: {
