@@ -800,7 +800,9 @@ const LANG = {
   Single_Same: '独胆',
   Boazi: '豹子',
   Single_Same_2: '对子',
-  // : '对子',
+
+  //11X5 ENT
+  Two_Side_Total_Sum_Group_11X5: '总和',
 
   // 全大小奇偶清
   pickRow: {

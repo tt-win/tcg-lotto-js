@@ -689,6 +689,14 @@ const PlayMenu = {
     single_same_2_4: '4,4',
     single_same_2_5: '5,5',
     single_same_2_6: '6,6',
+
+    //11X5 ENT
+    twoSideSumGroupBig: '和大',
+    twoSideSumGroupSmall: '和小',
+    twoSideSumGroupOdd: '和单',
+    twoSideSumGroupEven: '和双',
+    twoSideSumGroupTailBig: '尾大',
+    twoSideSumGroupTailSmall: '尾小',
   },
   playRemark: {
     ...playRemark,
