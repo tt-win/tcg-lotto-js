@@ -59,6 +59,8 @@ const OBJ_K3_Single_SameTwo = {
     '6': '6,6',
 };
 
+const ARR_Total_Sum_Group = ['和大', '和小', '和单', '和双', '尾大', '尾小' ];
+
 const createObj = (playId, type) => {
     const obj = {};
     let item = [];
@@ -119,6 +121,9 @@ const createObj = (playId, type) => {
             break;
         case 'k3SingleSameTwo':
             item = OBJ_K3_Single_SameTwo;
+            break;
+        case '11X5TwoSideTotalSumGroup':
+            item = [].concat(ARR_Total_Sum_Group);
             break;
         default:
             break;
@@ -309,6 +314,23 @@ const K3AnyBoazi = createObj(1943, 'k3AnyBoazi');
 // 對子
 const K3SingleSameTwo = createObj(1945, 'k3SingleSameTwo');
 // ======================= PCB =======================
+
+// ======================= 11X5 =======================
+// 和值
+const _11X5TwoSideTotalSumGroup = createObj(1948, '11X5TwoSideTotalSumGroup');
+// 大小單雙
+const K3SpecialBSOE = createObj(1936, 'bsoe');
+// 兩連
+const K3DifferentTwo = createObj(1938, 'k3DifferentTwo');
+// 獨膽
+const K3SingleSame = createObj(1940, 'k3SingleSame');
+//豹子
+const K3Boazi =  createObj(1942, 'k3Boazi');
+// 任意豹子
+const K3AnyBoazi = createObj(1943, 'k3AnyBoazi');
+// 對子
+const K3SingleSameTwo = createObj(1945, 'k3SingleSameTwo');
+// ======================= 11X5 =======================
 const EntPlayMenu = {
     // ======================= SSC =======================
     // 第一球
