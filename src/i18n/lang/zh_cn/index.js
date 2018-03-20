@@ -751,6 +751,7 @@ const LANG = {
   thirdBall: '第三球',
   fourthBall: '第四球',
   fifthBall: '第五球',
+  first2: '前二',
   first3: '前三',
   middle3: '中三',
   last3: '后三',
@@ -803,14 +804,14 @@ const LANG = {
 
   //11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
-  Any1_11X5_ENT: '一中一',
-  Any2_11X5_ENT: '二中二',
-  Any3_11X5_ENT: '三中三',
-  Any4_11X5_ENT: '四中四',
-  Any5_11X5_ENT: '五中五',
-  Any6_11X5_ENT: '六中五',
-  Any7_11X5_ENT: '七中五',
-  Any8_11X5_ENT: '八中五',
+  Any1_11X5: '一中一',
+  Any2_11X5: '二中二',
+  Any3_11X5: '三中三',
+  Any4_11X5: '四中四',
+  Any5_11X5: '五中五',
+  Any6_11X5: '六中五',
+  Any7_11X5: '七中五',
+  Any8_11X5: '八中五',
 
   // 全大小奇偶清
   pickRow: {
