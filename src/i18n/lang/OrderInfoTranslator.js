@@ -162,6 +162,7 @@ const PCB_KEY = {
 
 const _11X5_KEY = {
   Total_Sum_Group: ['normalTOSumBig', 'normalTOSumSmall', 'normalTOSumOdd', 'normalTOSumEven', 'normalTailBig', 'normalTailSmall'],
+  Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
 
@@ -696,6 +697,7 @@ const K3Translator = {
 };
 
 const _11X5Translator = {
+
     Two_Side_Total_Sum_Group: {
         items: [
             PlayMenu.Two_Side_Total_Sum_Group_11X5_ENT,
@@ -713,6 +715,22 @@ const _11X5Translator = {
         ],
         getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' | ' : ''}${val}`), ''),
+    },
+
+    Dragon_Tiger: {
+        items: [
+            PlayMenu.Dragon_Tiger_5_4_11X5_ENT,
+            PlayMenu.Dragon_Tiger_5_3_11X5_ENT,
+            PlayMenu.Dragon_Tiger_5_2_11X5_ENT,
+            PlayMenu.Dragon_Tiger_5_1_11X5_ENT,
+            PlayMenu.Dragon_Tiger_4_3_11X5_ENT,
+            PlayMenu.Dragon_Tiger_4_2_11X5_ENT,
+            PlayMenu.Dragon_Tiger_4_1_11X5_ENT,
+            PlayMenu.Dragon_Tiger_3_2_11X5_ENT,
+            PlayMenu.Dragon_Tiger_3_1_11X5_ENT,
+            PlayMenu.Dragon_Tiger_2_1_11X5_ENT,
+        ],
+        getText: (content) => i18n(`playKey.${_11X5_KEY.Dragon_Tiger[content]}`),
     },
 };
 
