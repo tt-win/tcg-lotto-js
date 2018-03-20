@@ -160,6 +160,10 @@ const PCB_KEY = {
   },
 };
 
+const _11X5_KEY = {
+  Total_Sum_Group: ['normalTOSumBig', 'normalTOSumSmall', 'normalTOSumOdd', 'normalTOSumEven', 'normalTailBig', 'normalTailSmall'],
+};
+
 
 const LHCTranslator = {
   // 球號
@@ -691,8 +695,26 @@ const K3Translator = {
   },
 };
 
+const _11X5Translator = {
+    Two_Side_Total_Sum_Group: {
+        items: [
+            PlayMenu.Two_Side_Total_Sum_Group_11X5_ENT,
+        ],
+        getText: (content) => i18n(`playKey.${_11X5_KEY.Total_Sum_Group[content]}`),
+    },
 
-
+    BALL_NUMBER_11X5: {
+        items: [
+            PlayMenu.First_11X5_ENT,
+            PlayMenu.Second_11X5_ENT,
+            PlayMenu.Third_11X5_ENT,
+            PlayMenu.Fourth_11X5_ENT,
+            PlayMenu.Fifth_11X5_ENT,
+        ],
+        getText: (content) => content.split('-').reduce((result, val) =>
+            (`${result}${result ? ' | ' : ''}${val}`), ''),
+    },
+};
 
 // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
 const OrderInfoTranslatorList = {
@@ -754,6 +776,17 @@ const OrderInfoTranslatorList = {
       // K3
       PlayMenu.Sum_BS_OE_K3,
       PlayMenu.Sum_BS_OE_K3_ENT,
+      // 11X5
+      PlayMenu.Two_Side_First_BSOE_11X5_ENT,
+      PlayMenu.Two_Side_Second_BSOE_11X5_ENT,
+      PlayMenu.Two_Side_Third_BSOE_11X5_ENT,
+      PlayMenu.Two_Side_Fourth_BSOE_11X5_ENT,
+      PlayMenu.Two_Side_Fifth_BSOE_11X5_ENT,
+      PlayMenu.First_BSOE_11X5_ENT,
+      PlayMenu.Second_BSOE_11X5_ENT,
+      PlayMenu.Third_BSOE_11X5_ENT,
+      PlayMenu.Fourth_BSOE_11X5_ENT,
+      PlayMenu.Fifth_BSOE_11X5_ENT,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -901,6 +934,7 @@ const OrderInfoTranslatorList = {
   ...LHCTranslator,
   ...PCBTranslator,
   ...K3Translator,
+  ..._11X5Translator,
 };
 
 const commaConfig = {
