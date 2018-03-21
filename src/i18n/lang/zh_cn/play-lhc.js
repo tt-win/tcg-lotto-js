@@ -8,22 +8,22 @@
 const special = {
   // Menu
   1615: '特码',
-  1618: '特码',  // SpecialB_Straight_LHC 球號1-49
-  1631: '特码',  // SpecialB_BSOE_LHC 特大小單雙
-  1633: '特码',  // SpecialB_BS_OE_LHC 特(大小)(單雙)
-  1639: '特码',  // SpecialB_Tail_BS_LHC 特尾大小
-  1641: '特码',  // SpecialB_TOSum_BSOE_LHC 特合大小單雙
-  1714: '特码',  // SpecialB_Animal_LHC 特天地前后家野肖
+  1618: '特码B',  // SpecialB_Straight_LHC 球號1-49
+  1631: '特码B',  // SpecialB_BSOE_LHC 特大小單雙
+  1633: '特码B',  // SpecialB_BS_OE_LHC 特(大小)(單雙)
+  1639: '特码B',  // SpecialB_Tail_BS_LHC 特尾大小
+  1641: '特码B',  // SpecialB_TOSum_BSOE_LHC 特合大小單雙
+  1714: '特码B',  // SpecialB_Animal_LHC 特天地前后家野肖
   
   // TP-335移除特碼A
   // Sub menu & ball bet common
-  // 1617: '特码A',  // SpecialA_Straight_LHC 球號1-49
+  1617: '特码A',  // SpecialA_Straight_LHC 球號1-49
   // play type
-  // 1630: '特码A',  // SpecialA_BSOE_LHC 特大小單雙
-  // 1632: '特码A',  // SpecialA_BS_OE_LHC 特(大小)(單雙)
-  // 1638: '特码A',  // SpecialA_Tail_BS_LHC 特尾大小
-  // 1640: '特码A',  // SpecialA_TOSum_BSOE_LHC 特合大小單雙
-  // 1713: '特码A',  // SpecialA_Animal_LHC 特天地前后家野肖
+  1630: '特码A',  // SpecialA_BSOE_LHC 特大小單雙
+  1632: '特码A',  // SpecialA_BS_OE_LHC 特(大小)(單雙)
+  1638: '特码A',  // SpecialA_Tail_BS_LHC 特尾大小
+  1640: '特码A',  // SpecialA_TOSum_BSOE_LHC 特合大小單雙
+  1713: '特码A',  // SpecialA_Animal_LHC 特天地前后家野肖
 };
 
 // 兩面
