@@ -649,6 +649,8 @@ const LANG = {
   drawTrend: '开奖走势',
   betNow: '立即投注',
   betNowTrad: '官方',
+  addToCart: '添加至购彩篮',
+  betDirect: '直接投注',
   lastDraw: '上期开奖',
   numeroFormat: '第%@期',
   trendChart: '走势图',
