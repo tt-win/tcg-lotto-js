@@ -812,6 +812,8 @@ const LANG = {
   Any6_11X5: '六中五',
   Any7_11X5: '七中五',
   Any8_11X5: '八中五',
+  First2_Com_11X5: '前二组选',
+  First3_Com_11X5: '前三组选',
 
   // 全大小奇偶清
   pickRow: {
