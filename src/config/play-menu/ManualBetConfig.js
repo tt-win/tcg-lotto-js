@@ -66,6 +66,8 @@ const twoStraightSSCProps = ManualBetConfigRecord({
 const threeStraightSSCProps = ManualBetConfigRecord({
   ...baseSSCProps,
   ballCount: 3,
+  bitCompression: true,
+  bitCompressionSize: 500,
 });
 
 // 3星組選
@@ -99,6 +101,8 @@ const ManualBetConfigSSC = {
   83: ManualBetConfigRecord({
     ...baseSSCProps,
     ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
   }),
   // First4Join_Single
   84: ManualBetConfigRecord({
@@ -110,6 +114,8 @@ const ManualBetConfigSSC = {
   85: ManualBetConfigRecord({
     ...baseSSCProps,
     ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
   }),
   // Last4Join_Single
   86: ManualBetConfigRecord({
