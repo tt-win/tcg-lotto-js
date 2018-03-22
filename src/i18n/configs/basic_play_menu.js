@@ -304,13 +304,6 @@ export const PlayMenu = {
   Color_BSOE_LHC: 1636,
   Color_Straight_LHC: 1635,
   // 特碼
-  SpecialA_TOSum_BSOE_LHC: 1640,
-  SpecialA_Tail_BS_LHC: 1638,
-  SpecialA_BS_OE_LHC: 1632,
-  SpecialA_BSOE_LHC: 1630,
-  SpecialA_Straight_LHC: 1617,
-  SpecialA_Animal_LHC: 1713,
-
   SpecialB_Animal_LHC: 1714,
   SpecialB_TOSum_BSOE_LHC: 1641,
   SpecialB_Tail_BS_LHC: 1639,
