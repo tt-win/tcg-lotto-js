@@ -141,6 +141,10 @@ const createObj = (playId, type) => {
         item.forEach((data) => {
             obj[`${playId}_${data}`] = data;
         });
+    }else if( type === '11X5Ball' ){
+        item.forEach((data) => {
+            obj[`${playId}-${data}`] = data;
+        });
     } else if(type === 'bigOe' || type === 'smallOe') {
         item.forEach((data, betContent) => {
             obj[`${playId}_${betContent+2}`] = data;
