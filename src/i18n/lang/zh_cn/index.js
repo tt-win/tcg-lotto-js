@@ -830,6 +830,8 @@ const LANG = {
     /* tab */
     combine: '整合',
     dragonTiger: '龙虎斗',
+    number: '单码',
+    BSOE: '大小单双',
     /* 整合 */
     firstBall: '第一球',
     firstBallBS: '第一球大小',
@@ -871,8 +873,6 @@ const LANG = {
     // 幸運28
     special: '特码',
     sum: '和值',
-    // 11X5
-
   },
 
   entPicture: {
