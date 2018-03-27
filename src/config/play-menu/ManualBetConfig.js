@@ -66,8 +66,6 @@ const twoStraightSSCProps = ManualBetConfigRecord({
 const threeStraightSSCProps = ManualBetConfigRecord({
   ...baseSSCProps,
   ballCount: 3,
-  bitCompression: true,
-  bitCompressionSize: 500,
 });
 
 // 3星組選
@@ -124,7 +122,12 @@ const ManualBetConfigSSC = {
     formula: 'manualCountByBalls',
   }),
   //  First3Straight_Single
-  87: threeStraightSSCProps,
+  87: ManualBetConfigRecord({
+    ...baseSSCProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
   // First3Join_Single
   88: ManualBetConfigRecord({
     ...baseSSCProps,
@@ -134,7 +137,12 @@ const ManualBetConfigSSC = {
   // First3Com
   44: threeComSSCProps,
   //  Middle3Straight_Single
-  89: threeStraightSSCProps,
+  89: ManualBetConfigRecord({
+    ...baseSSCProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
   //  Middle3Join_Single
   90: ManualBetConfigRecord({
     ...baseSSCProps,
@@ -144,7 +152,12 @@ const ManualBetConfigSSC = {
   //  Middle3Com
   54: threeComSSCProps,
   //  Last3Straight_Single
-  91: threeStraightSSCProps,
+  91: ManualBetConfigRecord({
+    ...baseSSCProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
   //  Last3Join_Single
   92: ManualBetConfigRecord({
     ...baseSSCProps,
