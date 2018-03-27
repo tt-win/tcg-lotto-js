@@ -832,10 +832,20 @@ const LANG = {
     dragonTiger: '龙虎斗',
     /* 整合 */
     firstBall: '第一球',
+    firstBallBS: '第一球大小',
+    firstBallOE: '第一球单双',
     secondBall: '第二球',
+    secondBallBS: '第二球大小',
+    secondBallOE: '第二球单双',
     thirdBall: '第三球',
+    thirdBallBS: '第三球大小',
+    thirdBallOE: '第三球单双',
     fourthBall: '第四球',
+    fourthBallBS: '第四球大小',
+    fourthBallOE: '第四球单双',
     fifthBall: '第五球',
+    fifthBallBS: '第五球大小',
+    fifthBallOE: '第五球单双',
     sumBigSmall: '总和大小',
     sumOddEven: '总和单双',
     /* 龍虎鬥 */
@@ -861,6 +871,8 @@ const LANG = {
     // 幸運28
     special: '特码',
     sum: '和值',
+    // 11X5
+
   },
 
   entPicture: {
