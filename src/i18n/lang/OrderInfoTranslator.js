@@ -739,8 +739,8 @@ const _11X5Translator = {
         PlayMenu.First2_Straight_11X5_ENT,
         PlayMenu.First3_Straight_11X5_ENT,
       ],
-      getText: (content) => content.split('_').reduce((result, val) =>
-        (`${result}${result ? ' | ' : ''}${val}`), ''),
+      getText: (content) => content.split(',').reduce((result, val) =>
+        (`${result}${result && val ? ' | ' : ''}${val}`), ''),
     },
 
     Dragon_Tiger: {
@@ -983,7 +983,9 @@ const OrderInfoTranslatorList = {
 
 const commaConfig = {
     items: [
-        PlayMenu.SpecialCom3_PCB,
+      PlayMenu.SpecialCom3_PCB,
+      PlayMenu.First2_Straight_11X5_ENT,
+      PlayMenu.First3_Straight_11X5_ENT,
     ],
 }
 
