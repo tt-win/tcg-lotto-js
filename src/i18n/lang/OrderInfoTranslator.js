@@ -705,7 +705,7 @@ const _11X5Translator = {
         getText: (content) => i18n(`playKey.${_11X5_KEY.Total_Sum_Group[content]}`),
     },
 
-    BALL_NUMBER_11X5: {
+    Ball_Number_11X5: {
         items: [
             PlayMenu.First_11X5_ENT,
             PlayMenu.Second_11X5_ENT,
@@ -720,11 +720,27 @@ const _11X5Translator = {
             PlayMenu.Any6_11X5_ENT,
             PlayMenu.Any7_11X5_ENT,
             PlayMenu.Any8_11X5_ENT,
-            PlayMenu.First2_Com_11X5_ENT,
-            PlayMenu.First3_Com_11X5_ENT,
         ],
         getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' | ' : ''}${val}`), ''),
+    },
+
+    Com_11X5: {
+      items: [
+        PlayMenu.First2_Com_11X5_ENT,
+        PlayMenu.First3_Com_11X5_ENT,
+      ],
+      getText: (content) => content.split('_').reduce((result, val) =>
+        (`${result}${result ? ' | ' : ''}${val}`), ''),
+    },
+
+    Straight_11X5: {
+      items: [
+        PlayMenu.First2_Straight_11X5_ENT,
+        PlayMenu.First3_Straight_11X5_ENT,
+      ],
+      getText: (content) => content.split('_').reduce((result, val) =>
+        (`${result}${result ? ' | ' : ''}${val}`), ''),
     },
 
     Dragon_Tiger: {
