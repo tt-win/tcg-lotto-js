@@ -692,6 +692,8 @@ const LANG = {
   odds: '赔率',
   amount: '金额',
   balance: '余额',
+  noRecord: '目前没有投注纪录',
+  goToBet: '去投注',
   betOrderCount: '组数',
   totalAmount: '总金额',
   colorStraight: '色波',
@@ -719,6 +721,8 @@ const LANG = {
   detail: '详细',
   more: '更多',
   pk: '单挑',
+  choseVariety: '选彩种',
+  chosePlayItem: '选玩法',
 
   // 娛樂城
   playMode: '玩法',
