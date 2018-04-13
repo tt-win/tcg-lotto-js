@@ -94,6 +94,7 @@ export const merchantCode = {
     'huashan',
     'fafacai',
     'demov1',
+    'alading',
   ],
 };
 
