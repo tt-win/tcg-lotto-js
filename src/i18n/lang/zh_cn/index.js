@@ -905,6 +905,18 @@ const LANG = {
     secondBall: '第二球',
     thirdBall: '第三球',
     special: '特码',
+    // 11X5
+    firstBallBS: '第一球大小',
+    firstBallOE: '第一球单双',
+    secondBallBS: '第二球大小',
+    secondBallOE: '第二球单双',
+    thirdBallBS: '第三球大小',
+    thirdBallOE: '第三球单双',
+    fourthBallBS: '第四球大小',
+    fourthBallOE: '第四球单双',
+    fifthBallBS: '第五球大小',
+    fifthBallOE: '第五球单双',
+
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
   // mobile
