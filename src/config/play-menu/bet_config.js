@@ -48,16 +48,67 @@ const groupBetConfigSSC = {
     isBetSlipByBall: true,
   }),
   // 不定位
-  First2StraightAnyCode: BetConfigRecord({
-    isBetSlipByBall: true,
+  AllStraightAnyCode1_SSC: BetConfigRecord({
+    isBetSlipByStake: true,
   }),
-  Last2StraightAnyCode: BetConfigRecord({
-    isBetSlipByBall: true,
+  AllStraightAnyCode2_SSC: BetConfigRecord({
+    isBetSlipByStake: true,
   }),
-  First2ComAnyCode: BetConfigRecord({
-    isBetSlipByBall: true,
+  AllStraightAnyCode3_SSC: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Last4StraightAnyCode1_SSC: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Last4StraightAnyCode2_SSC: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  First3StraightAnyCode1: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  First3StraightAnyCode2: BetConfigRecord({
+    isBetSlipByStake: true,
   }),
   Last2ComAnyCode: BetConfigRecord({
+    isBetSlipByBall: true,
+  }),
+  Middle3StraightAnyCode1: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Middle3StraightAnyCode2: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Last3StraightAnyCode1: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Last3StraightAnyCode2: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  First2StraightAnyCode: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Last2StraightAnyCode: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  First3ComAnyCode1: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  First3ComAnyCode2: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Middle3ComAnyCode1: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Middle3ComAnyCode2: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Last3ComAnyCode1: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  Last3ComAnyCode2: BetConfigRecord({
+    isBetSlipByStake: true,
+  }),
+  First2ComAnyCode: BetConfigRecord({
     isBetSlipByBall: true,
   }),
 
