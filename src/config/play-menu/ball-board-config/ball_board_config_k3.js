@@ -52,6 +52,7 @@ export default {
         ...baseK3Props,
         betDigits: [betDigits.Different_3_K3],
         formula: 'combineSix',
+        ballShowWithDice: true,
     }),
     //All_Even_3_K3
     1924: BallBoardConfigRecord({

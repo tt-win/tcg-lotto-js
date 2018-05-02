@@ -29,6 +29,7 @@ export const BallBoardConfigRecord = Record({
   prizeTypeMapping: {},   // prizeType對照
   isShowHotGapTabs: true,
   rowMulti: true, // 每一列球號是否多選 false:每一列球號不能相同
+  ballShowWithDice: false,
 });
 
 export const baseBSOEProps = {
