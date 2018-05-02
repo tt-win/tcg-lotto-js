@@ -53,6 +53,7 @@ export default {
         betDigits: [betDigits.Different_3_K3],
         formula: 'combineSix',
         ballShowWithDice: true,
+        boardClassNames: 'Different_3_K3',
     }),
     //All_Even_3_K3
     1924: BallBoardConfigRecord({
