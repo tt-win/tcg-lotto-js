@@ -105,6 +105,8 @@ export default {
         ...baseK3Props,
         betDigits: [betDigits.Different_2_K3],
         formula: 'combine6',
+      ballShowWithDice: true,
+      boardClassNames: 'Different_2_K3',
     }),
     //Sum_BS_OE_K3
     1931: BallBoardConfigRecord({
