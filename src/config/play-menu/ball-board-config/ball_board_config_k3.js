@@ -103,7 +103,6 @@ export default {
         betDigits: [betDigits.Multi_Same_2_K3],
         formula: 'oneBallOneNum',
         ballShowWithDice: true,
-        boardClassNames: 'Multi_Same_2_K3',
     }),
     //Different_2_K3
     1929: BallBoardConfigRecord({
