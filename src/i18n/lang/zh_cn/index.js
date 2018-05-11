@@ -173,6 +173,7 @@ const LANG = {
     TC: '视频彩',
     PCB: 'PC蛋蛋',
     K3: '快三',
+    BTS: '区块链',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
