@@ -67,7 +67,7 @@ const LANG = {
     Multi_Same_2_K3: '二同号复选',
     Different_2_K3: '二不同号',
     Sum_BS_OE_K3: '和值大小单双',
-
+    filterRepeat: '过滤重复号',
   },
   startDigit: {
     ones: '（个）',
@@ -653,8 +653,8 @@ const LANG = {
   drawResult: '开奖结果',
   drawTrend: '开奖走势',
   betNow: '立即投注',
-  betNowTrad: '官方',
-  betNowEnt: '盘口',
+  betNowTrad: '官方玩法',
+  betNowEnt: '盘口玩法',
   addToCart: '添加至购彩篮',
   betDirect: '直接投注',
   lastDraw: '上期开奖',
@@ -698,7 +698,7 @@ const LANG = {
   odds: '赔率',
   amount: '金额',
   balance: '余额',
-  noRecord: '目前没有投注纪录',
+  noRecord: '目前没有投注纪录, 进入',
   goToBet: '去投注',
   betOrderCount: '组数',
   totalAmount: '总金额',
