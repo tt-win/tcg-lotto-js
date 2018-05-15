@@ -649,6 +649,7 @@ const LANG = {
   clearBallText: '清除选号',
   filterRepeat: '过滤重复号',
   lostSeriesData: '缺少系列资料',
+  noNumero: '当前彩种暂时没有开始销售 请稍候再试',
   drawing: '正在开奖',
   drawResult: '开奖结果',
   drawTrend: '开奖走势',
