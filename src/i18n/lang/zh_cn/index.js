@@ -650,6 +650,7 @@ const LANG = {
   filterRepeat: '过滤重复号',
   lostSeriesData: '缺少系列资料',
   noNumero: '当前彩种暂时没有开始销售 请稍候再试',
+  subPlayMenuEmpty: '此彩种暂时关闭，请选择其他彩种',
   drawing: '正在开奖',
   drawResult: '开奖结果',
   drawTrend: '开奖走势',
