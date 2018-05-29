@@ -52,6 +52,7 @@ const groupPK10DigitsI18n = {
 export const orderDigitsI18n = {
   // 定位膽
   FixedPlace: { ...groupSSCDigitsI18n },
+  FixedPlace_ZY: { ...groupSSCDigitsI18n },
   Any2Sum_SSC: { ...groupSSCManualDigitsI18n },
   Any2Com_SSC_Single: { ...groupSSCManualDigitsI18n },
   Any3Sum_SSC: { ...groupSSCManualDigitsI18n },
@@ -136,6 +137,7 @@ export const playMenuDefaultActive = {
 
 export const PlayMenu = {
   FixedPlace: 14,
+  FixedPlace_ZY: 2014,
   First2Straight: 34,
   First2Split: 36,
   First2Join: 38,
