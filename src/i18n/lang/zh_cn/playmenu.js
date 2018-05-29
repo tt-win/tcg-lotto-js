@@ -490,6 +490,8 @@ const PlayMenu = {
     1944: '对子',
     1945: '对子',
     ...lhcPlayId,
+
+    2014: '一星定位胆 ',
   },
   playKey: {
     ...lhcPlayKey,

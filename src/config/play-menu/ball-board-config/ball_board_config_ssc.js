@@ -794,7 +794,7 @@ export default {
   1747: BallBoardConfigRecord({
     ...dragonTigerPropsSSC,
   }),
-  // FixedPlace
+  // FixedPlace_ZY
   2014: BallBoardConfigRecord({
     ...baseSSCProps,
     canShowHotGap: true,
