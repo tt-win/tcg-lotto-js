@@ -516,7 +516,7 @@ const LANG = {
   currentBet: '当前投注',
   shoppingBasket: '购彩篮',
   betHistory: '投注历史',
-  betRecord: '投注纪录',
+  betRecord: '投注记录',
   random_one: '机选1注',
   random_five: '机选5注',
   one_key_all_clear: '一键清空',
