@@ -921,6 +921,37 @@ const LANG = {
     P_SEVENTH: '七等奖',
     P_EIGHTH: '八等奖',
     P_NINTH: '九等奖',
+
+    // PK10 冠亞 首尾和值
+    P_THREE_FOUR_EIGHTEEN_NINETEEN: '3＆4＆18＆19',
+    P_FIVE_SIX_SIXTEEN_SEVENTEEN: '5＆6＆16＆17',
+    P_SEVEN_EIGHT_FOURTEEN_FIFTEEN: '7＆8＆14＆15',
+    P_NINE_TEN_TWELVE_THIRTEEN: '9＆10＆12＆13',
+    P_ELEVEN: '11',
+    // PK10 冠亞季和值
+    P_SIX_SEVEN_TWENTYSIX_TWENTYSEVEN: '6＆7＆26＆27',
+    P_EIGHT_TWENTYEIGHT: '8＆25',
+    P_NINE_TWENTYFOUR: '9＆24',
+    P_TEN_TWENTYTHREE: '10＆23',
+    P_ELEVEN_TWENTYTWO: '11＆22',
+    P_TWELVE_TWENTYONE: '12＆21',
+    P_THIRTEEN_TWENTY: '13＆20',
+    P_FOURTEEN_NINETEEN: '14＆19',
+    P_FIFTEEN_SIXTEEN_SEVENTEEN_EIGHTEEN: '15＆16＆17＆18',
+
+    // 11x5 定單雙
+    P_ZERO_S_FIVE_D: '0单5双',
+    P_FIVE_S_ZERO_D: '5单0双',
+    P_ONE_S_FOUR_D: '1单4双',
+    P_FOUR_S_ONE_D: '4单1双',
+    P_TWO_S_THREE_D: '2单3双',
+    P_THREE_S_TWO_D: '3单2双',
+    // 11x5 猜中位
+    P_THREE_NINE: '3＆9',
+    P_FOUR_EIGHT: '4＆8',
+    P_FIVE_SEVEN: '5＆7',
+    P_SIX: '6',
+
     P_NOT_PAIR: '非对子',
     P_PAIR: '对子',
     P_ZU3: '组三',
