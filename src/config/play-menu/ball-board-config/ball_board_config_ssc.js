@@ -395,7 +395,7 @@ export default {
     betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   //  First3StraightAnyCode2
@@ -404,7 +404,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   //  Middle3StraightAnyCode1
@@ -413,7 +413,7 @@ export default {
     betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   //  Middle3StraightAnyCode2
@@ -422,7 +422,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   //  Last3StraightAnyCode1
@@ -431,7 +431,7 @@ export default {
     betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   //  Last3StraightAnyCode2
@@ -440,7 +440,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   //  First2StraightAnyCode
@@ -454,7 +454,6 @@ export default {
   71: BallBoardConfigRecord({
     ...baseSSCProps,
     multi: true,
-    hasToolbar: true,
     betDigits: [betDigits.DAN],
     canShowHotGap: false,
     formula: 'straight',
@@ -465,7 +464,7 @@ export default {
     betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'fiftyFiveNum',
   }),
   //  First3ComAnyCode2
@@ -474,7 +473,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'tenNum',
   }),
   //  Middle3ComAnyCode1
@@ -483,7 +482,7 @@ export default {
     betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'fiftyFiveNum',
   }),
   //  Middle3ComAnyCode2
@@ -492,7 +491,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'tenNum',
   }),
   //  Last3ComAnyCode1
@@ -501,7 +500,7 @@ export default {
     betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'fiftyFiveNum',
   }),
   //  Last3ComAnyCode2
@@ -510,7 +509,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'tenNum',
   }),
   //  First2ComAnyCode
@@ -518,7 +517,6 @@ export default {
     ...baseSSCProps,
     betDigits: [betDigits.DAN],
     multi: true,
-    hasToolbar: true,
     canShowHotGap: false,
     formula: 'tenNum',
   }),
@@ -527,7 +525,6 @@ export default {
     ...baseSSCProps,
     betDigits: [betDigits.DAN],
     multi: true,
-    hasToolbar: true,
     canShowHotGap: false,
     formula: 'tenNum',
   }),
@@ -538,7 +535,7 @@ export default {
     betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   1749: BallBoardConfigRecord({
@@ -546,7 +543,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   1750: BallBoardConfigRecord({
@@ -554,7 +551,7 @@ export default {
     betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   1751: BallBoardConfigRecord({
@@ -562,7 +559,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
   1752: BallBoardConfigRecord({
@@ -570,7 +567,7 @@ export default {
     betDigits: [betDigits.DAN1, betDigits.DAN2, betDigits.DAN3],
     multi: true,
     canShowHotGap: false,
-    hasToolbar: true,
+    hasToolbar: false,
     formula: 'straight',
   }),
 
