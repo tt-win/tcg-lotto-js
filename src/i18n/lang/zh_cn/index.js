@@ -576,7 +576,7 @@ const LANG = {
   query: '查询',
   bettingAmount: '投注金额',
   chasingNumeros: {
-    sameMultiplesChasing: '同倍追号',
+    sameMultiplesChasing: '普通追号',
     addMultiplesChasing: '翻倍追号',
     profitMarginChasing: '利润率追号',
     startFrom: '起始',
