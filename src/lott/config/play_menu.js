@@ -140,6 +140,7 @@ export const defaultActivePlayMenu = {
 
 export const PlayMenu = {
   FixedPlace: 14,
+  FixedPlace_ZY: 2014,
   First2Straight: 34,
   First2Split: 36,
   First2Join: 38,

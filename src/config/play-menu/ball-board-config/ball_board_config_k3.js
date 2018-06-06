@@ -33,6 +33,7 @@ export default {
         betDigits: [betDigits.EMPTY],
         hasToolbar: false,
         formula: 'oneBallOneNum',
+        ballShowWithDice: true,
     }),
     //All_Same_3_K3
     1920: BallBoardConfigRecord({
@@ -52,6 +53,8 @@ export default {
         ...baseK3Props,
         betDigits: [betDigits.Different_3_K3],
         formula: 'combineSix',
+        ballShowWithDice: true,
+        boardClassNames: 'Different_3_K3',
     }),
     //All_Even_3_K3
     1924: BallBoardConfigRecord({
@@ -82,6 +85,8 @@ export default {
         formula: 'combineChooseOneAndOneAndNotDuplicatedAndByOne',
         rowMulti: false,
         hasToolbar: false,
+        ballShowWithDice: true,
+        boardClassNames: 'Single_Same_2_K3',
     }),
     //Multi_Same_2_K3
     1927: BallBoardConfigRecord({
@@ -97,12 +102,15 @@ export default {
         },
         betDigits: [betDigits.Multi_Same_2_K3],
         formula: 'oneBallOneNum',
+        ballShowWithDice: true,
     }),
     //Different_2_K3
     1929: BallBoardConfigRecord({
         ...baseK3Props,
         betDigits: [betDigits.Different_2_K3],
         formula: 'combine6',
+      ballShowWithDice: true,
+      boardClassNames: 'Different_2_K3',
     }),
     //Sum_BS_OE_K3
     1931: BallBoardConfigRecord({
