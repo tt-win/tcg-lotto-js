@@ -788,6 +788,13 @@ export default {
   1747: BallBoardConfigRecord({
     ...dragonTigerPropsSSC,
   }),
+  // FixedPlace_ZY
+  2014: BallBoardConfigRecord({
+    ...baseSSCProps,
+    canShowHotGap: true,
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'oneBallOneNum',
+  }),
 
   // ENT 娛樂城
   // First_Straight_ENT
@@ -1040,5 +1047,4 @@ export default {
   1840: BallBoardConfigRecord({
     ...baseSSCPropsENT,
   }),
-
 };

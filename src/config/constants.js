@@ -90,6 +90,11 @@ export const merchantCode = {
     'botianxia',
     'boyifang',
     'heying',
+    'wangzhe',
+    'huashan',
+    'fafacai',
+    'demov1',
+    'alading',
   ],
 };
 

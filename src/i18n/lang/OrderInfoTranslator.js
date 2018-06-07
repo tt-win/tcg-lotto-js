@@ -639,7 +639,7 @@ const K3Translator = {
       PlayMenu.Single_Same_2_K3,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-      (`${result}${result ? result+' | ' : ''}${val}`), ''),
+      (`${result}${result ? `${result} | ` : ''}${val}`), ''),
   },
 
   MULTI_SAME_2_K3: {
@@ -676,10 +676,10 @@ const K3Translator = {
     items: [
       PlayMenu.Any_Boazi_K3_ENT,
     ],
-    getText: (content) => i18n(`playKey.any_Boazi`),
+    getText: () => i18n('playKey.any_Boazi'),
   },
 
-  Different_2_K3_ENT:{
+  Different_2_K3_ENT: {
     items: [
       PlayMenu.Different_2_K3_ENT,
     ],
@@ -687,7 +687,7 @@ const K3Translator = {
       (`${result}${result ? ' | ' : ''}${val}`), ''),
   },
 
-  Single_Same_2_K3_ENT:{
+  Single_Same_2_K3_ENT: {
     items: [
       PlayMenu.Single_Same_2_K3_ENT,
     ],
@@ -697,7 +697,6 @@ const K3Translator = {
 };
 
 const _11X5Translator = {
-
     Two_Side_Total_Sum_Group: {
         items: [
             PlayMenu.Two_Side_Total_Sum_Group_11X5_ENT,
@@ -991,11 +990,11 @@ const commaConfig = {
 
 const OrderInfoTranslator = {
 
-  getText: (playId, bettingContent,) => {
+  getText: (playId, bettingContent) => {
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
-    const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1))
+    const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
     if (translator) {
-      if(noFilter) {
+      if (noFilter) {
         return translator.getText(bettingContent);
       }
       return translator.getText(bettingContent.replace(/,/g, ''), bettingContent);

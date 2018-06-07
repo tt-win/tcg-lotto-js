@@ -25,6 +25,9 @@ const groupBetConfigSSC = {
   FixedPlace: BetConfigRecord({
     isBetSlipByRow: true,
   }),
+  FixedPlace_ZY: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
   // 和值
   First3Sum: BetConfigRecord({
     isBetSlipByBall: true,
