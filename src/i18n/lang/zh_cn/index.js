@@ -147,7 +147,7 @@ const LANG = {
       tigerEven: '虎双',
       tie: '和',
     },
-    k3:{
+    k3: {
       All_Same_3_K3: '三同号通选',
       All_Even_3_K3: '三连号通选',
       Single_Same_3_K3_ball_1: '111',
@@ -811,14 +811,14 @@ const LANG = {
   Dragon_Tiger_4_VS_7_PK10: '第四名vs第七名',
   Dragon_Tiger_5_VS_6_PK10: '第五名vs第六名',
 
-  //K3 ENT
+  // K3 ENT
   BS_OE: '和值大小单双',
   Different_2: '两连',
   Single_Same: '独胆',
   Boazi: '豹子',
   Single_Same_2: '对子',
 
-  //11X5 ENT
+  // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
   Any1_11X5: '一中一',
   Any2_11X5: '二中二',
@@ -966,34 +966,34 @@ const LANG = {
     P_NINTH: '九等奖',
 
     // PK10 冠亞 首尾和值
-    P_THREE_FOUR_EIGHTEEN_NINETEEN: '3＆4＆18＆19',
-    P_FIVE_SIX_SIXTEEN_SEVENTEEN: '5＆6＆16＆17',
-    P_SEVEN_EIGHT_FOURTEEN_FIFTEEN: '7＆8＆14＆15',
-    P_NINE_TEN_TWELVE_THIRTEEN: '9＆10＆12＆13',
-    P_ELEVEN: '11',
+    P_PK10_3_4_18_19: '3＆4＆18＆19',
+    P_PK10_5_6_16_17: '5＆6＆16＆17',
+    P_PK10_7_8_14_15: '7＆8＆14＆15',
+    P_PK10_9_10_12_13: '9＆10＆12＆13',
+    P_PK10_11: '11',
     // PK10 冠亞季和值
-    P_SIX_SEVEN_TWENTYSIX_TWENTYSEVEN: '6＆7＆26＆27',
-    P_EIGHT_TWENTYEIGHT: '8＆25',
-    P_NINE_TWENTYFOUR: '9＆24',
-    P_TEN_TWENTYTHREE: '10＆23',
-    P_ELEVEN_TWENTYTWO: '11＆22',
-    P_TWELVE_TWENTYONE: '12＆21',
-    P_THIRTEEN_TWENTY: '13＆20',
-    P_FOURTEEN_NINETEEN: '14＆19',
-    P_FIFTEEN_SIXTEEN_SEVENTEEN_EIGHTEEN: '15＆16＆17＆18',
+    P_PK10_6_7_26_27: '6＆7＆26＆27',
+    P_PK10_8_25: '8＆25',
+    P_PK10_9_24: '9＆24',
+    P_PK10_10_23: '10＆23',
+    P_PK10_11_22: '11＆22',
+    P_PK10_12_21: '12＆21',
+    P_PK10_13_20: '13＆20',
+    P_PK10_14_19: '14＆19',
+    P_PK10_15_16_17_18: '15＆16＆17＆18',
 
     // 11x5 定單雙
-    P_ZERO_S_FIVE_D: '0单5双',
-    P_FIVE_S_ZERO_D: '5单0双',
-    P_ONE_S_FOUR_D: '1单4双',
-    P_FOUR_S_ONE_D: '4单1双',
-    P_TWO_S_THREE_D: '2单3双',
-    P_THREE_S_TWO_D: '3单2双',
+    P_11X5_0S5D: '0单5双',
+    P_11X5_5S0D: '5单0双',
+    P_11X5_1S4D: '1单4双',
+    P_11X5_4S1D: '4单1双',
+    P_11X5_2S3D: '2单3双',
+    P_11X5_3S2D: '3单2双',
     // 11x5 猜中位
-    P_THREE_NINE: '3＆9',
-    P_FOUR_EIGHT: '4＆8',
-    P_FIVE_SEVEN: '5＆7',
-    P_SIX: '6',
+    P_11X5_3_9: '3＆9',
+    P_11X5_4_8: '4＆8',
+    P_11X5_5_7: '5＆7',
+    P_11X5_6: '6',
 
     P_NOT_PAIR: '非对子',
     P_PAIR: '对子',
