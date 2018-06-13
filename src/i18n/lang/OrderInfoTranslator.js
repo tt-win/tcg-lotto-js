@@ -161,7 +161,7 @@ const PCB_KEY = {
 };
 
 const _11X5_KEY = {
-  Total_Sum_Group: ['normalTOSumBig', 'normalTOSumSmall', 'normalTOSumOdd', 'normalTOSumEven', 'normalTailBig', 'normalTailSmall'],
+  Total_Sum_Group: ['twoSideSumGroupBig', 'twoSideSumGroupSmall', 'twoSideSumGroupOdd', 'twoSideSumGroupEven', 'twoSideSumGroupTailBig', 'twoSideSumGroupTailSmall'],
   Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
