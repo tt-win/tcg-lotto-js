@@ -633,7 +633,7 @@ const LANG = {
   actualBetAmount: '实际投注金额',
   isCompleted: '是否结束',
   choose: '选择',
-  pkModeConfirmMsg: '该订单含有单挑玩法，请确认是否下注？',
+  pkModeConfirmMsg: '订单含有单挑玩法，奖金上限额 %@ 元，超出的奖金无效并清0，是否下注？',
   skipOneClickBetMsg: '本次后不再进行确认提示',
   manualBetPlaceHolder: `每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
@@ -645,11 +645,10 @@ const LANG = {
   pleaseChooseFile: '请您选择文件!',
   fileOnlySupportTxt: '您选择的文件类型不符合要求,<br />目前只支持txt文本格式的文件！',
   fileTooLarge: '您选择的文件大小超过 %@,<br />目前只支持 %@ 大小的文件！',
-  // filterResultMsg: '已经过滤%@组重复号，%@组无效号',
-  filterResultMsg: '已经过滤%@组重复号',
+  filterResultMsg: '已经过滤%@组重复号，%@组无效号',
   chooseFile: '选择文件',
   clearBallText: '清除选号',
-  filterRepeat: '过滤重复号',
+  filterRepeat: '过滤重复/无效号',
   lostSeriesData: '缺少系列资料',
   noNumero: '当前彩种暂时没有开始销售 请稍候再试',
   subPlayMenuEmpty: '此彩种暂时关闭 请选择其他彩种',
@@ -830,6 +829,9 @@ const LANG = {
   Any8_11X5: '八中五',
   First2_Com_11X5: '前二组选',
   First3_Com_11X5: '前三组选',
+  First2_Straight_11X5_ENT: '前二直选',
+  First3_Straight_11X5_ENT: '前三直选',
+
 
   // 全大小奇偶清
   pickRow: {
