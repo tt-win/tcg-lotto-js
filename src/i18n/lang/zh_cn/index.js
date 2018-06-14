@@ -648,7 +648,7 @@ const LANG = {
   filterResultMsg: '已经过滤%@组重复号，%@组无效号',
   chooseFile: '选择文件',
   clearBallText: '清除选号',
-  filterRepeat: '过滤重复号',
+  filterRepeat: '过滤重复/无效号',
   lostSeriesData: '缺少系列资料',
   noNumero: '当前彩种暂时没有开始销售 请稍候再试',
   subPlayMenuEmpty: '此彩种暂时关闭 请选择其他彩种',
