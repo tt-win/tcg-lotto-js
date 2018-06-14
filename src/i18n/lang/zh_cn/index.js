@@ -950,6 +950,7 @@ const LANG = {
   chooseMode: '选择模式',
   betOrderConfirm: '投注信息确认',
   close: '关闭',
+  closed: '已封盘',
   choosePlayGroup: '玩法选择',
   fetchBalanceFailed: '获取彩票余额失败',
   prizeList: '奖金总览',
