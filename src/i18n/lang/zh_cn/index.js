@@ -633,7 +633,7 @@ const LANG = {
   actualBetAmount: '实际投注金额',
   isCompleted: '是否结束',
   choose: '选择',
-  pkModeConfirmMsg: '该订单含有单挑玩法，请确认是否下注？',
+  pkModeConfirmMsg: '订单含有单挑玩法，奖金上限额 %@ 元，超出的奖金无效并清0，是否下注？',
   skipOneClickBetMsg: '本次后不再进行确认提示',
   manualBetPlaceHolder: `每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
@@ -829,6 +829,9 @@ const LANG = {
   Any8_11X5: '八中五',
   First2_Com_11X5: '前二组选',
   First3_Com_11X5: '前三组选',
+  First2_Straight_11X5_ENT: '前二直选',
+  First3_Straight_11X5_ENT: '前三直选',
+
 
   // 全大小奇偶清
   pickRow: {
