@@ -633,7 +633,7 @@ const LANG = {
   actualBetAmount: '实际投注金额',
   isCompleted: '是否结束',
   choose: '选择',
-  pkModeConfirmMsg: '订单含有单挑玩法，奖金上限额 %@ 元，超出的奖金无效并清0，是否下注？',
+  pkModeConfirmMsg: '订单含有单挑玩法，奖金上限额 %@ ，超出的奖金无效并清0，是否下注？',
   skipOneClickBetMsg: '本次后不再进行确认提示',
   manualBetPlaceHolder: `每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
