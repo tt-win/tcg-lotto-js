@@ -50,20 +50,6 @@ const groupBetConfigSSC = {
   Any3Sum_SSC: BetConfigRecord({
     isBetSlipByBall: true,
   }),
-  // 不定位
-  First2StraightAnyCode: BetConfigRecord({
-    isBetSlipByBall: true,
-  }),
-  Last2StraightAnyCode: BetConfigRecord({
-    isBetSlipByBall: true,
-  }),
-  First2ComAnyCode: BetConfigRecord({
-    isBetSlipByBall: true,
-  }),
-  Last2ComAnyCode: BetConfigRecord({
-    isBetSlipByBall: true,
-  }),
-
   // 龍虎和
   Dragon_Tiger_10T_T_SSC: BetConfigRecord({
     isBetSlipByBall: true,

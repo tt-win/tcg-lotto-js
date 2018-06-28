@@ -59,6 +59,10 @@ const OBJ_K3_Single_SameTwo = {
     '6': '6,6',
 };
 
+const ARR_Total_Sum_Group = ['和大', '和小', '和单', '和双', '尾大', '尾小' ];
+
+const ARR_11X5_ball = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11'];
+
 const createObj = (playId, type) => {
     const obj = {};
     let item = [];
@@ -120,6 +124,12 @@ const createObj = (playId, type) => {
         case 'k3SingleSameTwo':
             item = OBJ_K3_Single_SameTwo;
             break;
+        case '11X5TwoSideTotalSumGroup':
+            item = [].concat(ARR_Total_Sum_Group);
+            break;
+        case '11X5Ball':
+            item = [].concat(ARR_11X5_ball);
+        break;
         default:
             break;
     }
@@ -127,7 +137,8 @@ const createObj = (playId, type) => {
         type === 'twoSum' ||
         type === 'threeSum' ||
         type === 'k3Straight' ||
-        type === 'k3SingleSame') {
+        type === 'k3SingleSame' ||
+        type === '11X5Ball') {
         item.forEach((data) => {
             obj[`${playId}_${data}`] = data;
         });
@@ -308,7 +319,53 @@ const K3Boazi =  createObj(1942, 'k3Boazi');
 const K3AnyBoazi = createObj(1943, 'k3AnyBoazi');
 // 對子
 const K3SingleSameTwo = createObj(1945, 'k3SingleSameTwo');
-// ======================= PCB =======================
+// ======================= K3 =======================
+
+// ======================= 11X5 =======================
+//總和
+const _11X5TwoSideTotalSumGroup = createObj(1948, '11X5TwoSideTotalSumGroup');
+//第一球(大小单双)
+const _11X5TwoSideFirstBSOE = createObj(1950, 'bsoe');
+//第二球(大小单双)
+const _11X5TwoSideSecondBSOE = createObj(1952, 'bsoe');
+//第三球(大小单双)
+const _11X5TwoSideThirdBSOE = createObj(1954, 'bsoe');
+//第四球(大小单双)
+const _11X5TwoSideFourthBSOE = createObj(1956, 'bsoe');
+//第五球(大小单双)
+const _11X5TwoSideFifthBSOE = createObj(1958, 'bsoe');
+//第一球
+const _11X5First = createObj(1961, '11X5Ball');
+//第一球(大小单双)
+const _11X5FirstBSOE = createObj(1963, 'bsoe');
+//第二球
+const _11X5Second = createObj(1966, '11X5Ball');
+//第二球(大小单双)
+const _11X5SecondBSOE = createObj(1968, 'bsoe');
+//第三球
+const _11X5Third = createObj(1971, '11X5Ball');
+//第三球(大小单双)
+const _11X5ThirdBSOE = createObj(1973, 'bsoe');
+//第四球
+const _11X5Fourth = createObj(1976, '11X5Ball');
+//第四球(大小单双)
+const _11X5FourthBSOE = createObj(1978, 'bsoe');
+//第五球
+const _11X5Fifth = createObj(1981, '11X5Ball');
+//第五球(大小单双)
+const _11X5FifthBOSE = createObj(1983, 'bsoe');
+//龍虎鬥
+const _11X5DragonTiger54 = createObj(2004, 'dragon');
+const _11X5DragonTiger53 = createObj(2005, 'dragon');
+const _11X5DragonTiger52 = createObj(2006, 'dragon');
+const _11X5DragonTiger51 = createObj(2007, 'dragon');
+const _11X5DragonTiger43 = createObj(2008, 'dragon');
+const _11X5DragonTiger42 = createObj(2009, 'dragon');
+const _11X5DragonTiger41 = createObj(2010, 'dragon');
+const _11X5DragonTiger32 = createObj(2011, 'dragon');
+const _11X5DragonTiger31 = createObj(2012, 'dragon');
+const _11X5DragonTiger21 = createObj(2013, 'dragon');
+// ======================= 11X5 =======================
 const EntPlayMenu = {
     // ======================= SSC =======================
     // 第一球
@@ -434,6 +491,33 @@ const EntPlayMenu = {
     ...K3Boazi,
     ...K3AnyBoazi,
     ...K3SingleSameTwo,
+    // ====================== 11X5 =======================
+    ..._11X5TwoSideTotalSumGroup,
+    ..._11X5TwoSideFirstBSOE,
+    ..._11X5TwoSideSecondBSOE,
+    ..._11X5TwoSideThirdBSOE,
+    ..._11X5TwoSideFourthBSOE,
+    ..._11X5TwoSideFifthBSOE,
+    ..._11X5First,
+    ..._11X5FirstBSOE,
+    ..._11X5Second,
+    ..._11X5SecondBSOE,
+    ..._11X5Third,
+    ..._11X5ThirdBSOE,
+    ..._11X5Fourth,
+    ..._11X5FourthBSOE,
+    ..._11X5Fifth,
+    ..._11X5FifthBOSE,
+    ..._11X5DragonTiger54,
+    ..._11X5DragonTiger53,
+    ..._11X5DragonTiger52,
+    ..._11X5DragonTiger51,
+    ..._11X5DragonTiger43,
+    ..._11X5DragonTiger42,
+    ..._11X5DragonTiger41,
+    ..._11X5DragonTiger32,
+    ..._11X5DragonTiger31,
+    ..._11X5DragonTiger21,
 };
 
 export default EntPlayMenu;

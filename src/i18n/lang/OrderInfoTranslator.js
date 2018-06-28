@@ -160,6 +160,11 @@ const PCB_KEY = {
   },
 };
 
+const _11X5_KEY = {
+  Total_Sum_Group: ['twoSideSumGroupBig', 'twoSideSumGroupSmall', 'twoSideSumGroupOdd', 'twoSideSumGroupEven', 'twoSideSumGroupTailBig', 'twoSideSumGroupTailSmall'],
+  Dragon_Tiger: ['specialTiger', 'specialDragon'],
+};
+
 
 const LHCTranslator = {
   // 球號
@@ -691,6 +696,68 @@ const K3Translator = {
   },
 };
 
+const _11X5Translator = {
+    Two_Side_Total_Sum_Group: {
+        items: [
+            PlayMenu.Two_Side_Total_Sum_Group_11X5_ENT,
+        ],
+        getText: (content) => i18n(`playKey.${_11X5_KEY.Total_Sum_Group[content]}`),
+    },
+
+    Ball_Number_11X5: {
+        items: [
+            PlayMenu.First_11X5_ENT,
+            PlayMenu.Second_11X5_ENT,
+            PlayMenu.Third_11X5_ENT,
+            PlayMenu.Fourth_11X5_ENT,
+            PlayMenu.Fifth_11X5_ENT,
+            PlayMenu.Any1_11X5_ENT,
+            PlayMenu.Any2_11X5_ENT,
+            PlayMenu.Any3_11X5_ENT,
+            PlayMenu.Any4_11X5_ENT,
+            PlayMenu.Any5_11X5_ENT,
+            PlayMenu.Any6_11X5_ENT,
+            PlayMenu.Any7_11X5_ENT,
+            PlayMenu.Any8_11X5_ENT,
+        ],
+        getText: (content) => content.split('-').reduce((result, val) =>
+            (`${result}${result ? ' | ' : ''}${val}`), ''),
+    },
+
+    Com_11X5: {
+      items: [
+        PlayMenu.First2_Com_11X5_ENT,
+        PlayMenu.First3_Com_11X5_ENT,
+      ],
+      getText: (content) => content.split('_').reduce((result, val) =>
+        (`${result}${result ? ' | ' : ''}${val}`), ''),
+    },
+
+    Straight_11X5: {
+      items: [
+        PlayMenu.First2_Straight_11X5_ENT,
+        PlayMenu.First3_Straight_11X5_ENT,
+      ],
+      getText: (content) => content.split(',').reduce((result, val) =>
+        (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+    },
+
+    Dragon_Tiger: {
+        items: [
+            PlayMenu.Dragon_Tiger_5_4_11X5_ENT,
+            PlayMenu.Dragon_Tiger_5_3_11X5_ENT,
+            PlayMenu.Dragon_Tiger_5_2_11X5_ENT,
+            PlayMenu.Dragon_Tiger_5_1_11X5_ENT,
+            PlayMenu.Dragon_Tiger_4_3_11X5_ENT,
+            PlayMenu.Dragon_Tiger_4_2_11X5_ENT,
+            PlayMenu.Dragon_Tiger_4_1_11X5_ENT,
+            PlayMenu.Dragon_Tiger_3_2_11X5_ENT,
+            PlayMenu.Dragon_Tiger_3_1_11X5_ENT,
+            PlayMenu.Dragon_Tiger_2_1_11X5_ENT,
+        ],
+        getText: (content) => i18n(`playKey.${_11X5_KEY.Dragon_Tiger[content]}`),
+    },
+};
 
 // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
 const OrderInfoTranslatorList = {
@@ -752,6 +819,17 @@ const OrderInfoTranslatorList = {
       // K3
       PlayMenu.Sum_BS_OE_K3,
       PlayMenu.Sum_BS_OE_K3_ENT,
+      // 11X5
+      PlayMenu.Two_Side_First_BSOE_11X5_ENT,
+      PlayMenu.Two_Side_Second_BSOE_11X5_ENT,
+      PlayMenu.Two_Side_Third_BSOE_11X5_ENT,
+      PlayMenu.Two_Side_Fourth_BSOE_11X5_ENT,
+      PlayMenu.Two_Side_Fifth_BSOE_11X5_ENT,
+      PlayMenu.First_BSOE_11X5_ENT,
+      PlayMenu.Second_BSOE_11X5_ENT,
+      PlayMenu.Third_BSOE_11X5_ENT,
+      PlayMenu.Fourth_BSOE_11X5_ENT,
+      PlayMenu.Fifth_BSOE_11X5_ENT,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -899,13 +977,16 @@ const OrderInfoTranslatorList = {
   ...LHCTranslator,
   ...PCBTranslator,
   ...K3Translator,
+  ..._11X5Translator,
 };
 
 const commaConfig = {
-  items: [
-    PlayMenu.SpecialCom3_PCB,
-  ],
-};
+    items: [
+      PlayMenu.SpecialCom3_PCB,
+      PlayMenu.First2_Straight_11X5_ENT,
+      PlayMenu.First3_Straight_11X5_ENT,
+    ],
+}
 
 const OrderInfoTranslator = {
 
