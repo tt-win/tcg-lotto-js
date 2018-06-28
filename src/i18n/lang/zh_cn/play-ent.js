@@ -1,10 +1,10 @@
 // ==================== 娛樂城PlayMenu ====================
 const chreateNumberArray = (firstNum, length) => {
-  const arr = [];
-  for (let i = 0; i < length; i += 1) {
-    arr.push(`${firstNum + i}`);
-  }
-  return arr;
+    const arr = [];
+    for (let i = 0; i < length; i += 1) {
+        arr.push(`${firstNum + i}`);
+    }
+    return arr;
 };
 
 const ARR_STRAIGHT = chreateNumberArray(0, 10);
@@ -15,41 +15,148 @@ const ARR_DRAGON = ['虎', '龙', '和'];
 const ARR_PK10_STRAIGHT = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10'];
 const ARR_TWO_SUM = chreateNumberArray(3, 17);
 const ARR_THREE_SUM = chreateNumberArray(6, 22);
+
+const ARR_SPECIAL_SUM = chreateNumberArray(0, 28);
+const ARR_EXTREMUM = ['极大', '极小' ];
+const ARR_COLOR = ['', '红', '蓝', '绿' ];
+const ARR_BOE = ['大单', '大双' ];
+const ARR_SOE = ['小单', '小双' ];
+
+const ARR_K3_STRAIGHT = chreateNumberArray(3, 26);
+const OBJ_K3_Different_Two =  {
+    '12': '1,2',
+    '13': '1,3',
+    '14': '1,4',
+    '15': '1,5',
+    '16': '1,6',
+    '23': '2,3',
+    '24': '2,4',
+    '25': '2,5',
+    '26': '2,6',
+    '34': '3,4',
+    '35': '3,5',
+    '36': '3,6',
+    '45': '4,5',
+    '46': '4,6',
+    '56': '5,6',
+};
+const ARR_K3_Single_Same = chreateNumberArray(1, 6);
+const OBJ_K3_Boazi = {
+    '1': '1,1,1',
+    '2': '2,2,2',
+    '3': '3,3,3',
+    '4': '4,4,4',
+    '5': '5,5,5',
+    '6': '6,6,6',
+};
+const ARR_K3_Any_Boazi = ['任意豹子'];
+const OBJ_K3_Single_SameTwo = {
+    '1': '1,1',
+    '2': '2,2',
+    '3': '3,3',
+    '4': '4,4',
+    '5': '5,5',
+    '6': '6,6',
+};
+
+const ARR_Total_Sum_Group = ['和大', '和小', '和单', '和双', '尾大', '尾小' ];
+
+const ARR_11X5_ball = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11'];
+
 const createObj = (playId, type) => {
-  const obj = {};
-  let item = [];
-  switch (type) {
-    case 'straight':
-      item = [].concat(ARR_STRAIGHT);
-      break;
-    case 'bsoe':
-      item = [].concat(ARR_BSOE);
-      break;
-    case 'totalsum':
-      item = [].concat(ARR_TOTALSUM);
-      break;
-    case 'special':
-      item = [].concat(ARR_SPECIAL);
-      break;
-    case 'dragon':
-      item = [].concat(ARR_DRAGON);
-      break;
-    case 'pk10Straight':
-      item = [].concat(ARR_PK10_STRAIGHT);
-      break;
-    case 'twoSum':
-      item = [].concat(ARR_TWO_SUM);
-      break;
-    case 'threeSum':
-      item = [].concat(ARR_THREE_SUM);
-      break;
-    default:
-      break;
-  }
-  item.forEach((data, betContent) => {
-    obj[`${playId}_${betContent}`] = data;
-  });
-  return obj;
+    const obj = {};
+    let item = [];
+    switch (type) {
+        case 'straight':
+            item = [].concat(ARR_STRAIGHT);
+            break;
+        case 'bsoe':
+            item = [].concat(ARR_BSOE);
+            break;
+        case 'totalsum':
+            item = [].concat(ARR_TOTALSUM);
+            break;
+        case 'special':
+            item = [].concat(ARR_SPECIAL);
+            break;
+        case 'dragon':
+            item = [].concat(ARR_DRAGON);
+            break;
+        case 'pk10Straight':
+            item = [].concat(ARR_PK10_STRAIGHT);
+            break;
+        case 'twoSum':
+            item = [].concat(ARR_TWO_SUM);
+            break;
+        case 'threeSum':
+            item = [].concat(ARR_THREE_SUM);
+            break;
+        case 'spcialSum':
+            item = [].concat(ARR_SPECIAL_SUM);
+            break;
+        case 'extremum':
+            item = [].concat(ARR_EXTREMUM);
+            break;
+        case 'color':
+            item = [].concat(ARR_COLOR);
+            break;
+        case 'bigOe':
+            item = [].concat(ARR_BOE);
+            break;
+        case 'smallOe':
+            item = [].concat(ARR_SOE);
+            break;
+        case 'k3Straight':
+            item = [].concat(ARR_K3_STRAIGHT);
+            break;
+        case 'k3DifferentTwo':
+            item = OBJ_K3_Different_Two;
+            break;
+        case 'k3SingleSame':
+            item = [].concat(ARR_K3_Single_Same);
+            break;
+        case 'k3Boazi':
+            item = OBJ_K3_Boazi;
+            break;
+        case 'k3AnyBoazi':
+            item = [].concat(ARR_K3_Any_Boazi);
+            break;
+        case 'k3SingleSameTwo':
+            item = OBJ_K3_Single_SameTwo;
+            break;
+        case '11X5TwoSideTotalSumGroup':
+            item = [].concat(ARR_Total_Sum_Group);
+            break;
+        case '11X5Ball':
+            item = [].concat(ARR_11X5_ball);
+        break;
+        default:
+            break;
+    }
+    if (type === 'pk10Straight' ||
+        type === 'twoSum' ||
+        type === 'threeSum' ||
+        type === 'k3Straight' ||
+        type === 'k3SingleSame' ||
+        type === '11X5Ball') {
+        item.forEach((data) => {
+            obj[`${playId}_${data}`] = data;
+        });
+    } else if(type === 'bigOe' || type === 'smallOe') {
+        item.forEach((data, betContent) => {
+            obj[`${playId}_${betContent+2}`] = data;
+        });
+    } else if(type == 'k3DifferentTwo' || type == 'k3Boazi' || type == 'k3SingleSameTwo'){
+        Object.keys(item).forEach((data) => {
+            obj[`${playId}_${data}`] = item[data];
+        });
+    }
+    else {
+        item.forEach((data, betContent) => {
+            obj[`${playId}_${betContent}`] = data;
+        });
+    }
+    return obj;
 };
 
 // ======================= SSC =======================
@@ -181,115 +288,236 @@ const PK10First3Sum = createObj(1886, 'threeSum');
 const PK10FirstLastSum = createObj(1887, 'twoSum');
 // ====================== PK10 =======================
 
+// ======================= PCB =======================
+//和值
+const SpecialSum_PCB =  createObj(1907, 'spcialSum');
+//大小單雙
+const SpecialBSOE_PCB =  createObj(1909, 'bsoe');
+//組合大小單雙
+const Special_BOE_PCB =  createObj('1910_0', 'bigOe');
+const Special_SOE_PCB =  createObj('1910_1', 'smallOe');
+//極值
+const Special_Extremum_BS_PCB =  createObj(1911, 'extremum');
+//色波
+const Color_PCB =  createObj(1913, 'color');
+//豹子
+const Boazi_PCB =  createObj(1914, 'special');
+// ======================= PCB =======================
+
+// ======================= K3 =======================
+// 和值
+const K3SpecialSum = createObj(1934, 'k3Straight');
+// 大小單雙
+const K3SpecialBSOE = createObj(1936, 'bsoe');
+// 兩連
+const K3DifferentTwo = createObj(1938, 'k3DifferentTwo');
+// 獨膽
+const K3SingleSame = createObj(1940, 'k3SingleSame');
+//豹子
+const K3Boazi =  createObj(1942, 'k3Boazi');
+// 任意豹子
+const K3AnyBoazi = createObj(1943, 'k3AnyBoazi');
+// 對子
+const K3SingleSameTwo = createObj(1945, 'k3SingleSameTwo');
+// ======================= K3 =======================
+
+// ======================= 11X5 =======================
+//總和
+const _11X5TwoSideTotalSumGroup = createObj(1948, '11X5TwoSideTotalSumGroup');
+//第一球(大小单双)
+const _11X5TwoSideFirstBSOE = createObj(1950, 'bsoe');
+//第二球(大小单双)
+const _11X5TwoSideSecondBSOE = createObj(1952, 'bsoe');
+//第三球(大小单双)
+const _11X5TwoSideThirdBSOE = createObj(1954, 'bsoe');
+//第四球(大小单双)
+const _11X5TwoSideFourthBSOE = createObj(1956, 'bsoe');
+//第五球(大小单双)
+const _11X5TwoSideFifthBSOE = createObj(1958, 'bsoe');
+//第一球
+const _11X5First = createObj(1961, '11X5Ball');
+//第一球(大小单双)
+const _11X5FirstBSOE = createObj(1963, 'bsoe');
+//第二球
+const _11X5Second = createObj(1966, '11X5Ball');
+//第二球(大小单双)
+const _11X5SecondBSOE = createObj(1968, 'bsoe');
+//第三球
+const _11X5Third = createObj(1971, '11X5Ball');
+//第三球(大小单双)
+const _11X5ThirdBSOE = createObj(1973, 'bsoe');
+//第四球
+const _11X5Fourth = createObj(1976, '11X5Ball');
+//第四球(大小单双)
+const _11X5FourthBSOE = createObj(1978, 'bsoe');
+//第五球
+const _11X5Fifth = createObj(1981, '11X5Ball');
+//第五球(大小单双)
+const _11X5FifthBOSE = createObj(1983, 'bsoe');
+//龍虎鬥
+const _11X5DragonTiger54 = createObj(2004, 'dragon');
+const _11X5DragonTiger53 = createObj(2005, 'dragon');
+const _11X5DragonTiger52 = createObj(2006, 'dragon');
+const _11X5DragonTiger51 = createObj(2007, 'dragon');
+const _11X5DragonTiger43 = createObj(2008, 'dragon');
+const _11X5DragonTiger42 = createObj(2009, 'dragon');
+const _11X5DragonTiger41 = createObj(2010, 'dragon');
+const _11X5DragonTiger32 = createObj(2011, 'dragon');
+const _11X5DragonTiger31 = createObj(2012, 'dragon');
+const _11X5DragonTiger21 = createObj(2013, 'dragon');
+// ======================= 11X5 =======================
 const EntPlayMenu = {
-  // ======================= SSC =======================
-  // 第一球
-  ...firstStraightENT,
-  ...firstBSOEENT,
-  ...firstTotalSumENT,
-  ...firstFirst3ENT,
-  ...firstMiddle3ENT,
-  ...firstLast3ENT,
-  // 第二球
-  ...secondStraightENT,
-  ...secondBSOEENT,
-  ...secondTotalSumENT,
-  ...secondFirst3ENT,
-  ...secondMiddle3ENT,
-  ...secondLast3ENT,
-  // 第三球
-  ...thirdStraightENT,
-  ...thirdBSOEENT,
-  ...thirdTotalSumENT,
-  ...thirdFirst3ENT,
-  ...thirdMiddle3ENT,
-  ...thirdLast3ENT,
-  // 第四球
-  ...fourthStraightENT,
-  ...fourthBSOEENT,
-  ...fourthTotalSumENT,
-  ...fourthFirst3ENT,
-  ...fourthMiddle3ENT,
-  ...fourthLast3ENT,
-  // 第五球
-  ...fifthStraightENT,
-  ...fifthBSOEENT,
-  ...fifthTotalSumENT,
-  ...fifthFirst3ENT,
-  ...fifthMiddle3ENT,
-  ...fifthLast3ENT,
-  // 龍虎鬥
-  ...dragon54ENT,
-  ...dragon53ENT,
-  ...dragon52ENT,
-  ...dragon51ENT,
-  ...dragon43ENT,
-  ...dragon42ENT,
-  ...dragon41ENT,
-  ...dragon32ENT,
-  ...dragon31ENT,
-  ...dragon21ENT,
-  // 全五中一
-  ...fiveHaveOneStraightENT,
-  // 兩面
-  ...twoSideFirstBSOEENT,
-  ...twoSideSecondBSOEENT,
-  ...twoSideThirdBSOEENT,
-  ...twoSideFourthBSOEENT,
-  ...twoSideFifthBSOEENT,
-  ...twoSideTotalSumBSOEENT,
-  // 整合
-  ...combineFirstStraightENT,
-  ...combineFirstBSOEENT,
-  ...combineSecondStraightENT,
-  ...combineSecondBSOEENT,
-  ...combineThirdStraightENT,
-  ...combineThirdBSOEENT,
-  ...combineFourthStraightENT,
-  ...combineFourthBSOEENT,
-  ...combineFifthStraightENT,
-  ...combineFifthBSOEENT,
-  ...combineFirst3ENT,
-  ...combineMiddle3ENT,
-  ...combineLast3ENT,
-  ...combineTotalSumENT,
-  ...combineDragonENT,
-  // ====================== PK10 =======================
-  ...PK10TwoSideFirstPlaceBSOE,
-  ...PK10TwoSideFirstPlaceDragonENT,
-  ...PK10TwoSideFirst2SumBSOE,
-  ...PK10TwoSideSecondPlaceBSOE,
-  ...PK10TwoSideSecondPlaceDragonENT,
-  ...PK10TwoSideThirdPlaceBSOE,
-  ...PK10TwoSideThirdPlaceDragonENT,
-  ...PK10TwoSideFourthPlaceBSOE,
-  ...PK10TwoSideFourthPlaceDragonENT,
-  ...PK10TwoSideFifthPlaceBSOE,
-  ...PK10TwoSideFifthPlaceDragonENT,
-  ...PK10TwoSideSixthPlaceBSOE,
-  ...PK10TwoSideSeventhPlaceBSOE,
-  ...PK10TwoSideEighthPlaceBSOE,
-  ...PK10TwoSideNinthPlaceBSOE,
-  ...PK10TwoSideTenthPlaceBSOE,
-  ...PK10First2Sum,
-  ...PK10First3Sum,
-  ...PK10FirstLastSum,
-  ...PK10FixedPlaceFirst,
-  ...PK10FixedPlaceSecond,
-  ...PK10FixedPlaceThird,
-  ...PK10FixedPlaceFourth,
-  ...PK10FixedPlaceFifth,
-  ...PK10FixedPlaceSixth,
-  ...PK10FixedPlaceSeventh,
-  ...PK10FixedPlaceEighth,
-  ...PK10FixedPlaceNinth,
-  ...PK10FixedPlaceTenth,
-  ...PK10FixedPlaceFifth,
-  ...PK10Dragon1VS10,
-  ...PK10Dragon2VS9,
-  ...PK10Dragon3VS8,
-  ...PK10Dragon4VS7,
-  ...PK10Dragon5VS6,
+    // ======================= SSC =======================
+    // 第一球
+    ...firstStraightENT,
+    ...firstBSOEENT,
+    ...firstTotalSumENT,
+    ...firstFirst3ENT,
+    ...firstMiddle3ENT,
+    ...firstLast3ENT,
+    // 第二球
+    ...secondStraightENT,
+    ...secondBSOEENT,
+    ...secondTotalSumENT,
+    ...secondFirst3ENT,
+    ...secondMiddle3ENT,
+    ...secondLast3ENT,
+    // 第三球
+    ...thirdStraightENT,
+    ...thirdBSOEENT,
+    ...thirdTotalSumENT,
+    ...thirdFirst3ENT,
+    ...thirdMiddle3ENT,
+    ...thirdLast3ENT,
+    // 第四球
+    ...fourthStraightENT,
+    ...fourthBSOEENT,
+    ...fourthTotalSumENT,
+    ...fourthFirst3ENT,
+    ...fourthMiddle3ENT,
+    ...fourthLast3ENT,
+    // 第五球
+    ...fifthStraightENT,
+    ...fifthBSOEENT,
+    ...fifthTotalSumENT,
+    ...fifthFirst3ENT,
+    ...fifthMiddle3ENT,
+    ...fifthLast3ENT,
+    // 龍虎鬥
+    ...dragon54ENT,
+    ...dragon53ENT,
+    ...dragon52ENT,
+    ...dragon51ENT,
+    ...dragon43ENT,
+    ...dragon42ENT,
+    ...dragon41ENT,
+    ...dragon32ENT,
+    ...dragon31ENT,
+    ...dragon21ENT,
+    // 全五中一
+    ...fiveHaveOneStraightENT,
+    // 兩面
+    ...twoSideFirstBSOEENT,
+    ...twoSideSecondBSOEENT,
+    ...twoSideThirdBSOEENT,
+    ...twoSideFourthBSOEENT,
+    ...twoSideFifthBSOEENT,
+    ...twoSideTotalSumBSOEENT,
+    // 整合
+    ...combineFirstStraightENT,
+    ...combineFirstBSOEENT,
+    ...combineSecondStraightENT,
+    ...combineSecondBSOEENT,
+    ...combineThirdStraightENT,
+    ...combineThirdBSOEENT,
+    ...combineFourthStraightENT,
+    ...combineFourthBSOEENT,
+    ...combineFifthStraightENT,
+    ...combineFifthBSOEENT,
+    ...combineFirst3ENT,
+    ...combineMiddle3ENT,
+    ...combineLast3ENT,
+    ...combineTotalSumENT,
+    ...combineDragonENT,
+    // ====================== PK10 =======================
+    ...PK10TwoSideFirstPlaceBSOE,
+    ...PK10TwoSideFirstPlaceDragonENT,
+    ...PK10TwoSideFirst2SumBSOE,
+    ...PK10TwoSideSecondPlaceBSOE,
+    ...PK10TwoSideSecondPlaceDragonENT,
+    ...PK10TwoSideThirdPlaceBSOE,
+    ...PK10TwoSideThirdPlaceDragonENT,
+    ...PK10TwoSideFourthPlaceBSOE,
+    ...PK10TwoSideFourthPlaceDragonENT,
+    ...PK10TwoSideFifthPlaceBSOE,
+    ...PK10TwoSideFifthPlaceDragonENT,
+    ...PK10TwoSideSixthPlaceBSOE,
+    ...PK10TwoSideSeventhPlaceBSOE,
+    ...PK10TwoSideEighthPlaceBSOE,
+    ...PK10TwoSideNinthPlaceBSOE,
+    ...PK10TwoSideTenthPlaceBSOE,
+    ...PK10First2Sum,
+    ...PK10First3Sum,
+    ...PK10FirstLastSum,
+    ...PK10FixedPlaceFirst,
+    ...PK10FixedPlaceSecond,
+    ...PK10FixedPlaceThird,
+    ...PK10FixedPlaceFourth,
+    ...PK10FixedPlaceFifth,
+    ...PK10FixedPlaceSixth,
+    ...PK10FixedPlaceSeventh,
+    ...PK10FixedPlaceEighth,
+    ...PK10FixedPlaceNinth,
+    ...PK10FixedPlaceTenth,
+    ...PK10FixedPlaceFifth,
+    ...PK10Dragon1VS10,
+    ...PK10Dragon2VS9,
+    ...PK10Dragon3VS8,
+    ...PK10Dragon4VS7,
+    ...PK10Dragon5VS6,
+    // ====================== PCB =======================
+    ...SpecialSum_PCB,
+    ...SpecialBSOE_PCB,
+    ...Special_BOE_PCB,
+    ...Special_SOE_PCB,
+    ...Special_Extremum_BS_PCB ,
+    ...Color_PCB ,
+    ...Boazi_PCB ,
+    // ====================== K3 =======================
+    ...K3SpecialSum,
+    ...K3SpecialBSOE,
+    ...K3DifferentTwo,
+    ...K3SingleSame,
+    ...K3Boazi,
+    ...K3AnyBoazi,
+    ...K3SingleSameTwo,
+    // ====================== 11X5 =======================
+    ..._11X5TwoSideTotalSumGroup,
+    ..._11X5TwoSideFirstBSOE,
+    ..._11X5TwoSideSecondBSOE,
+    ..._11X5TwoSideThirdBSOE,
+    ..._11X5TwoSideFourthBSOE,
+    ..._11X5TwoSideFifthBSOE,
+    ..._11X5First,
+    ..._11X5FirstBSOE,
+    ..._11X5Second,
+    ..._11X5SecondBSOE,
+    ..._11X5Third,
+    ..._11X5ThirdBSOE,
+    ..._11X5Fourth,
+    ..._11X5FourthBSOE,
+    ..._11X5Fifth,
+    ..._11X5FifthBOSE,
+    ..._11X5DragonTiger54,
+    ..._11X5DragonTiger53,
+    ..._11X5DragonTiger52,
+    ..._11X5DragonTiger51,
+    ..._11X5DragonTiger43,
+    ..._11X5DragonTiger42,
+    ..._11X5DragonTiger41,
+    ..._11X5DragonTiger32,
+    ..._11X5DragonTiger31,
+    ..._11X5DragonTiger21,
 };
 
 export default EntPlayMenu;

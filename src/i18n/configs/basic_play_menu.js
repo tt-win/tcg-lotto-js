@@ -1,4 +1,6 @@
 /**
+ * original file name : play_menu_config.js & order_i18n_config.js
+ *
  * 定義所有與 order 有關的多語系對應
  */
 
@@ -50,6 +52,7 @@ const groupPK10DigitsI18n = {
 export const orderDigitsI18n = {
   // 定位膽
   FixedPlace: { ...groupSSCDigitsI18n },
+  FixedPlace_ZY: { ...groupSSCDigitsI18n },
   Any2Sum_SSC: { ...groupSSCManualDigitsI18n },
   Any2Com_SSC_Single: { ...groupSSCManualDigitsI18n },
   Any3Sum_SSC: { ...groupSSCManualDigitsI18n },
@@ -134,6 +137,7 @@ export const playMenuDefaultActive = {
 
 export const PlayMenu = {
   FixedPlace: 14,
+  FixedPlace_ZY: 2014,
   First2Straight: 34,
   First2Split: 36,
   First2Join: 38,
@@ -245,8 +249,6 @@ export const PlayMenu = {
   Combine_Chinese_Zodiac: 1728,
 
   Special_Combine_Chinese_Zodiac_LHC: 1730,
-  SpecialB_Animal_LHC: 1714,
-  SpecialA_Animal_LHC: 1713,
   Fixed_Sixth_Color_LHC: 1712,
   Fixed_Sixth_TOSum_OE_LHC: 1711,
   Fixed_Sixth_BSOE_LHC: 1710,
@@ -300,17 +302,17 @@ export const PlayMenu = {
   Two_Sides_Special_TOSum_BSOE_LHC: 1646,
   Two_Sides_Special_BS_LHC: 1645,
   Two_Sides_Special_BSOE_LHC: 1644,
-  SpecialB_TOSum_BSOE_LHC: 1641,
-  SpecialA_TOSum_BSOE_LHC: 1640,
-  SpecialB_Tail_BS_LHC: 1639,
-  SpecialA_Tail_BS_LHC: 1638,
   Color_BS_OE_LHC: 1637,
   Color_BSOE_LHC: 1636,
   Color_Straight_LHC: 1635,
+  // 特碼
+  SpecialB_Animal_LHC: 1714,
+  SpecialB_TOSum_BSOE_LHC: 1641,
+  SpecialB_Tail_BS_LHC: 1639,
   SpecialB_BS_OE_LHC: 1633,
-  SpecialA_BS_OE_LHC: 1632,
   SpecialB_BSOE_LHC: 1631,
-  SpecialA_BSOE_LHC: 1630,
+  SpecialB_Straight_LHC: 1618,
+
   Sixth_Fixed_LHC: 1628,
   Fifth_Fixed_LHC: 1627,
   Fourth_Fixed_LHC: 1626,
@@ -318,8 +320,6 @@ export const PlayMenu = {
   Second_Fixed_LHC: 1624,
   First_Fixed_LHC: 1623,
   Normal_Straight_LHC: 1621,
-  SpecialA_Straight_LHC: 1617,
-  SpecialB_Straight_LHC: 1618,
   Normal_Sixth_LHC: 1663,
   Normal_Fifth_LHC: 1662,
   Normal_Fourth_LHC: 1661,
@@ -400,6 +400,36 @@ export const PlayMenu = {
   Combine_Last3_ENT: 1824,
   Combine_Total_Sum_ENT: 1826,
   Combine_Dragon_Tiger_Tie_ENT: 1827,
-
+  // ENT PK10
+  Two_Side_PK10: 1856,
+  Sum_PK10: 1884,
+  First2Sum_PK10: 1885,
+  First3Sum_PK10: 1886,
+  FirstLastSum_PK10: 1887,
+  Fixed_Place_PK10: 1888,
+  Dragon_Tiger_PK10: 1899,
+  // ENT PK10 兩面玩法 (Key與傳統重複..有另外改)
+  Two_Side_First2SumBSOE_PK10: 1858,
+  Two_Side_FirstPlace_PK10: 1860,
+  Two_Side_FirstPlace_Dragon_PK10: 1861,
+  Two_Side_SecondPlace_PK10: 1863,
+  Two_Side_SecondPlace_Dragon_PK10: 1864,
+  Two_Side_ThirdPlace_PK10: 1866,
+  Two_Side_ThirdPlace_Dragon_PK10: 1867,
+  Two_Side_FourthPlace_PK10: 1869,
+  Two_Side_FourthPlace_Dragon_PK10: 1870,
+  Two_Side_FifthPlace_PK10: 1872,
+  Two_Side_FifthPlace_Dragon_PK10: 1873,
+  Two_Side_SixthPlace_PK10: 1875,
+  Two_Side_SeventhPlace_PK10: 1877,
+  Two_Side_EighthPlace_PK10: 1879,
+  Two_Side_NinthPlace_PK10: 1881,
+  Two_Side_TenthPlace_PK10: 1883,
+  // ENT PK10 龍虎鬥
+  Dragon_Tiger_1_VS_10_PK10: 1900,
+  Dragon_Tiger_2_VS_9_PK10: 1901,
+  Dragon_Tiger_3_VS_8_PK10: 1902,
+  Dragon_Tiger_4_VS_7_PK10: 1903,
+  Dragon_Tiger_5_VS_6_PK10: 1904,
 
 };
