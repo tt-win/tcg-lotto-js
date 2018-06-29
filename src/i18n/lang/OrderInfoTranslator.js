@@ -187,6 +187,21 @@ const LHCTranslator = {
 
       // 自選不中
       PlayMenu.Choose_Not_in_Winning_Numbers_LHC,
+
+      // SSC 娛樂城
+      PlayMenu.Combine_First_Straight_ENT,
+      PlayMenu.Combine_Second_Straight_ENT,
+      PlayMenu.Combine_Third_Straight_ENT,
+      PlayMenu.Combine_Fourth_Straight_ENT,
+      PlayMenu.Combine_Fifth_Straight_ENT,
+
+      PlayMenu.First_Straight_ENT,
+      PlayMenu.Second_Straight_ENT,
+      PlayMenu.Third_Straight_ENT,
+      PlayMenu.Fourth_Straight_ENT,
+      PlayMenu.Fifth_Straight_ENT,
+
+      PlayMenu.Five_Have_One_Straight_ENT,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
       (`${result}${result ? ' | ' : ''}${val}`), ''),
