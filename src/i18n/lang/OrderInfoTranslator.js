@@ -1,7 +1,7 @@
 import _find from 'lodash/find';
 import _sortBy from 'lodash/sortBy';
 import _compact from 'lodash/compact';
-import { PlayMenu } from '../../lott/config/play_menu';
+import { PlayMenu } from '../configs/basic_play_menu';
 import { i18n } from './i18n-key-finder';
 
 const BALL_BSOE_KEY = ['big', 'small', 'odd', 'even'];
