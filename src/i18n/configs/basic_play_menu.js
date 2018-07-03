@@ -100,6 +100,12 @@ export const groupCodeDefaultActive = {
       defaultActive: 'Last3Straight_LF',
     },
   },
+  K3: {
+    defaultActive: 'Sum_Number_K3',
+    subPlayMenu: {
+      defaultActive: 'Sum_K3',
+    },
+  },
 };
 // 彩種客製化預設玩法
 export const playMenuDefaultActive = {
@@ -407,8 +413,8 @@ export const PlayMenu = {
   SpecialB_Tail_BS_LHC: 1639,
   SpecialB_BS_OE_LHC: 1633,
   SpecialA_BS_OE_LHC: 1632,
-  SpecialA_BSOE_LHC: 1630,
   SpecialB_BSOE_LHC: 1631,
+  SpecialA_BSOE_LHC: 1630,
   SpecialB_Straight_LHC: 1618,
   Sixth_Fixed_LHC: 1628,
   Fifth_Fixed_LHC: 1627,
