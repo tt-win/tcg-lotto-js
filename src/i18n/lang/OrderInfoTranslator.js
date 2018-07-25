@@ -801,13 +801,9 @@ const OrderInfoTranslatorList = {
       // ENT娛樂城
       PlayMenu.First_BSOE_ENT,
       PlayMenu.Second_BSOE_ENT,
-      PlayMenu.Second_Total_Sum_ENT,
       PlayMenu.Third_BSOE_ENT,
-      PlayMenu.Third_Total_Sum_ENT,
       PlayMenu.Fourth_BSOE_ENT,
-      PlayMenu.Fourth_Total_Sum_ENT,
       PlayMenu.Fifth_BSOE_ENT,
-      PlayMenu.Fifth_Total_Sum_ENT,
       PlayMenu.Two_Side_First_BSOE_ENT,
       PlayMenu.Two_Side_Second_BSOE_ENT,
       PlayMenu.Two_Side_Third_BSOE_ENT,
