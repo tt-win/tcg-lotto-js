@@ -336,6 +336,15 @@ const LHCTranslator = {
     items: [
       // 總大小單雙
       PlayMenu.Normal_Total_BSOE_LHC,
+
+      // SSC ENT
+      PlayMenu.Combine_Total_Sum_ENT,
+      PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
+      PlayMenu.First_Total_Sum_ENT,
+      PlayMenu.Second_Total_Sum_ENT,
+      PlayMenu.Third_Total_Sum_ENT,
+      PlayMenu.Fourth_Total_Sum_ENT,
+      PlayMenu.Fifth_Total_Sum_ENT,
     ],
     getText: (content) => i18n(`playKey.${LHC_KEY.SUM_BSOE[content]}`),
   },
@@ -791,7 +800,6 @@ const OrderInfoTranslatorList = {
 
       // ENT娛樂城
       PlayMenu.First_BSOE_ENT,
-      PlayMenu.First_Total_Sum_ENT,
       PlayMenu.Second_BSOE_ENT,
       PlayMenu.Second_Total_Sum_ENT,
       PlayMenu.Third_BSOE_ENT,
@@ -805,13 +813,11 @@ const OrderInfoTranslatorList = {
       PlayMenu.Two_Side_Third_BSOE_ENT,
       PlayMenu.Two_Side_Fourth_BSOE_ENT,
       PlayMenu.Two_Side_Fifth_BSOE_ENT,
-      PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
       PlayMenu.Combine_First_BSOE_ENT,
       PlayMenu.Combine_Second_BSOE_ENT,
       PlayMenu.Combine_Third_BSOE_ENT,
       PlayMenu.Combine_Fourth_BSOE_ENT,
       PlayMenu.Combine_Fifth_BSOE_ENT,
-      PlayMenu.Combine_Total_Sum_ENT,
       // PK10
       PlayMenu.Two_Side_First2SumBSOE_PK10,
       PlayMenu.Two_Side_FirstPlace_PK10,
