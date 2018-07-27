@@ -827,10 +827,10 @@ const LANG = {
   Any6_11X5: '六中五',
   Any7_11X5: '七中五',
   Any8_11X5: '八中五',
-  First2_Com_11X5: '前二组选',
-  First3_Com_11X5: '前三组选',
-  First2_Straight_11X5_ENT: '前二直选',
-  First3_Straight_11X5_ENT: '前三直选',
+  First2_Com_11X5: '前二组选 (娱乐)',
+  First3_Com_11X5: '前三组选 (娱乐)',
+  First2_Straight_11X5_ENT: '前二直选 (娱乐)',
+  First3_Straight_11X5_ENT: '前三直选 (娱乐)',
 
 
   // 全大小奇偶清
