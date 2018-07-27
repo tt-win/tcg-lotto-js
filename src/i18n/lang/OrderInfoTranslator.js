@@ -187,6 +187,21 @@ const LHCTranslator = {
 
       // 自選不中
       PlayMenu.Choose_Not_in_Winning_Numbers_LHC,
+
+      // SSC 娛樂城
+      PlayMenu.Combine_First_Straight_ENT,
+      PlayMenu.Combine_Second_Straight_ENT,
+      PlayMenu.Combine_Third_Straight_ENT,
+      PlayMenu.Combine_Fourth_Straight_ENT,
+      PlayMenu.Combine_Fifth_Straight_ENT,
+
+      PlayMenu.First_Straight_ENT,
+      PlayMenu.Second_Straight_ENT,
+      PlayMenu.Third_Straight_ENT,
+      PlayMenu.Fourth_Straight_ENT,
+      PlayMenu.Fifth_Straight_ENT,
+
+      PlayMenu.Five_Have_One_Straight_ENT,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
       (`${result}${result ? ' | ' : ''}${val}`), ''),
@@ -321,6 +336,15 @@ const LHCTranslator = {
     items: [
       // 總大小單雙
       PlayMenu.Normal_Total_BSOE_LHC,
+
+      // SSC ENT
+      PlayMenu.Combine_Total_Sum_ENT,
+      PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
+      PlayMenu.First_Total_Sum_ENT,
+      PlayMenu.Second_Total_Sum_ENT,
+      PlayMenu.Third_Total_Sum_ENT,
+      PlayMenu.Fourth_Total_Sum_ENT,
+      PlayMenu.Fifth_Total_Sum_ENT,
     ],
     getText: (content) => i18n(`playKey.${LHC_KEY.SUM_BSOE[content]}`),
   },
@@ -776,27 +800,20 @@ const OrderInfoTranslatorList = {
 
       // ENT娛樂城
       PlayMenu.First_BSOE_ENT,
-      PlayMenu.First_Total_Sum_ENT,
       PlayMenu.Second_BSOE_ENT,
-      PlayMenu.Second_Total_Sum_ENT,
       PlayMenu.Third_BSOE_ENT,
-      PlayMenu.Third_Total_Sum_ENT,
       PlayMenu.Fourth_BSOE_ENT,
-      PlayMenu.Fourth_Total_Sum_ENT,
       PlayMenu.Fifth_BSOE_ENT,
-      PlayMenu.Fifth_Total_Sum_ENT,
       PlayMenu.Two_Side_First_BSOE_ENT,
       PlayMenu.Two_Side_Second_BSOE_ENT,
       PlayMenu.Two_Side_Third_BSOE_ENT,
       PlayMenu.Two_Side_Fourth_BSOE_ENT,
       PlayMenu.Two_Side_Fifth_BSOE_ENT,
-      PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
       PlayMenu.Combine_First_BSOE_ENT,
       PlayMenu.Combine_Second_BSOE_ENT,
       PlayMenu.Combine_Third_BSOE_ENT,
       PlayMenu.Combine_Fourth_BSOE_ENT,
       PlayMenu.Combine_Fifth_BSOE_ENT,
-      PlayMenu.Combine_Total_Sum_ENT,
       // PK10
       PlayMenu.Two_Side_First2SumBSOE_PK10,
       PlayMenu.Two_Side_FirstPlace_PK10,
