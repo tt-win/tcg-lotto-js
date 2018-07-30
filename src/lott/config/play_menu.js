@@ -82,10 +82,10 @@ export const defaultActivePlayMenu = {
         },
       },
       K3: {
+        active: 'Sum_K3',
+        subPlayMenu: {
           active: 'Sum_K3',
-          subPlayMenu: {
-              active: 'Sum_K3',
-          },
+        },
       },
     },
     endsWith: {
@@ -143,6 +143,11 @@ export const defaultActivePlayMenu = {
 
 export const PlayMenu = {
   FixedPlace: 14,
+  FixedPlaceTenThousand: 2015,
+  FixedPlaceThousand: 2016,
+  FixedPlaceHundred: 2017,
+  FixedPlaceTen: 2018,
+  FixedPlaceUnit: 2019,
   FixedPlace_ZY: 2014,
   First2Straight: 34,
   First2Split: 36,
@@ -409,7 +414,7 @@ export const PlayMenu = {
   First5_PK10: 1461,
   First5Fixed_PK10: 1462,
   Last5Fixed_PK10: 1463,
-  // 猜和值 與 定位膽 playcode與傳統重複.. 
+  // 猜和值 與 定位膽 playcode與傳統重複..
   First2Sum_PK10:1464,
   First3Sum_PK10: 1465,
   FirstLastSum_PK10: 1466,
