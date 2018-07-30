@@ -2,7 +2,7 @@
 // 娛樂城的playMenu拉出去做
 import entertainmentPlayMenu from './play-ent';
 import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
-import { pcbPlayKey } from './play-pcb';
+// import { pcbPlayKey } from './play-pcb';
 import playRemark from './playRemark';
 
 const PlayMenu = {
@@ -541,7 +541,12 @@ const PlayMenu = {
     2013: '第四球vs第五球',
     ...lhcPlayId,
 
-    2014: '一星定位胆 ',
+    2014: '一星定位胆',
+    2015: '一星定位胆（万）',
+    2016: '一星定位胆（千）',
+    2017: '一星定位胆（百）',
+    2018: '一星定位胆（十）',
+    2019: '一星定位胆（个）',
   },
   playKey: {
     ...lhcPlayKey,

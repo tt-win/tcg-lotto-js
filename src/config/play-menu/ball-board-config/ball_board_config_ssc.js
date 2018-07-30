@@ -389,6 +389,42 @@ export default {
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneBallOneNum',
   }),
+  // 一星定位膽獨立開關
+  // 一星定位胆（万）
+  2015: BallBoardConfigRecord({
+    ...baseSSCProps,
+    canShowHotGap: true,
+    betDigits: [betDigits.TEN_THOUSANDS],
+    formula: 'oneBallOneNum',
+  }),
+  // 一星定位胆（千）
+  2016: BallBoardConfigRecord({
+    ...baseSSCProps,
+    canShowHotGap: true,
+    betDigits: [betDigits.THOUSANDS],
+    formula: 'oneBallOneNum',
+  }),
+  // 一星定位胆（百）
+  2017: BallBoardConfigRecord({
+    ...baseSSCProps,
+    canShowHotGap: true,
+    betDigits: [betDigits.HUNDREDS],
+    formula: 'oneBallOneNum',
+  }),
+  // 一星定位胆（十）
+  2018: BallBoardConfigRecord({
+    ...baseSSCProps,
+    canShowHotGap: true,
+    betDigits: [betDigits.TENS],
+    formula: 'oneBallOneNum',
+  }),
+  // 一星定位胆（个）
+  2019: BallBoardConfigRecord({
+    ...baseSSCProps,
+    canShowHotGap: true,
+    betDigits: [betDigits.ONES],
+    formula: 'oneBallOneNum',
+  }),
   // First3StraightAnyCode1
   68: BallBoardConfigRecord({
     ...baseSSCProps,
