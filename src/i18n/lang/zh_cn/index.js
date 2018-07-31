@@ -955,6 +955,8 @@ const LANG = {
   closed: '已封盘',
   choosePlayGroup: '玩法选择',
   fetchBalanceFailed: '获取彩票余额失败',
+  winAmountMaxByNumero: '单期最高奖金',
+  winAmountMax: '单笔最高奖金',
   prizeList: '奖金总览',
   prizeListPrizeType: {
     [null]: '玩法奖金',
