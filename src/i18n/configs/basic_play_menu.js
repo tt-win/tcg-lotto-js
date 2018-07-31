@@ -52,6 +52,10 @@ const groupPK10DigitsI18n = {
 export const orderDigitsI18n = {
   // 定位膽
   FixedPlace: { ...groupSSCDigitsI18n },
+  FixedPlace_Last_4: { ...groupSSCDigitsI18n },
+  FixedPlace_Last_3: { ...groupSSCDigitsI18n },
+  FixedPlace_Last_2: { ...groupSSCDigitsI18n },
+  FixedPlace_Last_1: { ...groupSSCDigitsI18n },
   FixedPlace_ZY: { ...groupSSCDigitsI18n },
   Any2Sum_SSC: { ...groupSSCManualDigitsI18n },
   Any2Com_SSC_Single: { ...groupSSCManualDigitsI18n },

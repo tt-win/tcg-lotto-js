@@ -46,6 +46,10 @@ export const getPlayName = ({ playId, playCode, bettingContent }) => {
 
   switch (playId) {
     case PlayMenu.FixedPlace:
+    case PlayMenu.FixedPlace_Last_4:
+    case PlayMenu.FixedPlace_Last_3:
+    case PlayMenu.FixedPlace_Last_2:
+    case PlayMenu.FixedPlace_Last_1:
     case PlayMenu.FixedPlace_ZY:
     case PlayMenu.FixedPlace_LF_FC3D:
     case PlayMenu.FixedPlace_LF_P3P5:
