@@ -137,11 +137,10 @@ export const playMenuDefaultActive = {
 
 export const PlayMenu = {
   FixedPlace: 14,
-  FixedPlaceTenThousand: 2015,
-  FixedPlaceThousand: 2016,
-  FixedPlaceHundred: 2017,
-  FixedPlaceTen: 2018,
-  FixedPlaceUnit: 2019,
+  FixedPlace_Last_4: 2015,
+  FixedPlace_Last_3: 2016,
+  FixedPlace_Last_2: 2017,
+  FixedPlace_Last_1: 2018,
   FixedPlace_ZY: 2014,
   First2Straight: 34,
   First2Split: 36,
