@@ -390,36 +390,29 @@ export default {
     formula: 'oneBallOneNum',
   }),
   // 一星定位膽獨立開關
-  // 一星定位胆（万）
+  // 一星定位胆（千百十个）
   2015: BallBoardConfigRecord({
     ...baseSSCProps,
     canShowHotGap: true,
-    betDigits: [betDigits.TEN_THOUSANDS],
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneBallOneNum',
   }),
-  // 一星定位胆（千）
+  // 一星定位胆（百十个）
   2016: BallBoardConfigRecord({
     ...baseSSCProps,
     canShowHotGap: true,
-    betDigits: [betDigits.THOUSANDS],
+    betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneBallOneNum',
   }),
-  // 一星定位胆（百）
+  // 一星定位胆（十个）
   2017: BallBoardConfigRecord({
     ...baseSSCProps,
     canShowHotGap: true,
-    betDigits: [betDigits.HUNDREDS],
-    formula: 'oneBallOneNum',
-  }),
-  // 一星定位胆（十）
-  2018: BallBoardConfigRecord({
-    ...baseSSCProps,
-    canShowHotGap: true,
-    betDigits: [betDigits.TENS],
+    betDigits: [betDigits.TENS, betDigits.ONES],
     formula: 'oneBallOneNum',
   }),
   // 一星定位胆（个）
-  2019: BallBoardConfigRecord({
+  2018: BallBoardConfigRecord({
     ...baseSSCProps,
     canShowHotGap: true,
     betDigits: [betDigits.ONES],
