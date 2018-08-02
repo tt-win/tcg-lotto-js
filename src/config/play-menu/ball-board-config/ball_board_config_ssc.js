@@ -341,8 +341,6 @@ export default {
     betDigits: [betDigits.COM],
     formula: 'combine6',
     canShowHotGap: false,
-    maxBallCount: 7,
-    canHideToolBarAll: true,
   }),
   //  Last2Straight
   15: BallBoardConfigRecord({
@@ -372,8 +370,6 @@ export default {
     betDigits: [betDigits.COM],
     formula: 'combine6',
     canShowHotGap: false,
-    maxBallCount: 7,
-    canHideToolBarAll: true,
   }),
   // Last1Straight
   13: BallBoardConfigRecord({
@@ -672,8 +668,6 @@ export default {
     betDigits: [betDigits.COM],
     formula: 'combine6',
     canShowHotGap: false,
-    maxBallCount: 7,
-    canHideToolBarAll: true,
     canShowManualDigits: true,
     manualDigits: [1, 2, 3, 4, 5],
     manualDigitsI18n: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
