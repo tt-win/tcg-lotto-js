@@ -663,6 +663,7 @@ const LANG = {
   lastDraw: '上期开奖',
   numeroFormat: '第%@期',
   trendChart: '走势图',
+  openHistory: '开奖历史',
   autoTransferTip: '您的彩票余额不足，请问您是否选择从您的中心钱包余额中扣除 %@ ？',
   transferFailed: '转账失败',
   transferTimeout: '转账超时',
@@ -827,10 +828,10 @@ const LANG = {
   Any6_11X5: '六中五',
   Any7_11X5: '七中五',
   Any8_11X5: '八中五',
-  First2_Com_11X5: '前二组选',
-  First3_Com_11X5: '前三组选',
-  First2_Straight_11X5_ENT: '前二直选',
-  First3_Straight_11X5_ENT: '前三直选',
+  First2_Com_11X5: '前二组选 (娱乐)',
+  First3_Com_11X5: '前三组选 (娱乐)',
+  First2_Straight_11X5_ENT: '前二直选 (娱乐)',
+  First3_Straight_11X5_ENT: '前三直选 (娱乐)',
 
 
   // 全大小奇偶清
@@ -955,6 +956,8 @@ const LANG = {
   closed: '已封盘',
   choosePlayGroup: '玩法选择',
   fetchBalanceFailed: '获取彩票余额失败',
+  winAmountMaxByNumero: '单期最高奖金',
+  winAmountMax: '单笔最高奖金',
   prizeList: '奖金总览',
   prizeListPrizeType: {
     [null]: '玩法奖金',
@@ -1093,6 +1096,15 @@ const LANG = {
     K3_P_SUM_16: '16',
     K3_P_SUM_17: '17',
     K3_P_SUM_18: '18',
+  },
+  subHeader: {
+    1885: '冠亚和值',
+    1886: '冠亚季和值',
+    1887: '首尾和值',
+    1996: '前二组选',
+    1997: '前三组选',
+    2000: '前二直选',
+    2001: '前三直选',
   },
   ...BaseGame,
 };

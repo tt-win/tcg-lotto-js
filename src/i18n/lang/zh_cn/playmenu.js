@@ -2,7 +2,7 @@
 // 娛樂城的playMenu拉出去做
 import entertainmentPlayMenu from './play-ent';
 import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
-import { pcbPlayKey } from './play-pcb';
+// import { pcbPlayKey } from './play-pcb';
 import playRemark from './playRemark';
 
 const PlayMenu = {
@@ -448,7 +448,7 @@ const PlayMenu = {
     1904: '第五名vs第六名',
     1905: '整合',
     1906: '和值',
-    1907: '特码',
+    1907: '和值',
     1908: '两面',
     1909: '大小单双',
     1910: '组合大小单双',
@@ -523,11 +523,11 @@ const PlayMenu = {
     1992: '七中五',
     1993: '八中五',
     1994: '组选',
-    1996: '前二组选',
-    1997: '前三组选',
+    1996: '前二组选 (娱乐)',
+    1997: '前三组选 (娱乐)',
     1998: '直选',
-    2000: '前二直选',
-    2001: '前三直选',
+    2000: '前二直选 (娱乐)',
+    2001: '前三直选 (娱乐)',
     2002: '龙虎斗',
     2004: '第一球vs第二球',
     2005: '第一球vs第三球',
@@ -541,7 +541,11 @@ const PlayMenu = {
     2013: '第四球vs第五球',
     ...lhcPlayId,
 
-    2014: '一星定位胆 ',
+    2014: '一星定位胆',
+    2015: '一星定位胆（千百十个）',
+    2016: '一星定位胆（百十个）',
+    2017: '一星定位胆（十个）',
+    2018: '一星定位胆（个）',
   },
   playKey: {
     ...lhcPlayKey,

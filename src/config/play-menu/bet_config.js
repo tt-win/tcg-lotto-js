@@ -25,6 +25,18 @@ const groupBetConfigSSC = {
   FixedPlace: BetConfigRecord({
     isBetSlipByRow: true,
   }),
+  FixedPlace_Last_4: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  FixedPlace_Last_3: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  FixedPlace_Last_2: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  FixedPlace_Last_1: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
   FixedPlace_ZY: BetConfigRecord({
     isBetSlipByRow: true,
   }),
