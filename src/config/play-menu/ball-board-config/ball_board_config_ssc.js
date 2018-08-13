@@ -604,23 +604,11 @@ export default {
   62: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS],
-    multi: true,
-    hasToolbar: true,
-    canHideToolBarBig: true,
-    canHideToolBarSmall: true,
-    canHideToolBarOdd: true,
-    canHideToolBarEven: true,
   }),
   //  Last2BSOE
   63: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
-    multi: true,
-    hasToolbar: true,
-    canHideToolBarBig: true,
-    canHideToolBarSmall: true,
-    canHideToolBarOdd: true,
-    canHideToolBarEven: true,
   }),
   //  AnyShow1_SSC
   169: BallBoardConfigRecord({
