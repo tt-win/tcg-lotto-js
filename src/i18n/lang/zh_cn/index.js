@@ -357,6 +357,7 @@ const LANG = {
   },
   chart: {
     line: '折线',
+    horizontalLine: '辅助线',
     downloadHistory: '下载历史开奖号',
     about: '使用说明',
     nearlyNumeros: '最近%@期',
