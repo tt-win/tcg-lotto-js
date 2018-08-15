@@ -448,6 +448,7 @@ export const PlayMenu = {
   EighthPlace_PK10: 1896,
   NinthPlace_PK10: 1897,
   TenthPlace_PK10: 1898,
+  SixToTenthPlace_PK10: 9999,
 
     // ENT PK10 兩面玩法 (Key與傳統重複..有另外改)
   Two_Side_First2SumBSOE_PK10: 1858,
