@@ -526,6 +526,7 @@ export const PlayMenu = {
   First2Sum_PK10:1464,
   First3Sum_PK10: 1465,
   FirstLastSum_PK10: 1466,
+  SixToTenthPlace_PK10: 9999,
   // =====================================
   First5BSOE_PK10: 1467,
   Last5BSOE_PK10: 1468,
