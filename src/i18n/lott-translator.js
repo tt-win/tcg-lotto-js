@@ -33,6 +33,10 @@ export const getPlayMenuNameWithDigit = ({ playMenu, startDigit }) => {
   if (playId >= 1843 && playId <= 1852) {
     return `${i18n('playId.1841')}:${i18n(`playId.${playId}`)}${startDigitI18n}`;
   }
+  // 一星定位膽(個)(個) => 一星定位膽(個)
+  if (playId === PlayMenu.FixedPlace_Last_1) {
+    return i18n(`playId.${playId}`);
+  }
   return `${i18n(`playId.${playId}`)}${startDigitI18n}`;
 };
 
@@ -45,6 +49,9 @@ export const getPlayName = ({ playId, playCode, bettingContent }) => {
 
   switch (playId) {
     case PlayMenu.FixedPlace:
+    case PlayMenu.FixedPlace_Last_4:
+    case PlayMenu.FixedPlace_Last_3:
+    case PlayMenu.FixedPlace_Last_2:
     case PlayMenu.FixedPlace_ZY:
     case PlayMenu.FixedPlace_LF_FC3D:
     case PlayMenu.FixedPlace_LF_P3P5:
