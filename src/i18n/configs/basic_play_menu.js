@@ -650,4 +650,8 @@ export const PlayMenu = {
   Dragon_Tiger_3_2_11X5_ENT: 2011,
   Dragon_Tiger_3_1_11X5_ENT: 2012,
   Dragon_Tiger_2_1_11X5_ENT: 2013,
+  NN_SSC_ENT: 2021,
+  NN_HAS_SSC_ENT: 2023,
+  NN_SSC_BSOE_ENT: 2025,
+  HK5_SSC_ENT: 2028,
 };
