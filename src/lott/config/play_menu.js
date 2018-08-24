@@ -82,10 +82,10 @@ export const defaultActivePlayMenu = {
         },
       },
       K3: {
+        active: 'Sum_K3',
+        subPlayMenu: {
           active: 'Sum_K3',
-          subPlayMenu: {
-              active: 'Sum_K3',
-          },
+        },
       },
     },
     endsWith: {
@@ -143,6 +143,10 @@ export const defaultActivePlayMenu = {
 
 export const PlayMenu = {
   FixedPlace: 14,
+  FixedPlace_Last_4: 2015,
+  FixedPlace_Last_3: 2016,
+  FixedPlace_Last_2: 2017,
+  FixedPlace_Last_1: 2018,
   FixedPlace_ZY: 2014,
   First2Straight: 34,
   First2Split: 36,
@@ -409,7 +413,7 @@ export const PlayMenu = {
   First5_PK10: 1461,
   First5Fixed_PK10: 1462,
   Last5Fixed_PK10: 1463,
-  // 猜和值 與 定位膽 playcode與傳統重複.. 
+  // 猜和值 與 定位膽 playcode與傳統重複..
   First2Sum_PK10:1464,
   First3Sum_PK10: 1465,
   FirstLastSum_PK10: 1466,
@@ -444,6 +448,7 @@ export const PlayMenu = {
   EighthPlace_PK10: 1896,
   NinthPlace_PK10: 1897,
   TenthPlace_PK10: 1898,
+  SixToTenthPlace_PK10: 9999,
 
     // ENT PK10 兩面玩法 (Key與傳統重複..有另外改)
   Two_Side_First2SumBSOE_PK10: 1858,
@@ -551,5 +556,9 @@ export const PlayMenu = {
   Dragon_Tiger_3_2_11X5_ENT: 2011,
   Dragon_Tiger_3_1_11X5_ENT: 2012,
   Dragon_Tiger_2_1_11X5_ENT: 2013,
+  NN_SSC_ENT: 2021,
+  NN_HAS_SSC_ENT: 2023,
+  NN_SSC_BSOE_ENT: 2025,
+  HK5_SSC_ENT: 2028,
 };
 
