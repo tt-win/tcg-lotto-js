@@ -381,6 +381,8 @@ const LANG = {
     firstLast: '首尾',
     totalTimes: '出现总次数',
     avgHotGap: '平均遗漏值',
+    maxGap: '最大遗漏值',
+    maxCombo: '最大连出值',
     numerosCount: '期数',
     goBet: '投注去',
     // LHC
@@ -669,6 +671,7 @@ const LANG = {
   transferFailed: '转账失败',
   transferTimeout: '转账超时',
   betStakeOverLimit: '该玩法可投上限为%@注，请重新下注！谢谢',
+  betRowStakeOverLimit: '该玩法单列可投上限为%@注，请重新下注！谢谢',
   drawAnnouncement: '开奖公告',
   today: '今天',
   yesterday: '昨天',
