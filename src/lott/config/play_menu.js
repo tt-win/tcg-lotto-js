@@ -215,6 +215,13 @@ export const PlayMenu = {
 
   OECounts_11X5: 916,
 
+  AllCom120: 1601,
+  AllCom60: 1602,
+  AllCom30: 1603,
+  AllCom20: 1604,
+  AllCom10: 1605,
+  AllCom5: 1606,
+
   F4Com24: 1607,
   F4Com12: 1608,
   F4Com6: 1609,
