@@ -141,6 +141,8 @@ export const playMenuDefaultActive = {
 
 export const PlayMenu = {
   FixedPlace: 14,
+  Last2Straight: 15,
+  Last3Straight: 32,
   FixedPlace_Last_4: 2015,
   FixedPlace_Last_3: 2016,
   FixedPlace_Last_2: 2017,
@@ -165,6 +167,7 @@ export const PlayMenu = {
   Middle3Join_Single: 90,
   First2Straight_Single: 93,
   First2Join_Single: 94,
+  Last2Straight_Single: 95,
 
   First2Straight_LF: 1416,
   First2Straight_LF_Single: 112,
