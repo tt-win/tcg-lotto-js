@@ -794,6 +794,20 @@ const _11X5Translator = {
     },
 };
 
+const SSCTranslator = {
+  Ball_Number: {
+    items: [
+      PlayMenu.FixedPlace,
+
+      PlayMenu.Last2Straight,
+      PlayMenu.Last2Straight_Single,
+      PlayMenu.First2Straight,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
+};
+
 const SSC_NN_Translator = {
     NN_NUMBER: {
       items: [
@@ -1037,6 +1051,7 @@ const OrderInfoTranslatorList = {
   ...PCBTranslator,
   ...K3Translator,
   ..._11X5Translator,
+  ...SSCTranslator,
   ...SSC_NN_Translator,
   ...SSC_HK5_Translator,
 };
@@ -1046,6 +1061,8 @@ const commaConfig = {
       PlayMenu.SpecialCom3_PCB,
       PlayMenu.First2_Straight_11X5_ENT,
       PlayMenu.First3_Straight_11X5_ENT,
+      PlayMenu.Last2Straight,
+      PlayMenu.First2Straight,
     ],
 }
 
