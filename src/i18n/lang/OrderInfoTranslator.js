@@ -815,6 +815,9 @@ const SSCTranslator = {
       PlayMenu.Middle3Join_Single,
       PlayMenu.First3Join,
       PlayMenu.First3Join_Single,
+      PlayMenu.Last3StraightCom,
+      PlayMenu.Middle3StraightCom,
+      PlayMenu.First3StraightCom,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
