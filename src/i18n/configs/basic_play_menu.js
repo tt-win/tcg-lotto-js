@@ -165,6 +165,7 @@ export const PlayMenu = {
   First3Join_Single: 88,
   Middle3Straight_Single: 89,
   Middle3Join_Single: 90,
+  Last3Straight_Single:91,
   First2Straight_Single: 93,
   First2Join_Single: 94,
   Last2Straight_Single: 95,
