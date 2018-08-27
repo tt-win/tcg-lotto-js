@@ -224,6 +224,16 @@ export const PlayMenu = {
   Dragon_Tiger_4_VS_7: 1473,
   Dragon_Tiger_5_VS_6: 1474,
 
+  F4Com24: 1607,
+  F4Com12: 1608,
+  F4Com6: 1609,
+  F4Com4: 1610,
+
+  L4Com24: 1611,
+  L4Com12: 1612,
+  L4Com6: 1613,
+  L4Com4: 1614,
+
   // 2017 0531 added by G 龍虎和
   Dragon_Tiger_10T_T_SSC: 1738,
   Dragon_Tiger_10T_H_SSC: 1739,

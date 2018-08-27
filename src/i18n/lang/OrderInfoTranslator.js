@@ -838,6 +838,14 @@ const SSCTranslator = {
       PlayMenu.Last4Join_Single,
       PlayMenu.First4Join,
       PlayMenu.First4Join_Single,
+      PlayMenu.L4Com24,
+      PlayMenu.L4Com12,
+      PlayMenu.L4Com6,
+      PlayMenu.L4Com4,
+      PlayMenu.F4Com24,
+      PlayMenu.F4Com12,
+      PlayMenu.F4Com6,
+      PlayMenu.F4Com4,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
@@ -1109,6 +1117,10 @@ const commaConfig = {
       PlayMenu.First4Straight,
       PlayMenu.Last4Join,
       PlayMenu.First4Join,
+      PlayMenu.L4Com12,
+      PlayMenu.L4Com4,
+      PlayMenu.F4Com12,
+      PlayMenu.F4Com4,
     ],
 }
 
