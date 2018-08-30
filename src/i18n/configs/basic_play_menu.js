@@ -367,6 +367,12 @@ export const PlayMenu = {
   AllStraightAnyCode2_SSC: 1751,     // 五星二码不定位
   AllStraightAnyCode3_SSC: 1752,     // 五星三码不定位
 
+  //趣味玩法
+  AnyShow1_SSC: 169,
+  AnyShow2_SSC: 170,
+  AnyShow3_SSC: 171,
+  AnyShow4_SSC: 172,
+
   // ENT
   Combined_ENT: 1753,
   First_ENT: 1754,
