@@ -238,6 +238,9 @@ export const defaultActivePlayMenu = {
 export const PlayMenu = {
   FixedPlace: 14,
   Last2Straight: 15,
+  Last2Com: 16,
+  Last2Join: 19,
+  Last2Sum: 20,
   Last3Straight: 21,
   Last3Com3: 23,
   Last3Com6: 24,
@@ -253,8 +256,10 @@ export const PlayMenu = {
   FixedPlace_Last_1: 2018,
   FixedPlace_ZY: 2014,
   First2Straight: 34,
+  First2Com: 35,
   First2Split: 36,
   First2Join: 38,
+  First2Sum: 39,
   First3Straight: 40,
   First3Com3: 42,
   First3Com6: 43,
@@ -284,6 +289,7 @@ export const PlayMenu = {
   First2Straight_Single: 93,
   First2Join_Single: 94,
   Last2Straight_Single: 95,
+  Last2Join_Single: 96,
 
   First2Straight_LF: 1416,
   First2Straight_LF_Single: 112,
