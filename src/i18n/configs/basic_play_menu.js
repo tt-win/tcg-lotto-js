@@ -345,8 +345,14 @@ export const PlayMenu = {
   Dragon_Tiger_10_1_SSC: 1747,
 
   // 2017 0607 added by G 不定位新玩法
+  First2StraightAnyCode: 65,
   First3StraightAnyCode1: 68,
   First3StraightAnyCode2: 69,
+  Last2StraightAnyCode: 71,
+  Last3StraightAnyCode1: 74,
+  Last3StraightAnyCode2: 75,
+  Middle3StraightAnyCode1: 78,
+  Middle3StraightAnyCode2: 79,
   Last4StraightAnyCode1_SSC: 1748,   // 四星一码不定位
   Last4StraightAnyCode2_SSC: 1749,   // 四星二码不定位
   AllStraightAnyCode1_SSC: 1750,     // 五星一码不定位
