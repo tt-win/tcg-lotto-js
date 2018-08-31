@@ -7,7 +7,7 @@ import playRemark from './playRemark';
 
 const PlayMenu = {
   playId: {
-    1: '定位胆',
+    1: '一星',
     2: '后二',
     3: '后三',
     4: '后四',
