@@ -1,7 +1,7 @@
 import _find from 'lodash/find';
 import _sortBy from 'lodash/sortBy';
 import _compact from 'lodash/compact';
-import { PlayMenu } from '../../lott/config/play_menu';
+import { PlayMenu } from '../configs/basic_play_menu';
 import { i18n } from './i18n-key-finder';
 
 const BALL_BSOE_KEY = ['big', 'small', 'odd', 'even'];
@@ -141,14 +141,14 @@ const LHC_KEY = {
 };
 
 const HK5_KEY = {
-    '01': 'fiveOfAKind',
-    '02': 'fourOfAKind',
-    '03': 'fullHouse',
-    '04': 'straight',
-    '05': 'treeOfAKind',
-    '06': 'twoPair',
-    '07': 'onePair',
-    '08': 'highCard',
+  '01': 'fiveOfAKind',
+  '02': 'fourOfAKind',
+  '03': 'fullHouse',
+  '04': 'straight',
+  '05': 'treeOfAKind',
+  '06': 'twoPair',
+  '07': 'onePair',
+  '08': 'highCard',
 };
 
 const PCB_KEY = {
@@ -794,26 +794,90 @@ const _11X5Translator = {
     },
 };
 
+const SSCTranslator = {
+  Ball_Number: {
+    items: [
+      PlayMenu.FixedPlace,
+
+      PlayMenu.Last2Straight,
+      PlayMenu.Last2Straight_Single,
+      PlayMenu.First2Straight,
+      PlayMenu.First2Straight_Single,
+      PlayMenu.Last3Straight,
+      PlayMenu.Last3Straight_Single,
+      PlayMenu.Middle3Straight,
+      PlayMenu.Middle3Straight_Single,
+      PlayMenu.First3Straight,
+      PlayMenu.First3Straight_Single,
+      PlayMenu.Last3Join,
+      PlayMenu.Last3Join_Single,
+      PlayMenu.Middle3Join,
+      PlayMenu.Middle3Join_Single,
+      PlayMenu.First3Join,
+      PlayMenu.First3Join_Single,
+      PlayMenu.Last3StraightCom,
+      PlayMenu.Middle3StraightCom,
+      PlayMenu.First3StraightCom,
+      PlayMenu.Last3Sum,
+      PlayMenu.Middle3Sum,
+      PlayMenu.First3Sum,
+      PlayMenu.First3Com3,
+      PlayMenu.Middle3Com3,
+      PlayMenu.Last3Com3,
+      PlayMenu.First3Com6,
+      PlayMenu.Middle3Com6,
+      PlayMenu.Last3Com6,
+      PlayMenu.Last3Com,
+      PlayMenu.Middle3Com,
+      PlayMenu.First3Com,
+      PlayMenu.Last4Straight,
+      PlayMenu.Last4Straight_Single,
+      PlayMenu.First4Straight,
+      PlayMenu.First4Straight_Single,
+      PlayMenu.Last4Join,
+      PlayMenu.Last4Join_Single,
+      PlayMenu.First4Join,
+      PlayMenu.First4Join_Single,
+      PlayMenu.L4Com24,
+      PlayMenu.L4Com12,
+      PlayMenu.L4Com6,
+      PlayMenu.L4Com4,
+      PlayMenu.F4Com24,
+      PlayMenu.F4Com12,
+      PlayMenu.F4Com6,
+      PlayMenu.F4Com4,
+      PlayMenu.AllCom120,
+      PlayMenu.AllCom60,
+      PlayMenu.AllCom30,
+      PlayMenu.AllCom20,
+      PlayMenu.AllCom10,
+      PlayMenu.AllCom5,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
+};
+
 const SSC_NN_Translator = {
-    NN_NUMBER: {
-      items: [
-        PlayMenu.NN_SSC_ENT,
-      ],
-      getText: (content) => i18n(`playKey.nn${parseInt(content)}`)
-    },
-    NN_HAS: {
-      items: [
-        PlayMenu.NN_HAS_SSC_ENT,
-      ],
-      getText: (content) => i18n(`playKey.nnHas${content}`)
-    },
-    NN_BSOE: {
-      items: [
-        PlayMenu.NN_SSC_BSOE_ENT,
-      ],
-      getText: (content) =>
-        content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
-    },
+  NN_NUMBER: {
+    items: [
+      PlayMenu.NN_SSC_ENT,
+    ],
+    getText: (content) => i18n(`playKey.nn${parseInt(content)}`)
+  },
+  NN_HAS: {
+    items: [
+      PlayMenu.NN_HAS_SSC_ENT,
+    ],
+    getText: (content) => i18n(`playKey.nnHas${content}`)
+  },
+  NN_BSOE: {
+    items: [
+      PlayMenu.NN_SSC_BSOE_ENT,
+    ],
+    getText: (content) =>
+      content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
+  },
 };
 const SSC_HK5_Translator = {
   // 组合大小單雙
@@ -1037,6 +1101,7 @@ const OrderInfoTranslatorList = {
   ...PCBTranslator,
   ...K3Translator,
   ..._11X5Translator,
+  ...SSCTranslator,
   ...SSC_NN_Translator,
   ...SSC_HK5_Translator,
 };
@@ -1046,6 +1111,27 @@ const commaConfig = {
       PlayMenu.SpecialCom3_PCB,
       PlayMenu.First2_Straight_11X5_ENT,
       PlayMenu.First3_Straight_11X5_ENT,
+      PlayMenu.Last2Straight,
+      PlayMenu.First2Straight,
+      PlayMenu.Last3Straight,
+      PlayMenu.Middle3Straight,
+      PlayMenu.First3Straight,
+      PlayMenu.Last3Join,
+      PlayMenu.Middle3Join,
+      PlayMenu.First3Join,
+      PlayMenu.Last4Straight,
+      PlayMenu.First4Straight,
+      PlayMenu.Last4Join,
+      PlayMenu.First4Join,
+      PlayMenu.L4Com12,
+      PlayMenu.L4Com4,
+      PlayMenu.F4Com12,
+      PlayMenu.F4Com4,
+      PlayMenu.AllCom60,
+      PlayMenu.AllCom30,
+      PlayMenu.AllCom20,
+      PlayMenu.AllCom10,
+      PlayMenu.AllCom5,
     ],
 }
 
