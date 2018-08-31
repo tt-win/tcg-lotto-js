@@ -3,8 +3,7 @@ import _findIndex from 'lodash/findIndex';
 import _reverse from 'lodash/reverse';
 import _padStart from 'lodash/padStart';
 import { i18n, lang } from './lang/i18n-key-finder';
-import { orderDigitsI18n } from './configs/basic_play_menu';
-import { PlayMenu } from '../lott/config/play_menu';
+import { orderDigitsI18n, PlayMenu } from './configs/basic_play_menu';
 import OrderInfoTranslator from './lang/OrderInfoTranslator';
 
 /**
