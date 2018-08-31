@@ -40,7 +40,7 @@ const findByI18nKey = (key, ...args) => {
   const userLang = getLang();
   const val = _property(key)(userLang);
   if (!val) {
-    console.warn(`Can\'t find i18n key ${key}`)
+    // console.warn(`Can\'t find i18n key ${key}`)
     return key;
   }
 
