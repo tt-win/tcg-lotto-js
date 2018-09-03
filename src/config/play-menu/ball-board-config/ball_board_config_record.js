@@ -12,6 +12,10 @@ export const BallBoardConfigRecord = Record({
   boardClassNames: '', // ball board class
   hasToolbar: true,
   canHideToolBarAll: false,
+  canHideToolBarBig: false,
+  canHideToolBarSmall: false,
+  canHideToolBarOdd: false,
+  canHideToolBarEven: false,
   canShowHotGap: true,
   canShowStakes: false,
   canShowBallAtSub: false, // 直接在額外欄顯示球號文字
