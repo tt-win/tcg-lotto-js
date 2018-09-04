@@ -870,6 +870,11 @@ const SSCTranslator = {
       PlayMenu.AnyShow2_SSC,
       PlayMenu.AnyShow3_SSC,
       PlayMenu.AnyShow4_SSC,
+      PlayMenu.Last1Straight,
+      PlayMenu.FixedPlace_Last_4,
+      PlayMenu.FixedPlace_Last_3,
+      PlayMenu.FixedPlace_Last_2,
+      PlayMenu.FixedPlace_Last_1,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),

@@ -236,6 +236,7 @@ export const defaultActivePlayMenu = {
 };
 
 export const PlayMenu = {
+  Last1Straight: 13,
   FixedPlace: 14,
   Last2Straight: 15,
   Last2Com: 16,
