@@ -585,6 +585,7 @@ const PK10Translator = {
     (`${result}${result ? ' ' : ''}${val}`), ''),
   },
 
+  // ,,,01234,01234 => 01234 | 01234
   NUMBER_WITH_HYPHEN: {
     items: [
       PlayMenu.First1_PK10,
