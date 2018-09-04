@@ -872,7 +872,7 @@ const SSCTranslator = {
       PlayMenu.AnyShow4_SSC,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
-      (`${result}${result && val ? ' | ' : ' '}${val}`), ''),
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
 
   Ball_Number_With_Space: {
