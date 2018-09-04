@@ -584,6 +584,19 @@ const PK10Translator = {
     getText: (content) => content.split('-').reduce((result, val) =>
     (`${result}${result ? ' ' : ''}${val}`), ''),
   },
+
+  // ,,,01234,01234 => 01234 | 01234
+  NUMBER_WITH_HYPHEN: {
+    items: [
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ' '}${val}`), '').replace(/-/g, ' '),
+  },
 };
 
 const PCBTranslator = {
