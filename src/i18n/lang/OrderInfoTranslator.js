@@ -556,11 +556,6 @@ const LHCTranslator = {
 const PK10Translator = {
   BALL_NUMBER_PK10: {
     items: [
-      PlayMenu.First1_PK10,
-      PlayMenu.First2_PK10,
-      PlayMenu.First3_PK10,
-      PlayMenu.First4_PK10,
-      PlayMenu.First5_PK10,
       PlayMenu.First5Fixed_PK10,
       PlayMenu.Last5Fixed_PK10,
       PlayMenu.First2Sum_PK10,
