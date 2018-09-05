@@ -1140,6 +1140,11 @@ const commaConfig = {
       PlayMenu.AllCom20,
       PlayMenu.AllCom10,
       PlayMenu.AllCom5,
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
     ],
 }
 
