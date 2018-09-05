@@ -556,11 +556,6 @@ const LHCTranslator = {
 const PK10Translator = {
   BALL_NUMBER_PK10: {
     items: [
-      PlayMenu.First1_PK10,
-      PlayMenu.First2_PK10,
-      PlayMenu.First3_PK10,
-      PlayMenu.First4_PK10,
-      PlayMenu.First5_PK10,
       PlayMenu.First5Fixed_PK10,
       PlayMenu.Last5Fixed_PK10,
       PlayMenu.First2Sum_PK10,
@@ -583,6 +578,19 @@ const PK10Translator = {
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
     (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+
+  // ,,,01234,01234 => 01234 | 01234
+  NUMBER_WITH_HYPHEN: {
+    items: [
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ' '}${val}`), '').replace(/-/g, ' '),
   },
 };
 
@@ -798,14 +806,23 @@ const SSCTranslator = {
   Ball_Number: {
     items: [
       PlayMenu.FixedPlace,
+
       PlayMenu.Last2Straight,
+      PlayMenu.Last2Straight_Single,
       PlayMenu.First2Straight,
+      PlayMenu.First2Straight_Single,
       PlayMenu.Last3Straight,
+      PlayMenu.Last3Straight_Single,
       PlayMenu.Middle3Straight,
+      PlayMenu.Middle3Straight_Single,
       PlayMenu.First3Straight,
+      PlayMenu.First3Straight_Single,
       PlayMenu.Last3Join,
+      PlayMenu.Last3Join_Single,
       PlayMenu.Middle3Join,
+      PlayMenu.Middle3Join_Single,
       PlayMenu.First3Join,
+      PlayMenu.First3Join_Single,
       PlayMenu.Last3StraightCom,
       PlayMenu.Middle3StraightCom,
       PlayMenu.First3StraightCom,
@@ -1187,6 +1204,11 @@ const commaConfig = {
       PlayMenu.First3ComAnyCode2,
       PlayMenu.Middle3ComAnyCode2,
       PlayMenu.Last3ComAnyCode2,
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
     ],
 }
 
