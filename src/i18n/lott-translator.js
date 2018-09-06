@@ -165,6 +165,7 @@ export const i18nOrderInfo = ({ playId, bettingContent }) => {
 /** genBallContentText , old name used by ods console */
 export default {
   getPlayMenuNameWithDigit,
+  truncBallText,
   getPlayName,
   i18nOrderInfo,
   genOrderNumberText,
