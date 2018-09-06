@@ -1226,6 +1226,8 @@ const commaConfig = {
       PlayMenu.First3_PK10,
       PlayMenu.First4_PK10,
       PlayMenu.First5_PK10,
+      PlayMenu.First2BSOE,
+      PlayMenu.Last2BSOE,
     ],
 }
 
