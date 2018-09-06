@@ -954,8 +954,6 @@ const SSC_HK5_Translator = {
 const OrderInfoTranslatorList = {
   BSOE: {
     items: [
-      PlayMenu.First2BSOE,
-      PlayMenu.Last2BSOE,
       PlayMenu.First2BSOE_LF,
       PlayMenu.Last2BSOE_LF_FC3D,
       PlayMenu.P5First2BSOE_LF,
@@ -1018,6 +1016,25 @@ const OrderInfoTranslatorList = {
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
   },
+
+  // ,,,0123,13 => 大小單雙 | 小雙
+  COM_BSOE: {
+    items: [
+      PlayMenu.First2BSOE,
+      PlayMenu.Last2BSOE,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) => {
+      const orderInfo = (val) => {
+        if(val === ''){
+          return '';
+        }
+        return val.split('').sort().map((num) => (i18n(`ball.BSOE.${BALL_BSOE_KEY[num]}`))).join(' ');
+      }
+      return(`${result}${result && val ? ' | ' : ''}${orderInfo(val)}`)
+    }, ''),
+
+  },
+
   DRAGON_TIGER: {
     items: [
       PlayMenu.Dragon_Tiger_1_VS_10,
