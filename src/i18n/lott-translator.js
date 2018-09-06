@@ -85,7 +85,7 @@ export const getPlayName = ({ playId, playCode, bettingContent }) => {
  */
 export const truncBallText = (ballText) => {
   const digitsStrLength = 4;
-  const totalLength = 8;
+  const totalLength = 14;
   const truncText = ballText
     .substr(0, totalLength); // .replace(/ \| /g, '|')
 
