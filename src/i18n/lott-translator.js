@@ -87,7 +87,7 @@ export const getPlayName = ({ playId, playCode, bettingContent }) => {
  */
 export const truncBallText = (ballText) => {
   const digitsStrLength = 4;
-  const totalLength = 8;
+  const totalLength = 14;
   const truncText = ballText
     .substr(0, totalLength); // .replace(/ \| /g, '|')
 
@@ -165,6 +165,7 @@ export const i18nOrderInfo = ({ playId, bettingContent }) => OrderInfoTranslator
 /** genBallContentText , old name used by ods console */
 export default {
   getPlayMenuNameWithDigit,
+  truncBallText,
   getPlayName,
   i18nOrderInfo,
   genOrderNumberText,

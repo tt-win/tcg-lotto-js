@@ -806,23 +806,14 @@ const SSCTranslator = {
   Ball_Number: {
     items: [
       PlayMenu.FixedPlace,
-
       PlayMenu.Last2Straight,
-      PlayMenu.Last2Straight_Single,
       PlayMenu.First2Straight,
-      PlayMenu.First2Straight_Single,
       PlayMenu.Last3Straight,
-      PlayMenu.Last3Straight_Single,
       PlayMenu.Middle3Straight,
-      PlayMenu.Middle3Straight_Single,
       PlayMenu.First3Straight,
-      PlayMenu.First3Straight_Single,
       PlayMenu.Last3Join,
-      PlayMenu.Last3Join_Single,
       PlayMenu.Middle3Join,
-      PlayMenu.Middle3Join_Single,
       PlayMenu.First3Join,
-      PlayMenu.First3Join_Single,
       PlayMenu.Last3StraightCom,
       PlayMenu.Middle3StraightCom,
       PlayMenu.First3StraightCom,
@@ -892,6 +883,8 @@ const SSCTranslator = {
       PlayMenu.FixedPlace_Last_3,
       PlayMenu.FixedPlace_Last_2,
       PlayMenu.FixedPlace_Last_1,
+      PlayMenu.anyComChoose2,
+      PlayMenu.anyComChoose3,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
@@ -954,8 +947,6 @@ const SSC_HK5_Translator = {
 const OrderInfoTranslatorList = {
   BSOE: {
     items: [
-      PlayMenu.First2BSOE,
-      PlayMenu.Last2BSOE,
       PlayMenu.First2BSOE_LF,
       PlayMenu.Last2BSOE_LF_FC3D,
       PlayMenu.P5First2BSOE_LF,
@@ -1018,6 +1009,25 @@ const OrderInfoTranslatorList = {
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
   },
+
+  // ,,,0123,13 => 大小單雙 | 小雙
+  COM_BSOE: {
+    items: [
+      PlayMenu.First2BSOE,
+      PlayMenu.Last2BSOE,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) => {
+      const orderInfo = (val) => {
+        if(val === ''){
+          return '';
+        }
+        return val.split('').sort().map((num) => (i18n(`ball.BSOE.${BALL_BSOE_KEY[num]}`))).join(' ');
+      }
+      return(`${result}${result && val ? ' | ' : ''}${orderInfo(val)}`)
+    }, ''),
+
+  },
+
   DRAGON_TIGER: {
     items: [
       PlayMenu.Dragon_Tiger_1_VS_10,
@@ -1209,6 +1219,8 @@ const commaConfig = {
       PlayMenu.First3_PK10,
       PlayMenu.First4_PK10,
       PlayMenu.First5_PK10,
+      PlayMenu.First2BSOE,
+      PlayMenu.Last2BSOE,
     ],
 }
 

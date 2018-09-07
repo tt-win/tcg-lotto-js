@@ -836,6 +836,24 @@ export default {
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneBallOneNum',
   }),
+  // anyComChoose2
+  2029: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    hasToolbar: true,
+    canShowHotGap: false,
+    formula: 'combine6',
+  }),
+  // anyComChoose3
+  2030: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    hasToolbar: true,
+    canShowHotGap: false,
+    formula: 'combineSix',
+  }),
 
   // ENT 娛樂城
   // First_Straight_ENT
