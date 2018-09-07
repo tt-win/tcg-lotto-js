@@ -806,23 +806,14 @@ const SSCTranslator = {
   Ball_Number: {
     items: [
       PlayMenu.FixedPlace,
-
       PlayMenu.Last2Straight,
-      PlayMenu.Last2Straight_Single,
       PlayMenu.First2Straight,
-      PlayMenu.First2Straight_Single,
       PlayMenu.Last3Straight,
-      PlayMenu.Last3Straight_Single,
       PlayMenu.Middle3Straight,
-      PlayMenu.Middle3Straight_Single,
       PlayMenu.First3Straight,
-      PlayMenu.First3Straight_Single,
       PlayMenu.Last3Join,
-      PlayMenu.Last3Join_Single,
       PlayMenu.Middle3Join,
-      PlayMenu.Middle3Join_Single,
       PlayMenu.First3Join,
-      PlayMenu.First3Join_Single,
       PlayMenu.Last3StraightCom,
       PlayMenu.Middle3StraightCom,
       PlayMenu.First3StraightCom,
@@ -892,6 +883,8 @@ const SSCTranslator = {
       PlayMenu.FixedPlace_Last_3,
       PlayMenu.FixedPlace_Last_2,
       PlayMenu.FixedPlace_Last_1,
+      PlayMenu.anyComChoose2,
+      PlayMenu.anyComChoose3,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
