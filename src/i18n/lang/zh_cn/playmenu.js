@@ -629,7 +629,7 @@ const PlayMenu = {
     NNSmall: '牛小',
     NNOdd: '牛单',
     NNEven: '牛双',
-    NNNoHave: '没牛',
+    NNNoHave: '无牛',
     NNHave: '有牛',
     Dragon_Tiger_Tie_5_4_ENT: '第一球vs第二球',
     Dragon_Tiger_Tie_5_3_ENT: '第一球vs第三球',
