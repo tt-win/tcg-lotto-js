@@ -917,6 +917,9 @@ const LANG = {
     threeVSFour: '三vs四',
     threeVSFive: '三vs五',
     fourVSFive: '四vs五',
+    NN: '牛牛',
+    NNOddEven: '牛大小',
+    NNBigSmall: '牛单双',
     // pk10
     oneVsTen: '冠军VS第十名',
     twoVsNine: '亚军vs第九名',
