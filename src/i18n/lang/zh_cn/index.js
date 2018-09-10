@@ -790,6 +790,10 @@ const LANG = {
   Dragon_Tiger_Tie_3_2_ENT: '第三球vs第四球',
   Dragon_Tiger_Tie_3_1_ENT: '第三球vs第五球',
   Dragon_Tiger_Tie_2_1_ENT: '第四球vs第五球',
+  // SSC 牛牛
+  NN_SSC_ENT: '牛牛牌型',
+  NN_SSC_BSOE_ENT: '牛牛大小单双',
+  NN_HAS_SSC_ENT: '牛牛有牛无牛',
   // LHC
   Normal_First_LHC: '正码一',
   Normal_Second_LHC: '正码二',
