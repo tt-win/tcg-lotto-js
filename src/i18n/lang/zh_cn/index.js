@@ -163,6 +163,9 @@ const LANG = {
       Single_2_Same_ball_5: '55',
       Single_2_Same_ball_6: '66',
     },
+    NN: {
+      10: '牛',
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',
