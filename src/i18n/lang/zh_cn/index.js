@@ -164,7 +164,8 @@ const LANG = {
       Single_2_Same_ball_6: '66',
     },
     NN: {
-      10: '牛',
+      '-1': '无',
+      '10': '牛',
     },
   },
   gameGroupCode: {
