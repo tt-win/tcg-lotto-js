@@ -862,6 +862,7 @@ const LANG = {
     dragonTiger: '龙虎斗',
     number: '单码',
     BSOE: '大小单双',
+    NN: '牛牛',
     /* 整合 */
     firstBall: '第一球',
     firstBallBS: '第一球大小',
@@ -891,6 +892,8 @@ const LANG = {
     threeVsFour: '3VS4',
     threeVsFive: '3VS5',
     fourVsFive: '4VS5',
+    NNBS: '牛大小',
+    NNOE: '牛单双',
     // pk10
     oneVsTen: '1VS10',
     twoVsNine: '2VS9',
