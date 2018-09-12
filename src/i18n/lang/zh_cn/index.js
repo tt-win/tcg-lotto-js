@@ -163,6 +163,10 @@ const LANG = {
       Single_2_Same_ball_5: '55',
       Single_2_Same_ball_6: '66',
     },
+    NN: {
+      '-1': '无',
+      '10': '牛',
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',
@@ -787,6 +791,10 @@ const LANG = {
   Dragon_Tiger_Tie_3_2_ENT: '第三球vs第四球',
   Dragon_Tiger_Tie_3_1_ENT: '第三球vs第五球',
   Dragon_Tiger_Tie_2_1_ENT: '第四球vs第五球',
+  // SSC 牛牛
+  NN_SSC_ENT: '牛牛牌型',
+  NN_SSC_BSOE_ENT: '牛牛大小单双',
+  NN_HAS_SSC_ENT: '牛牛有牛无牛',
   // LHC
   Normal_First_LHC: '正码一',
   Normal_Second_LHC: '正码二',
@@ -855,6 +863,7 @@ const LANG = {
     dragonTiger: '龙虎斗',
     number: '单码',
     BSOE: '大小单双',
+    NN: '牛牛',
     /* 整合 */
     firstBall: '第一球',
     firstBallBS: '第一球大小',
@@ -884,6 +893,8 @@ const LANG = {
     threeVsFour: '3VS4',
     threeVsFive: '3VS5',
     fourVsFive: '4VS5',
+    NNBS: '牛大小',
+    NNOE: '牛单双',
     // pk10
     oneVsTen: '1VS10',
     twoVsNine: '2VS9',
@@ -914,6 +925,9 @@ const LANG = {
     threeVSFour: '三vs四',
     threeVSFive: '三vs五',
     fourVSFive: '四vs五',
+    NN: '牛牛',
+    NNBigSmall: '牛大小',
+    NNOddEven: '牛单双',
     // pk10
     oneVsTen: '冠军VS第十名',
     twoVsNine: '亚军vs第九名',
