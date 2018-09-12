@@ -387,6 +387,7 @@ export const PlayMenu = {
   Dragon_Tiger_Tie_ENT: 1841,
   Five_Have_One_ENT: 1853,
   NN_SSC_MAIN_ENT: 2019,
+  HK5_SSC_MAIN_ENT: 2026,
 
   Any4Com24_SSC: 174,
   Any4Com12_SSC: 175,
