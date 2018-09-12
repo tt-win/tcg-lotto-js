@@ -795,6 +795,8 @@ const LANG = {
   NN_SSC_ENT: '牛牛牌型',
   NN_SSC_BSOE_ENT: '牛牛大小单双',
   NN_HAS_SSC_ENT: '牛牛有牛无牛',
+  // SSC 梭哈
+  HK5_SSC_ENT: '梭哈牌型',
   // LHC
   Normal_First_LHC: '正码一',
   Normal_Second_LHC: '正码二',
