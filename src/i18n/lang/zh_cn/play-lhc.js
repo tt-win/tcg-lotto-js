@@ -191,6 +191,10 @@ const chooseNotInWinningNumbers = {
   1690: '自选不中',  // Choose_Not_in_Winning_Numbers_LHC 球號1-49
 };
 
+const joinZodiac = {
+  2031: '连肖',
+}
+
 export const lhcPlayId = {
   ...special, // 特碼
   ...bothSide, // 两面
@@ -203,6 +207,7 @@ export const lhcPlayId = {
   ...normalFirstToSix,  // 正碼1-6
   ...normalSpecialOneZodiac, // 平特一肖尾數
   ...chooseNotInWinningNumbers, // 自選不中
+  ...joinZodiac, // 連肖
 };
 
 export const lhcBothSideRank = {
