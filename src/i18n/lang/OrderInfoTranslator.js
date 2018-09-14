@@ -556,11 +556,6 @@ const LHCTranslator = {
 const PK10Translator = {
   BALL_NUMBER_PK10: {
     items: [
-      PlayMenu.First1_PK10,
-      PlayMenu.First2_PK10,
-      PlayMenu.First3_PK10,
-      PlayMenu.First4_PK10,
-      PlayMenu.First5_PK10,
       PlayMenu.First5Fixed_PK10,
       PlayMenu.Last5Fixed_PK10,
       PlayMenu.First2Sum_PK10,
@@ -583,6 +578,19 @@ const PK10Translator = {
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
     (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+
+  // ,,,01234,01234 => 01234 | 01234
+  NUMBER_WITH_HYPHEN: {
+    items: [
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ' '}${val}`), '').replace(/-/g, ' '),
   },
 };
 
@@ -798,23 +806,14 @@ const SSCTranslator = {
   Ball_Number: {
     items: [
       PlayMenu.FixedPlace,
-
       PlayMenu.Last2Straight,
-      PlayMenu.Last2Straight_Single,
       PlayMenu.First2Straight,
-      PlayMenu.First2Straight_Single,
       PlayMenu.Last3Straight,
-      PlayMenu.Last3Straight_Single,
       PlayMenu.Middle3Straight,
-      PlayMenu.Middle3Straight_Single,
       PlayMenu.First3Straight,
-      PlayMenu.First3Straight_Single,
       PlayMenu.Last3Join,
-      PlayMenu.Last3Join_Single,
       PlayMenu.Middle3Join,
-      PlayMenu.Middle3Join_Single,
       PlayMenu.First3Join,
-      PlayMenu.First3Join_Single,
       PlayMenu.Last3StraightCom,
       PlayMenu.Middle3StraightCom,
       PlayMenu.First3StraightCom,
@@ -831,13 +830,9 @@ const SSCTranslator = {
       PlayMenu.Middle3Com,
       PlayMenu.First3Com,
       PlayMenu.Last4Straight,
-      PlayMenu.Last4Straight_Single,
       PlayMenu.First4Straight,
-      PlayMenu.First4Straight_Single,
       PlayMenu.Last4Join,
-      PlayMenu.Last4Join_Single,
       PlayMenu.First4Join,
-      PlayMenu.First4Join_Single,
       PlayMenu.L4Com24,
       PlayMenu.L4Com12,
       PlayMenu.L4Com6,
@@ -852,8 +847,67 @@ const SSCTranslator = {
       PlayMenu.AllCom20,
       PlayMenu.AllCom10,
       PlayMenu.AllCom5,
+      PlayMenu.Last2Join,
+      PlayMenu.First2Join,
+      PlayMenu.Last2Com,
+      PlayMenu.First2Com,
+      PlayMenu.Last2Sum,
+      PlayMenu.First2Sum,
+      PlayMenu.AllStraightAnyCode1_SSC,
+      PlayMenu.AllStraightAnyCode2_SSC,
+      PlayMenu.AllStraightAnyCode3_SSC,
+      PlayMenu.Last4StraightAnyCode1_SSC,
+      PlayMenu.Last4StraightAnyCode2_SSC,
+      PlayMenu.First3StraightAnyCode1,
+      PlayMenu.First3StraightAnyCode2,
+      PlayMenu.Middle3StraightAnyCode1,
+      PlayMenu.Middle3StraightAnyCode2,
+      PlayMenu.Last3StraightAnyCode1,
+      PlayMenu.Last3StraightAnyCode2,
+      PlayMenu.First2StraightAnyCode,
+      PlayMenu.Last2StraightAnyCode,
+      PlayMenu.First3ComAnyCode1,
+      PlayMenu.First3ComAnyCode2,
+      PlayMenu.Middle3ComAnyCode1,
+      PlayMenu.Middle3ComAnyCode2,
+      PlayMenu.Last3ComAnyCode1,
+      PlayMenu.Last3ComAnyCode2,
+      PlayMenu.First2ComAnyCode,
+      PlayMenu.Last2ComAnyCode,
+      PlayMenu.AnyShow1_SSC,
+      PlayMenu.AnyShow2_SSC,
+      PlayMenu.AnyShow3_SSC,
+      PlayMenu.AnyShow4_SSC,
+      PlayMenu.Last1Straight,
+      PlayMenu.FixedPlace_Last_4,
+      PlayMenu.FixedPlace_Last_3,
+      PlayMenu.FixedPlace_Last_2,
+      PlayMenu.FixedPlace_Last_1,
+      PlayMenu.anyComChoose2,
+      PlayMenu.anyComChoose3,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
+
+  Ball_Number_With_Space: {
+    items: [
+      PlayMenu.Last2Straight_Single,
+      PlayMenu.First2Straight_Single,
+      PlayMenu.Last3Straight_Single,
+      PlayMenu.Middle3Straight_Single,
+      PlayMenu.First3Straight_Single,
+      PlayMenu.Last3Join_Single,
+      PlayMenu.Middle3Join_Single,
+      PlayMenu.First3Join_Single,
+      PlayMenu.Last4Straight_Single,
+      PlayMenu.First4Straight_Single,
+      PlayMenu.Last4Join_Single,
+      PlayMenu.First4Join_Single,
+      PlayMenu.Last2Join_Single,
+      PlayMenu.First2Join_Single,
+    ],
+    getText: (content) => content.split('|').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
 };
@@ -893,8 +947,6 @@ const SSC_HK5_Translator = {
 const OrderInfoTranslatorList = {
   BSOE: {
     items: [
-      PlayMenu.First2BSOE,
-      PlayMenu.Last2BSOE,
       PlayMenu.First2BSOE_LF,
       PlayMenu.Last2BSOE_LF_FC3D,
       PlayMenu.P5First2BSOE_LF,
@@ -957,6 +1009,25 @@ const OrderInfoTranslatorList = {
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
   },
+
+  // ,,,0123,13 => 大小單雙 | 小雙
+  COM_BSOE: {
+    items: [
+      PlayMenu.First2BSOE,
+      PlayMenu.Last2BSOE,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) => {
+      const orderInfo = (val) => {
+        if(val === ''){
+          return '';
+        }
+        return val.split('').sort().map((num) => (i18n(`ball.BSOE.${BALL_BSOE_KEY[num]}`))).join(' ');
+      }
+      return(`${result}${result && val ? ' | ' : ''}${orderInfo(val)}`)
+    }, ''),
+
+  },
+
   DRAGON_TIGER: {
     items: [
       PlayMenu.Dragon_Tiger_1_VS_10,
@@ -1132,6 +1203,24 @@ const commaConfig = {
       PlayMenu.AllCom20,
       PlayMenu.AllCom10,
       PlayMenu.AllCom5,
+      PlayMenu.Last2Join,
+      PlayMenu.First2Join,
+      PlayMenu.AllStraightAnyCode2_SSC,
+      PlayMenu.AllStraightAnyCode3_SSC,
+      PlayMenu.Last4StraightAnyCode2_SSC,
+      PlayMenu.First3StraightAnyCode2,
+      PlayMenu.Middle3StraightAnyCode2,
+      PlayMenu.Last3StraightAnyCode2,
+      PlayMenu.First3ComAnyCode2,
+      PlayMenu.Middle3ComAnyCode2,
+      PlayMenu.Last3ComAnyCode2,
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
+      PlayMenu.First2BSOE,
+      PlayMenu.Last2BSOE,
     ],
 }
 
