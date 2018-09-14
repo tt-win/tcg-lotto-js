@@ -193,6 +193,15 @@ const chooseNotInWinningNumbers = {
 
 const joinZodiac = {
   2031: '连肖',
+
+  2032: '二连肖',
+  2033: '二连肖',
+  2034: '三连肖',
+  2035: '三连肖',
+  2036: '四连肖',
+  2037: '四连肖',
+  2038: '五连肖',
+  2039: '五连肖',
 }
 
 export const lhcPlayId = {
