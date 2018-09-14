@@ -236,8 +236,12 @@ export const defaultActivePlayMenu = {
 };
 
 export const PlayMenu = {
+  Last1Straight: 13,
   FixedPlace: 14,
   Last2Straight: 15,
+  Last2Com: 16,
+  Last2Join: 19,
+  Last2Sum: 20,
   Last3Straight: 21,
   Last3Com3: 23,
   Last3Com6: 24,
@@ -253,8 +257,10 @@ export const PlayMenu = {
   FixedPlace_Last_1: 2018,
   FixedPlace_ZY: 2014,
   First2Straight: 34,
+  First2Com: 35,
   First2Split: 36,
   First2Join: 38,
+  First2Sum: 39,
   First3Straight: 40,
   First3Com3: 42,
   First3Com6: 43,
@@ -284,6 +290,7 @@ export const PlayMenu = {
   First2Straight_Single: 93,
   First2Join_Single: 94,
   Last2Straight_Single: 95,
+  Last2Join_Single: 96,
 
   First2Straight_LF: 1416,
   First2Straight_LF_Single: 112,
@@ -339,11 +346,35 @@ export const PlayMenu = {
   Dragon_Tiger_10_1_SSC: 1747,
 
   // 2017 0607 added by G 不定位新玩法
+  First2ComAnyCode: 64,
+  First2StraightAnyCode: 65,
+  First3ComAnyCode1: 66,
+  First3ComAnyCode2: 67,
+  First3StraightAnyCode1: 68,
+  First3StraightAnyCode2: 69,
+  Last2ComAnyCode: 70,
+  Last2StraightAnyCode: 71,
+  Last3ComAnyCode1: 72,
+  Last3ComAnyCode2: 73,
+  Last3StraightAnyCode1: 74,
+  Last3StraightAnyCode2: 75,
+  Middle3ComAnyCode1: 76,
+  Middle3ComAnyCode2: 77,
+  Middle3StraightAnyCode1: 78,
+  Middle3StraightAnyCode2: 79,
   Last4StraightAnyCode1_SSC: 1748,   // 四星一码不定位
   Last4StraightAnyCode2_SSC: 1749,   // 四星二码不定位
   AllStraightAnyCode1_SSC: 1750,     // 五星一码不定位
   AllStraightAnyCode2_SSC: 1751,     // 五星二码不定位
   AllStraightAnyCode3_SSC: 1752,     // 五星三码不定位
+  anyComChoose2: 2029, // 五星二码 組選不定位
+  anyComChoose3: 2030, // 五星三码 組選不定位
+
+  //趣味玩法
+  AnyShow1_SSC: 169,
+  AnyShow2_SSC: 170,
+  AnyShow3_SSC: 171,
+  AnyShow4_SSC: 172,
 
   // ENT
   Combined_ENT: 1753,

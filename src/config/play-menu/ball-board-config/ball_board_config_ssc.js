@@ -604,11 +604,23 @@ export default {
   62: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS],
+    multi: true,
+    hasToolbar: true,
+    canHideToolBarBig: true,
+    canHideToolBarSmall: true,
+    canHideToolBarOdd: true,
+    canHideToolBarEven: true,
   }),
   //  Last2BSOE
   63: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
+    multi: true,
+    hasToolbar: true,
+    canHideToolBarBig: true,
+    canHideToolBarSmall: true,
+    canHideToolBarOdd: true,
+    canHideToolBarEven: true,
   }),
   //  AnyShow1_SSC
   169: BallBoardConfigRecord({
@@ -823,6 +835,24 @@ export default {
     canShowHotGap: true,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneBallOneNum',
+  }),
+  // anyComChoose2
+  2029: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    hasToolbar: true,
+    canShowHotGap: false,
+    formula: 'combine6',
+  }),
+  // anyComChoose3
+  2030: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    hasToolbar: true,
+    canShowHotGap: false,
+    formula: 'combineSix',
   }),
 
   // ENT 娛樂城

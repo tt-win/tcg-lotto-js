@@ -215,6 +215,12 @@ const groupBetConfigSSC = {
   Different_2_K3: BetConfigRecord({
     minBalls: [2],
   }),
+  anyComChoose2: BetConfigRecord({
+    minBalls: [2],
+  }),
+  anyComChoose3: BetConfigRecord({
+    minBalls: [3],
+  }),
 };
 
 const groupBetConfig11X5 = {
