@@ -3,8 +3,7 @@ import _findIndex from 'lodash/findIndex';
 import _reverse from 'lodash/reverse';
 import _padStart from 'lodash/padStart';
 import { i18n, lang } from './lang/i18n-key-finder';
-import { orderDigitsI18n } from './configs/basic_play_menu';
-import { PlayMenu } from '../lott/config/play_menu';
+import { orderDigitsI18n, PlayMenu } from './configs/basic_play_menu';
 import OrderInfoTranslator from './lang/OrderInfoTranslator';
 
 /**
@@ -46,33 +45,35 @@ export const getPlayName = ({ playId, playCode, bettingContent }) => {
     playMenu: { playCode, playId },
     startDigit: '',
   };
-  const contents = bettingContent.split('');
+  if (bettingContent) {
+    const contents = bettingContent.split('');
 
-  switch (playId) {
-    case PlayMenu.FixedPlace:
-    case PlayMenu.FixedPlace_Last_4:
-    case PlayMenu.FixedPlace_Last_3:
-    case PlayMenu.FixedPlace_Last_2:
-    case PlayMenu.FixedPlace_ZY:
-    case PlayMenu.FixedPlace_LF_FC3D:
-    case PlayMenu.FixedPlace_LF_P3P5:
-    case PlayMenu.FixedPlace_11X5:
-      parameter.startDigit = _findIndex(_reverse(contents), (v) => !isNaN(v));
-      break;
+    switch (playId) {
+      case PlayMenu.FixedPlace:
+      case PlayMenu.FixedPlace_Last_4:
+      case PlayMenu.FixedPlace_Last_3:
+      case PlayMenu.FixedPlace_Last_2:
+      case PlayMenu.FixedPlace_ZY:
+      case PlayMenu.FixedPlace_LF_FC3D:
+      case PlayMenu.FixedPlace_LF_P3P5:
+      case PlayMenu.FixedPlace_11X5:
+        parameter.startDigit = _findIndex(_reverse(contents), (v) => !isNaN(v));
+        break;
 
-    case PlayMenu.First5Fixed_PK10:
-    case PlayMenu.First5BSOE_PK10:
-      parameter.startDigit = _findIndex(contents, (v) => !isNaN(v));
-      break;
+      case PlayMenu.First5Fixed_PK10:
+      case PlayMenu.First5BSOE_PK10:
+        parameter.startDigit = _findIndex(contents, (v) => !isNaN(v));
+        break;
 
-    case PlayMenu.Last5Fixed_PK10:
-    case PlayMenu.Last5BSOE_PK10:
-      parameter.startDigit = _findIndex(contents, (v) => !isNaN(v)) + 5;
-      break;
+      case PlayMenu.Last5Fixed_PK10:
+      case PlayMenu.Last5BSOE_PK10:
+        parameter.startDigit = _findIndex(contents, (v) => !isNaN(v)) + 5;
+        break;
 
-    default:
-      // do nothing
-      break;
+      default:
+              // do nothing
+        break;
+    }
   }
 
   return getPlayMenuNameWithDigit(parameter);
@@ -86,7 +87,7 @@ export const getPlayName = ({ playId, playCode, bettingContent }) => {
  */
 export const truncBallText = (ballText) => {
   const digitsStrLength = 4;
-  const totalLength = 8;
+  const totalLength = 14;
   const truncText = ballText
     .substr(0, totalLength); // .replace(/ \| /g, '|')
 
@@ -159,13 +160,12 @@ export const genChasingOrderText = ({ chasing, chasingOrder, chasingPhase }) => 
  *
  * @returns {string} 訂單詳情 / 投注內容 欄位的顯示內容
  */
-export const i18nOrderInfo = ({ playId, bettingContent }) => {
-  return OrderInfoTranslator.getText(playId,bettingContent);
-};
+export const i18nOrderInfo = ({ playId, bettingContent }) => OrderInfoTranslator.getText(playId, bettingContent);
 
 /** genBallContentText , old name used by ods console */
 export default {
   getPlayMenuNameWithDigit,
+  truncBallText,
   getPlayName,
   i18nOrderInfo,
   genOrderNumberText,

@@ -381,6 +381,8 @@ const LANG = {
     firstLast: '首尾',
     totalTimes: '出现总次数',
     avgHotGap: '平均遗漏值',
+    maxGap: '最大遗漏值',
+    maxCombo: '最大连出值',
     numerosCount: '期数',
     goBet: '投注去',
     // LHC
@@ -669,6 +671,7 @@ const LANG = {
   transferFailed: '转账失败',
   transferTimeout: '转账超时',
   betStakeOverLimit: '该玩法可投上限为%@注，请重新下注！谢谢',
+  betRowStakeOverLimit: '该玩法单列可投上限为%@注，请重新下注！谢谢',
   drawAnnouncement: '开奖公告',
   today: '今天',
   yesterday: '昨天',
@@ -1101,15 +1104,6 @@ const LANG = {
     K3_P_SUM_16: '16',
     K3_P_SUM_17: '17',
     K3_P_SUM_18: '18',
-  },
-  subHeader: {
-    1885: '冠亚和值',
-    1886: '冠亚季和值',
-    1887: '首尾和值',
-    1996: '前二组选',
-    1997: '前三组选',
-    2000: '前二直选',
-    2001: '前三直选',
   },
   ...BaseGame,
 };

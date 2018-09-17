@@ -1,7 +1,7 @@
 import _find from 'lodash/find';
 import _sortBy from 'lodash/sortBy';
 import _compact from 'lodash/compact';
-import { PlayMenu } from '../../lott/config/play_menu';
+import { PlayMenu } from '../configs/basic_play_menu';
 import { i18n } from './i18n-key-finder';
 
 const BALL_BSOE_KEY = ['big', 'small', 'odd', 'even'];
@@ -141,14 +141,14 @@ const LHC_KEY = {
 };
 
 const HK5_KEY = {
-    '01': 'fiveOfAKind',
-    '02': 'fourOfAKind',
-    '03': 'fullHouse',
-    '04': 'straight',
-    '05': 'treeOfAKind',
-    '06': 'twoPair',
-    '07': 'onePair',
-    '08': 'highCard',
+  '01': 'fiveOfAKind',
+  '02': 'fourOfAKind',
+  '03': 'fullHouse',
+  '04': 'straight',
+  '05': 'treeOfAKind',
+  '06': 'twoPair',
+  '07': 'onePair',
+  '08': 'highCard',
 };
 
 const PCB_KEY = {
@@ -556,11 +556,6 @@ const LHCTranslator = {
 const PK10Translator = {
   BALL_NUMBER_PK10: {
     items: [
-      PlayMenu.First1_PK10,
-      PlayMenu.First2_PK10,
-      PlayMenu.First3_PK10,
-      PlayMenu.First4_PK10,
-      PlayMenu.First5_PK10,
       PlayMenu.First5Fixed_PK10,
       PlayMenu.Last5Fixed_PK10,
       PlayMenu.First2Sum_PK10,
@@ -583,6 +578,19 @@ const PK10Translator = {
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
     (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+
+  // ,,,01234,01234 => 01234 | 01234
+  NUMBER_WITH_HYPHEN: {
+    items: [
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ' '}${val}`), '').replace(/-/g, ' '),
   },
 };
 
@@ -794,26 +802,136 @@ const _11X5Translator = {
     },
 };
 
+const SSCTranslator = {
+  Ball_Number: {
+    items: [
+      PlayMenu.FixedPlace,
+      PlayMenu.Last2Straight,
+      PlayMenu.First2Straight,
+      PlayMenu.Last3Straight,
+      PlayMenu.Middle3Straight,
+      PlayMenu.First3Straight,
+      PlayMenu.Last3Join,
+      PlayMenu.Middle3Join,
+      PlayMenu.First3Join,
+      PlayMenu.Last3StraightCom,
+      PlayMenu.Middle3StraightCom,
+      PlayMenu.First3StraightCom,
+      PlayMenu.Last3Sum,
+      PlayMenu.Middle3Sum,
+      PlayMenu.First3Sum,
+      PlayMenu.First3Com3,
+      PlayMenu.Middle3Com3,
+      PlayMenu.Last3Com3,
+      PlayMenu.First3Com6,
+      PlayMenu.Middle3Com6,
+      PlayMenu.Last3Com6,
+      PlayMenu.Last3Com,
+      PlayMenu.Middle3Com,
+      PlayMenu.First3Com,
+      PlayMenu.Last4Straight,
+      PlayMenu.First4Straight,
+      PlayMenu.Last4Join,
+      PlayMenu.First4Join,
+      PlayMenu.L4Com24,
+      PlayMenu.L4Com12,
+      PlayMenu.L4Com6,
+      PlayMenu.L4Com4,
+      PlayMenu.F4Com24,
+      PlayMenu.F4Com12,
+      PlayMenu.F4Com6,
+      PlayMenu.F4Com4,
+      PlayMenu.AllCom120,
+      PlayMenu.AllCom60,
+      PlayMenu.AllCom30,
+      PlayMenu.AllCom20,
+      PlayMenu.AllCom10,
+      PlayMenu.AllCom5,
+      PlayMenu.Last2Join,
+      PlayMenu.First2Join,
+      PlayMenu.Last2Com,
+      PlayMenu.First2Com,
+      PlayMenu.Last2Sum,
+      PlayMenu.First2Sum,
+      PlayMenu.AllStraightAnyCode1_SSC,
+      PlayMenu.AllStraightAnyCode2_SSC,
+      PlayMenu.AllStraightAnyCode3_SSC,
+      PlayMenu.Last4StraightAnyCode1_SSC,
+      PlayMenu.Last4StraightAnyCode2_SSC,
+      PlayMenu.First3StraightAnyCode1,
+      PlayMenu.First3StraightAnyCode2,
+      PlayMenu.Middle3StraightAnyCode1,
+      PlayMenu.Middle3StraightAnyCode2,
+      PlayMenu.Last3StraightAnyCode1,
+      PlayMenu.Last3StraightAnyCode2,
+      PlayMenu.First2StraightAnyCode,
+      PlayMenu.Last2StraightAnyCode,
+      PlayMenu.First3ComAnyCode1,
+      PlayMenu.First3ComAnyCode2,
+      PlayMenu.Middle3ComAnyCode1,
+      PlayMenu.Middle3ComAnyCode2,
+      PlayMenu.Last3ComAnyCode1,
+      PlayMenu.Last3ComAnyCode2,
+      PlayMenu.First2ComAnyCode,
+      PlayMenu.Last2ComAnyCode,
+      PlayMenu.AnyShow1_SSC,
+      PlayMenu.AnyShow2_SSC,
+      PlayMenu.AnyShow3_SSC,
+      PlayMenu.AnyShow4_SSC,
+      PlayMenu.Last1Straight,
+      PlayMenu.FixedPlace_Last_4,
+      PlayMenu.FixedPlace_Last_3,
+      PlayMenu.FixedPlace_Last_2,
+      PlayMenu.FixedPlace_Last_1,
+      PlayMenu.anyComChoose2,
+      PlayMenu.anyComChoose3,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
+
+  Ball_Number_With_Space: {
+    items: [
+      PlayMenu.Last2Straight_Single,
+      PlayMenu.First2Straight_Single,
+      PlayMenu.Last3Straight_Single,
+      PlayMenu.Middle3Straight_Single,
+      PlayMenu.First3Straight_Single,
+      PlayMenu.Last3Join_Single,
+      PlayMenu.Middle3Join_Single,
+      PlayMenu.First3Join_Single,
+      PlayMenu.Last4Straight_Single,
+      PlayMenu.First4Straight_Single,
+      PlayMenu.Last4Join_Single,
+      PlayMenu.First4Join_Single,
+      PlayMenu.Last2Join_Single,
+      PlayMenu.First2Join_Single,
+    ],
+    getText: (content) => content.split('|').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
+};
+
 const SSC_NN_Translator = {
-    NN_NUMBER: {
-      items: [
-        PlayMenu.NN_SSC_ENT,
-      ],
-      getText: (content) => i18n(`playKey.nn${parseInt(content)}`)
-    },
-    NN_HAS: {
-      items: [
-        PlayMenu.NN_HAS_SSC_ENT,
-      ],
-      getText: (content) => i18n(`playKey.nnHas${content}`)
-    },
-    NN_BSOE: {
-      items: [
-        PlayMenu.NN_SSC_BSOE_ENT,
-      ],
-      getText: (content) =>
-        content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
-    },
+  NN_NUMBER: {
+    items: [
+      PlayMenu.NN_SSC_ENT,
+    ],
+    getText: (content) => i18n(`playKey.nn${parseInt(content)}`)
+  },
+  NN_HAS: {
+    items: [
+      PlayMenu.NN_HAS_SSC_ENT,
+    ],
+    getText: (content) => i18n(`playKey.nnHas${content}`)
+  },
+  NN_BSOE: {
+    items: [
+      PlayMenu.NN_SSC_BSOE_ENT,
+    ],
+    getText: (content) =>
+      content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
+  },
 };
 const SSC_HK5_Translator = {
   // 组合大小單雙
@@ -829,8 +947,6 @@ const SSC_HK5_Translator = {
 const OrderInfoTranslatorList = {
   BSOE: {
     items: [
-      PlayMenu.First2BSOE,
-      PlayMenu.Last2BSOE,
       PlayMenu.First2BSOE_LF,
       PlayMenu.Last2BSOE_LF_FC3D,
       PlayMenu.P5First2BSOE_LF,
@@ -893,6 +1009,25 @@ const OrderInfoTranslatorList = {
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
   },
+
+  // ,,,0123,13 => 大小單雙 | 小雙
+  COM_BSOE: {
+    items: [
+      PlayMenu.First2BSOE,
+      PlayMenu.Last2BSOE,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) => {
+      const orderInfo = (val) => {
+        if(val === ''){
+          return '';
+        }
+        return val.split('').sort().map((num) => (i18n(`ball.BSOE.${BALL_BSOE_KEY[num]}`))).join(' ');
+      }
+      return(`${result}${result && val ? ' | ' : ''}${orderInfo(val)}`)
+    }, ''),
+
+  },
+
   DRAGON_TIGER: {
     items: [
       PlayMenu.Dragon_Tiger_1_VS_10,
@@ -1037,6 +1172,7 @@ const OrderInfoTranslatorList = {
   ...PCBTranslator,
   ...K3Translator,
   ..._11X5Translator,
+  ...SSCTranslator,
   ...SSC_NN_Translator,
   ...SSC_HK5_Translator,
 };
@@ -1046,6 +1182,45 @@ const commaConfig = {
       PlayMenu.SpecialCom3_PCB,
       PlayMenu.First2_Straight_11X5_ENT,
       PlayMenu.First3_Straight_11X5_ENT,
+      PlayMenu.Last2Straight,
+      PlayMenu.First2Straight,
+      PlayMenu.Last3Straight,
+      PlayMenu.Middle3Straight,
+      PlayMenu.First3Straight,
+      PlayMenu.Last3Join,
+      PlayMenu.Middle3Join,
+      PlayMenu.First3Join,
+      PlayMenu.Last4Straight,
+      PlayMenu.First4Straight,
+      PlayMenu.Last4Join,
+      PlayMenu.First4Join,
+      PlayMenu.L4Com12,
+      PlayMenu.L4Com4,
+      PlayMenu.F4Com12,
+      PlayMenu.F4Com4,
+      PlayMenu.AllCom60,
+      PlayMenu.AllCom30,
+      PlayMenu.AllCom20,
+      PlayMenu.AllCom10,
+      PlayMenu.AllCom5,
+      PlayMenu.Last2Join,
+      PlayMenu.First2Join,
+      PlayMenu.AllStraightAnyCode2_SSC,
+      PlayMenu.AllStraightAnyCode3_SSC,
+      PlayMenu.Last4StraightAnyCode2_SSC,
+      PlayMenu.First3StraightAnyCode2,
+      PlayMenu.Middle3StraightAnyCode2,
+      PlayMenu.Last3StraightAnyCode2,
+      PlayMenu.First3ComAnyCode2,
+      PlayMenu.Middle3ComAnyCode2,
+      PlayMenu.Last3ComAnyCode2,
+      PlayMenu.First1_PK10,
+      PlayMenu.First2_PK10,
+      PlayMenu.First3_PK10,
+      PlayMenu.First4_PK10,
+      PlayMenu.First5_PK10,
+      PlayMenu.First2BSOE,
+      PlayMenu.Last2BSOE,
     ],
 }
 

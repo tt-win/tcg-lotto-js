@@ -104,6 +104,12 @@ export const groupCodeDefaultActive = {
       defaultActive: 'Last3Straight_LF',
     },
   },
+  K3: {
+    defaultActive: 'Sum_Number_K3',
+    subPlayMenu: {
+      defaultActive: 'Sum_K3',
+    },
+  },
 };
 // 彩種客製化預設玩法
 export const playMenuDefaultActive = {
@@ -139,32 +145,152 @@ export const playMenuDefaultActive = {
   },
 };
 
+/**
+ * H5 Used
+ * */
+export const defaultActivePlayMenu = {
+  trad: {
+    group: {
+      SSC: {
+        active: 'Last_3',
+        subPlayMenu: {
+          active: 'Last3Straight',
+        },
+      },
+      '11X5': {
+        active: 'First_3_11X5',
+        subPlayMenu: {
+          active: 'First3Straight_11X5',
+        },
+      },
+      PK10: {
+        active: 'Fixed_Place_PK10',
+        subPlayMenu: {
+          active: 'First5Fixed_PK10',
+        },
+      },
+      LF: {
+        active: 'Last_3_3D',
+        subPlayMenu: {
+          active: 'Last3Straight_LF',
+        },
+      },
+      K3: {
+          active: 'Sum_K3',
+          subPlayMenu: {
+              active: 'Sum_K3',
+          },
+      },
+    },
+    endsWith: {
+      '3D': {
+        active: 'Last_3_3D',
+        subPlayMenu: {
+          active: 'Last3Straight_LF',
+        },
+      },
+      P5: {
+        active: 'P3_Straight_LF',
+        subPlayMenu: {
+          active: 'P3Straight_LF',
+        },
+      },
+    },
+    // specific: {
+    //   FC3D: {
+    //     active: 'Last_3_3D',
+    //     subPlayMenu: {
+    //       active: 'Last3Straight_LF',
+    //     },
+    //   },
+    //   TCP3P5: {
+    //     active: 'P3_Straight_LF',
+    //     subPlayMenu: {
+    //       active: 'P3Straight_LF',
+    //     },
+    //   },
+    // },
+  },
+  ent: {
+    group: {
+      SSC: {
+        active: 'Combined_ENT',
+      },
+      '11X5': {
+        active: 'Two_Side_11X5_ENT',
+      },
+      PK10: {
+        active: 'Two_Side_PK10',
+      },
+      LHC: {
+        active: 'Special_LHC',
+      },
+      PCB: {
+        active: 'Combined_PCB',
+      },
+      K3: {
+        active: 'Combined_K3_ENT',
+      },
+    },
+  },
+};
+
 export const PlayMenu = {
+  Last1Straight: 13,
   FixedPlace: 14,
+  Last2Straight: 15,
+  Last2Com: 16,
+  Last2Join: 19,
+  Last2Sum: 20,
+  Last3Straight: 21,
+  Last3Com3: 23,
+  Last3Com6: 24,
+  Last3Com: 25,
+  Last3Join: 26,
+  Last3StraightCom: 27,
+  Last3Sum: 28,
+  Last4Straight: 29,
+  Last4Join: 30,
   FixedPlace_Last_4: 2015,
   FixedPlace_Last_3: 2016,
   FixedPlace_Last_2: 2017,
   FixedPlace_Last_1: 2018,
   FixedPlace_ZY: 2014,
   First2Straight: 34,
+  First2Com: 35,
   First2Split: 36,
   First2Join: 38,
+  First2Sum: 39,
   First3Straight: 40,
+  First3Com3: 42,
+  First3Com6: 43,
   First3Com: 44,
   First3Join: 45,
+  First3StraightCom: 46,
+  First3Sum: 47,
   First4Straight: 48,
   First4Join: 49,
   Middle3Straight: 50,
+  Middle3Com3: 52,
+  Middle3Com6: 53,
   Middle3Com: 54,
   Middle3Join: 55,
+  Middle3StraightCom: 56,
+  Middle3Sum: 57,
   First4Straight_Single: 83,
   First4Join_Single: 84,
+  Last4Straight_Single: 85,
+  Last4Join_Single: 86,
   First3Straight_Single: 87,
   First3Join_Single: 88,
   Middle3Straight_Single: 89,
   Middle3Join_Single: 90,
+  Last3Straight_Single: 91,
+  Last3Join_Single: 92,
   First2Straight_Single: 93,
   First2Join_Single: 94,
+  Last2Straight_Single: 95,
+  Last2Join_Single: 96,
 
   First2Straight_LF: 1416,
   First2Straight_LF_Single: 112,
@@ -179,8 +305,6 @@ export const PlayMenu = {
   FixedPlace_LF_FC3D: 1422,
   FixedPlace_LF_P3P5: 1447,
   FixedPlace_11X5: 923,
-  First5Fixed_PK10: 1462,
-  Last5Fixed_PK10: 1463,
 
   First2BSOE: 62,
   Last2BSOE: 63,
@@ -189,17 +313,25 @@ export const PlayMenu = {
   P5First2BSOE_LF: 1444,
   P3Last2BSOE_LF: 1445,
   Last2BSOE_LF_P3P5: 1446,
-  First5BSOE_PK10: 1467,
-  Last5BSOE_PK10: 1468,
-  First2SumBSOE_PK10: 1469,
 
   OECounts_11X5: 916,
 
-  Dragon_Tiger_1_VS_10: 1470,
-  Dragon_Tiger_2_VS_9: 1471,
-  Dragon_Tiger_3_VS_8: 1472,
-  Dragon_Tiger_4_VS_7: 1473,
-  Dragon_Tiger_5_VS_6: 1474,
+  AllCom120: 1601,
+  AllCom60: 1602,
+  AllCom30: 1603,
+  AllCom20: 1604,
+  AllCom10: 1605,
+  AllCom5: 1606,
+
+  F4Com24: 1607,
+  F4Com12: 1608,
+  F4Com6: 1609,
+  F4Com4: 1610,
+
+  L4Com24: 1611,
+  L4Com12: 1612,
+  L4Com6: 1613,
+  L4Com4: 1614,
 
   // 2017 0531 added by G 龍虎和
   Dragon_Tiger_10T_T_SSC: 1738,
@@ -214,11 +346,35 @@ export const PlayMenu = {
   Dragon_Tiger_10_1_SSC: 1747,
 
   // 2017 0607 added by G 不定位新玩法
+  First2ComAnyCode: 64,
+  First2StraightAnyCode: 65,
+  First3ComAnyCode1: 66,
+  First3ComAnyCode2: 67,
+  First3StraightAnyCode1: 68,
+  First3StraightAnyCode2: 69,
+  Last2ComAnyCode: 70,
+  Last2StraightAnyCode: 71,
+  Last3ComAnyCode1: 72,
+  Last3ComAnyCode2: 73,
+  Last3StraightAnyCode1: 74,
+  Last3StraightAnyCode2: 75,
+  Middle3ComAnyCode1: 76,
+  Middle3ComAnyCode2: 77,
+  Middle3StraightAnyCode1: 78,
+  Middle3StraightAnyCode2: 79,
   Last4StraightAnyCode1_SSC: 1748,   // 四星一码不定位
   Last4StraightAnyCode2_SSC: 1749,   // 四星二码不定位
   AllStraightAnyCode1_SSC: 1750,     // 五星一码不定位
   AllStraightAnyCode2_SSC: 1751,     // 五星二码不定位
   AllStraightAnyCode3_SSC: 1752,     // 五星三码不定位
+  anyComChoose2: 2029, // 五星二码 組選不定位
+  anyComChoose3: 2030, // 五星三码 組選不定位
+
+  //趣味玩法
+  AnyShow1_SSC: 169,
+  AnyShow2_SSC: 170,
+  AnyShow3_SSC: 171,
+  AnyShow4_SSC: 172,
 
   // ENT
   Combined_ENT: 1753,
@@ -254,9 +410,11 @@ export const PlayMenu = {
   Normal_Fixed_Place_LHC: 1622,
   Normal_LHC: 1619,
   Special_LHC: 1615,
-  Combine_Chinese_Zodiac: 1728,
+  Special_Combine_Zodiac_LHC: 1728,
 
   Special_Combine_Chinese_Zodiac_LHC: 1730,
+  SpecialB_Animal_LHC: 1714,
+  SpecialA_Animal_LHC: 1713,
   Fixed_Sixth_Color_LHC: 1712,
   Fixed_Sixth_TOSum_OE_LHC: 1711,
   Fixed_Sixth_BSOE_LHC: 1710,
@@ -310,17 +468,18 @@ export const PlayMenu = {
   Two_Sides_Special_TOSum_BSOE_LHC: 1646,
   Two_Sides_Special_BS_LHC: 1645,
   Two_Sides_Special_BSOE_LHC: 1644,
+  SpecialA_TOSum_BSOE_LHC: 1640,
+  SpecialA_Tail_BS_LHC: 1638,
   Color_BS_OE_LHC: 1637,
   Color_BSOE_LHC: 1636,
   Color_Straight_LHC: 1635,
   // 特碼
-  SpecialB_Animal_LHC: 1714,
   SpecialB_TOSum_BSOE_LHC: 1641,
   SpecialB_Tail_BS_LHC: 1639,
   SpecialB_BS_OE_LHC: 1633,
+  SpecialA_BS_OE_LHC: 1632,
   SpecialB_BSOE_LHC: 1631,
-  SpecialB_Straight_LHC: 1618,
-
+  SpecialA_BSOE_LHC: 1630,
   Sixth_Fixed_LHC: 1628,
   Fifth_Fixed_LHC: 1627,
   Fourth_Fixed_LHC: 1626,
@@ -328,6 +487,8 @@ export const PlayMenu = {
   Second_Fixed_LHC: 1624,
   First_Fixed_LHC: 1623,
   Normal_Straight_LHC: 1621,
+  SpecialA_Straight_LHC: 1617,
+  SpecialB_Straight_LHC: 1618,
   Normal_Sixth_LHC: 1663,
   Normal_Fifth_LHC: 1662,
   Normal_Fourth_LHC: 1661,
@@ -408,14 +569,52 @@ export const PlayMenu = {
   Combine_Last3_ENT: 1824,
   Combine_Total_Sum_ENT: 1826,
   Combine_Dragon_Tiger_Tie_ENT: 1827,
+
+  // PK10
+  First1_PK10: 1457,
+  First2_PK10: 1458,
+  First3_PK10: 1459,
+  First4_PK10: 1460,
+  First5_PK10: 1461,
+  First5Fixed_PK10: 1462,
+  Last5Fixed_PK10: 1463,
+  // 猜和值 與 定位膽 playcode與傳統重複..
+  First2Sum_PK10:1464,
+  First3Sum_PK10: 1465,
+  FirstLastSum_PK10: 1466,
+  SixToTenthPlace_PK10: 9999,
+  // =====================================
+  First5BSOE_PK10: 1467,
+  Last5BSOE_PK10: 1468,
+  First2SumBSOE_PK10: 1469,
+  Dragon_Tiger_1_VS_10: 1470,
+  Dragon_Tiger_2_VS_9: 1471,
+  Dragon_Tiger_3_VS_8: 1472,
+  Dragon_Tiger_4_VS_7: 1473,
+  Dragon_Tiger_5_VS_6: 1474,
+
   // ENT PK10
   Two_Side_PK10: 1856,
   Sum_PK10: 1884,
+  // 猜和值 與 定位膽 playcode與傳統重複..
+  // 現在只有娛樂城玩法使用playcode, 之後如果有要使用playMenu.[playCode] 指向傳統玩法的話需要特別留意
   First2Sum_PK10: 1885,
   First3Sum_PK10: 1886,
   FirstLastSum_PK10: 1887,
   Fixed_Place_PK10: 1888,
+  // =====================================
   Dragon_Tiger_PK10: 1899,
+  FirstPlace_PK10: 1889,
+  SecondPlace_PK10: 1890,
+  ThirdPlace_PK10: 1891,
+  FourthPlace_PK10: 1892,
+  FifthPlace_PK10: 1893,
+  SixthPlace_PK10: 1894,
+  SeventhPlace_PK10: 1895,
+  EighthPlace_PK10: 1896,
+  NinthPlace_PK10: 1897,
+  TenthPlace_PK10: 1898,
+
   // ENT PK10 兩面玩法 (Key與傳統重複..有另外改)
   Two_Side_First2SumBSOE_PK10: 1858,
   Two_Side_FirstPlace_PK10: 1860,
@@ -440,4 +639,90 @@ export const PlayMenu = {
   Dragon_Tiger_4_VS_7_PK10: 1903,
   Dragon_Tiger_5_VS_6_PK10: 1904,
 
+  // 幸運28
+  Combined_PCB: 1905,
+  Special_PCB: 1906,
+  SpecialSum_PCB: 1907,
+  Two_Side_PCB: 1908,
+  SpecialBSOE_PCB: 1909,
+  Special_BS_OE_PCB: 1910,
+  Special_Extremum_BS_PCB: 1911,
+  Color_PCB: 1913,
+  Boazi_PCB: 1914,
+  SpecialCom3_PCB: 1915,
+
+  // K3
+  Sum_K3: 1917,
+  Single_Same_3_K3: 1919,
+  All_Same_3_K3: 1920,
+  Different_3_K3: 1922,
+  All_Even_3_K3: 1924,
+  Single_Same_2_K3: 1926,
+  Multi_Same_2_K3: 1927,
+  Different_2_K3: 1929,
+  Sum_BS_OE_K3: 1931,
+
+  // K3 ENT
+  Combined_K3_ENT: 1932,
+  Sum_K3_ENT: 1934,
+  Sum_BS_OE_K3_ENT: 1936,
+  Different_2_K3_ENT: 1938,
+  Single_Same_K3_ENT: 1940,
+  Boazi_K3_ENT: 1942,
+  Any_Boazi_K3_ENT: 1943,
+  Single_Same_2_K3_ENT: 1945,
+
+  // 11x5 ENT
+  Two_Side_11X5_ENT: 1946,
+  Two_Side_Total_Sum_Group_11X5_ENT: 1948,
+  Two_Side_First_BSOE_11X5_ENT: 1950,
+  Two_Side_Second_BSOE_11X5_ENT: 1952,
+  Two_Side_Third_BSOE_11X5_ENT: 1954,
+  Two_Side_Fourth_BSOE_11X5_ENT: 1956,
+  Two_Side_Fifth_BSOE_11X5_ENT: 1958,
+  First_LV1_11X5_ENT: 1959,
+  First_11X5_ENT: 1961,
+  First_BSOE_11X5_ENT: 1963,
+  Second_LV1_11X5_ENT: 1964,
+  Second_11X5_ENT: 1966,
+  Second_BSOE_11X5_ENT: 1968,
+  Third_LV1_11X5_ENT: 1969,
+  Third_11X5_ENT: 1971,
+  Third_BSOE_11X5_ENT: 1973,
+  Fourth_LV1_11X5_ENT: 1974,
+  Fourth_11X5_ENT: 1976,
+  Fourth_BSOE_11X5_ENT: 1978,
+  Fifth_LV1_11X5_ENT: 1979,
+  Fifth_11X5_ENT: 1981,
+  Fifth_BSOE_11X5_ENT: 1983,
+  Any_11X5_ENT: 1984,
+  Any1_11X5_ENT: 1986,
+  Any2_11X5_ENT: 1987,
+  Any3_11X5_ENT: 1988,
+  Any4_11X5_ENT: 1989,
+  Any5_11X5_ENT: 1990,
+  Any6_11X5_ENT: 1991,
+  Any7_11X5_ENT: 1992,
+  Any8_11X5_ENT: 1993,
+  Com_11X5_ENT: 1994,
+  First2_Com_11X5_ENT: 1996,
+  First3_Com_11X5_ENT: 1997,
+  Straight_11X5_ENT: 1998,
+  First2_Straight_11X5_ENT: 2000,
+  First3_Straight_11X5_ENT: 2001,
+  Dragon_Tiger_11X5_ENT: 2002,
+  Dragon_Tiger_5_4_11X5_ENT: 2004,
+  Dragon_Tiger_5_3_11X5_ENT: 2005,
+  Dragon_Tiger_5_2_11X5_ENT: 2006,
+  Dragon_Tiger_5_1_11X5_ENT: 2007,
+  Dragon_Tiger_4_3_11X5_ENT: 2008,
+  Dragon_Tiger_4_2_11X5_ENT: 2009,
+  Dragon_Tiger_4_1_11X5_ENT: 2010,
+  Dragon_Tiger_3_2_11X5_ENT: 2011,
+  Dragon_Tiger_3_1_11X5_ENT: 2012,
+  Dragon_Tiger_2_1_11X5_ENT: 2013,
+  NN_SSC_ENT: 2021,
+  NN_HAS_SSC_ENT: 2023,
+  NN_SSC_BSOE_ENT: 2025,
+  HK5_SSC_ENT: 2028,
 };
