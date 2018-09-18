@@ -507,9 +507,13 @@ export const PlayMenu = {
   Fixed_Sixth_Fun_LHC: 1727,
   // 連肖
   Two_Join_Zodiac_Main_LHC: 2032,
+  Two_Join_Zodiac_LHC: 2033,
   Three_Join_Zodiac_Main_LHC: 2034,
+  Three_Join_Zodiac_LHC: 2035,
   Four_Join_Zodiac_Main_LHC: 2036,
+  Four_Join_Zodiac_LHC: 2037,
   Five_Join_Zodiac_Main_LHC: 2038,
+  Five_Join_Zodiac_LHC: 2039,
 
   // ENT config
   First_Straight_ENT: 1756,
