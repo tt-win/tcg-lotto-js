@@ -767,9 +767,8 @@ const PlayMenu = {
     fiveOfAKind: '五条',
     fourOfAKind: '四条',
     fullHouse: '葫芦',
-    straight: '顺子',
     treeOfAKind: '三条',
-    twoPair: '兩对',
+    twoPair: '两对',
     onePair: '一对',
     highCard: '高牌',
 
