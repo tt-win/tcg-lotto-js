@@ -20,6 +20,8 @@ const LHC_KEY = {
     12: 'specialSmallOdd',
     13: 'specialSmallEven',
   },
+  // 牛牛大小單雙
+  NNBSOE: ['NNBig', 'NNSmall', 'NNOdd', 'NNEven'],
   // 特合大小單雙
   BALL_TOSUM_BSOE_KEY: ['specialTOSumBig', 'specialTOSumSmall', 'specialTOSumOdd', 'specialTOSumEven'],
   // 特尾大小
@@ -929,8 +931,7 @@ const SSC_NN_Translator = {
     items: [
       PlayMenu.NN_SSC_BSOE_ENT,
     ],
-    getText: (content) =>
-      content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
+    getText: (content) => i18n(`playKey.${LHC_KEY.NNBSOE[content]}`),
   },
 };
 const SSC_HK5_Translator = {
