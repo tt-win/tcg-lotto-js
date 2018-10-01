@@ -335,11 +335,17 @@ const LHCTranslator = {
     ],
     getText: (content) => i18n(`playKey.${LHC_KEY.HEAD_TAIL[content]}`),
   },
-  // 合肖
+  // 合肖 連肖
   COMBINE_ZODIAC_LHC: {
     items: [
       // 合肖
       PlayMenu.Special_Combine_Chinese_Zodiac_LHC,
+
+      // 連肖
+      PlayMenu.Two_Join_Zodiac_LHC,
+      PlayMenu.Three_Join_Zodiac_LHC,
+      PlayMenu.Four_Join_Zodiac_LHC,
+      PlayMenu.Five_Join_Zodiac_LHC,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
       (`${result}${result ? ' | ' : ''}${i18n(`playKey.${LHC_KEY.ZODIAC[parseInt(val)]}`)}`), ''),
