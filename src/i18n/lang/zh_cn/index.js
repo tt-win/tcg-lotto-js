@@ -720,6 +720,8 @@ const LANG = {
   goToBet: '去投注',
   betOrderCount: '组数',
   totalAmount: '总金额',
+  totalBettingAmount: '本期已投总额',
+  currentTotalAmount: '本次投注金額',
   colorStraight: '色波',
   colorBSOE: '半波',
   colorBS_OE: '半半波',
@@ -984,6 +986,7 @@ const LANG = {
   fetchBalanceFailed: '获取彩票余额失败',
   winAmountMaxByNumero: '单期最高奖金',
   winAmountMax: '单笔最高奖金',
+  betAmountMaxByNumero: '单期投注上限金额',
   prizeList: '奖金总览',
   prizeListPrizeType: {
     [null]: '玩法奖金',
