@@ -413,6 +413,7 @@ export const PlayMenu = {
   Special_LHC: 1615,
   Special_Combine_Zodiac_LHC: 1728,
   Join_Zodiac: 2031,
+  Join_Main_LHC: 2040,
 
   Special_Combine_Chinese_Zodiac_LHC: 1730,
   SpecialB_Animal_LHC: 1714,
