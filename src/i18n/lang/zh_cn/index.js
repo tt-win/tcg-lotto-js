@@ -986,7 +986,7 @@ const LANG = {
   fetchBalanceFailed: '获取彩票余额失败',
   winAmountMaxByNumero: '单期最高奖金',
   winAmountMax: '单笔最高奖金',
-  betAmountMaxByNumero: '单期投注上限金额',
+  betAmountMaxByNumero: '单期投注最大金额',
   prizeList: '奖金总览',
   prizeListPrizeType: {
     [null]: '玩法奖金',
