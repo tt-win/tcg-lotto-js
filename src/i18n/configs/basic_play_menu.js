@@ -515,6 +515,19 @@ export const PlayMenu = {
   Four_Join_Zodiac_LHC: 2037,
   Five_Join_Zodiac_Main_LHC: 2038,
   Five_Join_Zodiac_LHC: 2039,
+  // 連碼
+  Two_In_Normal_Main_LHC: 2041,
+  Two_In_Normal_LHC: 2042,
+  Three_In_Normal_Main_LHC: 2043,
+  Three_In_Normal_LHC: 2044,
+  Four_In_Normal_Main_LHC: 2045,
+  Four_In_Normal_LHC: 2046,
+  Two_Of_Three_In_Normal_Main_LHC: 2047,
+  Two_Of_Three_In_Normal_LHC: 2048,
+  Two_In_Normal_Or_Special_Main_LHC: 2049,
+  Two_In_Normal_Or_Special_LHC: 2050,
+  In_Normal_And_Special_Main_LHC: 2051,
+  In_Normal_And_Special_LHC: 2052,
 
   // ENT config
   First_Straight_ENT: 1756,
