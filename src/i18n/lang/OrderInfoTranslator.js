@@ -201,6 +201,14 @@ const LHCTranslator = {
       // 自選不中
       PlayMenu.Choose_Not_in_Winning_Numbers_LHC,
 
+      //  連碼
+      PlayMenu.Two_In_Normal_LHC,
+      PlayMenu.Three_In_Normal_LHC,
+      PlayMenu.Four_In_Normal_LHC,
+      PlayMenu.Two_Of_Three_In_Normal_LHC,
+      PlayMenu.Two_In_Normal_Or_Special_LHC,
+      PlayMenu.In_Normal_And_Special_LHC,
+
       // SSC 娛樂城
       PlayMenu.Combine_First_Straight_ENT,
       PlayMenu.Combine_Second_Straight_ENT,
