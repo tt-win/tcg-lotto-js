@@ -178,10 +178,10 @@ export const defaultActivePlayMenu = {
         },
       },
       K3: {
+        active: 'Sum_K3',
+        subPlayMenu: {
           active: 'Sum_K3',
-          subPlayMenu: {
-              active: 'Sum_K3',
-          },
+        },
       },
     },
     endsWith: {
@@ -372,7 +372,7 @@ export const PlayMenu = {
   anyComChoose2: 2029, // 五星二码 組選不定位
   anyComChoose3: 2030, // 五星三码 組選不定位
 
-  //趣味玩法
+  // 趣味玩法
   AnyShow1_SSC: 169,
   AnyShow2_SSC: 170,
   AnyShow3_SSC: 171,
