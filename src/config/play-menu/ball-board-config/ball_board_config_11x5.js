@@ -120,7 +120,7 @@ export default {
   //  FixedPlace_11X5
   923: BallBoardConfigRecord({
     ...base11X5Props,
-    betDigits: [betDigits.FIRST, betDigits.SECOND, betDigits.THIRD],
+    betDigits: [betDigits.FIRST, betDigits.SECOND, betDigits.THIRD, betDigits.FOURTH, betDigits.FIFTH],
     formula: 'oneBallOneNum',
   }),
 

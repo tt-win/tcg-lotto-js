@@ -27,6 +27,8 @@ const group11X5DigitsI18n = {
     4: 'startDigit.first',
     3: 'startDigit.second',
     2: 'startDigit.third',
+    1: 'startDigit.fourth',
+    0: 'startDigit.fifth',
   },
 };
 
