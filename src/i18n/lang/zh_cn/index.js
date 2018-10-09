@@ -713,6 +713,7 @@ const LANG = {
   number: '号码',
   odds: '赔率',
   amount: '金额',
+  amountByStakes: '单注金额',
   balance: '余额',
   noRecord: '目前没有投注纪录, 进入',
   goToBet: '去投注',
