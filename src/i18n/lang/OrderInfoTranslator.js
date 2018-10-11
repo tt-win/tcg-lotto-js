@@ -756,66 +756,66 @@ const K3Translator = {
 };
 
 const _11X5Translator = {
-    Two_Side_Total_Sum_Group: {
-        items: [
-            PlayMenu.Two_Side_Total_Sum_Group_11X5_ENT,
-        ],
-        getText: (content) => i18n(`playKey.${_11X5_KEY.Total_Sum_Group[content]}`),
-    },
+  Two_Side_Total_Sum_Group: {
+    items: [
+      PlayMenu.Two_Side_Total_Sum_Group_11X5_ENT,
+    ],
+    getText: (content) => i18n(`playKey.${_11X5_KEY.Total_Sum_Group[content]}`),
+  },
 
-    Ball_Number_11X5: {
-        items: [
-            PlayMenu.First_11X5_ENT,
-            PlayMenu.Second_11X5_ENT,
-            PlayMenu.Third_11X5_ENT,
-            PlayMenu.Fourth_11X5_ENT,
-            PlayMenu.Fifth_11X5_ENT,
-            PlayMenu.Any1_11X5_ENT,
-            PlayMenu.Any2_11X5_ENT,
-            PlayMenu.Any3_11X5_ENT,
-            PlayMenu.Any4_11X5_ENT,
-            PlayMenu.Any5_11X5_ENT,
-            PlayMenu.Any6_11X5_ENT,
-            PlayMenu.Any7_11X5_ENT,
-            PlayMenu.Any8_11X5_ENT,
-        ],
-        getText: (content) => content.split('-').reduce((result, val) =>
+  Ball_Number_11X5: {
+    items: [
+      PlayMenu.First_11X5_ENT,
+      PlayMenu.Second_11X5_ENT,
+      PlayMenu.Third_11X5_ENT,
+      PlayMenu.Fourth_11X5_ENT,
+      PlayMenu.Fifth_11X5_ENT,
+      PlayMenu.Any1_11X5_ENT,
+      PlayMenu.Any2_11X5_ENT,
+      PlayMenu.Any3_11X5_ENT,
+      PlayMenu.Any4_11X5_ENT,
+      PlayMenu.Any5_11X5_ENT,
+      PlayMenu.Any6_11X5_ENT,
+      PlayMenu.Any7_11X5_ENT,
+      PlayMenu.Any8_11X5_ENT,
+    ],
+    getText: (content) => content.split('-').reduce((result, val) =>
             (`${result}${result ? ' | ' : ''}${val}`), ''),
-    },
+  },
 
-    Com_11X5: {
-      items: [
-        PlayMenu.First2_Com_11X5_ENT,
-        PlayMenu.First3_Com_11X5_ENT,
-      ],
-      getText: (content) => content.split('_').reduce((result, val) =>
+  Com_11X5: {
+    items: [
+      PlayMenu.First2_Com_11X5_ENT,
+      PlayMenu.First3_Com_11X5_ENT,
+    ],
+    getText: (content) => content.split('_').reduce((result, val) =>
         (`${result}${result ? ' | ' : ''}${val}`), ''),
-    },
+  },
 
-    Straight_11X5: {
-      items: [
-        PlayMenu.First2_Straight_11X5_ENT,
-        PlayMenu.First3_Straight_11X5_ENT,
-      ],
-      getText: (content) => content.split(',').reduce((result, val) =>
+  Straight_11X5: {
+    items: [
+      PlayMenu.First2_Straight_11X5_ENT,
+      PlayMenu.First3_Straight_11X5_ENT,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
         (`${result}${result && val ? ' | ' : ''}${val}`), ''),
-    },
+  },
 
-    Dragon_Tiger: {
-        items: [
-            PlayMenu.Dragon_Tiger_5_4_11X5_ENT,
-            PlayMenu.Dragon_Tiger_5_3_11X5_ENT,
-            PlayMenu.Dragon_Tiger_5_2_11X5_ENT,
-            PlayMenu.Dragon_Tiger_5_1_11X5_ENT,
-            PlayMenu.Dragon_Tiger_4_3_11X5_ENT,
-            PlayMenu.Dragon_Tiger_4_2_11X5_ENT,
-            PlayMenu.Dragon_Tiger_4_1_11X5_ENT,
-            PlayMenu.Dragon_Tiger_3_2_11X5_ENT,
-            PlayMenu.Dragon_Tiger_3_1_11X5_ENT,
-            PlayMenu.Dragon_Tiger_2_1_11X5_ENT,
-        ],
-        getText: (content) => i18n(`playKey.${_11X5_KEY.Dragon_Tiger[content]}`),
-    },
+  Dragon_Tiger: {
+    items: [
+      PlayMenu.Dragon_Tiger_5_4_11X5_ENT,
+      PlayMenu.Dragon_Tiger_5_3_11X5_ENT,
+      PlayMenu.Dragon_Tiger_5_2_11X5_ENT,
+      PlayMenu.Dragon_Tiger_5_1_11X5_ENT,
+      PlayMenu.Dragon_Tiger_4_3_11X5_ENT,
+      PlayMenu.Dragon_Tiger_4_2_11X5_ENT,
+      PlayMenu.Dragon_Tiger_4_1_11X5_ENT,
+      PlayMenu.Dragon_Tiger_3_2_11X5_ENT,
+      PlayMenu.Dragon_Tiger_3_1_11X5_ENT,
+      PlayMenu.Dragon_Tiger_2_1_11X5_ENT,
+    ],
+    getText: (content) => i18n(`playKey.${_11X5_KEY.Dragon_Tiger[content]}`),
+  },
 };
 
 const SSCTranslator = {
@@ -928,18 +928,18 @@ const SSCTranslator = {
   },
 };
 
-const SSC_NN_Translator = {
+const SSCNNTranslator = {
   NN_NUMBER: {
     items: [
       PlayMenu.NN_SSC_ENT,
     ],
-    getText: (content) => i18n(`playKey.nn${parseInt(content)}`)
+    getText: (content) => i18n(`playKey.nn${parseInt(content)}`),
   },
   NN_HAS: {
     items: [
       PlayMenu.NN_HAS_SSC_ENT,
     ],
-    getText: (content) => i18n(`playKey.nnHas${content}`)
+    getText: (content) => i18n(`playKey.nnHas${content}`),
   },
   NN_BSOE: {
     items: [
@@ -948,7 +948,7 @@ const SSC_NN_Translator = {
     getText: (content) => i18n(`playKey.${LHC_KEY.NNBSOE[content]}`),
   },
 };
-const SSC_HK5_Translator = {
+const SSCHK5Translator = {
   // 组合大小單雙
   HK5: {
     items: [
@@ -1032,13 +1032,13 @@ const OrderInfoTranslatorList = {
       PlayMenu.Last2BSOE,
     ],
     getText: (content) => content.split(',').reduce((result, val) => {
-      const orderInfo = (val) => {
-        if(val === ''){
+      const orderInfo = (vals) => {
+        if (vals === '') {
           return '';
         }
-        return val.split('').sort().map((num) => (i18n(`ball.BSOE.${BALL_BSOE_KEY[num]}`))).join(' ');
-      }
-      return(`${result}${result && val ? ' | ' : ''}${orderInfo(val)}`)
+        return vals.split('').sort().map((num) => (i18n(`ball.BSOE.${BALL_BSOE_KEY[num]}`))).join(' ');
+      };
+      return (`${result}${result && val ? ' | ' : ''}${orderInfo(val)}`);
     }, ''),
 
   },
@@ -1188,56 +1188,56 @@ const OrderInfoTranslatorList = {
   ...K3Translator,
   ..._11X5Translator,
   ...SSCTranslator,
-  ...SSC_NN_Translator,
-  ...SSC_HK5_Translator,
+  ...SSCNNTranslator,
+  ...SSCHK5Translator,
 };
 
 const commaConfig = {
-    items: [
-      PlayMenu.SpecialCom3_PCB,
-      PlayMenu.First2_Straight_11X5_ENT,
-      PlayMenu.First3_Straight_11X5_ENT,
-      PlayMenu.Last2Straight,
-      PlayMenu.First2Straight,
-      PlayMenu.Last3Straight,
-      PlayMenu.Middle3Straight,
-      PlayMenu.First3Straight,
-      PlayMenu.Last3Join,
-      PlayMenu.Middle3Join,
-      PlayMenu.First3Join,
-      PlayMenu.Last4Straight,
-      PlayMenu.First4Straight,
-      PlayMenu.Last4Join,
-      PlayMenu.First4Join,
-      PlayMenu.L4Com12,
-      PlayMenu.L4Com4,
-      PlayMenu.F4Com12,
-      PlayMenu.F4Com4,
-      PlayMenu.AllCom60,
-      PlayMenu.AllCom30,
-      PlayMenu.AllCom20,
-      PlayMenu.AllCom10,
-      PlayMenu.AllCom5,
-      PlayMenu.Last2Join,
-      PlayMenu.First2Join,
-      PlayMenu.AllStraightAnyCode2_SSC,
-      PlayMenu.AllStraightAnyCode3_SSC,
-      PlayMenu.Last4StraightAnyCode2_SSC,
-      PlayMenu.First3StraightAnyCode2,
-      PlayMenu.Middle3StraightAnyCode2,
-      PlayMenu.Last3StraightAnyCode2,
-      PlayMenu.First3ComAnyCode2,
-      PlayMenu.Middle3ComAnyCode2,
-      PlayMenu.Last3ComAnyCode2,
-      PlayMenu.First1_PK10,
-      PlayMenu.First2_PK10,
-      PlayMenu.First3_PK10,
-      PlayMenu.First4_PK10,
-      PlayMenu.First5_PK10,
-      PlayMenu.First2BSOE,
-      PlayMenu.Last2BSOE,
-    ],
-}
+  items: [
+    PlayMenu.SpecialCom3_PCB,
+    PlayMenu.First2_Straight_11X5_ENT,
+    PlayMenu.First3_Straight_11X5_ENT,
+    PlayMenu.Last2Straight,
+    PlayMenu.First2Straight,
+    PlayMenu.Last3Straight,
+    PlayMenu.Middle3Straight,
+    PlayMenu.First3Straight,
+    PlayMenu.Last3Join,
+    PlayMenu.Middle3Join,
+    PlayMenu.First3Join,
+    PlayMenu.Last4Straight,
+    PlayMenu.First4Straight,
+    PlayMenu.Last4Join,
+    PlayMenu.First4Join,
+    PlayMenu.L4Com12,
+    PlayMenu.L4Com4,
+    PlayMenu.F4Com12,
+    PlayMenu.F4Com4,
+    PlayMenu.AllCom60,
+    PlayMenu.AllCom30,
+    PlayMenu.AllCom20,
+    PlayMenu.AllCom10,
+    PlayMenu.AllCom5,
+    PlayMenu.Last2Join,
+    PlayMenu.First2Join,
+    PlayMenu.AllStraightAnyCode2_SSC,
+    PlayMenu.AllStraightAnyCode3_SSC,
+    PlayMenu.Last4StraightAnyCode2_SSC,
+    PlayMenu.First3StraightAnyCode2,
+    PlayMenu.Middle3StraightAnyCode2,
+    PlayMenu.Last3StraightAnyCode2,
+    PlayMenu.First3ComAnyCode2,
+    PlayMenu.Middle3ComAnyCode2,
+    PlayMenu.Last3ComAnyCode2,
+    PlayMenu.First1_PK10,
+    PlayMenu.First2_PK10,
+    PlayMenu.First3_PK10,
+    PlayMenu.First4_PK10,
+    PlayMenu.First5_PK10,
+    PlayMenu.First2BSOE,
+    PlayMenu.Last2BSOE,
+  ],
+};
 
 const OrderInfoTranslator = {
 
