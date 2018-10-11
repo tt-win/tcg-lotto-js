@@ -168,8 +168,8 @@ const LANG = {
       Single_2_Same_ball_6: '66',
     },
     NN: {
-      '-1': '无',
-      '10': '牛',
+      NNNoHave: '无',
+      NuNu: '牛',
     },
   },
   gameGroupCode: {

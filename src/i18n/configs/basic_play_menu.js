@@ -592,7 +592,7 @@ export const PlayMenu = {
   First5Fixed_PK10: 1462,
   Last5Fixed_PK10: 1463,
   // 猜和值 與 定位膽 playcode與傳統重複..
-  First2Sum_PK10:1464,
+  First2Sum_PK10: 1464,
   First3Sum_PK10: 1465,
   FirstLastSum_PK10: 1466,
   SixToTenthPlace_PK10: 9999,
