@@ -28,6 +28,8 @@ const LANG = {
     FIRST: '第一位',
     SECOND: '第二位',
     THIRD: '第三位',
+    FOURTH: '第四位',
+    FIFTH: '第五位',
     PK10_FIRST: '冠军',
     PK10_SECOND: '亚军',
     PK10_THIRD: '季军',
@@ -83,6 +85,8 @@ const LANG = {
     first: '（第一位）',
     second: '（第二位）',
     third: '（第三位）',
+    fourth: '（第四位）',
+    fifth: '（第五位）',
     pk10_first: '（冠军）',
     pk10_second: '（亚军）',
     pk10_third: '（季军）',
@@ -164,8 +168,8 @@ const LANG = {
       Single_2_Same_ball_6: '66',
     },
     NN: {
-      '-1': '无',
-      '10': '牛',
+      NNNoHave: '无',
+      NuNu: '牛',
     },
   },
   gameGroupCode: {

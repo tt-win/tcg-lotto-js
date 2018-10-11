@@ -29,6 +29,8 @@ const group11X5DigitsI18n = {
     4: 'startDigit.first',
     3: 'startDigit.second',
     2: 'startDigit.third',
+    1: 'startDigit.fourth',
+    0: 'startDigit.fifth',
   },
 };
 
@@ -176,10 +178,10 @@ export const defaultActivePlayMenu = {
         },
       },
       K3: {
+        active: 'Sum_K3',
+        subPlayMenu: {
           active: 'Sum_K3',
-          subPlayMenu: {
-              active: 'Sum_K3',
-          },
+        },
       },
     },
     endsWith: {
@@ -370,7 +372,7 @@ export const PlayMenu = {
   anyComChoose2: 2029, // 五星二码 組選不定位
   anyComChoose3: 2030, // 五星三码 組選不定位
 
-  //趣味玩法
+  // 趣味玩法
   AnyShow1_SSC: 169,
   AnyShow2_SSC: 170,
   AnyShow3_SSC: 171,
@@ -590,7 +592,7 @@ export const PlayMenu = {
   First5Fixed_PK10: 1462,
   Last5Fixed_PK10: 1463,
   // 猜和值 與 定位膽 playcode與傳統重複..
-  First2Sum_PK10:1464,
+  First2Sum_PK10: 1464,
   First3Sum_PK10: 1465,
   FirstLastSum_PK10: 1466,
   SixToTenthPlace_PK10: 9999,
