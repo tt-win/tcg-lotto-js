@@ -178,6 +178,37 @@ const _11X5_KEY = {
   Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
+// SSC 龍虎和 KEY
+const getDragonTigerTie = (val) => {
+  let contentKey;
+  switch (val) {
+    case '1':
+      contentKey = 'dragon';
+      break;
+    case '12':
+      contentKey = 'dragonOdd';
+      break;
+    case '13':
+      contentKey = 'dragonEven';
+      break;
+    case '0':
+      contentKey = 'tiger';
+      break;
+    case '02':
+      contentKey = 'tigerOdd';
+      break;
+    case '03':
+      contentKey = 'tigerEven';
+      break;
+    case '2':
+      contentKey = 'tie';
+      break;
+    default:
+      break;
+  }
+  return contentKey;
+};
+
 
 const LHCTranslator = {
   // 球號
@@ -1055,19 +1086,8 @@ const OrderInfoTranslatorList = {
     ],
     getText: (content) => i18n(`ball.dragonTiger.${content === '1' ? 'dragon' : 'tiger'}`),
   },
-  DRAGON_TIGER_TIE: {
+  DRAGON_TIGER_TIE_ENT: {
     items: [
-      PlayMenu.Dragon_Tiger_10T_T_SSC,
-      PlayMenu.Dragon_Tiger_10T_H_SSC,
-      PlayMenu.Dragon_Tiger_10T_10_SSC,
-      PlayMenu.Dragon_Tiger_10T_1_SSC,
-      PlayMenu.Dragon_Tiger_T_H_SSC,
-      PlayMenu.Dragon_Tiger_T_10_SSC,
-      PlayMenu.Dragon_Tiger_T_1_SSC,
-      PlayMenu.Dragon_Tiger_H_10_SSC,
-      PlayMenu.Dragon_Tiger_H_1_SSC,
-      PlayMenu.Dragon_Tiger_10_1_SSC,
-
       // 娛樂城龍虎和
       PlayMenu.Dragon_Tiger_Tie_5_4_ENT,
       PlayMenu.Dragon_Tiger_Tie_5_3_ENT,
@@ -1110,6 +1130,23 @@ const OrderInfoTranslatorList = {
           break;
       }
       return i18n(`ball.dragonTigerTie.${contentKey}`);
+    },
+  },
+  DRAGON_TIGER_TIE: {
+    items: [
+      PlayMenu.Dragon_Tiger_10T_T_SSC,
+      PlayMenu.Dragon_Tiger_10T_H_SSC,
+      PlayMenu.Dragon_Tiger_10T_10_SSC,
+      PlayMenu.Dragon_Tiger_10T_1_SSC,
+      PlayMenu.Dragon_Tiger_T_H_SSC,
+      PlayMenu.Dragon_Tiger_T_10_SSC,
+      PlayMenu.Dragon_Tiger_T_1_SSC,
+      PlayMenu.Dragon_Tiger_H_10_SSC,
+      PlayMenu.Dragon_Tiger_H_1_SSC,
+      PlayMenu.Dragon_Tiger_10_1_SSC,
+    ],
+    getText: (content) => {
+      content.split('|').reduce((result, val) => (`${result}${result && val ? ' | ' : ''}${getDragonTigerTie(val)}`), '');
     },
   },
   OE_COUNTS: {
