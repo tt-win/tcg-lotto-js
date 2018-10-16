@@ -18,6 +18,8 @@ const BetConfigRecord = Record({
   minRows: -1,
   // 機選: 球(列)可否重複
   canRandomDuplicateBall: true,
+  // 龍虎和 bettingSlipString 以逗號隔開 EX: 0,1,2,0_1,0_2
+  betByComma: false,
 });
 
 const groupBetConfigSSC = {
@@ -64,34 +66,34 @@ const groupBetConfigSSC = {
   }),
   // 龍虎和
   Dragon_Tiger_10T_T_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_10T_H_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_10T_10_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_10T_1_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_T_H_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_T_10_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_T_1_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_H_10_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_H_1_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
   Dragon_Tiger_10_1_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    betByComma: true,
   }),
 
   // 任選組選
