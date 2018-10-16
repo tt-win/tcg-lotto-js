@@ -178,35 +178,26 @@ const _11X5_KEY = {
   Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
-// SSC 龍虎和 KEY
+// SSC 龍虎和
 const getDragonTigerTie = (val) => {
-  let contentKey;
   switch (val) {
     case '1':
-      contentKey = 'dragon';
-      break;
+      return i18n('ball.dragonTigerTie.dragon');
     case '12':
-      contentKey = 'dragonOdd';
-      break;
+      return i18n('ball.dragonTigerTie.dragonOdd');
     case '13':
-      contentKey = 'dragonEven';
-      break;
+      return i18n('ball.dragonTigerTie.dragonEven');
     case '0':
-      contentKey = 'tiger';
-      break;
+      return i18n('ball.dragonTigerTie.tiger');
     case '02':
-      contentKey = 'tigerOdd';
-      break;
+      return i18n('ball.dragonTigerTie.tigerOdd');
     case '03':
-      contentKey = 'tigerEven';
-      break;
+      return i18n('ball.dragonTigerTie.tigerEven');
     case '2':
-      contentKey = 'tie';
-      break;
+      return i18n('ball.dragonTigerTie.tie');
     default:
-      break;
+      return '';
   }
-  return contentKey;
 };
 
 
@@ -1102,35 +1093,7 @@ const OrderInfoTranslatorList = {
       // 娛樂城整合龍虎和
       PlayMenu.Combine_Dragon_Tiger_Tie_ENT,
     ],
-    getText: (content) => {
-      let contentKey;
-      switch (content) {
-        case '1':
-          contentKey = 'dragon';
-          break;
-        case '12':
-          contentKey = 'dragonOdd';
-          break;
-        case '13':
-          contentKey = 'dragonEven';
-          break;
-        case '0':
-          contentKey = 'tiger';
-          break;
-        case '02':
-          contentKey = 'tigerOdd';
-          break;
-        case '03':
-          contentKey = 'tigerEven';
-          break;
-        case '2':
-          contentKey = 'tie';
-          break;
-        default:
-          break;
-      }
-      return i18n(`ball.dragonTigerTie.${contentKey}`);
-    },
+    getText: (content) => getDragonTigerTie(content),
   },
   DRAGON_TIGER_TIE: {
     items: [
@@ -1145,9 +1108,8 @@ const OrderInfoTranslatorList = {
       PlayMenu.Dragon_Tiger_H_1_SSC,
       PlayMenu.Dragon_Tiger_10_1_SSC,
     ],
-    getText: (content) => {
-      content.split('|').reduce((result, val) => (`${result}${result && val ? ' | ' : ''}${getDragonTigerTie(val)}`), '');
-    },
+    getText: (content) =>
+      content.split('|').reduce((result, val) => (`${result}${result && val ? ' | ' : ''}${getDragonTigerTie(val)}`), ''),
   },
   OE_COUNTS: {
     items: [PlayMenu.OECounts_11X5],
