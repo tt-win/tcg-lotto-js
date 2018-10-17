@@ -610,17 +610,6 @@ const PK10Translator = {
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ' '}${val}`), '').replace(/-/g, ' '),
   },
-
-  // 和值
-  Sum_PK10: {
-    items: [
-      PlayMenu.First2Sum_PK10,
-      PlayMenu.First3Sum_PK10,
-      PlayMenu.FirstLastSum_PK10,
-    ],
-    getText: (content) => content.split(',').reduce((result, val) =>
-      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
-  },
 };
 
 const PCBTranslator = {
@@ -914,6 +903,15 @@ const SSCTranslator = {
       PlayMenu.FixedPlace_Last_1,
       PlayMenu.anyComChoose2,
       PlayMenu.anyComChoose3,
+      // 猜和值 與 定位膽 playcode與傳統重複..用到的地方暫時hard code
+      /*
+      First2Sum_PK10: 1464,
+      First3Sum_PK10: 1465,
+    FirstLastSum_PK10: 1466,
+    */
+      1464,
+      1465,
+      1466,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
