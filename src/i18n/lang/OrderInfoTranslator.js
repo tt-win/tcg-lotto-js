@@ -582,13 +582,7 @@ const PK10Translator = {
     items: [
       PlayMenu.First5Fixed_PK10,
       PlayMenu.Last5Fixed_PK10,
-      PlayMenu.First2Sum_PK10,
-      PlayMenu.First3Sum_PK10,
-      PlayMenu.FirstLastSum_PK10,
       PlayMenu.FirstPlace_PK10,
-      PlayMenu.First2Sum_PK10,
-      PlayMenu.First3Sum_PK10,
-      PlayMenu.FirstLastSum_PK10,
       PlayMenu.SecondPlace_PK10,
       PlayMenu.ThirdPlace_PK10,
       PlayMenu.FourthPlace_PK10,
@@ -615,6 +609,17 @@ const PK10Translator = {
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ' '}${val}`), '').replace(/-/g, ' '),
+  },
+
+  // 和值
+  Sum_PK10: {
+    items: [
+      PlayMenu.First2Sum_PK10,
+      PlayMenu.First3Sum_PK10,
+      PlayMenu.FirstLastSum_PK10,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
 };
 
