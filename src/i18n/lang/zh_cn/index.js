@@ -249,6 +249,7 @@ const LANG = {
     orderStatus_12: '空开撤单',
     orderStatus_14: '未开奖',
     orderStatus_16: '和局',
+    orderStatus_17: '个人撤单',
     orderStatus_99: '无效订单',
   },
   errorCode: {
