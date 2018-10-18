@@ -34,6 +34,8 @@ const dragonTigerPropsSSC = {
     2: 'P_GENERAL_TIE',
     0: 'P_GENERAL',
   },
+  delimiter: ',',
+  forceUseDelimiter: true,
 };
 
 const baseSSCPropsENT = {
@@ -218,6 +220,8 @@ export default {
     canShowHotGap: false,
     hasToolbar: false,
     canShowStakes: true,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   // First3Com3
   42: BallBoardConfigRecord({
@@ -261,6 +265,8 @@ export default {
     canShowHotGap: false,
     hasToolbar: false,
     canShowStakes: true,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   // Middle3Com3
   52: BallBoardConfigRecord({
@@ -298,6 +304,8 @@ export default {
     canShowHotGap: false,
     hasToolbar: false,
     canShowStakes: true,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   //  Last3Com3
   23: BallBoardConfigRecord({
@@ -334,6 +342,8 @@ export default {
     canShowHotGap: false,
     hasToolbar: false,
     canShowStakes: true,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   //  First2Com
   35: BallBoardConfigRecord({
@@ -363,6 +373,8 @@ export default {
     canShowHotGap: false,
     hasToolbar: false,
     canShowStakes: true,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   //  Last2Com
   16: BallBoardConfigRecord({
@@ -700,6 +712,8 @@ export default {
     manualDigitsI18n: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     defaultManualDigits: [4, 5],
     minChooseManualDigits: 2,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   // Any3Sum_SSC
   178: BallBoardConfigRecord({
@@ -715,6 +729,8 @@ export default {
     manualDigitsI18n: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     defaultManualDigits: [3, 4, 5],
     minChooseManualDigits: 3,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   // Any3Com3_SSC
   179: BallBoardConfigRecord({

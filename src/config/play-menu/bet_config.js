@@ -18,8 +18,6 @@ const BetConfigRecord = Record({
   minRows: -1,
   // 機選: 球(列)可否重複
   canRandomDuplicateBall: true,
-  // 龍虎和 bettingSlipString 以逗號隔開 EX: 0,1,2,0_1,0_2
-  betByComma: false,
 });
 
 const groupBetConfigSSC = {
@@ -44,56 +42,56 @@ const groupBetConfigSSC = {
   }),
   // 和值
   First3Sum: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Middle3Sum: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Last3Sum: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   First2Sum: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Last2Sum: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Any2Sum_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Any3Sum_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   // 龍虎和
   Dragon_Tiger_10T_T_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_10T_H_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_10T_10_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_10T_1_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_T_H_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_T_10_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_T_1_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_H_10_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_H_1_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Dragon_Tiger_10_1_SSC: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
 
   // 任選組選
@@ -272,19 +270,19 @@ const groupBetConfig11X5 = {
 
 const groupBetConfigLF = {
   Last3Sum_LF: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Last3ComSum_LF: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   FixedPlace_LF: BetConfigRecord({
     isBetSlipByRow: true,
   }),
   P3Sum_LF: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   P3ComSum_LF: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Last3Com3_LF: BetConfigRecord({
     minBalls: [2],
@@ -320,13 +318,13 @@ const groupBetConfigPK10 = {
     isBetSlipByRow: true,
   }),
   First2Sum_PK10: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   First3Sum_PK10: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   FirstLastSum_PK10: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   First5BSOE_PK10: BetConfigRecord({
     isBetSlipByRow: true,
@@ -350,7 +348,7 @@ const groupBetConfigPK10 = {
 
 const groupBetConfigK3 = {
   Sum_K3: BetConfigRecord({
-    betByComma: true,
+    isBetSlipByRow: true,
   }),
   Single_Same_3_K3: BetConfigRecord({
     isBetSlipByBall: true,
