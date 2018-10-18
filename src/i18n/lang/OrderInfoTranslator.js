@@ -682,8 +682,6 @@ const K3Translator = {
     // 和值
   BALL_NUMBER_K3: {
     items: [
-      // 傳統
-      PlayMenu.Sum_K3,
       // 娛樂城
       PlayMenu.Sum_K3_ENT,
       PlayMenu.Single_Same_K3_ENT,
@@ -849,9 +847,6 @@ const SSCTranslator = {
       PlayMenu.Last3StraightCom,
       PlayMenu.Middle3StraightCom,
       PlayMenu.First3StraightCom,
-      PlayMenu.Last3Sum,
-      PlayMenu.Middle3Sum,
-      PlayMenu.First3Sum,
       PlayMenu.First3Com3,
       PlayMenu.Middle3Com3,
       PlayMenu.Last3Com3,
@@ -883,8 +878,6 @@ const SSCTranslator = {
       PlayMenu.First2Join,
       PlayMenu.Last2Com,
       PlayMenu.First2Com,
-      PlayMenu.Last2Sum,
-      PlayMenu.First2Sum,
       PlayMenu.AllStraightAnyCode1_SSC,
       PlayMenu.AllStraightAnyCode2_SSC,
       PlayMenu.AllStraightAnyCode3_SSC,
@@ -1163,11 +1156,9 @@ const OrderInfoTranslatorList = {
       PlayMenu.Any4Com12_SSC,
       PlayMenu.Any4Com6_SSC,
       PlayMenu.Any4Com4_SSC,
-      PlayMenu.Any3Sum_SSC,
       PlayMenu.Any3Com3_SSC,
       PlayMenu.Any3Com6_SSC,
       PlayMenu.Any3Com_SSC,
-      PlayMenu.Any2Sum_SSC,
       PlayMenu.Any2Com_SSC,
       PlayMenu.Any2Com_SSC_Single,
     ],
@@ -1183,6 +1174,39 @@ const OrderInfoTranslatorList = {
       const ballTextArray = _compact(contentArr[1].split(','));
       return `(${digitPosText}) ${ballTextArray.join(' | ')}`;
     },
+  },
+  // 和值
+  Sum_Ball_Number: {
+    items: [
+      // SSC 和值
+      PlayMenu.First3Sum,
+      PlayMenu.Middle3Sum,
+      PlayMenu.Last3Sum,
+      PlayMenu.First2Sum,
+      PlayMenu.Last2Sum,
+      PlayMenu.Any2Sum_SSC,
+      PlayMenu.Any3Sum_SSC,
+      // 低頻彩
+      PlayMenu.Last3Sum_LF,
+      PlayMenu.Last3ComSum_LF,
+      PlayMenu.P3Sum_LF,
+      PlayMenu.P3ComSum_LF,
+      // K3
+      PlayMenu.Sum_K3,
+
+      // PK10
+      // 猜和值 與 定位膽 playcode與傳統重複..用到的地方暫時hard code
+      /*
+        First2Sum_PK10: 1464,
+        First3Sum_PK10: 1465,
+        FirstLastSum_PK10: 1466,
+    */
+      1464,
+      1465,
+      1466,
+    ],
+    getText: (content) => content.split('|').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
   ...PK10Translator,
   ...LHCTranslator,
