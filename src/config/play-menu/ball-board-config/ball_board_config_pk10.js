@@ -72,6 +72,8 @@ export default {
     canShowHotGap: false,
     hasToolbar: false,
     formula: 'oneBallOneNum',
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   //  First3Sum_PK10
   1465: BallBoardConfigRecord({
@@ -81,6 +83,8 @@ export default {
     canShowHotGap: false,
     hasToolbar: false,
     formula: 'oneBallOneNum',
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   //  FirstLastSum_PK10
   1466: BallBoardConfigRecord({
@@ -90,6 +94,8 @@ export default {
     canShowHotGap: false,
     hasToolbar: false,
     formula: 'oneBallOneNum',
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   // First5BSOE_PK10
   1467: BallBoardConfigRecord({

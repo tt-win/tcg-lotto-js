@@ -10,6 +10,8 @@ export const BallBoardConfigRecord = Record({
   fixedBalls: [], // 特殊: 固定球號, 球號無規律, ex: 定單雙
   betDigits: [], // 球號每列名稱
   boardClassNames: '', // ball board class
+  delimiter: '',
+  forceUseDelimiter: false,
   hasToolbar: true,
   canHideToolBarAll: false,
   canHideToolBarBig: false,
