@@ -204,6 +204,23 @@ const joinZodiac = {
   2039: '五连肖',
 }
 
+const JoinMain = {
+  2040: '连码',
+
+  2041: '二全中',
+  2042: '二全中',
+  2043: '三全中',
+  2044: '三全中',
+  2045: '四全中',
+  2046: '四全中',
+  2047: '三中二',
+  2048: '三中二',
+  2049: '二中特',
+  2050: '二中特',
+  2051: '特串',
+  2052: '特串',
+}
+
 export const lhcPlayId = {
   ...special, // 特碼
   ...bothSide, // 两面
@@ -217,6 +234,7 @@ export const lhcPlayId = {
   ...normalSpecialOneZodiac, // 平特一肖尾數
   ...chooseNotInWinningNumbers, // 自選不中
   ...joinZodiac, // 連肖
+  ...JoinMain, // 连码
 };
 
 export const lhcBothSideRank = {
