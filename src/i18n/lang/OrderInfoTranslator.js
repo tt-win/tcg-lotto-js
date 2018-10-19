@@ -200,6 +200,19 @@ const getDragonTigerTie = (val) => {
   }
 };
 
+const getDigitOrderContent = (originalContent) => {
+  const contentArr = originalContent.split('@');
+
+  const digitPosArr = _sortBy(contentArr[0].split(''));
+  const digitPosText = digitPosArr.reduce((finalText, digitPos) => {
+    const index = parseInt(digitPos) - 1;
+    return `${finalText}${i18n(`startDigit.${SSC_DIGIT_KEY[index]}`)}`;
+  }, '');
+
+  const ballTextArray = _compact(contentArr[1].split(','));
+  return { digitPosText, ballTextArray };
+};
+
 
 const LHCTranslator = {
   // 球號
@@ -1163,20 +1176,12 @@ const OrderInfoTranslatorList = {
       PlayMenu.Any2Com_SSC_Single,
     ],
     getText: (content, originalContent) => {
-      const contentArr = originalContent.split('@');
-
-      const digitPosArr = _sortBy(contentArr[0].split(''));
-      const digitPosText = digitPosArr.reduce((finalText, digitPos) => {
-        const index = parseInt(digitPos) - 1;
-        return `${finalText}${i18n(`startDigit.${SSC_DIGIT_KEY[index]}`)}`;
-      }, '');
-
-      const ballTextArray = _compact(contentArr[1].split(','));
-      return `(${digitPosText}) ${ballTextArray.join(' | ')}`;
+      const digitOrderContent = getDigitOrderContent(originalContent);
+      return `(${digitOrderContent.digitPosText}) ${digitOrderContent.ballTextArray.join(' | ')}`;
     },
   },
   // 和值
-  Sum_Ball_Number: {
+  SUM_BALL_NUMBER: {
     items: [
       // SSC 和值
       PlayMenu.First3Sum,
@@ -1184,8 +1189,6 @@ const OrderInfoTranslatorList = {
       PlayMenu.Last3Sum,
       PlayMenu.First2Sum,
       PlayMenu.Last2Sum,
-      PlayMenu.Any2Sum_SSC,
-      PlayMenu.Any3Sum_SSC,
       // 低頻彩
       PlayMenu.Last3Sum_LF,
       PlayMenu.Last3ComSum_LF,
@@ -1207,6 +1210,19 @@ const OrderInfoTranslatorList = {
     ],
     getText: (content) => content.split('|').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
+  // 任選和值
+  ANY_SUM_BALL_NUMBER: {
+    items: [
+      PlayMenu.Any2Sum_SSC,
+      PlayMenu.Any3Sum_SSC,
+    ],
+    getText: (content, originalContent) => {
+      const digitOrderContent = getDigitOrderContent(originalContent);
+      const { digitPosText, ballTextArray } = digitOrderContent;
+      const ballText = ballTextArray.join('').replace(/\|/g, ' | ');
+      return `(${digitPosText}) ${ballText}`;
+    },
   },
   ...PK10Translator,
   ...LHCTranslator,
