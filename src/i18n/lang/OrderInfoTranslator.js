@@ -178,6 +178,28 @@ const _11X5_KEY = {
   Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
+// SSC 龍虎和
+const getDragonTigerTie = (val) => {
+  switch (val) {
+    case '1':
+      return i18n('ball.dragonTigerTie.dragon');
+    case '12':
+      return i18n('ball.dragonTigerTie.dragonOdd');
+    case '13':
+      return i18n('ball.dragonTigerTie.dragonEven');
+    case '0':
+      return i18n('ball.dragonTigerTie.tiger');
+    case '02':
+      return i18n('ball.dragonTigerTie.tigerOdd');
+    case '03':
+      return i18n('ball.dragonTigerTie.tigerEven');
+    case '2':
+      return i18n('ball.dragonTigerTie.tie');
+    default:
+      return '';
+  }
+};
+
 
 const LHCTranslator = {
   // 球號
@@ -200,6 +222,14 @@ const LHCTranslator = {
 
       // 自選不中
       PlayMenu.Choose_Not_in_Winning_Numbers_LHC,
+
+      //  連碼
+      PlayMenu.Two_In_Normal_LHC,
+      PlayMenu.Three_In_Normal_LHC,
+      PlayMenu.Four_In_Normal_LHC,
+      PlayMenu.Two_Of_Three_In_Normal_LHC,
+      PlayMenu.Two_In_Normal_Or_Special_LHC,
+      PlayMenu.In_Normal_And_Special_LHC,
 
       // SSC 娛樂城
       PlayMenu.Combine_First_Straight_ENT,
@@ -335,11 +365,17 @@ const LHCTranslator = {
     ],
     getText: (content) => i18n(`playKey.${LHC_KEY.HEAD_TAIL[content]}`),
   },
-  // 合肖
+  // 合肖 連肖
   COMBINE_ZODIAC_LHC: {
     items: [
       // 合肖
       PlayMenu.Special_Combine_Chinese_Zodiac_LHC,
+
+      // 連肖
+      PlayMenu.Two_Join_Zodiac_LHC,
+      PlayMenu.Three_Join_Zodiac_LHC,
+      PlayMenu.Four_Join_Zodiac_LHC,
+      PlayMenu.Five_Join_Zodiac_LHC,
     ],
     getText: (content) => content.split('-').reduce((result, val) =>
       (`${result}${result ? ' | ' : ''}${i18n(`playKey.${LHC_KEY.ZODIAC[parseInt(val)]}`)}`), ''),
@@ -560,13 +596,7 @@ const PK10Translator = {
     items: [
       PlayMenu.First5Fixed_PK10,
       PlayMenu.Last5Fixed_PK10,
-      PlayMenu.First2Sum_PK10,
-      PlayMenu.First3Sum_PK10,
-      PlayMenu.FirstLastSum_PK10,
       PlayMenu.FirstPlace_PK10,
-      PlayMenu.First2Sum_PK10,
-      PlayMenu.First3Sum_PK10,
-      PlayMenu.FirstLastSum_PK10,
       PlayMenu.SecondPlace_PK10,
       PlayMenu.ThirdPlace_PK10,
       PlayMenu.FourthPlace_PK10,
@@ -652,8 +682,6 @@ const K3Translator = {
     // 和值
   BALL_NUMBER_K3: {
     items: [
-      // 傳統
-      PlayMenu.Sum_K3,
       // 娛樂城
       PlayMenu.Sum_K3_ENT,
       PlayMenu.Single_Same_K3_ENT,
@@ -819,9 +847,6 @@ const SSCTranslator = {
       PlayMenu.Last3StraightCom,
       PlayMenu.Middle3StraightCom,
       PlayMenu.First3StraightCom,
-      PlayMenu.Last3Sum,
-      PlayMenu.Middle3Sum,
-      PlayMenu.First3Sum,
       PlayMenu.First3Com3,
       PlayMenu.Middle3Com3,
       PlayMenu.Last3Com3,
@@ -853,8 +878,6 @@ const SSCTranslator = {
       PlayMenu.First2Join,
       PlayMenu.Last2Com,
       PlayMenu.First2Com,
-      PlayMenu.Last2Sum,
-      PlayMenu.First2Sum,
       PlayMenu.AllStraightAnyCode1_SSC,
       PlayMenu.AllStraightAnyCode2_SSC,
       PlayMenu.AllStraightAnyCode3_SSC,
@@ -887,6 +910,15 @@ const SSCTranslator = {
       PlayMenu.FixedPlace_Last_1,
       PlayMenu.anyComChoose2,
       PlayMenu.anyComChoose3,
+      // 猜和值 與 定位膽 playcode與傳統重複..用到的地方暫時hard code
+      /*
+      First2Sum_PK10: 1464,
+      First3Sum_PK10: 1465,
+    FirstLastSum_PK10: 1466,
+    */
+      1464,
+      1465,
+      1466,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
@@ -1055,19 +1087,8 @@ const OrderInfoTranslatorList = {
     ],
     getText: (content) => i18n(`ball.dragonTiger.${content === '1' ? 'dragon' : 'tiger'}`),
   },
-  DRAGON_TIGER_TIE: {
+  DRAGON_TIGER_TIE_ENT: {
     items: [
-      PlayMenu.Dragon_Tiger_10T_T_SSC,
-      PlayMenu.Dragon_Tiger_10T_H_SSC,
-      PlayMenu.Dragon_Tiger_10T_10_SSC,
-      PlayMenu.Dragon_Tiger_10T_1_SSC,
-      PlayMenu.Dragon_Tiger_T_H_SSC,
-      PlayMenu.Dragon_Tiger_T_10_SSC,
-      PlayMenu.Dragon_Tiger_T_1_SSC,
-      PlayMenu.Dragon_Tiger_H_10_SSC,
-      PlayMenu.Dragon_Tiger_H_1_SSC,
-      PlayMenu.Dragon_Tiger_10_1_SSC,
-
       // 娛樂城龍虎和
       PlayMenu.Dragon_Tiger_Tie_5_4_ENT,
       PlayMenu.Dragon_Tiger_Tie_5_3_ENT,
@@ -1082,35 +1103,23 @@ const OrderInfoTranslatorList = {
       // 娛樂城整合龍虎和
       PlayMenu.Combine_Dragon_Tiger_Tie_ENT,
     ],
-    getText: (content) => {
-      let contentKey;
-      switch (content) {
-        case '1':
-          contentKey = 'dragon';
-          break;
-        case '12':
-          contentKey = 'dragonOdd';
-          break;
-        case '13':
-          contentKey = 'dragonEven';
-          break;
-        case '0':
-          contentKey = 'tiger';
-          break;
-        case '02':
-          contentKey = 'tigerOdd';
-          break;
-        case '03':
-          contentKey = 'tigerEven';
-          break;
-        case '2':
-          contentKey = 'tie';
-          break;
-        default:
-          break;
-      }
-      return i18n(`ball.dragonTigerTie.${contentKey}`);
-    },
+    getText: (content) => getDragonTigerTie(content),
+  },
+  DRAGON_TIGER_TIE: {
+    items: [
+      PlayMenu.Dragon_Tiger_10T_T_SSC,
+      PlayMenu.Dragon_Tiger_10T_H_SSC,
+      PlayMenu.Dragon_Tiger_10T_10_SSC,
+      PlayMenu.Dragon_Tiger_10T_1_SSC,
+      PlayMenu.Dragon_Tiger_T_H_SSC,
+      PlayMenu.Dragon_Tiger_T_10_SSC,
+      PlayMenu.Dragon_Tiger_T_1_SSC,
+      PlayMenu.Dragon_Tiger_H_10_SSC,
+      PlayMenu.Dragon_Tiger_H_1_SSC,
+      PlayMenu.Dragon_Tiger_10_1_SSC,
+    ],
+    getText: (content) =>
+      content.split('|').reduce((result, val) => (`${result}${result && val ? ' | ' : ''}${getDragonTigerTie(val)}`), ''),
   },
   OE_COUNTS: {
     items: [PlayMenu.OECounts_11X5],
@@ -1147,11 +1156,9 @@ const OrderInfoTranslatorList = {
       PlayMenu.Any4Com12_SSC,
       PlayMenu.Any4Com6_SSC,
       PlayMenu.Any4Com4_SSC,
-      PlayMenu.Any3Sum_SSC,
       PlayMenu.Any3Com3_SSC,
       PlayMenu.Any3Com6_SSC,
       PlayMenu.Any3Com_SSC,
-      PlayMenu.Any2Sum_SSC,
       PlayMenu.Any2Com_SSC,
       PlayMenu.Any2Com_SSC_Single,
     ],
@@ -1167,6 +1174,39 @@ const OrderInfoTranslatorList = {
       const ballTextArray = _compact(contentArr[1].split(','));
       return `(${digitPosText}) ${ballTextArray.join(' | ')}`;
     },
+  },
+  // 和值
+  Sum_Ball_Number: {
+    items: [
+      // SSC 和值
+      PlayMenu.First3Sum,
+      PlayMenu.Middle3Sum,
+      PlayMenu.Last3Sum,
+      PlayMenu.First2Sum,
+      PlayMenu.Last2Sum,
+      PlayMenu.Any2Sum_SSC,
+      PlayMenu.Any3Sum_SSC,
+      // 低頻彩
+      PlayMenu.Last3Sum_LF,
+      PlayMenu.Last3ComSum_LF,
+      PlayMenu.P3Sum_LF,
+      PlayMenu.P3ComSum_LF,
+      // K3
+      PlayMenu.Sum_K3,
+
+      // PK10
+      // 猜和值 與 定位膽 playcode與傳統重複..用到的地方暫時hard code
+      /*
+        First2Sum_PK10: 1464,
+        First3Sum_PK10: 1465,
+        FirstLastSum_PK10: 1466,
+    */
+      1464,
+      1465,
+      1466,
+    ],
+    getText: (content) => content.split('|').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
   ...PK10Translator,
   ...LHCTranslator,

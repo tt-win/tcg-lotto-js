@@ -77,6 +77,8 @@ export default {
   //  Last3Sum_LF
   1409: BallBoardConfigRecord({
     ...sum3Props,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   //  Last3Com3_LF
   1410: BallBoardConfigRecord({
@@ -89,6 +91,8 @@ export default {
   // Last3ComSum_LF
   1413: BallBoardConfigRecord({
     ...threeComSumProps,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   // First2Straight_LF
   1416: BallBoardConfigRecord({
@@ -144,6 +148,8 @@ export default {
   //  P3Sum_LF
   1431: BallBoardConfigRecord({
     ...sum3Props,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   //  P3Com3_LF
   1432: BallBoardConfigRecord({
@@ -156,6 +162,8 @@ export default {
   //  P3ComSum_LF
   1435: BallBoardConfigRecord({
     ...threeComSumProps,
+    delimiter: ',',
+    forceUseDelimiter: true,
   }),
   //  P3StraightAnyCode1_LF
   1436: BallBoardConfigRecord({
