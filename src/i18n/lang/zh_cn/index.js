@@ -663,6 +663,7 @@ const LANG = {
   filterRepeat: '过滤重复/无效号',
   lostSeriesData: '缺少系列资料',
   logInTimeOut: '登入超时 请重新登入',
+  searchOrdersTimeOut: '系统繁忙，请稍后再试',
   noNumero: '当前彩种暂时没有开始销售 请稍候再试',
   subPlayMenuEmpty: '此彩种暂时关闭 请选择其他彩种',
   drawing: '正在开奖',
