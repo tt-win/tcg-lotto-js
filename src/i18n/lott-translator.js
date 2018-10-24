@@ -34,7 +34,8 @@ export const getPlayMenuNameWithDigit = ({ playMenu, startDigit }) => {
     return `${i18n('playId.1841')}:${i18n(`playId.${playId}`)}${startDigitI18n}`;
   }
   // 一星定位膽(個)(個) => 一星定位膽(個)
-  if (playId === PlayMenu.FixedPlace_Last_1) {
+  // 一星定位膽, 任二. 任三組選和值需要走這個規則
+  if ([PlayMenu.FixedPlace_Last_1, PlayMenu.Any2Sum_SSC, PlayMenu.Any3Sum_SSC].indexOf(playId) >= 0) {
     return i18n(`playId.${playId}`);
   }
   return `${i18n(`playId.${playId}`)}${startDigitI18n}`;
