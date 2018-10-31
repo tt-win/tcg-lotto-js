@@ -43,6 +43,19 @@ const baseSSCPropsENT = {
   ...baseSSCProps,
 };
 
+const ballOECountsI18n = {
+  ballI18n: {
+    0: 'ball.sumBSOE.0',
+    1: 'ball.sumBSOE.1',
+    2: 'ball.sumBSOE.2',
+    3: 'ball.sumBSOE.3',
+    '0_2': 'ball.sumBSOE.0_2',
+    '0_3': 'ball.sumBSOE.0_3',
+    '1_2': 'ball.sumBSOE.1_2',
+    '1_3': 'ball.sumBSOE.1_3',
+  },
+};
+
 export default {
   // All5Straight
   31: BallBoardConfigRecord({
@@ -1121,5 +1134,40 @@ export default {
   // Two_Side_Total_Sum_BSOE_ENT
   1840: BallBoardConfigRecord({
     ...baseSSCPropsENT,
+  }),
+
+  // Sum_BSOE_SSC 和值大小單雙
+  2071: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2', '3'],
+    boardClassNames: 'game-large',
+    betDigits: [betDigits.EMPTY],
+    hasToolbar: true,
+    canHideToolBarBig: true,
+    canHideToolBarSmall: true,
+    canHideToolBarOdd: true,
+    canHideToolBarEven: true,
+    canShowHotGap: false,
+    multi: true,    // 可否複選
+    formula: 'oneBallOneNum',   // 1球1注
+    delimiter: ',',
+    forceUseDelimiter: true,
+    ...ballOECountsI18n,
+  }),
+  // Sum_BS_OE_SSC 和值組合大小單雙
+  2072: BallBoardConfigRecord({
+    fixedBalls: ['0_2', '0_3', '1_2', '1_3'],
+    boardClassNames: 'game-large',
+    betDigits: [betDigits.EMPTY],
+    hasToolbar: true,
+    canHideToolBarBig: true,
+    canHideToolBarSmall: true,
+    canHideToolBarOdd: true,
+    canHideToolBarEven: true,
+    canShowHotGap: false,
+    multi: true,    // 可否複選
+    formula: 'oneBallOneNum',   // 1球1注
+    delimiter: ',',
+    forceUseDelimiter: true,
+    ...ballOECountsI18n,
   }),
 };
