@@ -752,7 +752,7 @@ const LANG = {
   noHit: '不中',
   checked: '勾选',
   detail: '详细',
-  detailInfo: '查看詳情',
+  detailInfo: '查看详情',
   more: '更多',
   pk: '单挑',
   choseVariety: '选彩种',
