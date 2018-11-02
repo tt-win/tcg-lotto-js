@@ -1139,7 +1139,7 @@ export default {
   // Sum_BSOE_SSC 和值大小單雙
   2071: BallBoardConfigRecord({
     fixedBalls: ['0', '1', '2', '3'],
-    boardClassNames: 'game-large',
+    boardClassNames: 'game-large sum-bsoe',
     betDigits: [betDigits.EMPTY],
     hasToolbar: true,
     canHideToolBarBig: true,
@@ -1156,7 +1156,7 @@ export default {
   // Sum_BS_OE_SSC 和值組合大小單雙
   2072: BallBoardConfigRecord({
     fixedBalls: ['0_2', '0_3', '1_2', '1_3'],
-    boardClassNames: 'game-large',
+    boardClassNames: 'game-large sum-bsoe',
     betDigits: [betDigits.EMPTY],
     hasToolbar: true,
     canHideToolBarBig: true,
