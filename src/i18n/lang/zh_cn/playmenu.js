@@ -4,6 +4,7 @@ import entertainmentPlayMenu from './play-ent';
 import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
 // import { pcbPlayKey } from './play-pcb';
 import playRemark from './playRemark';
+import playRemarkSpecialRule from './playRemarkSpecialRule';
 
 const PlayMenu = {
   playId: {
@@ -775,6 +776,9 @@ const PlayMenu = {
   },
   playRemark: {
     ...playRemark,
+  },
+  playRemarkSpecialRule: {
+    ...playRemarkSpecialRule,
   },
   bothSideRank: {
     ...lhcBothSideRank,
