@@ -795,6 +795,7 @@ const LANG = {
   first3: '前三',
   middle3: '中三',
   last3: '后三',
+  dragonTigerTie: '龙虎和',
   twoSide: '两面',
   pastime: '趣味',
   Dragon_Tiger_Tie_5_4_ENT: '第一球vs第二球',
