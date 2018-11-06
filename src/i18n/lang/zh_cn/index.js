@@ -171,6 +171,17 @@ const LANG = {
       NNNoHave: '无',
       NuNu: '牛',
     },
+    // 總和大小單雙
+    sumBSOE: {
+      0: '总和大',
+      1: '总和小',
+      2: '总和单',
+      3: '总和双',
+      '0_2': '总和大单',
+      '0_3': '总和大双',
+      '1_2': '总和小单',
+      '1_3': '总和小双',
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',
@@ -796,6 +807,7 @@ const LANG = {
   first3: '前三',
   middle3: '中三',
   last3: '后三',
+  dragonTigerTie: '龙虎和',
   twoSide: '两面',
   pastime: '趣味',
   Dragon_Tiger_Tie_5_4_ENT: '第一球vs第二球',
