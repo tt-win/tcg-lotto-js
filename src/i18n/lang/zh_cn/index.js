@@ -696,6 +696,7 @@ const LANG = {
   add: '添加',
   oneClickBet: '一键投注',
   winDescription: '玩法说明',
+  gameDrawTimesInfo: '彩种说明',
   lobby: '大厅',
   openWinningNumber: '开奖',
   bet: '投注',
