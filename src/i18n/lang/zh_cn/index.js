@@ -998,6 +998,7 @@ const LANG = {
   betAmountMaxByNumero: '彩种单期投注最大金额',
   drawInterval: '开奖时间',
   drawFrequency: '开奖频率',
+  drawFrequencyInfo: '每天%@期，%@秒一期',
   prizeList: '奖金总览',
   prizeListPrizeType: {
     [null]: '玩法奖金',
