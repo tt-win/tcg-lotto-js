@@ -8,12 +8,21 @@ module.exports = {
     return i18nOrderInfo({ playId, bettingContent });
   },
   translatePrizeType(key) {
+    if (!key || key.length === 0) {
+      return '';
+    }
     return i18n(`prizeListPrizeType.${key}`);
   },
   translateGameCode(key) {
+    if (!key || key.length === 0) {
+      return '';
+    }
     return i18n(`gameCode.${key}`);
   },
   translateGameGroupCode(key) {
+    if (!key || key.length === 0) {
+      return '';
+    }
     return i18n(`gameGroupCode.${key}`);
   },
 };
