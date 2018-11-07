@@ -10,4 +10,10 @@ module.exports = {
   translatePrizeType(key) {
     return i18n(`prizeListPrizeType.${key}`);
   },
+  translateGameCode(key) {
+    return i18n(`gameCode.${key}`);
+  },
+  translateGameGroupCode(key) {
+    return i18n(`gameGroupCode.${key}`);
+  },
 };
