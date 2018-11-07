@@ -202,7 +202,7 @@ const joinZodiac = {
   2037: '四连肖',
   2038: '五连肖',
   2039: '五连肖',
-}
+};
 
 const JoinMain = {
   2040: '连码',
@@ -219,7 +219,7 @@ const JoinMain = {
   2050: '二中特',
   2051: '特串',
   2052: '特串',
-}
+};
 
 export const lhcPlayId = {
   ...special, // 特碼

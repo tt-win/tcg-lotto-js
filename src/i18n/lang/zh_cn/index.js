@@ -193,6 +193,7 @@ const LANG = {
     PCB: 'PC蛋蛋',
     K3: '快三',
     BTS: '区块链',
+    THAI: '泰彩',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
@@ -704,6 +705,7 @@ const LANG = {
   oddEven: '奇偶',
   prize: '奖金',
   currentPrize: '最高奖金',
+  playTypePrize: '玩法奖金',
   add: '添加',
   oneClickBet: '一键投注',
   winDescription: '玩法说明',
