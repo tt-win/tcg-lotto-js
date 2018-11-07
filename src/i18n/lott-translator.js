@@ -163,6 +163,8 @@ export const genChasingOrderText = ({ chasing, chasingOrder, chasingPhase }) => 
  */
 export const i18nOrderInfo = ({ playId, bettingContent }) => OrderInfoTranslator.getText(playId, bettingContent);
 
+export { i18n } from './lang/i18n-key-finder';
+
 /** genBallContentText , old name used by ods console */
 export default {
   getPlayMenuNameWithDigit,
