@@ -4,6 +4,7 @@ import entertainmentPlayMenu from './play-ent';
 import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
 // import { pcbPlayKey } from './play-pcb';
 import playRemark from './playRemark';
+import playRemarkSpecialRule from './playRemarkSpecialRule';
 
 const PlayMenu = {
   playId: {
@@ -559,6 +560,16 @@ const PlayMenu = {
     2025: '牛牛大小单双',
     2026: '梭哈',
     2028: '梭哈牌型',
+
+    // 五星 和值大小單雙
+    2070: '和值',
+    2071: '和值大小单双',
+    2072: '和值组合大小单双',
+
+    // ENT K3 豹子通殺特仕版
+    // 前台不會把豹子通殺秀出來, 看起來跟原本的玩法只有賠率差異
+    2053: '和值',
+    2054: '和值大小单双',
   },
   playKey: {
     ...lhcPlayKey,
@@ -775,6 +786,9 @@ const PlayMenu = {
   },
   playRemark: {
     ...playRemark,
+  },
+  playRemarkSpecialRule: {
+    ...playRemarkSpecialRule,
   },
   bothSideRank: {
     ...lhcBothSideRank,

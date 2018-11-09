@@ -752,4 +752,6 @@ export const PlayMenu = {
   NN_HAS_SSC_ENT: 2023,
   NN_SSC_BSOE_ENT: 2025,
   HK5_SSC_ENT: 2028,
+  Sum_BSOE_SSC: 2071,
+  Sum_BS_OE_SSC: 2072,
 };
