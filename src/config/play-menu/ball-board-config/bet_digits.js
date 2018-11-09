@@ -79,9 +79,9 @@ export const betDigits = {
   DRAGON_TIGER: 'DRAGON_TIGER',
   DRAGON_TIGER_TIE: 'DRAGON_TIGER_TIE',
 
-  //K3
+  // K3
 
-  Single_Same_3_K3 : 'Single_Same_3_K3',
+  Single_Same_3_K3: 'Single_Same_3_K3',
   All_Same_3_K3: 'All_Same_3_K3',
   Different_3_K3: 'Different_3_K3',
   All_Even_3_K3: 'All_Even_3_K3',

@@ -1211,6 +1211,7 @@ const OrderInfoTranslatorList = {
     getText: (content) => content.split('|').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
+
   // 任選和值
   ANY_SUM_BALL_NUMBER: {
     items: [
@@ -1224,6 +1225,41 @@ const OrderInfoTranslatorList = {
       return `(${digitPosText}) ${ballText}`;
     },
   },
+
+  // 和值大小單雙
+  // ,,,,0|,,,,1 => 總和大 | 總和小
+  SUM_BSOE: {
+    items: [
+      PlayMenu.Sum_BSOE_SSC,
+    ],
+    getText: (content) => {
+      const { length } = content;
+      if (length === 1) {
+        // 總和單
+        return i18n(`ball.sumBSOE.${content}`);
+      }
+      // 總和單 | 總和雙
+      return content.split('|').sort().map((num) => i18n(`ball.sumBSOE.${num}`)).join(' | ');
+    },
+  },
+  // 和值組合大小單雙
+  // ,,,1,2|,,,0,3 => 總和大單 | 總和小雙
+  SUM_BS_OE: {
+    items: [
+      PlayMenu.Sum_BS_OE_SSC,
+    ],
+    // 把 12 | 03 組成 1_2 | 0_3 去取i18n
+    getText: (content) => {
+      const { length } = content;
+      if (length === 2) {
+        // 總和大單
+        return i18n(`ball.sumBSOE.${content.split('').join('_')}`);
+      }
+      // 總和大單 | 總和小雙
+      return content.split('|').sort().map((num) => i18n(`ball.sumBSOE.${num.split('').join('_')}`)).join(' | ');
+    },
+  },
+
   ...PK10Translator,
   ...LHCTranslator,
   ...PCBTranslator,
