@@ -1186,7 +1186,7 @@ const OrderInfoTranslatorList = {
     ],
     getText: (content, originalContent) => {
       const digitOrderContent = getDigitOrderContent(originalContent);
-      return `(${digitOrderContent.digitPosText}) ${digitOrderContent.ballTextArray.join().replace(/\|/g, ' | ')}`;
+      return `(${digitOrderContent.digitPosText}) ${digitOrderContent.ballTextArray.join().replace(/\|/g, '  ').replace(/,/g, '')}`;
     },
   },
   // 和值
