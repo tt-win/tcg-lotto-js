@@ -1,9 +1,10 @@
 {
   "presets": [
-    ["env", {"modules": false}],
+    ["es2015", {"modules": false}],
     "stage-1"
   ],
   "plugins": [
+    "lodash",
     "syntax-dynamic-import",
     "transform-decorators-legacy"
   ]

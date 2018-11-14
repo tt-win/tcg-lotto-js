@@ -15,7 +15,6 @@ const defaultLang = 'ZH_CN';
 const getLang = () => {
   let langKey = window.localStorage.lang;
   langKey = langKey ? langKey.toUpperCase().replace('-', '_') : langKey;
-  console.log(langKey);
   return lang[langKey] ? lang[langKey] : lang[defaultLang];
 };
 
