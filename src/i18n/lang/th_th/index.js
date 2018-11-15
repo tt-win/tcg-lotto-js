@@ -9,6 +9,7 @@ const LANG = {
   confirmBetInfos: 'ดูโพยอีกครั้งก่อนยืนยันการแทงพนัน',
   balance: 'เครดิตเครดิต',
   totalAmount: 'จำนวนเงินทั้งหมด',
+  winningAmount: 'รางวัล',
 };
 
 export default LANG;
