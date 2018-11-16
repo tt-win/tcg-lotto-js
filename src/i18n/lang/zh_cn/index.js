@@ -776,6 +776,7 @@ const LANG = {
   playMode: '玩法',
   selectAll: '全选',
   playRule: '玩法规则',
+  backHome: '返回首页',
   BTSplayRule: '区块链彩票说明',
   normal: '一般',
   quickly: '快捷',

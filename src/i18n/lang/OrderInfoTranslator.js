@@ -1171,13 +1171,22 @@ const OrderInfoTranslatorList = {
       PlayMenu.Any4Com4_SSC,
       PlayMenu.Any3Com3_SSC,
       PlayMenu.Any3Com6_SSC,
-      PlayMenu.Any3Com_SSC,
       PlayMenu.Any2Com_SSC,
-      PlayMenu.Any2Com_SSC_Single,
     ],
     getText: (content, originalContent) => {
       const digitOrderContent = getDigitOrderContent(originalContent);
       return `(${digitOrderContent.digitPosText}) ${digitOrderContent.ballTextArray.join(' | ')}`;
+    },
+  },
+  // 任选 單式
+  ANY_COM_SSC_Single: {
+    items: [
+      PlayMenu.Any3Com_SSC,
+      PlayMenu.Any2Com_SSC_Single,
+    ],
+    getText: (content, originalContent) => {
+      const digitOrderContent = getDigitOrderContent(originalContent);
+      return `(${digitOrderContent.digitPosText}) ${digitOrderContent.ballTextArray.join().replace(/\|/g, '  ').replace(/,/g, '')}`;
     },
   },
   // 和值
