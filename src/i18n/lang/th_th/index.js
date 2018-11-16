@@ -9,6 +9,7 @@ const LANG = {
   confirmBetInfos: 'ดูโพยอีกครั้งก่อนยืนยันการแทงพนัน',
   balance: 'เครดิตเครดิต',
   totalAmount: 'จำนวนเงินทั้งหมด',
+  winningAmount: 'รางวัล',
   orderStatus: {
     orderStatus_0: '全部',
     orderStatus_2: '进行中',
@@ -25,7 +26,7 @@ const LANG = {
   },
   gameCode: {
     THAIGOV: 'หวยรัฐบาล',
-  }
+  },
 };
 
 export default LANG;
