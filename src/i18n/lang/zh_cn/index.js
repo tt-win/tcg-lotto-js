@@ -220,6 +220,7 @@ const LANG = {
     BJPK10: '北京赛车PK10',
     XYPK10: '幸运飞艇',
     HK6: '香港6合彩',
+    THAIGOV: '泰政府彩',
   },
   '2000cai': {
     gameCode: {
