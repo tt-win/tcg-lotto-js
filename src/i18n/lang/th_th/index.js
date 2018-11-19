@@ -11,6 +11,9 @@ const LANG = {
   totalAmount: 'จำนวนเงินทั้งหมด',
   currency: '\u0E3F',
   winningAmount: 'รางวัล',
+  betHistory: 'รายการโพย',
+  openHistory: 'ดูผลรางวัล',
+  drawResult : 'ดูผลรางวัล',
   orderStatus: {
     orderStatus_0: '全部',
     orderStatus_2: '进行中',
