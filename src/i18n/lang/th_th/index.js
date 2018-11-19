@@ -6,10 +6,13 @@ const LANG = {
   confirmBetting: 'ส่งโพย',
   clearBallText: 'ล้างข้อมูล',
   betNow: 'แทงพนัน',
+  betSuccess: '下注成功',
   confirmBetInfos: 'ดูโพยอีกครั้งก่อนยืนยันการแทงพนัน',
   balance: 'เครดิตเครดิต',
   totalAmount: 'จำนวนเงินทั้งหมด',
   currency: '\u0E3F',
+  confirm: '确认',
+  betFail: '生成订单失败',
   winningAmount: 'รางวัล',
   orderStatus: {
     orderStatus_0: '全部',
