@@ -14,6 +14,9 @@ const LANG = {
   confirm: '确认',
   betFail: '生成订单失败',
   winningAmount: 'รางวัล',
+  betHistory: 'รายการโพย',
+  openHistory: 'ดูผลรางวัล',
+  drawResult : 'ดูผลรางวัล',
   orderStatus: {
     orderStatus_0: '全部',
     orderStatus_2: '进行中',
