@@ -70,6 +70,7 @@ const LANG = {
     Different_2_K3: '二不同号',
     Sum_BS_OE_K3: '和值大小单双',
     filterRepeat: '过滤重复号',
+    BAO_DAN: '包胆',
   },
   startDigit: {
     ones: '（个）',

@@ -1178,7 +1178,7 @@ export default {
     canShowHotGap: false,
     multi: false,    // 可否複選
     formula: 'baodanTwoDigits',   // 兩位包膽
-    betDigits: [betDigits.EMPTY],
+    betDigits: [betDigits.BAO_DAN],
   }),
   // Last2_Baodan_SSC 後二包膽
   2074: BallBoardConfigRecord({
@@ -1187,7 +1187,7 @@ export default {
     canShowHotGap: false,
     multi: false,    // 可否複選
     formula: 'baodanTwoDigits',   // 兩位包膽
-    betDigits: [betDigits.EMPTY],
+    betDigits: [betDigits.BAO_DAN],
   }),
   // First3C_Baodan_SSC 前三包膽
   2075: BallBoardConfigRecord({
@@ -1196,7 +1196,7 @@ export default {
     canShowHotGap: false,
     multi: false,    // 可否複選
     formula: 'baodanThreeDigits',   // 三位包膽
-    betDigits: [betDigits.EMPTY],
+    betDigits: [betDigits.BAO_DAN],
   }),
   // Middle3_Baodan_SSC 中三包膽
   2076: BallBoardConfigRecord({
@@ -1205,7 +1205,7 @@ export default {
     canShowHotGap: false,
     multi: false,    // 可否複選
     formula: 'baodanThreeDigits',   // 三位包膽
-    betDigits: [betDigits.EMPTY],
+    betDigits: [betDigits.BAO_DAN],
   }),
   // Last3_Baodan_SSC 後三包膽
   2077: BallBoardConfigRecord({
@@ -1214,6 +1214,6 @@ export default {
     canShowHotGap: false,
     multi: false,    // 可否複選
     formula: 'baodanThreeDigits',   // 三位包膽
-    betDigits: [betDigits.EMPTY],
+    betDigits: [betDigits.BAO_DAN],
   }),
 };
