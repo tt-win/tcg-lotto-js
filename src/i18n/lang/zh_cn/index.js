@@ -70,6 +70,7 @@ const LANG = {
     Different_2_K3: '二不同号',
     Sum_BS_OE_K3: '和值大小单双',
     filterRepeat: '过滤重复号',
+    BAO_DAN: '包胆',
   },
   startDigit: {
     ones: '（个）',
@@ -1011,6 +1012,7 @@ const LANG = {
   winAmountMaxByNumero: '彩种单期最高奖金',
   winAmountMax: '彩种单笔最高奖金',
   betAmountMaxByNumero: '彩种单期投注最大金额',
+  winAmountMaxByPlay: '玩法单期最高奖金',
   drawInterval: '开奖时间',
   drawFrequency: '开奖频率',
   drawFrequencyInfo: '每天%@期，%@秒一期',

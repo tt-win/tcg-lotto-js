@@ -754,4 +754,9 @@ export const PlayMenu = {
   HK5_SSC_ENT: 2028,
   Sum_BSOE_SSC: 2071,
   Sum_BS_OE_SSC: 2072,
+  First2_Baodan_SSC: 2073,
+  Last2_Baodan_SSC: 2074,
+  First3C_Baodan_SSC: 2075,
+  Middle3_Baodan_SSC: 2076,
+  Last3_Baodan_SSC: 2077,
 };
