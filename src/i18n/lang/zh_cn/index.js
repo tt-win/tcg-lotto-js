@@ -71,6 +71,7 @@ const LANG = {
     Sum_BS_OE_K3: '和值大小单双',
     filterRepeat: '过滤重复号',
     BAO_DAN: '包胆',
+    SPAN: '跨度',
   },
   startDigit: {
     ones: '（个）',
