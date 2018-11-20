@@ -90,6 +90,7 @@ export const betDigits = {
   Multi_Same_2_K3: 'Multi_Same_2_K3',
   Different_2_K3: 'Different_2_K3',
   Sum_BS_OE_K3: 'Sum_BS_OE_K3',
+  BAO_DAN: 'BAO_DAN',
 };
 
 export default {};
