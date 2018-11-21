@@ -91,6 +91,7 @@ export const betDigits = {
   Different_2_K3: 'Different_2_K3',
   Sum_BS_OE_K3: 'Sum_BS_OE_K3',
   BAO_DAN: 'BAO_DAN',
+  SPAN: 'SPAN',
 };
 
 export default {};
