@@ -33,6 +33,7 @@ const LANG = {
   },
   gameCode: {
     THAIGOV: 'หวยรัฐบาล',
+    TCGTHGOV: 'TCGหวยรัฐบาล',
   },
 };
 
