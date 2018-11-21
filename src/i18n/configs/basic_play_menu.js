@@ -759,4 +759,9 @@ export const PlayMenu = {
   First3C_Baodan_SSC: 2075,
   Middle3_Baodan_SSC: 2076,
   Last3_Baodan_SSC: 2077,
+  First2_Span_SSC: 2078,
+  Last2_Span_SSC: 2079,
+  First3C_Span_SSC: 2080,
+  Middle3_Span_SSC: 2081,
+  Last3_Span_SSC: 2082,
 };

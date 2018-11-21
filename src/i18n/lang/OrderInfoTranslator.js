@@ -928,6 +928,11 @@ const SSCTranslator = {
       PlayMenu.First3C_Baodan_SSC,
       PlayMenu.Middle3_Baodan_SSC,
       PlayMenu.Last3_Baodan_SSC,
+      PlayMenu.First2_Span_SSC,
+      PlayMenu.Last2_Span_SSC,
+      PlayMenu.First3C_Span_SSC,
+      PlayMenu.Middle3_Span_SSC,
+      PlayMenu.Last3_Span_SSC,
       // 猜和值 與 定位膽 playcode與傳統重複..用到的地方暫時hard code
       /*
       First2Sum_PK10: 1464,
