@@ -8,7 +8,7 @@ const LANG = {
   betNow: 'แทงพนัน',
   betSuccess: '下注成功',
   confirmBetInfos: 'ดูโพยอีกครั้งก่อนยืนยันการแทงพนัน',
-  balance: 'เครดิตเครดิต',
+  balance: 'เครดิต',
   totalAmount: 'จำนวนเงินทั้งหมด',
   currency: '\u0E3F',
   confirm: '确认',
