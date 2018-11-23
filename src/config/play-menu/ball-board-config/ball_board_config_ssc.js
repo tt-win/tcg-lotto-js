@@ -1170,4 +1170,97 @@ export default {
     forceUseDelimiter: true,
     ...ballOECountsI18n,
   }),
+
+  // First2_Baodan_SSC 前二包膽
+  2073: BallBoardConfigRecord({
+    ...baseSSCProps,
+    hasToolbar: false,
+    canShowHotGap: false,
+    multi: false,    // 可否複選
+    formula: 'baodanTwoDigits',   // 兩位包膽
+    betDigits: [betDigits.BAO_DAN],
+  }),
+  // Last2_Baodan_SSC 後二包膽
+  2074: BallBoardConfigRecord({
+    ...baseSSCProps,
+    hasToolbar: false,
+    canShowHotGap: false,
+    multi: false,    // 可否複選
+    formula: 'baodanTwoDigits',   // 兩位包膽
+    betDigits: [betDigits.BAO_DAN],
+  }),
+  // First3C_Baodan_SSC 前三包膽
+  2075: BallBoardConfigRecord({
+    ...baseSSCProps,
+    hasToolbar: false,
+    canShowHotGap: false,
+    multi: false,    // 可否複選
+    formula: 'baodanThreeDigits',   // 三位包膽
+    betDigits: [betDigits.BAO_DAN],
+  }),
+  // Middle3_Baodan_SSC 中三包膽
+  2076: BallBoardConfigRecord({
+    ...baseSSCProps,
+    hasToolbar: false,
+    canShowHotGap: false,
+    multi: false,    // 可否複選
+    formula: 'baodanThreeDigits',   // 三位包膽
+    betDigits: [betDigits.BAO_DAN],
+  }),
+  // Last3_Baodan_SSC 後三包膽
+  2077: BallBoardConfigRecord({
+    ...baseSSCProps,
+    hasToolbar: false,
+    canShowHotGap: false,
+    multi: false,    // 可否複選
+    formula: 'baodanThreeDigits',   // 三位包膽
+    betDigits: [betDigits.BAO_DAN],
+  }),
+
+  // 跨度 ICR-15先不開HotGap
+  // First2_Span_SSC 前二跨度
+  2078: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.SPAN],
+    formula: 'spanTwoDigits', // 二位跨度
+    canShowHotGap: false,
+    delimiter: ',',
+    forceUseDelimiter: true, // 強制使用delimiter
+  }),
+  // Last2_Span_SSC 后二跨度
+  2079: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.SPAN],
+    formula: 'spanTwoDigits', // 二位跨度
+    canShowHotGap: false,
+    delimiter: ',',
+    forceUseDelimiter: true, // 強制使用delimiter
+  }),
+  // First3C_Span_SSC 前三跨度
+  2080: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.SPAN],
+    formula: 'spanThreeDigits', // 三位跨度
+    canShowHotGap: false,
+    delimiter: ',',
+    forceUseDelimiter: true, // 強制使用delimiter
+  }),
+  // Middle3_Span_SSC 中三跨度
+  2081: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.SPAN],
+    formula: 'spanThreeDigits', // 三位跨度
+    canShowHotGap: false,
+    delimiter: ',',
+    forceUseDelimiter: true, // 強制使用delimiter
+  }),
+  // Last3_Span_SSC 后三跨度
+  2082: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.SPAN],
+    formula: 'spanThreeDigits', // 三位跨度
+    canShowHotGap: false,
+    delimiter: ',',
+    forceUseDelimiter: true, // 強制使用delimiter
+  }),
 };
