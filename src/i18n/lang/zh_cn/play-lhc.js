@@ -56,7 +56,7 @@ const specialZodiac = {
   1691: '特肖',  // Special_Zodiac_Straight_LHC 鼠牛虎兔龍蛇馬羊猴雞狗豬
 
   // title
-  1693: '生肖',
+  1693: '特肖',
 };
 
 // 頭尾數
