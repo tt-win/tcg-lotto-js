@@ -12,7 +12,7 @@ const LANG = {
   totalAmount: 'จำนวนเงินทั้งหมด',
   currency: '\u0E3F',
   confirm: 'ยืนยัน',
-  betFail: ' ล้มเหลว',
+  betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',
   winningAmount: 'รางวัล',
   betHistory: 'รายการโพย',
   bettingTime: 'เวลาเดิมพัน',
