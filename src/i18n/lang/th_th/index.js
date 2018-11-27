@@ -11,6 +11,7 @@ const LANG = {
   balance: 'เครดิต',
   totalAmount: 'จำนวนเงินทั้งหมด',
   currency: '\u0E3F',
+  currencyThb: '\u0E3F',
   confirm: 'ยืนยัน',
   betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',
   winningAmount: 'รางวัล',
