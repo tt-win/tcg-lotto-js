@@ -22,6 +22,7 @@ const LANG = {
   betNumber: 'หมายเลขของคุณ',
   openHistory: 'ดูผลรางวัล',
   drawResult: 'ดูผลรางวัล',
+  processing: 'กำลังโหลด',
   orderStatus: {
     orderStatus_0: 'ทั้งหมด',
     orderStatus_2: 'ต่อเนื่อง',

@@ -778,6 +778,7 @@ const LANG = {
 
   // 娛樂城
   playMode: '玩法',
+  processing: '进行中',
   selectAll: '全选',
   playRule: '玩法规则',
   backHome: '返回首页',
