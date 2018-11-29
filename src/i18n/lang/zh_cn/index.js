@@ -698,6 +698,7 @@ const LANG = {
   transferTimeout: '转账超时',
   betStakeOverLimit: '该玩法可投上限为%@注，请重新下注！谢谢',
   betRowStakeOverLimit: '该玩法单列可投上限为%@注，请重新下注！谢谢',
+  overBetAmountMax: '超过单笔投注最大金额',
   drawAnnouncement: '开奖公告',
   today: '今天',
   yesterday: '昨天',
