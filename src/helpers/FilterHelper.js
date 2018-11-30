@@ -66,7 +66,7 @@ export default class FilterHelper {
           finalCombineBallArray = findSameBall();
           break;
         }
-        case 'non-pair': {
+        case 'nonPair': {
           const sameBallArray = findSameBall();
           finalCombineBallArray = findDifferentBall(sameBallArray);
           break;
