@@ -13,7 +13,6 @@ const LANG = {
   currency: '\u0E3F',
   currencyThb: '\u0E3F',
   confirm: 'ยืนยัน',
-  betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',
   winningAmount: 'รางวัล',
   betHistory: 'รายการโพย',
   bettingTime: 'เวลาเดิมพัน',
@@ -24,6 +23,7 @@ const LANG = {
   openHistory: 'ดูผลรางวัล',
   drawResult: 'ดูผลรางวัล',
   processing: 'กำลังโหลด',
+  betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',
   betFailed: 'ใส่ราคาไม่ตรงเงื่อนไข!',
   orderStatus: {
     orderStatus_0: 'รายละเอียด',
@@ -36,7 +36,7 @@ const LANG = {
     orderStatus_12: 'ยกเลิก',
     orderStatus_14: 'ไม่มีการวาด',
     orderStatus_16: 'วาด',
-    orderStatus_17: 'ยกเลิกโดยผู้ใช้',
+    orderStatus_17: 'ยกเลิก',
     orderStatus_99: 'โมฆะ',
   },
   gameCode: {
