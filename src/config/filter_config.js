@@ -2,7 +2,7 @@
 // single:單選, duplicate:多選
 
 const pair = {
-  subFilterNameGroup: ['pair', 'non-pair'],
+  subFilterNameGroup: ['pair', 'nonPair'],
   selectMode: 'single',
 };
 
