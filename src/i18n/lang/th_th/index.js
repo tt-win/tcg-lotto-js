@@ -13,7 +13,7 @@ const LANG = {
   currency: '\u0E3F',
   currencyThb: '\u0E3F',
   confirm: 'ยืนยัน',
-  winningAmount: 'ยอดที่ถูกรางวัล',
+  winningAmount: 'ยอดที่รางวัล',
   betHistory: 'รายการโพยย้อนหลัง',
   bettingTime: 'เวลาแทง',
   orderNumber: 'เลขออเตอร์',
