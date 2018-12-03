@@ -524,8 +524,8 @@ const LANG = {
     greenSmall: '绿小',
   },
   filter: {
-    pair: '对子',
-    nonPair: '非对子'
+    pair: '只对子',
+    nonPair: '杀对子'
   },
   yes: '是',
   no: '否',
