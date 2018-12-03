@@ -15,7 +15,7 @@ const LANG = {
   confirm: 'ยืนยัน',
   winningAmount: 'ยอดที่ถูกรางวัล',
   betHistory: 'รายการโพยย้อนหลัง',
-  bettingTime: 'เวลาเดิมพัน',
+  bettingTime: 'เวลาแทง',
   orderNumber: 'เลขออเตอร์',
   bettingAmount: 'ยอดแทง',
   winningNumber: 'เลขผลรางวัล',
