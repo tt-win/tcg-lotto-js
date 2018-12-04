@@ -98,4 +98,16 @@ export const merchantCode = {
   ],
 };
 
+// playmenu要往前提的玩法
+// [merchant] ; [playId]
+export const fixedPlayMenuMerchantSetting = {
+  fulicp: [1930],
+};
+
+// group要往前提的玩法
+// [merchant] ; [gameGroup]
+export const fixedGroupMerchantSetting = {
+  fulicp: ['K3'],
+};
+
 export default {};
