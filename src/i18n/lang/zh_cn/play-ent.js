@@ -306,8 +306,13 @@ const BoaziPCB = createObj(1914, 'special');
 // ======================= K3 =======================
 // 和值
 const K3SpecialSum = createObj(1934, 'k3Straight');
+// 和值 豹子通殺
+const K3SpecialSumKillBaozi = createObj(2053, 'k3Straight');
 // 大小單雙
 const K3SpecialBSOE = createObj(1936, 'bsoe');
+// 大小單雙 豹子通殺
+const K3SpecialBSOEKillBaozi = createObj(2054, 'bsoe');
+
 // 兩連
 const K3DifferentTwo = createObj(1938, 'k3DifferentTwo');
 // 獨膽
@@ -490,6 +495,8 @@ const EntPlayMenu = {
   ...K3Boazi,
   ...K3AnyBoazi,
   ...K3SingleSameTwo,
+  ...K3SpecialSumKillBaozi,
+  ...K3SpecialBSOEKillBaozi,
   // ====================== 11X5 =======================
   ..._11X5TwoSideTotalSumGroup,
   ..._11X5TwoSideFirstBSOE,
