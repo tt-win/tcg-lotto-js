@@ -524,6 +524,10 @@ const LANG = {
     blueSmall: '蓝小',
     greenSmall: '绿小',
   },
+  filter: {
+    pair: '只对子',
+    nonPair: '杀对子'
+  },
   yes: '是',
   no: '否',
   All: '全部',
