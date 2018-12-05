@@ -74,6 +74,9 @@ const LANG = {
     DRAW_FAIL_ERROR_: '系统繁忙，投注失败！',
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
   },
+  gameHistoryCancel: '确定撤单？',
+  gameHistoryCancel_success: '撤单成功',
+  gameHistoryCancel_failed: '撤单失敗',
   gameCode: {
     THAIGOV: 'หวยรัฐบาล',
     TCGTHGOV: 'TCGหวยรัฐบาล',
