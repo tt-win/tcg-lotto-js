@@ -868,6 +868,7 @@ const LANG = {
 
   // K3 ENT
   BS_OE: '和值大小单双',
+  BS_OE_Baozi_Kill: '和值-大小单双',
   Different_2: '两连',
   Single_Same: '独胆',
   Boazi: '豹子',
