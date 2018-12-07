@@ -40,6 +40,14 @@ const hotGapDigits = {
   [betDigits.PK10_EIGHTH]: '8',
   [betDigits.PK10_NINTH]: '9',
   [betDigits.PK10_TENTH]: '10',
+  // 跨度
+  [betDigits.SPAN]: {
+    First2_Span_SSC: 'FIRST2_SPAN',
+    Last2_Span_SSC: 'LAST2_SPAN',
+    First3C_Span_SSC: 'FIRST3_SPAN',
+    Middle3_Span_SSC: 'MIDDLE3_SPAN',
+    Last3_Span_SSC: 'LAST3_SPAN',
+  },
 };
 
 export { hotGapDigits as default };
