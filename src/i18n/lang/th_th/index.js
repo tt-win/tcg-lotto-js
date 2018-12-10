@@ -9,6 +9,7 @@ const LANG = {
   betSuccess: 'ส่งโพยสำเร็จ',
   confirmBetInfos: 'ตรวจโพยอีกครั้งก่อนส่งโพย',
   balance: 'ยอดเงินคงเหลือ',
+  betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额 当前模式最大投注金额为%@元!',
   totalAmount: 'จำนวนเงินทั้งหมด',
   currency: '\u0E3F',
   currencyThb: '\u0E3F',
