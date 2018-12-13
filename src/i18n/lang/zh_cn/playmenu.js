@@ -595,6 +595,9 @@ const PlayMenu = {
     2089: '后三二码不定位', // Last3Choose2Any_SSC
 
     // 特殊號, 跟豹子通殺一樣, 前台名稱不會標註 全跟三的差異
+    2110: '趣味',
+    2111: '趣味',
+    2112: '趣味',
     2113: '前三特殊号', // (全) First3_Special_SSC
     2114: '前三特殊号', // (三) First3_Special_3_SSC
     2115: '中三特殊号', // (全) Middle3_Special_SSC
