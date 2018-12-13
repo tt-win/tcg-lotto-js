@@ -317,7 +317,6 @@ const PCBPlayRuleConfig = {
 const K3PlayRuleConfig = {
   Sum_K3: [
     PlayMenu.Sum_K3_ENT,
-    PlayMenu.Sum_Baozi_Kill_K3_ENT,
   ],
   Sum_BS_OE_K3_ENT: [
     PlayMenu.Sum_BS_OE_K3_ENT,
@@ -339,6 +338,9 @@ const K3PlayRuleConfig = {
   ],
   Sum_BS_OE_Baozi_Kill_K3_ENT: [
     PlayMenu.Sum_BS_OE_Baozi_Kill_K3_ENT,
+  ],
+  Sum_Baozi_Kill_K3_ENT: [
+    PlayMenu.Sum_Baozi_Kill_K3_ENT,
   ],
 };
 
