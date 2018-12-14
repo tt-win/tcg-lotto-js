@@ -35,8 +35,11 @@ const SSCPlayRuleConfig = {
   Total_Sum_SSC_ENT: [
     PlayMenu.Combine_Total_Sum_ENT,
     PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
-    PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
-    PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
+    PlayMenu.First_Total_Sum_ENT,
+    PlayMenu.Second_Total_Sum_ENT,
+    PlayMenu.Third_Total_Sum_ENT,
+    PlayMenu.Fourth_Total_Sum_ENT,
+    PlayMenu.Fifth_Total_Sum_ENT,
   ],
   First3_SSC_ENT: [
     PlayMenu.Combine_First3_ENT,
@@ -174,9 +177,11 @@ const LHCPlayRuleConfig = {
   Special_BSOE_LHC: [
     PlayMenu.SpecialB_BSOE_LHC,
     PlayMenu.Two_Sides_Special_BSOE_LHC,
+    PlayMenu.Color_BSOE_LHC,
   ],
   Special_BS_OE_LHC: [
     PlayMenu.SpecialB_BS_OE_LHC,
+    PlayMenu.Color_BS_OE_LHC,
   ],
   Special_TOSum_BSOE_LHC: [
     PlayMenu.SpecialB_TOSum_BSOE_LHC,
@@ -200,6 +205,8 @@ const LHCPlayRuleConfig = {
   ],
   Color_Straight_LHC: [
     PlayMenu.Color_Straight_LHC,
+    PlayMenu.Color_BSOE_LHC,
+    PlayMenu.Color_BS_OE_LHC,
   ],
   Color_BSOE_LHC: [
     PlayMenu.Color_BSOE_LHC,
