@@ -222,6 +222,8 @@ const LANG = {
     BJPK10: '北京赛车PK10',
     XYPK10: '幸运飞艇',
     HK6: '香港6合彩',
+    THAIGOV: '泰政府彩',
+    TCGTHGOV: 'TCG泰彩',
   },
   '2000cai': {
     gameCode: {
@@ -684,6 +686,7 @@ const LANG = {
   logInTimeOut: '登入超时 请重新登入',
   searchOrdersTimeOut: '系统繁忙，请稍后再试',
   noNumero: '当前彩种暂时没有开始销售 请稍候再试',
+  unstableNetwork: '当前地区网络不稳定，请稍后再试！ 谢谢',
   subPlayMenuEmpty: '此彩种暂时关闭 请选择其他彩种',
   drawing: '正在开奖',
   drawResult: '开奖结果',
@@ -783,6 +786,7 @@ const LANG = {
 
   // 娛樂城
   playMode: '玩法',
+  processing: '进行中',
   selectAll: '全选',
   playRule: '玩法规则',
   backHome: '返回首页',
@@ -1027,6 +1031,8 @@ const LANG = {
   drawFrequency: '开奖频率',
   drawFrequencyInfo: '每天%@期，%@秒一期',
   prizeList: '奖金总览',
+  currency: '\u00A5',
+  currencyThb: '\u0E3F',
   prizeListPrizeType: {
     [null]: '玩法奖金',
     P_FIRST: '一等奖',
@@ -1073,6 +1079,8 @@ const LANG = {
     P_PAIR: '对子',
     P_ZU3: '组三',
     P_ZU6: '组六',
+    P_STRAIGHT: '顺子',
+    P_HALF_STRAIGHT: '半顺',
     P_BAOZI: '豹子',
     P_ANY_DANTUO: '胆拖',
     P_BIG: '大',

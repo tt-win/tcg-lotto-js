@@ -3,27 +3,17 @@ import _fromPairs from 'lodash/fromPairs';
 import _property from 'lodash/property';
 import _replace from 'lodash/replace';
 import ZH_CN from './zh_cn';
+import TH_TH from './th_th';
 
 export const lang = {
   ZH_CN,
+  TH_TH,
 };
 
 const defaultLang = 'ZH_CN';
 
-/**
- *  Can't use _.chain (not supported by babel-plugin-lodash)
- *  TODO : Use _.flow
- * */
-const getUrlParams = () => {
-  let queryParamArray = window.location.search.slice(1).split('&');
-  queryParamArray = queryParamArray.map((item) => (item) ? item.split('=') : null);
-  queryParamArray = _compact(queryParamArray);
-  return _fromPairs(queryParamArray);
-};
-
 const getLang = () => {
-  const urlParams = getUrlParams();
-  let langKey = urlParams.lang;
+  let langKey = window.localStorage.lang;
   langKey = langKey ? langKey.toUpperCase().replace('-', '_') : langKey;
   return lang[langKey] ? lang[langKey] : lang[defaultLang];
 };
