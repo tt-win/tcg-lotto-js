@@ -596,11 +596,32 @@ const PlayMenu = {
     2076: '中三包胆',
     2077: '后三包胆',
 
+    // 跨度
     2078: '前二跨度',
     2079: '后二跨度',
     2080: '前三跨度',
     2081: '中三跨度',
     2082: '后三跨度',
+
+    // 不定位
+    2083: '前四一码不定位', // First4Choose1Any_SSC
+    2084: '前四二码不定位', // First4Choose2Any_SSC
+    2085: '后四一码不定位', // Last4Choose1Any_SSC
+    2086: '后四二码不定位', // Last4Choose2Any_SSC
+    2087: '前三二码不定位', // First3Choose2Any_SSC
+    2088: '中三二码不定位', // Mid3Choose2Any_SSC
+    2089: '后三二码不定位', // Last3Choose2Any_SSC
+
+    // 特殊號, 跟豹子通殺一樣, 前台名稱不會標註 全跟三的差異
+    2110: '趣味',
+    2111: '趣味',
+    2112: '趣味',
+    2113: '前三特殊号', // (全) First3_Special_SSC
+    2114: '前三特殊号', // (三) First3_Special_3_SSC
+    2115: '中三特殊号', // (全) Middle3_Special_SSC
+    2116: '中三特殊号', // (三) Middle3_Special_3_SSC
+    2117: '后三特殊号', // (全) Last3_Special_SSC
+    2118: '后三特殊号', // (三) Last3_Special_3_SSC
   },
   playKey: {
     ...lhcPlayKey,
