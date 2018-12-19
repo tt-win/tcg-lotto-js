@@ -1262,4 +1262,61 @@ export default {
     delimiter: ',',
     forceUseDelimiter: true, // 強制使用delimiter
   }),
+
+  // First4Choose1Any_SSC 前四一码不定位
+  2083: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+  }),
+    // First4Choose2Any_SSC 前四二码不定位
+  2084: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    formula: 'combine6',
+    canShowHotGap: false,
+  }),
+    // Last4Choose1Any_SSC 后四一码不定位
+  2085: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN1],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+  }),
+    // Last4Choose2Any_SSC 后四二码不定位
+  2086: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'combine6',
+  }),
+    // First3Choose2Any_SSC 前三二码不定位
+  2087: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'combine6',
+  }),
+    // Mid3Choose2Any_SSC 中三二码不定位
+  2088: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'combine6',
+  }),
+    // Last3Choose2Any_SSC 后三二码不定位
+  2089: BallBoardConfigRecord({
+    ...baseSSCProps,
+    betDigits: [betDigits.DAN],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'combine6',
+  }),
 };
