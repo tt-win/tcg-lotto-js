@@ -530,7 +530,7 @@ const LANG = {
   },
   filter: {
     pair: '只对子',
-    nonPair: '杀对子'
+    nonPair: '杀对子',
   },
   yes: '是',
   no: '否',
@@ -1027,7 +1027,7 @@ const LANG = {
   winAmountMaxByNumero: '彩种单期最高奖金',
   winAmountMax: '彩种单笔最高奖金',
   betAmountMaxByNumero: '彩种单期投注最大金额',
-  itemMaxBettingAmountByNumero: '玩法单注最大可投金额',
+  itemMaxBettingAmountByNumero: '单期限额',
   winAmountMaxByPlay: '玩法单期最高奖金',
   drawInterval: '开奖时间',
   drawFrequency: '开奖频率',
