@@ -274,7 +274,9 @@ const LANG = {
     LGS_BETTING_GAME_PAUSED_ERROR: '投注彩种已关闭',
     LGS_BETTING_PLAY_MENU_CLOSED_ERROR: '投注玩法已关闭',
     LGS_BETTING_AMOUNT_OVER_LIMITS: '您的投注金额已超过允许的上限',
-    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '%@的单注最大可投金额已超过允许的上限',
+    // ICR-18之半部 後台沒上API 所以不開放功能
+    // LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '%@的单注最大可投金额已超过允许的上限',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '单注最大可投金额已超过允许的上限',
     LGS_BETTING_MULTIPLE_OVER_LIMITS: '您的倍数超过允许的上限',
     LGS_BETTING_RETURN_VALUE_SMALLER_THAN_ZERO: '投注返点值小于0',
     LGS_BETTING_ILLEGAL_ERROR: '投注参数不符合规定，投注失败！',
