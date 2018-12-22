@@ -622,6 +622,12 @@ const PlayMenu = {
     2116: '中三特殊号', // (三) Middle3_Special_3_SSC
     2117: '后三特殊号', // (全) Last3_Special_SSC
     2118: '后三特殊号', // (三) Last3_Special_3_SSC
+
+    // bacc
+    2119: '百家乐',
+    2120: '百家乐',
+    2121: '百家乐',
+    2122: '百家乐(无对子)',
   },
   playKey: {
     ...lhcPlayKey,

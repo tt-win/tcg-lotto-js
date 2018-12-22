@@ -7,6 +7,35 @@ const baseSSCProps = {
   ballDigit: 1,
 };
 
+const baccaratSSC = {
+  fixedBalls: ['0', '1', '2', '3', '4'],
+  ballI18n: {
+    0: 'ball.baccarat.banker',
+    1: 'ball.baccarat.player',
+    2: 'ball.baccarat.tie',
+    3: 'ball.baccarat.bankerPair',
+    4: 'ball.baccarat.playerPair',
+  },
+  betDigits: [betDigits.BACCARAT],
+  boardClassNames: 'baccarat',
+  multi: false, // 可否複選
+  formula: 'oneBallOneNum',   // 1球1注
+  displayBallBonus: true,  // 顯示各球的最高獎金
+  canShowHotGap: false,  // 冷熱遺漏
+  hasToolbar: false,
+  prizeTypeMapping: {      // 各球最高獎金的對應prize type
+    0: 'P_BANKER',
+    1: 'P_PLAYER',
+    2: 'P_TIE',
+    3: 'P_BANKER_PAIR',
+    4: 'P_PLAYER_PAIR',
+  },
+  /*
+  delimiter: ',',
+  forceUseDelimiter: true,
+  */
+};
+
 const dragonTigerPropsSSC = {
   ...dragonTigerPropsPK10,
   fixedBalls: ['1', '2', '0', '1_2', '1_3', '0_2', '0_3'],
@@ -1318,5 +1347,9 @@ export default {
     multi: true,
     canShowHotGap: false,
     formula: 'combine6',
+  }),
+
+  2121: BallBoardConfigRecord({
+    ...baccaratSSC,
   }),
 };
