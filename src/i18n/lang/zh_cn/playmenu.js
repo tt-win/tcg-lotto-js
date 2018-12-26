@@ -589,6 +589,20 @@ const PlayMenu = {
     2067: '跑数',
     2069: '上跑三位数',
 
+    // vnc 越南彩
+    2090: '四数',
+    2095: '三数',
+    2100: '二数',
+    2105: '跑数',
+    2092: '上正四位数', // Last_4_Straight_1st_VNC
+    2094: '上反四位数', // Last_4_Combine_1st_VNC
+    2097: '上正三位数', // Last_3_Straight_1st_VNC
+    2099: '上反三位数', // Last_3_Combine_1st_VNC
+    2102: '上正二位数', // Last_2_Straight_1st_VNC
+    2104: '下正二位数', // Last_2_Straight_2nd_VNC
+    2107: '上跑两位数', // Last_2_Any_1st_VNC
+    2109: '下跑两位数', // Last_2_Any_2nd_VNC
+
     // 包胆
     2073: '前二包胆',
     2074: '后二包胆',
