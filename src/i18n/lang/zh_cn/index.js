@@ -303,6 +303,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: '您还没有登录，请先登录！',
     DRAW_FAIL_ERROR_: '系统繁忙，投注失败！',
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: '当前彩种暂时没有开始销售 请稍后再试',
   },
   chasingStatus: {
     All: '全部',
