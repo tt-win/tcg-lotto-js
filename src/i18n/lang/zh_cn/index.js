@@ -196,6 +196,8 @@ const LANG = {
     K3: '快三',
     BTS: '区块链',
     THAI: '泰彩',
+    VNC: '越南彩',
+    LAO: '老挝彩',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
