@@ -604,6 +604,10 @@ const PlayMenu = {
     2109: '下跑两位数', // Last_2_Any_2nd_VNC
 
     // LAO 老挝彩
+    2127: '四数',
+    2132: '三数',
+    2137: '二数',
+    2142: '跑数',
     2129: '上正四位数', // Last_4_Straight_LAO
     2131: '上反四位数', // Last_4_Combine_LAO
     2134: '上正三位数', // Last_3_Straight_LAO
