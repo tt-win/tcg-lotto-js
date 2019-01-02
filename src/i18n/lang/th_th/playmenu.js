@@ -30,6 +30,8 @@ const PlayMenu = {
     2104: 'สองตัวล่าง', // 下正二位数 Last_2_Straight_2nd_VNC
     2107: 'วิ่งบน', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'วิ่งล่าง', // 下跑两位数 Last_2_Any_2nd_VNC
+    // LAO 老挝彩
+    
   },
 };
 
