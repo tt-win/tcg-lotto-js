@@ -18,7 +18,7 @@ const baccaratSSC = {
   },
   betDigits: [betDigits.BACCARAT],
   boardClassNames: 'baccarat',
-  multi: false, // 可否複選
+  multi: true,
   formula: 'oneBallOneNum',   // 1球1注
   displayBallBonus: true,  // 顯示各球的最高獎金
   canShowHotGap: false,  // 冷熱遺漏
