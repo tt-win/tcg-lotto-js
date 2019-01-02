@@ -31,7 +31,14 @@ const PlayMenu = {
     2107: 'วิ่งบน', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'วิ่งล่าง', // 下跑两位数 Last_2_Any_2nd_VNC
     // LAO 老挝彩
-    
+    2129: ' 4 ตัวบน', // 上正四位数 Last_4_Straight_LAO
+    2131: ' 4 ตัวบนโต๊ด', // 上反四位数 Last_4_Combine_LAO
+    2134: 'สามตัวบน', // 上正三位数 Last_3_Straight_LAO
+    2136: 'สามตัวโต้ด', // 上反三位数 Last_3_Combine_LAO
+    2139: 'สองตัวบน', // 上正二位数 Last_2_Straight_LAO
+    2141: 'สองตัวล่าง', // 下正二位数 First_2_Straight_LAO
+    2144: 'วิ่งบน', // 上跑两位数 Last_2_Any_LAO
+    2146: 'วิ่งล่าง', // 下跑两位数 First_2_Any_LAO
   },
 };
 
