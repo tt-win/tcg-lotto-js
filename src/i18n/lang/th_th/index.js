@@ -9,7 +9,7 @@ const LANG = {
   betSuccess: 'ส่งโพยสำเร็จ',
   confirmBetInfos: 'ตรวจโพยอีกครั้งก่อนส่งโพย',
   balance: 'ยอดเงินคงเหลือ',
-  betAmountOverMaxAmount: 'คำเตือน!! เครดิตไม่พอจ่าย ตรวจสอบใหม่อีกครั้ง',
+  betAmountOverMaxAmount: 'จำนวนเงินเดิมพันเกินขีด จำกัด',
   totalAmount: 'จำนวนเงินทั้งหมด',
   currency: '\u0E3F',
   currencyThb: '\u0E3F',
