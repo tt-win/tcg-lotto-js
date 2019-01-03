@@ -603,6 +603,20 @@ const PlayMenu = {
     2107: '上跑两位数', // Last_2_Any_1st_VNC
     2109: '下跑两位数', // Last_2_Any_2nd_VNC
 
+    // LAO 老挝彩
+    2127: '四数',
+    2132: '三数',
+    2137: '二数',
+    2142: '跑数',
+    2129: '上正四位数', // Last_4_Straight_LAO
+    2131: '上反四位数', // Last_4_Combine_LAO
+    2134: '上正三位数', // Last_3_Straight_LAO
+    2136: '上反三位数', // Last_3_Combine_LAO
+    2139: '上正二位数', // Last_2_Straight_LAO
+    2141: '下正二位数', // First_2_Straight_LAO
+    2144: '上跑两位数', // Last_2_Any_LAO
+    2146: '下跑两位数', // First_2_Any_LAO
+
     // 包胆
     2073: '前二包胆',
     2074: '后二包胆',
