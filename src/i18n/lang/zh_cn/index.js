@@ -288,7 +288,7 @@ const LANG = {
     LGS_CANCEL_ORDER_SERVICE_LF_PRETTY_CHOOSE_ERROR: '低频彩撤单有直选靓号',
     LGS_BETTING_MODE_CLOSED_ERROR: '投注模式关闭不允许投注',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: '不允许使用此投注模式',
-    SYSTEM_NOT_ALLOW_BETTING: '游戏已停售',
+    SYSTEM_NOT_ALLOW_BETTING: '本期已封盘，请待下一期开始',
     SYSTEM_NOT_ALLOW_CHASE: '游戏不允许追号',
     BETTING_ITEM_LIMIT: '订单内容超出系统限制',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: '订单已经锁定，无法撤单',
