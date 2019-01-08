@@ -778,4 +778,5 @@ export const PlayMenu = {
   Middle3_Special_3_SSC: 2116,
   Last3_Special_SSC: 2117,
   Last3_Special_3_SSC: 2118,
+  Baccarat_SSC_ENT: 2123,
 };

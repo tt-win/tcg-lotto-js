@@ -628,6 +628,7 @@ const PlayMenu = {
     2120: '百家乐',
     2121: '百家乐',
     2122: '百家乐(无对子)',
+    2123: '百家乐',
   },
   playKey: {
     ...lhcPlayKey,
@@ -840,7 +841,12 @@ const PlayMenu = {
     twoPair: '两对',
     onePair: '一对',
     highCard: '高牌',
-
+    HK5_SSC_ENT: '百家乐',
+    banker: '庄',
+    player: '闲',
+    tie: '和',
+    bankerPair: '庄对',
+    playerPair: '闲对',
   },
   playRemark: {
     ...playRemark,
