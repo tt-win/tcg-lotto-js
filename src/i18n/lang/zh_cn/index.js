@@ -196,6 +196,8 @@ const LANG = {
     K3: '快三',
     BTS: '区块链',
     THAI: '泰彩',
+    VNC: '越南彩',
+    LAO: '老挝彩',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
@@ -286,7 +288,7 @@ const LANG = {
     LGS_CANCEL_ORDER_SERVICE_LF_PRETTY_CHOOSE_ERROR: '低频彩撤单有直选靓号',
     LGS_BETTING_MODE_CLOSED_ERROR: '投注模式关闭不允许投注',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: '不允许使用此投注模式',
-    SYSTEM_NOT_ALLOW_BETTING: '游戏已停售',
+    SYSTEM_NOT_ALLOW_BETTING: '本期已封盘，请待下一期开始',
     SYSTEM_NOT_ALLOW_CHASE: '游戏不允许追号',
     BETTING_ITEM_LIMIT: '订单内容超出系统限制',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: '订单已经锁定，无法撤单',
@@ -301,6 +303,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: '您还没有登录，请先登录！',
     DRAW_FAIL_ERROR_: '系统繁忙，投注失败！',
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: '当前彩种暂时没有开始销售 请稍后再试',
   },
   chasingStatus: {
     All: '全部',
@@ -528,7 +531,7 @@ const LANG = {
   },
   filter: {
     pair: '只对子',
-    nonPair: '杀对子'
+    nonPair: '杀对子',
   },
   yes: '是',
   no: '否',
@@ -1025,7 +1028,7 @@ const LANG = {
   winAmountMaxByNumero: '彩种单期最高奖金',
   winAmountMax: '彩种单笔最高奖金',
   betAmountMaxByNumero: '彩种单期投注最大金额',
-  itemMaxBettingAmountByNumero: '玩法单注最大可投金额',
+  itemMaxBettingAmountByNumero: '单期限额',
   winAmountMaxByPlay: '玩法单期最高奖金',
   drawInterval: '开奖时间',
   drawFrequency: '开奖频率',

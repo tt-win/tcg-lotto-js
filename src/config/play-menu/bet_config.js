@@ -40,6 +40,35 @@ const groupBetConfigSSC = {
   FixedPlace_ZY: BetConfigRecord({
     isBetSlipByRow: true,
   }),
+
+
+    // 不定位組選
+  First4Choose1Any_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  First4Choose2Any_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+    minBalls: [2],
+  }),
+  Last4Choose1Any_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  Last4Choose2Any_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+    minBalls: [2],
+  }),
+  First3Choose2Any_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+    minBalls: [2],
+  }),
+  Mid3Choose2Any_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+    minBalls: [2],
+  }),
+  Last3Choose2Any_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+    minBalls: [2],
+  }),
   // 和值
   First3Sum: BetConfigRecord({
     isBetSlipByRow: true,
