@@ -1282,7 +1282,7 @@ export default {
     // Last4Choose1Any_SSC 后四一码不定位
   2085: BallBoardConfigRecord({
     ...baseSSCProps,
-    betDigits: [betDigits.DAN1],
+    betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
     formula: 'oneBallOneNum',
