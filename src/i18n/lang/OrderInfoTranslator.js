@@ -153,6 +153,14 @@ const HK5_KEY = {
   '08': 'highCard',
 };
 
+const SSC_SPECIAL_KEY = [
+  'baozi',
+  'straight',
+  'pair',
+  'zu6',
+  'halfStraight',
+];
+
 const PCB_KEY = {
   BS_OE: {
     '02': 'bigOdd',
@@ -975,6 +983,17 @@ const SSCTranslator = {
     getText: (content) => content.split('|').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
+  Special_SSC: {
+    items: [
+      PlayMenu.First3_Special_SSC,
+      PlayMenu.First3_Special_3_SSC,
+      PlayMenu.Middle3_Special_SSC,
+      PlayMenu.Middle3_Special_3_SSC,
+      PlayMenu.Last3_Special_SSC,
+      PlayMenu.Last3_Special_3_SSC,
+    ],
+    getText: (content) => i18n(`playKey.${SSC_SPECIAL_KEY[content]}`),
+  }
 };
 
 const SSCNNTranslator = {
