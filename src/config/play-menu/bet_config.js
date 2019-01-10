@@ -253,22 +253,22 @@ const groupBetConfigSSC = {
 
   // 特殊號
   First3_Special_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    isBetSlipByRow: true,
   }),
   First3_Special_3_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    isBetSlipByRow: true,
   }),
   Middle3_Special_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    isBetSlipByRow: true,
   }),
   Middle3_Special_3_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    isBetSlipByRow: true,
   }),
   Last3_Special_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    isBetSlipByRow: true,
   }),
   Last3_Special_3_SSC: BetConfigRecord({
-    isBetSlipByBall: true,
+    isBetSlipByRow: true,
   }),
 };
 
