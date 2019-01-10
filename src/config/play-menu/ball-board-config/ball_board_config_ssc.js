@@ -1335,6 +1335,8 @@ export default {
     formula: 'oneBallOneNum',
     hasToolbar: false,
     boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
   }),
   // First3_Special_3_SSC 前三特殊号(三)
   2114: BallBoardConfigRecord({
@@ -1350,6 +1352,8 @@ export default {
     formula: 'oneBallOneNum',
     hasToolbar: false,
     boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
   }),
   // Middle3_Special_SSC 中三特殊号(全)
   2115: BallBoardConfigRecord({
@@ -1367,6 +1371,8 @@ export default {
     formula: 'oneBallOneNum',
     hasToolbar: false,
     boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
   }),
   // Middle3_Special_3_SSC 中三特殊号(三)
   2116: BallBoardConfigRecord({
@@ -1382,6 +1388,8 @@ export default {
     formula: 'oneBallOneNum',
     hasToolbar: false,
     boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
   }),
   // Last3_Special_SSC 后三特殊号(全)
   2117: BallBoardConfigRecord({
@@ -1399,6 +1407,8 @@ export default {
     formula: 'oneBallOneNum',
     hasToolbar: false,
     boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
   }),
   // Last3_Special_3_SSC 后三特殊号(三)
   2118: BallBoardConfigRecord({
@@ -1414,5 +1424,7 @@ export default {
     formula: 'oneBallOneNum',
     hasToolbar: false,
     boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
   }),
 };
