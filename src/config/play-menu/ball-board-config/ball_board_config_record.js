@@ -11,7 +11,7 @@ export const BallBoardConfigRecord = Record({
   betDigits: [], // 球號每列名稱
   boardClassNames: '', // ball board class
   delimiter: '',
-  forceUseDelimiter: false,
+  forceUseDelimiter: false, // 使用delimiter
   hasToolbar: true,
   canHideToolBarAll: false,
   canHideToolBarBig: false,
