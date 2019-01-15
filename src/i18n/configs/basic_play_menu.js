@@ -787,4 +787,9 @@ export const PlayMenu = {
   Last_3_VNC: 2095,
   '2_Star_VNC': 2100,
   Any_Place_VNC: 2105,
+  // 老撾彩
+  '4_Num_LAO': 2127,
+  '3_Num_LAO': 2132,
+  '2_Num_LAO': 2137,
+  Any_LAO: 2142,
 };
