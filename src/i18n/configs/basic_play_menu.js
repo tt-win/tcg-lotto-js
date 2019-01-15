@@ -778,4 +778,13 @@ export const PlayMenu = {
   Middle3_Special_3_SSC: 2116,
   Last3_Special_SSC: 2117,
   Last3_Special_3_SSC: 2118,
+
+  // THAI
+  Last_3_THAI: 2055,
+  '2_Star_THAI': 2060,
+  Any_Place_THAI: 2067,
+  Last_4_VNC: 2090, // 越南彩四數
+  Last_3_VNC: 2095,
+  '2_Star_VNC': 2100,
+  Any_Place_VNC: 2105,
 };
