@@ -1083,6 +1083,7 @@ const LANG = {
     P_PAIR: '对子',
     P_ZU3: '组三',
     P_ZU6: '组六',
+    P_ZA6: '杂六',
     P_STRAIGHT: '顺子',
     P_HALF_STRAIGHT: '半顺',
     P_BAOZI: '豹子',
