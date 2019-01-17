@@ -1014,6 +1014,7 @@ const LANG = {
     fifthBall_11X5: '第五球',
     fifthBallBS: '第五球大小',
     fifthBallOE: '第五球单双',
+    bankerPlayerTie: '庄闲和',
 
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
