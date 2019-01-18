@@ -14,7 +14,7 @@ const special = {
   1639: '特码',  // SpecialB_Tail_BS_LHC 特尾大小
   1641: '特码',  // SpecialB_TOSum_BSOE_LHC 特合大小單雙
   1714: '特码',  // SpecialB_Animal_LHC 特天地前后家野肖
-  
+
   // TP-335移除特碼A
   // Sub menu & ball bet common
   // 1617: '特码A',  // SpecialA_Straight_LHC 球號1-49
@@ -187,8 +187,28 @@ const chooseNotInWinningNumbers = {
   // menu
   1688: '自选不中',
 
+  // sub menu
+  1689: '自选不中',
+  2147: '五不中',
+  2149: '六不中',
+  2151: '七不中',
+  2153: '八不中',
+  2155: '九不中',
+  2157: '十不中',
+  2159: '十一不中',
+  2161: '十二不中',
+
   // play type
-  1690: '自选不中',  // Choose_Not_in_Winning_Numbers_LHC 球號1-49
+  1690: '自选不中',  // Choose_Not_in_Winning_Numbers_LHC 球號1-49(特)
+  2148: '五不中', // 5_Not_in_Winning_Numbers_LHC 球號1-49
+  2150: '六不中', // 6_Not_in_Winning_Numbers_LHC 球號1-49
+  2152: '七不中', // 7_Not_in_Winning_Numbers_LHC 球號1-49
+  2154: '八不中', // 8_Not_in_Winning_Numbers_LHC 球號1-49
+  2156: '九不中', // 9_Not_in_Winning_Numbers_LHC 球號1-49
+  2158: '十不中', // 10_Not_in_Winning_Numbers_LHC 球號1-49
+  2160: '十一不中', // 11_Not_in_Winning_Numbers_LHC 球號1-49
+  2162: '十二不中', // 12_Not_in_Winning_Numbers_LHC 球號1-49
+
 };
 
 const joinZodiac = {

@@ -235,6 +235,14 @@ const LHCTranslator = {
 
       // 自選不中
       PlayMenu.Choose_Not_in_Winning_Numbers_LHC,
+      PlayMenu['5_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['6_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['7_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['8_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['9_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['10_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['11_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['12_Not_in_Winning_Numbers_LHC'],
 
       //  連碼
       PlayMenu.Two_In_Normal_LHC,
