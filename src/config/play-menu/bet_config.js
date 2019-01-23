@@ -250,6 +250,26 @@ const groupBetConfigSSC = {
   anyComChoose3: BetConfigRecord({
     minBalls: [3],
   }),
+
+  // 特殊號
+  First3_Special_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  First3_Special_3_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  Middle3_Special_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  Middle3_Special_3_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  Last3_Special_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  Last3_Special_3_SSC: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
 };
 
 const groupBetConfig11X5 = {

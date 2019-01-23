@@ -21,7 +21,7 @@ const PlayMenu = {
     11: '趣味',
     12: '不定位',
     13: '一星直选',
-    14: '一星定位胆 ',
+    14: '定位胆 ',
     15: '后二直选',
     16: '后二组选',
     17: '后二分位',
@@ -332,6 +332,8 @@ const PlayMenu = {
     2029: '五星二码',
     2030: '五星三码',
 
+    // 娛樂城 快捷 
+    99999: '快捷',
 
     // 娛樂城 Menu
     1753: '整合',
@@ -548,11 +550,11 @@ const PlayMenu = {
     2013: '第四球vs第五球',
     ...lhcPlayId,
 
-    2014: '一星定位胆',
-    2015: '一星定位胆（千百十个）',
-    2016: '一星定位胆（百十个）',
-    2017: '一星定位胆（十个）',
-    2018: '一星定位胆（个）',
+    2014: '定位胆',
+    2015: '定位胆', // （千百十个）
+    2016: '定位胆', // （百十个）
+    2017: '定位胆', // （十个）
+    2018: '定位胆', // （个）
 
     2019: '牛牛',
     2021: '牛牛牌型',
@@ -588,6 +590,50 @@ const PlayMenu = {
     2066: '下正二位数',
     2067: '跑数',
     2069: '上跑三位数',
+
+    // vnc 越南彩
+    2090: '四数',
+    2095: '三数',
+    2100: '二数',
+    2105: '跑数',
+    2091: '直选',
+    2093: '组选',
+    2096: '直选',
+    2098: '组选',
+    2101: '一等后二直选',
+    2103: '二等后二直选',
+    2106: '一等二星不定位',
+    2108: '二等二星不定位',
+    2092: '上正四位数', // Last_4_Straight_1st_VNC
+    2094: '上反四位数', // Last_4_Combine_1st_VNC
+    2097: '上正三位数', // Last_3_Straight_1st_VNC
+    2099: '上反三位数', // Last_3_Combine_1st_VNC
+    2102: '上正二位数', // Last_2_Straight_1st_VNC
+    2104: '下正二位数', // Last_2_Straight_2nd_VNC
+    2107: '上跑两位数', // Last_2_Any_1st_VNC
+    2109: '下跑两位数', // Last_2_Any_2nd_VNC
+
+    // LAO 老挝彩
+    2127: '四数',
+    2132: '三数',
+    2137: '二数',
+    2142: '跑数',
+    2128: '直选',
+    2130: '组选',
+    2133: '直选',
+    2135: '组选',
+    2138: '后二直选',
+    2140: '前二直选',
+    2143: '后二不定位',
+    2145: '前二不定位',
+    2129: '上正四位数', // Last_4_Straight_LAO
+    2131: '上反四位数', // Last_4_Combine_LAO
+    2134: '上正三位数', // Last_3_Straight_LAO
+    2136: '上反三位数', // Last_3_Combine_LAO
+    2139: '上正二位数', // Last_2_Straight_LAO
+    2141: '下正二位数', // First_2_Straight_LAO
+    2144: '上跑两位数', // Last_2_Any_LAO
+    2146: '下跑两位数', // First_2_Any_LAO
 
     // 包胆
     2073: '前二包胆',
@@ -711,16 +757,16 @@ const PlayMenu = {
     TwoPairs: '两对',
     OnePair: '一对',
     HighCard: '高牌',
-    Dragon_Tiger_Tie_5_4_ENT: '第一球vs第二球',
-    Dragon_Tiger_Tie_5_3_ENT: '第一球vs第三球',
-    Dragon_Tiger_Tie_5_2_ENT: '第一球vs第四球',
-    Dragon_Tiger_Tie_5_1_ENT: '第一球vs第五球',
-    Dragon_Tiger_Tie_4_3_ENT: '第二球vs第三球',
-    Dragon_Tiger_Tie_4_2_ENT: '第二球vs第四球',
-    Dragon_Tiger_Tie_4_1_ENT: '第二球vs第五球',
-    Dragon_Tiger_Tie_3_2_ENT: '第三球vs第四球',
-    Dragon_Tiger_Tie_3_1_ENT: '第三球vs第五球',
-    Dragon_Tiger_Tie_2_1_ENT: '第四球vs第五球',
+    Dragon_Tiger_Tie_5_4_ENT: '万千 第一球vs第二球',
+    Dragon_Tiger_Tie_5_3_ENT: '万百 第一球vs第三球',
+    Dragon_Tiger_Tie_5_2_ENT: '万十 第一球vs第四球',
+    Dragon_Tiger_Tie_5_1_ENT: '万个 第一球vs第五球',
+    Dragon_Tiger_Tie_4_3_ENT: '千百 第二球vs第三球',
+    Dragon_Tiger_Tie_4_2_ENT: '千十 第二球vs第四球',
+    Dragon_Tiger_Tie_4_1_ENT: '千个 第二球vs第五球',
+    Dragon_Tiger_Tie_3_2_ENT: '百十 第三球vs第四球',
+    Dragon_Tiger_Tie_3_1_ENT: '百个 第三球vs第五球',
+    Dragon_Tiger_Tie_2_1_ENT: '十个 第四球vs第五球',
     PK10dragon: '龙',
     PK10tiger: '虎',
     PK10dragon1861: '1v10:龙',

@@ -1311,7 +1311,7 @@ export default {
     // Last4Choose1Any_SSC 后四一码不定位
   2085: BallBoardConfigRecord({
     ...baseSSCProps,
-    betDigits: [betDigits.DAN1],
+    betDigits: [betDigits.DAN],
     multi: true,
     canShowHotGap: false,
     formula: 'oneBallOneNum',
@@ -1347,6 +1347,114 @@ export default {
     multi: true,
     canShowHotGap: false,
     formula: 'combine6',
+  }),
+  // First3_Special_SSC 前三特殊号(全)
+  2113: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2', '3', '4'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+      3: 'ball.GroupENT.3',
+      4: 'ball.GroupENT.4',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // First3_Special_3_SSC 前三特殊号(三)
+  2114: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // Middle3_Special_SSC 中三特殊号(全)
+  2115: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2', '3', '4'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+      3: 'ball.GroupENT.3',
+      4: 'ball.GroupENT.4',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // Middle3_Special_3_SSC 中三特殊号(三)
+  2116: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // Last3_Special_SSC 后三特殊号(全)
+  2117: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2', '3', '4'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+      3: 'ball.GroupENT.3',
+      4: 'ball.GroupENT.4',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // Last3_Special_3_SSC 后三特殊号(三)
+  2118: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
   }),
 
   2121: BallBoardConfigRecord({

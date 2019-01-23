@@ -155,6 +155,14 @@ const HK5_KEY = {
   '08': 'highCard',
 };
 
+const SSC_SPECIAL_KEY = {
+  '0': 'baozi',
+  '1': 'straight',
+  '2': 'pair',
+  '3': 'zu6',
+  '4': 'halfStraight',
+};
+
 const PCB_KEY = {
   BS_OE: {
     '02': 'bigOdd',
@@ -213,6 +221,16 @@ const getDigitOrderContent = (originalContent) => {
 
   const ballTextArray = _compact(contentArr[1].split(','));
   return { digitPosText, ballTextArray };
+};
+
+const getSpecialBallContent = (originalContent) => {
+  const contentArr = originalContent.split('|');
+
+  for (let a = 0; a < contentArr.length; a += 1) {
+    contentArr[a] = i18n(`playKey.${SSC_SPECIAL_KEY[contentArr[a]]}`);
+  };
+
+  return contentArr.join('|');
 };
 
 
@@ -977,6 +995,17 @@ const SSCTranslator = {
     getText: (content) => content.split('|').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
+  Special_SSC: {
+    items: [
+      PlayMenu.First3_Special_SSC,
+      PlayMenu.First3_Special_3_SSC,
+      PlayMenu.Middle3_Special_SSC,
+      PlayMenu.Middle3_Special_3_SSC,
+      PlayMenu.Last3_Special_SSC,
+      PlayMenu.Last3_Special_3_SSC,
+    ],
+    getText: (content, originalContent) => getSpecialBallContent(content),
+  }
 };
 
 const SSCNNTranslator = {
