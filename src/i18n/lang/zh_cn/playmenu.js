@@ -849,6 +849,11 @@ const PlayMenu = {
     tie: '和',
     bankerPair: '庄对',
     playerPair: '闲对',
+    Banker: '庄',
+    Player: '闲',
+    Tie: '和',
+    BankerPair: '庄对',
+    PlayerPair: '闲对',
   },
   playRemark: {
     ...playRemark,
