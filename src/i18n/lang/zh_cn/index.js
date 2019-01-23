@@ -924,6 +924,7 @@ const LANG = {
     number: '单码',
     BSOE: '大小单双',
     NN: '牛牛',
+    baccarat: '百家乐',
     /* 整合 */
     firstBall: '第一球',
     firstBallBS: '第一球大小',
@@ -955,6 +956,7 @@ const LANG = {
     fourVsFive: '4VS5',
     NNBS: '牛大小',
     NNOE: '牛单双',
+    bankerPlayerTie: '庄闲和',
     // pk10
     oneVsTen: '1VS10',
     twoVsNine: '2VS9',
