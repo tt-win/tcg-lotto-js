@@ -142,6 +142,8 @@ const LHC_KEY = {
   NORMAL_BSOE: ['normalBig', 'normalSmall', 'normalOdd', 'normalEven'],
 };
 
+const BACCARAT_KEY = ['banker', 'player', 'tie', 'bankerPair', 'playerPair'];
+
 const HK5_KEY = {
   '01': 'fiveOfAKind',
   '02': 'fourOfAKind',
@@ -1036,6 +1038,16 @@ const SSCHK5Translator = {
   },
 };
 
+const SSCBaccaratTranslator = {
+  Baccarat: {
+    items: [
+      PlayMenu.Baccarat_With_Pair_SSC_ENT,
+      PlayMenu.Baccarat_No_Pair_SSC_ENT,
+    ],
+    getText: (content) => i18n(`playKey.${BACCARAT_KEY[content]}`),
+  },
+};
+
 // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
 const OrderInfoTranslatorList = {
   BSOE: {
@@ -1325,6 +1337,7 @@ const OrderInfoTranslatorList = {
   ...SSCTranslator,
   ...SSCNNTranslator,
   ...SSCHK5Translator,
+  ...SSCBaccaratTranslator
 };
 
 const commaConfig = {

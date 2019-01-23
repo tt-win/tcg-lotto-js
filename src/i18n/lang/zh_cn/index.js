@@ -72,6 +72,7 @@ const LANG = {
     filterRepeat: '过滤重复号',
     BAO_DAN: '包胆',
     SPAN: '跨度',
+    BACCARAT: '百家乐',
   },
   startDigit: {
     ones: '（个）',
@@ -184,6 +185,13 @@ const LANG = {
       '1_2': '总和小单',
       '1_3': '总和小双',
     },
+    baccarat: {
+      banker: '庄',
+      player: '闲',
+      tie: '和',
+      bankerPair: '庄对',
+      playerPair: '闲对',
+    }
   },
   gameGroupCode: {
     SSC: '时时彩',
@@ -1010,6 +1018,7 @@ const LANG = {
     fifthBall_11X5: '第五球',
     fifthBallBS: '第五球大小',
     fifthBallOE: '第五球单双',
+    bankerPlayerTie: '庄闲和',
 
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
@@ -1187,6 +1196,10 @@ const LANG = {
     P_Span_7: '7',
     P_Span_8: '8',
     P_Span_9: '9',
+    P_BANKER: '庄',
+    P_PLAYER: '闲',
+    P_BANKER_PAIR: '庄对',
+    P_PLAYER_PAIR: '闲对',
   },
   ...BaseGame,
 };

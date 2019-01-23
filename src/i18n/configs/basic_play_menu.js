@@ -792,4 +792,7 @@ export const PlayMenu = {
   '3_Num_LAO': 2132,
   '2_Num_LAO': 2137,
   Any_LAO: 2142,
+  Baccarat_SSC_ENT: 2123,
+  Baccarat_With_Pair_SSC_ENT: 2125,
+  Baccarat_No_Pair_SSC_ENT: 2126,
 };
