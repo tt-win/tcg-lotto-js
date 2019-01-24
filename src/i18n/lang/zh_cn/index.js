@@ -198,7 +198,7 @@ const LANG = {
     THAI: '泰彩',
     VNC: '越南彩',
     LAO: '老挝彩',
-    HOTGAMES: '热门彩种',
+    HOT: '热门彩种',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
