@@ -7,6 +7,35 @@ const baseSSCProps = {
   ballDigit: 1,
 };
 
+const baccaratSSC = {
+  fixedBalls: ['0', '1', '2', '3', '4'],
+  ballI18n: {
+    0: 'ball.baccarat.banker',
+    1: 'ball.baccarat.player',
+    2: 'ball.baccarat.tie',
+    3: 'ball.baccarat.bankerPair',
+    4: 'ball.baccarat.playerPair',
+  },
+  betDigits: [betDigits.BACCARAT],
+  boardClassNames: 'baccarat',
+  multi: true,
+  formula: 'oneBallOneNum',   // 1球1注
+  displayBallBonus: true,  // 顯示各球的最高獎金
+  canShowHotGap: false,  // 冷熱遺漏
+  hasToolbar: false,
+  prizeTypeMapping: {      // 各球最高獎金的對應prize type
+    0: 'P_BANKER',
+    1: 'P_PLAYER',
+    2: 'P_TIE',
+    3: 'P_BANKER_PAIR',
+    4: 'P_PLAYER_PAIR',
+  },
+  /*
+  delimiter: ',',
+  forceUseDelimiter: true,
+  */
+};
+
 const dragonTigerPropsSSC = {
   ...dragonTigerPropsPK10,
   fixedBalls: ['1', '2', '0', '1_2', '1_3', '0_2', '0_3'],
@@ -1318,5 +1347,117 @@ export default {
     multi: true,
     canShowHotGap: false,
     formula: 'combine6',
+  }),
+  // First3_Special_SSC 前三特殊号(全)
+  2113: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2', '3', '4'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+      3: 'ball.GroupENT.3',
+      4: 'ball.GroupENT.4',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // First3_Special_3_SSC 前三特殊号(三)
+  2114: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // Middle3_Special_SSC 中三特殊号(全)
+  2115: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2', '3', '4'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+      3: 'ball.GroupENT.3',
+      4: 'ball.GroupENT.4',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // Middle3_Special_3_SSC 中三特殊号(三)
+  2116: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // Last3_Special_SSC 后三特殊号(全)
+  2117: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2', '3', '4'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+      3: 'ball.GroupENT.3',
+      4: 'ball.GroupENT.4',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+  // Last3_Special_3_SSC 后三特殊号(三)
+  2118: BallBoardConfigRecord({
+    fixedBalls: ['0', '1', '2'],
+    ballI18n: {
+      0: 'ball.GroupENT.0',
+      1: 'ball.GroupENT.1',
+      2: 'ball.GroupENT.2',
+    },
+    betDigits: [betDigits.EMPTY],
+    multi: true,
+    canShowHotGap: false,
+    formula: 'oneBallOneNum',
+    hasToolbar: false,
+    boardClassNames: 'game-large',
+    forceUseDelimiter: true,
+    delimiter: ',',
+  }),
+
+  2121: BallBoardConfigRecord({
+    ...baccaratSSC,
   }),
 };

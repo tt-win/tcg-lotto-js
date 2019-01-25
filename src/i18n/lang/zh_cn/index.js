@@ -72,6 +72,7 @@ const LANG = {
     filterRepeat: '过滤重复号',
     BAO_DAN: '包胆',
     SPAN: '跨度',
+    BACCARAT: '百家乐',
   },
   startDigit: {
     ones: '（个）',
@@ -184,6 +185,13 @@ const LANG = {
       '1_2': '总和小单',
       '1_3': '总和小双',
     },
+    baccarat: {
+      banker: '庄',
+      player: '闲',
+      tie: '和',
+      bankerPair: '庄对',
+      playerPair: '闲对',
+    }
   },
   gameGroupCode: {
     SSC: '时时彩',
@@ -304,6 +312,7 @@ const LANG = {
     DRAW_FAIL_ERROR_: '系统繁忙，投注失败！',
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '当前彩种暂时没有开始销售 请稍后再试',
+    LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中奖即停不可使用',
   },
   chasingStatus: {
     All: '全部',
@@ -359,7 +368,7 @@ const LANG = {
     DLAPK10: '开奖时间：00:00:00-23:55:30, 共288期 每5分钟开奖',
     CHPK10: '开奖时间：00:00:00-23:55:30, 共288期 每5分钟开奖',
 
-    TXFFC: '开奖时间：00:01-23:59, 共1439期 每1分钟开奖',
+    TXFFC: '开奖时间：00:00-23:59, 共1440期 每1分钟开奖',
     CASSC: '开奖时间: 20:00 — 19:00(官网每天7:00pm到8:00pm间都会暂停一会), 共395期  每3.5分钟开奖',
     KRSSC: '开奖时间：00:11:00-次日00:09:30, 共288期 每1.5分钟开奖',
     TWSSC: '开奖时间：07:05-23:55, 共203期 每5分钟开奖',
@@ -378,6 +387,7 @@ const LANG = {
     BJPK10: '开奖时间：09:07:30-23:57:30，共179期 每5分钟开奖',
     XYPK10: '开奖时间：13:09-次日04:04，共180期 每5分钟开奖',
     HK6: '开奖时间: 21:30',
+    TX28: '开奖时间：00:00-23:59, 共1440期 每1分钟开奖',
   },
   timeDuration: {
     hour: '時',
@@ -829,16 +839,16 @@ const LANG = {
   dragonTigerTie: '龙虎和',
   twoSide: '两面',
   pastime: '趣味',
-  Dragon_Tiger_Tie_5_4_ENT: '第一球vs第二球',
-  Dragon_Tiger_Tie_5_3_ENT: '第一球vs第三球',
-  Dragon_Tiger_Tie_5_2_ENT: '第一球vs第四球',
-  Dragon_Tiger_Tie_5_1_ENT: '第一球vs第五球',
-  Dragon_Tiger_Tie_4_3_ENT: '第二球vs第三球',
-  Dragon_Tiger_Tie_4_2_ENT: '第二球vs第四球',
-  Dragon_Tiger_Tie_4_1_ENT: '第二球vs第五球',
-  Dragon_Tiger_Tie_3_2_ENT: '第三球vs第四球',
-  Dragon_Tiger_Tie_3_1_ENT: '第三球vs第五球',
-  Dragon_Tiger_Tie_2_1_ENT: '第四球vs第五球',
+  Dragon_Tiger_Tie_5_4_ENT: '万千 第一球vs第二球',
+  Dragon_Tiger_Tie_5_3_ENT: '万百 第一球vs第三球',
+  Dragon_Tiger_Tie_5_2_ENT: '万十 第一球vs第四球',
+  Dragon_Tiger_Tie_5_1_ENT: '万个 第一球vs第五球',
+  Dragon_Tiger_Tie_4_3_ENT: '千百 第二球vs第三球',
+  Dragon_Tiger_Tie_4_2_ENT: '千十 第二球vs第四球',
+  Dragon_Tiger_Tie_4_1_ENT: '千个 第二球vs第五球',
+  Dragon_Tiger_Tie_3_2_ENT: '百十 第三球vs第四球',
+  Dragon_Tiger_Tie_3_1_ENT: '百个 第三球vs第五球',
+  Dragon_Tiger_Tie_2_1_ENT: '十个 第四球vs第五球',
   // SSC 牛牛
   NN_SSC_ENT: '牛牛牌型',
   NN_SSC_BSOE_ENT: '牛牛大小单双',
@@ -915,6 +925,7 @@ const LANG = {
     number: '单码',
     BSOE: '大小单双',
     NN: '牛牛',
+    baccarat: '百家乐',
     /* 整合 */
     firstBall: '第一球',
     firstBallBS: '第一球大小',
@@ -946,6 +957,7 @@ const LANG = {
     fourVsFive: '4VS5',
     NNBS: '牛大小',
     NNOE: '牛单双',
+    bankerPlayerTie: '庄闲和',
     // pk10
     oneVsTen: '1VS10',
     twoVsNine: '2VS9',
@@ -1009,6 +1021,7 @@ const LANG = {
     fifthBall_11X5: '第五球',
     fifthBallBS: '第五球大小',
     fifthBallOE: '第五球单双',
+    bankerPlayerTie: '庄闲和',
 
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
@@ -1082,6 +1095,7 @@ const LANG = {
     P_PAIR: '对子',
     P_ZU3: '组三',
     P_ZU6: '组六',
+    P_ZA6: '杂六',
     P_STRAIGHT: '顺子',
     P_HALF_STRAIGHT: '半顺',
     P_BAOZI: '豹子',
@@ -1185,6 +1199,10 @@ const LANG = {
     P_Span_7: '7',
     P_Span_8: '8',
     P_Span_9: '9',
+    P_BANKER: '庄',
+    P_PLAYER: '闲',
+    P_BANKER_PAIR: '庄对',
+    P_PLAYER_PAIR: '闲对',
   },
   ...BaseGame,
 };

@@ -89,6 +89,10 @@ const SSCPlayRuleConfig = {
   HK5_SSC_ENT: [
     PlayMenu.HK5_SSC_ENT,
   ],
+  Baccarat_SSC_ENT: [
+    PlayMenu.Baccarat_With_Pair_SSC_ENT,
+    PlayMenu.Baccarat_No_Pair_SSC_ENT,
+  ],
 };
 
 const _11X5PlayRuleConfig = {
