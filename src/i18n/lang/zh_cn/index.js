@@ -206,6 +206,7 @@ const LANG = {
     THAI: '泰彩',
     VNC: '越南彩',
     LAO: '老挝彩',
+    ST: '电玩彩',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
