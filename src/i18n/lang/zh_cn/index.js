@@ -191,7 +191,7 @@ const LANG = {
       tie: '和',
       bankerPair: '庄对',
       playerPair: '闲对',
-    }
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',
