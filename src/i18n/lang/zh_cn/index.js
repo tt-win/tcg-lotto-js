@@ -808,6 +808,7 @@ const LANG = {
   playRule: '玩法规则',
   backHome: '返回首页',
   BTSplayRule: '区块链彩票说明',
+  STplayRule: '电玩彩彩票说明',
   normal: '一般',
   quickly: '快捷',
   loading: '资料读取中...',
