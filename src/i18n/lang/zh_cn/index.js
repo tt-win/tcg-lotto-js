@@ -191,7 +191,7 @@ const LANG = {
       tie: '和',
       bankerPair: '庄对',
       playerPair: '闲对',
-    }
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',
@@ -206,6 +206,7 @@ const LANG = {
     THAI: '泰彩',
     VNC: '越南彩',
     LAO: '老挝彩',
+    ST: '电玩彩',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
@@ -807,6 +808,7 @@ const LANG = {
   playRule: '玩法规则',
   backHome: '返回首页',
   BTSplayRule: '区块链彩票说明',
+  STplayRule: '电玩彩彩票说明',
   normal: '一般',
   quickly: '快捷',
   loading: '资料读取中...',
