@@ -36,6 +36,7 @@ export const BallBoardConfigRecord = Record({
   isShowHotGapTabs: true,
   rowMulti: true, // 每一列球號是否多選 false:每一列球號不能相同
   ballShowWithDice: false,
+  ballShowPosition: '', // 組態球要顯示的位置
 });
 
 export const baseBSOEProps = {
