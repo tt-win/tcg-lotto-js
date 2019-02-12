@@ -1,21 +1,32 @@
-import _compact from 'lodash/compact';
-import _fromPairs from 'lodash/fromPairs';
 import _property from 'lodash/property';
 import _replace from 'lodash/replace';
 import ZH_CN from './zh_cn';
-import TH_TH from './th_th';
+import TH from './th';
 
 export const lang = {
   ZH_CN,
-  TH_TH,
+  TH,
 };
 
 const defaultLang = 'ZH_CN';
 
 const getLang = () => {
   let langKey = window.localStorage.lang;
-  langKey = langKey ? langKey.toUpperCase().replace('-', '_') : langKey;
-  return lang[langKey] ? lang[langKey] : lang[defaultLang];
+
+  if (!langKey) {
+    return lang[defaultLang];
+  }
+
+  if (lang[langKey]) {
+    return lang[langKey];
+  }
+
+  langKey = langKey.toUpperCase().replace('-', '_');
+  if (lang[langKey]) {
+    return lang[langKey];
+  }
+
+  return lang[defaultLang];
 };
 
 
