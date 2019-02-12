@@ -333,6 +333,10 @@ const LANG = {
     K3Baozi: '豹子(三同号)',
     BS: '大小',
     OE: '单双',
+    big: '大',
+    small: '小',
+    odd: '单',
+    even: '双',
   },
   zodiac: {
     1: '鼠',
