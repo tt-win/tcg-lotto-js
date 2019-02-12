@@ -328,6 +328,9 @@ const LANG = {
     com3: '组三',
     com6: '组六',
     baozi: '豹子',
+    singleSame2: '对子(二同号)',
+    K3Com6: '组六(三不同)',
+    K3Baozi: '豹子(三同号)',
   },
   zodiac: {
     1: '鼠',
