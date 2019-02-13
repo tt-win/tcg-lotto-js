@@ -1,9 +1,11 @@
 import { BallBoardConfigRecord, baseBSOEProps } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
+import { ballShowPosition } from './ball_show_position_config';
 
 const baseLFProps = {
   ballRange: [0, 9],
   ballDigit: 1,
+  ballShowPosition: ballShowPosition.ALL,
 };
 
 const sum3Props = {
@@ -73,64 +75,77 @@ export default {
     ...baseLFProps,
     betDigits: [betDigits.FC3D_HUNDREDS, betDigits.FC3D_TENS, betDigits.FC3D_ONES],
     formula: 'straight',
+    ballShowPosition: ballShowPosition.LAST_THREE,
   }),
   //  Last3Sum_LF
   1409: BallBoardConfigRecord({
     ...sum3Props,
     delimiter: ',',
     forceUseDelimiter: true,
+    ballShowPosition: ballShowPosition.LAST_THREE,
   }),
   //  Last3Com3_LF
   1410: BallBoardConfigRecord({
     ...com3Props,
+    ballShowPosition: ballShowPosition.LAST_THREE,
   }),
   // Last3Com6_LF
   1411: BallBoardConfigRecord({
     ...com6Props,
+    ballShowPosition: ballShowPosition.LAST_THREE,
   }),
   // Last3ComSum_LF
   1413: BallBoardConfigRecord({
     ...threeComSumProps,
     delimiter: ',',
     forceUseDelimiter: true,
+    ballShowPosition: ballShowPosition.LAST_THREE,
   }),
   // First2Straight_LF
   1416: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.FC3D_HUNDREDS, betDigits.FC3D_TENS],
     formula: 'straight',
+    ballShowPosition: ballShowPosition.LAST_TWO_THREE,
   }),
   //  First2Com_LF
   1417: BallBoardConfigRecord({
     ...twoComProps,
+    ballShowPosition: ballShowPosition.LAST_TWO_THREE,
   }),
   //  Last2Straight_LF
   1418: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.FC3D_TENS, betDigits.FC3D_ONES],
     formula: 'straight',
+    ballShowPosition: ballShowPosition.LAST_TWO,
   }),
   //  Last2Com_LF
   1419: BallBoardConfigRecord({
     ...twoComProps,
+    ballShowPosition: ballShowPosition.LAST_TWO,
   }),
   //  Last3StraightAnyCode1_LF
   1414: BallBoardConfigRecord({
     ...threeAnyCode1Props,
+    ballShowPosition: ballShowPosition.LAST_THREE,
   }),
   //  Last3StraightAnyCode2_LF
   1415: BallBoardConfigRecord({
     ...threeAnyCode2Props,
+    ballShowPosition: ballShowPosition.LAST_THREE,
   }),
   // 1420 First2BSOE_LF
   1420: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.FC3D_HUNDREDS, betDigits.FC3D_TENS],
+    ballShowPosition: ballShowPosition.LAST_TWO_THREE,
   }),
   //  Last2BSOE_LF
   1421: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.FC3D_TENS, betDigits.FC3D_ONES],
+    ballShowPosition: ballShowPosition.LAST_TWO,
   }),
   //  FixedPlace_LF
   1422: BallBoardConfigRecord({
@@ -138,85 +153,102 @@ export default {
     canShowHotGap: true,
     betDigits: [betDigits.FC3D_HUNDREDS, betDigits.FC3D_TENS, betDigits.FC3D_ONES],
     formula: 'oneBallOneNum',
+    ballShowPosition: ballShowPosition.LAST_THREE,
   }),
   //  P3Straight_LF
   1430: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS],
     formula: 'straight',
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  P3Sum_LF
   1431: BallBoardConfigRecord({
     ...sum3Props,
     delimiter: ',',
     forceUseDelimiter: true,
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  P3Com3_LF
   1432: BallBoardConfigRecord({
     ...com3Props,
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  P3Com6_LF
   1433: BallBoardConfigRecord({
     ...com6Props,
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  P3ComSum_LF
   1435: BallBoardConfigRecord({
     ...threeComSumProps,
     delimiter: ',',
     forceUseDelimiter: true,
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  P3StraightAnyCode1_LF
   1436: BallBoardConfigRecord({
     ...threeAnyCode1Props,
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  P3StraightAnyCode2_LF
   1437: BallBoardConfigRecord({
     ...threeAnyCode2Props,
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  P5First2Straight_LF
   1438: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS],
     formula: 'straight',
+    ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
   //   P5First2Com_LF
   1439: BallBoardConfigRecord({
     ...twoComProps,
+    ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
   //  P3Last2Straight_LF
   1440: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS],
     formula: 'straight',
+    ballShowPosition: ballShowPosition.FIRST_TWO_THREE,
   }),
   //  P5Last2Straight_LF
   1442: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
     formula: 'straight',
+    ballShowPosition: ballShowPosition.LAST_TWO,
   }),
   // P3Last2Com_LF
   1441: BallBoardConfigRecord({
     ...twoComProps,
+    ballShowPosition: ballShowPosition.FIRST_TWO_THREE,
   }),
   // Last2Com_LF
   1443: BallBoardConfigRecord({
     ...twoComProps,
+    ballShowPosition: ballShowPosition.LAST_TWO,
   }),
   //  P5First2BSOE_LF
   1444: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS],
+    ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
   //  P3Last2BSOE_LF
   1445: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS],
+    ballShowPosition: ballShowPosition.FIRST_TWO_THREE,
   }),
   //  Last2BSOE_LF
   1446: BallBoardConfigRecord({
     ...baseBSOEProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
+    ballShowPosition: ballShowPosition.LAST_TWO,
   }),
   // FixedPlace_LF
   1447: BallBoardConfigRecord({

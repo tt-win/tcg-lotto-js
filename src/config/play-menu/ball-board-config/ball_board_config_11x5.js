@@ -1,9 +1,11 @@
 import { BallBoardConfigRecord } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
+import { ballShowPosition } from './ball_show_position_config';
 
 const base11X5Props = {
   ballRange: [1, 11],
   ballDigit: 2,
+  ballShowPosition: ballShowPosition.ALL,
 };
 
 const ballOECountsI18n = {
@@ -23,6 +25,7 @@ export default {
     ...base11X5Props,
     betDigits: [betDigits.FIRST, betDigits.SECOND, betDigits.THIRD],
     formula: 'notDuplicateStraight',
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  Any1_11X5
   908: BallBoardConfigRecord({
@@ -96,12 +99,14 @@ export default {
     betDigits: [betDigits.COM],
     canShowHotGap: true,
     formula: 'combineSix',
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  First2Straight_11X5
   920: BallBoardConfigRecord({
     ...base11X5Props,
     betDigits: [betDigits.FIRST, betDigits.SECOND],
     formula: 'notDuplicateStraight',
+    ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
   // First2Com_11X5
   921: BallBoardConfigRecord({
@@ -109,6 +114,7 @@ export default {
     betDigits: [betDigits.COM],
     canShowHotGap: true,
     formula: 'combine6',
+    ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
   // First3AnyPlace_11X5
   922: BallBoardConfigRecord({
@@ -116,6 +122,7 @@ export default {
     betDigits: [betDigits.DAN],
     canShowHotGap: false,
     formula: 'oneBallOneNum',
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  FixedPlace_11X5
   923: BallBoardConfigRecord({

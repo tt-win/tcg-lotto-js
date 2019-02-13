@@ -102,6 +102,10 @@ export default class ConfigurationHelper {
         ballShowPositionArray.push(4, 5);
         break;
       }
+      case 'LAST_TWO_THREE': {
+        ballShowPositionArray = getBallFunction(totalBall - 3, totalBall - 2);
+        break;
+      }
       case 'FIRST_TWO_TO_FOUR': {
         ballShowPositionArray = getBallFunction(1, 3);
         break;
