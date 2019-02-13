@@ -314,14 +314,14 @@ export default {
     ...baseSSCProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS],
     formula: 'straight',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   //  Middle3Join
   55: BallBoardConfigRecord({
     ...baseSSCProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS],
     formula: 'continuousChoose',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   //  Middle3StraightCom
   56: BallBoardConfigRecord({
@@ -329,7 +329,7 @@ export default {
     betDigits: [betDigits.STRAIGHT_COM],
     formula: 'directChooseCombine',
     canShowHotGap: false,
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   // Middle3Sum
   57: BallBoardConfigRecord({
@@ -342,7 +342,7 @@ export default {
     canShowStakes: true,
     delimiter: ',',
     forceUseDelimiter: true,
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   // Middle3Com3
   52: BallBoardConfigRecord({
@@ -350,7 +350,7 @@ export default {
     betDigits: [betDigits.COM3],
     formula: 'combineThree',
     canShowHotGap: false,
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   // Middle3Com6
   53: BallBoardConfigRecord({
@@ -358,7 +358,7 @@ export default {
     betDigits: [betDigits.COM6],
     formula: 'combineSix',
     canShowHotGap: false,
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   //  Last3Join
   26: BallBoardConfigRecord({
@@ -551,7 +551,7 @@ export default {
     canShowHotGap: false,
     hasToolbar: true,
     formula: 'noDuplicateStraightWithBaozi',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   //  Middle3StraightAnyCode2
   79: BallBoardConfigRecord({
@@ -561,7 +561,7 @@ export default {
     canShowHotGap: false,
     hasToolbar: true,
     formula: 'noDuplicateStraightWithBaozi',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   //  Last3StraightAnyCode1
   74: BallBoardConfigRecord({
@@ -629,7 +629,7 @@ export default {
     canShowHotGap: false,
     hasToolbar: true,
     formula: 'noDuplicateComboRest2',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   //  Middle3ComAnyCode2
   77: BallBoardConfigRecord({
@@ -639,7 +639,7 @@ export default {
     canShowHotGap: false,
     hasToolbar: true,
     formula: 'noDuplicateCombo',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   //  Last3ComAnyCode1
   72: BallBoardConfigRecord({
@@ -1334,7 +1334,7 @@ export default {
     multi: false,    // 可否複選
     formula: 'baodanThreeDigits',   // 三位包膽
     betDigits: [betDigits.BAO_DAN],
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   // Last3_Baodan_SSC 後三包膽
   2077: BallBoardConfigRecord({
@@ -1385,7 +1385,7 @@ export default {
     canShowHotGap: true,
     delimiter: ',',
     forceUseDelimiter: true, // 強制使用delimiter
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   // Last3_Span_SSC 后三跨度
   2082: BallBoardConfigRecord({
@@ -1450,7 +1450,7 @@ export default {
     multi: true,
     canShowHotGap: false,
     formula: 'combine6',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
     // Last3Choose2Any_SSC 后三二码不定位
   2089: BallBoardConfigRecord({
@@ -1517,7 +1517,7 @@ export default {
     boardClassNames: 'game-large',
     forceUseDelimiter: true,
     delimiter: ',',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   // Middle3_Special_3_SSC 中三特殊号(三)
   2116: BallBoardConfigRecord({
@@ -1535,7 +1535,7 @@ export default {
     boardClassNames: 'game-large',
     forceUseDelimiter: true,
     delimiter: ',',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   // Last3_Special_SSC 后三特殊号(全)
   2117: BallBoardConfigRecord({

@@ -74,7 +74,7 @@ const groupSSCConfig = {
     ballDigit: 1,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS],
     formula: 'oneNum',
-    ballShowPosition: ballShowPosition.FIRST_TWO_THREE_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
   }),
   // 181 Any3Com_SSC
   181: BallBoardConfigRecord({
