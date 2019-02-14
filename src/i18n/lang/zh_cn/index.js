@@ -492,6 +492,9 @@ const LANG = {
     K3_third: '个',
     K3_sum: '和值',
     K3_sum_trend: '和值走势',
+    K3_single_same: '同号',
+    drawNumber: '开奖号码',
+    sumValue: '和值',
   },
   quickBetLHC: {
     odd: '单码',
