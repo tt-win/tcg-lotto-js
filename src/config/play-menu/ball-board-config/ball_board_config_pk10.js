@@ -1,6 +1,6 @@
 import { BallBoardConfigRecord, baseBSOEProps } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
-import { ballShowPosition } from './ball_show_position_config';
+import { ballShowPosition } from './ball_configuration_config';
 
 const basePK10Props = {
   ballRange: [1, 10],

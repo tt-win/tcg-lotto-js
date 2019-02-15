@@ -1,7 +1,7 @@
 import { BallBoardConfigRecord, baseBSOEProps } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
 import { dragonTigerProps as dragonTigerPropsPK10 } from './ball_board_config_pk10';   // for SSC Dragon Tiger
-import { ballShowPosition } from './ball_show_position_config';
+import { ballShowPosition } from './ball_configuration_config';
 
 const baseSSCProps = {
   ballRange: [0, 9],
