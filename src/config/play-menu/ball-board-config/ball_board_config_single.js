@@ -1,6 +1,6 @@
 import { BallBoardConfigRecord } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
-import { ballShowPosition } from './ball_show_position_config';
+import { ballShowPosition, ballConfigurationCategory } from './ball_configuration_config';
 
 import ballBoardConfigSSC from './ball_board_config_ssc';
 import ballBoardConfig11X5 from './ball_board_config_11x5';
@@ -59,6 +59,7 @@ const groupSSCConfig = {
     betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneNum',
     ballShowPosition: ballShowPosition.LAST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  First3Com
   44: BallBoardConfigRecord({
@@ -67,6 +68,7 @@ const groupSSCConfig = {
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS],
     formula: 'oneNum',
     ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  Middle3Com
   54: BallBoardConfigRecord({
@@ -75,6 +77,7 @@ const groupSSCConfig = {
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS],
     formula: 'oneNum',
     ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   // 181 Any3Com_SSC
   181: BallBoardConfigRecord({

@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import { showBZHName } from 'configs/draw_history_config';
+import { i18n } from 'locales';
 
 function getBallFunction(startBall, endBall) {
   const ballShowPositionArray = [];
@@ -7,6 +8,162 @@ function getBallFunction(startBall, endBall) {
     ballShowPositionArray.push(a);
   }
   return ballShowPositionArray;
+}
+
+function getConfigurationNumber(ballGroup) {
+  const uniqNumArray = _.uniq(ballGroup); // array中不一樣元素
+  let configurationNumber = 1;
+  let numberObject = {};
+
+  // 先判斷球號是否為空
+  if (isNaN(_.sum(ballGroup)) || ballGroup.length === 1) {
+    return showBZHName.EMPTY;
+  }
+
+  // 找出每個球號的個數
+  ballGroup.forEach((ball) => {
+    if (numberObject[ball]) {
+      numberObject[ball] += 1;
+    } else {
+      numberObject[ball] = 1;
+    }
+  });
+  // console.log('numberObject', numberObject);
+
+  // 計算組態數
+  for (let a = ballGroup.length; a > 1; a -= 1) {
+    configurationNumber *= a;
+  }
+  uniqNumArray.forEach((ball) => {
+    for (let a = numberObject[ball]; a > 1; a -= 1) {
+      configurationNumber /= a;
+    }
+  });
+  // console.log('configurationNumber', configurationNumber);
+
+  switch(configurationNumber) {
+    case 1:
+      return showBZHName.BZ;
+    case 2:
+      return showBZHName.Z2;
+    case 3:
+      return showBZHName.Z3;
+    case 4:
+      return showBZHName.Z4;
+    case 5:
+      return showBZHName.Z5;
+    case 6:
+      return showBZHName.Z6;
+    case 12:
+      return showBZHName.Z12;
+    case 20:
+      return showBZHName.Z20;
+    case 24:
+      return showBZHName.Z24;
+    case 30:
+      return showBZHName.Z30;
+    case 60:
+      return showBZHName.Z60;
+    case 120:
+      return showBZHName.Z120;
+  }
+}
+
+function getBallSum(ballGroup) {
+  let ballSum = 0;
+  ballGroup.forEach((ball) => {
+    ballSum += ball;
+  })
+  return ballSum;
+}
+
+function getBallSpan(ballGroup) {
+  const ballGroupSort = ballGroup.sort((a, b) => a - b);
+  const spanNumber = ballGroupSort[ballGroupSort.length - 1] - ballGroupSort[0];
+  return spanNumber;
+}
+
+function getSSCBSOE(ballGroup) {
+  let BSOE = i18n('sum');
+  const ballSum = getBallSum(ballGroup);
+
+  if (ballSum >= 23) {
+    BSOE += i18n('ball.BSOE.big');
+  } else {
+    BSOE += i18n('ball.BSOE.small');
+  }
+
+  if (ballSum % 2 === 1) {
+    BSOE += i18n('ball.BSOE.odd');
+  }
+  else {
+    BSOE += i18n('ball.BSOE.even');
+  }
+
+  return BSOE;
+}
+
+function getSpecialNumber(ballGroup) {
+  const ballGroupSort = ballGroup.sort((a, b) => a - b);
+  const uniqNumArray = _.uniq(ballGroupSort); // array中不一樣元素
+  let isStraight = false; // 判斷是否為順子
+  let isHalfStraight = false; // 判斷是否為半順
+
+  // 豹子
+  if (uniqNumArray.length === 1) {
+    return i18n('ball.GroupENT.0');
+  }
+
+  // 順子
+  for (let a = 0; a < ballGroupSort.length; a += 1) {
+    if (a === ballGroupSort.length - 1) {
+      if (ballGroupSort[a] - ballGroupSort[0] === 9) {
+        isStraight = true;
+      }
+    } else if (ballGroupSort[a] - ballGroupSort[a + 1] === -1 || ballGroupSort[a] - ballGroupSort[a + 1] === -8) {
+      isStraight = true;
+    } else {
+      isStraight = false;
+      break;
+    }
+  }
+  if (isStraight) {
+    return i18n('ball.GroupENT.1');
+  }
+
+  // 對子
+  if (uniqNumArray.length === 2) {
+    return i18n('ball.GroupENT.2');
+  }
+
+  // 半順
+  for (let a = 0; a < ballGroupSort.length; a += 1) {
+    if (a === ballGroupSort.length - 1) {
+      if (ballGroupSort[a] - ballGroupSort[0] === 9) {
+        isHalfStraight = true;
+        break;
+      }
+    } else if (ballGroupSort[a] - ballGroupSort[a + 1] === -1 || ballGroupSort[a] - ballGroupSort[a + 1] === -8) {
+      isHalfStraight = true;
+      break;
+    }
+  }
+  if (isHalfStraight) {
+    return i18n('ball.GroupENT.4');
+  }
+
+  // 雜六
+  return i18n('ball.GroupENT.3');;
+}
+
+function getDragonTigerTie(ballGroup) {
+  if (ballGroup[0] > ballGroup[1]) {
+    return i18n('ball.dragonTigerTie.dragon');
+  } else if (ballGroup[0] < ballGroup[1]) {
+    return i18n('ball.dragonTigerTie.tiger');
+  } else if (ballGroup[0] === ballGroup[1]) {
+    return i18n('ball.dragonTigerTie.tie');
+  }
 }
 
 export default class ConfigurationHelper {
@@ -122,66 +279,30 @@ export default class ConfigurationHelper {
     return ballShowPositionArray;
   }
 
-  static getConfigurationFunction(category) {
-
-  }
-
-  static getConfigurationNumber(ballGroup) {
-    const uniqNumArray = _.uniq(ballGroup); // array中不一樣元素
-    let configurationNumber = 1;
-    let numberObject = {};
-
-    // 先判斷球號是否為空
-    if (isNaN(_.sum(ballGroup)) || ballGroup.length === 1) {
-      return showBZHName.EMPTY;
-    }
-
-    // 找出每個球號的個數
-    ballGroup.forEach((ball) => {
-      if (numberObject[ball]) {
-        numberObject[ball] += 1;
-      } else {
-        numberObject[ball] = 1;
+  static getConfigurationFunction(category, ballGroup) {
+    switch (category) {
+      case 'CONFIGURATION_NUMBER': {
+        return getConfigurationNumber(ballGroup);
       }
-    });
-    // console.log('numberObject', numberObject);
-
-    // 計算組態數
-    for (let a = ballGroup.length; a > 1; a -= 1) {
-      configurationNumber *= a;
-    }
-    uniqNumArray.forEach((ball) => {
-      for (let a = numberObject[ball]; a > 1; a -= 1) {
-        configurationNumber /= a;
+      case 'BALL_SUM': {
+        return getBallSum(ballGroup);
       }
-    });
-    // console.log('configurationNumber', configurationNumber);
-
-    switch(configurationNumber) {
-      case 1:
-        return showBZHName.BZ;
-      case 2:
-        return showBZHName.Z2;
-      case 3:
-        return showBZHName.Z3;
-      case 4:
-        return showBZHName.Z4;
-      case 5:
-        return showBZHName.Z5;
-      case 6:
-        return showBZHName.Z6;
-      case 12:
-        return showBZHName.Z12;
-      case 20:
-        return showBZHName.Z20;
-      case 24:
-        return showBZHName.Z24;
-      case 30:
-        return showBZHName.Z30;
-      case 60:
-        return showBZHName.Z60;
-      case 120:
-        return showBZHName.Z120;
+      case 'BALL_SPAN': {
+        return getBallSpan(ballGroup);
+      }
+      case 'SSC_BSOE': {
+        return getSSCBSOE(ballGroup);
+      }
+      case 'SPECIAL_NUMBER': {
+        return getSpecialNumber(ballGroup);
+      }
+      case 'DRAGON_TIGER_TIE': {
+        return getDragonTigerTie(ballGroup);
+      }
+      case 'EMPTY':
+      default:
+        return showBZHName.EMPTY;
+        break;
     }
   }
 }

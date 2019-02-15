@@ -34,7 +34,8 @@ export const ballConfigurationCategory = {
   CONFIGURATION_NUMBER: 'CONFIGURATION_NUMBER', // 組態數
   BALL_SUM: 'BALL_SUM', // 和值
   SPECIAL_NUMBER: 'SPECIAL_NUMBER', // 特殊號
-  BALL_SPAN: 'BALL_SPAN' // 跨度
-  BSOE: 'BSOE' // 大小單雙
-  DRAGON_TIGER_TIE: 'DRAGON_TIGER_TIE' // 龍虎和
-}
+  BALL_SPAN: 'BALL_SPAN', // 跨度
+  SSC_BSOE: 'SSC_BSOE', // 時時彩 總和大小 總和單雙
+  DRAGON_TIGER_TIE: 'DRAGON_TIGER_TIE', // 龍虎和
+  EMPTY: 'EMPTY', // 不顯示組態
+};
