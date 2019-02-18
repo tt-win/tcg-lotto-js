@@ -495,6 +495,9 @@ const LANG = {
     K3_single_same: '同号',
     drawNumber: '开奖号码',
     sumValue: '和值',
+    singleSame2: '对子',
+    K3Com6: '组六',
+    K3Baozi: '豹子',
   },
   quickBetLHC: {
     odd: '单码',
