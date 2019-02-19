@@ -1,6 +1,6 @@
-/**
- * 根據玩法 球要顯示組態的位置
- */
+import { i18n } from 'locales';
+
+// 根據玩法 球要顯示組態的位置
 export const ballShowPosition = {
   FIRST_FIVE: 'FIRST_FIVE', // 前五球
   FIRST_FOUR: 'FIRST_FOUR',
@@ -30,6 +30,7 @@ export const ballShowPosition = {
   ALL: 'ALL', // 所有球
 };
 
+// 顯示組態文字的類型
 export const ballConfigurationCategory = {
   CONFIGURATION_NUMBER: 'CONFIGURATION_NUMBER', // 組態數
   BALL_SUM: 'BALL_SUM', // 和值
@@ -37,5 +38,26 @@ export const ballConfigurationCategory = {
   BALL_SPAN: 'BALL_SPAN', // 跨度
   SSC_BSOE: 'SSC_BSOE', // 時時彩 總和大小 總和單雙
   DRAGON_TIGER_TIE: 'DRAGON_TIGER_TIE', // 龍虎和
+  OE_COUNT: 'OE_COUNT', // 幾單幾雙
+  MIDDLE_NUMBER: 'MIDDLE_NUMBER', // 中位數
   EMPTY: 'EMPTY', // 不顯示組態
+};
+
+export const showBZHList = ['SSC', '11X5', 'LF']; // 要顯示組態文字的彩種
+
+export const showBZHName = {
+  BZ: i18n('winNoFragment.baozi'), // 豹子
+  Z2: i18n('winNoFragment.com2'), // 組二
+  Z3: i18n('winNoFragment.com3'), // 組三
+  Z4: i18n('winNoFragment.com4'), // 組四
+  Z5: i18n('winNoFragment.com5'), // 組五
+  Z6: i18n('winNoFragment.com6'), // 組六
+  Z12: i18n('winNoFragment.com12'), // 組12
+  Z20: i18n('winNoFragment.com20'), // 組20
+  Z24: i18n('winNoFragment.com24'), // 組24
+  Z30: i18n('winNoFragment.com30'), // 組30
+  Z60: i18n('winNoFragment.com60'), // 組60
+  Z120: i18n('winNoFragment.com120'), // 組120
+  HZ: i18n('betDigit.SUM'), // 和值
+  EMPTY: '--', // 空開
 };

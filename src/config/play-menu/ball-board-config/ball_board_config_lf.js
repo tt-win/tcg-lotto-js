@@ -1,6 +1,6 @@
 import { BallBoardConfigRecord, baseBSOEProps } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
-import { ballShowPosition } from './ball_configuration_config';
+import { ballShowPosition, ballConfigurationCategory } from './ball_configuration_config';
 
 const baseLFProps = {
   ballRange: [0, 9],
@@ -83,16 +83,19 @@ export default {
     delimiter: ',',
     forceUseDelimiter: true,
     ballShowPosition: ballShowPosition.LAST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
   //  Last3Com3_LF
   1410: BallBoardConfigRecord({
     ...com3Props,
     ballShowPosition: ballShowPosition.LAST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   // Last3Com6_LF
   1411: BallBoardConfigRecord({
     ...com6Props,
     ballShowPosition: ballShowPosition.LAST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   // Last3ComSum_LF
   1413: BallBoardConfigRecord({
@@ -100,6 +103,7 @@ export default {
     delimiter: ',',
     forceUseDelimiter: true,
     ballShowPosition: ballShowPosition.LAST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
   // First2Straight_LF
   1416: BallBoardConfigRecord({
@@ -112,6 +116,7 @@ export default {
   1417: BallBoardConfigRecord({
     ...twoComProps,
     ballShowPosition: ballShowPosition.LAST_TWO_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  Last2Straight_LF
   1418: BallBoardConfigRecord({
@@ -124,6 +129,7 @@ export default {
   1419: BallBoardConfigRecord({
     ...twoComProps,
     ballShowPosition: ballShowPosition.LAST_TWO,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  Last3StraightAnyCode1_LF
   1414: BallBoardConfigRecord({
@@ -168,16 +174,19 @@ export default {
     delimiter: ',',
     forceUseDelimiter: true,
     ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
   //  P3Com3_LF
   1432: BallBoardConfigRecord({
     ...com3Props,
     ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  P3Com6_LF
   1433: BallBoardConfigRecord({
     ...com6Props,
     ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  P3ComSum_LF
   1435: BallBoardConfigRecord({
@@ -185,6 +194,7 @@ export default {
     delimiter: ',',
     forceUseDelimiter: true,
     ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
   //  P3StraightAnyCode1_LF
   1436: BallBoardConfigRecord({
@@ -207,6 +217,7 @@ export default {
   1439: BallBoardConfigRecord({
     ...twoComProps,
     ballShowPosition: ballShowPosition.FIRST_TWO,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  P3Last2Straight_LF
   1440: BallBoardConfigRecord({
@@ -226,11 +237,13 @@ export default {
   1441: BallBoardConfigRecord({
     ...twoComProps,
     ballShowPosition: ballShowPosition.FIRST_TWO_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   // Last2Com_LF
   1443: BallBoardConfigRecord({
     ...twoComProps,
     ballShowPosition: ballShowPosition.LAST_TWO,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  P5First2BSOE_LF
   1444: BallBoardConfigRecord({

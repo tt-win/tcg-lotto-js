@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { showBZHName } from 'configs/draw_history_config';
 import { i18n } from 'locales';
+import { showBZHName } from '../config/play-menu/ball-board-config/ball_configuration_config';
 
 function getBallFunction(startBall, endBall) {
   const ballShowPositionArray = [];
@@ -166,6 +166,24 @@ function getDragonTigerTie(ballGroup) {
   }
 }
 
+function getOECount(ballGroup) {
+  let odd = 0;
+  ballGroup.forEach((ball) => {
+    if (ball % 2 == 1) {
+      odd += 1;
+    }
+  });
+
+  return odd + i18n('ball.BSOE.odd') + (ballGroup.length - odd) + i18n('ball.BSOE.even');
+}
+
+function getMiddleNumber(ballGroup) {
+  const ballGroupSort = ballGroup.sort((a, b) => a - b);
+  const middleNumberIndex = Math.ceil(ballGroupSort.length / 2);
+
+  return ballGroupSort[middleNumberIndex - 1];
+}
+
 export default class ConfigurationHelper {
   static getBallShowPosition(showPosition, totalBall) {
     let ballShowPositionArray = [];
@@ -298,6 +316,12 @@ export default class ConfigurationHelper {
       }
       case 'DRAGON_TIGER_TIE': {
         return getDragonTigerTie(ballGroup);
+      }
+      case 'OE_COUNT': {
+        return getOECount(ballGroup);
+      }
+      case 'MIDDLE_NUMBER': {
+        return getMiddleNumber(ballGroup);
       }
       case 'EMPTY':
       default:

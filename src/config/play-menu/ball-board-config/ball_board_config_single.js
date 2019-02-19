@@ -136,6 +136,7 @@ const groupLFConfig = {
     betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneNum',
     ballShowPosition: ballShowPosition.LAST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   // P3Com_LF
   1434: BallBoardConfigRecord({
@@ -144,6 +145,7 @@ const groupLFConfig = {
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS],
     formula: 'oneNum',
     ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
 };
 
