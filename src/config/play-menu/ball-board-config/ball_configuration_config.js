@@ -40,10 +40,11 @@ export const ballConfigurationCategory = {
   DRAGON_TIGER_TIE: 'DRAGON_TIGER_TIE', // 龍虎和
   OE_COUNT: 'OE_COUNT', // 幾單幾雙
   MIDDLE_NUMBER: 'MIDDLE_NUMBER', // 中位數
+  K3_BSOE: 'K3_BSOE', // 大小單雙
   EMPTY: 'EMPTY', // 不顯示組態
 };
 
-export const showBZHList = ['SSC', '11X5', 'LF']; // 要顯示組態文字的彩種
+export const showBZHList = ['SSC', '11X5', 'LF', 'K3']; // 要顯示組態文字的彩種
 
 export const showBZHName = {
   BZ: i18n('winNoFragment.baozi'), // 豹子

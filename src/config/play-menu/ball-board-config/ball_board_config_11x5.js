@@ -6,6 +6,7 @@ const base11X5Props = {
   ballRange: [1, 11],
   ballDigit: 2,
   ballShowPosition: ballShowPosition.ALL,
+  ballConfigurationCategory: ballConfigurationCategory.EMPTY,
 };
 
 const ballOECountsI18n = {
@@ -132,6 +133,21 @@ export default {
     ...base11X5Props,
     betDigits: [betDigits.FIRST, betDigits.SECOND, betDigits.THIRD, betDigits.FOURTH, betDigits.FIFTH],
     formula: 'oneBallOneNum',
+  }),
+  1959: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_ONE,
+  }),
+  1964: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_TWO,
+  }),
+  1969: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_THREE,
+  }),
+  1974: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_FOUR,
+  }),
+  1979: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_FIVE,
   }),
 
 };

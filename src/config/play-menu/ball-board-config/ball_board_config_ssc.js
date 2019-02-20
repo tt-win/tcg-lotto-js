@@ -638,7 +638,6 @@ export default {
     hasToolbar: true,
     formula: 'noDuplicateComboRest2',
     ballShowPosition: ballShowPosition.FIRST_THREE,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  First3ComAnyCode2
   67: BallBoardConfigRecord({
@@ -649,7 +648,6 @@ export default {
     hasToolbar: true,
     formula: 'noDuplicateCombo',
     ballShowPosition: ballShowPosition.FIRST_THREE,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  Middle3ComAnyCode1
   76: BallBoardConfigRecord({
@@ -660,7 +658,6 @@ export default {
     hasToolbar: true,
     formula: 'noDuplicateComboRest2',
     ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  Middle3ComAnyCode2
   77: BallBoardConfigRecord({
@@ -671,7 +668,6 @@ export default {
     hasToolbar: true,
     formula: 'noDuplicateCombo',
     ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  Last3ComAnyCode1
   72: BallBoardConfigRecord({
@@ -682,7 +678,6 @@ export default {
     hasToolbar: true,
     formula: 'noDuplicateComboRest2',
     ballShowPosition: ballShowPosition.LAST_THREE,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  Last3ComAnyCode2
   73: BallBoardConfigRecord({
@@ -693,7 +688,6 @@ export default {
     hasToolbar: true,
     formula: 'noDuplicateCombo',
     ballShowPosition: ballShowPosition.LAST_THREE,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  First2ComAnyCode
   64: BallBoardConfigRecord({
@@ -704,7 +698,6 @@ export default {
     canShowHotGap: false,
     formula: 'noDuplicateCombo',
     ballShowPosition: ballShowPosition.FIRST_TWO,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  Last2ComAnyCode
   70: BallBoardConfigRecord({
@@ -715,7 +708,6 @@ export default {
     canShowHotGap: false,
     formula: 'noDuplicateCombo',
     ballShowPosition: ballShowPosition.LAST_TWO,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
 
   // 20170607 不定位新玩法
@@ -1041,7 +1033,6 @@ export default {
     canShowHotGap: false,
     formula: 'combine6',
     ballShowPosition: ballShowPosition.FIRST_FIVE,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   // anyComChoose3
   2030: BallBoardConfigRecord({
@@ -1052,10 +1043,24 @@ export default {
     canShowHotGap: false,
     formula: 'combineSix',
     ballShowPosition: ballShowPosition.FIRST_FIVE,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
 
   // ENT 娛樂城
+  1754: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_ONE,
+  }),
+  1764: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_TWO,
+  }),
+  1774: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_THREE,
+  }),
+  1784: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_FOUR,
+  }),
+  1794: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_FIVE,
+  }),
   // First_Straight_ENT
   1756: BallBoardConfigRecord({
     ...baseSSCPropsENT,
@@ -1466,7 +1471,6 @@ export default {
     canShowHotGap: false,
     formula: 'oneBallOneNum',
     ballShowPosition: ballShowPosition.FIRST_FOUR,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
     // First4Choose2Any_SSC 前四二码不定位
   2084: BallBoardConfigRecord({
@@ -1476,7 +1480,6 @@ export default {
     formula: 'combine6',
     canShowHotGap: false,
     ballShowPosition: ballShowPosition.FIRST_FOUR,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
     // Last4Choose1Any_SSC 后四一码不定位
   2085: BallBoardConfigRecord({
@@ -1486,7 +1489,6 @@ export default {
     canShowHotGap: false,
     formula: 'oneBallOneNum',
     ballShowPosition: ballShowPosition.LAST_FOUR,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
     // Last4Choose2Any_SSC 后四二码不定位
   2086: BallBoardConfigRecord({
@@ -1496,7 +1498,6 @@ export default {
     canShowHotGap: false,
     formula: 'combine6',
     ballShowPosition: ballShowPosition.LAST_FOUR,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
     // First3Choose2Any_SSC 前三二码不定位
   2087: BallBoardConfigRecord({
@@ -1506,7 +1507,6 @@ export default {
     canShowHotGap: false,
     formula: 'combine6',
     ballShowPosition: ballShowPosition.FIRST_THREE,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
     // Mid3Choose2Any_SSC 中三二码不定位
   2088: BallBoardConfigRecord({
@@ -1516,7 +1516,6 @@ export default {
     canShowHotGap: false,
     formula: 'combine6',
     ballShowPosition: ballShowPosition.FIRST_TWO_TO_FOUR,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
     // Last3Choose2Any_SSC 后三二码不定位
   2089: BallBoardConfigRecord({
@@ -1526,7 +1525,6 @@ export default {
     canShowHotGap: false,
     formula: 'combine6',
     ballShowPosition: ballShowPosition.LAST_THREE,
-    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   // First3_Special_SSC 前三特殊号(全)
   2113: BallBoardConfigRecord({

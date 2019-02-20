@@ -6,6 +6,7 @@ const baseLFProps = {
   ballRange: [0, 9],
   ballDigit: 1,
   ballShowPosition: ballShowPosition.ALL,
+  ballConfigurationCategory: ballConfigurationCategory.EMPTY,
 };
 
 const sum3Props = {

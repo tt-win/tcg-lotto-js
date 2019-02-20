@@ -184,6 +184,25 @@ function getMiddleNumber(ballGroup) {
   return ballGroupSort[middleNumberIndex - 1];
 }
 
+function getK3BSOE(ballGroup) {
+  let BSOE = '';
+  const ballSum = getBallSum(ballGroup);
+
+  if (ballSum >= 11) {
+    BSOE += i18n('ball.BSOE.big');
+  } else {
+    BSOE += i18n('ball.BSOE.small');
+  }
+
+  if (ballSum % 2 === 1) {
+    BSOE += i18n('ball.BSOE.odd');
+  } else {
+    BSOE += i18n('ball.BSOE.even');
+  }
+
+  return BSOE;
+}
+
 export default class ConfigurationHelper {
   static getBallShowPosition(showPosition, totalBall) {
     let ballShowPositionArray = [];
@@ -322,6 +341,9 @@ export default class ConfigurationHelper {
       }
       case 'MIDDLE_NUMBER': {
         return getMiddleNumber(ballGroup);
+      }
+      case 'K3_BSOE': {
+        return getK3BSOE(ballGroup);
       }
       case 'EMPTY':
       default:
