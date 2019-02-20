@@ -811,6 +811,32 @@ export const PlayMenu = {
   '3_Num_LAO': 2132,
   '2_Num_LAO': 2137,
   Any_LAO: 2142,
+
+  LAST_3_STRAIGHT_THAI: 2057, // 上正三位数
+  LAST_3_COMBINE_THAI: 2059, // 上反三位数
+  LAST_2_STRAIGHT_THAI: 2062, // 上正二位数
+  LAST_2_COMBINE_THAI: 2064, // 上反二位数
+  '2_STRAIGHT_ADD_THAI': 2066, // 下正二位数
+  '1_AT_ANY_LAST_3_THAI': 2069, // 上跑三位数
+  // vnc 越南彩
+  LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
+  LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
+  LAST_3_STRAIGHT_1ST_VNC: 2097, // 上正三位数
+  LAST_3_COMBINE_1ST_VNC: 2099, // 上反三位数
+  LAST_2_STRAIGHT_1ST_VNC: 2102, // 上正二位数
+  LAST_2_STRAIGHT_2ND_VNC: 2104, // 下正二位数
+  LAST_2_ANY_1ST_VNC: 2107, // 上跑两位数
+  LAST_2_ANY_2ND_VNC: 2109, // 下跑两位数
+  // LAO 老挝彩
+  LAST_4_STRAIGHT_LAO: 2129, // 上正四位数
+  LAST_4_COMBINE_LAO: 2131, // 上反四位数
+  LAST_3_STRAIGHT_LAO: 2134, // 上正三位数
+  LAST_3_COMBINE_LAO: 2136, // 上反三位数
+  LAST_2_STRAIGHT_LAO: 2139, // 上正二位数
+  FIRST_2_STRAIGHT_LAO: 2141, // 下正二位数
+  LAST_2_ANY_LAO: 2144, // 上跑两位数
+  FIRST_2_ANY_LAO: 2146, // 下跑两位数
+
   Baccarat_SSC_ENT: 2123,
   Baccarat_With_Pair_SSC_ENT: 2125,
   Baccarat_No_Pair_SSC_ENT: 2126,
