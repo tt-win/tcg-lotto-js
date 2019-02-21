@@ -138,16 +138,16 @@ export default {
     ballShowPosition: ballShowPosition.FIRST_ONE,
   }),
   1964: BallBoardConfigRecord({
-    ballShowPosition: ballShowPosition.FIRST_TWO,
+    ballShowPosition: ballShowPosition.TWO,
   }),
   1969: BallBoardConfigRecord({
-    ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballShowPosition: ballShowPosition.THREE,
   }),
   1974: BallBoardConfigRecord({
-    ballShowPosition: ballShowPosition.FIRST_FOUR,
+    ballShowPosition: ballShowPosition.FOUR,
   }),
   1979: BallBoardConfigRecord({
-    ballShowPosition: ballShowPosition.FIRST_FIVE,
+    ballShowPosition: ballShowPosition.LAST_ONE,
   }),
 
 };

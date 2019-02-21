@@ -207,6 +207,18 @@ export default class ConfigurationHelper {
   static getBallShowPosition(showPosition, totalBall) {
     let ballShowPositionArray = [];
     switch (showPosition) {
+      case 'TWO': {
+        ballShowPositionArray = getBallFunction(1, 1);
+        break;
+      }
+      case 'THREE': {
+        ballShowPositionArray = getBallFunction(2, 2);
+        break;
+      }
+      case 'FOUR': {
+        ballShowPositionArray = getBallFunction(3, 3);
+        break;
+      }
       case 'FIRST_FIVE': {
         ballShowPositionArray = getBallFunction(0, 4);
         break;

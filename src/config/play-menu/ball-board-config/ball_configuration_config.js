@@ -2,6 +2,9 @@ import { i18n } from 'locales';
 
 // 根據玩法 球要顯示組態的位置
 export const ballShowPosition = {
+  TWO: 'TWO', // 第二球
+  THREE: 'THREE',
+  FOUR: 'FOUR',
   FIRST_FIVE: 'FIRST_FIVE', // 前五球
   FIRST_FOUR: 'FIRST_FOUR',
   FIRST_THREE: 'FIRST_THREE',

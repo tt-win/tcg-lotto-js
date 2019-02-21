@@ -1050,16 +1050,16 @@ export default {
     ballShowPosition: ballShowPosition.FIRST_ONE,
   }),
   1764: BallBoardConfigRecord({
-    ballShowPosition: ballShowPosition.FIRST_TWO,
+    ballShowPosition: ballShowPosition.TWO,
   }),
   1774: BallBoardConfigRecord({
-    ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballShowPosition: ballShowPosition.THREE,
   }),
   1784: BallBoardConfigRecord({
-    ballShowPosition: ballShowPosition.FIRST_FOUR,
+    ballShowPosition: ballShowPosition.FOUR,
   }),
   1794: BallBoardConfigRecord({
-    ballShowPosition: ballShowPosition.FIRST_FIVE,
+    ballShowPosition: ballShowPosition.LAST_ONE,
   }),
   // First_Straight_ENT
   1756: BallBoardConfigRecord({
