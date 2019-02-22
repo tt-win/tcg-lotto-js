@@ -440,7 +440,6 @@ export const PlayMenu = {
   Fixed_First_BSOE_LHC: 1695,
   Normal_Special_One_Zodiac_LHC: 1694,
   Special_Zodiac_Straight_LHC: 1693,
-  Choose_Not_in_Winning_Numbers_LHC: 1690,
   Normal_Sixth_Tail_BS_LHC: 1687,
   Normal_Sixth_Color_LHC: 1686,
   Normal_Sixth_TOSum_BSOE_LHC: 1685,
@@ -530,6 +529,26 @@ export const PlayMenu = {
   Two_In_Normal_Or_Special_LHC: 2050,
   In_Normal_And_Special_Main_LHC: 2051,
   In_Normal_And_Special_LHC: 2052,
+  // 自選不中
+  Not_Winning_Numbers_Straight_LHC: 1689,
+  '5_Not_in_Winning_Numbers_Main_LHC': 2147,
+  '6_Not_in_Winning_Numbers_Main_LHC': 2149,
+  '7_Not_in_Winning_Numbers_Main_LHC': 2151,
+  '8_Not_in_Winning_Numbers_Main_LHC': 2153,
+  '9_Not_in_Winning_Numbers_Main_LHC': 2155,
+  '10_Not_in_Winning_Numbers_Main_LHC': 2157,
+  '11_Not_in_Winning_Numbers_Main_LHC': 2159,
+  '12_Not_in_Winning_Numbers_Main_LHC': 2161,
+  Choose_Not_in_Winning_Numbers_LHC: 1690,
+  '5_Not_in_Winning_Numbers_LHC': 2148,
+  '6_Not_in_Winning_Numbers_LHC': 2150,
+  '7_Not_in_Winning_Numbers_LHC': 2152,
+  '8_Not_in_Winning_Numbers_LHC': 2154,
+  '9_Not_in_Winning_Numbers_LHC': 2156,
+  '10_Not_in_Winning_Numbers_LHC': 2158,
+  '11_Not_in_Winning_Numbers_LHC': 2160,
+  '12_Not_in_Winning_Numbers_LHC': 2162,
+
 
   // ENT config
   First_Straight_ENT: 1756,
@@ -792,6 +811,32 @@ export const PlayMenu = {
   '3_Num_LAO': 2132,
   '2_Num_LAO': 2137,
   Any_LAO: 2142,
+
+  LAST_3_STRAIGHT_THAI: 2057, // 上正三位数
+  LAST_3_COMBINE_THAI: 2059, // 上反三位数
+  LAST_2_STRAIGHT_THAI: 2062, // 上正二位数
+  LAST_2_COMBINE_THAI: 2064, // 上反二位数
+  '2_STRAIGHT_ADD_THAI': 2066, // 下正二位数
+  '1_AT_ANY_LAST_3_THAI': 2069, // 上跑三位数
+  // vnc 越南彩
+  LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
+  LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
+  LAST_3_STRAIGHT_1ST_VNC: 2097, // 上正三位数
+  LAST_3_COMBINE_1ST_VNC: 2099, // 上反三位数
+  LAST_2_STRAIGHT_1ST_VNC: 2102, // 上正二位数
+  LAST_2_STRAIGHT_2ND_VNC: 2104, // 下正二位数
+  LAST_2_ANY_1ST_VNC: 2107, // 上跑两位数
+  LAST_2_ANY_2ND_VNC: 2109, // 下跑两位数
+  // LAO 老挝彩
+  LAST_4_STRAIGHT_LAO: 2129, // 上正四位数
+  LAST_4_COMBINE_LAO: 2131, // 上反四位数
+  LAST_3_STRAIGHT_LAO: 2134, // 上正三位数
+  LAST_3_COMBINE_LAO: 2136, // 上反三位数
+  LAST_2_STRAIGHT_LAO: 2139, // 上正二位数
+  FIRST_2_STRAIGHT_LAO: 2141, // 下正二位数
+  LAST_2_ANY_LAO: 2144, // 上跑两位数
+  FIRST_2_ANY_LAO: 2146, // 下跑两位数
+
   Baccarat_SSC_ENT: 2123,
   Baccarat_With_Pair_SSC_ENT: 2125,
   Baccarat_No_Pair_SSC_ENT: 2126,

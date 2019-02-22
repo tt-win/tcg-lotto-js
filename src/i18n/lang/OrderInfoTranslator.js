@@ -156,11 +156,11 @@ const HK5_KEY = {
 };
 
 const SSC_SPECIAL_KEY = {
-  '0': 'baozi',
-  '1': 'straight',
-  '2': 'pair',
-  '3': 'zu6',
-  '4': 'halfStraight',
+  0: 'baozi',
+  1: 'straight',
+  2: 'pair',
+  3: 'zu6',
+  4: 'halfStraight',
 };
 
 const PCB_KEY = {
@@ -184,7 +184,10 @@ const PCB_KEY = {
 };
 
 const _11X5_KEY = {
-  Total_Sum_Group: ['twoSideSumGroupBig', 'twoSideSumGroupSmall', 'twoSideSumGroupOdd', 'twoSideSumGroupEven', 'twoSideSumGroupTailBig', 'twoSideSumGroupTailSmall'],
+  Total_Sum_Group: [
+    'twoSideSumGroupBig', 'twoSideSumGroupSmall', 'twoSideSumGroupOdd',
+    'twoSideSumGroupEven', 'twoSideSumGroupTailBig', 'twoSideSumGroupTailSmall',
+  ],
   Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
@@ -228,7 +231,7 @@ const getSpecialBallContent = (originalContent) => {
 
   for (let a = 0; a < contentArr.length; a += 1) {
     contentArr[a] = i18n(`playKey.${SSC_SPECIAL_KEY[contentArr[a]]}`);
-  };
+  }
 
   return contentArr.join('|');
 };
@@ -255,6 +258,14 @@ const LHCTranslator = {
 
       // 自選不中
       PlayMenu.Choose_Not_in_Winning_Numbers_LHC,
+      PlayMenu['5_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['6_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['7_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['8_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['9_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['10_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['11_Not_in_Winning_Numbers_LHC'],
+      PlayMenu['12_Not_in_Winning_Numbers_LHC'],
 
       //  連碼
       PlayMenu.Two_In_Normal_LHC,
@@ -1004,8 +1015,8 @@ const SSCTranslator = {
       PlayMenu.Last3_Special_SSC,
       PlayMenu.Last3_Special_3_SSC,
     ],
-    getText: (content, originalContent) => getSpecialBallContent(content),
-  }
+    getText: (content) => getSpecialBallContent(content),
+  },
 };
 
 const SSCNNTranslator = {
@@ -1045,6 +1056,37 @@ const SSCBaccaratTranslator = {
       PlayMenu.Baccarat_No_Pair_SSC_ENT,
     ],
     getText: (content) => i18n(`playKey.${BACCARAT_KEY[content]}`),
+  },
+};
+
+// 泰彩的投注內容
+const THAITranslator = {
+  Thai: {
+    items: [
+      PlayMenu.LAST_3_STRAIGHT_THAI,
+      PlayMenu.LAST_3_COMBINE_THAI,
+      PlayMenu.LAST_2_STRAIGHT_THAI,
+      PlayMenu.LAST_2_COMBINE_THAI,
+      PlayMenu['2_STRAIGHT_ADD_THAI'],
+      PlayMenu['1_AT_ANY_LAST_3_THAI'],
+      PlayMenu.LAST_4_STRAIGHT_1ST_VNC,
+      PlayMenu.LAST_4_COMBINE_1ST_VNC,
+      PlayMenu.LAST_3_STRAIGHT_1ST_VNC,
+      PlayMenu.LAST_3_COMBINE_1ST_VNC,
+      PlayMenu.LAST_2_STRAIGHT_1ST_VNC,
+      PlayMenu.LAST_2_STRAIGHT_2ND_VNC,
+      PlayMenu.LAST_2_ANY_1ST_VNC,
+      PlayMenu.LAST_2_ANY_2ND_VNC,
+      PlayMenu.LAST_4_STRAIGHT_LAO,
+      PlayMenu.LAST_4_COMBINE_LAO,
+      PlayMenu.LAST_3_STRAIGHT_LAO,
+      PlayMenu.LAST_3_COMBINE_LAO,
+      PlayMenu.LAST_2_STRAIGHT_LAO,
+      PlayMenu.FIRST_2_STRAIGHT_LAO,
+      PlayMenu.LAST_2_ANY_LAO,
+      PlayMenu.FIRST_2_ANY_LAO,
+    ],
+    getText: (content) => (content || '').split(',')[0],
   },
 };
 
@@ -1337,7 +1379,8 @@ const OrderInfoTranslatorList = {
   ...SSCTranslator,
   ...SSCNNTranslator,
   ...SSCHK5Translator,
-  ...SSCBaccaratTranslator
+  ...SSCBaccaratTranslator,
+  ...THAITranslator,
 };
 
 const commaConfig = {
