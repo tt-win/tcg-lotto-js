@@ -235,6 +235,7 @@ const LANG = {
     HK6: '香港6合彩',
     THAIGOV: '泰政府彩',
     TCGTHGOV: 'TCG泰彩',
+    CQTX5FC: '重庆腾讯彩'
   },
   '2000cai': {
     gameCode: {
