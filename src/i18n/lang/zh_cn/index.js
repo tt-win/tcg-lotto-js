@@ -1074,7 +1074,7 @@ const LANG = {
   drawFrequencyInfo: '每天%@期，%@秒一期',
   prizeList: '奖金总览',
   currency: '\u00A5',
-  currencyThb: '\u0E3F',
+  currencyThb: '$',
   prizeListPrizeType: {
     [null]: '玩法奖金',
     P_FIRST: '一等奖',
