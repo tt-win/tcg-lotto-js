@@ -12,7 +12,7 @@ const LANG = {
   betAmountOverMaxAmount: 'จำนวนเงินเดิมพันเกินขีด จำกัด',
   totalAmount: 'จำนวนเงินทั้งหมด',
   currency: '\u0E3F',
-  currencyThb: '\u0E3F',
+  currencyThb: '$',
   confirm: 'ยืนยัน',
   winningAmount: 'ยอดที่ถูกรางวัล',
   betHistory: 'รายการโพยย้อนหลัง',
