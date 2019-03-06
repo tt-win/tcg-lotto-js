@@ -235,6 +235,7 @@ const LANG = {
     HK6: '香港6合彩',
     THAIGOV: '泰政府彩',
     TCGTHGOV: 'TCG泰彩',
+    CQTX5FC: '重庆腾讯彩'
   },
   '2000cai': {
     gameCode: {
@@ -722,6 +723,11 @@ const LANG = {
   subPlayMenuEmpty: '此彩种暂时关闭 请选择其他彩种',
   drawing: '正在开奖',
   drawResult: '开奖结果',
+  cqsscWinNo: '重庆时时彩%@期',
+  txffcLastStatistic: '腾讯5分钟前人数',
+  txffcCurrentStatistic: '腾讯当前人数',
+  cqtx5cWave: '腾讯5分钟波动值',
+  mixValueCount: '混合总和计算',
   drawTrend: '开奖走势',
   betNow: '立即投注',
   betNowTrad: '官方玩法',
