@@ -1,11 +1,13 @@
 import { BallBoardConfigRecord, baseBSOEProps } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
+import { ballConfigurationCategory } from './ball_configuration_config';
 
 const baseK3Props = {
   ballRange: [1, 6],
   ballDigit: 1,
   canShowHotGap: false,
   isShowHotGapTabs: false,
+  ballConfigurationCategory: ballConfigurationCategory.EMPTY,
 };
 
 export default {
@@ -18,6 +20,7 @@ export default {
     hasToolbar: false,
     delimiter: ',',
     forceUseDelimiter: true,
+    ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
     // Single_Same_3_K3
   1919: BallBoardConfigRecord({
@@ -123,6 +126,7 @@ export default {
     multi: false,
     canShowHotGap: false,
     isShowHotGapTabs: false,
+    ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
     // Sum_K3_ENT
   1934: BallBoardConfigRecord({

@@ -1,9 +1,12 @@
 import { BallBoardConfigRecord } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
+import { ballShowPosition, ballConfigurationCategory } from './ball_configuration_config';
 
 const base11X5Props = {
   ballRange: [1, 11],
   ballDigit: 2,
+  ballShowPosition: ballShowPosition.ALL,
+  ballConfigurationCategory: ballConfigurationCategory.EMPTY,
 };
 
 const ballOECountsI18n = {
@@ -23,6 +26,7 @@ export default {
     ...base11X5Props,
     betDigits: [betDigits.FIRST, betDigits.SECOND, betDigits.THIRD],
     formula: 'notDuplicateStraight',
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  Any1_11X5
   908: BallBoardConfigRecord({
@@ -81,6 +85,7 @@ export default {
     hasToolbar: false,
     canShowHotGap: false,
     ...ballOECountsI18n,
+    ballConfigurationCategory: ballConfigurationCategory.OE_COUNT,
   }),
   // 917 3rdDigit_11X5
   917: BallBoardConfigRecord({
@@ -96,12 +101,15 @@ export default {
     betDigits: [betDigits.COM],
     canShowHotGap: true,
     formula: 'combineSix',
+    ballShowPosition: ballShowPosition.FIRST_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   //  First2Straight_11X5
   920: BallBoardConfigRecord({
     ...base11X5Props,
     betDigits: [betDigits.FIRST, betDigits.SECOND],
     formula: 'notDuplicateStraight',
+    ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
   // First2Com_11X5
   921: BallBoardConfigRecord({
@@ -109,6 +117,8 @@ export default {
     betDigits: [betDigits.COM],
     canShowHotGap: true,
     formula: 'combine6',
+    ballShowPosition: ballShowPosition.FIRST_TWO,
+    ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
   // First3AnyPlace_11X5
   922: BallBoardConfigRecord({
@@ -116,12 +126,28 @@ export default {
     betDigits: [betDigits.DAN],
     canShowHotGap: false,
     formula: 'oneBallOneNum',
+    ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  FixedPlace_11X5
   923: BallBoardConfigRecord({
     ...base11X5Props,
     betDigits: [betDigits.FIRST, betDigits.SECOND, betDigits.THIRD, betDigits.FOURTH, betDigits.FIFTH],
     formula: 'oneBallOneNum',
+  }),
+  1959: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FIRST_ONE,
+  }),
+  1964: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.TWO,
+  }),
+  1969: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.THREE,
+  }),
+  1974: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.FOUR,
+  }),
+  1979: BallBoardConfigRecord({
+    ballShowPosition: ballShowPosition.LAST_ONE,
   }),
 
 };
