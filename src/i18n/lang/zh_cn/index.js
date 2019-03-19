@@ -774,6 +774,7 @@ const LANG = {
   trend: '走势',
   winningHistory: '记录',
   drawRemainTime: '距离开奖还剩',
+  lockTip: '%@第%@期已结束<br />请留意投注期号。',
   numeroNo: '第',
   numeroPeriod: '期',
   numeroWinNoFormat: '期开奖号码',
