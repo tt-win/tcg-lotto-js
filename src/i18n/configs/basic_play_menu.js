@@ -697,7 +697,7 @@ export const PlayMenu = {
   BOSE_ONLY_TIE_PCB: 2165,
   BS_OE_ONLY_TIE_PCB: 2166,
   BOSE_ALL_KILL_PCB: 2167,
-  BO_SE_ALL_KILL_PCB: 2168,
+  BS_OE_ALL_KILL_PCB: 2168,
   Special_Extremum_BS_PCB: 1911,
   Color_PCB: 1913,
   Boazi_PCB: 1914,
