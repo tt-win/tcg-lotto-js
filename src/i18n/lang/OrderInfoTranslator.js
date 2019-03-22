@@ -684,6 +684,9 @@ const PCBTranslator = {
   BS_OE_PCB: {
     items: [
       PlayMenu.Special_BS_OE_PCB,
+      PlayMenu.BS_OE_WITH_TIE_PCB,
+      PlayMenu.BS_OE_ONLY_TIE_PCB,
+      PlayMenu.BS_OE_ALL_KILL_PCB,
     ],
     getText: (content) => i18n(`playKey.${PCB_KEY.BS_OE[content]}`),
   },
@@ -1138,6 +1141,9 @@ const OrderInfoTranslatorList = {
       PlayMenu.First2SumBSOE_PK10,
       // PCB28
       PlayMenu.SpecialBSOE_PCB,
+      PlayMenu.BOSE_WITH_TIE_PCB,
+      PlayMenu.BOSE_ONLY_TIE_PCB,
+      PlayMenu.BOSE_ALL_KILL_PCB,
       // K3
       PlayMenu.Sum_BS_OE_K3,
       PlayMenu.Sum_BS_OE_K3_ENT,

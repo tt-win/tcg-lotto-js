@@ -330,6 +330,12 @@ const PK10PlayRuleConfig = {
 const PCBPlayRuleConfig = {
   SpecialBSOE_PCB: [PlayMenu.SpecialBSOE_PCB],
   Special_BS_OE_PCB: [PlayMenu.Special_BS_OE_PCB],
+  BOSE_WITH_TIE_PCB: [PlayMenu.BOSE_WITH_TIE_PCB],
+  BS_OE_WITH_TIE_PCB: [PlayMenu.BS_OE_WITH_TIE_PCB],
+  BOSE_ONLY_TIE_PCB: [PlayMenu.BOSE_ONLY_TIE_PCB],
+  BS_OE_ONLY_TIE_PCB: [PlayMenu.BS_OE_ONLY_TIE_PCB],
+  BOSE_ALL_KILL_PCB: [PlayMenu.BOSE_ALL_KILL_PCB],
+  BS_OE_ALL_KILL_PCB: [PlayMenu.BS_OE_ALL_KILL_PCB],
   Special_Extremum_BS_PCB: [PlayMenu.Special_Extremum_BS_PCB],
   Color_PCB: [PlayMenu.Color_PCB],
   Boazi_PCB: [PlayMenu.Boazi_PCB],

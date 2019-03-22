@@ -1,3 +1,5 @@
+const THAI_GROUP_ID_FILTER = [9, 10, 11];
+
 export default class FilterHelper {
   static combineBall(ballRows1, ballRows2) {
     const combineBallArray = [];
@@ -77,5 +79,28 @@ export default class FilterHelper {
     });
 
     return finalCombineBallArray;
+  }
+
+  // 彩種過濾
+  static thaiGameFilter(games) {
+    if (!games || games.length === 0) {
+      return [];
+    }
+
+    const gameList = games
+      .filter(({ gameGroupId }) => THAI_GROUP_ID_FILTER.indexOf(gameGroupId) >= 0);
+
+    return gameList;
+  }
+
+  static excludeThaiGameFilter(games) {
+    if (!games || games.length === 0) {
+      return [];
+    }
+
+    const gameList = games
+      .filter(({ gameGroupId }) => THAI_GROUP_ID_FILTER.indexOf(gameGroupId) < 0);
+
+    return gameList;
   }
 }
