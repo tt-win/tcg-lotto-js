@@ -1143,6 +1143,8 @@ const LANG = {
     P_B_E: '大双',
     P_S_O: '小单',
     P_S_E: '小双',
+    PRIME: '质数',
+    COMPOSITE: '合数',
     P_TIE: '和',
     P_ANIMAL: '生肖',
     P_COLOR_RED: '红',
