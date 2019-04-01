@@ -215,6 +215,7 @@ const LANG = {
     T2K11X5: '2000十一选五',
     T2KPK10: '2000PK10',
 
+    TXFFC: '腾讯分分彩',
     CASSC: '加拿大3.5分彩',
     KRSSC: '韩国1.5分彩',
     TWSSC: '台湾5分彩',
@@ -264,6 +265,9 @@ const LANG = {
       BJPK10: '北京赛车PK10',
       XYPK10: '幸运飞艇',
       HK6: '香港6合彩',
+      THAIGOV: '泰政府彩',
+      TCGTHGOV: 'TCG泰彩',
+      CQTX5FC: '重庆腾讯彩',
     },
   },
   orderStatus: {
