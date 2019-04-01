@@ -1439,6 +1439,11 @@ const commaConfig = {
 const OrderInfoTranslator = {
 
   getText: (playId, bettingContent) => {
+    // 參數 null 的防呆
+    if (!playId || !bettingContent) {
+      return '';
+    }
+
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
     const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
     if (translator) {
