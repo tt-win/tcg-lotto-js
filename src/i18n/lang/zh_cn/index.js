@@ -718,9 +718,9 @@ const LANG = {
 请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetPlaceHolder_2Digit: `每注之间可以用回车丶逗号[,]或者分号[;]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
-  manualBetPlaceHolder_h5: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开请复制或者输入支持格式如下：',
+  manualBetPlaceHolder_h5: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开复制或者输入支持格式如下：',
   manualBetPlaceHolder_2Digit_h5: `每注之间可以用回车丶逗号[,]或者分号[;]
-隔开请复制或者输入支持格式如下：`,
+隔开复制或者输入支持格式如下：`,
   manualBetFormatError: '您的投注内容不符合要求<br />里面还有字母或者中文！',
   multipleFormatError: '您输入的投注倍数格式不正确<br />只能输入大于或等于1的数字！',
   multipleMaxError: '您的最大投注倍数不能超过 %@ 倍',
