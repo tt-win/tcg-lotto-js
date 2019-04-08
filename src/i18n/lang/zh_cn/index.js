@@ -762,7 +762,7 @@ const LANG = {
   betRowStakeOverLimit: '该玩法单列可投上限为%@注，请重新下注！谢谢',
   overBetAmountMax: '超过单笔投注最大金额',
   drawAnnouncement: '开奖公告',
-  onceAlertDialog:  '{欢迎归来} 此次游戏维护升级时间较长，天成致以最诚挚的歉意，为您奉上专属红包，已为您派发到您的彩票钱包，祝您体验愉快~',
+  onceAlertDialog:  '{欢迎归来} 此次游戏维护升级时间较长，天成致以最诚挚的歉意，为您奉上专属红包，已为您派发到您的彩票钱包，祝您体验愉快。',
   today: '今天',
   yesterday: '昨天',
   beforeYesterday: '前天',
