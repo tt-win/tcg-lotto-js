@@ -422,7 +422,7 @@ const LANG = {
     line: '折线',
     horizontalLine: '辅助线',
     downloadHistory: '下载历史开奖号',
-    arithmetic: '正序',
+    sort: '正序',
     about: '使用说明',
     nearlyNumeros: '最近%@期',
     numberSpread: '号码分布',
