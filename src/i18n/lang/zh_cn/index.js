@@ -636,7 +636,7 @@ const LANG = {
   actualBettingAmount_summary: '有效投注金额合计',
   winningAmount_summary: '中奖金额合计',
   planBettingAmount_daily: '注额',
-  unbalancedAmount_daily: '未结算金额',
+  unbalancedAmount_daily: '未结算计划金额',
   winningAmount_daily: '今日输赢',
   ensure: '确定',
   cancel: '取消',
