@@ -372,6 +372,108 @@ const K3PlayRuleConfig = {
   ],
 };
 
+const FC3DPlayRuleConfig = {
+  Hundreds_Fixed_Place_LF: [
+    PlayMenu.Hundreds_Fixed_Place_LF,
+  ],
+  Hundreds_BSOE_LF: [
+    PlayMenu.Hundreds_BSOE_LF,
+  ],
+  Hundreds_BSOE_LF: [
+    PlayMenu.Hundreds_Prime_And_Composite_LF,
+  ],
+  Tens_Fixed_Place_LF: [
+    PlayMenu.Tens_Fixed_Place_LF,
+  ],
+  Tens_BSOE_LF: [
+    PlayMenu.Tens_BSOE_LF,
+  ],
+  Tens_Prime_And_Composite_LF: [
+    PlayMenu.Tens_Prime_And_Composite_LF,
+  ],
+  Units_Fixed_Place_LF: [
+    PlayMenu.Units_Fixed_Place_LF,
+  ],
+  Units_BSOE_LF: [
+    PlayMenu.Units_BSOE_LF,
+  ],
+  Units_Prime_And_Composite_LF: [
+    PlayMenu.Units_Prime_And_Composite_LF,
+  ],
+  // 一字組合
+  One_Word_Combine_LF: [
+    PlayMenu.One_Word_Combine_LF,
+  ],
+  // 二字定位
+  Hundreds_Tens_Fixed_Place_LF: [
+    PlayMenu.Hundreds_Tens_Fixed_Place_LF,
+  ],
+  Hundreds_Units_Fixed_Place_LF: [
+    PlayMenu.Hundreds_Units_Fixed_Place_LF,
+  ],
+  Tens_Units_Fixed_Place_LF: [
+    PlayMenu.Tens_Units_Fixed_Place_LF,
+  ],
+  // 二字組合
+  Two_Word_Combine_LF: [
+    PlayMenu.Two_Word_Combine_LF,
+  ],
+  // 二字和数
+  Hundreds_Tens_Sum_LF: [
+    PlayMenu.Hundreds_Tens_Sum_LF,
+  ],
+  Hundreds_Tens_Sum_Last_LF: [
+    PlayMenu.Hundreds_Tens_Sum_Last_LF,
+  ],
+  Hundreds_Units_Sum_LF: [
+    PlayMenu.Hundreds_Units_Sum_LF,
+  ],
+  Hundreds_Units_Sum_Last_LF: [
+    PlayMenu.Hundreds_Units_Sum_Last_LF,
+  ],
+  Tens_Units_Sum_LF: [
+    PlayMenu.Tens_Units_Sum_LF,
+  ],
+  Tens_Units_Sum_Last_LF: [
+    PlayMenu.Tens_Units_Sum_Last_LF,
+  ],
+  // 三字定位 百十个定位
+  Hundreds_Tens_Units_Fixed_Place_LF: [
+    PlayMenu.Hundreds_Tens_Units_Fixed_Place_LF,
+  ],
+  // 三字组合
+  Three_Word_Com_LF: [
+    PlayMenu.Three_Word_Com_LF,
+  ],
+  // 三字和数
+  Hundreds_Tens_Units_Sum_LF: [
+    PlayMenu.Hundreds_Tens_Units_Sum_LF,
+  ],
+  Hundreds_Tens_Units_Sum_Tail_LF: [
+    PlayMenu.Hundreds_Tens_Units_Sum_Tail_LF,
+  ],
+  // 组三组六
+  Hundreds_Tens_Units_Com3_LF: [
+    PlayMenu.Hundreds_Tens_Units_Com3_LF,
+  ],
+  Hundreds_Tens_Units_Com6_LF: [
+    PlayMenu.Hundreds_Tens_Units_Com6_LF,
+  ],
+  // 跨度
+  Hundreds_Tens_Units_Span_LF: [
+    PlayMenu.Hundreds_Tens_Units_Span_LF,
+  ],
+  Hundreds_Tens_Span_LF: [
+    PlayMenu.Hundreds_Tens_Span_LF,
+  ],
+  Hundreds_Units_Span_LF: [
+    PlayMenu.Hundreds_Units_Span_LF,
+  ],
+  Tens_Units_Span_LF: [
+    PlayMenu.Tens_Units_Span_LF,
+  ],
+};
+
 export const playRuleConfig = {
   ...SSCPlayRuleConfig,
   ..._11X5PlayRuleConfig,
@@ -379,5 +481,6 @@ export const playRuleConfig = {
   ...PK10PlayRuleConfig,
   ...PCBPlayRuleConfig,
   ...K3PlayRuleConfig,
+  ...FC3DPlayRuleConfig,
 };
 export default playRuleConfig;
