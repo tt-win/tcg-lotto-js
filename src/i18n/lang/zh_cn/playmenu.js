@@ -785,6 +785,8 @@ const PlayMenu = {
     even: '双',
     prime: '质数',
     composite: '合数',
+    fcprime: '质数',
+    fccomposite: '合数',
     baozi: '豹子',
     pair: '对子',
     straight: '顺子',
