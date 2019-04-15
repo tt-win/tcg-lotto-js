@@ -235,7 +235,7 @@ const LANG = {
     HK6: '香港6合彩',
     THAIGOV: '泰政府彩',
     TCGTHGOV: 'TCG泰彩',
-    CQTX5FC: '重庆腾讯彩'
+    CQTX5FC: '重庆腾讯彩',
   },
   '2000cai': {
     gameCode: {
@@ -774,6 +774,7 @@ const LANG = {
   trend: '走势',
   winningHistory: '记录',
   drawRemainTime: '距离开奖还剩',
+  lockTip: '%@第%@期已结束<br />请留意投注期号。',
   numeroNo: '第',
   numeroPeriod: '期',
   numeroWinNoFormat: '期开奖号码',
@@ -794,6 +795,7 @@ const LANG = {
   odds: '赔率',
   amount: '金额',
   amountByStakes: '单注金额',
+  expectedToWin: '预计可赢',
   balance: '余额',
   noRecord: '目前没有投注纪录, 进入',
   goToBet: '去投注',
@@ -1079,6 +1081,7 @@ const LANG = {
   itemMaxBettingAmountByNumero: '单期限额',
   winAmountMaxByPlay: '玩法单期最高奖金',
   drawInterval: '开奖时间',
+  AOZDrawInterval: '澳洲时间',
   drawFrequency: '开奖频率',
   drawFrequencyInfo: '每天%@期，%@秒一期',
   prizeList: '奖金总览',
