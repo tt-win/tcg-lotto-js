@@ -335,7 +335,7 @@ const PCBPlayRuleConfig = {
   BOSE_ONLY_TIE_PCB: [PlayMenu.BOSE_ONLY_TIE_PCB],
   BS_OE_ONLY_TIE_PCB: [PlayMenu.BS_OE_ONLY_TIE_PCB],
   BOSE_ALL_KILL_PCB: [PlayMenu.BOSE_ALL_KILL_PCB],
-  BO_SE_ALL_KILL_PCB: [PlayMenu.BO_SE_ALL_KILL_PCB],
+  BS_OE_ALL_KILL_PCB: [PlayMenu.BS_OE_ALL_KILL_PCB],
   Special_Extremum_BS_PCB: [PlayMenu.Special_Extremum_BS_PCB],
   Color_PCB: [PlayMenu.Color_PCB],
   Boazi_PCB: [PlayMenu.Boazi_PCB],
