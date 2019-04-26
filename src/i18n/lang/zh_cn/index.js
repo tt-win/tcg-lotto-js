@@ -943,6 +943,15 @@ const LANG = {
   First2_Straight_11X5_ENT: '前二直选 (娱乐)',
   First3_Straight_11X5_ENT: '前三直选 (娱乐)',
 
+  // FC3D ENT
+  Hundreds_Tens_Sum_LF: '百十和数',
+  Hundreds_Tens_Sum_Last_LF: '百十和数尾数',
+  Hundreds_Units_Sum_LF: '百个和数',
+  Hundreds_Units_Sum_Last_LF: '百个和数尾数',
+  Tens_Units_Sum_LF: '十个和数',
+  Tens_Units_Sum_Last_LF: '十个和数尾数',
+  Hundreds_Tens_Units_Sum_LF: '百十个和数',
+  Hundreds_Tens_Units_Sum_Tail_LF: '百十个和数尾数',
 
   // 全大小奇偶清
   pickRow: {
