@@ -118,6 +118,10 @@ const LANG = {
     Thousandth: '厘',
   },
   ball: {
+    PC: {
+      prime: '质',
+      composite: '合',
+    },
     BSOE: {
       big: '大',
       small: '小',
