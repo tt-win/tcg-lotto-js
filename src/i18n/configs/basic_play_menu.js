@@ -847,7 +847,7 @@ export const PlayMenu = {
   Baccarat_With_Pair_SSC_ENT: 2125,
   Baccarat_No_Pair_SSC_ENT: 2126,
 
-  // FC3D ENT
+  // LF3D ENT
   One_Word_Position_Main_LF: 2169, // 一字定位
   Hundreds_Fixed_Place_Main_LF: 2170, // 百定位
   Hundreds_Fixed_Place_LF: 2171, // 百定位

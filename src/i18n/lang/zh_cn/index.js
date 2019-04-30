@@ -1020,6 +1020,19 @@ const LANG = {
     // 幸運28
     special: '特码',
     sum: '和值',
+    // FC3D
+    hundredsFixedPlace: '百定位',
+    hundredsBS: '百大小',
+    hundredsOE: '百单双',
+    hundredsPC: '百质合',
+    tenFixedPlace: '十定位',
+    tenBS: '十大小',
+    tenOE: '十单双',
+    tenPC: '十质合',
+    unitsFixedPlace: '个定位',
+    unitsBS: '个大小',
+    unitsOE: '个单双',
+    unitsPC: '个质合',
   },
 
   entPicture: {
