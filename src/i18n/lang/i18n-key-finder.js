@@ -3,11 +3,13 @@ import _replace from 'lodash/replace';
 import ZH_CN from './zh_cn';
 import TH from './th';
 import VI from './vi';
+import KM from './KM';
 
 export const lang = {
   ZH_CN,
   TH,
   VI,
+  KM,
 };
 
 const defaultLang = 'ZH_CN';
