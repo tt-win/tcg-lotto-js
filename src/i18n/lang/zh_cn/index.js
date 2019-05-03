@@ -219,6 +219,7 @@ const LANG = {
     T2K11X5: '2000十一选五',
     T2KPK10: '2000PK10',
 
+    TXFFC: '腾讯分分彩',
     CASSC: '加拿大3.5分彩',
     KRSSC: '韩国1.5分彩',
     TWSSC: '台湾5分彩',
@@ -268,6 +269,9 @@ const LANG = {
       BJPK10: '北京赛车PK10',
       XYPK10: '幸运飞艇',
       HK6: '香港6合彩',
+      THAIGOV: '泰政府彩',
+      TCGTHGOV: 'TCG泰彩',
+      CQTX5FC: '重庆腾讯彩',
     },
   },
   orderStatus: {
@@ -422,6 +426,7 @@ const LANG = {
     line: '折线',
     horizontalLine: '辅助线',
     downloadHistory: '下载历史开奖号',
+    arithmetic: '正序',
     about: '使用说明',
     nearlyNumeros: '最近%@期',
     numberSpread: '号码分布',
@@ -636,7 +641,7 @@ const LANG = {
   actualBettingAmount_summary: '有效投注金额合计',
   winningAmount_summary: '中奖金额合计',
   planBettingAmount_daily: '注额',
-  unbalancedAmount_daily: '未结算金额',
+  unbalancedAmount_daily: '未结算计划金额',
   winningAmount_daily: '今日输赢',
   ensure: '确定',
   cancel: '取消',
@@ -718,6 +723,9 @@ const LANG = {
 请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetPlaceHolder_2Digit: `每注之间可以用回车丶逗号[,]或者分号[;]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
+  manualBetPlaceHolder_h5: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开复制或者输入支持格式如下：',
+  manualBetPlaceHolder_2Digit_h5: `每注之间可以用回车丶逗号[,]或者分号[;]
+隔开复制或者输入支持格式如下：`,
   manualBetFormatError: '您的投注内容不符合要求<br />里面还有字母或者中文！',
   multipleFormatError: '您输入的投注倍数格式不正确<br />只能输入大于或等于1的数字！',
   multipleMaxError: '您的最大投注倍数不能超过 %@ 倍',
@@ -759,6 +767,7 @@ const LANG = {
   betRowStakeOverLimit: '该玩法单列可投上限为%@注，请重新下注！谢谢',
   overBetAmountMax: '超过单笔投注最大金额',
   drawAnnouncement: '开奖公告',
+  onceAlertDialog:  '{欢迎归来}<br />此次游戏维护升级时间较长，天成致以最诚挚的歉意，为您奉上专属红包，已为您派发到您的彩票钱包，祝您体验愉快。',
   today: '今天',
   yesterday: '昨天',
   beforeYesterday: '前天',
