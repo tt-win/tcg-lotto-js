@@ -372,14 +372,14 @@ const K3PlayRuleConfig = {
   ],
 };
 
-const FC3DPlayRuleConfig = {
+const LF3DPlayRuleConfig = {
   Hundreds_Fixed_Place_LF: [
     PlayMenu.Hundreds_Fixed_Place_LF,
   ],
   Hundreds_BSOE_LF: [
     PlayMenu.Hundreds_BSOE_LF,
   ],
-  Hundreds_BSOE_LF: [
+  Hundreds_Prime_And_Composite_LF: [
     PlayMenu.Hundreds_Prime_And_Composite_LF,
   ],
   Tens_Fixed_Place_LF: [
@@ -481,6 +481,6 @@ export const playRuleConfig = {
   ...PK10PlayRuleConfig,
   ...PCBPlayRuleConfig,
   ...K3PlayRuleConfig,
-  ...FC3DPlayRuleConfig,
+  ...LF3DPlayRuleConfig,
 };
 export default playRuleConfig;
