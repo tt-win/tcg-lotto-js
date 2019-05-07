@@ -5,6 +5,7 @@ import { PlayMenu } from '../configs/basic_play_menu';
 import { i18n } from './i18n-key-finder';
 
 const BALL_BSOE_KEY = ['big', 'small', 'odd', 'even'];
+const BALL_PC_KEY = ['prime', 'composite'];
 const SSC_DIGIT_KEY = ['tenThousands2', 'thousands2', 'hundreds2', 'tens2', 'ones2'];
 const LHC_KEY = {
   // 總大小單雙
@@ -1222,6 +1223,10 @@ const OrderInfoTranslatorList = {
       PlayMenu.Third_BSOE_11X5_ENT,
       PlayMenu.Fourth_BSOE_11X5_ENT,
       PlayMenu.Fifth_BSOE_11X5_ENT,
+      // LF3D
+      PlayMenu.Hundreds_BSOE_LF,
+      PlayMenu.Tens_BSOE_LF,
+      PlayMenu.Units_BSOE_LF,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -1243,6 +1248,16 @@ const OrderInfoTranslatorList = {
       return (`${result}${result && val ? ' | ' : ''}${orderInfo(val)}`);
     }, ''),
 
+  },
+
+  PRIME_COMPOSITE: {
+    items: [
+      PlayMenu.Hundreds_Prime_And_Composite_LF,
+      PlayMenu.Tens_Prime_And_Composite_LF,
+      PlayMenu.Units_Prime_And_Composite_LF,
+    ],
+    getText: (content) =>
+      content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.PC.${BALL_PC_KEY[parseInt(val)]}`)}`), ''),
   },
 
   DRAGON_TIGER: {
