@@ -846,4 +846,64 @@ export const PlayMenu = {
   Baccarat_SSC_ENT: 2123,
   Baccarat_With_Pair_SSC_ENT: 2125,
   Baccarat_No_Pair_SSC_ENT: 2126,
+
+  // LF3D ENT
+  One_Word_Position_Main_LF: 2169, // 一字定位
+  Hundreds_Fixed_Place_Main_LF: 2170, // 百定位
+  Hundreds_Fixed_Place_LF: 2171, // 百定位
+  Hundreds_BSOE_LF: 2172, // 大小单双
+  Hundreds_Prime_And_Composite_LF: 2173, // 质合数
+  Tens_Fixed_Place_Main_LF: 2174, // 十定位
+  Tens_Fixed_Place_LF: 2175, // 十定位
+  Tens_BSOE_LF: 2176, // 大小单双
+  Tens_Prime_And_Composite_LF: 2177, // 质合数
+  Units_Fixed_Place_Main_LF: 2178, // 个定位
+  Units_Fixed_Place_LF: 2179, // 个定位
+  Units_BSOE_LF: 2180, // 大小单双
+  Units_Prime_And_Composite_LF: 2181, // 质合数
+  One_Word_Combine_Main_LF: 2182, // 一字組合
+  One_Word_Combine_L2_LF: 2183, // 一字組合
+  One_Word_Combine_LF: 2184, // 一字組合
+  Two_Word_Position_Main_LF: 2185, // 二字定位
+  Hundreds_Tens_Fixed_Place_Main_LF: 2186, // 百十定位
+  Hundreds_Tens_Fixed_Place_LF: 2187, // 百十定位
+  Hundreds_Units_Fixed_Place_Main_LF: 2188, // 百个定位
+  Hundreds_Units_Fixed_Place_LF: 2189, // 百个定位
+  Tens_Units_Fixed_Place_Main_LF: 2190, // 十个定位
+  Tens_Units_Fixed_Place_LF: 2191, // 十个定位
+  Two_Word_Combine_Main_LF: 2192, // 二字組合
+  Two_Word_Combine_Second_LF: 2193, // 二字組合
+  Two_Word_Combine_LF: 2194, // 二字組合
+  Two_Word_Sum_Main_LF: 2195, // 二字和数
+  Hundreds_Tens_Sum_Main_LF: 2196, // 百十和数
+  Hundreds_Tens_Sum_LF: 2197, // 百十和数
+  Hundreds_Tens_Sum_Last_LF: 2198, // 百十和数尾数
+  Hundreds_Units_Sum_Main_LF: 2199, // 百个和数
+  Hundreds_Units_Sum_LF: 2200, // 百个和数
+  Hundreds_Units_Sum_Last_LF: 2201, // 百个和数尾数
+  Tens_Tens_Sum_Main_LF: 2202, // 十个和数
+  Tens_Units_Sum_LF: 2203, // 十个和数
+  Tens_Units_Sum_Last_LF: 2204, // 十个和数尾数
+  Three_Word_Position_Main_LF: 2205, // 三字定位
+  Hundreds_Tens_Units_Fixed_Place_Main_LF: 2206, // 百十个定位
+  Hundreds_Tens_Units_Fixed_Place_LF: 2207, // 百十个定位
+  Three_Word_Com_MAIN_LF: 2208, // 三字组合
+  Three_Word_Com_Second_LF: 2209, // 三字组合
+  Three_Word_Com_LF: 2210, // 三字组合
+  Three_Word_Total_Sum_LF: 2211, // 三字和数
+  Hundreds_Tens_Units_Sum_MAIN_LF: 2212, // 百十个和数
+  Hundreds_Tens_Units_Sum_LF: 2213, // 百十个和数
+  Hundreds_Tens_Units_Sum_Tail_LF: 2214, // 百十个和数尾数
+  Hundreds_Tens_Units_Com3_MAIN_LF: 2215, // 组选三
+  Hundreds_Tens_Units_Com3_Second_LF: 2216, // 组选三
+  Hundreds_Tens_Units_Com3_LF: 2217, // 组选三
+  Hundreds_Tens_Units_Com6_MAIN_LF: 2218, // 组选六
+  Hundreds_Tens_Units_Com6_Second_LF: 2219, // 组选六
+  Hundreds_Tens_Units_Com6_LF: 2220, // 组选六
+  Span_LF: 2221, // 跨度
+  Span_MAIN_LF: 2222, // 跨度
+  Hundreds_Tens_Units_Span_LF: 2223, // 百十个跨度
+  Hundreds_Tens_Span_LF: 2224, // 百十跨度
+  Hundreds_Units_Span_LF: 2225, // 百个跨度
+  Tens_Units_Span_LF: 2226, // 十个跨度
 };
