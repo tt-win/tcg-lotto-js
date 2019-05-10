@@ -118,6 +118,10 @@ const LANG = {
     Thousandth: '厘',
   },
   ball: {
+    PC: {
+      prime: '质',
+      composite: '合',
+    },
     BSOE: {
       big: '大',
       small: '小',
@@ -952,6 +956,15 @@ const LANG = {
   First2_Straight_11X5_ENT: '前二直选 (娱乐)',
   First3_Straight_11X5_ENT: '前三直选 (娱乐)',
 
+  // FC3D ENT
+  Hundreds_Tens_Sum_LF: '百十和数',
+  Hundreds_Tens_Sum_Last_LF: '百十和数尾数',
+  Hundreds_Units_Sum_LF: '百个和数',
+  Hundreds_Units_Sum_Last_LF: '百个和数尾数',
+  Tens_Units_Sum_LF: '十个和数',
+  Tens_Units_Sum_Last_LF: '十个和数尾数',
+  Hundreds_Tens_Units_Sum_LF: '百十个和数',
+  Hundreds_Tens_Units_Sum_Tail_LF: '百十个和数尾数',
 
   // 全大小奇偶清
   pickRow: {
@@ -1016,6 +1029,19 @@ const LANG = {
     // 幸運28
     special: '特码',
     sum: '和值',
+    // FC3D
+    hundredsFixedPlace: '百定位',
+    hundredsBS: '百大小',
+    hundredsOE: '百单双',
+    hundredsPC: '百质合',
+    tenFixedPlace: '十定位',
+    tenBS: '十大小',
+    tenOE: '十单双',
+    tenPC: '十质合',
+    unitsFixedPlace: '个定位',
+    unitsBS: '个大小',
+    unitsOE: '个单双',
+    unitsPC: '个质合',
   },
 
   entPicture: {
@@ -1068,6 +1094,19 @@ const LANG = {
     fifthBallBS: '第五球大小',
     fifthBallOE: '第五球单双',
     bankerPlayerTie: '庄闲和',
+    // FC3D
+    hundredsFixedPlace: '百定位',
+    hundredsBS: '百大小',
+    hundredsOE: '百单双',
+    hundredsPC: '百质合',
+    tenFixedPlace: '十定位',
+    tenBS: '十大小',
+    tenOE: '十单双',
+    tenPC: '十质合',
+    unitsFixedPlace: '个定位',
+    unitsBS: '个大小',
+    unitsOE: '个单双',
+    unitsPC: '个质合',
 
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
@@ -1092,7 +1131,7 @@ const LANG = {
   drawInterval: '开奖时间',
   AOZDrawInterval: '澳洲时间',
   drawFrequency: '开奖频率',
-  drawFrequencyInfo: '每天%@期，%@秒一期',
+  drawFrequencyInfo: '每天%@期，%@一期',
   prizeList: '奖金总览',
   currency: '\u00A5',
   currencyThb: '$',
@@ -1137,8 +1176,6 @@ const LANG = {
     P_11X5_4_8: '4, 8',
     P_11X5_5_7: '5, 7',
     P_11X5_6: '6',
-
-    P_NOT_PAIR: '非对子',
     P_PAIR: '对子',
     P_ZU3: '组三',
     P_ZU6: '组六',
@@ -1155,6 +1192,8 @@ const LANG = {
     P_B_E: '大双',
     P_S_O: '小单',
     P_S_E: '小双',
+    PRIME: '质数',
+    COMPOSITE: '合数',
     P_TIE: '和',
     P_ANIMAL: '生肖',
     P_COLOR_RED: '红',
