@@ -5,6 +5,7 @@ import { PlayMenu } from '../configs/basic_play_menu';
 import { i18n } from './i18n-key-finder';
 
 const BALL_BSOE_KEY = ['big', 'small', 'odd', 'even'];
+const BALL_PC_KEY = ['prime', 'composite'];
 const SSC_DIGIT_KEY = ['tenThousands2', 'thousands2', 'hundreds2', 'tens2', 'ones2'];
 const LHC_KEY = {
   // 總大小單雙
@@ -1093,6 +1094,69 @@ const THAITranslator = {
   },
 };
 
+const LF3DTranslator = {
+  NUMBER_FIXED: {
+    items: [
+      PlayMenu.Hundreds_Fixed_Place_LF, // 百定位
+      PlayMenu.Hundreds_BSOE_LF, // 百定位大小单双
+      PlayMenu.Hundreds_Prime_And_Composite_LF, 
+      PlayMenu.Tens_Fixed_Place_LF,
+      PlayMenu.Tens_BSOE_LF,
+      PlayMenu.Tens_Prime_And_Composite_LF,
+      PlayMenu.Units_Fixed_Place_LF,
+      PlayMenu.Units_BSOE_LF,
+      PlayMenu.Units_Prime_And_Composite_LF,
+      PlayMenu.Hundreds_Tens_Fixed_Place_LF, // 二字定位的百十定位
+      PlayMenu.Hundreds_Units_Fixed_Place_LF,
+      PlayMenu.Tens_Units_Fixed_Place_LF,
+      PlayMenu.Hundreds_Tens_Units_Fixed_Place_LF, // 三字定位
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+  COMBINE: {
+    items: [
+      PlayMenu.Two_Word_Combine_LF, // 二字組合
+      PlayMenu.Three_Word_Com_LF, // 三字組合
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+  SUM: {
+    items: [
+      PlayMenu.Hundreds_Tens_Sum_LF, // 百十和数
+      PlayMenu.Hundreds_Tens_Sum_Last_LF, // 百十和数尾数
+      PlayMenu.Hundreds_Units_Sum_LF, // 百个和数
+      PlayMenu.Hundreds_Units_Sum_Last_LF, // 百个和数尾数
+      PlayMenu.Tens_Units_Sum_LF, // 十个和数
+      PlayMenu.Tens_Units_Sum_Last_LF, // 十个和数尾数
+      PlayMenu.Hundreds_Tens_Units_Sum_LF,
+      PlayMenu.Hundreds_Tens_Units_Sum_Tail_LF,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+  COM: {
+    items: [
+      PlayMenu.One_Word_Combine_LF, // 一字组合
+      PlayMenu.Hundreds_Tens_Units_Com3_LF, // 组选三
+      PlayMenu.Hundreds_Tens_Units_Com6_LF, // 组选六
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+  SPAN: {
+    items: [
+      PlayMenu.Hundreds_Tens_Units_Span_LF, // 百十个跨度
+      PlayMenu.Hundreds_Tens_Span_LF, // 百十跨度
+      PlayMenu.Hundreds_Units_Span_LF, // 百个跨度
+      PlayMenu.Tens_Units_Span_LF, // 十个跨度
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+}
+
 // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
 const OrderInfoTranslatorList = {
   BSOE: {
@@ -1159,6 +1223,10 @@ const OrderInfoTranslatorList = {
       PlayMenu.Third_BSOE_11X5_ENT,
       PlayMenu.Fourth_BSOE_11X5_ENT,
       PlayMenu.Fifth_BSOE_11X5_ENT,
+      // LF3D
+      PlayMenu.Hundreds_BSOE_LF,
+      PlayMenu.Tens_BSOE_LF,
+      PlayMenu.Units_BSOE_LF,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -1180,6 +1248,16 @@ const OrderInfoTranslatorList = {
       return (`${result}${result && val ? ' | ' : ''}${orderInfo(val)}`);
     }, ''),
 
+  },
+
+  PRIME_COMPOSITE: {
+    items: [
+      PlayMenu.Hundreds_Prime_And_Composite_LF,
+      PlayMenu.Tens_Prime_And_Composite_LF,
+      PlayMenu.Units_Prime_And_Composite_LF,
+    ],
+    getText: (content) =>
+      content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.PC.${BALL_PC_KEY[parseInt(val)]}`)}`), ''),
   },
 
   DRAGON_TIGER: {
@@ -1387,6 +1465,7 @@ const OrderInfoTranslatorList = {
   ...SSCHK5Translator,
   ...SSCBaccaratTranslator,
   ...THAITranslator,
+  ...LF3DTranslator,
 };
 
 const commaConfig = {
@@ -1439,6 +1518,11 @@ const commaConfig = {
 const OrderInfoTranslator = {
 
   getText: (playId, bettingContent) => {
+    // 參數 null 的防呆
+    if (!playId || !bettingContent) {
+      return '';
+    }
+
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
     const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
     if (translator) {

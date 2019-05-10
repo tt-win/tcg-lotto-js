@@ -118,6 +118,10 @@ const LANG = {
     Thousandth: '厘',
   },
   ball: {
+    PC: {
+      prime: '质',
+      composite: '合',
+    },
     BSOE: {
       big: '大',
       small: '小',
@@ -215,6 +219,7 @@ const LANG = {
     T2K11X5: '2000十一选五',
     T2KPK10: '2000PK10',
 
+    TXFFC: '腾讯分分彩',
     CASSC: '加拿大3.5分彩',
     KRSSC: '韩国1.5分彩',
     TWSSC: '台湾5分彩',
@@ -264,6 +269,9 @@ const LANG = {
       BJPK10: '北京赛车PK10',
       XYPK10: '幸运飞艇',
       HK6: '香港6合彩',
+      THAIGOV: '泰政府彩',
+      TCGTHGOV: 'TCG泰彩',
+      CQTX5FC: '重庆腾讯彩',
     },
   },
   orderStatus: {
@@ -418,6 +426,7 @@ const LANG = {
     line: '折线',
     horizontalLine: '辅助线',
     downloadHistory: '下载历史开奖号',
+    arithmetic: '正序',
     about: '使用说明',
     nearlyNumeros: '最近%@期',
     numberSpread: '号码分布',
@@ -632,7 +641,7 @@ const LANG = {
   actualBettingAmount_summary: '有效投注金额合计',
   winningAmount_summary: '中奖金额合计',
   planBettingAmount_daily: '注额',
-  unbalancedAmount_daily: '未结算金额',
+  unbalancedAmount_daily: '未结算计划金额',
   winningAmount_daily: '今日输赢',
   ensure: '确定',
   cancel: '取消',
@@ -714,6 +723,9 @@ const LANG = {
 请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetPlaceHolder_2Digit: `每注之间可以用回车丶逗号[,]或者分号[;]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
+  manualBetPlaceHolder_h5: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开复制或者输入支持格式如下：',
+  manualBetPlaceHolder_2Digit_h5: `每注之间可以用回车丶逗号[,]或者分号[;]
+隔开复制或者输入支持格式如下：`,
   manualBetFormatError: '您的投注内容不符合要求<br />里面还有字母或者中文！',
   multipleFormatError: '您输入的投注倍数格式不正确<br />只能输入大于或等于1的数字！',
   multipleMaxError: '您的最大投注倍数不能超过 %@ 倍',
@@ -755,6 +767,7 @@ const LANG = {
   betRowStakeOverLimit: '该玩法单列可投上限为%@注，请重新下注！谢谢',
   overBetAmountMax: '超过单笔投注最大金额',
   drawAnnouncement: '开奖公告',
+  onceAlertDialog:  '{欢迎归来}<br />此次游戏维护升级时间较长，天成致以最诚挚的歉意，为您奉上专属红包，已为您派发到您的彩票钱包，祝您体验愉快。',
   today: '今天',
   yesterday: '昨天',
   beforeYesterday: '前天',
@@ -943,6 +956,15 @@ const LANG = {
   First2_Straight_11X5_ENT: '前二直选 (娱乐)',
   First3_Straight_11X5_ENT: '前三直选 (娱乐)',
 
+  // FC3D ENT
+  Hundreds_Tens_Sum_LF: '百十和数',
+  Hundreds_Tens_Sum_Last_LF: '百十和数尾数',
+  Hundreds_Units_Sum_LF: '百个和数',
+  Hundreds_Units_Sum_Last_LF: '百个和数尾数',
+  Tens_Units_Sum_LF: '十个和数',
+  Tens_Units_Sum_Last_LF: '十个和数尾数',
+  Hundreds_Tens_Units_Sum_LF: '百十个和数',
+  Hundreds_Tens_Units_Sum_Tail_LF: '百十个和数尾数',
 
   // 全大小奇偶清
   pickRow: {
@@ -1007,6 +1029,19 @@ const LANG = {
     // 幸運28
     special: '特码',
     sum: '和值',
+    // FC3D
+    hundredsFixedPlace: '百定位',
+    hundredsBS: '百大小',
+    hundredsOE: '百单双',
+    hundredsPC: '百质合',
+    tenFixedPlace: '十定位',
+    tenBS: '十大小',
+    tenOE: '十单双',
+    tenPC: '十质合',
+    unitsFixedPlace: '个定位',
+    unitsBS: '个大小',
+    unitsOE: '个单双',
+    unitsPC: '个质合',
   },
 
   entPicture: {
@@ -1059,6 +1094,19 @@ const LANG = {
     fifthBallBS: '第五球大小',
     fifthBallOE: '第五球单双',
     bankerPlayerTie: '庄闲和',
+    // FC3D
+    hundredsFixedPlace: '百定位',
+    hundredsBS: '百大小',
+    hundredsOE: '百单双',
+    hundredsPC: '百质合',
+    tenFixedPlace: '十定位',
+    tenBS: '十大小',
+    tenOE: '十单双',
+    tenPC: '十质合',
+    unitsFixedPlace: '个定位',
+    unitsBS: '个大小',
+    unitsOE: '个单双',
+    unitsPC: '个质合',
 
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
@@ -1128,8 +1176,6 @@ const LANG = {
     P_11X5_4_8: '4, 8',
     P_11X5_5_7: '5, 7',
     P_11X5_6: '6',
-
-    P_NOT_PAIR: '非对子',
     P_PAIR: '对子',
     P_ZU3: '组三',
     P_ZU6: '组六',
@@ -1146,6 +1192,8 @@ const LANG = {
     P_B_E: '大双',
     P_S_O: '小单',
     P_S_E: '小双',
+    PRIME: '质数',
+    COMPOSITE: '合数',
     P_TIE: '和',
     P_ANIMAL: '生肖',
     P_COLOR_RED: '红',
