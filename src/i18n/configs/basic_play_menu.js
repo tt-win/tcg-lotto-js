@@ -725,6 +725,10 @@ export const PlayMenu = {
   Single_Same_2_K3_ENT: 1945,
   Sum_Baozi_Kill_K3_ENT: 2053, // 和值(豹子通杀)
   Sum_BS_OE_Baozi_Kill_K3_ENT: 2054, // 和值大小单双(豹子通杀)
+  Red_Black_Combine_K3_Ent: 2227,
+  Red_Black_Num_K3_Ent: 2228,
+  Red_Num_Com_K3_Ent: 2229,
+  Black_Num_Com_K3_Ent: 2230,
 
   // 11x5 ENT
   Two_Side_11X5_ENT: 1946,
