@@ -940,6 +940,9 @@ const LANG = {
   Single_Same: '独胆',
   Boazi: '豹子',
   Single_Same_2: '对子',
+  Red_Black_Num_K3_Ent: '红黑码',
+  Red_Num_Com_K3_Ent: '红码组合',
+  Black_Num_Com_K3_Ent: '黑码组合',
 
   // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
