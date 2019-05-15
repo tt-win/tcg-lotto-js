@@ -1131,7 +1131,7 @@ const LANG = {
   drawInterval: '开奖时间',
   AOZDrawInterval: '澳洲时间',
   drawFrequency: '开奖频率',
-  drawFrequencyInfo: '每天%@期，%@一期',
+  drawFrequencyInfo: '每天%@期，%@秒一期',
   prizeList: '奖金总览',
   currency: '\u00A5',
   currencyThb: '$',
