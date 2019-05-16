@@ -938,6 +938,21 @@ const PlayMenu = {
     single_same_2_4: '4,4',
     single_same_2_5: '5,5',
     single_same_2_6: '6,6',
+    red_num: '红码',
+    black_num: '黑码',
+    red_num_com_1: '1',
+    red_num_com_2: '2',
+    red_num_com_3: '3',
+    red_num_com_4: '4',
+    red_num_com_5: '5',
+    red_num_com_6: '6',
+    black_num_com_1: '1',
+    black_num_com_2: '2',
+    black_num_com_3: '3',
+    black_num_com_4: '4',
+    black_num_com_5: '5',
+    black_num_com_6: '6',
+
 
     // 11X5 ENT
     twoSideSumGroupBig: '和大',
