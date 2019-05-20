@@ -940,6 +940,9 @@ const LANG = {
   Single_Same: '独胆',
   Boazi: '豹子',
   Single_Same_2: '对子',
+  Dragon_Tiger_1_VS_2_K3_Ent: '第一球 vs 第二球',
+  Dragon_Tiger_1_VS_3_K3_Ent: '第一球 vs 第三球',
+  Dragon_Tiger_2_VS_3_K3_Ent: '第二球 vs 第三球',
 
   // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
