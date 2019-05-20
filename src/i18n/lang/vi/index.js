@@ -21,7 +21,7 @@ const LANG = {
   bettingAmount: 'số tiền đặt cược',
   winningNumber: 'mã mở giải',
   betNumber: 'mã đặt cược',
-  openHistory: 'lịch sử mở giải',
+  drawHistory: 'lịch sử mở giải',
   drawResult: 'kết quả mở giải',
   processing: 'đang tiến hành',
   betFail: 'đặt cược thất bại',
