@@ -370,6 +370,15 @@ const K3PlayRuleConfig = {
   Sum_Baozi_Kill_K3_ENT: [
     PlayMenu.Sum_Baozi_Kill_K3_ENT,
   ],
+  Red_Black_Num_K3_Ent: [
+    PlayMenu.Red_Black_Num_K3_Ent,
+  ],
+  Red_Num_Com_K3_Ent: [
+    PlayMenu.Red_Num_Com_K3_Ent,
+  ],
+  Black_Num_Com_K3_Ent: [
+    PlayMenu.Black_Num_Com_K3_Ent,
+  ],
 };
 
 const LF3DPlayRuleConfig = {
