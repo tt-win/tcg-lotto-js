@@ -21,7 +21,7 @@ const LANG = {
   bettingAmount: 'ยอดแทง',
   winningNumber: 'เลขผลรางวัล',
   betNumber: 'เลขที่แทง',
-  openHistory: 'ดูผลรางวัลย้อนหลัง',
+  drawHistory: 'ดูผลรางวัลย้อนหลัง',
   drawResult: 'ผลรางวัล',
   processing: 'กำลังโหลด',
   betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',

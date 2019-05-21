@@ -760,7 +760,7 @@ const LANG = {
   lastDraw: '上期开奖',
   numeroFormat: '第%@期',
   trendChart: '走势图',
-  openHistory: '开奖历史',
+  drawHistory: '开奖历史',
   autoTransferTip: '您的彩票余额不足，请问您是否选择从您的中心钱包余额中扣除 %@ ？',
   transferFailed: '转账失败',
   transferTimeout: '转账超时',
