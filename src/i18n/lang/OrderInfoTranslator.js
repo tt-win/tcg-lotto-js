@@ -816,6 +816,15 @@ const K3Translator = {
     getText: (content) => content.split('').reduce((result, val) =>
       (`${result}${result ? ' ' : ''}${val} | ${val}`), ''),
   },
+  Red_Black_Combine_K3_Ent: {
+    items: [
+      PlayMenu.Red_Black_Num_K3_Ent,
+      PlayMenu.Red_Num_Com_K3_Ent,
+      PlayMenu.Black_Num_Com_K3_Ent,
+    ],
+    getText: (content) => content.split('').reduce((result, val) =>
+      (`${result}${result ? ' ' : ''}${val} | ${val}`), ''),
+  },
 };
 
 const _11X5Translator = {
@@ -1512,9 +1521,6 @@ const commaConfig = {
     PlayMenu.First5_PK10,
     PlayMenu.First2BSOE,
     PlayMenu.Last2BSOE,
-    PlayMenu.Red_Black_Num_K3_Ent,
-    PlayMenu.Red_Num_Com_K3_Ent,
-    PlayMenu.Black_Num_Com_K3_Ent,
   ],
 };
 
