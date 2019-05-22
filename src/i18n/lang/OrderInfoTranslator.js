@@ -1515,7 +1515,7 @@ const commaConfig = {
     PlayMenu.Red_Black_Num_K3_Ent,
     PlayMenu.Red_Num_Com_K3_Ent,
     PlayMenu.Black_Num_Com_K3_Ent,
-  ]
+  ],
 };
 
 const OrderInfoTranslator = {
