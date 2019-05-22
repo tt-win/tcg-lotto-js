@@ -823,7 +823,7 @@ const K3Translator = {
       PlayMenu.Black_Num_Com_K3_Ent,
     ],
     getText: (content) => content.split('').reduce((result, val) =>
-      (`${result}${result ? ' ' : ''}${val} | ${val}`), ''),
+      (`${result}${result ? ' ' : ''}${val}${val}`), ''),
   },
 };
 
