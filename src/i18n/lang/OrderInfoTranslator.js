@@ -1212,9 +1212,6 @@ const OrderInfoTranslatorList = {
       PlayMenu.Sum_BS_OE_K3,
       PlayMenu.Sum_BS_OE_K3_ENT,
       PlayMenu.Sum_BS_OE_Baozi_Kill_K3_ENT,
-      PlayMenu.Red_Black_Num_K3_Ent,
-      PlayMenu.Red_Num_Com_K3_Ent,
-      PlayMenu.Black_Num_Com_K3_Ent,
       // 11X5
       PlayMenu.Two_Side_First_BSOE_11X5_ENT,
       PlayMenu.Two_Side_Second_BSOE_11X5_ENT,
@@ -1515,7 +1512,9 @@ const commaConfig = {
     PlayMenu.First5_PK10,
     PlayMenu.First2BSOE,
     PlayMenu.Last2BSOE,
-  ],
+    PlayMenu.Red_Black_Num_K3_Ent,
+    PlayMenu.Red_Num_Com_K3_Ent,
+    PlayMenu.Black_Num_Com_K3_Ent,
 };
 
 const OrderInfoTranslator = {
