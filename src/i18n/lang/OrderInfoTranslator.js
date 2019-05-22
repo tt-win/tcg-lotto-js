@@ -816,6 +816,24 @@ const K3Translator = {
     getText: (content) => content.split('').reduce((result, val) =>
       (`${result}${result ? ' ' : ''}${val} | ${val}`), ''),
   },
+  Red_Black_Num_K3_Ent: {
+    items: [
+      PlayMenu.Red_Black_Num_K3_Ent,
+    ],
+    getText: (content) => (i18n(`playKey.num_combine${content}`) || '').split(',')[0],
+  },
+  Red_Num_Com_K3_Ent: {
+    items: [
+      PlayMenu.Red_Num_Com_K3_Ent,
+    ],
+    getText: (content) => (content || '').split(',')[0],
+  },
+  Black_Num_Com_K3_Ent: {
+    items: [
+      PlayMenu.Black_Num_Com_K3_Ent,
+    ],
+    getText: (content) => (content || '').split(',')[0],
+  },
 };
 
 const _11X5Translator = {

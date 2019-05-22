@@ -683,7 +683,8 @@ const PlayMenu = {
     2123: '百家乐',
     2125: '百家乐',
     2126: '百家乐(无对子)',
-    //FC3D ent
+
+    // FC3D ent
     2169: '一字定位',
     2170: '百定位',
     2171: '百定位',
@@ -742,6 +743,12 @@ const PlayMenu = {
     2224: '百十跨度',
     2225: '百个跨度',
     2226: '十个跨度',
+
+    // K3紅黑組合
+    2227: '红黑组合',
+    2228: '红黑码',
+    2229: '红码组合',
+    2230: '黑码组合',
   },
   playKey: {
     ...lhcPlayKey,
@@ -931,6 +938,21 @@ const PlayMenu = {
     single_same_2_4: '4,4',
     single_same_2_5: '5,5',
     single_same_2_6: '6,6',
+    num_combine0: '红码',
+    num_combine1: '黑码',
+    red_num_com_1: '1',
+    red_num_com_2: '2',
+    red_num_com_3: '3',
+    red_num_com_4: '4',
+    red_num_com_5: '5',
+    red_num_com_6: '6',
+    black_num_com_1: '1',
+    black_num_com_2: '2',
+    black_num_com_3: '3',
+    black_num_com_4: '4',
+    black_num_com_5: '5',
+    black_num_com_6: '6',
+
 
     // 11X5 ENT
     twoSideSumGroupBig: '和大',

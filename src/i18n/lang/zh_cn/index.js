@@ -941,6 +941,9 @@ const LANG = {
   Single_Same: '独胆',
   Boazi: '豹子',
   Single_Same_2: '对子',
+  Red_Black_Num_K3_Ent: '红黑码',
+  Red_Num_Com_K3_Ent: '红码组合',
+  Black_Num_Com_K3_Ent: '黑码组合',
 
   // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
@@ -1132,7 +1135,7 @@ const LANG = {
   drawInterval: '开奖时间',
   AOZDrawInterval: '澳洲时间',
   drawFrequency: '开奖频率',
-  drawFrequencyInfo: '每天%@期，%@一期',
+  drawFrequencyInfo: '每天%@期，%@秒一期',
   prizeList: '奖金总览',
   currency: '\u00A5',
   currencyThb: '$',
