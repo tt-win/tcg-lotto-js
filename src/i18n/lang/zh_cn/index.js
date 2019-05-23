@@ -984,6 +984,7 @@ const LANG = {
     /* tab */
     combine: '整合',
     dragonTiger: '龙虎斗',
+    dragonTigerTie: '龙虎和',
     number: '单码',
     BSOE: '大小单双',
     NN: '牛牛',
