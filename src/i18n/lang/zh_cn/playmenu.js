@@ -683,8 +683,7 @@ const PlayMenu = {
     2123: '百家乐',
     2125: '百家乐',
     2126: '百家乐(无对子)',
-
-    // FC3D ent
+    // LF3D ent
     2169: '一字定位',
     2170: '百定位',
     2171: '百定位',
@@ -749,6 +748,11 @@ const PlayMenu = {
     2228: '红黑码',
     2229: '红码组合',
     2230: '黑码组合',
+    // K3 ENT
+    2231: '龙虎和',
+    2232: '第一球 vs 第二球',
+    2233: '第一球 vs 第三球',
+    2234: '第二球 vs 第三球',
   },
   playKey: {
     ...lhcPlayKey,
@@ -953,6 +957,16 @@ const PlayMenu = {
     black_num_com_5: '5',
     black_num_com_6: '6',
 
+
+    dragon_tiger_1v2_0: '龙',
+    dragon_tiger_1v2_1: '虎',
+    dragon_tiger_1v2_2: '和',
+    dragon_tiger_1v3_0: '龙',
+    dragon_tiger_1v3_1: '虎',
+    dragon_tiger_1v3_2: '和',
+    dragon_tiger_2v3_0: '龙',
+    dragon_tiger_2v3_1: '虎',
+    dragon_tiger_2v3_2: '和',
 
     // 11X5 ENT
     twoSideSumGroupBig: '和大',
