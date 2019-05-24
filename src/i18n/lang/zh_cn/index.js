@@ -704,6 +704,7 @@ const LANG = {
   },
   betStakes: '投注注数',
   orderStatusTitle: '订单状态',
+  playMenuType: '玩法模式',
   back: '返回',
   relativeChasingRecord: '追号相关记录',
   series: '系列',
