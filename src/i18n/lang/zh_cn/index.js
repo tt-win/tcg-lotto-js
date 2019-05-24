@@ -703,6 +703,7 @@ const LANG = {
     tip12_2: '只能输入正整数或小数!',
   },
   betStakes: '投注注数',
+  betOdds: '投注赔率',
   orderStatusTitle: '订单状态',
   playMenuType: '玩法模式',
   back: '返回',
