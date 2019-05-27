@@ -908,7 +908,7 @@ export const PlayMenu = {
   Tens_Units_Span_LF: 2226, // 十个跨度
   // K3 ENT 龙虎和
   Dragon_Tiger_K3_Ent: 2231,
-  Dragon_Tiger_1_VS_2_K3_Ent: 2232,
-  Dragon_Tiger_1_VS_3_K3_Ent: 2233,
-  Dragon_Tiger_2_VS_3_K3_Ent: 2234,  
+  Dragon_Tiger_1_VS_2_K3_Ent: 2233,
+  Dragon_Tiger_1_VS_3_K3_Ent: 2234,
+  Dragon_Tiger_2_VS_3_K3_Ent: 2235,  
 };

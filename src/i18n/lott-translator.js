@@ -34,7 +34,7 @@ export const getPlayMenuNameWithDigit = ({ playMenu, startDigit }) => {
     return `${i18n('playId.1841')}:${i18n(`playId.${playId}`)}${startDigitI18n}`;
   }
 
-  if (playId >= 2231 && playId <= 2234) {
+  if (playId >= 2231 && playId <= 2235) {
     return `${i18n('playId.2231')}:${i18n(`playId.${playId}`)}${startDigitI18n}`;
   }
   // 任二. 任三組選和值需要走這個規則. 把重複顯示的內容拔掉
