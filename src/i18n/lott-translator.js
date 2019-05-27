@@ -33,6 +33,10 @@ export const getPlayMenuNameWithDigit = ({ playMenu, startDigit }) => {
   if (playId >= 1843 && playId <= 1852) {
     return `${i18n('playId.1841')}:${i18n(`playId.${playId}`)}${startDigitI18n}`;
   }
+
+  if (playId >= 2231 && playId <= 2234) {
+    return `${i18n('playId.2231')}:${i18n(`playId.${playId}`)}${startDigitI18n}`;
+  }
   // 任二. 任三組選和值需要走這個規則. 把重複顯示的內容拔掉
   if ([PlayMenu.Any2Sum_SSC, PlayMenu.Any3Sum_SSC].indexOf(playId) >= 0) {
     return i18n(`playId.${playId}`);
