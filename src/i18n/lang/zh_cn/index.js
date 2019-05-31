@@ -747,6 +747,7 @@ const LANG = {
   subPlayMenuEmpty: '此彩种暂时关闭 请选择其他彩种',
   gameEmpty: '该彩种已关闭',
   drawing: '正在开奖',
+  countDown: '倒计时',
   drawResult: '开奖结果',
   cqsscWinNo: '重庆时时彩%@期',
   txffcLastStatistic: '腾讯5分钟前人数',
