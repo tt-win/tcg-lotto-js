@@ -654,6 +654,7 @@ const LANG = {
   lock: '锁定',
   numeroAbbreviation: '期号',
   thisNumero: '本期',
+  nextNumero: '下期',
   manualDigitsTip: '提示：至少选<span>%@</span>个位置,您已选了<span>%@</span>个位置，系统将自动生成<span>%@</span>个方案。',
   dayNamesMin: ['日', '一', '二', '三', '四', '五', '六'],
   monthNames: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
