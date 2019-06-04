@@ -16,6 +16,7 @@ export default {
     ...baseK3Props,
     ballRange: [3, 18],
     betDigits: [betDigits.SUM],
+    boardClassNames: 'Sum_K3',
     formula: 'oneBallOneNum',
     hasToolbar: false,
     delimiter: ',',

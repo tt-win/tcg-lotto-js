@@ -192,6 +192,19 @@ const _11X5_KEY = {
   Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
+const getDragonTigerK3 = (val) => {
+  switch (val) {
+    case '0':
+      return i18n('ball.dragonTigerTie.dragon');
+    case '1':
+      return i18n('ball.dragonTigerTie.tiger');
+    case '2':
+      return i18n('ball.dragonTigerTie.tie');
+    default:
+      return '';
+  }
+};
+
 // SSC 龍虎和
 const getDragonTigerTie = (val) => {
   switch (val) {
@@ -1303,6 +1316,15 @@ const OrderInfoTranslatorList = {
       PlayMenu.Two_Side_FifthPlace_Dragon_PK10,
     ],
     getText: (content) => i18n(`ball.dragonTiger.${content === '1' ? 'dragon' : 'tiger'}`),
+  },
+  DRAGON_TIGER_TIE_K3: {
+    items: [
+      // 娛樂城快三龍虎和
+      PlayMenu.Dragon_Tiger_1_VS_2_K3_Ent,
+      PlayMenu.Dragon_Tiger_1_VS_3_K3_Ent,
+      PlayMenu.Dragon_Tiger_2_VS_3_K3_Ent,
+    ],
+    getText: (content) => getDragonTigerK3(content),
   },
   DRAGON_TIGER_TIE_ENT: {
     items: [
