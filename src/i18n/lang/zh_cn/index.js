@@ -947,6 +947,9 @@ const LANG = {
   Red_Black_Num_K3_Ent: '红黑码',
   Red_Num_Com_K3_Ent: '红码组合',
   Black_Num_Com_K3_Ent: '黑码组合',
+  Dragon_Tiger_1_VS_2_K3_Ent: '第一球 vs 第二球',
+  Dragon_Tiger_1_VS_3_K3_Ent: '第一球 vs 第三球',
+  Dragon_Tiger_2_VS_3_K3_Ent: '第二球 vs 第三球',
 
   // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
@@ -988,6 +991,7 @@ const LANG = {
     /* tab */
     combine: '整合',
     dragonTiger: '龙虎斗',
+    dragonTigerTie: '龙虎和',
     number: '单码',
     BSOE: '大小单双',
     NN: '牛牛',

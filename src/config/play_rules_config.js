@@ -343,6 +343,15 @@ const PCBPlayRuleConfig = {
 };
 
 const K3PlayRuleConfig = {
+  Dragon_Tiger_1_VS_2_K3_Ent: [
+    PlayMenu.Dragon_Tiger_1_VS_2_K3_Ent,
+  ],
+  Dragon_Tiger_1_VS_3_K3_Ent: [
+    PlayMenu.Dragon_Tiger_1_VS_3_K3_Ent,
+  ],
+  Dragon_Tiger_2_VS_3_K3_Ent: [
+    PlayMenu.Dragon_Tiger_2_VS_3_K3_Ent,
+  ],
   Sum_K3: [
     PlayMenu.Sum_K3_ENT,
   ],

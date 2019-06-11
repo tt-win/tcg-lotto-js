@@ -1319,6 +1319,10 @@ const OrderInfoTranslatorList = {
       PlayMenu.Dragon_Tiger_Tie_2_1_ENT,
       // 娛樂城整合龍虎和
       PlayMenu.Combine_Dragon_Tiger_Tie_ENT,
+      // 娛樂城快三龍虎和
+      PlayMenu.Dragon_Tiger_1_VS_2_K3_Ent,
+      PlayMenu.Dragon_Tiger_1_VS_3_K3_Ent,
+      PlayMenu.Dragon_Tiger_2_VS_3_K3_Ent,
     ],
     getText: (content) => getDragonTigerTie(content),
   },
