@@ -323,6 +323,7 @@ const LANG = {
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '当前彩种暂时没有开始销售 请稍后再试',
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中奖即停不可使用',
+    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此号码已超出当前期购买额度，请与客服联系',
   },
   chasingStatus: {
     All: '全部',
