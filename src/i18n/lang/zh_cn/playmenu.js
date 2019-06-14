@@ -959,14 +959,14 @@ const PlayMenu = {
     black_num_com_6: '6',
 
 
-    dragon_tiger_1v2_0: '龙',
-    dragon_tiger_1v2_1: '虎',
+    dragon_tiger_1v2_0: '虎',
+    dragon_tiger_1v2_1: '龙',
     dragon_tiger_1v2_2: '和',
-    dragon_tiger_1v3_0: '龙',
-    dragon_tiger_1v3_1: '虎',
+    dragon_tiger_1v3_0: '虎',
+    dragon_tiger_1v3_1: '龙',
     dragon_tiger_1v3_2: '和',
-    dragon_tiger_2v3_0: '龙',
-    dragon_tiger_2v3_1: '虎',
+    dragon_tiger_2v3_0: '虎',
+    dragon_tiger_2v3_1: '龙',
     dragon_tiger_2v3_2: '和',
 
     // 11X5 ENT
