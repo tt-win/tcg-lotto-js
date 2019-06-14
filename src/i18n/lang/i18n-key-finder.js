@@ -4,12 +4,16 @@ import ZH_CN from './zh_cn';
 import TH from './th';
 import VI from './vi';
 import KM from './KM';
+import EN from './EN';
+import JA from './JA';
 
 export const lang = {
   ZH_CN,
   TH,
   VI,
   KM,
+  EN,
+  JA,
 };
 
 const defaultLang = 'ZH_CN';
