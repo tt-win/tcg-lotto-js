@@ -82,6 +82,8 @@ const LANG = {
     THAIGOV: 'Thailand Government Lottery',
     TCGTHGOV: 'TCG Thailand Lottery',
   },
+  drawInterval: 'Lottery time',
+  drawFrequency: 'Lottery frequency',
 };
 
 export default LANG;

@@ -82,6 +82,8 @@ const LANG = {
     THAIGOV: 'タイ政府宝くじ',
     TCGTHGOV: 'TCGタイ宝くじ',
   },
+  drawInterval: '宝くじ開時間',
+  drawFrequency: '宝くじ頻度',
 };
 
 export default LANG;
