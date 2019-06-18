@@ -486,6 +486,8 @@ const LANG = {
     ballOne: '第一球',
     ballTwo: '第二球',
     ballThree: '第三球',
+    ballFour: '第四球',
+    ballFive: '第五球',
     // mobile娛樂城
     SSC_first: '万',
     SSC_second: '千',
