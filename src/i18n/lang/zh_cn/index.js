@@ -356,6 +356,10 @@ const LANG = {
     small: '小',
     odd: '单',
     even: '双',
+    pair: '对子',
+    zu6: '杂六',
+    straight: '顺子',
+    halfStraight: '半顺',
   },
   zodiac: {
     1: '鼠',
@@ -528,9 +532,7 @@ const LANG = {
     first3: '前三',
     middle3: '中三',
     last3: '后三',
-    zu6: '杂六',
-    straight: '顺子',
-    halfStraight: '半顺',
+
   },
   quickBetLHC: {
     odd: '单码',
