@@ -129,6 +129,23 @@ export default {
     isShowHotGapTabs: false,
     ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
+    // Sum_Com_BS_OE_K3
+  2236: BallBoardConfigRecord({
+    ...baseBSOEProps,
+    boardClassNames: 'Sum_Com_BS_OE_K3',
+    ballI18n: {
+      0: 'ball.k3.Sum_Com_BS_OE_K3_1',
+      1: 'ball.k3.Sum_Com_BS_OE_K3_2',
+      2: 'ball.k3.Sum_Com_BS_OE_K3_3',
+      3: 'ball.k3.Sum_Com_BS_OE_K3_4',
+    },
+    betDigits: [betDigits.Sum_Com_BS_OE_K3],
+    formula: 'oneNum',
+    multi: false,
+    canShowHotGap: false,
+    isShowHotGapTabs: false,
+    // ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
+  }),
     // Sum_K3_ENT
   1934: BallBoardConfigRecord({
     ...baseK3Props,

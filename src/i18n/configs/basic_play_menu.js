@@ -713,6 +713,7 @@ export const PlayMenu = {
   Multi_Same_2_K3: 1927,
   Different_2_K3: 1929,
   Sum_BS_OE_K3: 1931,
+  Sum_Com_BS_OE_K3: 2236,
 
   // K3 ENT
   Combined_K3_ENT: 1932,

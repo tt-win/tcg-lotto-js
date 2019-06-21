@@ -173,6 +173,10 @@ const LANG = {
       Single_2_Same_ball_4: '44',
       Single_2_Same_ball_5: '55',
       Single_2_Same_ball_6: '66',
+      Sum_Com_BS_OE_K3_1: '大单',
+      Sum_Com_BS_OE_K3_2: '大双',
+      Sum_Com_BS_OE_K3_3: '小单',
+      Sum_Com_BS_OE_K3_4: '小双',
     },
     NN: {
       NNNoHave: '无',
