@@ -69,6 +69,8 @@ const LANG = {
     Multi_Same_2_K3: '二同号复选',
     Different_2_K3: '二不同号',
     Sum_BS_OE_K3: '和值大小单双',
+    Sum_Com_BS_OE_K3: '和值组合大小单双',
+
     filterRepeat: '过滤重复号',
     BAO_DAN: '包胆',
     SPAN: '跨度',
