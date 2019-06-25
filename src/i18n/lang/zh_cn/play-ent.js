@@ -313,6 +313,9 @@ const K3SpecialBSOE = createObj(1936, 'bsoe');
 // 大小單雙 豹子通殺
 const K3SpecialBSOEKillBaozi = createObj(2054, 'bsoe');
 
+// 大單大雙小單小雙
+const K3SumComBSOE = createObj(2238, 'bsoe');
+
 // 兩連
 const K3DifferentTwo = createObj(1938, 'k3DifferentTwo');
 // 獨膽
@@ -497,6 +500,7 @@ const EntPlayMenu = {
   ...K3SingleSameTwo,
   ...K3SpecialSumKillBaozi,
   ...K3SpecialBSOEKillBaozi,
+  ...K3SumComBSOE,
   // ====================== 11X5 =======================
   ..._11X5TwoSideTotalSumGroup,
   ..._11X5TwoSideFirstBSOE,

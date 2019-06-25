@@ -175,14 +175,17 @@ const LANG = {
       Single_2_Same_ball_4: '44',
       Single_2_Same_ball_5: '55',
       Single_2_Same_ball_6: '66',
-      Sum_Com_BS_OE_K3_1: '大单',
-      Sum_Com_BS_OE_K3_2: '大双',
-      Sum_Com_BS_OE_K3_3: '小单',
-      Sum_Com_BS_OE_K3_4: '小双',
     },
     NN: {
       NNNoHave: '无',
       NuNu: '牛',
+    },
+    // 和值组合大小单双
+    comBSOE: {
+      bigOdd: '大单',
+      bigEven: '大双',
+      smallOdd: '小单',
+      smallEven: '小双',
     },
     // 總和大小單雙
     sumBSOE: {
@@ -962,6 +965,7 @@ const LANG = {
 
   // K3 ENT
   BS_OE: '和值大小单双',
+  SUM_COM_BS_OE: '和值组合大小单双',
   BS_OE_Baozi_Kill: '和值-大小单双',
   Different_2: '两连',
   Single_Same: '独胆',

@@ -730,6 +730,7 @@ export const PlayMenu = {
   Red_Black_Num_K3_Ent: 2228,
   Red_Num_Com_K3_Ent: 2229,
   Black_Num_Com_K3_Ent: 2230,
+  SUM_COM_BS_OE_K3_ENT: 2238,
 
   // 11x5 ENT
   Two_Side_11X5_ENT: 1946,

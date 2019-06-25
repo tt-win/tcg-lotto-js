@@ -192,6 +192,16 @@ const _11X5_KEY = {
   Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
+const K3_KEY = {
+  COMBALL_BSOE: {
+    '0022': 'bigOdd',
+    '0033': 'bigEven',
+    1122: 'smallOdd',
+    1133: 'smallEven',
+
+  },
+};
+
 // SSC 龍虎和
 const getDragonTigerTie = (val) => {
   switch (val) {
@@ -801,6 +811,16 @@ const K3Translator = {
     getText: () => i18n('playKey.any_Boazi'),
   },
 
+  SUM_COM_BS_OE_K3_ENT: {
+    items: [
+      PlayMenu.SUM_COM_BS_OE_K3_ENT,
+    ],
+    getText: (content) => {
+      const num = content.split('').reduce((result, val) => (`${result}${val}`));
+      return i18n(`playKey.${K3_KEY.COMBALL_BSOE[num]}`);
+    },
+  },
+
   Different_2_K3_ENT: {
     items: [
       PlayMenu.Different_2_K3_ENT,
@@ -1117,7 +1137,7 @@ const LF3DTranslator = {
     items: [
       PlayMenu.Hundreds_Fixed_Place_LF, // 百定位
       PlayMenu.Hundreds_BSOE_LF, // 百定位大小单双
-      PlayMenu.Hundreds_Prime_And_Composite_LF, 
+      PlayMenu.Hundreds_Prime_And_Composite_LF,
       PlayMenu.Tens_Fixed_Place_LF,
       PlayMenu.Tens_BSOE_LF,
       PlayMenu.Tens_Prime_And_Composite_LF,
@@ -1173,7 +1193,7 @@ const LF3DTranslator = {
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result ? ' ' : ''}${val}`), ''),
   },
-}
+};
 
 // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
 const OrderInfoTranslatorList = {
