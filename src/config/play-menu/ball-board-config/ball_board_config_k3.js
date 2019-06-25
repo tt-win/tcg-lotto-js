@@ -132,18 +132,26 @@ export default {
     // Sum_Com_BS_OE_K3
   2236: BallBoardConfigRecord({
     ...baseBSOEProps,
-    boardClassNames: 'Sum_Com_BS_OE_K3',
+    fixedBalls: ['0_2', '0_3', '1_2', '1_3'],
+    boardClassNames: 'sum-com-bsoe',
     ballI18n: {
-      0: 'ball.comBSOE.bigOdd',
-      1: 'ball.comBSOE.bigEven',
-      2: 'ball.comBSOE.smallOdd',
-      3: 'ball.comBSOE.smallEven',
+      '0_2': 'ball.comBSOE.bigOdd',
+      '0_3': 'ball.comBSOE.bigEven',
+      '1_2': 'ball.comBSOE.smallOdd',
+      '1_3': 'ball.comBSOE.smallEven',
     },
     betDigits: [betDigits.Sum_Com_BS_OE_K3],
-    formula: 'oneNum',
-    multi: false,
+    multi: true, // 可否複選
+    formula: 'oneBallOneNum',   // 1球1注
+    delimiter: ',',
+    forceUseDelimiter: true,
     canShowHotGap: false,
     isShowHotGapTabs: false,
+    hasToolbar: true,
+    canHideToolBarBig: true,
+    canHideToolBarSmall: true,
+    canHideToolBarOdd: true,
+    canHideToolBarEven: true,
     // ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
     // Sum_K3_ENT

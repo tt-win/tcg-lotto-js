@@ -194,11 +194,10 @@ const _11X5_KEY = {
 
 const K3_KEY = {
   COMBALL_BSOE: {
-    '0022': 'bigOdd',
-    '0033': 'bigEven',
-    1122: 'smallOdd',
-    1133: 'smallEven',
-
+    '02': 'bigOdd',
+    '03': 'bigEven',
+    12: 'smallOdd',
+    13: 'smallEven',
   },
 };
 
@@ -811,16 +810,37 @@ const K3Translator = {
     getText: () => i18n('playKey.any_Boazi'),
   },
 
+ // K3 和值組合大小單雙 (娛樂城)
   SUM_COM_BS_OE_K3_ENT: {
     items: [
       PlayMenu.SUM_COM_BS_OE_K3_ENT,
     ],
     getText: (content) => {
-      const num = content.split('').reduce((result, val) => (`${result}${val}`));
-      return i18n(`playKey.${K3_KEY.COMBALL_BSOE[num]}`);
+      const val = content.replace(/[,]/g, '');
+      if (val.length === 2) {
+      // 大單
+        return i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[val]}`);
+      }
+    // 大单 | 大双 | 小单 | 小双
+      return val.sort().map((num) => i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[num]}`)).join(' | ');
     },
   },
 
+// K3 和值組合大小單雙 (官方)
+  Sum_Com_BS_OE_K3: {
+    items: [
+      PlayMenu.Sum_Com_BS_OE_K3,
+    ],
+    getText: (content) => {
+      const val = content.replace(/[,]/g, '');
+      if (val.length === 2) {
+        // 大單
+        return i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[val]}`);
+      }
+      // 大单 | 大双 | 小单 | 小双
+      return val.split('|').sort().map((num) => i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[num]}`)).join(' | ');
+    },
+  },
   Different_2_K3_ENT: {
     items: [
       PlayMenu.Different_2_K3_ENT,
