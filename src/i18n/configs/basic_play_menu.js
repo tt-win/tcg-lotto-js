@@ -713,6 +713,7 @@ export const PlayMenu = {
   Multi_Same_2_K3: 1927,
   Different_2_K3: 1929,
   Sum_BS_OE_K3: 1931,
+  Sum_Com_BS_OE_K3: 2236,
 
   // K3 ENT
   Combined_K3_ENT: 1932,
@@ -729,6 +730,7 @@ export const PlayMenu = {
   Red_Black_Num_K3_Ent: 2228,
   Red_Num_Com_K3_Ent: 2229,
   Black_Num_Com_K3_Ent: 2230,
+  SUM_COM_BS_OE_K3_ENT: 2238,
 
   // 11x5 ENT
   Two_Side_11X5_ENT: 1946,
@@ -915,5 +917,5 @@ export const PlayMenu = {
   Dragon_Tiger_K3_Ent: 2231,
   Dragon_Tiger_1_VS_2_K3_Ent: 2233,
   Dragon_Tiger_1_VS_3_K3_Ent: 2234,
-  Dragon_Tiger_2_VS_3_K3_Ent: 2235,  
+  Dragon_Tiger_2_VS_3_K3_Ent: 2235,
 };
