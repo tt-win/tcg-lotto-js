@@ -192,6 +192,15 @@ const _11X5_KEY = {
   Dragon_Tiger: ['specialTiger', 'specialDragon'],
 };
 
+const K3_KEY = {
+  COMBALL_BSOE: {
+    '02': 'bigOdd',
+    '03': 'bigEven',
+    12: 'smallOdd',
+    13: 'smallEven',
+  },
+};
+
 // SSC 龍虎和
 const getDragonTigerTie = (val) => {
   switch (val) {
@@ -801,6 +810,37 @@ const K3Translator = {
     getText: () => i18n('playKey.any_Boazi'),
   },
 
+ // K3 和值組合大小單雙 (娛樂城)
+  SUM_COM_BS_OE_K3_ENT: {
+    items: [
+      PlayMenu.SUM_COM_BS_OE_K3_ENT,
+    ],
+    getText: (content) => {
+      const val = content.replace(/[,]/g, '');
+      if (val.length === 2) {
+      // 大單
+        return i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[val]}`);
+      }
+    // 大单 | 大双 | 小单 | 小双
+      return val.sort().map((num) => i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[num]}`)).join(' | ');
+    },
+  },
+
+// K3 和值組合大小單雙 (官方)
+  Sum_Com_BS_OE_K3: {
+    items: [
+      PlayMenu.Sum_Com_BS_OE_K3,
+    ],
+    getText: (content) => {
+      const val = content.replace(/[,]/g, '');
+      if (val.length === 2) {
+        // 大單
+        return i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[val]}`);
+      }
+      // 大单 | 大双 | 小单 | 小双
+      return val.split('|').sort().map((num) => i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[num]}`)).join(' | ');
+    },
+  },
   Different_2_K3_ENT: {
     items: [
       PlayMenu.Different_2_K3_ENT,
@@ -1117,7 +1157,7 @@ const LF3DTranslator = {
     items: [
       PlayMenu.Hundreds_Fixed_Place_LF, // 百定位
       PlayMenu.Hundreds_BSOE_LF, // 百定位大小单双
-      PlayMenu.Hundreds_Prime_And_Composite_LF, 
+      PlayMenu.Hundreds_Prime_And_Composite_LF,
       PlayMenu.Tens_Fixed_Place_LF,
       PlayMenu.Tens_BSOE_LF,
       PlayMenu.Tens_Prime_And_Composite_LF,
@@ -1173,7 +1213,7 @@ const LF3DTranslator = {
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result ? ' ' : ''}${val}`), ''),
   },
-}
+};
 
 // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
 const OrderInfoTranslatorList = {

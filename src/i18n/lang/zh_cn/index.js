@@ -69,6 +69,8 @@ const LANG = {
     Multi_Same_2_K3: '二同号复选',
     Different_2_K3: '二不同号',
     Sum_BS_OE_K3: '和值大小单双',
+    Sum_Com_BS_OE_K3: '和值组合大小单双',
+
     filterRepeat: '过滤重复号',
     BAO_DAN: '包胆',
     SPAN: '跨度',
@@ -178,6 +180,13 @@ const LANG = {
       NNNoHave: '无',
       NuNu: '牛',
     },
+    // 和值组合大小单双
+    comBSOE: {
+      bigOdd: '大单',
+      bigEven: '大双',
+      smallOdd: '小单',
+      smallEven: '小双',
+    },
     // 總和大小單雙
     sumBSOE: {
       0: '总和大',
@@ -205,6 +214,7 @@ const LANG = {
     LHC: '六合彩',
     TC: '视频彩',
     PCB: 'PC蛋蛋',
+    KENO: '基诺',
     K3: '快三',
     BTS: '区块链',
     THAI: '泰彩',
@@ -356,6 +366,10 @@ const LANG = {
     small: '小',
     odd: '单',
     even: '双',
+    pair: '对子',
+    zu6: '杂六',
+    straight: '顺子',
+    halfStraight: '半顺',
   },
   zodiac: {
     1: '鼠',
@@ -486,6 +500,12 @@ const LANG = {
     ballOne: '第一球',
     ballTwo: '第二球',
     ballThree: '第三球',
+    // SSC h5
+    firstBall: '第1球',
+    secondBall: '第2球',
+    thirdBall: '第3球',
+    fourthBall: '第4球',
+    fifthBall: '第5球',
     // mobile娛樂城
     SSC_first: '万',
     SSC_second: '千',
@@ -516,8 +536,13 @@ const LANG = {
     drawNumber: '开奖号码',
     sumValue: '和值',
     singleSame2: '对子',
-    K3Com6: '组六',
-    K3Baozi: '豹子',
+    com6: '组六',
+    baozi: '豹子',
+    specialPlay: '特殊',
+    first3: '前三',
+    middle3: '中三',
+    last3: '后三',
+
   },
   quickBetLHC: {
     odd: '单码',
@@ -655,6 +680,7 @@ const LANG = {
   lock: '锁定',
   numeroAbbreviation: '期号',
   thisNumero: '本期',
+  nextNumero: '下期',
   manualDigitsTip: '提示：至少选<span>%@</span>个位置,您已选了<span>%@</span>个位置，系统将自动生成<span>%@</span>个方案。',
   dayNamesMin: ['日', '一', '二', '三', '四', '五', '六'],
   monthNames: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
@@ -747,6 +773,7 @@ const LANG = {
   subPlayMenuEmpty: '此彩种暂时关闭 请选择其他彩种',
   gameEmpty: '该彩种已关闭',
   drawing: '正在开奖',
+  countDown: '倒计时',
   drawResult: '开奖结果',
   cqsscWinNo: '重庆时时彩%@期',
   txffcLastStatistic: '腾讯5分钟前人数',
@@ -939,6 +966,7 @@ const LANG = {
 
   // K3 ENT
   BS_OE: '和值大小单双',
+  SUM_COM_BS_OE: '和值组合大小单双',
   BS_OE_Baozi_Kill: '和值-大小单双',
   Different_2: '两连',
   Single_Same: '独胆',
