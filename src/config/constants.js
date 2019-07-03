@@ -110,4 +110,10 @@ export const fixedGroupMerchantSetting = {
   fulicp: ['K3'],
 };
 
+export const videoType = [
+  'CAR',
+  'PLANE',
+  'DICE_CUP',
+];
+
 export default {};
