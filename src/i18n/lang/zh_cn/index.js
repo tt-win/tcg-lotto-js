@@ -972,6 +972,7 @@ const LANG = {
   BS_OE_Baozi_Kill: '和值-大小单双',
   Different_2: '两连',
   Single_Same: '独胆',
+  Any_Code_Not_Win: '不出胆',
   Boazi: '豹子',
   Single_Same_2: '对子',
   Red_Black_Num_K3_Ent: '红黑码',
