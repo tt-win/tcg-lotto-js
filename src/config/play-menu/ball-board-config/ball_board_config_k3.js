@@ -154,6 +154,26 @@ export default {
     canHideToolBarEven: true,
     // ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
+  // Any_Code_Win_K3
+  2240: BallBoardConfigRecord({
+    ...baseK3Props,
+    betDigits: [betDigits.Any_Code_Win_K3],
+    formula: 'oneBallOneNum',
+    delimiter: ',',
+    forceUseDelimiter: true,
+    ballShowWithDice: true,
+    boardClassNames: 'Different_3_K3',
+  }),
+  // Any_Code_Not_Win_K3
+  2241: BallBoardConfigRecord({
+    ...baseK3Props,
+    betDigits: [betDigits.Any_Code_Not_Win_K3],
+    formula: 'oneBallOneNum',
+    delimiter: ',',
+    forceUseDelimiter: true,
+    ballShowWithDice: true,
+    boardClassNames: 'Different_3_K3',
+  }),
     // Sum_K3_ENT
   1934: BallBoardConfigRecord({
     ...baseK3Props,
