@@ -714,6 +714,8 @@ export const PlayMenu = {
   Different_2_K3: 1929,
   Sum_BS_OE_K3: 1931,
   Sum_Com_BS_OE_K3: 2236,
+  Any_Code_Win_K3: 2240,
+  Any_Code_Not_Win_K3: 2241,
 
   // K3 ENT
   Combined_K3_ENT: 1932,
@@ -731,6 +733,7 @@ export const PlayMenu = {
   Red_Num_Com_K3_Ent: 2229,
   Black_Num_Com_K3_Ent: 2230,
   SUM_COM_BS_OE_K3_ENT: 2238,
+  Any_Code_Not_Win_K3_Ent: 2243,
 
   // 11x5 ENT
   Two_Side_11X5_ENT: 1946,

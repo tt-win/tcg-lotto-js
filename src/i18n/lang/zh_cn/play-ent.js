@@ -320,6 +320,8 @@ const K3SumComBSOE = createObj(2238, 'bsoe');
 const K3DifferentTwo = createObj(1938, 'k3DifferentTwo');
 // 獨膽
 const K3SingleSame = createObj(1940, 'k3SingleSame');
+// 不出胆
+const K3AnyCodeNotWin = createObj(2243, 'k3SingleSame');
 // 豹子
 const K3Boazi = createObj(1942, 'k3Boazi');
 // 任意豹子
@@ -495,6 +497,7 @@ const EntPlayMenu = {
   ...K3SpecialBSOE,
   ...K3DifferentTwo,
   ...K3SingleSame,
+  ...K3AnyCodeNotWin,
   ...K3Boazi,
   ...K3AnyBoazi,
   ...K3SingleSameTwo,

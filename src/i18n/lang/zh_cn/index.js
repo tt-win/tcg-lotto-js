@@ -70,6 +70,8 @@ const LANG = {
     Different_2_K3: '二不同号',
     Sum_BS_OE_K3: '和值大小单双',
     Sum_Com_BS_OE_K3: '和值组合大小单双',
+    Any_Code_Win_K3: '猜必出',
+    Any_Code_Not_Win_K3: '猜必不出',
 
     filterRepeat: '过滤重复号',
     BAO_DAN: '包胆',

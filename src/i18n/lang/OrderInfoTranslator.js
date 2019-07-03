@@ -841,6 +841,27 @@ const K3Translator = {
       return val.split('|').sort().map((num) => i18n(`ball.comBSOE.${K3_KEY.COMBALL_BSOE[num]}`)).join(' | ');
     },
   },
+  Any_Code_Win_K3: {
+    items: [
+      PlayMenu.Any_Code_Win_K3,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result ? ' | ' : ''}${val}`), ''),
+  },
+  Any_Code_Not_Win_K3: {
+    items: [
+      PlayMenu.Any_Code_Not_Win_K3,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result ? ' | ' : ''}${val}`), ''),
+  },
+  Any_Code_Not_Win_K3_Ent: {
+    items: [
+      PlayMenu.Any_Code_Not_Win_K3_Ent,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result ? ' | ' : ''}${val}`), ''),
+  },
   Different_2_K3_ENT: {
     items: [
       PlayMenu.Different_2_K3_ENT,
