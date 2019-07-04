@@ -93,6 +93,8 @@ export const betDigits = {
   Sum_Com_BS_OE_K3: 'Sum_Com_BS_OE_K3',
   BAO_DAN: 'BAO_DAN',
   SPAN: 'SPAN',
+  Any_Code_Win_K3: 'Any_Code_Win_K3',
+  Any_Code_Not_Win_K3: 'Any_Code_Not_Win_K3',
 
   BACCARAT: 'BACCARAT',
 };
