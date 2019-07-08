@@ -6,7 +6,6 @@ const baseK3Props = {
   ballRange: [1, 6],
   ballDigit: 1,
   canShowHotGap: false,
-  isShowHotGapTabs: false,
   ballConfigurationCategory: ballConfigurationCategory.EMPTY,
 };
 
@@ -126,7 +125,6 @@ export default {
     formula: 'oneNum',
     multi: false,
     canShowHotGap: false,
-    isShowHotGapTabs: false,
     ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
     // Sum_Com_BS_OE_K3
@@ -146,7 +144,6 @@ export default {
     delimiter: ',',
     forceUseDelimiter: true,
     canShowHotGap: false,
-    isShowHotGapTabs: false,
     hasToolbar: true,
     canHideToolBarBig: true,
     canHideToolBarSmall: true,
