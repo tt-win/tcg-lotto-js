@@ -103,4 +103,12 @@ export default class FilterHelper {
 
     return gameList;
   }
+
+  static excludeSoutheastAsiaFilter(games) {
+    if (!games || games.length === 0) {
+      return [];
+    }
+
+    return games.filter((game) => (game.gameMenus && game.gameMenus.length !== 0) && THAI_GROUP_ID_FILTER.indexOf(game.gameMenus[0].gameGroupId) < 0);
+  }
 }
