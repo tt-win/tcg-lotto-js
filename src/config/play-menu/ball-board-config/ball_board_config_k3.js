@@ -138,7 +138,7 @@ export default {
       '1_2': 'ball.comBSOE.smallOdd',
       '1_3': 'ball.comBSOE.smallEven',
     },
-    betDigits: [betDigits.Sum_Com_BS_OE_K3],
+    betDigits: [betDigits.EMPTY],
     multi: true, // 可否複選
     formula: 'oneBallOneNum',   // 1球1注
     delimiter: ',',
