@@ -19,6 +19,8 @@ export const lang = {
 const defaultLang = 'ZH_CN';
 
 const getLang = () => {
+  if (!window || typeof window === 'undefined') return lang[defaultLang];
+
   let langKey = window.localStorage.lang;
 
   if (!langKey) {
