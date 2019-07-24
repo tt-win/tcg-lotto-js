@@ -228,4 +228,9 @@ export default {
   3、开奖号码的后四位（即千百十位）数字对应阿里云官网当前每分钟防御的攻击次数的后四位数字 ； （如：阿里云防御次数为8576851761，即后四位开奖号码为1761，结合第二点，完整开奖号即为4,1,7,6,1）<br />\n 
   4、365数据统计网：<a href="http://365shuju.com/" style="color: blue" target="_blank">http://365shuju.com/</a><br />
 `,
+  HN4D: `
+  海南4星彩每周二、五、日开奖，与全国联网电脑体育彩票7星彩(简称“7星彩”)共用开奖号码。7星彩当期开奖过程中，按顺序摇出的前4位数字作为海南四星彩开奖号码的正选号码，由左到右分别为千、百、十、个位 <br />\n 
+  「直播网址」：<a href="https://info.sporttery.cn/interface/ipserver.php?domain=media&p=1935&url=/live2/&file=stream" style="color: blue" target="_blank">https://info.sporttery.cn/interface/ipserver.php?domain=media&p=1935&url=/live2/&file=stream</a><br />\n
+  「官方网址」：<a href="http://tc.hainan.net/ticai/cz/xc/index.shtml" style="color: blue" target="_blank">http://tc.hainan.net/ticai/cz/xc/index.shtml</a><br />
+`,
 };
