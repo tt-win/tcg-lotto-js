@@ -1173,8 +1173,8 @@ const THAITranslator = {
   },
 };
 
-const LF3DTranslator = {
-  NUMBER_FIXED: {
+const LFTranslator = {
+  NUMBER_LF: {
     items: [
       PlayMenu.Hundreds_Fixed_Place_LF, // 百定位
       PlayMenu.Hundreds_BSOE_LF, // 百定位大小单双
@@ -1189,20 +1189,10 @@ const LF3DTranslator = {
       PlayMenu.Hundreds_Units_Fixed_Place_LF,
       PlayMenu.Tens_Units_Fixed_Place_LF,
       PlayMenu.Hundreds_Tens_Units_Fixed_Place_LF, // 三字定位
-    ],
-    getText: (content) => content.split(',').reduce((result, val) =>
-      (`${result}${result ? ' ' : ''}${val}`), ''),
-  },
-  COMBINE: {
-    items: [
+
       PlayMenu.Two_Word_Combine_LF, // 二字組合
       PlayMenu.Three_Word_Com_LF, // 三字組合
-    ],
-    getText: (content) => content.split(',').reduce((result, val) =>
-      (`${result}${result ? ' ' : ''}${val}`), ''),
-  },
-  SUM: {
-    items: [
+
       PlayMenu.Hundreds_Tens_Sum_LF, // 百十和数
       PlayMenu.Hundreds_Tens_Sum_Last_LF, // 百十和数尾数
       PlayMenu.Hundreds_Units_Sum_LF, // 百个和数
@@ -1211,28 +1201,40 @@ const LF3DTranslator = {
       PlayMenu.Tens_Units_Sum_Last_LF, // 十个和数尾数
       PlayMenu.Hundreds_Tens_Units_Sum_LF,
       PlayMenu.Hundreds_Tens_Units_Sum_Tail_LF,
-    ],
-    getText: (content) => content.split(',').reduce((result, val) =>
-      (`${result}${result ? ' ' : ''}${val}`), ''),
-  },
-  COM: {
-    items: [
+
       PlayMenu.One_Word_Combine_LF, // 一字组合
       PlayMenu.Hundreds_Tens_Units_Com3_LF, // 组选三
       PlayMenu.Hundreds_Tens_Units_Com6_LF, // 组选六
-    ],
-    getText: (content) => content.split(',').reduce((result, val) =>
-      (`${result}${result ? ' ' : ''}${val}`), ''),
-  },
-  SPAN: {
-    items: [
+
       PlayMenu.Hundreds_Tens_Units_Span_LF, // 百十个跨度
       PlayMenu.Hundreds_Tens_Span_LF, // 百十跨度
       PlayMenu.Hundreds_Units_Span_LF, // 百个跨度
       PlayMenu.Tens_Units_Span_LF, // 十个跨度
+
+      PlayMenu.Choose1_Fixed_Place_4D,
+      PlayMenu.Choose2_Any_Code_4D,
+      PlayMenu.Choose3_Any_Code_4D,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result ? ' ' : ''}${val}`), ''),
+  },
+  ANY_NUMBER_LF: {
+    items: [
+      PlayMenu.Any2_Straight_4D,
+      PlayMenu.Any3_Straight_4D,
+      PlayMenu.Any4_Straight_4D,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+        (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
+  SINGLE_LF: {
+    items: [
+      PlayMenu.Any2_Straight_Single_4D,
+      PlayMenu.Any3_Straight_Single_4D,
+      PlayMenu.Any4_Straight_Single_4D,
+    ],
+    getText: (content) => content.split('|').reduce((result, val) =>
+        (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
 };
 
@@ -1548,7 +1550,7 @@ const OrderInfoTranslatorList = {
   ...SSCHK5Translator,
   ...SSCBaccaratTranslator,
   ...THAITranslator,
-  ...LF3DTranslator,
+  ...LFTranslator,
 };
 
 const commaConfig = {
@@ -1595,6 +1597,9 @@ const commaConfig = {
     PlayMenu.First5_PK10,
     PlayMenu.First2BSOE,
     PlayMenu.Last2BSOE,
+    PlayMenu.Any2_Straight_4D,
+    PlayMenu.Any3_Straight_4D,
+    PlayMenu.Any4_Straight_4D,
   ],
 };
 

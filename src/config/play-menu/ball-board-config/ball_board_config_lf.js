@@ -271,5 +271,42 @@ export default {
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneBallOneNum',
   }),
-
+  // Choose1_Fixed_Place_4D
+  2246: BallBoardConfigRecord({
+    ...baseLFProps,
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'oneBallOneNum',
+  }),
+  // Any2_Straight_4D
+  2249: BallBoardConfigRecord({
+    ...baseLFProps,
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'any2OfSSC',
+  }),
+  // Any3_Straight_4D
+  2253: BallBoardConfigRecord({
+    ...baseLFProps,
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'any3OfSSC',
+  }),
+  // Any4_Straight_4D
+  2257: BallBoardConfigRecord({
+    ...baseLFProps,
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'any4OfSSC',
+  }),
+  // Choose2_Any_Code_4D
+  2261: BallBoardConfigRecord({
+    ...baseLFProps,
+    betDigits: [betDigits.Two_Num_Any_Code_4D],
+    formula: 'combine6',
+    multi: true,
+  }),
+  // Choose3_Any_Code_4D
+  2264: BallBoardConfigRecord({
+    ...baseLFProps,
+    betDigits: [betDigits.Three_Num_Any_Code_4D],
+    formula: 'combineSix',
+    multi: true,
+  }),
 };

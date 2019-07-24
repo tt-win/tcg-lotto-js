@@ -97,6 +97,10 @@ export const betDigits = {
   Any_Code_Not_Win_K3: 'Any_Code_Not_Win_K3',
 
   BACCARAT: 'BACCARAT',
+
+  // 四星彩
+  Two_Num_Any_Code_4D: 'Two_Num_Any_Code_4D',
+  Three_Num_Any_Code_4D: 'Three_Num_Any_Code_4D',
 };
 
 export default {};
