@@ -357,6 +357,24 @@ const groupBetConfigLF = {
   P3Last2Com_LF: BetConfigRecord({
     minBalls: [2],
   }),
+  Choose1_Fixed_Place_4D: BetConfigRecord({
+    minRows: 1,
+  }),
+  Any2_Straight_4D: BetConfigRecord({
+    minRows: 2,
+  }),
+  Any3_Straight_4D: BetConfigRecord({
+    minRows: 3,
+  }),
+  Any4_Straight_4D: BetConfigRecord({
+    minRows: 4,
+  }),
+  Choose2_Any_Code_4D: BetConfigRecord({
+    minBalls: [2],
+  }),
+  Choose3_Any_Code_4D: BetConfigRecord({
+    minBalls: [3],
+  }),
 };
 
 const groupBetConfigPK10 = {
@@ -425,6 +443,9 @@ const betConfigSingle = {
   Any8_11X5_Single: groupBetConfig11X5.Any8_11X5,
   First3Com_11X5_Single: groupBetConfig11X5.First3Com_11X5,
   First2Com_11X5_Single: groupBetConfig11X5.First2Com_11X5,
+  Any2_Straight_Single_4D: groupBetConfigLF.Any2_Straight_4D,
+  Any3_Straight_Single_4D: groupBetConfigLF.Any3_Straight_4D,
+  Any4_Straight_Single_4D: groupBetConfigLF.Any4_Straight_4D,
 };
 
 export default {
