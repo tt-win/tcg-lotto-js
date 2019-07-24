@@ -61,6 +61,7 @@ export const getPlayName = ({ playId, playCode, bettingContent }) => {
       case PlayMenu.FixedPlace_LF_FC3D:
       case PlayMenu.FixedPlace_LF_P3P5:
       case PlayMenu.FixedPlace_11X5:
+      case PlayMenu.Choose1_Fixed_Place_4D:
         parameter.startDigit = _findIndex(_reverse(contents), (v) => !isNaN(v));
         break;
 

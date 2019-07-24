@@ -337,7 +337,15 @@ export const PlayMenu = {
   L4Com4: 1614,
 
   //LF 4D
-  Choose1_Fixed_Place_4D:2246,
+  Choose1_Fixed_Place_4D: 2246,
+  Any2_Straight_4D: 2249,
+  Any2_Straight_Single_4D: 2250,
+  Any3_Straight_4D: 2253,
+  Any3_Straight_Single_4D: 2254,
+  Any4_Straight_4D: 2257,
+  Any4_Straight_Single_4D: 2258,
+  Choose2_Any_Code_4D: 2261,
+  Choose3_Any_Code_4D: 2264,
 
   // 2017 0531 added by G 龍虎和
   Dragon_Tiger_10T_T_SSC: 1738,
