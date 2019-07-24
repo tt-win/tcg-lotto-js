@@ -1221,13 +1221,19 @@ const LFTranslator = {
   ANY_NUMBER_LF: {
     items: [
       PlayMenu.Any2_Straight_4D,
-      PlayMenu.Any2_Straight_Single_4D,
       PlayMenu.Any3_Straight_4D,
-      PlayMenu.Any3_Straight_Single_4D,
       PlayMenu.Any4_Straight_4D,
-      PlayMenu.Any4_Straight_Single_4D,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
+        (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
+  SINGLE_LF: {
+    items: [
+      PlayMenu.Any2_Straight_Single_4D,
+      PlayMenu.Any3_Straight_Single_4D,
+      PlayMenu.Any4_Straight_Single_4D,
+    ],
+    getText: (content) => content.split('|').reduce((result, val) =>
         (`${result}${result && val ? ' | ' : ''}${val}`), ''),
   },
 };
@@ -1592,11 +1598,8 @@ const commaConfig = {
     PlayMenu.First2BSOE,
     PlayMenu.Last2BSOE,
     PlayMenu.Any2_Straight_4D,
-    PlayMenu.Any2_Straight_Single_4D,
     PlayMenu.Any3_Straight_4D,
-    PlayMenu.Any3_Straight_Single_4D,
     PlayMenu.Any4_Straight_4D,
-    PlayMenu.Any4_Straight_Single_4D,
   ],
 };
 
