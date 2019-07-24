@@ -76,6 +76,7 @@ export const orderDigitsI18n = {
   Last5Fixed_PK10: { ...groupPK10DigitsI18n },
   First5BSOE_PK10: { ...groupPK10DigitsI18n },
   Last5BSOE_PK10: { ...groupPK10DigitsI18n },
+  Choose1_Fixed_Place_4D: { ...groupSSCDigitsI18n },
 };
 
 export default {};
@@ -334,6 +335,9 @@ export const PlayMenu = {
   L4Com12: 1612,
   L4Com6: 1613,
   L4Com4: 1614,
+
+  //LF 4D
+  Choose1_Fixed_Place_4D:2246,
 
   // 2017 0531 added by G 龍虎和
   Dragon_Tiger_10T_T_SSC: 1738,

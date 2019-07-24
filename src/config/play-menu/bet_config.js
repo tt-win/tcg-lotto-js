@@ -358,7 +358,7 @@ const groupBetConfigLF = {
     minBalls: [2],
   }),
   Choose1_Fixed_Place_4D: BetConfigRecord({
-    minRows: 1,
+    isBetSlipByRow: true,
   }),
   Any2_Straight_4D: BetConfigRecord({
     minRows: 2,
