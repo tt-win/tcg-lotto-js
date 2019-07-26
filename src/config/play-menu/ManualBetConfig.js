@@ -56,6 +56,13 @@ const manualDigitsProps = {
   manualDigitsI18n: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
 };
 
+const manualDigitsProps4D = {
+  ...baseSSCProps,
+  canShowManualDigits: true,
+  manualDigits: [1, 2, 3, 4],
+  manualDigitsI18n: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+}
+
 // 2星直選
 const twoStraightSSCProps = ManualBetConfigRecord({
   ...baseSSCProps,
@@ -313,6 +320,31 @@ const ManualBetConfigLF = {
   116: twoStraightSSCProps,
   //  P5Last2Straight_LF_Single
   166: twoStraightSSCProps,
+
+  // Any2_Straight_Single_4D
+  2250: ManualBetConfigRecord({
+    ...manualDigitsProps4D,
+    defaultManualDigits: [3, 4],
+    minChooseManualDigits: 2,
+    ballCount: 2,
+    anyBallCount: 4,
+  }),
+  // Any2_Straight_Single_4D
+  2254: ManualBetConfigRecord({
+    ...manualDigitsProps4D,
+    defaultManualDigits: [2, 3, 4],
+    minChooseManualDigits: 3,
+    ballCount: 3,
+    anyBallCount: 4,
+  }),
+  // Any2_Straight_Single_4D
+  2258: ManualBetConfigRecord({
+    ...manualDigitsProps4D,
+    defaultManualDigits: [1, 2, 3, 4],
+    minChooseManualDigits: 4,
+    ballCount: 4,
+    anyBallCount: 4,
+  }),
 };
 
 const ManualBetConfigPK10 = {

@@ -147,6 +147,13 @@ const groupLFConfig = {
     ballShowPosition: ballShowPosition.FIRST_THREE,
     ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
   }),
+
+  //Any2_Straight_Single_4D
+  2250: ballBoardConfigLF[2249],
+  //Any3_Straight_Single_4D
+  2254: ballBoardConfigLF[2253],
+  //Any4_Straight_Single_4D
+  2258: ballBoardConfigLF[2257],
 };
 
 const groupPK10Config = {
