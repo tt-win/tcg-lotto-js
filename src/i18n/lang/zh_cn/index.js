@@ -1336,6 +1336,10 @@ const LANG = {
     P_PLAYER: '闲',
     P_BANKER_PAIR: '庄对',
     P_PLAYER_PAIR: '闲对',
+    '4D_Fixed_Place_Unit': '个',
+    '4D_Fixed_Place_Ten': '十',
+    '4D_Fixed_Place_Hundred': '百',
+    '4D_Fixed_Place_Thousand': '千',
   },
   ...BaseGame,
 };

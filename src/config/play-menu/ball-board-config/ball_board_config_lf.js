@@ -276,28 +276,24 @@ export default {
     ...baseLFProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'oneBallOneNum',
-    canShowHotGap: false,
   }),
   // Any2_Straight_4D
   2249: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'any2OfSSC',
-    canShowHotGap: false,
   }),
   // Any3_Straight_4D
   2253: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'any3OfSSC',
-    canShowHotGap: false,
   }),
   // Any4_Straight_4D
   2257: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'any4OfSSC',
-    canShowHotGap: false,
   }),
   // Choose2_Any_Code_4D
   2261: BallBoardConfigRecord({
