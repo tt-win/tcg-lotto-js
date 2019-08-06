@@ -175,4 +175,23 @@ export default {
   1934: BallBoardConfigRecord({
     ...baseK3Props,
   }),
+  // Span
+  2266: BallBoardConfigRecord({
+    ...baseK3Props,
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneBallOneNum',
+    ballRange: [0, 5],
+    delimiter: ',',
+    forceUseDelimiter: true,
+    displayBallBonus: true,
+    boardClassNames: 'Span_K3',
+    prizeTypeMapping: {
+      '0': 'K3_Span_0',
+      '1': 'K3_Span_1',
+      '2': 'K3_Span_2',
+      '3': 'K3_Span_3',
+      '4': 'K3_Span_4',
+      '5': 'K3_Span_5',
+    },
+  }),
 };

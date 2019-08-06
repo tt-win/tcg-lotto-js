@@ -895,6 +895,15 @@ const K3Translator = {
     ],
     getText: (content) => (content || '').split(',')[0],
   },
+  // 跨度
+  SPAN_K3: {
+    items: [
+      PlayMenu.Span_All_K3,
+      PlayMenu.Span_All_K3_Ent,
+    ],
+    getText: (content) => content.split('-').reduce((result, val) =>
+    (`${result}${result ? ' | ' : ''}${val}`), ''),
+  },
 };
 
 const _11X5Translator = {
