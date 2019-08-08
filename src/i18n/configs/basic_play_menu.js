@@ -935,5 +935,6 @@ export const PlayMenu = {
   Dragon_Tiger_2_VS_3_K3_Ent: 2235,
   // K3 Span
   Span_All_K3: 2266,
+  Span_K3_Ent: 2267,
   Span_All_K3_Ent: 2268,
 };

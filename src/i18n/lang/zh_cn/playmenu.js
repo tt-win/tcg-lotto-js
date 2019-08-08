@@ -793,7 +793,8 @@ const PlayMenu = {
     // K3 Span
     2265: '跨度',
     2266: '跨度',
-    2267: '跨度',  
+    2267: '跨度',
+    2268: '跨度',
   },
   playKey: {
     ...lhcPlayKey,
@@ -1014,6 +1015,14 @@ const PlayMenu = {
     dragon_tiger_2v3_0: '虎',
     dragon_tiger_2v3_1: '龙',
     dragon_tiger_2v3_2: '和',
+
+    // K3 Span
+    span_0: '0',
+    span_1: '1',
+    span_2: '2',
+    span_3: '3',
+    span_4: '4',
+    span_5: '5',
 
     // 11X5 ENT
     twoSideSumGroupBig: '和大',
