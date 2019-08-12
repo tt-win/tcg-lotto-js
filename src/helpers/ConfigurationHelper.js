@@ -13,7 +13,7 @@ function getBallFunction(startBall, endBall) {
 function getConfigurationNumber(ballGroup) {
   const uniqNumArray = _.uniq(ballGroup); // array中不一樣元素
   let configurationNumber = 1;
-  let numberObject = {};
+  const numberObject = {};
 
   // 先判斷球號是否為空
   if (isNaN(_.sum(ballGroup)) || ballGroup.length === 1) {
@@ -28,7 +28,6 @@ function getConfigurationNumber(ballGroup) {
       numberObject[ball] = 1;
     }
   });
-  // console.log('numberObject', numberObject);
 
   // 計算組態數
   for (let a = ballGroup.length; a > 1; a -= 1) {
@@ -41,7 +40,7 @@ function getConfigurationNumber(ballGroup) {
   });
   // console.log('configurationNumber', configurationNumber);
 
-  switch(configurationNumber) {
+  switch (configurationNumber) {
     case 1:
       return showBZHName.BZ;
     case 2:
@@ -66,21 +65,18 @@ function getConfigurationNumber(ballGroup) {
       return showBZHName.Z60;
     case 120:
       return showBZHName.Z120;
+    default:
+      return '';
   }
 }
 
 function getBallSum(ballGroup) {
-  let ballSum = 0;
-  ballGroup.forEach((ball) => {
-    ballSum += ball;
-  })
-  return ballSum;
+  return ballGroup.reduce((sum, curr) => sum + curr, 0);
 }
 
 function getBallSpan(ballGroup) {
   const ballGroupSort = ballGroup.sort((a, b) => a - b);
-  const spanNumber = ballGroupSort[ballGroupSort.length - 1] - ballGroupSort[0];
-  return spanNumber;
+  return ballGroupSort[ballGroupSort.length - 1] - ballGroupSort[0];
 }
 
 function getSSCBSOE(ballGroup) {
