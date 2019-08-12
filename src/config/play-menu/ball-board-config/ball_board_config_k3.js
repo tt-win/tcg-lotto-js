@@ -6,7 +6,7 @@ const baseK3Props = {
   ballRange: [1, 6],
   ballDigit: 1,
   canShowHotGap: false,
-  ballConfigurationCategory: ballConfigurationCategory.EMPTY,
+  ballConfigurationCategory: ballConfigurationCategory.K3_BALL_SUM_BSOE,
 };
 
 export default {
@@ -20,7 +20,6 @@ export default {
     hasToolbar: false,
     delimiter: ',',
     forceUseDelimiter: true,
-    ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
     // Single_Same_3_K3
   1919: BallBoardConfigRecord({
@@ -125,7 +124,6 @@ export default {
     formula: 'oneNum',
     multi: false,
     canShowHotGap: false,
-    ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
     // Sum_Com_BS_OE_K3
   2236: BallBoardConfigRecord({
@@ -149,7 +147,6 @@ export default {
     canHideToolBarSmall: true,
     canHideToolBarOdd: true,
     canHideToolBarEven: true,
-    // ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
   // Any_Code_Win_K3
   2240: BallBoardConfigRecord({
