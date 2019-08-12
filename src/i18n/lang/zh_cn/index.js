@@ -1153,7 +1153,7 @@ const LANG = {
     unitsBS: '个大小',
     unitsOE: '个单双',
     unitsPC: '个质合',
-
+    spanCompare: '跨度',
   },
   betAmountOverMaxAmount: '您目前的投注金额大于最大可投注金额<br />当前模式最大投注金额为%@元!',
   // mobile
