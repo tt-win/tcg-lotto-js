@@ -985,7 +985,8 @@ const LANG = {
   Dragon_Tiger_1_VS_2_K3_Ent: '第一球 vs 第二球',
   Dragon_Tiger_1_VS_3_K3_Ent: '第一球 vs 第三球',
   Dragon_Tiger_2_VS_3_K3_Ent: '第二球 vs 第三球',
-
+  Span_All_K3_Ent: '跨度',
+  
   // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
   Any1_11X5: '一中一',
@@ -1340,6 +1341,12 @@ const LANG = {
     '4D_Fixed_Place_Ten': '十',
     '4D_Fixed_Place_Hundred': '百',
     '4D_Fixed_Place_Thousand': '千',
+    K3_Span_0: '0',
+    K3_Span_1: '1',
+    K3_Span_2: '2',
+    K3_Span_3: '3',
+    K3_Span_4: '4',
+    K3_Span_5: '5',    
   },
   ...BaseGame,
 };
