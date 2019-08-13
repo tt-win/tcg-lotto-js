@@ -118,6 +118,7 @@ export default {
   }),
     // Sum_BS_OE_K3
   1931: BallBoardConfigRecord({
+    ...baseK3Props,
     ...baseBSOEProps,
     boardClassNames: 'Sum_BS_OE_K3',
     betDigits: [betDigits.Sum_BS_OE_K3],
@@ -127,6 +128,7 @@ export default {
   }),
     // Sum_Com_BS_OE_K3
   2236: BallBoardConfigRecord({
+    ...baseK3Props,
     ...baseBSOEProps,
     fixedBalls: ['0_2', '0_3', '1_2', '1_3'],
     boardClassNames: 'sum-com-bsoe',
