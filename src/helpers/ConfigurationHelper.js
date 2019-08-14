@@ -74,6 +74,32 @@ function getBallSum(ballGroup) {
   return ballGroup.reduce((sum, curr) => sum + curr, 0);
 }
 
+function getK3BSOE(ballGroup) {
+  let BSOE = '';
+  const ballSum = getBallSum(ballGroup);
+
+  if (ballSum >= 11) {
+    BSOE += i18n('ball.BSOE.big');
+  } else {
+    BSOE += i18n('ball.BSOE.small');
+  }
+
+  if (ballSum % 2 === 1) {
+    BSOE += i18n('ball.BSOE.odd');
+  } else {
+    BSOE += i18n('ball.BSOE.even');
+  }
+
+  return BSOE;
+}
+
+
+function getK3BallSumBsOE(ballGroup) {
+  const sum = getBallSum(ballGroup);
+  const bsoe = getK3BSOE(ballGroup);
+  return sum + bsoe;
+}
+
 function getBallSpan(ballGroup) {
   const ballGroupSort = ballGroup.sort((a, b) => a - b);
   return ballGroupSort[ballGroupSort.length - 1] - ballGroupSort[0];
@@ -91,8 +117,7 @@ function getSSCBSOE(ballGroup) {
 
   if (ballSum % 2 === 1) {
     BSOE += i18n('ball.BSOE.odd');
-  }
-  else {
+  } else {
     BSOE += i18n('ball.BSOE.even');
   }
 
@@ -149,7 +174,7 @@ function getSpecialNumber(ballGroup) {
   }
 
   // 雜六
-  return i18n('ball.GroupENT.3');;
+  return i18n('ball.GroupENT.3');
 }
 
 function getDragonTigerTie(ballGroup) {
@@ -160,12 +185,13 @@ function getDragonTigerTie(ballGroup) {
   } else if (ballGroup[0] === ballGroup[1]) {
     return i18n('ball.dragonTigerTie.tie');
   }
+  return '';
 }
 
 function getOECount(ballGroup) {
   let odd = 0;
   ballGroup.forEach((ball) => {
-    if (ball % 2 == 1) {
+    if (ball % 2 === 1) {
       odd += 1;
     }
   });
@@ -178,25 +204,6 @@ function getMiddleNumber(ballGroup) {
   const middleNumberIndex = Math.ceil(ballGroupSort.length / 2);
 
   return ballGroupSort[middleNumberIndex - 1];
-}
-
-function getK3BSOE(ballGroup) {
-  let BSOE = '';
-  const ballSum = getBallSum(ballGroup);
-
-  if (ballSum >= 11) {
-    BSOE += i18n('ball.BSOE.big');
-  } else {
-    BSOE += i18n('ball.BSOE.small');
-  }
-
-  if (ballSum % 2 === 1) {
-    BSOE += i18n('ball.BSOE.odd');
-  } else {
-    BSOE += i18n('ball.BSOE.even');
-  }
-
-  return BSOE;
 }
 
 export default class ConfigurationHelper {
@@ -331,6 +338,10 @@ export default class ConfigurationHelper {
       }
       case 'BALL_SUM': {
         return getBallSum(ballGroup);
+      }
+      // K3和值大小單雙(特殊)
+      case 'K3_BALL_SUM_BSOE': {
+        return getK3BallSumBsOE(ballGroup);
       }
       case 'BALL_SPAN': {
         return getBallSpan(ballGroup);

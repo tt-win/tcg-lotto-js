@@ -37,6 +37,7 @@ export const ballShowPosition = {
 export const ballConfigurationCategory = {
   CONFIGURATION_NUMBER: 'CONFIGURATION_NUMBER', // 組態數
   BALL_SUM: 'BALL_SUM', // 和值
+  K3_BALL_SUM_BSOE: 'K3_BALL_SUM_BSOE', // K3和值大小單雙
   SPECIAL_NUMBER: 'SPECIAL_NUMBER', // 特殊號
   BALL_SPAN: 'BALL_SPAN', // 跨度
   SSC_BSOE: 'SSC_BSOE', // 時時彩 總和大小 總和單雙
