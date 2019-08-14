@@ -111,9 +111,10 @@ export const fixedGroupMerchantSetting = {
 };
 
 export const videoType = [
-  'CAR',
-  'PLANE',
-  'DICE_CUP',
+  'CAR', // PK10 賽車
+  'PLANE', // PK10 飛艇
+  'HORSE', // PK10 賽馬
+  'DICE_CUP', //K3 骰盅
 ];
 
 export default {};
