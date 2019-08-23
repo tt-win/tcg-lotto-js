@@ -394,6 +394,9 @@ const K3PlayRuleConfig = {
   Any_Code_Not_Win_K3_Ent: [
     PlayMenu.Any_Code_Not_Win_K3_Ent,
   ],
+  Span_K3_Ent: [
+    PlayMenu.Span_All_K3_Ent,
+  ],  
 };
 
 const LF3DPlayRuleConfig = {

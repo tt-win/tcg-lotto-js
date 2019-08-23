@@ -6,7 +6,7 @@ const baseK3Props = {
   ballRange: [1, 6],
   ballDigit: 1,
   canShowHotGap: false,
-  ballConfigurationCategory: ballConfigurationCategory.EMPTY,
+  ballConfigurationCategory: ballConfigurationCategory.K3_BALL_SUM_BSOE,
 };
 
 export default {
@@ -20,7 +20,6 @@ export default {
     hasToolbar: false,
     delimiter: ',',
     forceUseDelimiter: true,
-    ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
     // Single_Same_3_K3
   1919: BallBoardConfigRecord({
@@ -119,16 +118,17 @@ export default {
   }),
     // Sum_BS_OE_K3
   1931: BallBoardConfigRecord({
+    ...baseK3Props,
     ...baseBSOEProps,
     boardClassNames: 'Sum_BS_OE_K3',
     betDigits: [betDigits.Sum_BS_OE_K3],
     formula: 'oneNum',
     multi: false,
     canShowHotGap: false,
-    ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
     // Sum_Com_BS_OE_K3
   2236: BallBoardConfigRecord({
+    ...baseK3Props,
     ...baseBSOEProps,
     fixedBalls: ['0_2', '0_3', '1_2', '1_3'],
     boardClassNames: 'sum-com-bsoe',
@@ -149,7 +149,6 @@ export default {
     canHideToolBarSmall: true,
     canHideToolBarOdd: true,
     canHideToolBarEven: true,
-    // ballConfigurationCategory: ballConfigurationCategory.K3_BSOE,
   }),
   // Any_Code_Win_K3
   2240: BallBoardConfigRecord({
@@ -174,5 +173,28 @@ export default {
     // Sum_K3_ENT
   1934: BallBoardConfigRecord({
     ...baseK3Props,
+  }),
+  // Span
+  2266: BallBoardConfigRecord({
+    ...baseK3Props,
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneBallOneNum',
+    ballRange: [0, 5],
+    delimiter: ',',
+    forceUseDelimiter: true,
+    displayBallBonus: true,
+    boardClassNames: 'Span_K3',
+    canHideToolBarBig: true,
+    canHideToolBarSmall: true,
+    canHideToolBarOdd: true,
+    canHideToolBarEven: true,    
+    prizeTypeMapping: {
+      '0': 'K3_Span_0',
+      '1': 'K3_Span_1',
+      '2': 'K3_Span_2',
+      '3': 'K3_Span_3',
+      '4': 'K3_Span_4',
+      '5': 'K3_Span_5',
+    },
   }),
 };
