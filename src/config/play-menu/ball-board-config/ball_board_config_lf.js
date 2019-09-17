@@ -15,7 +15,7 @@ const sum3Props = {
   betDigits: [betDigits.SUM],
   formula: 'sumOfThree',
   canShowHotGap: false,
-  hasToolbar: false,
+  hasToolbar: true,
   canShowStakes: true,
 };
 
@@ -39,7 +39,7 @@ const threeComSumProps = {
   betDigits: [betDigits.SUM],
   formula: 'sumOf3Com',
   canShowHotGap: false,
-  hasToolbar: false,
+  hasToolbar: true,
   canShowStakes: true,
 };
 
@@ -82,7 +82,6 @@ export default {
   1409: BallBoardConfigRecord({
     ...sum3Props,
     delimiter: ',',
-    hasToolbar: true,
     forceUseDelimiter: true,
     ballShowPosition: ballShowPosition.LAST_THREE,
     ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
@@ -103,7 +102,6 @@ export default {
   1413: BallBoardConfigRecord({
     ...threeComSumProps,
     delimiter: ',',
-    hasToolbar: true,
     forceUseDelimiter: true,
     ballShowPosition: ballShowPosition.LAST_THREE,
     ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
@@ -175,7 +173,6 @@ export default {
   1431: BallBoardConfigRecord({
     ...sum3Props,
     delimiter: ',',
-    hasToolbar: true,
     forceUseDelimiter: true,
     ballShowPosition: ballShowPosition.FIRST_THREE,
     ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
@@ -196,7 +193,6 @@ export default {
   1435: BallBoardConfigRecord({
     ...threeComSumProps,
     delimiter: ',',
-    hasToolbar: true,
     forceUseDelimiter: true,
     ballShowPosition: ballShowPosition.FIRST_THREE,
     ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
