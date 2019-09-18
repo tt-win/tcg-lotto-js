@@ -82,6 +82,7 @@ export default {
     formula: 'oneBallOneNum',
     delimiter: ',',
     forceUseDelimiter: true,
+    boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
   //  First3Sum_PK10
@@ -93,6 +94,7 @@ export default {
     formula: 'oneBallOneNum',
     delimiter: ',',
     forceUseDelimiter: true,
+    boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_THREE,
   }),
   //  FirstLastSum_PK10
@@ -104,6 +106,7 @@ export default {
     formula: 'oneBallOneNum',
     delimiter: ',',
     forceUseDelimiter: true,
+    boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_ONE_TEN,
   }),
   // First5BSOE_PK10
