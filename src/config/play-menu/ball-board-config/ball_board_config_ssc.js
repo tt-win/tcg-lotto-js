@@ -482,7 +482,6 @@ export default {
     betDigits: [betDigits.SUM],
     formula: 'sumOfTwo',
     canShowHotGap: false,
-    hasToolbar: true,
     canShowStakes: true,
     delimiter: ',',
     forceUseDelimiter: true,
