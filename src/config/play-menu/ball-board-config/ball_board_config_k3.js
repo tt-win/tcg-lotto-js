@@ -17,7 +17,6 @@ export default {
     betDigits: [betDigits.SUM],
     boardClassNames: 'Sum_K3',
     formula: 'oneBallOneNum',
-    hasToolbar: false,
     delimiter: ',',
     forceUseDelimiter: true,
   }),
@@ -187,7 +186,7 @@ export default {
     canHideToolBarBig: true,
     canHideToolBarSmall: true,
     canHideToolBarOdd: true,
-    canHideToolBarEven: true,    
+    canHideToolBarEven: true,
     prizeTypeMapping: {
       '0': 'K3_Span_0',
       '1': 'K3_Span_1',
