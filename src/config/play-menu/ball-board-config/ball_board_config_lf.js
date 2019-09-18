@@ -15,7 +15,6 @@ const sum3Props = {
   betDigits: [betDigits.SUM],
   formula: 'sumOfThree',
   canShowHotGap: false,
-  hasToolbar: true,
   canShowStakes: true,
 };
 
@@ -39,7 +38,6 @@ const threeComSumProps = {
   betDigits: [betDigits.SUM],
   formula: 'sumOf3Com',
   canShowHotGap: false,
-  hasToolbar: true,
   canShowStakes: true,
 };
 
