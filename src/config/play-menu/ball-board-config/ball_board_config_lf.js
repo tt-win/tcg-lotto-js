@@ -15,7 +15,6 @@ const sum3Props = {
   betDigits: [betDigits.SUM],
   formula: 'sumOfThree',
   canShowHotGap: false,
-  hasToolbar: false,
   canShowStakes: true,
 };
 
@@ -39,7 +38,6 @@ const threeComSumProps = {
   betDigits: [betDigits.SUM],
   formula: 'sumOf3Com',
   canShowHotGap: false,
-  hasToolbar: false,
   canShowStakes: true,
 };
 
@@ -174,6 +172,7 @@ export default {
     ...sum3Props,
     delimiter: ',',
     forceUseDelimiter: true,
+    boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_THREE,
     ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
@@ -194,6 +193,7 @@ export default {
     ...threeComSumProps,
     delimiter: ',',
     forceUseDelimiter: true,
+    boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_THREE,
     ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
