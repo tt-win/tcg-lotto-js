@@ -15,7 +15,7 @@ export default {
     ...baseK3Props,
     ballRange: [3, 18],
     betDigits: [betDigits.SUM],
-    boardClassNames: 'Sum_K3',
+    boardClassNames: 'Sum_K3 sum',
     formula: 'oneBallOneNum',
     hasToolbar: false,
     delimiter: ',',
@@ -187,7 +187,7 @@ export default {
     canHideToolBarBig: true,
     canHideToolBarSmall: true,
     canHideToolBarOdd: true,
-    canHideToolBarEven: true,    
+    canHideToolBarEven: true,
     prizeTypeMapping: {
       '0': 'K3_Span_0',
       '1': 'K3_Span_1',
