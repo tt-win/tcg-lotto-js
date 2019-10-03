@@ -23,6 +23,7 @@ export const BallBoardConfigRecord = Record({
   canShowBallAtSub: false, // 直接在額外欄顯示球號文字
   isBSOE: false,
   formula: undefined, // 注數計算公式
+  forceSmallUpper: undefined,  // 快捷投注大小區分 >為大 <=為小  預設不給
   multi: true,
   maxBallCount: -1, // 最大選擇球數, -1 表示不限球數, 特殊玩法使用
   canShowManualDigits: false, // 位數選擇器

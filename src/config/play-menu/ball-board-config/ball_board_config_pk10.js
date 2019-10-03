@@ -82,6 +82,7 @@ export default {
     formula: 'oneBallOneNum',
     delimiter: ',',
     forceUseDelimiter: true,
+    forceSmallUpper: 11,   // 快捷投注大小區分
     boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
@@ -106,6 +107,7 @@ export default {
     formula: 'oneBallOneNum',
     delimiter: ',',
     forceUseDelimiter: true,
+    forceSmallUpper: 11,   // 快捷投注大小區分
     boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_ONE_TEN,
   }),
