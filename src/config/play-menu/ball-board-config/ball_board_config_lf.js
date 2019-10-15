@@ -101,6 +101,7 @@ export default {
     ...threeComSumProps,
     delimiter: ',',
     forceUseDelimiter: true,
+    boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.LAST_THREE,
     ballConfigurationCategory: ballConfigurationCategory.BALL_SUM,
   }),
