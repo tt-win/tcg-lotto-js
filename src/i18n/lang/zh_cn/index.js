@@ -851,6 +851,7 @@ const LANG = {
   goToBet: '去投注',
   betOrderCount: '组数',
   totalAmount: '总金额',
+  totalCount: '合计',
   totalBettingAmount: '本期已投总额',
   totalItemBettingAmount: '玩法本期已投总额',
   currentTotalAmount: '本次投注金額',
