@@ -498,7 +498,7 @@ const LANG = {
     total: '总数',
     bigSmall: '大小',
     oddEven: '单双',
-    sevenColorBall: '七色波',
+    colorBall: '色波',
     sumOddEven: '合单双',
     sumBigSmall: '合大小',
     bigSmallTail: '大小尾',
