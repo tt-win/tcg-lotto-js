@@ -6,6 +6,8 @@ import VI from './vi';
 import KM from './KM';
 import EN from './EN';
 import JA from './JA';
+import ID from './ID';
+import KR from './KR';
 
 export const lang = {
   ZH_CN,
@@ -14,6 +16,8 @@ export const lang = {
   KM,
   EN,
   JA,
+  ID,
+  KR,
 };
 
 const defaultLang = 'ZH_CN';

@@ -26,7 +26,7 @@ const PlayMenu = {
         2092: 'Empat digit berurutan - 1st', // Last_4_Straight_1st_VNC
         2094: 'Empat digit tanpa urutan - 1st', // Last_4_Combine_1st_VNC
         2097: 'Tiga digit berurutan - 1st', // Last_3_Straight_1st_VNC
-        2099: 'Tiga digit tanpa urutan - 1st', // Last_3_Combine_1st_VNC
+        2099: 'Tiga digit tanpa urutan - 1st', // Last_3_Combine_1st_VNC开奖号码
         2102: 'Dua digit berurutan - 1st', // Last_2_Straight_1st_VNC
         2104: 'Tiga digit tanpa urutan - 2nd', // Last_2_Straight_2nd_VNC
         2107: 'Satu digit tanpa urutan - 1st', // Last_2_Any_1st_VNC
