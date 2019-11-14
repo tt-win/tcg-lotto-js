@@ -7,7 +7,7 @@ import KM from './KM';
 import EN from './EN';
 import JA from './JA';
 import ID from './ID';
-import KR from './KR';
+import KR from './KO';
 
 export const lang = {
   ZH_CN,
