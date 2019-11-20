@@ -1173,6 +1173,7 @@ const LANG = {
   choosePlayGroup: '玩法选择',
   fetchBalanceFailed: '获取彩票余额失败',
   winAmountMaxByNumero: '彩种单期最高奖金',
+  winProfitMaxByNumero: '彩种单期最高利润',
   winAmountMax: '彩种单笔最高奖金',
   betAmountMaxByNumero: '彩种单期投注最大金额',
   itemMaxBettingAmountByNumero: '单期限额',
