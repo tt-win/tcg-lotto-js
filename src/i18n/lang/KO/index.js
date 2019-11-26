@@ -1,4 +1,7 @@
+import PlayMenu from '../en/playmenu';
+
 const LANG = {
+    ...PlayMenu,
     orderStatus: {
         orderStatus_0: 'All',
         orderStatus_2: '베팅수락',
