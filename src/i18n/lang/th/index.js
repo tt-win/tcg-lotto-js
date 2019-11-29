@@ -28,9 +28,9 @@ const LANG = {
   betFailed: 'ใส่ราคาไม่ตรงเงื่อนไข!!',
   orderStatus: {
     orderStatus_0: 'รายละเอียด',
-    orderStatus_2: 'ดำเนินการอยู่',
-    orderStatus_4: 'ถูกรางวัล',
-    orderStatus_5: 'ไม่ถูกรางวัล',
+    orderStatus_2: 'สำเร็จ',
+    orderStatus_4: 'ชนะเงินรางวัล',
+    orderStatus_5: 'เสียเงิน',
     orderStatus_6: 'ยกเลิก',
     orderStatus_7: 'ยกเลิก',
     orderStatus_8: 'ยกเลิก',
