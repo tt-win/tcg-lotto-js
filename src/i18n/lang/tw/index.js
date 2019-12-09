@@ -88,6 +88,8 @@ const LANG = {
   },
   drawInterval: '開獎時間',
   drawFrequency: '開獎頻率',
+  totalCount: '合計',
+  playRule: '玩法規則',
 };
 
 export default LANG;
