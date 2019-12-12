@@ -972,9 +972,10 @@ const LANG = {
   Dragon_Tiger_5_VS_6_PK10: '第五名vs第六名',
 
   // K3 ENT
+  Sum_Baozi_Kill: '和值 - 豹子通杀',
   BS_OE: '和值大小单双',
   SUM_COM_BS_OE: '和值组合大小单双',
-  BS_OE_Baozi_Kill: '和值-大小单双',
+  BS_OE_Baozi_Kill: '和值大小单双 - 豹子通杀',
   Different_2: '两连',
   Single_Same: '独胆',
   Any_Code_Not_Win: '不出胆',
@@ -987,7 +988,7 @@ const LANG = {
   Dragon_Tiger_1_VS_3_K3_Ent: '第一球 vs 第三球',
   Dragon_Tiger_2_VS_3_K3_Ent: '第二球 vs 第三球',
   Span_All_K3_Ent: '跨度',
-  
+
   // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
   Any1_11X5: '一中一',
