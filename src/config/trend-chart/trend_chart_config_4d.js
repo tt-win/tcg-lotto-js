@@ -14,7 +14,7 @@
   type              组态
  */
 
-const _4d = {
+const _4D = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
   list: {
     All_4: {
@@ -51,4 +51,4 @@ const _4d = {
   },
 }
 
-export default _4d;
+export default _4D;
