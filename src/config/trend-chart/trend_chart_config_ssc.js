@@ -18,23 +18,23 @@
   pair              对子
   dragonTiger       龍虎位數
  */
-const SSC =  {
+const SSC = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
   list: {
-    All_5:{
+    All_5: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
         digit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
       },
     },
-    All_5_Complex:{
+    All_5_Complex: {
       column: ['numero', 'drawNumber', 'numberSpread', 'sum', 'span', 'type', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio'],
       options: {
         type: ['AllCom120', 'AllCom60', 'AllCom30', 'AllCom20', 'AllCom10', 'AllCom5'],
         largeSmallRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
         oddEvenRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
         primCompRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
-      }
+      },
     },
     First_4: {
       column: ['numero', 'drawNumber', 'digit', 'sum', 'span', 'type'],
@@ -97,7 +97,7 @@ const SSC =  {
         ],
       },
     },
-  }
+  },
 };
 
 export default SSC;
