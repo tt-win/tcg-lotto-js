@@ -13,7 +13,7 @@
   specialSumOE      特合大小
   specialTailBS     特尾大小
  */
-const LHC =  {
+const LHC = {
   list: {
     Com: {
       column: [
@@ -35,7 +35,7 @@ const LHC =  {
         digit: ['normalOne', 'normalTwo', 'normalThree', 'normalFour', 'normalFive', 'normalSix'],
       },
     },
-  }
+  },
 };
 
 export default LHC;
