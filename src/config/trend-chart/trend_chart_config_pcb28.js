@@ -8,8 +8,10 @@
   colorBall         色波
   baozi             豹子
 */
+import _ from 'lodash';
 
 const PCB28 = {
+  numGroup: _.times(28),
   list: {
     Com: {
       column: ['numero', 'digit', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],
