@@ -6,7 +6,7 @@ import trendChartConfig11X5 from './trend_chart_config_11x5';
 import trendChartConfig4D from './trend_chart_config_4d';
 import trendChartConfig3D from './trend_chart_config_3d';
 import trendChartConfigLHC from './trend_chart_config_lhc';
-import trendChartConfigPCB28 from './trend_chart_config_pcb28';
+import trendChartConfigPCB28 from './trend_chart_config_pcb';
 import trendChartConfigK3 from './trend_chart_config_k3';
 
 export const trendChartConfig = {
@@ -18,6 +18,6 @@ export const trendChartConfig = {
   '4D': trendChartConfig4D,
   '3D': trendChartConfig3D,
   LHC: trendChartConfigLHC,
-  PCB28: trendChartConfigPCB28,
+  PCB: trendChartConfigPCB28,
   K3: trendChartConfigK3,
 };

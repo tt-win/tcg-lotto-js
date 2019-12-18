@@ -10,7 +10,7 @@
 */
 import _ from 'lodash';
 
-const PCB28 = {
+const PCB = {
   numGroup: _.times(28),
   list: {
     Com: {
@@ -22,4 +22,4 @@ const PCB28 = {
   },
 };
 
-export default PCB28;
+export default PCB;
