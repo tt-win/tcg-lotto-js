@@ -10,14 +10,14 @@ import trendChartConfigPCB28 from './trend_chart_config_pcb28';
 import trendChartConfigK3 from './trend_chart_config_k3';
 
 export const trendChartConfig = {
-  ...trendChartConfigSSC,
-  ...trendChartConfigST,
-  ...trendChartConfigPK10,
-  ...trendChartConfigP3P5,
-  ...trendChartConfig11X5,
-  ...trendChartConfig4D,
-  ...trendChartConfig3D,
-  ...trendChartConfigLHC,
-  ...trendChartConfigPCB28,
-  ...trendChartConfigK3,
+  SSC: trendChartConfigSSC,
+  ST: trendChartConfigST,
+  PK10: trendChartConfigPK10,
+  P3P5: trendChartConfigP3P5,
+  _11X5: trendChartConfig11X5,
+  _4D: trendChartConfig4D,
+  _3D: trendChartConfig3D,
+  LHC: trendChartConfigLHC,
+  PCB28: trendChartConfigPCB28,
+  K3: trendChartConfigK3,
 };
