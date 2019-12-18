@@ -18,7 +18,7 @@
   baozi_K3          豹子（三同号）
   sumBSOE          和值大小单双
  */
-const K3 =  {
+const K3 = {
   numGroup: [1, 2, 3, 4, 5, 6],
   list: {
     Com: {
@@ -40,7 +40,7 @@ const K3 =  {
     Sum: {
       column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
     },
-  }
+  },
 };
 
 export default K3;
