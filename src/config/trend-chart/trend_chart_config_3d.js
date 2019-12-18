@@ -18,7 +18,7 @@
   pair              对子
   dragonTiger       龍虎位數
  */
-const _3D =  {
+const _3D = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
   list: {
     All_3: {
@@ -54,7 +54,7 @@ const _3D =  {
         ],
       },
     },
-  }
+  },
 };
 
 export default _3D;
