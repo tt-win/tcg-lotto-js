@@ -3,7 +3,7 @@
   drawNumber        开奖号码
   digit             顯示位數 ex: 万位、千位、百位、十位、个位
  */
-const PK10 =  {
+const PK10 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   list: {
     First_To_Fifth: {
@@ -27,10 +27,10 @@ const PK10 =  {
           'Dragon_Tiger_3_VS_8',
           'Dragon_Tiger_4_VS_7',
           'Dragon_Tiger_5_VS_6',
-        ]
+        ],
       },
     },
-  }
+  },
 };
 
 export default PK10;
