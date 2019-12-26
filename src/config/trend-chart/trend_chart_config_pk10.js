@@ -21,7 +21,7 @@ const PK10 =  {
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
       options: {
-        dragonTigerDigit: [
+        dragonTiger: [
           'Dragon_Tiger_1_VS_10',
           'Dragon_Tiger_2_VS_9',
           'Dragon_Tiger_3_VS_8',

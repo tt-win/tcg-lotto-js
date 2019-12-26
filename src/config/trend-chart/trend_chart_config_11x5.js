@@ -47,7 +47,7 @@ const _11X5 = {
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
       options: {
-        dragonTigerDigit: [
+        dragonTiger: [
           'Dragon_Tiger_Tie_5_4',
           'Dragon_Tiger_Tie_5_3',
           'Dragon_Tiger_Tie_5_2',
