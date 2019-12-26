@@ -1,5 +1,6 @@
 import PlayMenu from './playmenu';
 import BaseGame from './base-game';
+import ProTrendChart from './proTrendChart';
 
 const LANG = {
   ...PlayMenu,
@@ -1353,6 +1354,7 @@ const LANG = {
     K3_Span_5: '5',    
   },
   ...BaseGame,
+  ...ProTrendChart,
 };
 
 export default LANG;
