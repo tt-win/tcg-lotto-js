@@ -5,6 +5,18 @@
  */
 const PK10 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  kChartDigit: [
+    'firstPlace',
+    'secondPlace',
+    'thirdPlace',
+    'fourthPlace',
+    'fifthPlace',
+    'sixthPlace',
+    'seventhPlace',
+    'eighthPlace',
+    'ninthPlace',
+    'tenthPlace',
+  ],
   list: {
     First_To_Fifth: {
       column: ['numero', 'drawNumber', 'digit'],

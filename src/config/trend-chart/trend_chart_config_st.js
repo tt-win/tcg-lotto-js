@@ -14,6 +14,7 @@
  */
 const ST = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  kChartDigit: ['HUNDREDS', 'TENS', 'ONES'],
   list: {
     Last_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],

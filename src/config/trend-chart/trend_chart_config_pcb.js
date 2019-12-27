@@ -12,6 +12,7 @@ import _ from 'lodash';
 
 const PCB = {
   numGroup: _.times(28),
+  kChartDigit: ['firstBall', 'secondBall', 'thirdBall', 'special'],
   list: {
     Com: {
       column: ['numero', 'digit', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],

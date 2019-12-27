@@ -20,6 +20,7 @@
  */
 const K3 = {
   numGroup: [1, 2, 3, 4, 5, 6],
+  kChartDigit: ['HUNDREDS', 'TENS', 'ONES'],
   list: {
     Com: {
       column: [

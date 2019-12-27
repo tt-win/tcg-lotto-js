@@ -1092,7 +1092,7 @@ const LANG = {
     unitsBS: '个大小',
     unitsOE: '个单双',
     unitsPC: '个质合',
-    spanCompare: '跨度',    
+    spanCompare: '跨度',
   },
 
   entPicture: {
@@ -1351,7 +1351,7 @@ const LANG = {
     K3_Span_2: '2',
     K3_Span_3: '3',
     K3_Span_4: '4',
-    K3_Span_5: '5',    
+    K3_Span_5: '5',
   },
   ...BaseGame,
   ...ProTrendChart,
