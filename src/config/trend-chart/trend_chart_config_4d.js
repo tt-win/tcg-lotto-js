@@ -16,7 +16,12 @@
 
 const _4D = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-  kChartDigit: ['THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+  kChartDigit: {
+    0: 'THOUSANDS',
+    1: 'HUNDREDS',
+    2: 'TENS',
+    3: 'ONES',
+  },
   list: {
     All_4: {
       column: ['numero', 'drawNumber', 'digit', 'sum,', 'span', 'type'],

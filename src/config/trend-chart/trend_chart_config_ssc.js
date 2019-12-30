@@ -17,10 +17,17 @@
   baozi             豹子
   pair              对子
   dragonTiger       龍虎位數
+  drawBallDigit         開獎球位數
  */
 const SSC = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-  kChartDigit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+  lineChartDigit: {
+    0: 'TEN_THOUSANDS',
+    1: 'THOUSANDS',
+    2: 'HUNDREDS',
+    3: 'TENS',
+    4: 'ONES',
+  },
   list: {
     All_5: {
       column: ['numero', 'drawNumber', 'digit'],
