@@ -11,7 +11,7 @@
 import _ from 'lodash';
 
 const PCB = {
-  numGroup: _.times(28),
+  numGroup: _.times(10),
   lineChartDigit: ['firstBall', 'secondBall', 'thirdBall'],
   list: {
     Com: {
