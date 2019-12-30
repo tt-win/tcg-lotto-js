@@ -5,18 +5,18 @@
  */
 const PK10 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-  lineChartDigit: {
-    0: 'firstPlace',
-    1: 'secondPlace',
-    2: 'thirdPlace',
-    3: 'fourthPlace',
-    4: 'fifthPlace',
-    5: 'sixthPlace',
-    6: 'seventhPlace',
-    7: 'eighthPlace',
-    8: 'ninthPlace',
-    9: 'tenthPlace',
-  },
+  lineChartDigit: [
+    'firstPlace',
+    'secondPlace',
+    'thirdPlace',
+    'fourthPlace',
+    'fifthPlace',
+    'sixthPlace',
+    'seventhPlace',
+    'eighthPlace',
+    'ninthPlace',
+    'tenthPlace',
+  ],
   list: {
     First_To_Fifth: {
       column: ['numero', 'drawNumber', 'digit'],

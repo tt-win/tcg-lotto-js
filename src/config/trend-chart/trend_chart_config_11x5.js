@@ -17,13 +17,7 @@
 
 const _11X5 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-  lineChartDigit: {
-    0: 'firstBall',
-    1: 'secondBall',
-    2: 'thirdBall',
-    3: 'fourthBall',
-    4: 'fifthBall',
-  },
+  lineChartDigit: ['firstBall', 'secondBall', 'thirdBall', 'fourthBall', 'fifthBall'],
   list: {
     Fixed_Place: {
       column: ['numero', 'drawNumber', 'digit'],
