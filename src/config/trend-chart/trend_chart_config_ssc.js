@@ -32,10 +32,8 @@ const SSC = {
     All_5_Complex: {
       column: ['numero', 'drawNumber', 'numberSpread', 'sum', 'span', 'type', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio'],
       options: {
-        // 和值計算開獎 0~4 位
-        sum: [0, 4],
-        // 跨度計算開獎 0~4 位
-        span: [0, 4],
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 4],
         // 組態 結果
         type: ['AllCom120', 'AllCom60', 'AllCom30', 'AllCom20', 'AllCom10', 'AllCom5'],
         // 比值
@@ -49,8 +47,7 @@ const SSC = {
     First_4: {
       column: ['numero', 'drawNumber', 'digit', 'sum', 'span', 'type'],
       options: {
-        sum: [0, 3],
-        span: [0, 3],
+        ballDigit: [0, 3],
         digit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS'],
         type: ['F4Com24', 'F4Com12', 'F4Com6', 'F4Com4'],
       },
@@ -58,8 +55,7 @@ const SSC = {
     Last_4: {
       column: ['numero', 'drawNumber', 'digit', 'sum', 'span', 'type'],
       options: {
-        sum: [1, 4],
-        span: [1, 4],
+        ballDigit: [1, 4],
         digit: ['THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
         type: ['L4Com24', 'L4Com12', 'L4Com6', 'L4Com4'],
       },
@@ -67,40 +63,35 @@ const SSC = {
     First_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       options: {
-        sum: [0, 2],
-        span: [0, 2],
+        ballDigit: [0, 2],
         digit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS'],
       },
     },
     Middle_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       options: {
-        sum: [1, 3],
-        span: [1, 3],
+        ballDigit: [1, 3],
         digit: ['THOUSANDS', 'HUNDREDS', 'TENS'],
       },
     },
     Last_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       options: {
-        sum: [2, 4],
-        span: [2, 4],
+        ballDigit: [2, 4],
         digit: ['HUNDREDS', 'TENS', 'ONES'],
       },
     },
     First_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
-        sum: [0, 1],
-        span: [0, 1],
+        ballDigit: [0, 1],
         digit: ['TEN_THOUSANDS', 'THOUSANDS'],
       },
     },
     Last_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
-        sum: [3, 4],
-        span: [3, 4],
+        ballDigit: [3, 4],
         digit: ['TENS', 'ONES'],
       },
     },
