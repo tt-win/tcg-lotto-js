@@ -20,6 +20,8 @@
  */
 const SSC = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  // 中間值 用來判斷大小
+  meanValue: 5,
   lineChartDigit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
   list: {
     All_5: {
