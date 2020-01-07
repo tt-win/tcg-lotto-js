@@ -68,6 +68,13 @@ const trendChart = {
     Dragon_Tiger_Tie_3_2: '第三球 VS 第四球',
     Dragon_Tiger_Tie_3_1: '第三球 VS 第五球',
     Dragon_Tiger_Tie_2_1: '第四球 VS 第五球',
+
+    big: '大',
+    small: '小',
+    odd: '单',
+    even: '双',
+    prime: '質',
+    composite: '合',
   },
 
 };
