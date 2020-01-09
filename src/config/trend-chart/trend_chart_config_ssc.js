@@ -27,6 +27,8 @@ const SSC = {
     All_5: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 4],
         // 位數 萬千百十個
         digit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
       },
