@@ -795,6 +795,7 @@ const LANG = {
   betNowTrad: '官方玩法',
   betNowElott: '盘口玩法',
   betNowEnt: '娱乐城玩法',
+  betNowEnterGame: '进入玩法',
   addToCart: '添加至购彩篮',
   betDirect: '直接投注',
   lastDraw: '上期开奖',
