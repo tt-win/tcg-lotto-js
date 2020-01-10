@@ -75,6 +75,21 @@ const trendChart = {
     even: '双',
     prime: '質',
     composite: '合',
+
+    AllCom120: '五星组选 120',
+    AllCom60: '五星组选 60',
+    AllCom30: '五星组选 30',
+    AllCom20: '五星组选 20',
+    AllCom10: '五星组选 10',
+    AllCom5: '五星组选 5',
+    F4Com24: '前四组选 24',
+    F4Com12: '前四组选 12',
+    F4Com6: '前四组选 6',
+    F4Com4: '前四组选 4',
+    L4Com24: '后四组选 24',
+    L4Com12: '后四组选 12',
+    L4Com6: '后四组选 6',
+    L4Com4: '后四组选 4',
   },
 
 };
