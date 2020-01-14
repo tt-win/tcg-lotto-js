@@ -75,6 +75,9 @@ const trendChart = {
     even: '双',
     prime: '質',
     composite: '合',
+    dragon: '龙',
+    tiger: '虎',
+    tie: '和',
 
     AllCom120: '五星组选 120',
     AllCom60: '五星组选 60',
