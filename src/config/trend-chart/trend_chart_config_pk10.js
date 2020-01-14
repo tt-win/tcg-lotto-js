@@ -33,13 +33,13 @@ const PK10 = {
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
       options: {
-        dragonTiger: [
-          'Dragon_Tiger_1_VS_10',
-          'Dragon_Tiger_2_VS_9',
-          'Dragon_Tiger_3_VS_8',
-          'Dragon_Tiger_4_VS_7',
-          'Dragon_Tiger_5_VS_6',
-        ],
+        dragonTiger: {
+          Dragon_Tiger_1_VS_10: [0, 9],
+          Dragon_Tiger_2_VS_9: [1, 8],
+          Dragon_Tiger_3_VS_8: [2, 7],
+          Dragon_Tiger_4_VS_7: [3, 6],
+          Dragon_Tiger_5_VS_6: [4, 5],
+        },
       },
     },
   },
