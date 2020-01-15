@@ -98,8 +98,10 @@ const trendChart = {
     L4Com12: '后四组选 12',
     L4Com6: '后四组选 6',
     L4Com4: '后四组选 4',
-  },
 
+    //歷史開講數據
+    drawTime: '开奖日期',
+  },
 };
 
 export default trendChart;
