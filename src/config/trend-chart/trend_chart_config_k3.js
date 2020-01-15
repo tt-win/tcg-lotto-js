@@ -20,7 +20,11 @@
  */
 const K3 = {
   numGroup: [1, 2, 3, 4, 5, 6],
-  lineChartDigit: ['HUNDREDS', 'TENS', 'ONES',],
+  singleDigit: {
+    HUNDREDS: 0,
+    TENS: 1,
+    ONES: 2,
+  },
   list: {
     Com: {
       column: [

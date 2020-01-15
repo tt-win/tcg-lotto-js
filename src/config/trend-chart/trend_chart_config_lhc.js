@@ -17,7 +17,15 @@ import _ from 'lodash';
 
 const LHC = {
   numGroup: _.times(49, (n) => _.padStart(n + 1, 2, '0')),
-  lineChartDigit: ['normalOne', 'normalTwo', 'normalThree', 'normalFour', 'normalFive', 'normalSix', 'special'],
+  singleDigit: {
+    normalOne: 0,
+    normalTwo: 1,
+    normalThree: 2,
+    normalFour: 3,
+    normalFive: 4,
+    normalSix: 5,
+    special: 6,
+  },
   list: {
     Com: {
       column: [
