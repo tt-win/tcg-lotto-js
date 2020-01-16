@@ -12,7 +12,11 @@ import _ from 'lodash';
 
 const PCB = {
   numGroup: _.times(10),
-  lineChartDigit: ['firstBall', 'secondBall', 'thirdBall'],
+  singleDigit: {
+    firstBall: 0,
+    secondBall: 1,
+    thirdBall: 2,
+  },
   list: {
     Com: {
       column: ['numero', 'digit', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],

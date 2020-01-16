@@ -4,6 +4,11 @@ const trendChart = {
     lineChart: 'K线图',
     barChart: '直方图',
     drawChart: '历史开奖数据',
+    filterBy: '筛选条件',
+    singleTrend: '单号走势',
+    multipleTrend: '多号走势',
+    dragonTigerTie: '龙虎和',
+
     // SSC 二級選單
     All_5: '五星',
     All_5_Complex: '五星综合',
@@ -27,6 +32,8 @@ const trendChart = {
     firstBall: '第一球',
     secondBall: '第二球',
     thirdBall: '第三球',
+    fourthBall: '第四球',
+    fifthBall: '第五球',
     special: '特码',
     firstPlace: '冠军',
     secondPlace: '亚军',

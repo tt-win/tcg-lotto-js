@@ -16,7 +16,12 @@
 
 const _4D = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-  lineChartDigit: ['THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+  singleDigit: {
+    THOUSANDS: 0,
+    HUNDREDS: 1,
+    TENS: 2,
+    ONES: 3,
+  },
   list: {
     All_4: {
       column: ['numero', 'drawNumber', 'digit', 'sum,', 'span', 'type'],
