@@ -20,6 +20,7 @@ const PCB = {
   list: {
     Com: {
       column: ['numero', 'digit', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],
+      h5Column: ['numero', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],
       options: {
         digit: ['firstBall', 'secondBall', 'thirdBall'],
       },

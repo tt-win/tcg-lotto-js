@@ -41,9 +41,21 @@ const K3 = {
         'thirdBallOE',
         'span',
       ],
+      h5Column: [
+        'numero',
+        'drawNumber',
+        'firstBallBS',
+        'firstBallOE',
+        'secondBallBS',
+        'secondBallOE',
+        'thirdBallBS',
+        'thirdBallOE',
+        'span',
+      ],
     },
     Sum: {
       column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      h5Column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
     },
   },
 };

@@ -32,6 +32,7 @@ const PK10 = {
     },
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
+      h5Column: ['numero', 'drawNumber', 'dragonTiger'],
       options: {
         dragonTiger: {
           Dragon_Tiger_1_VS_10: [0, 9],
