@@ -32,6 +32,8 @@ const trendChart = {
     firstBall: '第一球',
     secondBall: '第二球',
     thirdBall: '第三球',
+    fourthBall: '第四球',
+    fifthBall: '第五球',
     special: '特码',
     firstPlace: '冠军',
     secondPlace: '亚军',
