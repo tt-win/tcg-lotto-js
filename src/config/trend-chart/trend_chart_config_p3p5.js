@@ -26,6 +26,10 @@ const P3P5 = {
     TENS: 3,
     ONES: 4,
   },
+  h5FilterConfig: {
+    singleTrend: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['All_5_Complex', 'P3_First_3', 'P5_Last_3', 'P3_First_2', 'P5_Last_2'],
+  },
   list: {
     All_5: {
       column: ['numero', 'drawNumber', 'digit'],

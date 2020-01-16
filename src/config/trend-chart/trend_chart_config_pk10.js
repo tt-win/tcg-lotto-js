@@ -17,6 +17,21 @@ const PK10 = {
     ninthPlace: 8,
     tenthPlace: 9,
   },
+  h5FilterConfig: {
+    singleTrend: [
+      'firstPlace',
+      'secondPlace',
+      'thirdPlace',
+      'fourthPlace',
+      'fifthPlace',
+      'sixthPlace',
+      'seventhPlace',
+      'eighthPlace',
+      'ninthPlace',
+      'tenthPlace',
+    ],
+    dragonTiger: ['Dragon_Tiger'],
+  },
   list: {
     First_To_Fifth: {
       column: ['numero', 'drawNumber', 'digit'],

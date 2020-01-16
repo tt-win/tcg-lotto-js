@@ -22,6 +22,10 @@ const _4D = {
     TENS: 2,
     ONES: 3,
   },
+  h5FilterConfig: {
+    singleTrend: ['THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['All_4', 'First_3', 'Last_3', 'First_2', 'Last_2'],
+  },
   list: {
     All_4: {
       column: ['numero', 'drawNumber', 'digit', 'sum,', 'span', 'type'],

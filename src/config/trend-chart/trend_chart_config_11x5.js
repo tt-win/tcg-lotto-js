@@ -24,6 +24,11 @@ const _11X5 = {
     fourthBall: 3,
     fifthBall: 4,
   },
+  h5FilterConfig: {
+    singleTrend: ['firstBall', 'secondBall', 'thirdBall', 'fourthBall', 'fifthBall'],
+    multipleTrend: ['Fixed_Place_Complex', 'First_3', 'First_2'],
+    dragonTiger: ['Dragon_Tiger'],
+  },
   list: {
     Fixed_Place: {
       column: ['numero', 'drawNumber', 'digit'],

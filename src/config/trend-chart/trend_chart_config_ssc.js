@@ -29,6 +29,11 @@ const SSC = {
     TENS: 3,
     ONES: 4,
   },
+  h5FilterConfig: {
+    singleTrend: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['All_5_Complex', 'First_4', 'Last_4', 'First_3', 'Middle_3', 'Last_3','First_2', 'Last_2'],
+    dragonTiger: ['Dragon_Tiger'],
+  },
   // 需要統計數據欄位
   needCount: ['digit', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'com3', 'com6', 'baozi', 'pair'],
   list: {

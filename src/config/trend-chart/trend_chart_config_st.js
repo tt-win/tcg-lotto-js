@@ -19,6 +19,10 @@ const ST = {
     TENS: 1,
     ONES: 2,
   },
+  h5FilterConfig: {
+    singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['Last_3', 'Last_2'],
+  },
   list: {
     Last_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],

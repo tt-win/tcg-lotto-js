@@ -25,6 +25,10 @@ const _3D = {
     TENS: 1,
     ONES: 2,
   },
+  h5FilterConfig: {
+    singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['All_3', 'First_2', 'Last_2', 'Sum'],
+  },
   list: {
     All_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],

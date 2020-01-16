@@ -25,6 +25,10 @@ const K3 = {
     TENS: 1,
     ONES: 2,
   },
+  h5FilterConfig: {
+    singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['Com', 'Sum'],
+  },
   list: {
     Com: {
       column: [
@@ -38,6 +42,7 @@ const K3 = {
         'secondBallOE',
         'thirdBall',
         'thirdBallBS',
+        'thirdBallOE',
         'thirdBallOE',
         'span',
       ],
