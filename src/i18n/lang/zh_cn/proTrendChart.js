@@ -7,7 +7,7 @@ const trendChart = {
     filterBy: '筛选条件',
     singleTrend: '单号走势',
     multipleTrend: '多号走势',
-    dragonTigerTie: '龙虎和',
+    dragonTiger: '龙虎',
 
     // SSC 二級選單
     All_5: '五星',
