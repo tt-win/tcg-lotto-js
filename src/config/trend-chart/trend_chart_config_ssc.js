@@ -23,6 +23,7 @@ const SSC = {
   // 中間值 用來判斷大小
   meanValue: 5,
   lineChartDigit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+  // 需要統計數據欄位
   needCount:['digit', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'com3', 'com6', 'baozi', 'pair'],
   list: {
     All_5: {
