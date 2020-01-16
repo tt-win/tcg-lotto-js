@@ -195,7 +195,8 @@ export default {
   3、开奖号码的后四位（即千百十位）数字对应腾讯当前在线用户人数的后四位数字 ； （如：腾讯在线用户人数为227.763.615人，即后四位开奖号码为,3615，结合第二点，完整开奖号即为9 3615）。<br />\n
   4、当腾讯当前在线用户人数数据超过2期（含2期）未更新，以至每期开奖号都相同，此时平台有权从相同期开始的投注撤单处理。<br />\n
   5、腾讯分分彩种每分钟一期，全天24小时不间断开放。<br />\n
-  6、365数据统计腾讯网：<a href="http://365shuju.com/" style="color: blue" target="_blank">http://365shuju.com/</a>。<br />
+  6、365数据统计腾讯网：<a href="http://365shuju.com/" style="color: blue" target="_blank">http://365shuju.com/</a>。<br />\n
+  7. 开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
 `,
   FHTXFFC: `
   此彩种开奖号码数据将取自腾讯在线的当前在线用户人数，规则具体介绍如下： <br />\n
@@ -241,5 +242,26 @@ export default {
   3、开奖号码的后四位（即千百十位）数字对应腾讯当前在线用户人数的后四位数字 ； （如：腾讯在线用户人数为227.763.615人，即后四位开奖号码为,3615，结合第二点，完整开奖号即为9 3615）。<br />\n
   4、当腾讯当前在线用户人数数据超过2期（含2期）未更新，以至每期开奖号都相同，此时平台有权从相同期开始的投注撤单处理。<br />\n
   5、腾讯分分彩种每分钟一期，全天24小时不间断开放。<br />\n
+`,
+  HELFFC: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HELSSC: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HELWFC: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HEL10SSC: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HEL1011X5: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HELGS11X5: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HEL11X5: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
 `,
 };
