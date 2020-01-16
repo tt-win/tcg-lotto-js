@@ -986,13 +986,14 @@ const LANG = {
   Boazi: '豹子',
   Single_Same_2: '对子',
   Red_Black_Num_K3_Ent: '红黑码',
+	Red_Black_BSOE: '红黑大小单双',
   Red_Num_Com_K3_Ent: '红码组合',
   Black_Num_Com_K3_Ent: '黑码组合',
   Dragon_Tiger_1_VS_2_K3_Ent: '第一球 vs 第二球',
   Dragon_Tiger_1_VS_3_K3_Ent: '第一球 vs 第三球',
   Dragon_Tiger_2_VS_3_K3_Ent: '第二球 vs 第三球',
   Span_All_K3_Ent: '跨度',
-  
+
   // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
   Any1_11X5: '一中一',
@@ -1095,7 +1096,7 @@ const LANG = {
     unitsBS: '个大小',
     unitsOE: '个单双',
     unitsPC: '个质合',
-    spanCompare: '跨度',    
+    spanCompare: '跨度',
   },
 
   entPicture: {
@@ -1354,7 +1355,7 @@ const LANG = {
     K3_Span_2: '2',
     K3_Span_3: '3',
     K3_Span_4: '4',
-    K3_Span_5: '5',    
+    K3_Span_5: '5',
   },
   ...BaseGame,
 };
