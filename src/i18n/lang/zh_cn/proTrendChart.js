@@ -101,6 +101,11 @@ const trendChart = {
     L4Com6: '后四组选 6',
     L4Com4: '后四组选 4',
 
+    //統計數據欄位
+    totalTimes: '出现总次数',
+    totalHotGap: '平均遗漏值',
+    maxGap: '最大遗漏值',
+    comboWin: '最大连出值',
     //歷史開講數據
     drawTime: '开奖日期',
   },
