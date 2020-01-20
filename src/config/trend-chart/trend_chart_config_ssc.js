@@ -29,8 +29,6 @@ const SSC = {
     TENS: 3,
     ONES: 4,
   },
-  // 需要統計數據欄位
-  needCount: ['digit', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'com3', 'com6', 'baozi', 'pair'],
   list: {
     All_5: {
       column: ['numero', 'drawNumber', 'digit'],

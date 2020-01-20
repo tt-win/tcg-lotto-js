@@ -446,6 +446,7 @@ const LANG = {
   },
   chart: {
     line: '折线',
+    gapBar: '遗漏分层',
     horizontalLine: '辅助线',
     downloadHistory: '下载历史开奖号',
     arithmetic: '正序',
