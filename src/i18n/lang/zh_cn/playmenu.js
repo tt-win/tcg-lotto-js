@@ -584,8 +584,8 @@ const PlayMenu = {
 
     // ENT K3 豹子通殺特仕版
     // 前台不會把豹子通殺秀出來, 看起來跟原本的玩法只有賠率差異
-    2053: '和值 - 豹子通杀',
-    2054: '和值大小单双 - 豹子通杀',
+    2053: '和值',
+    2054: '和值-大小单双',
 
     // Thai
     2056: '直选',
@@ -784,6 +784,8 @@ const PlayMenu = {
     2228: '红黑码',
     2229: '红码组合',
     2230: '黑码组合',
+	  2269: '红码大小单双',
+	  2270: '黑码大小单双',
     // K3 ENT
     2231: '龙虎和',
     2232: '龙虎和',
@@ -992,6 +994,14 @@ const PlayMenu = {
     single_same_2_6: '6,6',
     num_combine0: '红码',
     num_combine1: '黑码',
+	  red_num_bsoe_0: '红大',
+	  red_num_bsoe_1: '红小',
+	  red_num_bsoe_2: '红单',
+	  red_num_bsoe_3: '红双',
+	  black_num_bsoe_0: '黑大',
+	  black_num_bsoe_1: '黑小',
+	  black_num_bsoe_2: '黑单',
+	  black_num_bsoe_3: '黑双',
     red_num_com_1: '1',
     red_num_com_2: '2',
     red_num_com_3: '3',
