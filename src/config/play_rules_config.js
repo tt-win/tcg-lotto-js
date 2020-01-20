@@ -385,6 +385,12 @@ const K3PlayRuleConfig = {
   Red_Black_Num_K3_Ent: [
     PlayMenu.Red_Black_Num_K3_Ent,
   ],
+	Red_Num_BSOE_K3_ENT: [
+		PlayMenu.Red_Num_BSOE_K3_ENT,
+	],
+	Black_Num_BSOE_K3_ENT: [
+		PlayMenu.Black_Num_BSOE_K3_ENT,
+	],
   Red_Num_Com_K3_Ent: [
     PlayMenu.Red_Num_Com_K3_Ent,
   ],
@@ -396,7 +402,7 @@ const K3PlayRuleConfig = {
   ],
   Span_K3_Ent: [
     PlayMenu.Span_All_K3_Ent,
-  ],  
+  ],
 };
 
 const LF3DPlayRuleConfig = {
