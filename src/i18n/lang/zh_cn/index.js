@@ -1,5 +1,6 @@
 import PlayMenu from './playmenu';
 import BaseGame from './base-game';
+import ProTrendChart from './proTrendChart';
 
 const LANG = {
   ...PlayMenu,
@@ -78,8 +79,8 @@ const LANG = {
     SPAN: '跨度',
     BACCARAT: '百家乐',
 
-    Two_Num_Any_Code_4D:'二字现',
-    Three_Num_Any_Code_4D:'三字现',
+    Two_Num_Any_Code_4D: '二字现',
+    Three_Num_Any_Code_4D: '三字现',
 
   },
   startDigit: {
@@ -445,6 +446,7 @@ const LANG = {
   },
   chart: {
     line: '折线',
+    gapBar: '遗漏分层',
     horizontalLine: '辅助线',
     downloadHistory: '下载历史开奖号',
     arithmetic: '正序',
@@ -1358,6 +1360,7 @@ const LANG = {
     K3_Span_5: '5',
   },
   ...BaseGame,
+  ...ProTrendChart,
 };
 
 export default LANG;
