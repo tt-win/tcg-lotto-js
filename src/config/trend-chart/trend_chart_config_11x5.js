@@ -24,6 +24,11 @@ const _11X5 = {
     fourthBall: 3,
     fifthBall: 4,
   },
+  h5FilterConfig: {
+    singleTrend: ['firstBall', 'secondBall', 'thirdBall', 'fourthBall', 'fifthBall'],
+    multipleTrend: ['Fixed_Place_Complex', 'First_3', 'First_2'],
+    dragonTiger: ['Dragon_Tiger'],
+  },
   list: {
     Fixed_Place: {
       column: ['numero', 'drawNumber', 'digit'],
@@ -33,6 +38,7 @@ const _11X5 = {
     },
     Fixed_Place_Complex: {
       column: ['numero', 'drawNumber', 'numberSpread', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'sum', 'span', 'middleNumber'],
+      h5Column: ['numero', 'drawNumber', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'sum', 'span', 'middleNumber'],
       options: {
         largeSmallRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
         oddEvenRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
@@ -41,18 +47,21 @@ const _11X5 = {
     },
     First_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span'],
       options: {
         digit: ['firstBall', 'secondBall', 'thirdBall'],
       },
     },
     First_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span'],
       options: {
         digit: ['firstBall', 'secondBall'],
       },
     },
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
+      h5Column: ['numero', 'drawNumber', 'dragonTiger'],
       options: {
         dragonTiger: {
           Dragon_Tiger_Tie_5_4: [0, 1],

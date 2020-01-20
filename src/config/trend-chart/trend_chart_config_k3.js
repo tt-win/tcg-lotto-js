@@ -25,6 +25,10 @@ const K3 = {
     TENS: 1,
     ONES: 2,
   },
+  h5FilterConfig: {
+    singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['Com', 'Sum'],
+  },
   list: {
     Com: {
       column: [
@@ -39,11 +43,24 @@ const K3 = {
         'thirdBall',
         'thirdBallBS',
         'thirdBallOE',
+        'thirdBallOE',
+        'span',
+      ],
+      h5Column: [
+        'numero',
+        'drawNumber',
+        'firstBallBS',
+        'firstBallOE',
+        'secondBallBS',
+        'secondBallOE',
+        'thirdBallBS',
+        'thirdBallOE',
         'span',
       ],
     },
     Sum: {
       column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      h5Column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
     },
   },
 };

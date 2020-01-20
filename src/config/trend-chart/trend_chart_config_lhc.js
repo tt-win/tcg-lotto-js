@@ -26,12 +26,30 @@ const LHC = {
     normalSix: 5,
     special: 6,
   },
+  h5FilterConfig: {
+    singleTrend: ['normalOne', 'normalTwo', 'normalThree', 'normalFour', 'normalSix', 'special'],
+    multipleTrend: ['Com'],
+  },
   list: {
     Com: {
       column: [
         'numero',
         'drawNumber',
         'digit',
+        'special',
+        'total',
+        'totalBS',
+        'totalOE',
+        'colorBall',
+        'specialBS',
+        'specialOE',
+        'specialSumBS',
+        'specialSumOE',
+        'specialTailBS',
+      ],
+      h5Column: [
+        'numero',
+        'drawNumber',
         'special',
         'total',
         'totalBS',

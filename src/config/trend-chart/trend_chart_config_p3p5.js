@@ -26,6 +26,10 @@ const P3P5 = {
     TENS: 3,
     ONES: 4,
   },
+  h5FilterConfig: {
+    singleTrend: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['All_5_Complex', 'P3_First_3', 'P5_Last_3', 'P3_First_2', 'P5_Last_2'],
+  },
   list: {
     All_5: {
       column: ['numero', 'drawNumber', 'digit'],
@@ -35,6 +39,7 @@ const P3P5 = {
     },
     All_5_Complex: {
       column: ['numero', 'drawNumber', 'numberSpread', 'sum', 'span', 'type', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio'],
+      h5Column: ['numero', 'drawNumber', 'sum', 'span', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio'],
       options: {
         type: ['AllCom120', 'AllCom60', 'AllCom30', 'AllCom20', 'AllCom10', 'AllCom5'],
         largeSmallRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
@@ -44,24 +49,28 @@ const P3P5 = {
     },
     P3_First_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       options: {
         digit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS'],
       },
     },
     P5_Last_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       options: {
         digit: ['HUNDREDS', 'TENS', 'ONES'],
       },
     },
     P3_First_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
         digit: ['TEN_THOUSANDS', 'THOUSANDS'],
       },
     },
     P5_Last_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
         digit: ['TENS', 'ONES'],
       },

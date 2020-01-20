@@ -7,7 +7,7 @@ const trendChart = {
     filterBy: '筛选条件',
     singleTrend: '单号走势',
     multipleTrend: '多号走势',
-    dragonTigerTie: '龙虎和',
+    dragonTiger: '龙虎',
 
     // SSC 二級選單
     All_5: '五星',
@@ -20,6 +20,14 @@ const trendChart = {
     First_2: '前二',
     Last_2: '后二',
     Dragon_Tiger: '龙虎',
+
+    // 11x5 二級選單
+    Fixed_Place: '定位',
+    Fixed_Place_Complex: '定位综合',
+
+    // PK10 二級選單
+    First_To_Fifth: '第1-5名',
+    Sixth_To_Tenth: '第6-10名',
 
     // 走勢圖
     numero: '期号',
@@ -101,12 +109,12 @@ const trendChart = {
     L4Com6: '后四组选 6',
     L4Com4: '后四组选 4',
 
-    //統計數據欄位
+    // 統計數據欄位
     totalTimes: '出现总次数',
     totalHotGap: '平均遗漏值',
     maxGap: '最大遗漏值',
     comboWin: '最大连出值',
-    //歷史開講數據
+    // 歷史開講數據
     drawTime: '开奖日期',
   },
 };

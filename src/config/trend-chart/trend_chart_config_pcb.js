@@ -17,9 +17,14 @@ const PCB = {
     secondBall: 1,
     thirdBall: 2,
   },
+  h5FilterConfig: {
+    singleTrend: ['firstBall', 'secondBall', 'thirdBall'],
+    multipleTrend: ['Com'],
+  },
   list: {
     Com: {
       column: ['numero', 'digit', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],
+      h5Column: ['numero', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],
       options: {
         digit: ['firstBall', 'secondBall', 'thirdBall'],
       },

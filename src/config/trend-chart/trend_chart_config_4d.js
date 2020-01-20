@@ -22,9 +22,14 @@ const _4D = {
     TENS: 2,
     ONES: 3,
   },
+  h5FilterConfig: {
+    singleTrend: ['THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
+    multipleTrend: ['All_4', 'First_3', 'Last_3', 'First_2', 'Last_2'],
+  },
   list: {
     All_4: {
       column: ['numero', 'drawNumber', 'digit', 'sum,', 'span', 'type'],
+      h5Column: ['numero', 'drawNumber', 'sum,', 'span', 'type'],
       options: {
         digit: ['THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
         type: ['F4Com24', 'F4Com12', 'F4Com6', 'F4Com4'],
@@ -32,24 +37,28 @@ const _4D = {
     },
     First_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       options: {
         digit: ['THOUSANDS', 'HUNDREDS', 'TENS'],
       },
     },
     Last_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       options: {
         digit: ['HUNDREDS', 'TENS', 'ONES'],
       },
     },
     First_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
         digit: ['THOUSANDS', 'HUNDREDS'],
       },
     },
     Last_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       option: {
         digit: ['TENS', 'ONES'],
       },
