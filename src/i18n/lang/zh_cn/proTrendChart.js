@@ -88,7 +88,7 @@ const trendChart = {
     small: '小',
     odd: '单',
     even: '双',
-    prime: '質',
+    prime: '质',
     composite: '合',
     dragon: '龙',
     tiger: '虎',
