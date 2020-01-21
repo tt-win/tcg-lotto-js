@@ -69,7 +69,7 @@ const _4D = {
     Last_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
-      option: {
+      options: {
         // 判斷 計算所需 開獎號碼位置
         ballDigit: [2, 3],
         digit: ['TENS', 'ONES'],
