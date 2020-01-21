@@ -59,7 +59,7 @@ const _3D = {
         digit: ['TENS', 'ONES'],
       },
     },
-    Sum: {
+    '3D_Sum': {
       column: ['numero', 'sumDigit'],
       h5Column: ['numero', 'sumDigit'],
       options: {
