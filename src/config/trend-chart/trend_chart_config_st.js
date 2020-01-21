@@ -14,6 +14,8 @@
  */
 const ST = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  // 中間值 用來判斷大小
+  meanValue: 5,
   singleDigit: {
     HUNDREDS: 0,
     TENS: 1,
@@ -28,6 +30,8 @@ const ST = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [2, 4],
         digit: ['HUNDREDS', 'TENS', 'ONES'],
       },
     },
@@ -35,6 +39,8 @@ const ST = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [3, 4],
         digit: ['TENS', 'ONES'],
       },
     },

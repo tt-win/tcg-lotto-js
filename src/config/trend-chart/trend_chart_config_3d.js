@@ -20,6 +20,8 @@
  */
 const _3D = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  // 中間值 用來判斷大小
+  meanValue: 5,
   singleDigit: {
     HUNDREDS: 0,
     TENS: 1,
@@ -34,6 +36,8 @@ const _3D = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 2],
         digit: ['HUNDREDS', 'TENS', 'ONES'],
       },
     },
@@ -41,6 +45,8 @@ const _3D = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 1],
         digit: ['HUNDREDS', 'TENS'],
       },
     },
@@ -48,23 +54,25 @@ const _3D = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [1, 2],
         digit: ['TENS', 'ONES'],
       },
     },
     Sum: {
-      column: ['numero', 'digit'],
-      h5Column: ['numero', 'digit'],
+      column: ['numero', 'sumDigit'],
+      h5Column: ['numero', 'sumDigit'],
       options: {
-        digit: [
-          'Hundreds_Tens_Sum',
-          'Hundreds_Tens_Sum_Last',
-          'Hundreds_Units_Sum',
-          'Hundreds_Units_Sum_Last',
-          'Tens_Units_Sum',
-          'Tens_Units_Sum_Last',
-          'Hundreds_Tens_Units_Sum',
-          'Hundreds_Tens_Units_Sum_Tail',
-        ],
+        sumDigit: {
+          Hundreds_Tens_Sum: [0, 1],
+          Hundreds_Tens_Sum_Last: [0, 1],
+          Hundreds_Units_Sum: [0, 2],
+          Hundreds_Units_Sum_Last: [0, 2],
+          Tens_Units_Sum: [1, 2],
+          Tens_Units_Sum_Last: [1, 2],
+          Hundreds_Tens_Units_Sum: [0, 1, 2],
+          Hundreds_Tens_Units_Sum_Tail: [0, 1, 2],
+        },
       },
     },
   },

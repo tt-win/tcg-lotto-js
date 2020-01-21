@@ -5,6 +5,8 @@
  */
 const PK10 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  // 中間值 用來判斷大小
+  meanValue: 6,
   singleDigit: {
     firstPlace: 0,
     secondPlace: 1,
@@ -36,12 +38,16 @@ const PK10 = {
     First_To_Fifth: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 4],
         digit: ['firstPlace', 'secondPlace', 'thirdPlace', 'fourthPlace', 'fifthPlace'],
       },
     },
     Sixth_To_Tenth: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [5, 9],
         digit: ['sixthPlace', 'seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'],
       },
     },
