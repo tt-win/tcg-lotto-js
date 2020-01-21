@@ -24,6 +24,7 @@ const trendChart = {
     P5_Last_3: 'P5后三',
     P3_First_2: 'P3前二',
     P5_Last_2: 'P5后二',
+    All_4: '四星',
     All_3: '三星',
     '3D_Sum': '和数',
 

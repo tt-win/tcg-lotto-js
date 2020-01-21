@@ -30,7 +30,7 @@ const _4D = {
   },
   list: {
     All_4: {
-      column: ['numero', 'drawNumber', 'digit', 'sum,', 'span', 'type'],
+      column: ['numero', 'drawNumber', 'digit', 'sum', 'span', 'type'],
       h5Column: ['numero', 'drawNumber', 'sum,', 'span', 'type'],
       options: {
         // 判斷 計算所需 開獎號碼位置
