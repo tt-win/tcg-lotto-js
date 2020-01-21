@@ -195,7 +195,8 @@ export default {
   3、开奖号码的后四位（即千百十位）数字对应腾讯当前在线用户人数的后四位数字 ； （如：腾讯在线用户人数为227.763.615人，即后四位开奖号码为,3615，结合第二点，完整开奖号即为9 3615）。<br />\n
   4、当腾讯当前在线用户人数数据超过2期（含2期）未更新，以至每期开奖号都相同，此时平台有权从相同期开始的投注撤单处理。<br />\n
   5、腾讯分分彩种每分钟一期，全天24小时不间断开放。<br />\n
-  6、365数据统计腾讯网：<a href="http://365shuju.com/" style="color: blue" target="_blank">http://365shuju.com/</a>。<br />
+  6、365数据统计腾讯网：<a href="http://365shuju.com/" style="color: blue" target="_blank">http://365shuju.com/</a>。<br />\n
+  7. 开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
 `,
   FHTXFFC: `
   此彩种开奖号码数据将取自腾讯在线的当前在线用户人数，规则具体介绍如下： <br />\n
@@ -233,5 +234,34 @@ export default {
   海南4星彩每周二、五、日开奖，与全国联网电脑体育彩票7星彩(简称“7星彩”)共用开奖号码。7星彩当期开奖过程中，按顺序摇出的前4位数字作为海南四星彩开奖号码的正选号码，由左到右分别为千、百、十、个位 <br />\n 
   「直播网址」：<a href="https://info.sporttery.cn/interface/ipserver.php?domain=media&p=1935&url=/live2/&file=stream" style="color: blue" target="_blank">https://info.sporttery.cn/interface/ipserver.php?domain=media&p=1935&url=/live2/&file=stream</a><br />\n
   「官方网址」：<a href="http://tc.hainan.net/ticai/cz/xc/index.shtml" style="color: blue" target="_blank">http://tc.hainan.net/ticai/cz/xc/index.shtml</a><br />
+`,
+  ZDFSEFFC: `
+  %@ 此彩种开奖号码数据将取自腾讯在线的当前在线用户人数，规则具体介绍如下： <br />\n
+  1、以每3分钟腾讯在线的当前在线用户人数数字生成一个五位数字作为腾讯分分彩当期的开奖号码。<br />\n
+  2、开奖号码的第一位（即万位）数字为腾讯当前在线用户人数数字总和的尾数； （如：腾讯在线用户人数为227.763.615人，即开奖号码万位为2+2+7+7+6+3+6+1+5=39，取尾数 9） 。<br />\n
+  3、开奖号码的后四位（即千百十位）数字对应腾讯当前在线用户人数的后四位数字 ； （如：腾讯在线用户人数为227.763.615人，即后四位开奖号码为,3615，结合第二点，完整开奖号即为9 3615）。<br />\n
+  4、当腾讯当前在线用户人数数据超过2期（含2期）未更新，以至每期开奖号都相同，此时平台有权从相同期开始的投注撤单处理。<br />\n
+  5、腾讯分分彩种每分钟一期，全天24小时不间断开放。<br />\n
+`,
+  HELFFC: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HELSSC: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HELWFC: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HEL10SSC: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HEL1011X5: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HELGS11X5: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
+`,
+  HEL11X5: `
+  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
 `,
 };

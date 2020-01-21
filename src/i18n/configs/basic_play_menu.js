@@ -336,7 +336,7 @@ export const PlayMenu = {
   L4Com6: 1613,
   L4Com4: 1614,
 
-  //LF 4D
+  // LF 4D
   Choose1_Fixed_Place_4D: 2246,
   Any2_Straight_4D: 2249,
   Any2_Straight_Single_4D: 2250,
@@ -744,6 +744,8 @@ export const PlayMenu = {
   Red_Black_Num_K3_Ent: 2228,
   Red_Num_Com_K3_Ent: 2229,
   Black_Num_Com_K3_Ent: 2230,
+	Red_Num_BSOE_K3_ENT: 2269,
+	Black_Num_BSOE_K3_ENT: 2270,
   SUM_COM_BS_OE_K3_ENT: 2238,
   Any_Code_Not_Win_K3_Ent: 2243,
 

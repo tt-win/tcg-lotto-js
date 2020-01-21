@@ -8,6 +8,7 @@ import EN from './EN';
 import JA from './JA';
 import ID from './ID';
 import KO from './KO';
+import TW from './tw';
 
 export const lang = {
   ZH_CN,
@@ -18,6 +19,7 @@ export const lang = {
   JA,
   ID,
   KO,
+  TW,
 };
 
 const defaultLang = 'ZH_CN';

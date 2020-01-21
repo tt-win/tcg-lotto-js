@@ -1,5 +1,6 @@
 import PlayMenu from './playmenu';
 import BaseGame from './base-game';
+import ProTrendChart from './proTrendChart';
 
 const LANG = {
   ...PlayMenu,
@@ -78,8 +79,8 @@ const LANG = {
     SPAN: '跨度',
     BACCARAT: '百家乐',
 
-    Two_Num_Any_Code_4D:'二字现',
-    Three_Num_Any_Code_4D:'三字现',
+    Two_Num_Any_Code_4D: '二字现',
+    Three_Num_Any_Code_4D: '三字现',
 
   },
   startDigit: {
@@ -445,6 +446,7 @@ const LANG = {
   },
   chart: {
     line: '折线',
+    gapBar: '遗漏分层',
     horizontalLine: '辅助线',
     downloadHistory: '下载历史开奖号',
     arithmetic: '正序',
@@ -614,6 +616,10 @@ const LANG = {
   no: '否',
   All: '全部',
   allGames: '全部游戏',
+  topGames: '热门游戏',
+  recentlyGames: '最近游戏',
+  newTag: '新',
+  hotTag: '热',
   status: '状态',
   drawDrawback: '撤单',
   gameHistoryCancel: '确定撤单？',
@@ -791,6 +797,7 @@ const LANG = {
   betNowTrad: '官方玩法',
   betNowElott: '盘口玩法',
   betNowEnt: '娱乐城玩法',
+  betNowEnterGame: '进入玩法',
   addToCart: '添加至购彩篮',
   betDirect: '直接投注',
   lastDraw: '上期开奖',
@@ -981,13 +988,14 @@ const LANG = {
   Boazi: '豹子',
   Single_Same_2: '对子',
   Red_Black_Num_K3_Ent: '红黑码',
+	Red_Black_BSOE: '红黑大小单双',
   Red_Num_Com_K3_Ent: '红码组合',
   Black_Num_Com_K3_Ent: '黑码组合',
   Dragon_Tiger_1_VS_2_K3_Ent: '第一球 vs 第二球',
   Dragon_Tiger_1_VS_3_K3_Ent: '第一球 vs 第三球',
   Dragon_Tiger_2_VS_3_K3_Ent: '第二球 vs 第三球',
   Span_All_K3_Ent: '跨度',
-  
+
   // 11X5 ENT
   Two_Side_Total_Sum_Group_11X5: '总和',
   Any1_11X5: '一中一',
@@ -1090,7 +1098,7 @@ const LANG = {
     unitsBS: '个大小',
     unitsOE: '个单双',
     unitsPC: '个质合',
-    spanCompare: '跨度',    
+    spanCompare: '跨度',
   },
 
   entPicture: {
@@ -1349,9 +1357,10 @@ const LANG = {
     K3_Span_2: '2',
     K3_Span_3: '3',
     K3_Span_4: '4',
-    K3_Span_5: '5',    
+    K3_Span_5: '5',
   },
   ...BaseGame,
+  ...ProTrendChart,
 };
 
 export default LANG;
