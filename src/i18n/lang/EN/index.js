@@ -9,7 +9,7 @@ const LANG = {
   betSuccess: 'Bet Success',
   confirmBetInfos: 'Please Confirm the Betting Details',
   balance: 'Balance',
-  betAmountOverMaxAmount: 'Your bet has exceeded the maximum amount.<br />The maximum bet amount for this division is %@Yuan.',
+  betAmountOverMaxAmount: 'Your bet has exceeded the maximum amount.<br />The maximum bet amount for this division is %@ .',
   totalAmount: 'Total Amount',
   currency: '¥',
   currencyThb: '฿',
