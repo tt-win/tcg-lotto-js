@@ -60,8 +60,8 @@ const _3D = {
       },
     },
     '3D_Sum': {
-      column: ['numero', 'sumDigit'],
-      h5Column: ['numero', 'sumDigit'],
+      column: ['numero', 'drawNumber', 'sumDigit'],
+      h5Column: ['numero', 'drawNumber', 'sumDigit'],
       options: {
         sumDigit: {
           Hundreds_Tens_Sum: { type: 'sum', digit: [0, 1] },
