@@ -65,7 +65,7 @@ const PK10 = {
         sumDigit: {
           firstSecondSum: { type: 'sum', digit: [0, 1] },
           firstSecondThirdSum: { type: 'sum', digit: [0, 1, 2] },
-          firstThirdSum: { type: 'sum', digit: [0, 2] },
+          firstThirdSum: { type: 'sum', digit: [0, 9] },
         },
       },
     },
