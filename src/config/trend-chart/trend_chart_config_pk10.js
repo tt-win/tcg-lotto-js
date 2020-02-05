@@ -69,6 +69,23 @@ const PK10 = {
         },
       },
     },
+    BSOE: {
+      column: ['numero', 'drawNumber', 'BSOEDigit'],
+      options: {
+        BSOEDigit: {
+          firstBSOE: 0,
+          secondBSOE: 1,
+          thirdBSOE: 2,
+          fourthBSOE: 3,
+          fifthBSOE: 4,
+          sixthBSOE: 5,
+          seventhBSOE: 6,
+          eighthBSOE: 7,
+          ninthBSOE: 8,
+          tenthBSOE: 9,
+        },
+      },
+    },
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
       h5Column: ['numero', 'drawNumber', 'dragonTiger'],
