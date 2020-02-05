@@ -40,7 +40,7 @@ const PK10 = {
       options: {
         // 判斷 計算所需 開獎號碼位置
         ballDigit: [0, 2],
-        digit: ['firstPlace', 'secondPlace', 'thirdPlace', 'fourthPlace', 'fifthPlace'],
+        digit: ['firstPlace', 'secondPlace', 'thirdPlace'],
       },
     },
     Fourth_To_Sixth: {
@@ -48,7 +48,7 @@ const PK10 = {
       options: {
         // 判斷 計算所需 開獎號碼位置
         ballDigit: [3, 5],
-        digit: ['firstPlace', 'secondPlace', 'thirdPlace', 'fourthPlace', 'fifthPlace'],
+        digit: ['fourthPlace', 'fifthPlace', 'sixthPlace'],
       },
     },
     Seventh_To_Tenth: {
@@ -56,7 +56,7 @@ const PK10 = {
       options: {
         // 判斷 計算所需 開獎號碼位置
         ballDigit: [6, 9],
-        digit: ['sixthPlace', 'seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'],
+        digit: ['seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'],
       },
     },
     Dragon_Tiger: {
