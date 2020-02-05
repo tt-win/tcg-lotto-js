@@ -35,19 +35,27 @@ const PK10 = {
     dragonTiger: ['Dragon_Tiger'],
   },
   list: {
-    First_To_Fifth: {
+    First_To_Third: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
         // 判斷 計算所需 開獎號碼位置
-        ballDigit: [0, 4],
+        ballDigit: [0, 2],
         digit: ['firstPlace', 'secondPlace', 'thirdPlace', 'fourthPlace', 'fifthPlace'],
       },
     },
-    Sixth_To_Tenth: {
+    Fourth_To_Sixth: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
         // 判斷 計算所需 開獎號碼位置
-        ballDigit: [5, 9],
+        ballDigit: [3, 5],
+        digit: ['firstPlace', 'secondPlace', 'thirdPlace', 'fourthPlace', 'fifthPlace'],
+      },
+    },
+    Seventh_To_Tenth: {
+      column: ['numero', 'drawNumber', 'digit'],
+      options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [6, 9],
         digit: ['sixthPlace', 'seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'],
       },
     },

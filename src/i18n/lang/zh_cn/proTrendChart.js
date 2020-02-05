@@ -33,8 +33,9 @@ const trendChart = {
     Fixed_Place_Complex: '定位综合',
 
     // PK10 二級選單
-    First_To_Fifth: '第1-5名',
-    Sixth_To_Tenth: '第6-10名',
+    First_To_Third: '第1-3名',
+    Fourth_To_Sixth: '第4-6名',
+    Seventh_To_Tenth: '第7-10名',
 
     // 走勢圖
     numero: '期号',
