@@ -59,6 +59,16 @@ const PK10 = {
         digit: ['seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'],
       },
     },
+    sum: {
+      column: ['numero', 'drawNumber', 'sumDigit'],
+      options: {
+        sumDigit: {
+          firstSecondSum: { type: 'sum', digit: [0, 1] },
+          firstSecondThirdSum: { type: 'sum', digit: [0, 1, 2] },
+          firstThirdSum: { type: 'sum', digit: [0, 2] },
+        },
+      },
+    },
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
       h5Column: ['numero', 'drawNumber', 'dragonTiger'],

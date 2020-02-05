@@ -27,6 +27,7 @@ const trendChart = {
     All_4: '四星',
     All_3: '三星',
     '3D_Sum': '和数',
+    Complex: '综合',
 
     // 11x5 二級選單
     Fixed_Place: '定位',
@@ -81,6 +82,9 @@ const trendChart = {
     com6: '组六',
     baozi: '豹子',
     pair: '对子',
+    firstSecondSum: '冠亚和值',
+    firstSecondThirdSum: '冠亚季和值',
+    firstThirdSum: '首尾和值',
     Dragon_Tiger_Tie_5_4: '第一球 VS 第二球',
     Dragon_Tiger_Tie_5_3: '第一球 VS 第三球',
     Dragon_Tiger_Tie_5_2: '第一球 VS 第四球',
