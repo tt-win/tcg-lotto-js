@@ -112,6 +112,7 @@ const SSC = {
     },
     Last_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
         ballDigit: [3, 4],
         digit: ['TENS', 'ONES'],
@@ -119,6 +120,7 @@ const SSC = {
     },
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
+      h5Column: ['numero', 'drawNumber', 'dragonTiger'],
       options: {
         dragonTiger: {
           Dragon_Tiger_Tie_5_4: [0, 1],
