@@ -153,6 +153,24 @@ const trendChart = {
     comboWin: '最大连出值',
     // 歷史開講數據
     drawTime: '开奖日期',
+
+    h5proTrendChart: {
+      Dragon_Tiger_Tie_5_4: '1 vs 2',
+      Dragon_Tiger_Tie_5_3: '1 vs 3',
+      Dragon_Tiger_Tie_5_2: '1 vs 4',
+      Dragon_Tiger_Tie_5_1: '1 vs 5',
+      Dragon_Tiger_Tie_4_3: '2 vs 3',
+      Dragon_Tiger_Tie_4_2: '2 vs 4',
+      Dragon_Tiger_Tie_4_1: '2 vs 5',
+      Dragon_Tiger_Tie_3_2: '3 vs 4',
+      Dragon_Tiger_Tie_3_1: '3 vs 5',
+      Dragon_Tiger_Tie_2_1: '4 vs 5',
+      Dragon_Tiger_1_VS_10: '1 vs 10',
+      Dragon_Tiger_2_VS_9: '2 vs 9',
+      Dragon_Tiger_3_VS_8: '3 vs 8',
+      Dragon_Tiger_4_VS_7: '4 vs 7',
+      Dragon_Tiger_5_VS_6: '5 vs 6',
+    },
   },
 };
 
