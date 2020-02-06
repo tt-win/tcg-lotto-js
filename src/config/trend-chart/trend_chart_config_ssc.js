@@ -46,7 +46,7 @@ const SSC = {
     },
     All_5_Complex: {
       column: ['numero', 'drawNumber', 'numberSpread', 'sum', 'span', 'type', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio'],
-      h5Column: ['numero', 'drawNumber', 'sum', 'span', 'largeSmallRatio', 'oddEvenRatio'],
+      h5Column: ['numero', 'drawNumber', 'sum', 'largeSmallRatio', 'oddEvenRatio'],
       options: {
         // 判斷 計算所需 開獎號碼位置
         ballDigit: [0, 4],
