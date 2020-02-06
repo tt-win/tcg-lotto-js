@@ -73,6 +73,7 @@ const trendChart = {
     sum: '和值',
     span: '跨度',
     type: '组态',
+    middleNumber: '中位值',
     largeSmallRatio: '大小比',
     oddEvenRatio: '单双比',
     primCompRatio: '质合比',
