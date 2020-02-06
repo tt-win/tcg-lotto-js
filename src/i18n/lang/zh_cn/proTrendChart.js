@@ -42,6 +42,7 @@ const trendChart = {
     // 走勢圖
     numero: '期号',
     drawNumber: '开奖号码',
+    trend: '走势',
     TEN_THOUSANDS: '万位',
     THOUSANDS: '千位',
     HUNDREDS: '百位',
