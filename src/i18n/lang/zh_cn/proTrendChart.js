@@ -28,6 +28,7 @@ const trendChart = {
     All_3: '三星',
     '3D_Sum': '和数',
     Complex: '综合',
+    Sum: '和值',
 
     // 11x5 二級選單
     Fixed_Place: '定位',

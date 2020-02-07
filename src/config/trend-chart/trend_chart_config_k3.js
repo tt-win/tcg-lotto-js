@@ -31,7 +31,7 @@ const K3 = {
     multipleTrend: ['Com', 'Sum'],
   },
   list: {
-    Com: {
+    Complex: {
       column: [
         'numero',
         'drawNumber',
