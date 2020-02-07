@@ -264,4 +264,10 @@ export default {
   HEL11X5: `
   开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
 `,
+  XYPK10: `
+  官方网址： <a href="http://www.luckyairship.com/" style="color: blue" target="_blank">http://www.luckyairship.com/</a><br />\n
+`,
+  LASPK10: `
+  官方网址： <a href="https://luckyairships.com/" style="color: blue" target="_blank">https://luckyairships.com/</a><br />\n
+`,
 };
