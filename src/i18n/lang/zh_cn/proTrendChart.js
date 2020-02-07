@@ -34,6 +34,7 @@ const trendChart = {
     Fixed_Place: '定位',
     Fixed_Place_Complex: '定位综合',
     BSOE: '大小单双',
+    sumBSOE: '大小单双',
 
     // PK10 二級選單
     First_To_Third: '第1-3名',
@@ -74,6 +75,7 @@ const trendChart = {
     normalFour: '正码四',
     normalFive: '正码五',
     normalSix: '正码六',
+    sumTrend: '和值走势',
     numberSpread: '号码分布',
     sum: '和值',
     span: '跨度',
@@ -89,6 +91,9 @@ const trendChart = {
     com6: '组六',
     baozi: '豹子',
     pair: '对子',
+    pair_K3: '对子(二同号)',
+    com6_K3: '组六(三不同)',
+    baozi_K3: '豹子(三同号)',
     firstSecondSum: '冠亚和值',
     firstSecondThirdSum: '冠亚季和值',
     firstThirdSum: '首尾和值',
