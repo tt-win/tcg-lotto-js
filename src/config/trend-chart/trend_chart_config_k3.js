@@ -67,8 +67,11 @@ const K3 = {
       },
     },
     Sum: {
-      column: ['numero', 'drawNumber', 'numberSpread_Sum', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
-      h5Column: ['numero', 'drawNumber', 'numberSpread_Sum', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      column: ['numero', 'drawNumber', 'numberSpread', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      h5Column: ['numero', 'drawNumber', 'numberSpread', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      options: {
+        ballDigit: [0, 2],
+      },
     },
   },
 };
