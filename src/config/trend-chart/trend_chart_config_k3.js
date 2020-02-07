@@ -20,6 +20,7 @@
  */
 const K3 = {
   numGroup: [1, 2, 3, 4, 5, 6],
+  meanValue: 4,
   singleDigit: {
     HUNDREDS: 0,
     TENS: 1,
@@ -43,7 +44,6 @@ const K3 = {
         'thirdBall',
         'thirdBallBS',
         'thirdBallOE',
-        'thirdBallOE',
         'span',
       ],
       h5Column: [
@@ -57,10 +57,22 @@ const K3 = {
         'thirdBallOE',
         'span',
       ],
+      options: {
+        ballDigit: [0, 2],
+        firstBall: 0,
+        firstBallBS: 0,
+        firstBallOE: 0,
+        secondBall: 1,
+        secondBallBS: 1,
+        secondBallOE: 1,
+        thirdBall: 2,
+        thirdBallBS: 2,
+        thirdBallOE: 2,
+      },
     },
     Sum: {
-      column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
-      h5Column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      column: ['numero', 'drawNumber', 'numberSpread_Sum', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      h5Column: ['numero', 'drawNumber', 'numberSpread_Sum', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
     },
   },
 };
