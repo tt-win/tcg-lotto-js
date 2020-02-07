@@ -75,6 +75,7 @@ const trendChart = {
     normalFour: '正码四',
     normalFive: '正码五',
     normalSix: '正码六',
+    sumTrend: '和值走势',
     numberSpread: '号码分布',
     sum: '和值',
     span: '跨度',
