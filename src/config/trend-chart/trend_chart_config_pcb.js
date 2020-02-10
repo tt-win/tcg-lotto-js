@@ -24,7 +24,7 @@ const PCB = {
     multipleTrend: ['Com'],
   },
   list: {
-    Com: {
+    Complex: {
       column: ['numero', 'digitFixed', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],
       h5Column: ['numero', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],
       options: {
