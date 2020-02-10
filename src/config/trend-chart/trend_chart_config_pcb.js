@@ -12,6 +12,7 @@ import _ from 'lodash';
 
 const PCB = {
   numGroup: _.times(10),
+  sumNumGroup: _.times(28),
   sumMeanValue: 14,
   singleDigit: {
     firstBall: 0,
