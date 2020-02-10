@@ -29,7 +29,11 @@ const PCB = {
       h5Column: ['numero', 'special', 'specialBS', 'specialOE', 'extremum', 'colorBall', 'baozi'],
       options: {
         ballDigit: [0, 2],
-        digitFixed: [0, 1, 2],
+        digitFixed: {
+          firstBall: 0,
+          secondBall: 1,
+          thirdBall: 2,
+        },
         digit: ['firstBall', 'secondBall', 'thirdBall'],
         extremum: {
           extremumBig: [22, 27],
