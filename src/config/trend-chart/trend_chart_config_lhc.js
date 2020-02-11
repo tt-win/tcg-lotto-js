@@ -17,6 +17,7 @@ import _ from 'lodash';
 
 const LHC = {
   numGroup: _.times(49, (n) => _.padStart(n + 1, 2, '0')),
+  sumMeanValue: 175,
   singleDigit: {
     normalOne: 0,
     normalTwo: 1,
