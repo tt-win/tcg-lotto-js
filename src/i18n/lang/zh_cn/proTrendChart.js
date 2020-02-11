@@ -137,6 +137,10 @@ const trendChart = {
     Tens_Units_Sum_Last: '十个和尾',
     Hundreds_Tens_Units_Sum: '百十个和数',
     Hundreds_Tens_Units_Sum_Tail: '百十个和尾',
+    specialBS: '特码大小',
+    specialOE: '特码单双',
+    extremum: '极值',
+    colorBall: '色波',
 
     big: '大',
     small: '小',
@@ -147,6 +151,12 @@ const trendChart = {
     dragon: '龙',
     tiger: '虎',
     tie: '和',
+    extremumBig: '极大',
+    extremumSmall: '极小',
+    colorStraightRed: '红波',
+    colorStraightBlue: '蓝波',
+    colorStraightGreen: '绿波',
+    draw: '和局',
 
     AllCom120: '五星组选 120',
     AllCom60: '五星组选 60',
