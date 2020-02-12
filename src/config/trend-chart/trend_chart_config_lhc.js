@@ -18,6 +18,9 @@ import _ from 'lodash';
 const LHC = {
   numGroup: _.times(49, (n) => _.padStart(n + 1, 2, '0')),
   sumMeanValue: 175,
+  specialMeanValue: 25,
+  specialSumMeanValue: 7,
+  specialTailMeanValue: 5,
   singleDigit: {
     normalOne: 0,
     normalTwo: 1,
@@ -32,7 +35,7 @@ const LHC = {
     multipleTrend: ['Com'],
   },
   list: {
-    Com: {
+    Complex: {
       column: [
         'numero',
         'digitFixed',

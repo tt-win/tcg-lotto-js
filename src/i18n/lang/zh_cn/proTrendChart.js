@@ -145,6 +145,11 @@ const trendChart = {
     extremum: '极值',
     colorBall: '色波',
     colorBallLHC: '色波',
+    specialBSLHC: '特大小',
+    specialOELHC: '特单双',
+    specialSumBS: '特合大小',
+    specialSumOE: '特合单双',
+    specialTailBS: '特尾大小',
 
     big: '大',
     small: '小',
