@@ -35,7 +35,7 @@ const LHC = {
     multipleTrend: ['Com'],
   },
   list: {
-    Complex: {
+    Complex_LHC: {
       column: [
         'numero',
         'digitFixed',
