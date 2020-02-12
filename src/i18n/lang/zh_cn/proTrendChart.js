@@ -28,6 +28,7 @@ const trendChart = {
     All_3: '三星',
     '3D_Sum': '和数',
     Complex: '综合',
+    Complex_LHC: '综合',
     Sum: '和值',
     Number_Spread: '号码分布',
 
@@ -145,6 +146,11 @@ const trendChart = {
     extremum: '极值',
     colorBall: '色波',
     colorBallLHC: '色波',
+    specialBSLHC: '特大小',
+    specialOELHC: '特单双',
+    specialSumBS: '特合大小',
+    specialSumOE: '特合单双',
+    specialTailBS: '特尾大小',
 
     big: '大',
     small: '小',
@@ -157,6 +163,8 @@ const trendChart = {
     tie: '和',
     extremumBig: '极大',
     extremumSmall: '极小',
+    extremumDraw: '-',
+    specialDraw: '-',
     colorStraightRed: '红波',
     colorStraightBlue: '蓝波',
     colorStraightGreen: '绿波',
