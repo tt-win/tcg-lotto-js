@@ -42,7 +42,7 @@ const _11X5 = {
     },
     Fixed_Place_Complex: {
       column: ['numero', 'drawNumber', 'numberSpread', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'sum', 'span', 'middleNumber'],
-      h5Column: ['numero', 'drawNumber', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'sum', 'span', 'middleNumber'],
+      h5Column: ['numero', 'drawNumber', 'largeSmallRatio', 'oddEvenRatio', 'middleNumber'],
       options: {
         ballDigit: [0, 4],
         largeSmallRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
