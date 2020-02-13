@@ -29,7 +29,7 @@ const _3D = {
   },
   h5FilterConfig: {
     singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
-    multipleTrend: ['All_3', 'First_2', 'Last_2', 'Sum'],
+    multipleTrend: ['All_3', 'First_2', 'Last_2', '3D_Sum'],
   },
   list: {
     All_3: {
