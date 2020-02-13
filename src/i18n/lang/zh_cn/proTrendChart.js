@@ -5,8 +5,8 @@ const trendChart = {
     barChart: '直方图',
     drawChart: '历史开奖数据',
     filterBy: '筛选条件',
-    singleTrend: '单号走势',
-    multipleTrend: '多号走势',
+    singleTrend: '定位走势',
+    multipleTrend: '组合走势',
     dragonTiger: '龙虎',
 
     // SSC 二級選單

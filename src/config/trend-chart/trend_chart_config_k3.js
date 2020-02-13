@@ -20,7 +20,7 @@
  */
 const K3 = {
   numGroup: [1, 2, 3, 4, 5, 6],
-  sumNumGroup: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ,18],
+  sumNumGroup: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
   meanValue: 4,
   sumMeanValue: 11,
   singleDigit: {
@@ -70,7 +70,7 @@ const K3 = {
     },
     Sum: {
       column: ['numero', 'drawNumber', 'numberSpread', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
-      h5Column: ['numero', 'drawNumber', 'numberSpread', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      h5Column: ['numero', 'drawNumber', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
       options: {
         ballDigit: [0, 2],
         sumTrend: ['sumTrend'],
