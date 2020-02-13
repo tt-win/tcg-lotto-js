@@ -30,7 +30,7 @@ const K3 = {
   },
   h5FilterConfig: {
     singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
-    multipleTrend: ['Com', 'Sum'],
+    multipleTrend: ['Complex', 'Sum'],
   },
   list: {
     Complex: {
