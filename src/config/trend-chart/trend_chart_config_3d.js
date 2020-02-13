@@ -29,12 +29,12 @@ const _3D = {
   },
   h5FilterConfig: {
     singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
-    multipleTrend: ['All_3', 'First_2', 'Last_2', 'Sum'],
+    multipleTrend: ['All_3', 'First_2', 'Last_2', '3D_Sum'],
   },
   list: {
     All_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
-      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       options: {
         // 判斷 計算所需 開獎號碼位置
         ballDigit: [0, 2],

@@ -61,6 +61,7 @@ const PK10 = {
     },
     sum: {
       column: ['numero', 'drawNumber', 'sumDigit'],
+      h5Column: ['numero', 'drawNumber', 'sumDigit'],
       options: {
         sumDigit: {
           firstSecondSum: { type: 'sum', digit: [0, 1] },
@@ -71,6 +72,7 @@ const PK10 = {
     },
     BSOE: {
       column: ['numero', 'drawNumber', 'BSOEDigit'],
+      h5Column: ['numero', 'drawNumber', 'BSOEDigit'],
       options: {
         BSOEDigit: {
           firstBSOE: 0,
