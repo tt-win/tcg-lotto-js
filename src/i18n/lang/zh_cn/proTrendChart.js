@@ -12,8 +12,10 @@ const trendChart = {
     // SSC 二級選單
     All_5: '五星',
     All_5_Complex: '五星综合',
+    All_4_NumberSpread: '四星分布',
     First_4: '前四',
     Last_4: '后四',
+    All_3_NumberSpread: '三星分布',
     First_3: '前三',
     Middle_3: '中三',
     Last_3: '后三',
@@ -31,6 +33,11 @@ const trendChart = {
     Complex_LHC: '综合',
     Sum: '和值',
     Number_Spread: '号码分布',
+    first4NumberSpread: '前四号码分布',
+    last4NumberSpread: '后四号码分布',
+    first3NumberSpread: '前三号码分布',
+    middle3NumberSpread: '中三号码分布',
+    last3NumberSpread: '后三号码分布',
 
     // 11x5 二級選單
     Fixed_Place: '定位',
