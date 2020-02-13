@@ -60,6 +60,15 @@ const SSC = {
         primCompRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
       },
     },
+    All_4_NumberSpread: {
+      column: ['numero', 'drawNumber', 'numberSpreadDigit'],
+      options: {
+        numberSpreadDigit: {
+          first4NumberSpread: [0, 3],
+          last4NumberSpread: [1, 4],
+        },
+      },
+    },
     First_4: {
       column: ['numero', 'drawNumber', 'digit', 'sum', 'span', 'type'],
       h5Column: ['numero', 'drawNumber', 'sum', 'span', 'type'],
@@ -76,6 +85,16 @@ const SSC = {
         ballDigit: [1, 4],
         digit: ['THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
         type: ['L4Com24', 'L4Com12', 'L4Com6', 'L4Com4'],
+      },
+    },
+    All_3_NumberSpread: {
+      column: ['numero', 'drawNumber', 'numberSpreadDigit'],
+      options: {
+        numberSpreadDigit: {
+          first3NumberSpread: [0, 2],
+          middle3NumberSpread: [1, 3],
+          last3NumberSpread: [2, 4],
+        },
       },
     },
     First_3: {
@@ -103,7 +122,7 @@ const SSC = {
       },
     },
     First_2: {
-      column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      column: ['numero', 'drawNumber', 'numberSpread', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'pair'],
       options: {
         ballDigit: [0, 1],
@@ -111,7 +130,7 @@ const SSC = {
       },
     },
     Last_2: {
-      column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      column: ['numero', 'drawNumber', 'numberSpread', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'pair'],
       options: {
         ballDigit: [3, 4],
