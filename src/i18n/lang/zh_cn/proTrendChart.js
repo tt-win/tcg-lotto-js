@@ -191,6 +191,7 @@ const trendChart = {
     L4Com12: '后四组选 12',
     L4Com6: '后四组选 6',
     L4Com4: '后四组选 4',
+    noType: '-',
 
     // 統計數據欄位
     totalTimes: '出现总次数',
