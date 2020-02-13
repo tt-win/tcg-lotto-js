@@ -21,7 +21,7 @@ const PCB = {
   },
   h5FilterConfig: {
     singleTrend: ['firstBall', 'secondBall', 'thirdBall'],
-    multipleTrend: ['Com'],
+    multipleTrend: ['Complex'],
   },
   list: {
     Complex: {
