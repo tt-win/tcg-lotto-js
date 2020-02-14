@@ -70,7 +70,7 @@ const K3 = {
     },
     Sum: {
       column: ['numero', 'drawNumber', 'numberSpread', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
-      h5Column: ['numero', 'drawNumber', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      h5Column: ['numero', 'drawNumber', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
       options: {
         ballDigit: [0, 2],
         sumTrend: ['sumTrend'],
