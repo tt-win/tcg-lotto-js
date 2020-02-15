@@ -31,7 +31,7 @@ const LHC = {
     special: 6,
   },
   h5FilterConfig: {
-    singleTrend: ['normalOne', 'normalTwo', 'normalThree', 'normalFour', 'normalFive', 'normalSix', 'special'],
+    singleTrend: ['Digit_Fixed'],
     multipleTrend: ['Complex_LHC'],
   },
   list: {
