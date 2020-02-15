@@ -51,7 +51,6 @@ const LHC = {
       ],
       h5Column: [
         'numero',
-        'digitFixed',
         'total',
         'totalBS',
         'totalOE',
