@@ -29,9 +29,19 @@ const SSC = {
     TENS: 3,
     ONES: 4,
   },
+  h5NumberSpreadDigit: {
+    first4NumberSpread: [0, 3],
+    last4NumberSpread: [1, 4],
+    first3NumberSpread: [0, 2],
+    middle3NumberSpread: [1, 3],
+    last3NumberSpread: [2, 4],
+    first2NumberSpread: [0, 1],
+    last2NumberSpread: [3, 4],
+  },
   h5FilterConfig: {
     singleTrend: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
     multipleTrend: ['All_5_Complex', 'First_4', 'Last_4', 'First_3', 'Middle_3', 'Last_3','First_2', 'Last_2'],
+    numberSpread: ['All_5_Spread', 'First_4_Spread', 'Last_4_Spread', 'First_3_Spread', 'Middle_3_Spread', 'Last_3_Spread', 'First_2_Spread', 'Last_2_Spread'],
     dragonTiger: ['Dragon_Tiger'],
   },
   list: {
