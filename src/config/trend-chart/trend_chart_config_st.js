@@ -17,9 +17,9 @@ const ST = {
   // 中間值 用來判斷大小
   meanValue: 5,
   singleDigit: {
-    HUNDREDS: 0,
-    TENS: 1,
-    ONES: 2,
+    HUNDREDS: 2,
+    TENS: 3,
+    ONES: 4,
   },
   h5FilterConfig: {
     singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
