@@ -41,7 +41,7 @@ const SSC = {
   h5FilterConfig: {
     singleTrend: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
     multipleTrend: ['All_5_Complex', 'First_4', 'Last_4', 'First_3', 'Middle_3', 'Last_3','First_2', 'Last_2'],
-    numberSpread: ['All_5_Spread', 'First_4_Spread', 'Last_4_Spread', 'First_3_Spread', 'Middle_3_Spread', 'Last_3_Spread', 'First_2_Spread', 'Last_2_Spread'],
+    numberSpread: ['All_5', 'First_4', 'Last_4', 'First_3', 'Middle_3', 'Last_3', 'First_2', 'Last_2'],
     dragonTiger: ['Dragon_Tiger'],
   },
   list: {
