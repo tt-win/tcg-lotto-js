@@ -21,7 +21,7 @@ const PCB = {
   },
   h5FilterConfig: {
     singleTrend: ['firstBall', 'secondBall', 'thirdBall'],
-    multipleTrend: ['Complex'],
+    multipleTrend: ['Complex', 'Number_Spread'],
   },
   list: {
     Complex: {
@@ -43,7 +43,7 @@ const PCB = {
     },
     Number_Spread: {
       column: ['numero', 'drawNumber', 'numberSpread', 'sumTrend'],
-      h5Column: ['numero', 'drawNumber', 'numberSpread', 'sumTrend'],
+      h5Column: ['numero', 'drawNumber', 'numberSpread'],
       options: {
         ballDigit: [0, 2],
         sumTrend: ['sumTrend'],
