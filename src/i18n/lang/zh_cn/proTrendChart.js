@@ -31,6 +31,7 @@ const trendChart = {
     '3D_Sum': '和数',
     Complex: '综合',
     Complex_LHC: '综合',
+    Complex_PCB: '综合',
     Digit_Fixed: '正码',
     Sum: '和值',
     Number_Spread: '号码分布',
