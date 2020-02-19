@@ -212,6 +212,10 @@ const LANG = {
       bankerPair: '庄对',
       playerPair: '闲对',
     },
+    redBlackNum: {
+      red: '红',
+      black: '黑',
+    }
   },
   gameGroupCode: {
     SSC: '时时彩',
