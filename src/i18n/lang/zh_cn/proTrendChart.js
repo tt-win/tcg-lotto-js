@@ -40,6 +40,8 @@ const trendChart = {
     first3NumberSpread: '前三号码分布',
     middle3NumberSpread: '中三号码分布',
     last3NumberSpread: '后三号码分布',
+    first2NumberSpread: '前二号码分布',
+    last2NumberSpread: '后二号码分布',
 
     // 11x5 二級選單
     Fixed_Place: '定位',
