@@ -122,19 +122,25 @@ const SSC = {
       },
     },
     First_2: {
-      column: ['numero', 'drawNumber', 'numberSpread', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      column: ['numero', 'drawNumber', 'numberSpreadDigit', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'pair'],
       options: {
         ballDigit: [0, 1],
         digit: ['TEN_THOUSANDS', 'THOUSANDS'],
+        numberSpreadDigit: {
+          first2NumberSpread: [0, 1],
+        },
       },
     },
     Last_2: {
-      column: ['numero', 'drawNumber', 'numberSpread', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      column: ['numero', 'drawNumber', 'numberSpreadDigit', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'pair'],
       options: {
         ballDigit: [3, 4],
         digit: ['TENS', 'ONES'],
+        numberSpreadDigit: {
+          last2NumberSpread: [3, 4],
+        },
       },
     },
     Dragon_Tiger: {
