@@ -1363,6 +1363,13 @@ const LANG = {
     K3_Span_4: '4',
     K3_Span_5: '5',
   },
+  twoSidePlay: {
+    showAll: '全部',
+    threeRow: '连三',
+    fourRow: '连四',
+    sevenRow: '连七',
+    nineRow: '连九',
+  },
   ...BaseGame,
   ...ProTrendChart,
 };
