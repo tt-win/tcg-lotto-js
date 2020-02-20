@@ -51,6 +51,10 @@ export default {
          '6、腾讯QQ官网：<a href="http://im.qq.com/" style="color: blue" target="_blank">http://im.qq.com/ </a>(首页右上方为在线统计人数），' +
             '奇趣统计官网：<a href="http://www.77tj.org/" style="color: blue" target="_blank">http://www.77tj.org/</a>。<br />',
   HK6: '每周二、周四、周六（或周日）开奖；周六如遇赛马延至周日开奖<br />',
+  TWLHC: `
+    此彩种来源于台湾乐透彩券官方网站公开结果号码。 每周星期二、星期五开奖，每期结果将由01-49球号中抽出6组开奖号码加一组特别号码。<br />\n
+    官方网址： <a href="https://www.taiwanlottery.com.tw/lotto/Lotto649/history.aspx" style="color: blue; display:inline-block" target="_blank">https://www.taiwanlottery.com.tw/lotto/Lotto649/history.aspx</a>\n
+  `,
   BJLK28: '%@开奖结果来源于国家福利彩票北京快乐8(官网)开奖号码，每期开奖共开出20个数字，幸运28将这20个开奖号码按照由小到大的顺序依次排列；<br />\n' +
           '取其1-6位开奖号码相加，和值的末位数作为幸运 28开奖第一个数值；<br />\n' +
           '取其7-12位开奖号码相加，和值的末位数作为幸运28开奖第二个数值；<br />\n' +
