@@ -1366,9 +1366,10 @@ const LANG = {
   twoSidePlay: {
     showAll: '全部',
     threeRow: '连三',
-    fourRow: '连四',
+    fiveRow: '连五',
     sevenRow: '连七',
     nineRow: '连九',
+    allSelected: '全选',
   },
   ...BaseGame,
   ...ProTrendChart,
