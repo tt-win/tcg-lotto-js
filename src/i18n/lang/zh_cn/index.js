@@ -1363,6 +1363,10 @@ const LANG = {
     K3_Span_4: '4',
     K3_Span_5: '5',
   },
+  longDragon: '长龙投注',
+  longDragonLott: '彩种类型',
+  refresh: '刷新',
+  longDragonContinuousDraw: '连%@期',
   twoSidePlay: {
     showAll: '全部',
     threeRow: '连三',
