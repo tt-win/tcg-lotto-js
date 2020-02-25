@@ -215,7 +215,7 @@ const LANG = {
     redBlackNum: {
       red: '红',
       black: '黑',
-    }
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',
@@ -992,7 +992,7 @@ const LANG = {
   Boazi: '豹子',
   Single_Same_2: '对子',
   Red_Black_Num_K3_Ent: '红黑码',
-	Red_Black_BSOE: '红黑大小单双',
+  Red_Black_BSOE: '红黑大小单双',
   Red_Num_Com_K3_Ent: '红码组合',
   Black_Num_Com_K3_Ent: '黑码组合',
   Dragon_Tiger_1_VS_2_K3_Ent: '第一球 vs 第二球',
