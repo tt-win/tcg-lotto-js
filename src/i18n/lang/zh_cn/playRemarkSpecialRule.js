@@ -290,4 +290,8 @@ export default {
   此彩种来源于新加坡博彩公司官方网站公开结果号码。 每周星期一、星期四开奖，每期结果将由01-49球号中抽出6组开奖号码加一组特别号码。<br />\n
   官方网址： <a href="http://www.singaporepools.com.sg/ch/product/Pages/toto_results.aspx" style="color: blue" target="_blank">http://www.singaporepools.com.sg/ch/product/Pages/toto_results.aspx</a><br />\n
   `,
+  SG4D: `
+  此彩种来源于新加坡博彩公司官方网站公开结果号码。 每周星期一到星期六开奖，每期结果将由0000~9999中随机开出一组号码。由左到右分别为千、百、十、个位。<br />\n
+  官方网址： <a href="http://www.singaporepools.com.sg/ch/product/Pages/4d_results.aspx" style="color: blue" target="_blank">http://www.singaporepools.com.sg/ch/product/Pages/4d_results.aspx</a><br />\n
+  `,
 };
