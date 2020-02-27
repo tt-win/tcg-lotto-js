@@ -2,7 +2,9 @@
 // 娛樂城的playMenu拉出去做
 import entertainmentPlayMenu from './play-ent';
 import { lhcPlayId, lhcBothSideRank, lhcPlayKey } from './play-lhc';
-// import { pcbPlayKey } from './play-pcb';
+import { sscBothSideRank } from './play-ssc';
+import { pcbBothSideRank } from './play-pcb';
+import { k3BothSideRank } from './play-k3';
 import playRemark from './playRemark';
 import playRemarkSpecialRule from './playRemarkSpecialRule';
 
@@ -1080,6 +1082,9 @@ const PlayMenu = {
   },
   bothSideRank: {
     ...lhcBothSideRank,
+    ...sscBothSideRank,
+    ...pcbBothSideRank,
+    ...k3BothSideRank,
   },
   // 娛樂城
   entertainmentBetContent: {
