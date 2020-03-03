@@ -10,4 +10,5 @@ export default {
   5: action.FETCH_LHC_BALL_TAIL,
   6: action.FETCH_LHC_BALL_ZODIAC,
   7: action.FETCH_DRAW_TIMES_DATA,
+  8: action.PLAT_FORM_SETTING,
 };
