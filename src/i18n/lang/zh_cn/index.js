@@ -725,6 +725,7 @@ const LANG = {
     winStop: '中奖即停',
     youChase: '你追号', // 你追号n期
     confirmChasing: '确认追号',
+    chooseItem: '选择',
     tip1: '您原计划实现%@期,实际实现%@期',
     tip2_1: '您的翻倍计划无法生成',
     tip2_2: '因为隔期倍数超过系统上限',
