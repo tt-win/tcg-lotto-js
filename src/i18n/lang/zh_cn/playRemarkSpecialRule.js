@@ -295,10 +295,10 @@ export default {
   官方网址： <a href="http://www.singaporepools.com.sg/ch/product/Pages/4d_results.aspx" style="color: blue; display:inline-block" target="_blank">http://www.singaporepools.com.sg/ch/product/Pages/4d_results.aspx</a><br />\n
   `,
   '360FFC': `
-  此彩种开奖号码数据将全部取自360安全大脑拦截网络攻击，规则具体介绍如下：<br />
-  1、以360安全大脑拦截网络攻击次数生成一个五位数字作为360分分彩当期的开奖号码； 2、开奖号码的第一位（即万位）数字为360安全大脑拦截网络攻击每分钟防御的攻击次数数字总和的尾数； （如：拦截网络攻击为8576851761，即开奖号码万位为8+5+7+6+8+5+1+7+6+1＝54，取尾数 4）<br />
-  3、开奖号码的后四位（即千百十位）数字对应360安全大脑拦截网络攻击当前每分钟防御的攻击次数的后四位数字 ； （如：拦截网络攻击次数为8576851761，即后四位开奖号码为1761，结合第二点，完整开奖号即为4 1761）<br />
-  4、365数据统计网：<a href="http://365shuju.com/360" style="color: blue; display:inline-block" target="_blank">http://365shuju.com/360</a><br />
-  5、360安全大脑： <a href="http://www.360.cn/brain_of_security/" style="color: blue; display:inline-block" target="_blank">http://www.360.cn/brain_of_security/</a>
+  此彩种开奖号码数据将全部取自360安全大脑拦截网络攻击，规则具体介绍如下：<br />\n
+  1、以360安全大脑拦截网络攻击次数生成一个五位数字作为360分分彩当期的开奖号码； 2、开奖号码的第一位（即万位）数字为360安全大脑拦截网络攻击每分钟防御的攻击次数数字总和的尾数； （如：拦截网络攻击为8576851761，即开奖号码万位为8+5+7+6+8+5+1+7+6+1＝54，取尾数 4）<br />\n
+  3、开奖号码的后四位（即千百十位）数字对应360安全大脑拦截网络攻击当前每分钟防御的攻击次数的后四位数字 ； （如：拦截网络攻击次数为8576851761，即后四位开奖号码为1761，结合第二点，完整开奖号即为4 1761）<br />\n
+  4、365数据统计网：<a href="http://365shuju.com/360" style="color: blue; display:inline-block" target="_blank">http://365shuju.com/360</a><br />\n
+  5、360安全大脑： <a href="http://www.360.cn/brain_of_security/" style="color: blue; display:inline-block" target="_blank">http://www.360.cn/brain_of_security/</a>\n
   `,
 };
