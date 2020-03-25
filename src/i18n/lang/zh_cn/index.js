@@ -916,6 +916,7 @@ const LANG = {
   count: '组',
   confirm: '确认',
   betOrderTotal: '总计',
+  stakesNum: '注数',
   pleaseKeyAmount: '请输入金额',
   entertainment: '娱乐城',
   tradition: '官方',
