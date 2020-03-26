@@ -21,3 +21,5 @@ export const trendChartConfig = {
   PCB: trendChartConfigPCB28,
   K3: trendChartConfigK3,
 };
+
+export default {}

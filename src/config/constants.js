@@ -117,4 +117,14 @@ export const videoType = [
   'DICE_CUP', //K3 骰盅
 ];
 
+// 開獎補償(秒)
+export const makeUpSetting = {
+  // CQSSC: [75, 90, 105, 120],
+  // TXFFC: [9, 12, 15, 18, 21, 25],
+  // XJSSC: [75, 90, 105, 120],
+  // BJPK10: [90, 110, 150, 180],
+  DEFAULT: [5, 10, 15, 75, 135, 195, 255, 315, 375, 435, 495, 555, 615],
+  // IGNORE: ['FC3D', 'TCP3P5'],
+};
+
 export default {};

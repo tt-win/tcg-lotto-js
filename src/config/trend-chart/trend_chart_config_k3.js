@@ -20,6 +20,9 @@
  */
 const K3 = {
   numGroup: [1, 2, 3, 4, 5, 6],
+  sumNumGroup: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+  meanValue: 4,
+  sumMeanValue: 11,
   singleDigit: {
     HUNDREDS: 0,
     TENS: 1,
@@ -27,22 +30,19 @@ const K3 = {
   },
   h5FilterConfig: {
     singleTrend: ['HUNDREDS', 'TENS', 'ONES'],
-    multipleTrend: ['Com', 'Sum'],
+    multipleTrend: ['Complex', 'Sum'],
   },
   list: {
-    Com: {
+    Complex: {
       column: [
         'numero',
         'drawNumber',
-        'firstBall',
+        'digit',
         'firstBallBS',
         'firstBallOE',
-        'secondBall',
         'secondBallBS',
         'secondBallOE',
-        'thirdBall',
         'thirdBallBS',
-        'thirdBallOE',
         'thirdBallOE',
         'span',
       ],
@@ -57,10 +57,24 @@ const K3 = {
         'thirdBallOE',
         'span',
       ],
+      options: {
+        ballDigit: [0, 2],
+        digit: ['first', 'second', 'third'],
+        firstBallBS: 0,
+        firstBallOE: 0,
+        secondBallBS: 1,
+        secondBallOE: 1,
+        thirdBallBS: 2,
+        thirdBallOE: 2,
+      },
     },
     Sum: {
-      column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
-      h5Column: ['numero', 'drawNumber', 'numberSpread_K3', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      column: ['numero', 'drawNumber', 'numberSpread', 'sumTrend', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      h5Column: ['numero', 'drawNumber', 'pair_K3', 'com6_K3', 'baozi_K3', 'sumBSOE'],
+      options: {
+        ballDigit: [0, 2],
+        sumTrend: ['sumTrend'],
+      },
     },
   },
 };

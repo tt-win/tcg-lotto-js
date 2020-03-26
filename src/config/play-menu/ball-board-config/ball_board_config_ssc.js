@@ -107,7 +107,7 @@ export default {
   32: BallBoardConfigRecord({
     ...baseSSCProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
-    hasToolbar: false,
+    hasToolbar: true,
     formula: 'oneNum',
     multi: false,
     ballShowPosition: ballShowPosition.FIRST_FIVE,

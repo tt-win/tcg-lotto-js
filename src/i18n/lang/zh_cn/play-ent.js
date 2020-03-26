@@ -292,6 +292,7 @@ const PK10FirstLastSum = createObj(1887, 'twoSum');
 const SpecialSumPCB = createObj(1907, 'spcialSum');
 // 大小單雙
 const SpecialBSOEPCB = createObj(1909, 'bsoe');
+const specialBSOEallKillPCB = createObj(2167, 'bsoe');
 // 組合大小單雙
 const SpecialBOEPCB = createObj('1910_0', 'bigOe');
 const SpecialSOEPCB = createObj('1910_1', 'smallOe');
@@ -487,6 +488,7 @@ const EntPlayMenu = {
   // ====================== PCB =======================
   ...SpecialSumPCB,
   ...SpecialBSOEPCB,
+  ...specialBSOEallKillPCB,
   ...SpecialBOEPCB,
   ...SpecialSOEPCB,
   ...SpecialExtremumBSPCB,

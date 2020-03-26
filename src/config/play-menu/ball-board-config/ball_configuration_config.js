@@ -64,5 +64,6 @@ export const showBZHName = {
   Z60: i18n('winNoFragment.com60'), // 組60
   Z120: i18n('winNoFragment.com120'), // 組120
   HZ: i18n('betDigit.SUM'), // 和值
+  PAIR: i18n('winNoFragment.pair'), // 對子
   EMPTY: '--', // 空開
 };

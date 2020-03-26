@@ -17,6 +17,8 @@
 
 const _11X5 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  // 中間值 用來判斷大小
+  meanValue: 6,
   singleDigit: {
     firstBall: 0,
     secondBall: 1,
@@ -33,13 +35,16 @@ const _11X5 = {
     Fixed_Place: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 4],
         digit: ['firstBall', 'secondBall', 'thirdBall', 'fourthBall', 'fifthBall'],
       },
     },
     Fixed_Place_Complex: {
       column: ['numero', 'drawNumber', 'numberSpread', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'sum', 'span', 'middleNumber'],
-      h5Column: ['numero', 'drawNumber', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio', 'sum', 'span', 'middleNumber'],
+      h5Column: ['numero', 'drawNumber', 'largeSmallRatio', 'oddEvenRatio', 'middleNumber'],
       options: {
+        ballDigit: [0, 4],
         largeSmallRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
         oddEvenRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
         primCompRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
@@ -49,6 +54,7 @@ const _11X5 = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span'],
       options: {
+        ballDigit: [0, 2],
         digit: ['firstBall', 'secondBall', 'thirdBall'],
       },
     },
@@ -56,6 +62,7 @@ const _11X5 = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span'],
       options: {
+        ballDigit: [0, 1],
         digit: ['firstBall', 'secondBall'],
       },
     },

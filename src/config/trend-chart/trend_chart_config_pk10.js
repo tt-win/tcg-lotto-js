@@ -5,6 +5,8 @@
  */
 const PK10 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  // 中間值 用來判斷大小
+  meanValue: 6,
   singleDigit: {
     firstPlace: 0,
     secondPlace: 1,
@@ -33,16 +35,57 @@ const PK10 = {
     dragonTiger: ['Dragon_Tiger'],
   },
   list: {
-    First_To_Fifth: {
+    First_To_Third: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
-        digit: ['firstPlace', 'secondPlace', 'thirdPlace', 'fourthPlace', 'fifthPlace'],
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 2],
+        digit: ['firstPlace', 'secondPlace', 'thirdPlace'],
       },
     },
-    Sixth_To_Tenth: {
+    Fourth_To_Sixth: {
       column: ['numero', 'drawNumber', 'digit'],
       options: {
-        digit: ['sixthPlace', 'seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'],
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [3, 5],
+        digit: ['fourthPlace', 'fifthPlace', 'sixthPlace'],
+      },
+    },
+    Seventh_To_Tenth: {
+      column: ['numero', 'drawNumber', 'digit'],
+      options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [6, 9],
+        digit: ['seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'],
+      },
+    },
+    sum: {
+      column: ['numero', 'drawNumber', 'sumDigit'],
+      h5Column: ['numero', 'drawNumber', 'sumDigit'],
+      options: {
+        sumDigit: {
+          firstSecondSum: { type: 'sum', digit: [0, 1] },
+          firstSecondThirdSum: { type: 'sum', digit: [0, 1, 2] },
+          firstThirdSum: { type: 'sum', digit: [0, 9] },
+        },
+      },
+    },
+    BSOE: {
+      column: ['numero', 'drawNumber', 'BSOEDigit'],
+      h5Column: ['numero', 'drawNumber', 'BSOEDigit'],
+      options: {
+        BSOEDigit: {
+          firstBSOE: 0,
+          secondBSOE: 1,
+          thirdBSOE: 2,
+          fourthBSOE: 3,
+          fifthBSOE: 4,
+          sixthBSOE: 5,
+          seventhBSOE: 6,
+          eighthBSOE: 7,
+          ninthBSOE: 8,
+          tenthBSOE: 9,
+        },
       },
     },
     Dragon_Tiger: {

@@ -38,10 +38,10 @@ function getConfigurationNumber(ballGroup) {
       configurationNumber /= a;
     }
   });
-  // console.log('configurationNumber', configurationNumber);
 
   switch (configurationNumber) {
     case 1:
+      if (ballGroup.length === 2) return showBZHName.PAIR;
       return showBZHName.BZ;
     case 2:
       return showBZHName.Z2;

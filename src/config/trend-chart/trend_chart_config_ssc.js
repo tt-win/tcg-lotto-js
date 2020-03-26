@@ -22,6 +22,7 @@ const SSC = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
   // 中間值 用來判斷大小
   meanValue: 5,
+  // H5定位走勢開獎球位數
   singleDigit: {
     TEN_THOUSANDS: 0,
     THOUSANDS: 1,
@@ -29,9 +30,22 @@ const SSC = {
     TENS: 3,
     ONES: 4,
   },
+  // H5號碼分佈位數
+  h5NumberSpreadDigit: {
+    All_5: [0, 4],
+    First_4: [0, 3],
+    Last_4: [1, 4],
+    First_3: [0, 2],
+    Middle_3: [1, 3],
+    Last_3: [2, 4],
+    First_2: [0, 1],
+    Last_2: [3, 4],
+  },
+  // H5玩法選單分類列表
   h5FilterConfig: {
     singleTrend: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
     multipleTrend: ['All_5_Complex', 'First_4', 'Last_4', 'First_3', 'Middle_3', 'Last_3','First_2', 'Last_2'],
+    numberSpread: ['All_5', 'First_4', 'Last_4', 'First_3', 'Middle_3', 'Last_3', 'First_2', 'Last_2'],
     dragonTiger: ['Dragon_Tiger'],
   },
   list: {
@@ -46,7 +60,7 @@ const SSC = {
     },
     All_5_Complex: {
       column: ['numero', 'drawNumber', 'numberSpread', 'sum', 'span', 'type', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio'],
-      h5Column: ['numero', 'drawNumber', 'sum', 'span', 'largeSmallRatio', 'oddEvenRatio', 'primCompRatio'],
+      h5Column: ['numero', 'drawNumber', 'sum', 'largeSmallRatio', 'oddEvenRatio'],
       options: {
         // 判斷 計算所需 開獎號碼位置
         ballDigit: [0, 4],
@@ -58,6 +72,15 @@ const SSC = {
         oddEvenRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
         // 比值
         primCompRatio: ['5:0', '4:1', '3:2', '2:3', '1:4', '0:5'],
+      },
+    },
+    All_4_NumberSpread: {
+      column: ['numero', 'drawNumber', 'numberSpreadDigit'],
+      options: {
+        numberSpreadDigit: {
+          first4NumberSpread: [0, 3],
+          last4NumberSpread: [1, 4],
+        },
       },
     },
     First_4: {
@@ -78,9 +101,19 @@ const SSC = {
         type: ['L4Com24', 'L4Com12', 'L4Com6', 'L4Com4'],
       },
     },
+    All_3_NumberSpread: {
+      column: ['numero', 'drawNumber', 'numberSpreadDigit'],
+      options: {
+        numberSpreadDigit: {
+          first3NumberSpread: [0, 2],
+          middle3NumberSpread: [1, 3],
+          last3NumberSpread: [2, 4],
+        },
+      },
+    },
     First_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
-      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'com3', 'com6', 'baozi'],
       options: {
         ballDigit: [0, 2],
         digit: ['TEN_THOUSANDS', 'THOUSANDS', 'HUNDREDS'],
@@ -88,7 +121,7 @@ const SSC = {
     },
     Middle_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
-      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       options: {
         ballDigit: [1, 3],
         digit: ['THOUSANDS', 'HUNDREDS', 'TENS'],
@@ -96,29 +129,37 @@ const SSC = {
     },
     Last_3: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
-      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'com3', 'com6', 'baozi'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       options: {
         ballDigit: [2, 4],
         digit: ['HUNDREDS', 'TENS', 'ONES'],
       },
     },
     First_2: {
-      column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
-      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      column: ['numero', 'drawNumber', 'numberSpreadDigit', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'pair'],
       options: {
         ballDigit: [0, 1],
         digit: ['TEN_THOUSANDS', 'THOUSANDS'],
+        numberSpreadDigit: {
+          first2NumberSpread: [0, 1],
+        },
       },
     },
     Last_2: {
-      column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      column: ['numero', 'drawNumber', 'numberSpreadDigit', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
+      h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'pair'],
       options: {
         ballDigit: [3, 4],
         digit: ['TENS', 'ONES'],
+        numberSpreadDigit: {
+          last2NumberSpread: [3, 4],
+        },
       },
     },
     Dragon_Tiger: {
       column: ['numero', 'drawNumber', 'dragonTiger'],
+      h5Column: ['numero', 'drawNumber', 'dragonTiger'],
       options: {
         dragonTiger: {
           Dragon_Tiger_Tie_5_4: [0, 1],

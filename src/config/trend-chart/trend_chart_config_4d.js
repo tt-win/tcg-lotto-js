@@ -16,6 +16,8 @@
 
 const _4D = {
   numGroup: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  // 中間值 用來判斷大小
+  meanValue: 5,
   singleDigit: {
     THOUSANDS: 0,
     HUNDREDS: 1,
@@ -28,9 +30,11 @@ const _4D = {
   },
   list: {
     All_4: {
-      column: ['numero', 'drawNumber', 'digit', 'sum,', 'span', 'type'],
-      h5Column: ['numero', 'drawNumber', 'sum,', 'span', 'type'],
+      column: ['numero', 'drawNumber', 'digit', 'sum', 'span', 'type'],
+      h5Column: ['numero', 'drawNumber', 'sum', 'span', 'type'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 3],
         digit: ['THOUSANDS', 'HUNDREDS', 'TENS', 'ONES'],
         type: ['F4Com24', 'F4Com12', 'F4Com6', 'F4Com4'],
       },
@@ -39,6 +43,8 @@ const _4D = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 2],
         digit: ['THOUSANDS', 'HUNDREDS', 'TENS'],
       },
     },
@@ -46,6 +52,8 @@ const _4D = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'com3', 'com6', 'baozi'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [1, 3],
         digit: ['HUNDREDS', 'TENS', 'ONES'],
       },
     },
@@ -53,13 +61,17 @@ const _4D = {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [0, 1],
         digit: ['THOUSANDS', 'HUNDREDS'],
       },
     },
     Last_2: {
       column: ['numero', 'drawNumber', 'digit', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
       h5Column: ['numero', 'drawNumber', 'BSType', 'OEType', 'PCType', 'sum', 'span', 'pair'],
-      option: {
+      options: {
+        // 判斷 計算所需 開獎號碼位置
+        ballDigit: [2, 3],
         digit: ['TENS', 'ONES'],
       },
     },
