@@ -66,6 +66,7 @@ export const PrizeModeKey = {
   1: 'Lott',
   2: 'ZY',
   3: 'Elott',
+  4: 'WS',
 };
 
 export const PlayModeKey = {
