@@ -109,7 +109,7 @@ export default {
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     hasToolbar: true,
     formula: 'oneNum',
-    multi: false,
+    multi: true,
     ballShowPosition: ballShowPosition.FIRST_FIVE,
   }),
   // All5Join
