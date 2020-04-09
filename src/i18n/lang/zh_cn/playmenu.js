@@ -786,8 +786,8 @@ const PlayMenu = {
     2228: '红黑码',
     2229: '红码组合',
     2230: '黑码组合',
-	  2269: '红码大小单双',
-	  2270: '黑码大小单双',
+    2269: '红码大小单双',
+    2270: '黑码大小单双',
     // K3 ENT
     2231: '龙虎和',
     2232: '龙虎和',
@@ -1088,6 +1088,7 @@ const PlayMenu = {
   },
   // 娛樂城
   entertainmentBetContent: {
+    ...k3BothSideRank,
     ...entertainmentPlayMenu,
   },
   // 長龍投注特殊玩法名稱
