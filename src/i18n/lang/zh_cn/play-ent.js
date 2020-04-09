@@ -21,6 +21,7 @@ const ARR_EXTREMUM = ['极大', '极小'];
 const ARR_COLOR = ['', '红', '蓝', '绿'];
 const ARR_BOE = ['大单', '大双'];
 const ARR_SOE = ['小单', '小双'];
+const ARR_K3_RED_BLACK = ['红', '黑'];
 
 const ARR_K3_STRAIGHT = chreateNumberArray(3, 26);
 const OBJ_K3_DIFFERENT_TWO = {
@@ -123,6 +124,9 @@ const createObj = (playId, type) => {
       break;
     case 'k3SingleSameTwo':
       item = OBJ_K3_SINGLE_SAMETWO;
+      break;
+    case 'k3RB':
+      item = [].concat(ARR_K3_RED_BLACK);
       break;
     case '11X5TwoSideTotalSumGroup':
       item = [].concat(ARR_TOTAL_SUM_GROUP);
@@ -316,6 +320,12 @@ const K3SpecialBSOEKillBaozi = createObj(2054, 'bsoe');
 
 // 大單大雙小單小雙
 const K3SumComBSOE = createObj(2238, 'bsoe');
+// K3 紅黑碼
+const K3RedBlack = createObj(2228, 'k3RB');
+// K3 紅大小單雙
+const K3RedBSOE = createObj(2269, 'bsoe');
+// K3 黑大小單雙
+const K3BlackBSOE = createObj(2270, 'bsoe');
 
 // 兩連
 const K3DifferentTwo = createObj(1938, 'k3DifferentTwo');
@@ -506,6 +516,9 @@ const EntPlayMenu = {
   ...K3SpecialSumKillBaozi,
   ...K3SpecialBSOEKillBaozi,
   ...K3SumComBSOE,
+  ...K3RedBlack,
+  ...K3RedBSOE,
+  ...K3BlackBSOE,
   // ====================== 11X5 =======================
   ..._11X5TwoSideTotalSumGroup,
   ..._11X5TwoSideFirstBSOE,

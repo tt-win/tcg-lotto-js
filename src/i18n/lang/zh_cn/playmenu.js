@@ -1088,7 +1088,6 @@ const PlayMenu = {
   },
   // 娛樂城
   entertainmentBetContent: {
-    ...k3BothSideRank,
     ...entertainmentPlayMenu,
   },
   // 長龍投注特殊玩法名稱
