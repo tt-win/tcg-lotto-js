@@ -7,6 +7,7 @@ const LANG = {
   clearBallText: '清除選號',
   betNow: '立即投注',
   betSuccess: '恭喜, 下注成功',
+  betPartialScuess: '餘額不足，部份生成訂單成功',
   confirmBetInfos: '請確認投注訊息',
   balance: '餘額',
   betAmountOverMaxAmount: '您目前的投注金額大於最大可投注金額<br />當前模式最大投注金額為%@元!!',
