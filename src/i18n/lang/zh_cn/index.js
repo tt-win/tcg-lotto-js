@@ -851,6 +851,7 @@ const LANG = {
   atLeastChooseOneNumber: '请选择号码下注！！',
   wrongBetAmount: '您输入类型不正确或没有输入实际金额！',
   betSuccess: '恭喜, 下注成功',
+  betPartialSuccess: '余额不足，部份生成訂单成功',
   betFail: '下注失敗',
   confirmBetInfos: '请确认投注信息',
   number: '号码',
