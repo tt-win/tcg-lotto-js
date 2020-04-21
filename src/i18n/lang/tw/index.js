@@ -73,6 +73,7 @@ const LANG = {
     ACCOUNT_TRANSFER_EXCEED_MIN: '最低轉帳金額不可低於0.01元',
     UNKNOWN_ERROR: '系統錯誤',
     CONNECTION_ERROR_: '所在地區網速延遲，請稍後再試或與客服聯繫，謝謝！ ',
+    CANCEL_ORDER_FAILED: '撤单失败',
     CUSTOMER_LOGOUT_: '您還沒有登錄，請先登錄！ ',
     DRAW_FAIL_ERROR_: '系統繁忙，投注失敗！ ',
     NOT_SUPPORT_LANDSCAPE: '不支持橫屏',
