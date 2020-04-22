@@ -13,7 +13,7 @@ const LANG = {
         orderStatus_12: 'Batal',
         orderStatus_14: 'Incomlpete',
         orderStatus_16: 'Tie',
-        orderStatus_17: 'Cancelled',
+        orderStatus_17: 'Batal',
         orderStatus_99: 'Invalid Order',
     },
 };
