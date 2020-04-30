@@ -728,6 +728,14 @@ export const PlayMenu = {
   Sum_Com_BS_OE_K3: 2236,
   Any_Code_Win_K3: 2240,
   Any_Code_Not_Win_K3: 2241,
+  Show_Hand: 2271,
+  Boazi: 2272,
+  Three_Join: 2273,
+  All_Same_2: 2274,
+  Half_Three_Join: 2275,
+  Different_3: 2276,
+  All_Same_2_K3: 2277,
+  All_Different_3_K3: 2278,
 
   // K3 ENT
   Combined_K3_ENT: 1932,
