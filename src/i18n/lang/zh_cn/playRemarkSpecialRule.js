@@ -13,7 +13,8 @@ export default {
          '44+47+52+56=199取尾号【9】为时时彩的 百位。<br />\n' +
          '57+58+60+61=236取尾号【6】为时时彩的 十位。<br />\n' +
          '62+74+76+80=292取尾号【2】为时时彩的 个位。<br />\n' +
-         '综上所述：本期时时彩开奖号码为 :【2】【0】【9】【6】【2】<br />',
+         '综上所述：本期时时彩开奖号码为 :【2】【0】【9】【6】【2】<br />\n' +
+         '「官方网址」：<a href=" https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx" style="color: blue" target="_blank"> https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx</a><br />\n',
   BJSSC: '来源于国家福利彩票北京快乐8(官网)开奖号码，<br />\n' +
          '开奖号码为1-80个球里面选取20个开奖号码，每20个开奖号码通过排列组合重新生成5个时时彩开奖号码。<br />\n' +
          '例：开奖号码为：【09 11 20 22 24 33 34 39 44 47 52 56 57 58 60 61 62 74 76 80】<br />\n' +
@@ -64,7 +65,8 @@ export default {
         '取其1-6位开奖号码相加，和值的末位数作为开奖第一个数值；<br />\n' +
         '取其7-12位开奖号码相加，和值的末位数作为开奖第二个数值；<br />\n' +
         '取其13-18位开奖号码相加，和值的末位数作为开奖第三个数值；<br />\n' +
-        '三个数值相加即为最终的开奖结果。<br />',
+        '三个数值相加即为最终的开奖结果。<br />\n' +
+        '「官方网址」：<a href=" https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx" style="color: blue" target="_blank"> https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx</a><br />\n',
   CA28: '夏令时开始时间：2020年03月08日星期日 02:00:00，时间向前拨一小时<br />\n' +
         '冬令时开始时间：2020年11月01日星期日 02:00:00，时间往回拨一小时<br />\n' +
         '来源于加拿大Bingo（官网）开奖号码；每年根据夏、冬令时调整休市时间，每期开奖共开出20个数字，幸运28将这20个开奖号码按照由小到大的顺序依次排列；<br />\n' +
@@ -93,7 +95,8 @@ export default {
           '取其2/5/8/11/14/17位开出号码相加，和值的末位数作为开出第一个数值；<br />\n' +
           '取其3/6/9/12/15/18位开出号码相加，和值的末位数作为开出第二个数值，<br />\n' +
           '取其4/7/10/13/16/19位开出号码相加，和值的末位数作为开出第三个数值；<br />\n' +
-          '三个数值相加即为台湾PK28最终的结果。<br />',
+          '三个数值相加即为台湾PK28最终的结果。<br />\n' +
+          '「官方网址」：<a href=" https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx" style="color: blue" target="_blank"> https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx</a><br />\n',
   TX28: '此彩种开奖号码数据将全部取自腾讯QQ官网，规则具体介绍如下：<br />\n' +
         '1、以每分钟腾讯QQ的在线用户人数数字生成最后三位数字作为腾讯分分彩当期的开奖号码；<br />\n' +
         '如：腾讯QQ在线用户人数为227.763.615人，即开奖号码为615。<br />',
@@ -132,6 +135,7 @@ export default {
     取第六位+第七位+第十位+第十一位+第十四位+第十五位为个位<br />\n
     33+34+47+52+58+60=284取尾号【4】为幸运5的 个位。<br />\n
     综上所述：本期时时彩开奖号码为 :【4】【6】【6】【9】【4】<br />\n
+    「官方网址」：<a href=" https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx" style="color: blue" target="_blank"> https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx</a><br />\n
   `,
   BJLK5: `
     来源于国家福利彩票北京快乐8(官网)开奖号码，开奖号码为1-80个球里面选取20个开奖号码，每20个开奖号码通过排列组合重新生成5个幸运5开奖号码。<br />\n
@@ -305,7 +309,7 @@ export default {
   GBCV3D: `
   2019新型冠状病毒（COVID-19）扩散全球，病毒没有国界，疫情不分种族。平台不断天天为您更新提供最正确的全球疫情资讯，通过数据了解新冠肺炎疫情收敛状况，确实养成戴口罩习惯，保持个人卫生勤洗手。风雨压不垮苦难中开花，我们有信心对抗这场防疫大作战。<br />\n
   1、以腾讯新闻提供WHO和霍普金斯大学网站数据为依据。<br />\n
-  2、每日北京时间%@封盘，在%@取至整点更新海外累计确诊数据。<br />\n
+  2、每日北京时间%@封盘，在%@整点取自%@最后更新累计确诊变动数据。<br />\n
   3、累计数据最后3码，为当天开奖依据。<br />\n
   4、当日%@后数据未更新，或累计确诊数据低于3位数以下，平台将有权取消该期订单<br />\n
   疫情实时追踪：<a href="https://news.qq.com/zt2020/page/feiyan.htm" style="color: blue; display:inline-block" target="_blank">https://news.qq.com/zt2020/page/feiyan.htm</a><br />\n
@@ -313,7 +317,7 @@ export default {
   USCV3D: `
   2019新型冠状病毒（COVID-19）扩散全球，病毒没有国界，疫情不分种族。平台不断天天为您更新提供最正确的全球疫情资讯，通过数据了解新冠肺炎疫情收敛状况，确实养成戴口罩习惯，保持个人卫生勤洗手。风雨压不垮苦难中开花，我们有信心对抗这场防疫大作战。<br />\n
   1、以腾讯新闻提供WHO和霍普金斯大学网站数据为依据。<br />\n
-  2、每日北京时间%@封盘，在%@取至整点更新北美累计确诊数据。<br />\n
+  2、每日北京时间%@封盘，在%@整点取自%@最后更新累计确诊变动数据。<br />\n
   3、累计数据最后3码，为当天开奖依据。<br />\n
   4、当日%@后数据未更新，或累计确诊数据低于3位数以下，平台将有权取消该期订单<br />\n
   疫情实时追踪：<a href="https://news.qq.com/zt2020/page/feiyan.htm" style="color: blue; display:inline-block" target="_blank">https://news.qq.com/zt2020/page/feiyan.htm</a><br />\n
@@ -321,7 +325,7 @@ export default {
   EUCV3D: `
   2019新型冠状病毒（COVID-19）扩散全球，病毒没有国界，疫情不分种族。平台不断天天为您更新提供最正确的全球疫情资讯，通过数据了解新冠肺炎疫情收敛状况，确实养成戴口罩习惯，保持个人卫生勤洗手。风雨压不垮苦难中开花，我们有信心对抗这场防疫大作战。<br />\n
   1、以腾讯新闻提供WHO和霍普金斯大学网站数据为依据。<br />\n
-  2、每日北京时间%@封盘，在%@取至整点更新欧洲累计确诊数据。<br />\n
+  2、每日北京时间%@封盘，在%@整点取自%@最后更新累计确诊变动数据。<br />\n
   3、累计数据最后3码，为当天开奖依据。<br />\n
   4、当日%@后数据未更新，或累计确诊数据低于3位数以下，平台将有权取消该期订单<br />\n
   疫情实时追踪：<a href="https://news.qq.com/zt2020/page/feiyan.htm" style="color: blue; display:inline-block" target="_blank">https://news.qq.com/zt2020/page/feiyan.htm</a><br />\n
