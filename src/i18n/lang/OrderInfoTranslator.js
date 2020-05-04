@@ -788,6 +788,49 @@ const K3Translator = {
     getText: () => i18n('playKey.allThreeSame'),
   },
 
+  ALL_SAME_2_K3: {
+    items: [
+      PlayMenu.All_Same_2_K3,
+    ],
+    getText: () => i18n('ball.k3.All_Same_2_K3'),
+  },
+  All_Different_3_K3: {
+    items: [
+      PlayMenu.All_Different_3_K3,
+    ],
+    getText: () => i18n('ball.k3.All_Different_3_K3'),
+  },
+  Baozi: {
+    items: [
+      PlayMenu.Baozi,
+    ],
+    getText: () => i18n('playKey.baozi'),
+  },
+  Three_Join: {
+    items: [
+      PlayMenu.Three_Join,
+    ],
+    getText: () => i18n('playKey.threeJoin'),
+  },
+  All_Same_2: {
+    items: [
+      PlayMenu.All_Same_2,
+    ],
+    getText: () => i18n('playKey.pair'),
+  },
+  Half_Three_Join: {
+    items: [
+      PlayMenu.Half_Three_Join,
+    ],
+    getText: () => i18n('playKey.halfStraight'),
+  },
+  Different_3: {
+    items: [
+      PlayMenu.Different_3,
+    ],
+    getText: () => i18n('playKey.za3'),
+  },
+
   ALL_EVEN_3_K3: {
     items: [
       PlayMenu.All_Even_3_K3,

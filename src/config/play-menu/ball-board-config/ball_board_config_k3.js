@@ -196,36 +196,12 @@ export default {
       '5': 'K3_Span_5',
     },
   }),
-  // All_Same_2_K3
-  2277: BallBoardConfigRecord({
-    ...baseK3Props,
-    fixedBalls: ['0'],
-    ballI18n: {
-      0: 'ball.k3.All_Same_2_K3',
-    },
-    boardClassNames: 'All_Even_3_K3',
-    betDigits: [betDigits.EMPTY],
-    formula: 'oneNum',
-    hasToolbar: false,
-  }),
-  // All_Different_3_K3
-  2278: BallBoardConfigRecord({
-    ...baseK3Props,
-    fixedBalls: ['0'],
-    ballI18n: {
-      0: 'ball.k3.All_Different_3_K3',
-    },
-    boardClassNames: 'All_Even_3_K3',
-    betDigits: [betDigits.EMPTY],
-    formula: 'oneNum',
-    hasToolbar: false,
-  }),
-  // ShowHand_Boazi // ichiro
+  // ShowHand_Baozi // ichiro
   2272: BallBoardConfigRecord({
     ...baseK3Props,
     fixedBalls: ['0'],
     ballI18n: {
-      0: 'ball.k3.Boazi',
+      0: 'ball.k3.Baozi',
     },
     boardClassNames: 'All_Even_3_K3',
     betDigits: [betDigits.EMPTY],
@@ -274,6 +250,30 @@ export default {
     fixedBalls: ['2'],
     ballI18n: {
       2: 'ball.k3.Different_3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
+  // All_Same_2_K3
+  2277: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['0'],
+    ballI18n: {
+      0: 'ball.k3.All_Same_2_K3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
+  // All_Different_3_K3
+  2278: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['0'],
+    ballI18n: {
+      0: 'ball.k3.All_Different_3_K3',
     },
     boardClassNames: 'All_Even_3_K3',
     betDigits: [betDigits.EMPTY],

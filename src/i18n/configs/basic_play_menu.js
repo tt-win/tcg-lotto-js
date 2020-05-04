@@ -729,7 +729,7 @@ export const PlayMenu = {
   Any_Code_Win_K3: 2240,
   Any_Code_Not_Win_K3: 2241,
   Show_Hand: 2271,
-  Boazi: 2272,
+  Baozi: 2272,
   Three_Join: 2273,
   All_Same_2: 2274,
   Half_Three_Join: 2275,
