@@ -800,33 +800,38 @@ const K3Translator = {
     ],
     getText: () => i18n('ball.k3.All_Different_3_K3'),
   },
-  Baozi: {
+  // 梭哈-豹子
+  Boazi_K3: {
     items: [
-      PlayMenu.Baozi,
+      PlayMenu.Boazi_K3,
     ],
     getText: () => i18n('playKey.baozi'),
   },
-  Three_Join: {
+  // 梭哈-全顺
+  Straight_K3: {
     items: [
-      PlayMenu.Three_Join,
+      PlayMenu.Straight_K3,
     ],
-    getText: () => i18n('playKey.threeJoin'),
+    getText: () => i18n('playKey.straightK3'),
   },
-  All_Same_2: {
+  // 梭哈-对子
+  Com_3_K3: {
     items: [
-      PlayMenu.All_Same_2,
+      PlayMenu.Com_3_K3,
     ],
     getText: () => i18n('playKey.pair'),
   },
-  Half_Three_Join: {
+  // 梭哈-半顺
+  Half_Straight_K3: {
     items: [
-      PlayMenu.Half_Three_Join,
+      PlayMenu.Half_Straight_K3,
     ],
     getText: () => i18n('playKey.halfStraight'),
   },
-  Different_3: {
+  // 梭哈-杂三
+  Different_SH_3_K3: {
     items: [
-      PlayMenu.Different_3,
+      PlayMenu.Different_SH_3_K3,
     ],
     getText: () => i18n('playKey.za3'),
   },

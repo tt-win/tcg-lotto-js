@@ -98,11 +98,11 @@ export const betDigits = {
   All_Same_2_K3: 'All_Same_2_K3',
   All_Different_3_K3: 'All_Different_3_K3',
   Show_Hand: 'Show_Hand',
-  Baozi: 'Baozi',
-  Three_Join: 'Three_Join',
-  All_Same_2: 'All_Same_2',
-  Half_Three_Join: 'Half_Three_Join',
-  Different_3: 'Different_3',
+  Boazi_K3: 'Boazi_K3',
+  Straight_K3: 'Straight_K3',
+  Com_3_K3: 'Com_3_K3',
+  Half_Straight_K3: 'Half_Straight_K3',
+  Different_SH_3_K3: 'Different_SH_3_K3',
 
   BACCARAT: 'BACCARAT',
 
