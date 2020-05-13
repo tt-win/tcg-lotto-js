@@ -283,9 +283,6 @@ export default {
   XYPK10: `
   官方网址： <a href="http://www.luckyairship.com/" style="color: blue" target="_blank">http://www.luckyairship.com/</a><br />\n
 `,
-  LASPK10: `
-  官方网址： <a href="https://luckyairships.com/" style="color: blue" target="_blank">https://luckyairships.com/</a><br />\n
-`,
   TW4D: `
   此彩种来源于台湾乐透彩券官方网站公开结果号码。 每周星期一到星期六开奖，每期结果将由0000~9999中随机开出一组号码。由左到右分别为千、百、十、个位。<br />\n
   官方网址： <a href="https://www.taiwanlottery.com.tw/Lotto/4D/history.aspx" style="color: blue; display:inline-block" target="_blank">https://www.taiwanlottery.com.tw/Lotto/4D/history.aspx</a><br />\n
