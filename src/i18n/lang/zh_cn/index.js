@@ -359,6 +359,7 @@ const LANG = {
     ACCOUNT_TRANSFER_EXCEED_MIN: '最低转账金额不可低于0.01元',
     UNKNOWN_ERROR: '系统错误',
     CONNECTION_ERROR_: '所在地区网速延迟，请稍后再试或与客服联系，谢谢！',
+    CANCEL_ORDER_FAILED: '撤单失败',
     CUSTOMER_LOGOUT_: '您还没有登录，请先登录！',
     DRAW_FAIL_ERROR_: '系统繁忙，投注失败！',
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
