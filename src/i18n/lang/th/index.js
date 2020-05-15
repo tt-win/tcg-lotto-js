@@ -82,6 +82,7 @@ const LANG = {
     THAIGOV: 'หวยรัฐบาล',
     TCGTHGOV: 'หวย (HL8)',
   },
+  drawFrequency: 'เวลาการออกผล',
 };
 
 export default LANG;

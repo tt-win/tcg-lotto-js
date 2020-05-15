@@ -16,6 +16,7 @@ const LANG = {
     orderStatus_17: '취소',
     orderStatus_99: 'Invalid Order',
   },
+  drawFrequency: '추첨 빈도',
 };
 
 export default LANG;

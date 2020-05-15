@@ -82,6 +82,7 @@ const LANG = {
     THAIGOV: 'រដ្ឋាភិបាលថៃ',
     TCGTHGOV: 'TCGរដ្ឋាភិបាល',
   },
+  drawFrequency: 'ការចាប់',
 };
 
 export default LANG;

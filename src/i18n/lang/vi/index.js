@@ -124,6 +124,7 @@ const LANG = {
   hnVoidnext: 'Lưu ý: Hủy cược nếu lần cược chính thức này hết hạn ,không xuất hiện số kết quả, tiến hành vào lượt kế tiếp',
   vncFirstPrize: 'Giải nhất',
   officialSite: 'Trang Chính Thức',
+  drawFrequency: 'Tần số quay',
 };
 
 export default LANG;
