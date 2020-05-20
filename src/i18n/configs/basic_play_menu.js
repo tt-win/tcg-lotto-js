@@ -856,6 +856,15 @@ export const PlayMenu = {
   LAST_2_COMBINE_THAI: 2064, // 上反二位数
   '2_STRAIGHT_ADD_THAI': 2066, // 下正二位数
   '1_AT_ANY_LAST_3_THAI': 2069, // 上跑三位数
+
+  Last_3_Straight_THAI_Multi: 2485, // 上正三位数（复式）
+  Last_3_Straight_THAI_Single: 2486, // 上正三位数（单式）
+  Last_3_Combine_THAI_Multi: 2487, // 上反三位数（复式）
+  '2_Straight_Add_THAI_Multi': 2480, // 下正二位数（复式）
+  '2_Straight_Add_THAI_Single': 2481, // 下正二位数（单式）
+  Last_2_Combine_THAI_Multi: 2482, // 上反二位数（复式）
+  Last_2_Straight_THAI_Multi: 2483, // 上正二位数（复式）
+  Last_2_Straight_THAI_Single: 2484, // 上正二位数（单式）
   // vnc 越南彩
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
