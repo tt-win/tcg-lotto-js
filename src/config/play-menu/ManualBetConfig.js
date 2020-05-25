@@ -64,8 +64,8 @@ const manualDigitsProps4D = {
 }
 
 const baseTHAIProps = {
-  ballRange: [1, 10],
-  ballDigit: 2,
+  ballRange: [0, 9],
+  ballCount: 2,
   bitCompression: true,
   bitCompressionSize: 5000,
 };
