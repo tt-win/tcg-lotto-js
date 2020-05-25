@@ -63,6 +63,14 @@ const manualDigitsProps4D = {
   manualDigitsI18n: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
 }
 
+const baseTHAIProps = {
+  ballRange: [1, 10],
+  ballDigit: 2,
+  bitCompression: true,
+  bitCompressionSize: 5000,
+};
+
+
 // 2星直選
 const twoStraightSSCProps = ManualBetConfigRecord({
   ...baseSSCProps,
@@ -370,11 +378,28 @@ const ManualBetConfigPK10 = {
   }),
 };
 
+
+const ManualBetConfigTHAI = {
+  //  2_Straight_Add_THAI_Single
+  2481: ManualBetConfigRecord({
+    ...baseTHAIProps,
+  }),
+  //  Last_2_Straight_THAI_Single
+  2484: ManualBetConfigRecord({
+    ...baseTHAIProps,
+  }),
+  //  Last_3_Straight_THAI_Single
+  2486: ManualBetConfigRecord({
+    ...baseTHAIProps,
+    ballCount: 3,
+  }),
+};
 const ManualBetConfig = {
   ...ManualBetConfigSSC,
   ...ManualBetConfig11X5,
   ...ManualBetConfigLF,
   ...ManualBetConfigPK10,
+  ...ManualBetConfigTHAI,
 };
 
 export default ManualBetConfig;
