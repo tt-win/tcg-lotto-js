@@ -63,11 +63,9 @@ const manualDigitsProps4D = {
   manualDigitsI18n: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
 }
 
-const baseTHAIProps = {
+const baseSEAProps = {
   ballRange: [0, 9],
   ballCount: 2,
-  bitCompression: true,
-  bitCompressionSize: 5000,
 };
 
 
@@ -382,16 +380,68 @@ const ManualBetConfigPK10 = {
 const ManualBetConfigTHAI = {
   //  2_Straight_Add_THAI_Single
   2481: ManualBetConfigRecord({
-    ...baseTHAIProps,
+    ...baseSEAProps,
   }),
   //  Last_2_Straight_THAI_Single
   2484: ManualBetConfigRecord({
-    ...baseTHAIProps,
+    ...baseSEAProps,
   }),
   //  Last_3_Straight_THAI_Single
   2486: ManualBetConfigRecord({
-    ...baseTHAIProps,
+    ...baseSEAProps,
     ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+};
+
+const ManualBetConfigVNC = {
+  //  Last_4_Straight_1st_VNC_Single
+  2287: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  //  Last_3_Straight_1st_VNC_Single
+  2285: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  //  Last_2_Straight_1st_VNC_Single
+  2280: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  //  Last_2_Straight_2nd_VNC_Single
+  2282: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+};
+
+const ManualBetConfigLAO = {
+  //  Last_4_Straight_LAO_Single
+  2296: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  //  Last_3_Straight_LAO_Single
+  2294: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  //  Last_2_Straight_LAO_Single
+  2289: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  //  First_2_Straight_LAO_Single
+  2291: ManualBetConfigRecord({
+    ...baseSEAProps,
   }),
 };
 const ManualBetConfig = {
@@ -400,6 +450,8 @@ const ManualBetConfig = {
   ...ManualBetConfigLF,
   ...ManualBetConfigPK10,
   ...ManualBetConfigTHAI,
+  ...ManualBetConfigVNC,
+  ...ManualBetConfigLAO,
 };
 
 export default ManualBetConfig;
