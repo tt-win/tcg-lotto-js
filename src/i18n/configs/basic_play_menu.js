@@ -874,6 +874,16 @@ export const PlayMenu = {
   LAST_2_STRAIGHT_2ND_VNC: 2104, // 下正二位数
   LAST_2_ANY_1ST_VNC: 2107, // 上跑两位数
   LAST_2_ANY_2ND_VNC: 2109, // 下跑两位数
+
+  Last_2_Straight_1st_VNC_Multi: 2279,
+  Last_2_Straight_1st_VNC_Single: 2280,
+  Last_2_Straight_2nd_VNC_Multi: 2281,
+  Last_2_Straight_2nd_VNC_Single: 2282,
+  Last_3_Combine_1st_VNC_Multi: 2283,
+  Last_3_Straight_1st_VNC_Multi: 2284,
+  Last_3_Straight_1st_VNC_Single: 2285,
+  Last_4_Straight_1st_VNC_Multi: 2286,
+  Last_4_Straight_1st_VNC_Single: 2287,
   // LAO 老挝彩
   LAST_4_STRAIGHT_LAO: 2129, // 上正四位数
   LAST_4_COMBINE_LAO: 2131, // 上反四位数
@@ -883,6 +893,16 @@ export const PlayMenu = {
   FIRST_2_STRAIGHT_LAO: 2141, // 下正二位数
   LAST_2_ANY_LAO: 2144, // 上跑两位数
   FIRST_2_ANY_LAO: 2146, // 下跑两位数
+
+  Last_2_Straight_LAO_Multi: 2288,
+  Last_2_Straight_LAO_Single: 2289,
+  First_2_Straight_LAO_Multi: 2290,
+  First_2_Straight_LAO_Single: 2291,
+  Last_3_Combine_LAO_Multi: 2292,
+  Last_3_Straight_LAO_Multi: 2293,
+  Last_3_Straight_LAO_Single: 2294,
+  Last_4_Straight_LAO_Multi: 2295,
+  Last_4_Straight_LAO_Single: 2296,
 
   Baccarat_SSC_ENT: 2123,
   Baccarat_With_Pair_SSC_ENT: 2125,
