@@ -428,7 +428,7 @@ const groupBetConfigK3 = {
   }),
 };
 
-const groupBetConfigSeaTHAI = {
+const groupBetConfigTHAI = {
   '2_Straight_Add_THAI_Multi': BetConfigRecord({
     isBetSlipByRow: true,
   }),
@@ -474,5 +474,5 @@ export default {
   ...groupBetConfigPK10,
   ...betConfigSingle,
   ...groupBetConfigK3,
-  ...groupBetConfigSeaTHAI,
+  ...groupBetConfigTHAI,
 };

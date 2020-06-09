@@ -41,4 +41,4 @@ export default {
     betDigits: [betDigits.COM],
     formula: 'combineSix',
   }),
-}
+};
