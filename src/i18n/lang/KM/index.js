@@ -83,6 +83,14 @@ const LANG = {
     TCGTHGOV: 'TCGរដ្ឋាភិបាល',
   },
   drawFrequency: 'ការចាប់',
+  chooseFile: 'ផ្ទុកឡើង',
+  filterRepeat: 'លុបស្ទួន',
+  betsNTotalAmount: 'ភ្នាល់<div class="font-bold">%@</div>ប៉ុ，ភ្នាល់សរុប<div class="font-bold">%@</div>，',
+  predictionAmount: 'ហាងឆេង<div class="red-words">%@</div>',
+  filterResultMsg: '%@  រូវបានត្រង មលេខ %@ មិនត្រឹមត្រូវ',
+  amount: 'ចំនួនភ្នាល់',
+  manualBetPlaceHolderSEA: 'ចំណាំនីមួយៗអាចត្រូវបានបំបែកដោយកូនសោបញ្ជាក់, ចន្លោះ [], ក្បៀស [,] ឬសញ្ញាក្បៀស [;]\n' +
+      'សូមនាំចូលឯកសារ TXT ថតចម្លងឬបញ្ចូលទម្រង់គាំទ្រដូចខាងក្រោម៖\n%@',
 };
 
 export default LANG;

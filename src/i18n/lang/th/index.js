@@ -83,6 +83,13 @@ const LANG = {
     TCGTHGOV: 'หวย (HL8)',
   },
   drawFrequency: 'เวลาการออกผล',
+  chooseFile: 'ที่อัพโหลด',
+  filterRepeat: 'ลบหมายเลขซ้ำ',
+  betsNTotalAmount: '<div class="font-bold">%@</div>บิล，รวม<div class="font-bold">%@</div>，',
+  predictionAmount: 'อัตราการเดิมพัน<div class="red-words">%@</div>',
+  filterResultMsg: 'ลบหมายเลขซ้ำ %@ โมฆะ %@',
+  amount: 'การใช้จ่าย',
+  manualBetPlaceHolderSEA: 'ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：\n%@',
 };
 
 export default LANG;

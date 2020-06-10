@@ -793,6 +793,7 @@ const LANG = {
   manualBetPlaceHolder_h5: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开复制或者输入支持格式如下：',
   manualBetPlaceHolder_2Digit_h5: `每注之间可以用回车丶逗号[,]或者分号[;]
 隔开复制或者输入支持格式如下：`,
+  manualBetPlaceHolderSEA: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开请导入TXT文件丶复制或者输入支持格式如下：\n%@',
   manualBetFormatError: '您的投注内容不符合要求<br />里面还有字母或者中文！',
   multipleFormatError: '您输入的投注倍数格式不正确<br />只能输入大于或等于1的数字！',
   multipleMaxError: '您的最大投注倍数不能超过 %@ 倍',
@@ -1399,6 +1400,8 @@ const LANG = {
     nineRow: '连九',
     allSelected: '全选',
   },
+  betsNTotalAmount: '您选择了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
+  predictionAmount: '单注最高可中<div class="red-words">%@</div>元',
   ...BaseGame,
   ...ProTrendChart,
 };

@@ -92,6 +92,13 @@ const LANG = {
   drawFrequency: '開獎頻率',
   totalCount: '合計',
   playRule: '玩法規則',
+  chooseFile: '上傳文件',
+  filterRepeat: '過濾重複/無效號',
+  betsNTotalAmount: '您選擇了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
+  predictionAmount: '單注最高可中<div class="red-words">%@</div>元',
+  filterResultMsg: '已經過濾%@组重複號，%@組無效號',
+  amount: '金額',
+  manualBetPlaceHolderSEA: '每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：\n%@',
 };
 
 export default LANG;

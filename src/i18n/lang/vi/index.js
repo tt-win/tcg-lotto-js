@@ -125,6 +125,13 @@ const LANG = {
   vncFirstPrize: 'Giải nhất',
   officialSite: 'Trang Chính Thức',
   drawFrequency: 'Tần số quay',
+  chooseFile: 'tải lên',
+  filterRepeat: 'Xóa số trùng lặp',
+  betsNTotalAmount: 'Đã chọn<div class="font-bold">%@</div>số，Số Tiền Cược<div class="font-bold">%@</div>，',
+  predictionAmount: 'Tỷ Lệ Cược<div class="red-words">%@</div>',
+  filterResultMsg: 'trùng lặp %@ không hợp lệ %@',
+  amount: 'Trên mỗi cược',
+  manualBetPlaceHolderSEA: 'Giữa mỗi cược cần phân cách bởi dấu chấm phẩy ";" hoặc dấu phẩy\n"," hoặc khoảng trắng " "\nSử dụng tệp TXT hoặc dán Ví dụ:\n%@',
 };
 
 export default LANG;
