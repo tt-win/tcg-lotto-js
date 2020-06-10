@@ -428,6 +428,25 @@ const groupBetConfigK3 = {
   }),
 };
 
+const groupBetConfigTHAI = {
+  '2_Straight_Add_THAI_Multi': BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  Last_2_Combine_THAI_Multi: BetConfigRecord({
+    minBalls: [2],
+  }),
+  Last_2_Straight_THAI_Multi: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  Last_3_Straight_THAI_Multi: BetConfigRecord({
+    isBetSlipByRow: true,
+  }),
+  Last_3_Combine_THAI_Multi: BetConfigRecord({
+    minBalls: [3],
+  }),
+};
+
+
 // 手工錄入
 const betConfigSingle = {
   Any2Com_SSC_Single: groupBetConfigSSC.Any2Com_SSC,
@@ -455,4 +474,5 @@ export default {
   ...groupBetConfigPK10,
   ...betConfigSingle,
   ...groupBetConfigK3,
+  ...groupBetConfigTHAI,
 };

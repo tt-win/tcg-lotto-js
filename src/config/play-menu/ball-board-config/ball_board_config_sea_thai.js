@@ -11,28 +11,28 @@ export default {
   2480: BallBoardConfigRecord({
     ...baseTHAIProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
-    formula: 'directChoose',
+    formula: 'straight',
   }),
 
   // Last_2_Combine_THAI_Multi 上反二位数（复式）
   2482: BallBoardConfigRecord({
     ...baseTHAIProps,
     betDigits: [betDigits.COM],
-    formula: 'combineOfTwo',
+    formula: 'combine6',
   }),
 
   // Last_2_Straight_THAI_Multi 上正二位数（复式）
   2483: BallBoardConfigRecord({
     ...baseTHAIProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
-    formula: 'directChoose',
+    formula: 'straight',
   }),
 
   // Last_3_Straight_THAI_Multi 上正三位数（复式）
   2485: BallBoardConfigRecord({
     ...baseTHAIProps,
     betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
-    formula: 'directChoose',
+    formula: 'straight',
   }),
 
   // Last_3_Combine_THAI_Multi 上反三位数（复式）
@@ -41,4 +41,4 @@ export default {
     betDigits: [betDigits.COM],
     formula: 'combineSix',
   }),
-}
+};
