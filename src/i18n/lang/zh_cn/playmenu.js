@@ -649,6 +649,7 @@ const PlayMenu = {
     2287: '上正四位数(单式)', // Last_4_Straight_1st_VNC_Single
     2285: '上正三位数(单式)', // Last_3_Straight_1st_VNC_Single
     2284: '上正三位数(复式)', // Last_3_Straight_1st_VNC_Multi
+    2283: '上反三位数（复式）', // Last_3_Combine_1st_VNC_Multi
     2280: '上正二位数(单式)', // Last_2_Straight_1st_VNC_Single
     2279: '上正二位数(复式)', // Last_2_Straight_1st_VNC_Multi
     2282: '下正二位数(单式)', // Last_2_Straight_2nd_VNC_Single

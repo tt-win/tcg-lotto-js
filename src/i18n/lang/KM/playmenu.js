@@ -16,6 +16,14 @@ const PlayMenu = {
         2066: 'អវិជ្ជមានលេខពីរខ្ទង់',
         2067: 'ចំនួនរត់', // 跑数
         2069: 'រត់បីខ្ទង់',
+        2480: 'Norm EXACT 2D-Special ',
+        2481: 'Manual Enter EXACT 2D-Special ',
+        2482: 'Norm ANY 2D-1st',
+        2483: 'Norm EXACT 2D-1st',
+        2484: 'Manual Enter  EXACT 2D-1st',
+        2485: 'Norm EXACT 3D-1st',
+        2486: 'Manual Enter EXACT 3D-1st',
+        2487: 'Norm ANY 3D-1st',
         // vnc 越南彩
         2090: 'លេខ4', // 四数
         2095: 'លេខ3', // 三数
@@ -31,6 +39,17 @@ const PlayMenu = {
         2107: 'រត់ពីរខ្ទង់', // 上跑两位数 Last_2_Any_1st_VNC
         2109: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 Last_2_Any_2nd_VNC
 
+        2286: 'Norm EXACT 4D-1st', // Last_4_Straight_1st_VNC_Multi
+        2287: 'Manual Enter EXACT 4D-1st', // Last_4_Straight_1st_VNC_Single
+        2285: 'Manual Enter EXACT 3D-1st', // Last_3_Straight_1st_VNC_Single
+        2284: 'Norm EXACT 3D-1st', // Last_3_Straight_1st_VNC_Multi
+        2283: 'Norm ANY 3D-1st', // Last_3_Combine_1st_VNC_Multi
+        2280: 'Manual Enter EXACT 2D-1st', // Last_2_Straight_1st_VNC_Single
+        2279: 'Norm EXACT 2D-1st', // Last_2_Straight_1st_VNC_Multi
+        2282: 'Manual Enter ANY 3D-2nd', // Last_2_Straight_2nd_VNC_Single
+        2281: 'Norm ANY 3D-2nd', // Last_2_Straight_2nd_VNC_Multi
+
+
         // LAO 老挝彩
         2127: 'លេខ4', // 四数
         2132: 'លេខ3', // 三数
@@ -45,6 +64,16 @@ const PlayMenu = {
         2141: 'លេខពីរខ្ទង់ក្រោម', // 下正二位数 First_2_Straight_LAO
         2144: 'រត់ពីរខ្ទង់ខាងលើ', // 上跑两位数 Last_2_Any_LAO
         2146: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 First_2_Any_LAO
+
+        2288: 'Norm EXACT 2D-last', // Last_2_Straight_LAO_Multi
+        2289: 'Manual Enter EXACT 2D-last', // Last_2_Straight_LAO_Single
+        2290: 'Norm EXACT 2D-first', // First_2_Straight_LAO_Multi
+        2291: 'Manual Enter EXACT 2D-first', // First_2_Straight_LAO_Single
+        2292: 'Norm ANY 3D', // Last_3_Combine_LAO_Multi
+        2293: 'Norm EXACT 3D', // Last_3_Straight_LAO_Multi
+        2294: 'Manual Enter EXACT 3D', // Last_3_Straight_LAO_Single
+        2295: 'Norm EXACT 4D', // Last_4_Straight_LAO_Multi
+        2296: 'Manual Enter EXACT 4D', // Last_4_Straight_LAO_Single
     },
 };
 

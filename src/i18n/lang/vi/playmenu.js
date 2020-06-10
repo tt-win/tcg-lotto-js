@@ -16,6 +16,14 @@ const PlayMenu = {
     2066: 'dưới ngay 2 chữ số',
     2067: 'chạy số', // 跑数
     2069: 'trên chạy 3 chữ số',
+    2480: 'Chọn Số Hai chữ số chính xác - Giải Số Đặc Biệt',
+    2481: 'Nhập Số Hai chữ số chính xác - Giải Số Đặc Biệt',
+    2482: 'Chọn Số Hai chữ số bất kỳ',
+    2483: 'Chọn Số Hai chữ số chính xác',
+    2484: 'Nhập Số Hai chữ số chính xác',
+    2485: 'Chọn Số Ba chữ số đầu chính xác',
+    2486: 'Nhập Số Ba chữ số đầu chính xác',
+    2487: 'Chọn Số Ba chữ số bất kỳ',
     // vnc 越南彩
     2090: '4 số', // 四数
     2095: '3 số', // 三数
@@ -31,6 +39,17 @@ const PlayMenu = {
     2107: 'trên chạy 2 chữ số', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'dưới chạy 2 chữ số', // 下跑两位数 Last_2_Any_2nd_VNC
 
+    2286: 'Chọn Số Bốn chữ số chính xác', // Last_4_Straight_1st_VNC_Multi
+    2287: 'Nhập Số Bốn chữ số chính xác', // Last_4_Straight_1st_VNC_Single
+    2285: 'Nhập Số Ba chữ số đầu chính xác', // Last_3_Straight_1st_VNC_Single
+    2284: 'Chọn Số Ba chữ số đầu chính xác', // Last_3_Straight_1st_VNC_Multi
+    2283: 'Chọn Số Ba chữ số bất kỳ', // Last_3_Combine_1st_VNC_Multi
+    2280: 'Nhập Số Nhập Số Hai chữ số chính xác', // Last_2_Straight_1st_VNC_Single
+    2279: 'Chọn Số Hai chữ số chính xác', // Last_2_Straight_1st_VNC_Multi
+    2282: 'Nhập Số Hai chữ số chính xác', // Last_2_Straight_2nd_VNC_Single
+    2281: 'Chọn Số Hai chữ số chính xác', // Last_2_Straight_2nd_VNC_Multi
+
+
     // LAO 老挝彩
     2127: '4 số', // 四数
     2132: '3 số', // 三数
@@ -45,6 +64,16 @@ const PlayMenu = {
     2141: 'dưới ngay 2 chữ số', // 下正二位数 First_2_Straight_LAO
     2144: 'trên chạy 2 chữ số', // 上跑两位数 Last_2_Any_LAO
     2146: 'dưới chạy 2 chữ số', // 下跑两位数 First_2_Any_LAO
+
+    2288: 'Chọn Số Hai chữ số chính xác', // Last_2_Straight_LAO_Multi
+    2289: 'Nhập Số Hai chữ số chính xác', // Last_2_Straight_LAO_Single
+    2290: 'Chọn Số Hai chữ số chính xác', // First_2_Straight_LAO_Multi
+    2291: 'Nhập Số Hai chữ số chính xác', // First_2_Straight_LAO_Single
+    2292: 'Chọn Số Ba chữ số bất kỳ', // Last_3_Combine_LAO_Multi
+    2293: 'Chọn Số Ba chữ số đầu chính xác', // Last_3_Straight_LAO_Multi
+    2294: 'Nhập Số Ba chữ số đầu chính xác', // Last_3_Straight_LAO_Single
+    2295: 'Chọn Số Bốn chữ số chính xác', // Last_4_Straight_LAO_Multi
+    2296: 'Nhập Số Bốn chữ số chính xác', // Last_4_Straight_LAO_Single
   },
 };
 

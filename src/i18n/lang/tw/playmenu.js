@@ -17,6 +17,15 @@ const PlayMenu = {
     2067: '跑數', // 跑数
     2069: '上跑三位數', // 上跑三位数
 
+    2480: '下正二位數（包注）',
+    2481: '下正二位數（輸入）',
+    2482: '上反二位數（包注）',
+    2483: '上正二位數（包注）',
+    2484: '上正二位數（輸入）',
+    2485: '上正三位數（包注）',
+    2486: '上正三位數（輸入）',
+    2487: '上反三位數（包注）',
+
     // vnc 越南彩
     2090: '四數', // 四数
     2095: '三數', // 三数
@@ -32,6 +41,17 @@ const PlayMenu = {
     2107: '上跑兩位數', // 上跑两位数 Last_2_Any_1st_VNC
     2109: '下跑兩位數', // 下跑两位数 Last_2_Any_2nd_VNC
 
+    2286: '上正四位數（包注）', // Last_4_Straight_1st_VNC_Multi
+    2287: '上正四位數（輸入）', // Last_4_Straight_1st_VNC_Single
+    2285: '上正三位數（輸入）', // Last_3_Straight_1st_VNC_Single
+    2284: '上正三位數（包注）', // Last_3_Straight_1st_VNC_Multi
+    2283: '上反三位數（包注）', // Last_3_Combine_1st_VNC_Multi
+    2280: '上正二位數（輸入）', // Last_2_Straight_1st_VNC_Single
+    2279: '上正二位數（包注）', // Last_2_Straight_1st_VNC_Multi
+    2282: '下正二位數（輸入）', // Last_2_Straight_2nd_VNC_Single
+    2281: '下正二位數（包注）', // Last_2_Straight_2nd_VNC_Multi
+
+
     // LAO 老挝彩
     2127: '四數', // 四数
     2132: '三數', // 三数
@@ -46,6 +66,16 @@ const PlayMenu = {
     2141: '下正二位數', // 下正二位数 First_2_Straight_LAO
     2144: '上跑兩位數', // 上跑两位数 Last_2_Any_LAO
     2146: '下跑兩位數', // 下跑两位数 First_2_Any_LAO
+
+    2288: '上正二位数（包注）', // Last_2_Straight_LAO_Multi
+    2289: '上正二位数（輸入）', // Last_2_Straight_LAO_Single
+    2290: '下正二位数（包注）', // First_2_Straight_LAO_Multi
+    2291: '下正二位数（輸入）', // First_2_Straight_LAO_Single
+    2292: '上反三位数（包注）', // Last_3_Combine_LAO_Multi
+    2293: '上正三位数（包注）', // Last_3_Straight_LAO_Multi
+    2294: '上正三位数（輸入）', // Last_3_Straight_LAO_Single
+    2295: '上正四位数（包注）', // Last_4_Straight_LAO_Multi
+    2296: '上正四位数（輸入）', // Last_4_Straight_LAO_Single
   },
 };
 
