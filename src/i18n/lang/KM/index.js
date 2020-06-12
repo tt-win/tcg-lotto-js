@@ -40,6 +40,22 @@ const LANG = {
     orderStatus_17: 'លុបចោល',
     orderStatus_99: 'លំដាប់មិនត្រឹមត្រូវ',
   },
+  betDigit: {
+    THOUSANDS: 'ពាន់',
+    HUNDREDS: 'រយ',
+    TENS: 'ដប់',
+    ONES: 'ឯក',
+    COM: '组选', // TODO 組選待翻譯
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: 'ទាំង',
+    big: 'ធំ',
+    small: 'តូច',
+    odd: 'សេស',
+    even: 'លេខគូ',
+    clear: 'លុប',
+  },
 
     // TODO i18n
   errorCode: {

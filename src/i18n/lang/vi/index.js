@@ -41,6 +41,22 @@ const LANG = {
     orderStatus_17: 'Hủy bỏ',
     orderStatus_99: 'đơn hàng vô hiệu',
   },
+  betDigit: {
+    THOUSANDS: 'Nghìn',
+    HUNDREDS: 'Trăm',
+    TENS: 'Chục',
+    ONES: 'Đuôi',
+    COM: '组选', // TODO 組選待翻譯
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: 'Tất cả',
+    big: 'Tài',
+    small: 'Xỉu',
+    odd: 'Lẻ',
+    even: 'Chẵn',
+    clear: 'Xóa',
+  },
 
   // TODO i18n
   errorCode: {
