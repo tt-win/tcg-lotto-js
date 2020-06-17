@@ -42,10 +42,10 @@ const LANG = {
     orderStatus_99: '無效訂單',
   },
   betDigit: {
-    THOUSANDS: '千位數字',
-    HUNDREDS: '百位數字',
-    TENS: '十位數字',
-    ONES: '個位數字',
+    THOUSANDS: '千位',
+    HUNDREDS: '百位',
+    TENS: '十位',
+    ONES: '個位',
     COM: '組選', // TODO 待翻譯
   },
   // 全大小奇偶清
