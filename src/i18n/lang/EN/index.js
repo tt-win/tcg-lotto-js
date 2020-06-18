@@ -40,6 +40,22 @@ const LANG = {
     orderStatus_17: 'Cancelled',
     orderStatus_99: 'Invalid Order',
   },
+  betDigit: {
+    THOUSANDS: 'Thousands',
+    HUNDREDS: 'Hundreds',
+    TENS: 'Tens',
+    ONES: 'Ones',
+    COM: '组选', // TODO 組選待翻譯
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: 'All',
+    big: 'Big',
+    small: 'Small',
+    odd: 'Odd',
+    even: 'Even',
+    clear: 'Delete',
+  },
 
     // TODO i18n
   errorCode: {

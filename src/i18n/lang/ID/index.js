@@ -16,6 +16,22 @@ const LANG = {
     orderStatus_17: 'Batal',
     orderStatus_99: 'Invalid Order',
   },
+  betDigit: {
+    THOUSANDS: 'Ribuan',
+    HUNDREDS: 'Ratusan',
+    TENS: 'Puluhan',
+    ONES: 'Satuan',
+    COM: '组选', // TODO 組選待翻譯
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: 'All',
+    big: 'Big',
+    small: 'Small',
+    odd: 'Odd',
+    even: 'Even',
+    clear: 'Delete',
+  },
   drawFrequency: 'Frekuensi the draw',
   chooseFile: 'unggah data',
   clearBallText: 'PASANG',

@@ -41,6 +41,22 @@ const LANG = {
     orderStatus_17: '個人撤單',
     orderStatus_99: '無效訂單',
   },
+  betDigit: {
+    THOUSANDS: '千位',
+    HUNDREDS: '百位',
+    TENS: '十位',
+    ONES: '個位',
+    COM: '組選', // TODO 待翻譯
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: '全',
+    big: '大',
+    small: '小',
+    odd: '奇',
+    even: '偶',
+    clear: '清',
+  },
 
     // TODO i18n
   errorCode: {

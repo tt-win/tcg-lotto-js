@@ -16,6 +16,22 @@ const LANG = {
     orderStatus_17: '취소',
     orderStatus_99: 'Invalid Order',
   },
+  betDigit: {
+    THOUSANDS: '수천',
+    HUNDREDS: '백',
+    TENS: '열',
+    ONES: '단위',
+    COM: '组选', // TODO 組選待翻譯
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: '모두',
+    big: '빅',
+    small: '스몰',
+    odd: '홀수',
+    even: '짝수',
+    clear: '지우다',
+  },
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',
   clearBallText: '삭제',

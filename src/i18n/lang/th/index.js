@@ -40,6 +40,22 @@ const LANG = {
     orderStatus_17: 'ยกเลิก',
     orderStatus_99: 'โมฆะ',
   },
+  betDigit: {
+    THOUSANDS: 'หลักที่4',
+    HUNDREDS: 'หลักที่3',
+    TENS: 'หลักที่2',
+    ONES: 'หลักที่1',
+    COM: '組選', // TODO 待翻譯
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: 'ทุก',
+    big: 'ใหญ่',
+    small: 'เล็ก',
+    odd: 'คี่',
+    even: 'คู่',
+    clear: 'ล้างข้',
+  },
 
   // TODO i18n
   errorCode: {
