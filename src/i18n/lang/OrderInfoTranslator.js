@@ -1113,14 +1113,15 @@ const SSCTranslator = {
       PlayMenu.Mid3Choose2Any_SSC,
       PlayMenu.Last3Choose2Any_SSC,
       // 猜和值 與 定位膽 playcode與傳統重複..用到的地方暫時hard code
+      // 這邊是猜和值
       /*
-      First2Sum_PK10: 1464,
-      First3Sum_PK10: 1465,
-    FirstLastSum_PK10: 1466,
+        First2Sum_PK10: 1885,
+        First3Sum_PK10: 1886,
+        FirstLastSum_PK10: 1887,
     */
-      1464,
-      1465,
-      1466,
+      1885,
+      1886,
+      1887,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
