@@ -45,7 +45,7 @@ const LANG = {
     HUNDREDS: 'Hundreds',
     TENS: 'Tens',
     ONES: 'Ones',
-    COM: '组选', // TODO 組選待翻譯
+    COM: 'Group',
   },
   // 全大小奇偶清
   pickRow: {
@@ -90,6 +90,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'You are not logged in yet, please login first!',
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit stakes',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',

@@ -21,7 +21,7 @@ const LANG = {
     HUNDREDS: '백',
     TENS: '열',
     ONES: '단위',
-    COM: '组选', // TODO 組選待翻譯
+    COM: '그룹',
   },
   // 全大小奇偶清
   pickRow: {
@@ -31,6 +31,9 @@ const LANG = {
     odd: '홀수',
     even: '짝수',
     clear: '지우다',
+  },
+  errorCode: {
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: '베팅 말뚝이 한도 초과',
   },
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',

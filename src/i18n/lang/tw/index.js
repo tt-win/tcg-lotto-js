@@ -46,7 +46,7 @@ const LANG = {
     HUNDREDS: '百位',
     TENS: '十位',
     ONES: '個位',
-    COM: '組選', // TODO 待翻譯
+    COM: '組選',
   },
   // 全大小奇偶清
   pickRow: {
@@ -96,6 +96,7 @@ const LANG = {
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '當前彩種暫時沒有開始銷售 請稍後再試',
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中獎即停不可使用',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此號碼已超出當前期購買額度，請與客服聯繫',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注數已超過允許的上限',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',

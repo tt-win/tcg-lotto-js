@@ -45,7 +45,7 @@ const LANG = {
     HUNDREDS: 'រយ',
     TENS: 'ដប់',
     ONES: 'ឯក',
-    COM: '组选', // TODO 組選待翻譯
+    COM: 'ក្រុម',
   },
   // 全大小奇偶清
   pickRow: {
@@ -90,6 +90,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'អតិថិជន-ចាកចេញ!',
     DRAW_FAIL_ERROR_: 'ប្រព័ន្ធនេះរវល់គារភ្នាល់-បរាជ័យ',
     NOT_SUPPORT_LANDSCAPE: 'មិនអាច-កំណត់-ទេសភាព',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ',
   },
   gameHistoryCancel: 'ប្រវត្តិល្បែងត្រូវបានលុប',
   gameHistoryCancel_success: 'ប្រវត្តិល្បែងត្រូវបានលុបដោយ-ជោគជ័យ',

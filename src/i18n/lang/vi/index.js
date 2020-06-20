@@ -46,7 +46,7 @@ const LANG = {
     HUNDREDS: 'Trăm',
     TENS: 'Chục',
     ONES: 'Đuôi',
-    COM: '组选', // TODO 組選待翻譯
+    COM: 'Nhóm',
   },
   // 全大小奇偶清
   pickRow: {
@@ -91,6 +91,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'bạn chưa đăng nhập, vui lòng đăng nhập !',
     DRAW_FAIL_ERROR_: 'hệ thống bận, đặt cược thất bại!',
     NOT_SUPPORT_LANDSCAPE: 'không hỗ trợ để ngang màn hình',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Cược đặt cược vượt quá giới hạn',
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',

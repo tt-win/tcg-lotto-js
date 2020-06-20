@@ -45,7 +45,7 @@ const LANG = {
     HUNDREDS: 'หลักที่3',
     TENS: 'หลักที่2',
     ONES: 'หลักที่1',
-    COM: '組選', // TODO 待翻譯
+    COM: 'กลุ่ม',
   },
   // 全大小奇偶清
   pickRow: {
@@ -90,6 +90,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'คุณยังไม่ได้เข้าสู่ระบบ กรุณาเข้าสู่ระบบก่อน',
     DRAW_FAIL_ERROR_: 'ระบบไม่ว่าง กรุณาลองไหม่อีกครั้ง',
     NOT_SUPPORT_LANDSCAPE: 'หน้าจอไม่สามารถตั้งเป็นแนวนอน',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',

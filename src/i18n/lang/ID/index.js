@@ -21,7 +21,7 @@ const LANG = {
     HUNDREDS: 'Ratusan',
     TENS: 'Puluhan',
     ONES: 'Satuan',
-    COM: '组选', // TODO 組選待翻譯
+    COM: 'Group',
   },
   // 全大小奇偶清
   pickRow: {
@@ -31,6 +31,9 @@ const LANG = {
     odd: 'Odd',
     even: 'Even',
     clear: 'Delete',
+  },
+  errorCode: {
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Taruhan Taruhan lebih dari batas taruhannya',
   },
   drawFrequency: 'Frekuensi the draw',
   chooseFile: 'unggah data',
