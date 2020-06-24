@@ -26,6 +26,7 @@ const LANG = {
   processing: 'Processing',
   betFail: 'Bet Failed',
   betFailed: 'Incorrect/Incomplete Playslip. Processing failed.',
+  detail: 'Details',
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_2: 'IN PROGRESS',

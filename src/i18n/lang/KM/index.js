@@ -26,6 +26,7 @@ const LANG = {
   processing: 'កំពុងដំណើរការ',
   betFail: 'ការភ្នាល់មិនជោគជ័យ',
   betFailed: 'ការភ្នាល់មិនជោគជ័យ!',
+  detail: 'ការចេញលេខ.',
   orderStatus: {
     orderStatus_0: 'ពត៌មានលំអិត',
     orderStatus_2: 'កំពុងដំណើរការ',

@@ -26,6 +26,7 @@ const LANG = {
   processing: 'กำลังโหลด',
   betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',
   betFailed: 'ใส่ราคาไม่ตรงเงื่อนไข!!',
+  detail: 'รายการเดิมพัน',
   orderStatus: {
     orderStatus_0: 'รายละเอียด',
     orderStatus_2: 'สำเร็จ',

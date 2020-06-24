@@ -27,6 +27,7 @@ const LANG = {
   processing: '進行中',
   betFail: '下注失敗',
   betFailed: '生成訂單失敗',
+  detail: '詳細',
   orderStatus: {
     orderStatus_0: '全部',
     orderStatus_2: '進行中',
