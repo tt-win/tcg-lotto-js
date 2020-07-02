@@ -24,6 +24,7 @@ const PlayMenu = {
     2485: 'Norma Tiga digit berurutan - 1st',
     2486: 'Manual Tiga digit berurutan - 1st',
     2487: 'Norma Tiga digit tanpa urutan - 1st',
+    2297: 'FishPrawnCrab', // 魚蝦蟹
 
     // vnc 越南彩
     2090: 'Empat digit',
@@ -50,6 +51,7 @@ const PlayMenu = {
     2282: 'Manual Tiga digit tanpa urutan - 2nd', // Last_2_Straight_2nd_VNC_Single
     2281: 'Norma Tiga digit tanpa urutan - 2nd', // Last_2_Straight_2nd_VNC_Multi
 
+    2300: 'FishPrawnCrab', // 魚蝦蟹
 
     // LAO 老挝彩
     2127: 'Empat digit',

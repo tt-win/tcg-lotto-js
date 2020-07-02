@@ -26,6 +26,8 @@ const PlayMenu = {
     2486: 'Manual Enter EXACT 3D-1st',
     2487: 'Norm ANY 3D-1st',
 
+    2297: 'FishPrawnCrab', // 魚蝦蟹
+
     // vnc 越南彩
     2090: 'Four Digit', // 四数
     2095: 'Three Digit', // 三数
@@ -50,6 +52,8 @@ const PlayMenu = {
     2279: 'Norm EXACT 2D-1st', // Last_2_Straight_1st_VNC_Multi
     2282: 'Manual Enter ANY 3D-2nd', // Last_2_Straight_2nd_VNC_Single
     2281: 'Norm ANY 3D-2nd', // Last_2_Straight_2nd_VNC_Multi
+
+    2300: 'FishPrawnCrab', // 魚蝦蟹
 
     // LAO 老挝彩
     2127: 'Four Digit', // 四数
