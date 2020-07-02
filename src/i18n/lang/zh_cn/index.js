@@ -236,6 +236,11 @@ const LANG = {
       red: '红',
       black: '黑',
     },
+    fishPrawnCrab: {
+      fish: '鱼',
+      prawn: '虾',
+      crab: '蟹',
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',

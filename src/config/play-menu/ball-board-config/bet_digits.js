@@ -109,6 +109,9 @@ export const betDigits = {
   // 四星彩
   Two_Num_Any_Code_4D: 'Two_Num_Any_Code_4D',
   Three_Num_Any_Code_4D: 'Three_Num_Any_Code_4D',
+
+  // 魚蝦蟹
+  FISH_PRAWN_CRAB: 'FISH_PRAWN_CRAB',
 };
 
 export default {};

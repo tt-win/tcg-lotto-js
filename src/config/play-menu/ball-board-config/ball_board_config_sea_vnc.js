@@ -6,6 +6,24 @@ const baseVNCProps = {
   ballDigit: 1,
 };
 
+const fishPrawnCrabVNCProps = {
+  fixedBalls: ['0', '1', '2'], // 特殊: 固定球號, 球號無規律, ex: 定單雙
+  ballI18n: {
+    0: 'ball.fishPrawnCrab.fish',
+    1: 'ball.fishPrawnCrab.prawn',
+    2: 'ball.fishPrawnCrab.crab',
+  },
+  boardClassNames: 'fish-prawn-crab',
+  ballClassName: {
+    0: 'fish',
+    1: 'prawn',
+    2: 'crab',
+  },
+  betDigits: [betDigits.FISH_PRAWN_CRAB],
+  multi: true, // 可否複選
+  formula: 'oneBallOneNum', // 1球1注
+};
+
 export default {
   // Last_2_Straight_1st_VNC_Multi 上正二位数（复式）
   2279: BallBoardConfigRecord({
@@ -40,5 +58,10 @@ export default {
     ...baseVNCProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
+  }),
+
+  // Hoo_Hey_How_THAI 鱼虾蟹
+  2302: BallBoardConfigRecord({
+    ...fishPrawnCrabVNCProps,
   }),
 };
