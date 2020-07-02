@@ -24,6 +24,9 @@ const PlayMenu = {
     2485: 'Chọn Số Ba chữ số đầu chính xác',
     2486: 'Nhập Số Ba chữ số đầu chính xác',
     2487: 'Chọn Số Ba chữ số bất kỳ',
+
+    2297: 'cược Bầu Cua', // 魚蝦蟹
+    2299: 'cược Bầu Cua', // 魚蝦蟹
     // vnc 越南彩
     2090: '4 số', // 四数
     2095: '3 số', // 三数
@@ -49,6 +52,8 @@ const PlayMenu = {
     2282: 'Nhập Số Hai chữ số chính xác', // Last_2_Straight_2nd_VNC_Single
     2281: 'Chọn Số Hai chữ số chính xác', // Last_2_Straight_2nd_VNC_Multi
 
+    2300: 'cược Bầu Cua', // 魚蝦蟹
+    2302: 'cược Bầu Cua', // 魚蝦蟹
 
     // LAO 老挝彩
     2127: '4 số', // 四数
@@ -74,6 +79,9 @@ const PlayMenu = {
     2294: 'Nhập Số Ba chữ số đầu chính xác', // Last_3_Straight_LAO_Single
     2295: 'Chọn Số Bốn chữ số chính xác', // Last_4_Straight_LAO_Multi
     2296: 'Nhập Số Bốn chữ số chính xác', // Last_4_Straight_LAO_Single
+
+    2303: 'cược Bầu Cua', // 魚蝦蟹
+    2305: 'cược Bầu Cua', // 魚蝦蟹
   },
 };
 

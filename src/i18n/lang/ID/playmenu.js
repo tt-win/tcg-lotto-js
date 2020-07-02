@@ -24,6 +24,8 @@ const PlayMenu = {
     2485: 'Norma Tiga digit berurutan - 1st',
     2486: 'Manual Tiga digit berurutan - 1st',
     2487: 'Norma Tiga digit tanpa urutan - 1st',
+    2297: 'FishPrawnCrab', // 魚蝦蟹
+    2299: 'FishPrawnCrab', // 魚蝦蟹
 
     // vnc 越南彩
     2090: 'Empat digit',
@@ -50,6 +52,8 @@ const PlayMenu = {
     2282: 'Manual Tiga digit tanpa urutan - 2nd', // Last_2_Straight_2nd_VNC_Single
     2281: 'Norma Tiga digit tanpa urutan - 2nd', // Last_2_Straight_2nd_VNC_Multi
 
+    2300: 'FishPrawnCrab', // 魚蝦蟹
+    2302: 'FishPrawnCrab', // 魚蝦蟹
 
     // LAO 老挝彩
     2127: 'Empat digit',
@@ -75,6 +79,9 @@ const PlayMenu = {
     2294: 'Manual Tiga digit berurutan', // Last_3_Straight_LAO_Single
     2295: 'Norma Empat digit berurutan', // Last_4_Straight_LAO_Multi
     2296: 'Manual Empat digit berurutan', // Last_4_Straight_LAO_Single
+
+    2303: 'FishPrawnCrab', // 魚蝦蟹
+    2305: 'FishPrawnCrab', // 魚蝦蟹
   },
 };
 
