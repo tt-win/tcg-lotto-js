@@ -841,17 +841,6 @@ export const PlayMenu = {
   '2_Star_THAI': 2060,
   Any_Place_THAI: 2067,
   Hoo_Hey_How_THAI: 2299,
-  Last_4_VNC: 2090, // 越南彩四數
-  Last_3_VNC: 2095,
-  '2_Star_VNC': 2100,
-  Any_Place_VNC: 2105,
-  Hoo_Hey_How_VNC: 2302,
-  // 老撾彩
-  '4_Num_LAO': 2127,
-  '3_Num_LAO': 2132,
-  '2_Num_LAO': 2137,
-  Any_LAO: 2142,
-  Hoo_Hey_How_LAO: 2305,
 
   LAST_3_STRAIGHT_THAI: 2057, // 上正三位数
   LAST_3_COMBINE_THAI: 2059, // 上反三位数
@@ -868,7 +857,14 @@ export const PlayMenu = {
   Last_2_Combine_THAI_Multi: 2482, // 上反二位数（复式）
   Last_2_Straight_THAI_Multi: 2483, // 上正二位数（复式）
   Last_2_Straight_THAI_Single: 2484, // 上正二位数（单式）
+
   // vnc 越南彩
+  Last_4_VNC: 2090, // 越南彩四數
+  Last_3_VNC: 2095,
+  '2_Star_VNC': 2100,
+  Any_Place_VNC: 2105,
+  Hoo_Hey_How_VNC: 2302,
+
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
   LAST_3_STRAIGHT_1ST_VNC: 2097, // 上正三位数
@@ -887,7 +883,14 @@ export const PlayMenu = {
   Last_3_Straight_1st_VNC_Single: 2285, // 上正三位数（单式）
   Last_4_Straight_1st_VNC_Multi: 2286, // 上正四位数（复式）
   Last_4_Straight_1st_VNC_Single: 2287, // 上正四位数（单式）
+
   // LAO 老挝彩
+  '4_Num_LAO': 2127,
+  '3_Num_LAO': 2132,
+  '2_Num_LAO': 2137,
+  Any_LAO: 2142,
+  Hoo_Hey_How_LAO: 2305,
+
   LAST_4_STRAIGHT_LAO: 2129, // 上正四位数
   LAST_4_COMBINE_LAO: 2131, // 上反四位数
   LAST_3_STRAIGHT_LAO: 2134, // 上正三位数
