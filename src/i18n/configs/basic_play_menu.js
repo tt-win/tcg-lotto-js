@@ -840,7 +840,8 @@ export const PlayMenu = {
   Last_3_THAI: 2055,
   '2_Star_THAI': 2060,
   Any_Place_THAI: 2067,
-  Hoo_Hey_How_THAI: 2299,
+  Hoo_Hey_How_THAI: 2297, // 魚蝦蟹
+  Hoo_Hey_How_THAI: 2299, // 魚蝦蟹
 
   LAST_3_STRAIGHT_THAI: 2057, // 上正三位数
   LAST_3_COMBINE_THAI: 2059, // 上反三位数
@@ -863,7 +864,8 @@ export const PlayMenu = {
   Last_3_VNC: 2095,
   '2_Star_VNC': 2100,
   Any_Place_VNC: 2105,
-  Hoo_Hey_How_VNC: 2302,
+  Hoo_Hey_How_VNC: 2300, // 魚蝦蟹
+  Hoo_Hey_How_VNC: 2302, // 魚蝦蟹
 
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
@@ -889,7 +891,8 @@ export const PlayMenu = {
   '3_Num_LAO': 2132,
   '2_Num_LAO': 2137,
   Any_LAO: 2142,
-  Hoo_Hey_How_LAO: 2305,
+  Hoo_Hey_How_LAO: 2303, // 魚蝦蟹
+  Hoo_Hey_How_LAO: 2305, // 魚蝦蟹
 
   LAST_4_STRAIGHT_LAO: 2129, // 上正四位数
   LAST_4_COMBINE_LAO: 2131, // 上反四位数
