@@ -6,21 +6,6 @@ const baseTHAIProps = {
   ballDigit: 1,
 };
 
-const fishPrawnCrabTHAIProps = {
-  fixedBalls: ['0', '1', '2'], // 特殊: 固定球號, 球號無規律, ex: 定單雙
-  ballI18n: {
-    0: 'ball.fishPrawnCrab.fish',
-    1: 'ball.fishPrawnCrab.prawn',
-    2: 'ball.fishPrawnCrab.crab',
-  },
-  boardClassNames: 'fish-prawn-crab',
-  fishPrawnCrabballClassName: {
-    0: 'fish',
-    1: 'prawn',
-    2: 'crab',
-  },
-};
-
 export default {
   // 2_Straight_Add_THAI_Multi 下正二位数（复式）
   2480: BallBoardConfigRecord({
@@ -55,10 +40,5 @@ export default {
     ...baseTHAIProps,
     betDigits: [betDigits.COM],
     formula: 'combineSix',
-  }),
-
-  // Hoo_Hey_How_THAI 鱼虾蟹
-  2299: BallBoardConfigRecord({
-    ...fishPrawnCrabTHAIProps,
   }),
 };
