@@ -19,9 +19,6 @@ const fishPrawnCrabVNCProps = {
     1: 'prawn',
     2: 'crab',
   },
-  betDigits: [betDigits.FISH_PRAWN_CRAB],
-  multi: true, // 可否複選
-  formula: 'oneBallOneNum', // 1球1注
 };
 
 export default {
