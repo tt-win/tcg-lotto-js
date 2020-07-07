@@ -14,7 +14,7 @@ const fishPrawnCrabLAOProps = {
     2: 'ball.fishPrawnCrab.crab',
   },
   boardClassNames: 'fish-prawn-crab',
-  ballClassName: {
+  fishPrawnCrabballClassName: {
     0: 'fish',
     1: 'prawn',
     2: 'crab',
