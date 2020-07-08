@@ -58,6 +58,11 @@ const LANG = {
     even: 'Chẵn',
     clear: 'Xóa',
   },
+  fishPrawnCrab: {
+    fish: 'cá',
+    prawn: 'Tôm',
+    crab: 'cua',
+  },
 
   // TODO i18n
   errorCode: {

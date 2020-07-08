@@ -57,6 +57,11 @@ const LANG = {
     even: 'លេខគូ',
     clear: 'លុប',
   },
+  fishPrawnCrab: {
+    fish: 'ត្',
+    prawn: 'បង្',
+    crab: 'ក្តាម',
+  },
 
     // TODO i18n
   errorCode: {

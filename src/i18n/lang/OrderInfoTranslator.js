@@ -201,6 +201,13 @@ const K3_KEY = {
   },
 };
 
+
+const FISH_PRAWN_CRAB_KEY = {
+  0: 'fish',
+  1: 'prawn',
+  2: 'crab',
+};
+
 // SSC 龍虎和
 const getDragonTigerTie = (val) => {
   switch (val) {
@@ -1228,6 +1235,14 @@ const THAITranslator = {
       PlayMenu.FIRST_2_ANY_LAO,
     ],
     getText: (content) => (content || '').split(',')[0],
+  },
+  FISH_PRAWN_CRAB: {
+    items: [
+      PlayMenu.Hoo_Hey_How_Play_THAI,
+      PlayMenu.Hoo_Hey_How_Play_VNC,
+      PlayMenu.Hoo_Hey_How_Play_LAO,
+    ],
+    getText: (content) => i18n(`ball.fishPrawnCrab.${FISH_PRAWN_CRAB_KEY[content]}`),
   },
 };
 

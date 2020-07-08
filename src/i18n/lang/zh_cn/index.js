@@ -238,8 +238,8 @@ const LANG = {
     },
     fishPrawnCrab: {
       fish: '鱼',
-      prawn: '虾',
-      crab: '蟹',
+      prawn: '大虾',
+      crab: '螃蟹',
     },
   },
   gameGroupCode: {
