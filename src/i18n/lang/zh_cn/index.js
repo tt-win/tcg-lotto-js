@@ -257,6 +257,12 @@ const LANG = {
     VNC: '越南彩',
     LAO: '老挝彩',
     ST: '电玩彩',
+    DLT: '大乐透',
+    MAS: '马来西亚彩',
+    SGC: '新加坡彩',
+    SSQ: '双色球',
+    STOCK: '股票彩',
+    TWC: '台湾彩',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
