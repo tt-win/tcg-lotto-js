@@ -55,3 +55,12 @@ export const baseBSOEProps = {
     3: 'ball.BSOE.even',
   },
 };
+
+export const fishPrawnCrabBallProps = {
+  fixedBalls: ['0', '1', '2'],
+  ballI18n: {
+    0: 'ball.fishPrawnCrab.fish',
+    1: 'ball.fishPrawnCrab.prawn',
+    2: 'ball.fishPrawnCrab.crab',
+  },
+};

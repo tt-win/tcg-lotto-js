@@ -1,4 +1,4 @@
-import { BallBoardConfigRecord } from './ball_board_config_record';
+import { BallBoardConfigRecord, fishPrawnCrabBallProps } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
 
 const baseTHAIProps = {
@@ -40,5 +40,10 @@ export default {
     ...baseTHAIProps,
     betDigits: [betDigits.COM],
     formula: 'combineSix',
+  }),
+
+  // Hoo_Hey_How_Play_THAI 鱼虾蟹
+  2299: BallBoardConfigRecord({
+    ...fishPrawnCrabBallProps,
   }),
 };

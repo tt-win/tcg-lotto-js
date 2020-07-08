@@ -1,4 +1,4 @@
-import { BallBoardConfigRecord } from './ball_board_config_record';
+import { BallBoardConfigRecord, fishPrawnCrabBallProps } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
 
 const baseLAOProps = {
@@ -40,5 +40,10 @@ export default {
     ...baseLAOProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
+  }),
+
+  // Hoo_Hey_How_Play_LAO 鱼虾蟹
+  2305: BallBoardConfigRecord({
+    ...fishPrawnCrabBallProps,
   }),
 };
