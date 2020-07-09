@@ -32,10 +32,12 @@ const LANG = {
     even: '짝수',
     clear: '지우다',
   },
-  fishPrawnCrab: {
-    fish: '물고기',
-    prawn: '왕새우',
-    crab: '대게',
+  ball: {
+    fishPrawnCrab: {
+      fish: '물고기',
+      prawn: '왕새우',
+      crab: '대게',
+    },
   },
   errorCode: {
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '베팅 말뚝이 한도 초과',
