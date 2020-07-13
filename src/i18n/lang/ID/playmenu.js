@@ -53,6 +53,7 @@ const PlayMenu = {
     2281: 'Norma Tiga digit tanpa urutan - 2nd', // Last_2_Straight_2nd_VNC_Multi
 
     2300: 'FishPrawnCrab', // 魚蝦蟹
+    2301: 'FishPrawnCrab', // 魚蝦蟹
     2302: 'FishPrawnCrab', // 魚蝦蟹
 
     // LAO 老挝彩

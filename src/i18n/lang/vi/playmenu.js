@@ -53,6 +53,7 @@ const PlayMenu = {
     2281: 'Chọn Số Hai chữ số chính xác', // Last_2_Straight_2nd_VNC_Multi
 
     2300: 'cược Bầu Cua', // 魚蝦蟹
+    2301: 'cược Bầu Cua', // 魚蝦蟹
     2302: 'cược Bầu Cua', // 魚蝦蟹
 
     // LAO 老挝彩
