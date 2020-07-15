@@ -26,9 +26,9 @@ const PlayMenu = {
     2486: 'Manual Enter EXACT 3D-1st',
     2487: 'Norm ANY 3D-1st',
 
-    2297: 'FishPrawnCrab', // 魚蝦蟹
-    2298: 'FishPrawnCrab', // 魚蝦蟹
-    2299: 'FishPrawnCrab', // 魚蝦蟹
+    2297: 'Fish Prawn Crab', // 魚蝦蟹
+    2298: 'Fish Prawn Crab', // 魚蝦蟹
+    2299: 'Fish Prawn Crab', // 魚蝦蟹
 
     // vnc 越南彩
     2090: '4D', // 四数
@@ -55,9 +55,9 @@ const PlayMenu = {
     2282: 'Manual Enter ANY 3D-2nd', // Last_2_Straight_2nd_VNC_Single
     2281: 'Norm ANY 3D-2nd', // Last_2_Straight_2nd_VNC_Multi
 
-    2300: 'FishPrawnCrab', // 魚蝦蟹
-    2301: 'FishPrawnCrab', // 魚蝦蟹
-    2302: 'FishPrawnCrab', // 魚蝦蟹
+    2300: 'Fish Prawn Crab', // 魚蝦蟹
+    2301: 'Fish Prawn Crab', // 魚蝦蟹
+    2302: 'Fish Prawn Crab', // 魚蝦蟹
 
     // LAO 老挝彩
     2127: '4D', // 四数
@@ -84,9 +84,9 @@ const PlayMenu = {
     2295: 'Norm EXACT 4D', // Last_4_Straight_LAO_Multi
     2296: 'Manual Enter EXACT 4D', // Last_4_Straight_LAO_Single
 
-    2303: 'FishPrawnCrab', // 魚蝦蟹
-    2304: 'FishPrawnCrab', // 魚蝦蟹
-    2305: 'FishPrawnCrab', // 魚蝦蟹
+    2303: 'Fish Prawn Crab', // 魚蝦蟹
+    2304: 'Fish Prawn Crab', // 魚蝦蟹
+    2305: 'Fish Prawn Crab', // 魚蝦蟹
   },
 };
 
