@@ -27,6 +27,7 @@ const PlayMenu = {
     2487: 'Norm ANY 3D-1st',
 
     2297: 'FishPrawnCrab', // 魚蝦蟹
+    2298: 'FishPrawnCrab', // 魚蝦蟹
     2299: 'FishPrawnCrab', // 魚蝦蟹
 
     // vnc 越南彩
@@ -84,6 +85,7 @@ const PlayMenu = {
     2296: 'Manual Enter EXACT 4D', // Last_4_Straight_LAO_Single
 
     2303: 'FishPrawnCrab', // 魚蝦蟹
+    2304: 'FishPrawnCrab', // 魚蝦蟹
     2305: 'FishPrawnCrab', // 魚蝦蟹
   },
 };

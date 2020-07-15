@@ -26,6 +26,7 @@ const PlayMenu = {
     2487: 'Chọn Số Ba chữ số bất kỳ',
 
     2297: 'cược Bầu Cua', // 魚蝦蟹
+    2298: 'cược Bầu Cua', // 魚蝦蟹
     2299: 'cược Bầu Cua', // 魚蝦蟹
     // vnc 越南彩
     2090: '4 số', // 四数
@@ -82,6 +83,7 @@ const PlayMenu = {
     2296: 'Nhập Số Bốn chữ số chính xác', // Last_4_Straight_LAO_Single
 
     2303: 'cược Bầu Cua', // 魚蝦蟹
+    2304: 'cược Bầu Cua', // 魚蝦蟹
     2305: 'cược Bầu Cua', // 魚蝦蟹
   },
 };
