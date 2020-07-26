@@ -1,4 +1,11 @@
-import { BallBoardConfigRecord, fishPrawnCrabBallProps } from './ball_board_config_record';
+import {
+  BallBoardConfigRecord,
+  fishPrawnCrabBallProps,
+  fanTanFanBallProps,
+  fanTanJiaoBallProps,
+  fanTanNianBallProps,
+  fanTanBSOEProps,
+} from './ball_board_config_record';
 import { betDigits } from './bet_digits';
 
 const baseVNCProps = {
@@ -45,5 +52,35 @@ export default {
   // Hoo_Hey_How_Play_VNC 鱼虾蟹
   2302: BallBoardConfigRecord({
     ...fishPrawnCrabBallProps,
+  }),
+
+  // fan tan thai group mapping
+  2488: {
+    menuMapping: {
+      fan: 2490,
+      jiao: 2492,
+      nian: 2494,
+      bsoe: 2496,
+    },
+  },
+
+  // 番
+  2490: BallBoardConfigRecord({
+    ...fanTanFanBallProps,
+  }),
+
+  // 角
+  2492: BallBoardConfigRecord({
+    ...fanTanJiaoBallProps,
+  }),
+
+  // 念
+  2494: BallBoardConfigRecord({
+    ...fanTanNianBallProps,
+  }),
+
+  // fan tan BSOE
+  2496: BallBoardConfigRecord({
+    ...fanTanBSOEProps,
   }),
 };

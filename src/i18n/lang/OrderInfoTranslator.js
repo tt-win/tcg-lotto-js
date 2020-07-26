@@ -1244,6 +1244,34 @@ const THAITranslator = {
     ],
     getText: (content) => i18n(`ball.fishPrawnCrab.${FISH_PRAWN_CRAB_KEY[content]}`),
   },
+
+  FAN: {
+    items: [
+      PlayMenu.Fan_Tan_Fan_THAI,
+      PlayMenu.Fan_Tan_Fan_VNC,
+      PlayMenu.Fan_Tan_Fan_LAO,
+    ],
+    getText: (content) => i18n(`ball.fanTanFan.${content.replace('0', '4')}`),
+
+  },
+
+  JIAO: {
+    items: [
+      PlayMenu.Fan_Tan_Jiao_THAI,
+      PlayMenu.Fan_Tan_Jiao_VNC,
+      PlayMenu.Fan_Tan_Jiao_LAO,
+    ],
+    getText: (content) => i18n(`ball.fanTanJiao.${content.replace('0', '4').split('').join('_')}`),
+  },
+
+  NIAN: {
+    items: [
+      PlayMenu.Fan_Tan_Nian_THAI,
+      PlayMenu.Fan_Tan_Nian_VNC,
+      PlayMenu.Fan_Tan_Nian_LAO,
+    ],
+    getText: (content) => i18n(`ball.fanTanNian.${content.replace('0', '4').split('').join('_')}`),
+  },
 };
 
 const LFTranslator = {
@@ -1366,8 +1394,8 @@ const OrderInfoTranslatorList = {
       PlayMenu.Sum_BS_OE_K3,
       PlayMenu.Sum_BS_OE_K3_ENT,
       PlayMenu.Sum_BS_OE_Baozi_Kill_K3_ENT,
-	    PlayMenu.Red_Num_BSOE_K3_ENT,
-	    PlayMenu.Black_Num_BSOE_K3_ENT,
+      PlayMenu.Red_Num_BSOE_K3_ENT,
+      PlayMenu.Black_Num_BSOE_K3_ENT,
       // 11X5
       PlayMenu.Two_Side_First_BSOE_11X5_ENT,
       PlayMenu.Two_Side_Second_BSOE_11X5_ENT,
@@ -1383,6 +1411,11 @@ const OrderInfoTranslatorList = {
       PlayMenu.Hundreds_BSOE_LF,
       PlayMenu.Tens_BSOE_LF,
       PlayMenu.Units_BSOE_LF,
+
+      // fan tan
+      PlayMenu.Fan_Tan_BSOE_THAI,
+      PlayMenu.Fan_Tan_BSOE_VNC,
+      PlayMenu.Fan_Tan_BSOE_LAO,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -1685,6 +1718,7 @@ const OrderInfoTranslator = {
     if (!playId || !bettingContent) {
       return '';
     }
+    console.log('asdfsadfsa', playId);
 
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
     const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));

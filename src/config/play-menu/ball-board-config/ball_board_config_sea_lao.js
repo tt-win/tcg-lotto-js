@@ -1,4 +1,11 @@
-import { BallBoardConfigRecord, fishPrawnCrabBallProps } from './ball_board_config_record';
+import {
+  BallBoardConfigRecord,
+  fishPrawnCrabBallProps,
+  fanTanFanBallProps,
+  fanTanJiaoBallProps,
+  fanTanNianBallProps,
+  fanTanBSOEProps,
+} from './ball_board_config_record';
 import { betDigits } from './bet_digits';
 
 const baseLAOProps = {
@@ -45,5 +52,35 @@ export default {
   // Hoo_Hey_How_Play_LAO 鱼虾蟹
   2305: BallBoardConfigRecord({
     ...fishPrawnCrabBallProps,
+  }),
+
+  // fan tan thai group mapping
+  2506: {
+    menuMapping: {
+      fan: 2508,
+      jiao: 2510,
+      nian: 2512,
+      bsoe: 2514,
+    },
+  },
+
+  // 番
+  2508: BallBoardConfigRecord({
+    ...fanTanFanBallProps,
+  }),
+
+  // 角
+  2510: BallBoardConfigRecord({
+    ...fanTanJiaoBallProps,
+  }),
+
+  // 念
+  2512: BallBoardConfigRecord({
+    ...fanTanNianBallProps,
+  }),
+
+  // fan tan BSOE
+  2514: BallBoardConfigRecord({
+    ...fanTanBSOEProps,
   }),
 };

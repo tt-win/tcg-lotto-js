@@ -626,6 +626,10 @@ const PlayMenu = {
     2298: '鱼虾蟹', // 魚蝦蟹
     2299: '鱼虾蟹', // 魚蝦蟹
     2497: '番摊', //番摊
+    2499: '番',
+    2501: '角',
+    2503: '念',
+    2505: '大小单双',
 
     // vnc 越南彩
     2090: '四数',
@@ -663,6 +667,10 @@ const PlayMenu = {
     2301: '鱼虾蟹', // 魚蝦蟹
     2302: '鱼虾蟹', // 魚蝦蟹
     2488: '番摊', //番摊
+    2490: '番',
+    2492: '角',
+    2494: '念',
+    2496: '大小单双',
 
     // LAO 老挝彩
     2127: '四数',
@@ -700,6 +708,10 @@ const PlayMenu = {
     2304: '鱼虾蟹', // 魚蝦蟹
     2305: '鱼虾蟹', // 魚蝦蟹
     2506: '番摊', //番摊
+    2508: '番',
+    2510: '角',
+    2512: '念',
+    2514: '大小单双',
 
     // 包胆
     2073: '前二包胆',
@@ -1049,14 +1061,14 @@ const PlayMenu = {
     single_same_2_6: '6,6',
     num_combine0: '红码',
     num_combine1: '黑码',
-	  red_num_bsoe_0: '红大',
-	  red_num_bsoe_1: '红小',
-	  red_num_bsoe_2: '红单',
-	  red_num_bsoe_3: '红双',
-	  black_num_bsoe_0: '黑大',
-	  black_num_bsoe_1: '黑小',
-	  black_num_bsoe_2: '黑单',
-	  black_num_bsoe_3: '黑双',
+    red_num_bsoe_0: '红大',
+    red_num_bsoe_1: '红小',
+    red_num_bsoe_2: '红单',
+    red_num_bsoe_3: '红双',
+    black_num_bsoe_0: '黑大',
+    black_num_bsoe_1: '黑小',
+    black_num_bsoe_2: '黑单',
+    black_num_bsoe_3: '黑双',
     red_num_com_1: '1',
     red_num_com_2: '2',
     red_num_com_3: '3',
