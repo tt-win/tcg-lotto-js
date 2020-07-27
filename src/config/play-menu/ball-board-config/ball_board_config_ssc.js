@@ -107,9 +107,9 @@ export default {
   32: BallBoardConfigRecord({
     ...baseSSCProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
-    hasToolbar: false,
-    formula: 'oneNum',
-    multi: false,
+    hasToolbar: true,
+    formula: 'straight',
+    multi: true,
     ballShowPosition: ballShowPosition.FIRST_FIVE,
   }),
   // All5Join
