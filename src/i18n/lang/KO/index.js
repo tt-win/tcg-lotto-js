@@ -38,6 +38,38 @@ const LANG = {
       prawn: '왕새우',
       crab: '대게',
     },
+    BSOE: {
+      big: '빅 베팅',
+      small: '스몰 베팅',
+      odd: '홀수 베팅',
+      even: '짝수 베팅',
+    },
+    fanTanFan: {
+      1: '1 Fan',
+      2: '2 Fan',
+      3: '3 Fan',
+      4: '4 Fan',
+    },
+    fanTanJiao: {
+      '1_2': '1-2 Kwok',
+      '1_4': '1-4 Kwok',
+      '2_3': '2-3 Kwok',
+      '3_4': '3-4 Kwok',
+    },
+    fanTanNian: {
+      '1_2': '1 Nim 2',
+      '1_3': '1 Nim 3',
+      '1_4': '1 Nim 4',
+      '2_1': '2 Nim 1',
+      '2_3': '2 Nim 3',
+      '2_4': '2 Nim 4',
+      '3_1': '3 Nim 1',
+      '3_2': '3 Nim 2',
+      '3_4': '3 Nim 4',
+      '4_1': '4 Nim 1',
+      '4_2': '4 Nim 2',
+      '4_3': '4 Nim 3',
+    }
   },
   errorCode: {
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '베팅 말뚝이 한도 초과',

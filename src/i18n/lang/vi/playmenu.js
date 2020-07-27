@@ -28,6 +28,12 @@ const PlayMenu = {
     2297: 'cược Bầu Cua', // 魚蝦蟹
     2298: 'cược Bầu Cua', // 魚蝦蟹
     2299: 'cược Bầu Cua', // 魚蝦蟹
+    2497: 'FanTan', //番摊
+    2499: 'Fan',
+    2501: 'Nim',
+    2503: 'Kwok',
+    2505: 'TàiXỉuLẻChẵn',
+
     // vnc 越南彩
     2090: '4 số', // 四数
     2095: '3 số', // 三数
@@ -56,6 +62,11 @@ const PlayMenu = {
     2300: 'cược Bầu Cua', // 魚蝦蟹
     2301: 'cược Bầu Cua', // 魚蝦蟹
     2302: 'cược Bầu Cua', // 魚蝦蟹
+    2488: 'FanTan', //番摊
+    2490: 'Fan',
+    2492: 'Nim',
+    2494: 'Kwok',
+    2496: 'TàiXỉuLẻChẵn',
 
     // LAO 老挝彩
     2127: '4 số', // 四数
@@ -85,6 +96,11 @@ const PlayMenu = {
     2303: 'cược Bầu Cua', // 魚蝦蟹
     2304: 'cược Bầu Cua', // 魚蝦蟹
     2305: 'cược Bầu Cua', // 魚蝦蟹
+    2506: 'FanTan', //番摊
+    2508: 'Fan',
+    2510: 'Nim',
+    2512: 'Kwok',
+    2514: 'TàiXỉuLẻChẵn',
   },
 };
 
