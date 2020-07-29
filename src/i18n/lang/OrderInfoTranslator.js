@@ -1718,7 +1718,6 @@ const OrderInfoTranslator = {
     if (!playId || !bettingContent) {
       return '';
     }
-    console.log('asdfsadfsa', playId);
 
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
     const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
