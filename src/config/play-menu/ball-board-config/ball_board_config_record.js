@@ -81,12 +81,6 @@ export const fanTanFanBallProps = {
     3: 'P_Fan_3',
     4: 'P_Fan_3',
   },
-  positionMapping: {
-    0: 'left',
-    1: 'bottom',
-    2: 'right',
-    3: 'top',
-  },
 };
 
 export const fanTanJiaoBallProps = {
@@ -106,7 +100,7 @@ export const fanTanJiaoBallProps = {
 };
 
 export const fanTanNianBallProps = {
-  fixedBalls: ['0_3', '0_2', '0_1', '3_0', '1_0', '3_1', '1_3', '3_2', '1_2', '2_3', '2_0', '2_1'],
+  fixedBalls: ['3_0', '3_1', '3_2','0_3', '2_3', '0_2', '2_0', '0_1', '2_1', '1_0', '1_3', '1_2'],
   ballI18n: {
     '1_2': 'ball.fanTanNian.1_2',
     '1_3': 'ball.fanTanNian.1_3',

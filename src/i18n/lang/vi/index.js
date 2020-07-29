@@ -45,8 +45,8 @@ const LANG = {
   betDigit: {
     THOUSANDS: 'Nghìn',
     HUNDREDS: 'Trăm',
-    TENS: 'Chục',
-    ONES: 'Đuôi',
+    TENS: 'Chứa số',
+    ONES: 'Đơn vị',
     COM: 'Nhóm',
   },
   // 全大小奇偶清

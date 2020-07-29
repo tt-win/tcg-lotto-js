@@ -30,9 +30,13 @@ const PlayMenu = {
     2298: 'FishPrawnCrab', // 魚蝦蟹
     2299: 'FishPrawnCrab', // 魚蝦蟹
     2497: 'FanTan', //番摊
+    2498: 'Fan',
     2499: 'Fan',
+    2500: 'Nim',
     2501: 'Nim',
+    2502: 'Kwok',
     2503: 'Kwok',
+    2504: 'BSOE',
     2505: 'BSOE',
 
     // vnc 越南彩
@@ -64,9 +68,13 @@ const PlayMenu = {
     2301: 'FishPrawnCrab', // 魚蝦蟹
     2302: 'FishPrawnCrab', // 魚蝦蟹
     2488: 'FanTan', //番摊
+    2489: 'Fan',
     2490: 'Fan',
+    2491: 'Nim',
     2492: 'Nim',
+    2493: 'Kwok',
     2494: 'Kwok',
+    2495: 'BSOE',
     2496: 'BSOE',
 
     // LAO 老挝彩
@@ -98,9 +106,13 @@ const PlayMenu = {
     2304: 'FishPrawnCrab', // 魚蝦蟹
     2305: 'FishPrawnCrab', // 魚蝦蟹
     2506: 'FanTan', //番摊
+    2507: 'Fan',
     2508: 'Fan',
+    2509: 'Nim',
     2510: 'Nim',
+    2511: 'Kwok',
     2512: 'Kwok',
+    2513: 'BSOE',
     2514: 'BSOE',
   },
 };

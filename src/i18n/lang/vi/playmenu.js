@@ -29,43 +29,51 @@ const PlayMenu = {
     2298: 'cược Bầu Cua', // 魚蝦蟹
     2299: 'cược Bầu Cua', // 魚蝦蟹
     2497: 'FanTan', //番摊
+    2498: 'Fan',
     2499: 'Fan',
+    2500: 'Nim',
     2501: 'Nim',
+    2502: 'Kwok',
     2503: 'Kwok',
+    2504: 'TàiXỉuLẻChẵn',
     2505: 'TàiXỉuLẻChẵn',
 
     // vnc 越南彩
     2090: '4 số', // 四数
     2095: '3 số', // 三数
     2100: '2 số', // 二数
-    2105: 'chạy số', // 跑数
+    2105: '1 số', // 跑数
 
-    2092: 'trên ngay 4 chữ số', // 上正四位数 Last_4_Straight_1st_VNC
-    2094: 'trên ngược 4 chữ số', // 上反四位数 Last_4_Combine_1st_VNC
-    2097: 'trên ngay 3 chữ số', // 上正三位数 Last_3_Straight_1st_VNC
-    2099: 'trên ngược 3 chữ số', // 上反三位数 Last_3_Combine_1st_VNC
-    2102: 'trên ngay 2 chữ số', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: 'dưới ngay 2 chữ số', // 下正二位数 Last_2_Straight_2nd_VNC
-    2107: 'trên chạy 2 chữ số', // 上跑两位数 Last_2_Any_1st_VNC
-    2109: 'dưới chạy 2 chữ số', // 下跑两位数 Last_2_Any_2nd_VNC
+    2092: '4 Số Đuôi', // 上正四位数 Last_4_Straight_1st_VNC
+    2094: 'Đảo 4 Số Đuôi', // 上反四位数 Last_4_Combine_1st_VNC
+    2097: '3 Số Đuôi', // 上正三位数 Last_3_Straight_1st_VNC
+    2099: 'Đảo 3 Số Đuôi', // 上反三位数 Last_3_Combine_1st_VNC
+    2102: '2 Đuôi Giải Đặc Biệt', // 上正二位数 Last_2_Straight_1st_VNC
+    2104: '2 Đuôi Giải Nhất', // 下正二位数 Last_2_Straight_2nd_VNC
+    2107: 'Bao 2 Số Cuối Giải Đăc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
+    2109: 'Bao 2 Số Cuối Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
 
-    2286: 'Chọn Số Bốn chữ số chính xác', // Last_4_Straight_1st_VNC_Multi
-    2287: 'Nhập Số Bốn chữ số chính xác', // Last_4_Straight_1st_VNC_Single
-    2285: 'Nhập Số Ba chữ số đầu chính xác', // Last_3_Straight_1st_VNC_Single
-    2284: 'Chọn Số Ba chữ số đầu chính xác', // Last_3_Straight_1st_VNC_Multi
-    2283: 'Chọn Số Ba chữ số bất kỳ', // Last_3_Combine_1st_VNC_Multi
-    2280: 'Nhập Số Nhập Số Hai chữ số chính xác', // Last_2_Straight_1st_VNC_Single
-    2279: 'Chọn Số Hai chữ số chính xác', // Last_2_Straight_1st_VNC_Multi
-    2282: 'Nhập Số Hai chữ số chính xác', // Last_2_Straight_2nd_VNC_Single
-    2281: 'Chọn Số Hai chữ số chính xác', // Last_2_Straight_2nd_VNC_Multi
+    2286: '4 Số Đuôi-Chọn Số', // Last_4_Straight_1st_VNC_Multi
+    2287: '4 Số Đuôi-Nhập Số', // Last_4_Straight_1st_VNC_Single
+    2285: '3 Số Đuôi-Nhập Số', // Last_3_Straight_1st_VNC_Single
+    2284: '3 Số Đuôi-Chọn Số', // Last_3_Straight_1st_VNC_Multi
+    2283: 'Đảo 3 Số Đuôi-Chọn Số', // Last_3_Combine_1st_VNC_Multi
+    2280: '2 Đuôi Giải Đặc Biệt-Nhập Số', // Last_2_Straight_1st_VNC_Single
+    2279: '2 Đuôi Giải Đặc Biệt-Chọn Số', // Last_2_Straight_1st_VNC_Multi
+    2282: '2 Đuôi Giải Nhất-Nhập Số', // Last_2_Straight_2nd_VNC_Single
+    2281: '2 Đuôi Giải Nhất-Chọn Số', // Last_2_Straight_2nd_VNC_Multi
 
     2300: 'cược Bầu Cua', // 魚蝦蟹
     2301: 'cược Bầu Cua', // 魚蝦蟹
     2302: 'cược Bầu Cua', // 魚蝦蟹
     2488: 'FanTan', //番摊
+    2489: 'Fan',
     2490: 'Fan',
+    2491: 'Nim',
     2492: 'Nim',
+    2493: 'Kwok',
     2494: 'Kwok',
+    2495: 'TàiXỉuLẻChẵn',
     2496: 'TàiXỉuLẻChẵn',
 
     // LAO 老挝彩
@@ -97,9 +105,13 @@ const PlayMenu = {
     2304: 'cược Bầu Cua', // 魚蝦蟹
     2305: 'cược Bầu Cua', // 魚蝦蟹
     2506: 'FanTan', //番摊
+    2507: 'Fan',
     2508: 'Fan',
+    2509: 'Nim',
     2510: 'Nim',
+    2511: 'Kwok',
     2512: 'Kwok',
+    2513: 'TàiXỉuLẻChẵn',
     2514: 'TàiXỉuLẻChẵn',
   },
 };
