@@ -12,7 +12,7 @@ const LANG = {
     orderStatus_8: '취소',
     orderStatus_12: '취소',
     orderStatus_14: 'Incomlpete',
-    orderStatus_16: 'Tie',
+    orderStatus_16: '무승부',
     orderStatus_17: '취소',
     orderStatus_99: 'Invalid Order',
   },
