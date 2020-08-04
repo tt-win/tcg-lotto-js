@@ -19,7 +19,7 @@ const LANG = {
   bettingTime: 'thời gian đặt cược',
   orderNumber: 'mã đơn đặt',
   bettingAmount: 'số tiền đặt cược',
-  winningNumber: 'mã mở giải',
+  winningNumber: 'Thắng',
   betNumber: 'mã đặt cược',
   openHistory: 'lịch sử mở giải',
   drawHistory: 'lịch sử mở giải',
