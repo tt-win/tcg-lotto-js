@@ -876,6 +876,8 @@ export const PlayMenu = {
   Fan_Tan_Jiao_VNC: 2492,
   Fan_Tan_Nian_VNC: 2494,
   Fan_Tan_BSOE_VNC: 2496,
+  Any_Roll_North_VNC: 2515,
+  Any_Roll_South_VNC: 2528,
 
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数

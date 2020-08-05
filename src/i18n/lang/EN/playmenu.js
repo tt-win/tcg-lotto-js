@@ -77,6 +77,29 @@ const PlayMenu = {
     2495: 'BSOE',
     2496: 'BSOE',
 
+    // 北部
+    2515: 'AnyRoll', // 包膽
+    2517: 'Last 2D of AnyResult', // 后二包胆
+    2518: 'Norm Last 2D of AnyResult', // 后二包胆(复式)
+    2519: 'Manual Last 2D of AnyResult', // 后二包胆(单式)
+    2521: 'Last 3D of AnyResult', // 后三包胆
+    2522: 'Norm Last 3D of AnyResult', // 后三包胆（复式）
+    2523: 'Manual Last 3D of AnyResult', // 后三包胆（单式）
+    2525: 'Last 4D of AnyResult', // 后四包胆
+    2526: 'Norm Last 4D of AnyResult', // 后四包胆（复式）
+    2527: 'Manual Last 4D of AnyResult', // 后四包胆（单式）
+    // 中南部
+    2528: 'AnyRoll', // 包膽
+    2530: 'Last 2D of AnyResult', // 后二包胆
+    2531: 'Norm Last 2D of AnyResult', // 后二包胆(复式)
+    2532: 'Manual Last 2D of AnyResult', // 后二包胆(单式)
+    2534: 'Last 3D of AnyResult', // 后三包胆
+    2535: 'Norm Last 3D of AnyResult', // 后三包胆（复式）
+    2536: 'Manual Last 3D of AnyResult', // 后三包胆（单式）
+    2538: 'Last 4D of AnyResult', // 后四包胆
+    2539: 'Norm Last 4D of AnyResult', // 后四包胆（复式）
+    2540: 'Manual Last 4D of AnyResult', // 后四包胆（单式）
+
     // LAO 老挝彩
     2127: '4D', // 四数
     2132: '3D', // 三数
