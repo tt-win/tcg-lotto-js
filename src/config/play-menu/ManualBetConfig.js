@@ -418,6 +418,42 @@ const ManualBetConfigVNC = {
   2282: ManualBetConfigRecord({
     ...baseSEAProps,
   }),
+  // Any_Roll_Last_2_North_VNC_Single
+  2519: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  // Any_Roll_Last_2_South_VNC_Single
+  2532: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  //  Any_Roll_Last_3_North_VNC_Single
+  2523: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  //  Any_Roll_Last_3_South_VNC_Single
+  2536: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  //  Any_Roll_Last_4_North_VNC_Single
+  2527: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  //  Any_Roll_Last_4_South_VNC_Single
+  2540: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
 };
 
 const ManualBetConfigLAO = {
