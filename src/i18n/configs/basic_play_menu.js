@@ -898,6 +898,25 @@ export const PlayMenu = {
   Last_4_Straight_1st_VNC_Multi: 2286, // 上正四位数（复式）
   Last_4_Straight_1st_VNC_Single: 2287, // 上正四位数（单式）
 
+  Any_Roll_Last_2_North_VNC : 2517, // 北部 - 后二包胆
+  Any_Roll_Last_2_North_VNC_Multi : 2518, // 北部 - 后二包胆（复式）
+  Any_Roll_Last_2_North_VNC_Single : 2519, // 北部 - 后二包胆（单式）
+  Any_Roll_Last_3_North_VNC : 2521, // 北部 - 后三包胆
+  Any_Roll_Last_3_North_VNC_Multi : 2522, // 北部 - 后三包胆（复式）
+  Any_Roll_Last_3_North_VNC_Single : 2523, // 北部 - 后三包胆（单式）
+  Any_Roll_Last_4_North_VNC : 2525, // 北部 - 后四包胆
+  Any_Roll_Last_4_North_VNC_Multi : 2526, // 北部 - 后四包胆（复式）
+  Any_Roll_Last_4_North_VNC_Single : 2527, // 北部 - 后四包胆（单式）
+  Any_Roll_Last_2_South_VNC : 2530, // 中南部 - 后二包胆
+  Any_Roll_Last_2_South_VNC_Multi : 2531, // 中南部 - 后二包胆（复式）
+  Any_Roll_Last_2_South_VNC_Single : 2532, // 中南部 - 后二包胆（单式）
+  Any_Roll_Last_3_South_VNC : 2534, // 中南部 - 后三包胆
+  Any_Roll_Last_3_South_VNC_Multi : 2535, // 中南部 - 后三包胆（复式）
+  Any_Roll_Last_3_South_VNC_Single : 2536, // 中南部 - 后三包胆（单式）
+  Any_Roll_Last_4_South_VNC : 2538, // 中南部 - 后四包胆
+  Any_Roll_Last_4_South_VNC_Multi : 2539, // 中南部 - 后四包胆（复式）
+  Any_Roll_Last_4_South_VNC_Single : 2540, // 中南部 - 后四包胆（单式）
+
   // LAO 老挝彩
   '4_Num_LAO': 2127,
   '3_Num_LAO': 2132,
