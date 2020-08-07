@@ -49,6 +49,48 @@ export default {
     formula: 'straight',
   }),
 
+  // Any_Roll_Last_2_North_VNC_Multi 后二包胆（复式）
+  2518: BallBoardConfigRecord({
+    ...baseVNCProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }), 
+
+  // Any_Roll_Last_3_North_VNC_Multi 后三包胆（复式）
+  2522: BallBoardConfigRecord({
+    ...baseVNCProps,
+    betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }), 
+
+  // Any_Roll_Last_4_North_VNC_Multi 后四包胆（复式）
+  2526: BallBoardConfigRecord({
+    ...baseVNCProps,
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
+  // Any_Roll_Last_2_South_VNC_Multi 后二包胆（复式）
+  2531: BallBoardConfigRecord({
+    ...baseVNCProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }), 
+
+  // Any_Roll_Last_3_South_VNC_Multi 后三包胆（复式）
+  2535: BallBoardConfigRecord({
+    ...baseVNCProps,
+    betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }), 
+
+  // Any_Roll_Last_4_South_VNC_Multi 后四包胆（复式）
+  2539: BallBoardConfigRecord({
+    ...baseVNCProps,
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
   // Hoo_Hey_How_Play_VNC 鱼虾蟹
   2302: BallBoardConfigRecord({
     ...fishPrawnCrabBallProps,
