@@ -45,6 +45,11 @@ const PlayMenu = {
     2100: '2D', // 二数
     2105: '1D', // 跑数
 
+    2091: 'Straight',
+    2093: 'Boxed Bet',
+    2096: 'Straight',
+    2098: 'Boxed Bet',
+
     2092: 'EXACT 4D-1st', // 上正四位数 Last_4_Straight_1st_VNC
     2094: 'ANY 4D-1st', // 上反四位数 Last_4_Combine_1st_VNC
     2097: 'EXACT 3D-1st', // 上正三位数 Last_3_Straight_1st_VNC
@@ -105,6 +110,11 @@ const PlayMenu = {
     2132: '3D', // 三数
     2137: '2D', // 二数
     2142: '1D', // 跑数
+
+    2128: 'Straight',
+    2130: 'Boxed Bet',
+    2133: 'Straight',
+    2135: 'Boxed Bet',
 
     2129: 'EXACT 4D', // 上正四位数 Last_4_Straight_LAO
     2131: 'ANY 4D', // 上反四位数 Last_4_Combine_LAO
