@@ -97,6 +97,44 @@ const LANG = {
     }
   },
 
+  prizeListPrizeType: {
+    P_FIRST: 'First Prize',
+    P_SECOND: 'Second Prize',
+    P_BIG: 'Big',
+    P_SMALL: 'Small',
+    P_ODD: 'Odd',
+    P_EVEN: 'Even',
+    Hoo_Hey_How_0: 'Fish',
+    Hoo_Hey_How_1: 'Prawn',
+    Hoo_Hey_How_2: 'Crab',
+    P_Fan_1: '1 Fan',
+    P_Fan_2: '2 Fan',
+    P_Fan_3: '3 Fan',
+    P_Fan_0: '4 Fan',
+    P_Jiao_12: '1-2 Kwok',
+    P_Jiao_10: '1-4 Kwok',
+    P_Jiao_23: '2-3 Kwok',
+    P_Jiao_30: '3-4 Kwok',
+    P_1NIAN2: '1 Nim 2',
+    P_1NIAN3: '1 Nim 3',
+    P_1NIAN4: '1 Nim 4',
+    P_2NIAN1: '2 Nim 1',
+    P_2NIAN3: '2 Nim 3',
+    P_2NIAN4: '2 Nim 4',
+    P_3NIAN1: '3 Nim 1',
+    P_3NIAN2: '3 Nim 2',
+    P_3NIAN4: '3 Nim 4',
+    P_4NIAN1: '4 Nim 1',
+    P_4NIAN2: '4 Nim 2',
+    P_4NIAN3: '4 Nim 3',
+  },
+
+  seriesControlMapping: {
+    0: 'MAX',
+    1: 'MIN',
+    2: 'BAR',
+  },
+
     // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
@@ -148,6 +186,31 @@ const LANG = {
   filterResultMsg: 'Remove Duplicate %@ Invalid no. %@',
   amount: 'Stake',
   manualBetPlaceHolderSEA: 'Please type your bets here or upload a txt file. The format is per sample below :\n%@\nNOTE:  You can use "," or ";" or "<Space>" or new line to separate the numbers you are betting.',
+
+  defaultMode: 'Default Lott Play Mode',
+  defaultBetting: 'Default Lott Play Betting',
+  MultipleDefaultBetting: 'Multiple Game Default Betting config',
+  MultipleDefaultMode: 'Multiple Game Default Mode config',
+  SaveDefaultPlayBetting: 'Save Default PlayBetting',
+  MultipleBonusOrBetLimit: 'Multiple Game Bonus ＆ bet limit',
+  MultipleBonus: 'Multiple Game Bonus config',
+  ResumeAfterSave: 'Resume after save',
+  ParameterValue: 'Parameter Value',
+  AllBets: 'All bets',
+  LimitBets: 'Limit bets',
+  LimitOnlyBetMaxOdds: 'Limit only bet Max odds',
+  LimitOnlyBetMinOdds: 'Limit only bet Min odds',
+  LimitOnlyBetBar: 'Optional',
+  NoData: 'No Data',
+  region: {
+    THAI: 'Thailand',
+    VNC: 'Vietnam',
+    LAO: 'Laos',
+    MAS: 'Malaysia',
+    SGC: 'Singapore',
+    TWC: 'Taiwan',
+    STOCK: 'Stock',
+  }
 };
 
 export default LANG;
