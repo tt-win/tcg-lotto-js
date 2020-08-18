@@ -34,8 +34,7 @@ const getLang = () => {
   const forceZH_CN = pathname.indexOf('/lotto/') !== -1 || pathname.indexOf('/lotto-h5/') !== -1;
   if (forceZH_CN) return lang['ZH_CN'];
 
-  let langKey = window.localStorage.lang || (window.localStorage.language === 'en_US') ? 'EN' : undefined;
-  
+  let langKey = window.localStorage.lang;
   if (!langKey) {
     return lang[defaultLang];
   }
