@@ -7,6 +7,7 @@ const LANG = {
   clearBallText: '清除選號',
   betNow: '立即投注',
   betSuccess: '恭喜, 下注成功',
+  betPartialSuccess: '餘額不足，部份生成訂單成功',
   confirmBetInfos: '請確認投注訊息',
   balance: '餘額',
   betAmountOverMaxAmount: '您目前的投注金額大於最大可投注金額<br />當前模式最大投注金額為%@元!!',
@@ -26,6 +27,8 @@ const LANG = {
   processing: '進行中',
   betFail: '下注失敗',
   betFailed: '生成訂單失敗',
+  detail: '詳細',
+  status: '狀態',
   orderStatus: {
     orderStatus_0: '全部',
     orderStatus_2: '進行中',
@@ -39,6 +42,62 @@ const LANG = {
     orderStatus_16: '和局',
     orderStatus_17: '個人撤單',
     orderStatus_99: '無效訂單',
+  },
+  betDigit: {
+    THOUSANDS: '千位',
+    HUNDREDS: '百位',
+    TENS: '十位',
+    ONES: '個位',
+    COM: '組選',
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: '全',
+    big: '大',
+    small: '小',
+    odd: '奇',
+    even: '偶',
+    clear: '清',
+  },
+  ball: {
+    fishPrawnCrab: {
+      fish: '魚',
+      prawn: '大蝦',
+      crab: '螃蟹',
+    },
+    BSOE: {
+      big: '大',
+      small: '小',
+      odd: '單',
+      even: '雙',
+      tie: '和', // pk10 冠亞和值
+    },
+    fanTanFan: {
+      1: '1番',
+      2: '2番',
+      3: '3番',
+      4: '4番',
+    },
+    fanTanJiao: {
+      '1_2': '1-2角',
+      '1_4': '1-4角',
+      '2_3': '2-3角',
+      '3_4': '3-4角',
+    },
+    fanTanNian: {
+      '1_2': '1念2',
+      '1_3': '1念3',
+      '1_4': '1念4',
+      '2_1': '2念1',
+      '2_3': '2念3',
+      '2_4': '2念4',
+      '3_1': '3念1',
+      '3_2': '3念2',
+      '3_4': '3念4',
+      '4_1': '4念1',
+      '4_2': '4念2',
+      '4_3': '4念3',
+    }
   },
 
     // TODO i18n
@@ -72,12 +131,14 @@ const LANG = {
     ACCOUNT_TRANSFER_EXCEED_MIN: '最低轉帳金額不可低於0.01元',
     UNKNOWN_ERROR: '系統錯誤',
     CONNECTION_ERROR_: '所在地區網速延遲，請稍後再試或與客服聯繫，謝謝！ ',
+    CANCEL_ORDER_FAILED: '撤單失敗',
     CUSTOMER_LOGOUT_: '您還沒有登錄，請先登錄！ ',
     DRAW_FAIL_ERROR_: '系統繁忙，投注失敗！ ',
     NOT_SUPPORT_LANDSCAPE: '不支持橫屏',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '當前彩種暫時沒有開始銷售 請稍後再試',
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中獎即停不可使用',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此號碼已超出當前期購買額度，請與客服聯繫',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注數已超過允許的上限',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',
@@ -90,6 +151,13 @@ const LANG = {
   drawFrequency: '開獎頻率',
   totalCount: '合計',
   playRule: '玩法規則',
+  chooseFile: '上傳文件',
+  filterRepeat: '過濾重複/無效號',
+  betsNTotalAmount: '您選擇了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
+  predictionAmount: '單注最高可中<div class="red-words">%@</div>元',
+  filterResultMsg: '已經過濾%@组重複號，%@組無效號',
+  amount: '金額',
+  manualBetPlaceHolderSEA: '每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：\n%@',
 };
 
 export default LANG;

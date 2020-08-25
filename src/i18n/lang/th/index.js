@@ -26,6 +26,7 @@ const LANG = {
   processing: 'กำลังโหลด',
   betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',
   betFailed: 'ใส่ราคาไม่ตรงเงื่อนไข!!',
+  detail: 'รายการเดิมพัน',
   orderStatus: {
     orderStatus_0: 'รายละเอียด',
     orderStatus_2: 'สำเร็จ',
@@ -39,6 +40,61 @@ const LANG = {
     orderStatus_16: 'จับรางวัล',
     orderStatus_17: 'ยกเลิก',
     orderStatus_99: 'โมฆะ',
+  },
+  betDigit: {
+    THOUSANDS: 'หลักที่4',
+    HUNDREDS: 'หลักที่3',
+    TENS: 'หลักที่2',
+    ONES: 'หลักที่1',
+    COM: 'กลุ่ม',
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: 'ทุก',
+    big: 'ใหญ่',
+    small: 'เล็ก',
+    odd: 'คี่',
+    even: 'คู่',
+    clear: 'ล้างข้',
+  },
+  ball: {
+    fishPrawnCrab: {
+      fish: 'ปลาเล็ก',
+      prawn: 'กุ้งขาว',
+      crab: 'ปูดำ',
+    },
+    BSOE: {
+      big: 'ใหญ่',
+      small: 'เล็ก',
+      odd: 'คี่',
+      even: 'คู่',
+    },
+    fanTanFan: {
+      1: '1 Fan',
+      2: '2 Fan',
+      3: '3 Fan',
+      4: '4 Fan',
+    },
+    fanTanJiao: {
+      '1_2': '1-2 Kwok',
+      '1_4': '1-4 Kwok',
+      '2_3': '2-3 Kwok',
+      '3_4': '3-4 Kwok',
+    },
+    fanTanNian: {
+      '1_2': '1 Nim 2',
+      '1_3': '1 Nim 3',
+      '1_4': '1 Nim 4',
+      '2_1': '2 Nim 1',
+      '2_3': '2 Nim 3',
+      '2_4': '2 Nim 4',
+      '3_1': '3 Nim 1',
+      '3_2': '3 Nim 2',
+      '3_4': '3 Nim 4',
+      '4_1': '4 Nim 1',
+      '4_2': '4 Nim 2',
+      '4_3': '4 Nim 3',
+    }
   },
 
   // TODO i18n
@@ -74,6 +130,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'คุณยังไม่ได้เข้าสู่ระบบ กรุณาเข้าสู่ระบบก่อน',
     DRAW_FAIL_ERROR_: 'ระบบไม่ว่าง กรุณาลองไหม่อีกครั้ง',
     NOT_SUPPORT_LANDSCAPE: 'หน้าจอไม่สามารถตั้งเป็นแนวนอน',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',
@@ -82,6 +139,14 @@ const LANG = {
     THAIGOV: 'หวยรัฐบาล',
     TCGTHGOV: 'หวย (HL8)',
   },
+  drawFrequency: 'เวลาการออกผล',
+  chooseFile: 'ที่อัพโหลด',
+  filterRepeat: 'ลบหมายเลขซ้ำ',
+  betsNTotalAmount: '<div class="font-bold">%@</div>บิล，รวม<div class="font-bold">%@</div>，',
+  predictionAmount: 'อัตราการเดิมพัน<div class="red-words">%@</div>',
+  filterResultMsg: 'ลบหมายเลขซ้ำ %@ โมฆะ %@',
+  amount: 'การใช้จ่าย',
+  manualBetPlaceHolderSEA: 'ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：\n%@',
 };
 
 export default LANG;

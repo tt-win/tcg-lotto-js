@@ -95,6 +95,14 @@ export const betDigits = {
   SPAN: 'SPAN',
   Any_Code_Win_K3: 'Any_Code_Win_K3',
   Any_Code_Not_Win_K3: 'Any_Code_Not_Win_K3',
+  All_Same_2_K3: 'All_Same_2_K3',
+  All_Different_3_K3: 'All_Different_3_K3',
+  Show_Hand: 'Show_Hand',
+  Boazi_K3: 'Boazi_K3',
+  Straight_K3: 'Straight_K3',
+  Com_3_K3: 'Com_3_K3',
+  Half_Straight_K3: 'Half_Straight_K3',
+  Different_SH_3_K3: 'Different_SH_3_K3',
 
   BACCARAT: 'BACCARAT',
 

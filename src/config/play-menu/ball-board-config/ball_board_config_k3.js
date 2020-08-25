@@ -196,4 +196,88 @@ export default {
       '5': 'K3_Span_5',
     },
   }),
+  // Boazi_K3
+  2272: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['0'],
+    ballI18n: {
+      0: 'ball.k3.Boazi_K3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
+  // Straight_K3
+  2273: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['0'],
+    ballI18n: {
+      0: 'ball.k3.Straight_K3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
+  // Com_3_K3
+  2274: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['0'],
+    ballI18n: {
+      0: 'ball.k3.Com_3_K3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
+  // Half_Straight_K3
+  2275: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['1'],
+    ballI18n: {
+      1: 'ball.k3.Half_Straight_K3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
+  // Different_SH_3_K3
+  2276: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['2'],
+    ballI18n: {
+      2: 'ball.k3.Different_SH_3_K3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
+  // All_Same_2_K3
+  2277: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['0'],
+    ballI18n: {
+      0: 'ball.k3.All_Same_2_K3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
+  // All_Different_3_K3
+  2278: BallBoardConfigRecord({
+    ...baseK3Props,
+    fixedBalls: ['0'],
+    ballI18n: {
+      0: 'ball.k3.All_Different_3_K3',
+    },
+    boardClassNames: 'All_Even_3_K3',
+    betDigits: [betDigits.EMPTY],
+    formula: 'oneNum',
+    hasToolbar: false,
+  }),
 };

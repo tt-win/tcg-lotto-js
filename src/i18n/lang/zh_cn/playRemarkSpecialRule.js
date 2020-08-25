@@ -13,7 +13,8 @@ export default {
          '44+47+52+56=199取尾号【9】为时时彩的 百位。<br />\n' +
          '57+58+60+61=236取尾号【6】为时时彩的 十位。<br />\n' +
          '62+74+76+80=292取尾号【2】为时时彩的 个位。<br />\n' +
-         '综上所述：本期时时彩开奖号码为 :【2】【0】【9】【6】【2】<br />',
+         '综上所述：本期时时彩开奖号码为 :【2】【0】【9】【6】【2】<br />\n' +
+         '「官方网址」：<a href=" https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx" style="color: blue" target="_blank"> https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx</a><br />\n',
   BJSSC: '来源于国家福利彩票北京快乐8(官网)开奖号码，<br />\n' +
          '开奖号码为1-80个球里面选取20个开奖号码，每20个开奖号码通过排列组合重新生成5个时时彩开奖号码。<br />\n' +
          '例：开奖号码为：【09 11 20 22 24 33 34 39 44 47 52 56 57 58 60 61 62 74 76 80】<br />\n' +
@@ -64,7 +65,8 @@ export default {
         '取其1-6位开奖号码相加，和值的末位数作为开奖第一个数值；<br />\n' +
         '取其7-12位开奖号码相加，和值的末位数作为开奖第二个数值；<br />\n' +
         '取其13-18位开奖号码相加，和值的末位数作为开奖第三个数值；<br />\n' +
-        '三个数值相加即为最终的开奖结果。<br />',
+        '三个数值相加即为最终的开奖结果。<br />\n' +
+        '「官方网址」：<a href=" https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx" style="color: blue" target="_blank"> https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx</a><br />\n',
   CA28: '夏令时开始时间：2020年03月08日星期日 02:00:00，时间向前拨一小时<br />\n' +
         '冬令时开始时间：2020年11月01日星期日 02:00:00，时间往回拨一小时<br />\n' +
         '来源于加拿大Bingo（官网）开奖号码；每年根据夏、冬令时调整休市时间，每期开奖共开出20个数字，幸运28将这20个开奖号码按照由小到大的顺序依次排列；<br />\n' +
@@ -93,7 +95,8 @@ export default {
           '取其2/5/8/11/14/17位开出号码相加，和值的末位数作为开出第一个数值；<br />\n' +
           '取其3/6/9/12/15/18位开出号码相加，和值的末位数作为开出第二个数值，<br />\n' +
           '取其4/7/10/13/16/19位开出号码相加，和值的末位数作为开出第三个数值；<br />\n' +
-          '三个数值相加即为台湾PK28最终的结果。<br />',
+          '三个数值相加即为台湾PK28最终的结果。<br />\n' +
+          '「官方网址」：<a href=" https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx" style="color: blue" target="_blank"> https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx</a><br />\n',
   TX28: '此彩种开奖号码数据将全部取自腾讯QQ官网，规则具体介绍如下：<br />\n' +
         '1、以每分钟腾讯QQ的在线用户人数数字生成最后三位数字作为腾讯分分彩当期的开奖号码；<br />\n' +
         '如：腾讯QQ在线用户人数为227.763.615人，即开奖号码为615。<br />',
@@ -132,6 +135,7 @@ export default {
     取第六位+第七位+第十位+第十一位+第十四位+第十五位为个位<br />\n
     33+34+47+52+58+60=284取尾号【4】为幸运5的 个位。<br />\n
     综上所述：本期时时彩开奖号码为 :【4】【6】【6】【9】【4】<br />\n
+    「官方网址」：<a href=" https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx" style="color: blue" target="_blank"> https://www.taiwanlottery.com.tw/Lotto/BINGOBINGO/drawing.aspx</a><br />\n
   `,
   BJLK5: `
     来源于国家福利彩票北京快乐8(官网)开奖号码，开奖号码为1-80个球里面选取20个开奖号码，每20个开奖号码通过排列组合重新生成5个幸运5开奖号码。<br />\n
@@ -208,7 +212,6 @@ export default {
   4、当腾讯当前在线用户人数数据超过2期（含2期）未更新，以至每期开奖号都相同，此时平台有权从相同期开始的投注撤单处理。<br />\n
   5、腾讯分分彩种每分钟一期，全天24小时不间断开放。<br />\n
   6、365数据统计腾讯网：<a href="http://365shuju.com/" style="color: blue" target="_blank">http://365shuju.com/</a>。<br />\n
-  7. 开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
 `,
   FHTXFFC: `
   此彩种开奖号码数据将取自腾讯在线的当前在线用户人数，规则具体介绍如下： <br />\n
@@ -240,7 +243,6 @@ export default {
   2、开奖号码的第一位（即万位）数字为阿里云官网每分钟防御的攻击次数数字总和的尾数； （如：阿里云防御次数为8576851761，即开奖号码万位为8+5+7+6+8+5+1+7+6+1＝54，取尾数 4）<br />\n 
   3、开奖号码的后四位（即千百十位）数字对应阿里云官网当前每分钟防御的攻击次数的后四位数字 ； （如：阿里云防御次数为8576851761，即后四位开奖号码为1761，结合第二点，完整开奖号即为4,1,7,6,1）<br />\n 
   4、365数据统计网：<a href="http://365shuju.com/" style="color: blue" target="_blank">http://365shuju.com/</a><br />\n
-  5. 开奖网： <a href="http://278250.com/#/SSC/ALNFFC/" style="color: blue" target="_blank">http://278250.com/#/SSC/ALNFFC/</a><br />
 `,
   HN4D: `
   海南4星彩每周二、五、日开奖，与全国联网电脑体育彩票7星彩(简称“7星彩”)共用开奖号码。7星彩当期开奖过程中，按顺序摇出的前4位数字作为海南四星彩开奖号码的正选号码，由左到右分别为千、百、十、个位 <br />\n 
@@ -255,32 +257,8 @@ export default {
   4、当腾讯当前在线用户人数数据超过2期（含2期）未更新，以至每期开奖号都相同，此时平台有权从相同期开始的投注撤单处理。<br />\n
   5、腾讯分分彩种每分钟一期，全天24小时不间断开放。<br />\n
 `,
-  HELFFC: `
-  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
-`,
-  HELSSC: `
-  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
-`,
-  HELWFC: `
-  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
-`,
-  HEL10SSC: `
-  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
-`,
-  HEL1011X5: `
-  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
-`,
-  HELGS11X5: `
-  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
-`,
-  HEL11X5: `
-  开奖网： <a href="http://278250.com/" style="color: blue" target="_blank">http://278250.com/</a><br />\n
-`,
   XYPK10: `
   官方网址： <a href="http://www.luckyairship.com/" style="color: blue" target="_blank">http://www.luckyairship.com/</a><br />\n
-`,
-  LASPK10: `
-  官方网址： <a href="https://luckyairships.com/" style="color: blue" target="_blank">https://luckyairships.com/</a><br />\n
 `,
   TW4D: `
   此彩种来源于台湾乐透彩券官方网站公开结果号码。 每周星期一到星期六开奖，每期结果将由0000~9999中随机开出一组号码。由左到右分别为千、百、十、个位。<br />\n
@@ -301,5 +279,29 @@ export default {
   3、开奖号码的后四位（即千百十位）数字对应360安全大脑拦截网络攻击当前每分钟防御的攻击次数的后四位数字 ； （如：拦截网络攻击次数为8576851761，即后四位开奖号码为1761，结合第二点，完整开奖号即为4 1761）<br />\n
   4、365数据统计网：<a href="http://365shuju.com/360" style="color: blue; display:inline-block" target="_blank">http://365shuju.com/360</a><br />\n
   5、360安全大脑： <a href="http://www.360.cn/brain_of_security/" style="color: blue; display:inline-block" target="_blank">http://www.360.cn/brain_of_security/</a>\n
+  `,
+  GBCV3D: `
+  2019新型冠状病毒（COVID-19）扩散全球，病毒没有国界，疫情不分种族。平台不断天天为您更新提供最正确的全球疫情资讯，通过数据了解新冠肺炎疫情收敛状况，确实养成戴口罩习惯，保持个人卫生勤洗手。风雨压不垮苦难中开花，我们有信心对抗这场防疫大作战。<br />\n
+  1、以腾讯新闻提供WHO和霍普金斯大学网站数据为依据。<br />\n
+  2、每日北京时间%@封盘，在%@整点取自%@最后更新累计确诊变动数据。<br />\n
+  3、累计数据最后3码，为当天开奖依据。<br />\n
+  4、当日%@后数据未更新，或累计确诊数据低于3位数以下，平台将有权取消该期订单<br />\n
+  疫情实时追踪：<a href="https://news.qq.com/zt2020/page/feiyan.htm" style="color: blue; display:inline-block" target="_blank">https://news.qq.com/zt2020/page/feiyan.htm</a><br />\n
+  `,
+  USCV3D: `
+  2019新型冠状病毒（COVID-19）扩散全球，病毒没有国界，疫情不分种族。平台不断天天为您更新提供最正确的全球疫情资讯，通过数据了解新冠肺炎疫情收敛状况，确实养成戴口罩习惯，保持个人卫生勤洗手。风雨压不垮苦难中开花，我们有信心对抗这场防疫大作战。<br />\n
+  1、以腾讯新闻提供WHO和霍普金斯大学网站数据为依据。<br />\n
+  2、每日北京时间%@封盘，在%@整点取自%@最后更新累计确诊变动数据。<br />\n
+  3、累计数据最后3码，为当天开奖依据。<br />\n
+  4、当日%@后数据未更新，或累计确诊数据低于3位数以下，平台将有权取消该期订单<br />\n
+  疫情实时追踪：<a href="https://news.qq.com/zt2020/page/feiyan.htm" style="color: blue; display:inline-block" target="_blank">https://news.qq.com/zt2020/page/feiyan.htm</a><br />\n
+  `,
+  EUCV3D: `
+  2019新型冠状病毒（COVID-19）扩散全球，病毒没有国界，疫情不分种族。平台不断天天为您更新提供最正确的全球疫情资讯，通过数据了解新冠肺炎疫情收敛状况，确实养成戴口罩习惯，保持个人卫生勤洗手。风雨压不垮苦难中开花，我们有信心对抗这场防疫大作战。<br />\n
+  1、以腾讯新闻提供WHO和霍普金斯大学网站数据为依据。<br />\n
+  2、每日北京时间%@封盘，在%@整点取自%@最后更新累计确诊变动数据。<br />\n
+  3、累计数据最后3码，为当天开奖依据。<br />\n
+  4、当日%@后数据未更新，或累计确诊数据低于3位数以下，平台将有权取消该期订单<br />\n
+  疫情实时追踪：<a href="https://news.qq.com/zt2020/page/feiyan.htm" style="color: blue; display:inline-block" target="_blank">https://news.qq.com/zt2020/page/feiyan.htm</a><br />\n
   `,
 };

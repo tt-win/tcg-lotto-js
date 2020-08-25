@@ -19,7 +19,7 @@ const LANG = {
   bettingTime: 'thời gian đặt cược',
   orderNumber: 'mã đơn đặt',
   bettingAmount: 'số tiền đặt cược',
-  winningNumber: 'mã mở giải',
+  winningNumber: 'KẾT QUẢ',
   betNumber: 'mã đặt cược',
   openHistory: 'lịch sử mở giải',
   drawHistory: 'lịch sử mở giải',
@@ -27,6 +27,7 @@ const LANG = {
   processing: 'đang tiến hành',
   betFail: 'đặt cược thất bại',
   betFailed: 'tạo đơn hàng thất bại',
+  detail: 'CHI TIẾT CƯỢC',
   orderStatus: {
     orderStatus_0: 'toàn bộ',
     orderStatus_2: 'Thành Công',
@@ -38,9 +39,65 @@ const LANG = {
     orderStatus_12: 'Hủy bỏ',
     orderStatus_14: 'chưa mở giải',
     orderStatus_16: 'ván hòa',
-    orderStatus_17: 'rút đơn cá nhân',
+    orderStatus_17: 'Hủy bỏ',
     orderStatus_99: 'đơn hàng vô hiệu',
   },
+  betDigit: {
+    THOUSANDS: 'Nghìn',
+    HUNDREDS: 'Trăm',
+    TENS: 'Chứa số',
+    ONES: 'Đơn vị',
+    COM: 'Nhóm',
+  },
+  // 全大小奇偶清
+  pickRow: {
+    all: 'Tất cả',
+    big: 'Tài',
+    small: 'Xỉu',
+    odd: 'Lẻ',
+    even: 'Chẵn',
+    clear: 'Xóa',
+  },
+  ball: {
+    fishPrawnCrab: {
+      fish: 'cá',
+      prawn: 'Tôm',
+      crab: 'cua',
+    },
+    BSOE: {
+      big: 'Tài',
+      small: 'Xỉu',
+      odd: 'Lẻ',
+      even: 'Chẵn',
+    },
+    fanTanFan: {
+      1: '1 Fan',
+      2: '2 Fan',
+      3: '3 Fan',
+      4: '4 Fan',
+    },
+    fanTanJiao: {
+      '1_2': '1-2 Kwok',
+      '1_4': '1-4 Kwok',
+      '2_3': '2-3 Kwok',
+      '3_4': '3-4 Kwok',
+    },
+    fanTanNian: {
+      '1_2': '1 Nim 2',
+      '1_3': '1 Nim 3',
+      '1_4': '1 Nim 4',
+      '2_1': '2 Nim 1',
+      '2_3': '2 Nim 3',
+      '2_4': '2 Nim 4',
+      '3_1': '3 Nim 1',
+      '3_2': '3 Nim 2',
+      '3_4': '3 Nim 4',
+      '4_1': '4 Nim 1',
+      '4_2': '4 Nim 2',
+      '4_3': '4 Nim 3',
+    }
+  },
+
 
   // TODO i18n
   errorCode: {
@@ -75,6 +132,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'bạn chưa đăng nhập, vui lòng đăng nhập !',
     DRAW_FAIL_ERROR_: 'hệ thống bận, đặt cược thất bại!',
     NOT_SUPPORT_LANDSCAPE: 'không hỗ trợ để ngang màn hình',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Cược đặt cược vượt quá giới hạn',
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',
@@ -124,6 +182,14 @@ const LANG = {
   hnVoidnext: 'Lưu ý: Hủy cược nếu lần cược chính thức này hết hạn ,không xuất hiện số kết quả, tiến hành vào lượt kế tiếp',
   vncFirstPrize: 'Giải nhất',
   officialSite: 'Trang Chính Thức',
+  drawFrequency: 'Tần số quay',
+  chooseFile: 'tải lên',
+  filterRepeat: 'Xóa số trùng lặp',
+  betsNTotalAmount: 'Đã chọn<div class="font-bold">%@</div>số，Số Tiền Cược<div class="font-bold">%@</div>，',
+  predictionAmount: 'Tỷ Lệ Cược<div class="red-words">%@</div>',
+  filterResultMsg: 'trùng lặp %@ không hợp lệ %@',
+  amount: 'Trên mỗi cược',
+  manualBetPlaceHolderSEA: 'Giữa mỗi cược cần phân cách bởi dấu chấm phẩy ";" hoặc dấu phẩy\n"," hoặc khoảng trắng " "\nSử dụng tệp TXT hoặc dán Ví dụ:\n%@',
 };
 
 export default LANG;

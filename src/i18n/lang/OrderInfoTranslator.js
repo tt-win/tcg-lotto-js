@@ -201,6 +201,13 @@ const K3_KEY = {
   },
 };
 
+
+const FISH_PRAWN_CRAB_KEY = {
+  0: 'fish',
+  1: 'prawn',
+  2: 'crab',
+};
+
 // SSC 龍虎和
 const getDragonTigerTie = (val) => {
   switch (val) {
@@ -788,6 +795,54 @@ const K3Translator = {
     getText: () => i18n('playKey.allThreeSame'),
   },
 
+  ALL_SAME_2_K3: {
+    items: [
+      PlayMenu.All_Same_2_K3,
+    ],
+    getText: () => i18n('ball.k3.All_Same_2_K3'),
+  },
+  All_Different_3_K3: {
+    items: [
+      PlayMenu.All_Different_3_K3,
+    ],
+    getText: () => i18n('ball.k3.All_Different_3_K3'),
+  },
+  // 梭哈-豹子
+  Boazi_K3: {
+    items: [
+      PlayMenu.Boazi_K3,
+    ],
+    getText: () => i18n('playKey.baozi'),
+  },
+  // 梭哈-全顺
+  Straight_K3: {
+    items: [
+      PlayMenu.Straight_K3,
+    ],
+    getText: () => i18n('playKey.straightK3'),
+  },
+  // 梭哈-对子
+  Com_3_K3: {
+    items: [
+      PlayMenu.Com_3_K3,
+    ],
+    getText: () => i18n('playKey.pair'),
+  },
+  // 梭哈-半顺
+  Half_Straight_K3: {
+    items: [
+      PlayMenu.Half_Straight_K3,
+    ],
+    getText: () => i18n('playKey.halfStraight'),
+  },
+  // 梭哈-杂三
+  Different_SH_3_K3: {
+    items: [
+      PlayMenu.Different_SH_3_K3,
+    ],
+    getText: () => i18n('playKey.za3'),
+  },
+
   ALL_EVEN_3_K3: {
     items: [
       PlayMenu.All_Even_3_K3,
@@ -1065,14 +1120,15 @@ const SSCTranslator = {
       PlayMenu.Mid3Choose2Any_SSC,
       PlayMenu.Last3Choose2Any_SSC,
       // 猜和值 與 定位膽 playcode與傳統重複..用到的地方暫時hard code
+      // 這邊是猜和值
       /*
-      First2Sum_PK10: 1464,
-      First3Sum_PK10: 1465,
-    FirstLastSum_PK10: 1466,
+        First2Sum_PK10: 1885,
+        First3Sum_PK10: 1886,
+        FirstLastSum_PK10: 1887,
     */
-      1464,
-      1465,
-      1466,
+      1885,
+      1886,
+      1887,
     ],
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ''}${val}`), ''),
@@ -1177,8 +1233,50 @@ const THAITranslator = {
       PlayMenu.FIRST_2_STRAIGHT_LAO,
       PlayMenu.LAST_2_ANY_LAO,
       PlayMenu.FIRST_2_ANY_LAO,
+      PlayMenu.Any_Roll_Last_2_North_VNC,
+      PlayMenu.Any_Roll_Last_3_North_VNC,
+      PlayMenu.Any_Roll_Last_4_North_VNC,
+      PlayMenu.Any_Roll_Last_2_South_VNC,
+      PlayMenu.Any_Roll_Last_3_South_VNC,
+      PlayMenu.Any_Roll_Last_4_South_VNC,
     ],
     getText: (content) => (content || '').split(',')[0],
+  },
+  FISH_PRAWN_CRAB: {
+    items: [
+      PlayMenu.Hoo_Hey_How_Play_THAI,
+      PlayMenu.Hoo_Hey_How_Play_VNC,
+      PlayMenu.Hoo_Hey_How_Play_LAO,
+    ],
+    getText: (content) => i18n(`ball.fishPrawnCrab.${FISH_PRAWN_CRAB_KEY[content]}`),
+  },
+
+  FAN: {
+    items: [
+      PlayMenu.Fan_Tan_Fan_THAI,
+      PlayMenu.Fan_Tan_Fan_VNC,
+      PlayMenu.Fan_Tan_Fan_LAO,
+    ],
+    getText: (content) => i18n(`ball.fanTanFan.${content.replace('0', '4')}`),
+
+  },
+
+  JIAO: {
+    items: [
+      PlayMenu.Fan_Tan_Jiao_THAI,
+      PlayMenu.Fan_Tan_Jiao_VNC,
+      PlayMenu.Fan_Tan_Jiao_LAO,
+    ],
+    getText: (content) => i18n(`ball.fanTanJiao.${content.replace('0', '4').split('').join('_')}`),
+  },
+
+  NIAN: {
+    items: [
+      PlayMenu.Fan_Tan_Nian_THAI,
+      PlayMenu.Fan_Tan_Nian_VNC,
+      PlayMenu.Fan_Tan_Nian_LAO,
+    ],
+    getText: (content) => i18n(`ball.fanTanNian.${content.replace('0', '4').split('').join('_')}`),
   },
 };
 
@@ -1302,8 +1400,8 @@ const OrderInfoTranslatorList = {
       PlayMenu.Sum_BS_OE_K3,
       PlayMenu.Sum_BS_OE_K3_ENT,
       PlayMenu.Sum_BS_OE_Baozi_Kill_K3_ENT,
-	    PlayMenu.Red_Num_BSOE_K3_ENT,
-	    PlayMenu.Black_Num_BSOE_K3_ENT,
+      PlayMenu.Red_Num_BSOE_K3_ENT,
+      PlayMenu.Black_Num_BSOE_K3_ENT,
       // 11X5
       PlayMenu.Two_Side_First_BSOE_11X5_ENT,
       PlayMenu.Two_Side_Second_BSOE_11X5_ENT,
@@ -1319,6 +1417,11 @@ const OrderInfoTranslatorList = {
       PlayMenu.Hundreds_BSOE_LF,
       PlayMenu.Tens_BSOE_LF,
       PlayMenu.Units_BSOE_LF,
+
+      // fan tan
+      PlayMenu.Fan_Tan_BSOE_THAI,
+      PlayMenu.Fan_Tan_BSOE_VNC,
+      PlayMenu.Fan_Tan_BSOE_LAO,
     ],
     getText: (content) =>
       content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),

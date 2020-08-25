@@ -5,6 +5,12 @@ import ballBoardConfigPK10 from './ball_board_config_pk10';
 import ballBoardConfigSingle from './ball_board_config_single';
 import ballBoardConfigK3 from './ball_board_config_k3';
 
+// 東南亞彩 ball config
+import ballBoardConfigSeaTHAI from './ball_board_config_sea_thai';
+import ballBoardConfigSeaVNC from './ball_board_config_sea_vnc';
+import ballBoardConfigSeaLAO from './ball_board_config_sea_lao';
+
+
 // merge all games ball board config
 export const ballBoardConfig = {
   ...ballBoardConfigSSC,
@@ -13,5 +19,8 @@ export const ballBoardConfig = {
   ...ballBoardConfigPK10,
   ...ballBoardConfigSingle,
   ...ballBoardConfigK3,
+  ...ballBoardConfigSeaTHAI,
+  ...ballBoardConfigSeaVNC,
+  ...ballBoardConfigSeaLAO,
 };
 export { betDigits } from './bet_digits';

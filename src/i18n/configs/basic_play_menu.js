@@ -728,6 +728,14 @@ export const PlayMenu = {
   Sum_Com_BS_OE_K3: 2236,
   Any_Code_Win_K3: 2240,
   Any_Code_Not_Win_K3: 2241,
+  Show_Hand: 2271,
+  Boazi_K3: 2272,
+  Straight_K3: 2273,
+  Com_3_K3: 2274,
+  Half_Straight_K3: 2275,
+  Different_SH_3_K3: 2276,
+  All_Same_2_K3: 2277,
+  All_Different_3_K3: 2278,
 
   // K3 ENT
   Combined_K3_ENT: 1932,
@@ -744,8 +752,8 @@ export const PlayMenu = {
   Red_Black_Num_K3_Ent: 2228,
   Red_Num_Com_K3_Ent: 2229,
   Black_Num_Com_K3_Ent: 2230,
-	Red_Num_BSOE_K3_ENT: 2269,
-	Black_Num_BSOE_K3_ENT: 2270,
+  Red_Num_BSOE_K3_ENT: 2269,
+  Black_Num_BSOE_K3_ENT: 2270,
   SUM_COM_BS_OE_K3_ENT: 2238,
   Any_Code_Not_Win_K3_Ent: 2243,
 
@@ -832,15 +840,13 @@ export const PlayMenu = {
   Last_3_THAI: 2055,
   '2_Star_THAI': 2060,
   Any_Place_THAI: 2067,
-  Last_4_VNC: 2090, // 越南彩四數
-  Last_3_VNC: 2095,
-  '2_Star_VNC': 2100,
-  Any_Place_VNC: 2105,
-  // 老撾彩
-  '4_Num_LAO': 2127,
-  '3_Num_LAO': 2132,
-  '2_Num_LAO': 2137,
-  Any_LAO: 2142,
+  Hoo_Hey_How_Main_THAI: 2297, // 魚蝦蟹
+  Hoo_Hey_How_Play_THAI: 2299, // 魚蝦蟹
+  Fan_Tan_THAI: 2497,
+  Fan_Tan_Fan_THAI: 2499,
+  Fan_Tan_Jiao_THAI: 2501,
+  Fan_Tan_Nian_THAI: 2503,
+  Fan_Tan_BSOE_THAI: 2505,
 
   LAST_3_STRAIGHT_THAI: 2057, // 上正三位数
   LAST_3_COMBINE_THAI: 2059, // 上反三位数
@@ -848,7 +854,31 @@ export const PlayMenu = {
   LAST_2_COMBINE_THAI: 2064, // 上反二位数
   '2_STRAIGHT_ADD_THAI': 2066, // 下正二位数
   '1_AT_ANY_LAST_3_THAI': 2069, // 上跑三位数
+
+  Last_3_Straight_THAI_Multi: 2485, // 上正三位数（复式）
+  Last_3_Straight_THAI_Single: 2486, // 上正三位数（单式）
+  Last_3_Combine_THAI_Multi: 2487, // 上反三位数（复式）
+  '2_Straight_Add_THAI_Multi': 2480, // 下正二位数（复式）
+  '2_Straight_Add_THAI_Single': 2481, // 下正二位数（单式）
+  Last_2_Combine_THAI_Multi: 2482, // 上反二位数（复式）
+  Last_2_Straight_THAI_Multi: 2483, // 上正二位数（复式）
+  Last_2_Straight_THAI_Single: 2484, // 上正二位数（单式）
+
   // vnc 越南彩
+  Last_4_VNC: 2090, // 越南彩四數
+  Last_3_VNC: 2095,
+  '2_Star_VNC': 2100,
+  Any_Place_VNC: 2105,
+  Hoo_Hey_How_Main_VNC: 2300, // 魚蝦蟹
+  Hoo_Hey_How_Play_VNC: 2302, // 魚蝦蟹
+  Fan_Tan_VNC: 2488,
+  Fan_Tan_Fan_VNC: 2490,
+  Fan_Tan_Jiao_VNC: 2492,
+  Fan_Tan_Nian_VNC: 2494,
+  Fan_Tan_BSOE_VNC: 2496,
+  Any_Roll_North_VNC: 2515,
+  Any_Roll_South_VNC: 2528,
+
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
   LAST_3_STRAIGHT_1ST_VNC: 2097, // 上正三位数
@@ -857,7 +887,49 @@ export const PlayMenu = {
   LAST_2_STRAIGHT_2ND_VNC: 2104, // 下正二位数
   LAST_2_ANY_1ST_VNC: 2107, // 上跑两位数
   LAST_2_ANY_2ND_VNC: 2109, // 下跑两位数
+
+  Last_2_Straight_1st_VNC_Multi: 2279, // 上正二位数(复式)
+  Last_2_Straight_1st_VNC_Single: 2280, // 上正二位数（单式）
+  Last_2_Straight_2nd_VNC_Multi: 2281, // 下正二位数（复式）
+  Last_2_Straight_2nd_VNC_Single: 2282, // 下正二位数（单式）
+  Last_3_Combine_1st_VNC_Multi: 2283, // 上反三位数（复式）
+  Last_3_Straight_1st_VNC_Multi: 2284, // 上正三位数（复式）
+  Last_3_Straight_1st_VNC_Single: 2285, // 上正三位数（单式）
+  Last_4_Straight_1st_VNC_Multi: 2286, // 上正四位数（复式）
+  Last_4_Straight_1st_VNC_Single: 2287, // 上正四位数（单式）
+
+  Any_Roll_Last_2_North_VNC : 2517, // 北部 - 后二包胆
+  Any_Roll_Last_2_North_VNC_Multi : 2518, // 北部 - 后二包胆（复式）
+  Any_Roll_Last_2_North_VNC_Single : 2519, // 北部 - 后二包胆（单式）
+  Any_Roll_Last_3_North_VNC : 2521, // 北部 - 后三包胆
+  Any_Roll_Last_3_North_VNC_Multi : 2522, // 北部 - 后三包胆（复式）
+  Any_Roll_Last_3_North_VNC_Single : 2523, // 北部 - 后三包胆（单式）
+  Any_Roll_Last_4_North_VNC : 2525, // 北部 - 后四包胆
+  Any_Roll_Last_4_North_VNC_Multi : 2526, // 北部 - 后四包胆（复式）
+  Any_Roll_Last_4_North_VNC_Single : 2527, // 北部 - 后四包胆（单式）
+  Any_Roll_Last_2_South_VNC : 2530, // 中南部 - 后二包胆
+  Any_Roll_Last_2_South_VNC_Multi : 2531, // 中南部 - 后二包胆（复式）
+  Any_Roll_Last_2_South_VNC_Single : 2532, // 中南部 - 后二包胆（单式）
+  Any_Roll_Last_3_South_VNC : 2534, // 中南部 - 后三包胆
+  Any_Roll_Last_3_South_VNC_Multi : 2535, // 中南部 - 后三包胆（复式）
+  Any_Roll_Last_3_South_VNC_Single : 2536, // 中南部 - 后三包胆（单式）
+  Any_Roll_Last_4_South_VNC : 2538, // 中南部 - 后四包胆
+  Any_Roll_Last_4_South_VNC_Multi : 2539, // 中南部 - 后四包胆（复式）
+  Any_Roll_Last_4_South_VNC_Single : 2540, // 中南部 - 后四包胆（单式）
+
   // LAO 老挝彩
+  '4_Num_LAO': 2127,
+  '3_Num_LAO': 2132,
+  '2_Num_LAO': 2137,
+  Any_LAO: 2142,
+  Hoo_Hey_How_Main_LAO: 2303, // 魚蝦蟹
+  Hoo_Hey_How_Play_LAO: 2305, // 魚蝦蟹
+  Fan_Tan_LAO: 2506,
+  Fan_Tan_Fan_LAO: 2508,
+  Fan_Tan_Jiao_LAO: 2510,
+  Fan_Tan_Nian_LAO: 2512,
+  Fan_Tan_BSOE_LAO: 2514,
+
   LAST_4_STRAIGHT_LAO: 2129, // 上正四位数
   LAST_4_COMBINE_LAO: 2131, // 上反四位数
   LAST_3_STRAIGHT_LAO: 2134, // 上正三位数
@@ -866,6 +938,16 @@ export const PlayMenu = {
   FIRST_2_STRAIGHT_LAO: 2141, // 下正二位数
   LAST_2_ANY_LAO: 2144, // 上跑两位数
   FIRST_2_ANY_LAO: 2146, // 下跑两位数
+
+  Last_2_Straight_LAO_Multi: 2288, // 上正四位数（单式）
+  Last_2_Straight_LAO_Single: 2289, // 上正二位数（单式）
+  First_2_Straight_LAO_Multi: 2290, // 下正二位数（复式）
+  First_2_Straight_LAO_Single: 2291, // 下正二位数（单式）
+  Last_3_Combine_LAO_Multi: 2292, // 上反三位数（复式）
+  Last_3_Straight_LAO_Multi: 2293, // 上正三位数（复式）
+  Last_3_Straight_LAO_Single: 2294, // 上正三位数（单式）
+  Last_4_Straight_LAO_Multi: 2295, // 上正四位数（复式）
+  Last_4_Straight_LAO_Single: 2296, // 上正四位数（单式）
 
   Baccarat_SSC_ENT: 2123,
   Baccarat_With_Pair_SSC_ENT: 2125,

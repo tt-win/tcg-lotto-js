@@ -38,6 +38,7 @@ export const BallBoardConfigRecord = Record({
   ballShowWithDice: false,
   ballShowPosition: '', // 組態球要顯示的位置
   ballConfigurationCategory: '', // 組態球要顯示的型態 ex:組數 和值 大小單雙 龍虎和...
+  positionMapping: {}, // fan tan position mapping
 });
 
 export const baseBSOEProps = {
@@ -53,5 +54,89 @@ export const baseBSOEProps = {
     1: 'ball.BSOE.small',
     2: 'ball.BSOE.odd',
     3: 'ball.BSOE.even',
+  },
+};
+
+export const fishPrawnCrabBallProps = {
+  fixedBalls: ['0', '1', '2'],
+  ballI18n: {
+    0: 'ball.fishPrawnCrab.fish',
+    1: 'ball.fishPrawnCrab.prawn',
+    2: 'ball.fishPrawnCrab.crab',
+  },
+};
+
+export const fanTanFanBallProps = {
+  fixedBalls: ['0', '1', '2', '3'],
+  ballI18n: {
+    0: 'ball.fanTanFan.4',
+    1: 'ball.fanTanFan.1',
+    2: 'ball.fanTanFan.2',
+    3: 'ball.fanTanFan.3',
+  },
+  prizeTypeMapping: {
+    0: 'P_Fan_0',
+    1: 'P_Fan_1',
+    2: 'P_Fan_2',
+    3: 'P_Fan_3',
+    4: 'P_Fan_3',
+  },
+};
+
+export const fanTanJiaoBallProps = {
+  fixedBalls: ['3_0', '2_3', '1_0', '1_2'],
+  ballI18n: {
+    '1_2': 'ball.fanTanJiao.1_2',
+    '1_0': 'ball.fanTanJiao.1_4',
+    '2_3': 'ball.fanTanJiao.2_3',
+    '3_0': 'ball.fanTanJiao.3_4',
+  },
+  prizeTypeMapping: {
+    '1_2': 'P_Jiao_12',
+    '1_0': 'P_Jiao_10',
+    '2_3': 'P_Jiao_23',
+    '3_0': 'P_Jiao_30',
+  },
+};
+
+export const fanTanNianBallProps = {
+  fixedBalls: ['3_0', '3_1', '3_2','0_3', '2_3', '0_2', '2_0', '0_1', '2_1', '1_0', '1_3', '1_2'],
+  ballI18n: {
+    '1_2': 'ball.fanTanNian.1_2',
+    '1_3': 'ball.fanTanNian.1_3',
+    '1_0': 'ball.fanTanNian.1_4',
+    '2_1': 'ball.fanTanNian.2_1',
+    '2_3': 'ball.fanTanNian.2_3',
+    '2_0': 'ball.fanTanNian.2_4',
+    '3_1': 'ball.fanTanNian.3_1',
+    '3_2': 'ball.fanTanNian.3_2',
+    '3_0': 'ball.fanTanNian.3_4',
+    '0_1': 'ball.fanTanNian.4_1',
+    '0_2': 'ball.fanTanNian.4_2',
+    '0_3': 'ball.fanTanNian.4_3',
+  },
+  prizeTypeMapping: {
+    '1_2': 'P_1NIAN2',
+    '1_3': 'P_1NIAN3',
+    '1_0': 'P_1NIAN4',
+    '2_1': 'P_2NIAN1',
+    '2_3': 'P_2NIAN3',
+    '2_0': 'P_2NIAN4',
+    '3_1': 'P_3NIAN1',
+    '3_2': 'P_3NIAN2',
+    '3_0': 'P_3NIAN4',
+    '0_1': 'P_4NIAN1',
+    '0_2': 'P_4NIAN2',
+    '0_3': 'P_4NIAN3',
+  },
+};
+
+export const fanTanBSOEProps = {
+  ...baseBSOEProps,
+  prizeTypeMapping: {
+    0: 'P_BIG',
+    1: 'P_SMALL',
+    2: 'P_ODD',
+    3: 'P_EVEN',
   },
 };

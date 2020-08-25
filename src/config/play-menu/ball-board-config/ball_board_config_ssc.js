@@ -108,8 +108,8 @@ export default {
     ...baseSSCProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     hasToolbar: true,
-    formula: 'oneNum',
-    multi: false,
+    formula: 'straight',
+    multi: true,
     ballShowPosition: ballShowPosition.FIRST_FIVE,
   }),
   // All5Join

@@ -31,7 +31,7 @@ const getLang = () => {
   // force cn
   const { location: { pathname } } = window;
   /*eslint camelcase: ["error", {allow: ["forceZH_CN"]}]*/
-  const forceZH_CN = pathname.indexOf('/lotto/') || pathname.indexOf('/lotto-h5/')
+  const forceZH_CN = pathname.indexOf('/lotto/') !== -1 || pathname.indexOf('/lotto-h5/') !== -1;
   if (forceZH_CN) return lang['ZH_CN'];
 
   let langKey = window.localStorage.lang;

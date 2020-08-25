@@ -63,6 +63,12 @@ const manualDigitsProps4D = {
   manualDigitsI18n: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
 }
 
+const baseSEAProps = {
+  ballRange: [0, 9],
+  ballCount: 2,
+};
+
+
 // 2星直選
 const twoStraightSSCProps = ManualBetConfigRecord({
   ...baseSSCProps,
@@ -370,11 +376,118 @@ const ManualBetConfigPK10 = {
   }),
 };
 
+
+const ManualBetConfigTHAI = {
+  //  2_Straight_Add_THAI_Single
+  2481: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  //  Last_2_Straight_THAI_Single
+  2484: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  //  Last_3_Straight_THAI_Single
+  2486: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+};
+
+const ManualBetConfigVNC = {
+  //  Last_4_Straight_1st_VNC_Single
+  2287: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  //  Last_3_Straight_1st_VNC_Single
+  2285: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  //  Last_2_Straight_1st_VNC_Single
+  2280: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  //  Last_2_Straight_2nd_VNC_Single
+  2282: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  // Any_Roll_Last_2_North_VNC_Single
+  2519: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  // Any_Roll_Last_2_South_VNC_Single
+  2532: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  //  Any_Roll_Last_3_North_VNC_Single
+  2523: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  //  Any_Roll_Last_3_South_VNC_Single
+  2536: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  //  Any_Roll_Last_4_North_VNC_Single
+  2527: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  //  Any_Roll_Last_4_South_VNC_Single
+  2540: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+};
+
+const ManualBetConfigLAO = {
+  //  Last_4_Straight_LAO_Single
+  2296: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  //  Last_3_Straight_LAO_Single
+  2294: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  //  Last_2_Straight_LAO_Single
+  2289: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+  //  First_2_Straight_LAO_Single
+  2291: ManualBetConfigRecord({
+    ...baseSEAProps,
+  }),
+};
 const ManualBetConfig = {
   ...ManualBetConfigSSC,
   ...ManualBetConfig11X5,
   ...ManualBetConfigLF,
   ...ManualBetConfigPK10,
+  ...ManualBetConfigTHAI,
+  ...ManualBetConfigVNC,
+  ...ManualBetConfigLAO,
 };
 
 export default ManualBetConfig;
