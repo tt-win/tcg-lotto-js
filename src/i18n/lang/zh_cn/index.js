@@ -714,6 +714,7 @@ const LANG = {
   mode: '模式',
   operate: '操作',
   multiple: '倍数',
+  syncMultipleBets: '批量修改倍数',
   personal: '个人',
   currentHot: '当前冷热',
   currentGap: '当前遗漏',

@@ -86,6 +86,8 @@ const LANG = {
       '갈라진사용 되는 가지 텍스트 파일 형식은 다음과 같습니다 TXT 파일.  참고:   차별 " , "  및 " ; "   및   "<우주 >" 열을 가져오거나 있습니다. \n' +
       '보기를 들어 설명하다：\n%@',
   detail: '베팅 정보',
+  multiple: '배수',
+  syncMultipleBets: '동기화',
 };
 
 export default LANG;

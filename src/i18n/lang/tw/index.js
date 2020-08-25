@@ -157,6 +157,8 @@ const LANG = {
   predictionAmount: '單注最高可中<div class="red-words">%@</div>元',
   filterResultMsg: '已經過濾%@组重複號，%@組無效號',
   amount: '金額',
+  multiple: '倍數',
+  syncMultipleBets: '批量修改倍數',
   manualBetPlaceHolderSEA: '每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：\n%@',
 };
 

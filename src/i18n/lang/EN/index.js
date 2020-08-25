@@ -210,7 +210,9 @@ const LANG = {
     SGC: 'Singapore',
     TWC: 'Taiwan',
     STOCK: 'Stock',
-  }
+  },
+  multiple: 'Multiple',
+  syncMultipleBets: 'Sync Multiple Bets',
 };
 
 export default LANG;

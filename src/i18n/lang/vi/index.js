@@ -189,6 +189,8 @@ const LANG = {
   predictionAmount: 'Tỷ Lệ Cược<div class="red-words">%@</div>',
   filterResultMsg: 'trùng lặp %@ không hợp lệ %@',
   amount: 'Trên mỗi cược',
+  multiple: 'Cấp Số Nhân',
+  syncMultipleBets: 'Đồng bộ cược',
   manualBetPlaceHolderSEA: 'Giữa mỗi cược cần phân cách bởi dấu chấm phẩy ";" hoặc dấu phẩy\n"," hoặc khoảng trắng " "\nSử dụng tệp TXT hoặc dán Ví dụ:\n%@',
 };
 
