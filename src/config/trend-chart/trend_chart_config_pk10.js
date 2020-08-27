@@ -73,7 +73,7 @@ const PK10 = {
     },
     BSOE: {
       column: ['numero', 'drawNumber', 'BSOEDigit'],
-      h5Column: ['numero', 'drawNumber', 'sumDigitBSOE'],
+      h5Column: ['numero', 'drawNumber', 'sumBSOEDigit'],
       options: {
         BSOEDigit: {
           firstBSOE: 0,
@@ -87,11 +87,11 @@ const PK10 = {
           ninthBSOE: 8,
           tenthBSOE: 9,
         },
-      },
-      sumDigitBSOE: {
-        firstSecondSumBSOE: { digit: [0, 1] },
-        first5SumBSOE: { digit: [0, 4] },
-        last5SumBSOE: { digit: [5, 9] },
+        sumBSOEDigit: {
+          firstSecondSumBSOE: { sumMeanValue: 12, digit: [0, 1] },
+          first5SumBSOE: { sumMeanValue: 6, digit: [0, 4] },
+          last5SumBSOE: { sumMeanValue: 6, digit: [5, 9] },
+        },
       },
     },
     Dragon_Tiger: {
