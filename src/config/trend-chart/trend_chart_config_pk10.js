@@ -33,6 +33,7 @@ const PK10 = {
       'tenthPlace',
     ],
     dragonTiger: ['Dragon_Tiger'],
+    BSOETrend:['firstSecondSumBSOE', 'first5SumBSOE', 'last5SumBSOE'],
   },
   list: {
     First_To_Third: {
@@ -72,7 +73,7 @@ const PK10 = {
     },
     BSOE: {
       column: ['numero', 'drawNumber', 'BSOEDigit'],
-      h5Column: ['numero', 'drawNumber', 'BSOEDigit'],
+      h5Column: ['numero', 'drawNumber', 'sumDigitBSOE'],
       options: {
         BSOEDigit: {
           firstBSOE: 0,
@@ -86,6 +87,11 @@ const PK10 = {
           ninthBSOE: 8,
           tenthBSOE: 9,
         },
+      },
+      sumDigitBSOE: {
+        firstSecondSumBSOE: { digit: [0, 1] },
+        first5SumBSOE: { digit: [0, 4] },
+        last5SumBSOE: { digit: [5, 9] },
       },
     },
     Dragon_Tiger: {

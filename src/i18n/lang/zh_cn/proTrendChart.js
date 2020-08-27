@@ -8,6 +8,7 @@ const trendChart = {
     singleTrend: '定位走势',
     multipleTrend: '组合走势',
     dragonTiger: '龙虎',
+    BSOETrend: '大小单双',
 
     // SSC 二級選單
     All_5: '五星',
@@ -53,6 +54,9 @@ const trendChart = {
     First_To_Third: '第1-3名',
     Fourth_To_Sixth: '第4-6名',
     Seventh_To_Tenth: '第7-10名',
+    firstSecondSumBSOE: '冠亚和',
+    first5SumBSOE: '前五',
+    last5SumBSOE: '后五',
 
     // 走勢圖
     numero: '期号',
