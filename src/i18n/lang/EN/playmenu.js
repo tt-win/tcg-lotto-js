@@ -1,10 +1,10 @@
 const PlayMenu = {
   playId: {
     // Thai
-    2056: 'Straight', // 直选
-    2058: 'Boxed Bet', // 组选
-    2061: 'Straight', // 直选
-    2063: 'Boxed Bet', // 组选
+    2056: 'EXACT', // 上正
+    2058: 'ANY', // 上反
+    2061: 'EXACT', // 上正
+    2063: 'ANY', // 上反
     2065: 'Bonus digit', // 直选加开
     2068: 'Random Back 3 Digits', // 后三不定位
     2055: '3D', // 三数
@@ -45,10 +45,12 @@ const PlayMenu = {
     2100: '2D', // 二数
     2105: '1D', // 跑数
 
-    2091: 'Straight',
-    2093: 'Boxed Bet',
-    2096: 'Straight',
-    2098: 'Boxed Bet',
+    2091: 'EXACT', // 上正
+    2093: 'ANY', // 上反
+    2096: 'EXACT', // 上正
+    2098: 'ANY', // 上反
+    2101: 'EXACT', // 上正
+    2103: 'EXACT', // 下正
 
     2092: 'EXACT 4D-1st', // 上正四位数 Last_4_Straight_1st_VNC
     2094: 'ANY 4D-1st', // 上反四位数 Last_4_Combine_1st_VNC
@@ -111,10 +113,12 @@ const PlayMenu = {
     2137: '2D', // 二数
     2142: '1D', // 跑数
 
-    2128: 'Straight',
-    2130: 'Boxed Bet',
-    2133: 'Straight',
-    2135: 'Boxed Bet',
+    2128: 'EXACT', // 上正
+    2130: 'ANY', // 上反
+    2133: 'EXACT', // 上正
+    2135: 'ANY', // 上反
+    2138: 'EXACT', // 上正
+    2140: 'EXACT', // 下正
 
     2129: 'EXACT 4D', // 上正四位数 Last_4_Straight_LAO
     2131: 'ANY 4D', // 上反四位数 Last_4_Combine_LAO

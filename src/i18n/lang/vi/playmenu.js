@@ -1,10 +1,10 @@
 const PlayMenu = {
   playId: {
     // Thai
-    2056: 'chọn ngay',
-    2058: 'tổ chọn',
-    2061: 'chọn ngay',
-    2063: 'tổ chọn',
+    2056: 'Chính Xác', // 上正
+    2058: 'Bất Kỳ', // 上反
+    2061: 'Chính Xác', // 上正
+    2063: 'Bất Kỳ', // 上反
     2065: 'chọn ngay thêm mở',
     2068: 'sau 3 không định vị',
     2055: '3 số', // 三数
@@ -43,6 +43,13 @@ const PlayMenu = {
     2095: '3 số', // 三数
     2100: '2 số', // 二数
     2105: '1 số', // 跑数
+
+    2091: 'Chính Xác', // 上正
+    2093: 'Bất Kỳ', // 上反
+    2096: 'Chính Xác', // 上正
+    2098: 'Bất Kỳ', // 上反
+    2101: 'Chính Xác', // 上正
+    2103: 'Chính Xác', // 下正
 
     2092: '4 Số Đuôi', // 上正四位数 Last_4_Straight_1st_VNC
     2094: 'Đảo 4 Số Đuôi', // 上反四位数 Last_4_Combine_1st_VNC
@@ -104,6 +111,13 @@ const PlayMenu = {
     2132: '3 số', // 三数
     2137: '2 số', // 二数
     2142: 'chạy số', // 跑数
+
+    2128: 'Chính Xác', // 上正
+    2130: 'Bất Kỳ', // 上反
+    2133: 'Chính Xác', // 上正
+    2135: 'Bất Kỳ', // 上反
+    2138: 'Chính Xác', // 上正
+    2140: 'Chính Xác', // 下正
 
     2129: 'trên ngay 4 chữ số', // 上正四位数 Last_4_Straight_LAO
     2131: 'trên ngược 4 chữ số', // 上反四位数 Last_4_Combine_LAO
