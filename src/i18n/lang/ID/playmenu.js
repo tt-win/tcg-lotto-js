@@ -1,10 +1,10 @@
 const PlayMenu = {
   playId: {
     // Thai
-    2056: '直选',
-    2058: '组选',
-    2061: '直选',
-    2063: '组选',
+    2056: 'TEPAT', // 上正
+    2058: 'ANY', // 上反
+    2061: 'TEPAT', // 上正
+    2063: 'ANY', // 上反
     2065: '直选加开',
     2068: '后三不定位',
     2055: 'Tiga digit',
@@ -42,6 +42,13 @@ const PlayMenu = {
     2095: 'Tiga digit',
     2100: 'Dua digit',
     2105: 'Satu digit',
+
+    2091: 'TEPAT', // 上正
+    2093: 'ANY', // 上反
+    2096: 'TEPAT', // 上正
+    2098: 'ANY', // 上反
+    2101: 'TEPAT', // 上正
+    2103: 'TEPAT', // 下正
 
     2092: 'Empat digit berurutan - 1st', // Last_4_Straight_1st_VNC
     2094: 'Empat digit tanpa urutan - 1st', // Last_4_Combine_1st_VNC
@@ -103,6 +110,13 @@ const PlayMenu = {
     2132: 'Tiga digit',
     2137: 'Dua digit',
     2142: 'Satu digit',
+
+    2128: 'TEPAT', // 上正
+    2130: 'ANY', // 上反
+    2133: 'TEPAT', // 上正
+    2135: 'ANY', // 上反
+    2138: 'TEPAT', // 上正
+    2140: 'TEPAT', // 下正
 
     2129: 'Empat digit berurutan', // Last_4_Straight_LAO
     2131: 'Empat digit tanpa urutan', // Last_4_Combine_LAO
