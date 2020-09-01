@@ -19,6 +19,7 @@ const _11X5 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
   // 中間值 用來判斷大小
   meanValue: 6,
+  tie: 11,
   singleDigit: {
     firstBall: 0,
     secondBall: 1,

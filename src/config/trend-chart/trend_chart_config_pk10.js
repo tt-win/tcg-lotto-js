@@ -7,6 +7,7 @@ const PK10 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   // 中間值 用來判斷大小
   meanValue: 6,
+  tie: 0,
   singleDigit: {
     firstPlace: 0,
     secondPlace: 1,
