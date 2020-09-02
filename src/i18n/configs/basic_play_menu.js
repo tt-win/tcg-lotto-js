@@ -697,6 +697,13 @@ export const PlayMenu = {
   Dragon_Tiger_4_VS_7_PK10: 1903,
   Dragon_Tiger_5_VS_6_PK10: 1904,
 
+  // ENT PK10 番攤
+  Fan_Tan_PK10: 2541,
+  Fan_Tan_Fan_PK10: 2543,
+  Fan_Tan_Jiao_PK10: 2545,
+  Fan_Tan_Nian_PK10: 2547,
+  Fan_Tan_BSOE_PK10: 2549,
+
   // 幸運28
   Combined_PCB: 1905,
   Special_PCB: 1906,

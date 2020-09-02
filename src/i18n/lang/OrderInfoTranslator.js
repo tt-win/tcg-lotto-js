@@ -685,6 +685,21 @@ const PK10Translator = {
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ' '}${val}`), '').replace(/-/g, ' '),
   },
+
+  FAN_PK10: {
+    items: [PlayMenu.Fan_Tan_Fan_PK10],
+    getText: (content) => i18n(`ball.fanTanFan.${content.replace('0', '4')}`),
+  },
+
+  JIAO_PK10: {
+    items: [PlayMenu.Fan_Tan_Jiao_PK10],
+    getText: (content) => i18n(`ball.fanTanJiao.${content.replace('0', '4').split('').join('_')}`),
+  },
+
+  NIAN_PK10: {
+    items: [PlayMenu.Fan_Tan_Nian_PK10],
+    getText: (content) => i18n(`ball.fanTanNian.${content.replace('0', '4').split('').join('_')}`),
+  },
 };
 
 const PCBTranslator = {
@@ -1391,6 +1406,10 @@ const OrderInfoTranslatorList = {
       PlayMenu.First5BSOE_PK10,
       PlayMenu.Last5BSOE_PK10,
       PlayMenu.First2SumBSOE_PK10,
+
+      // PK10 Fantan
+      PlayMenu.Fan_Tan_BSOE_PK10,
+
       // PCB28
       PlayMenu.SpecialBSOE_PCB,
       PlayMenu.BOSE_WITH_TIE_PCB,
