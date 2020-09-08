@@ -27,6 +27,7 @@ const LANG = {
   betFail: 'Bet Failed',
   betFailed: 'Incorrect/Incomplete Playslip. Processing failed.',
   detail: 'Details',
+  recentlyGames: 'Bet Games',
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_2: 'IN PROGRESS',
@@ -94,7 +95,7 @@ const LANG = {
       '4_1': '4 Nim 1',
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
-    }
+    },
   },
 
   prizeListPrizeType: {

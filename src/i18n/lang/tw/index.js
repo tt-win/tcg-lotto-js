@@ -29,6 +29,7 @@ const LANG = {
   betFailed: '生成訂單失敗',
   detail: '詳細',
   status: '狀態',
+  recentlyGames: '最近遊戲',
   orderStatus: {
     orderStatus_0: '全部',
     orderStatus_2: '進行中',
