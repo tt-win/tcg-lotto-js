@@ -7,6 +7,7 @@ const PK10 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   // 中間值 用來判斷大小
   meanValue: 6,
+  tie: 0,
   singleDigit: {
     firstPlace: 0,
     secondPlace: 1,
@@ -33,7 +34,7 @@ const PK10 = {
       'tenthPlace',
     ],
     dragonTiger: ['Dragon_Tiger'],
-    BSOETrend:['firstSecondSumBSOE', 'first5SumBSOE', 'last5SumBSOE'],
+    BSOETrend:['firstSecondSumBSOE', 'first5BSOE', 'last5BSOE'],
   },
   list: {
     First_To_Third: {
@@ -88,9 +89,9 @@ const PK10 = {
           tenthBSOE: 9,
         },
         sumBSOEDigit: {
-          firstSecondSumBSOE: { sumMeanValue: 12, digit: [0, 1] },
-          first5SumBSOE: { sumMeanValue: 6, digit: [0, 4] },
-          last5SumBSOE: { sumMeanValue: 6, digit: [5, 9] },
+          firstSecondSumBSOE: { type:'sum' ,sumMeanValue: 12, digit: [0, 1] },
+          first5BSOE: { type:'digit' ,sumMeanValue: 6, digit: ['firstPlace', 'secondPlace', 'thirdPlace', 'fourthPlace', 'fifthPlace'] },
+          last5BSOE: { type:'digit' ,sumMeanValue: 6, digit: ['sixthPlace', 'seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'] },
         },
       },
     },

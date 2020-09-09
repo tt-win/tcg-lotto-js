@@ -28,6 +28,7 @@ const LANG = {
   betFail: 'đặt cược thất bại',
   betFailed: 'tạo đơn hàng thất bại',
   detail: 'CHI TIẾT CƯỢC',
+  recentlyGames: 'CƯỢC MỞ',
   orderStatus: {
     orderStatus_0: 'toàn bộ',
     orderStatus_2: 'Thành Công',

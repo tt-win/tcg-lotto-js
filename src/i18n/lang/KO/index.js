@@ -89,6 +89,7 @@ const LANG = {
   detail: '베팅 정보',
   multiple: '배수',
   syncMultipleBets: '동기화',
+  recentlyGames: '오픈베팅',
 };
 
 export default LANG;

@@ -55,8 +55,8 @@ const trendChart = {
     Fourth_To_Sixth: '第4-6名',
     Seventh_To_Tenth: '第7-10名',
     firstSecondSumBSOE: '冠亚和',
-    first5SumBSOE: '前五',
-    last5SumBSOE: '后五',
+    first5BSOE: '前五',
+    last5BSOE: '后五',
 
     // 走勢圖
     numero: '期号',

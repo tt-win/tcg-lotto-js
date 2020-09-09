@@ -27,6 +27,7 @@ const LANG = {
   betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',
   betFailed: 'ใส่ราคาไม่ตรงเงื่อนไข!!',
   detail: 'รายการเดิมพัน',
+  recentlyGames: 'เปิดการเดิมพัน',
   orderStatus: {
     orderStatus_0: 'รายละเอียด',
     orderStatus_2: 'สำเร็จ',

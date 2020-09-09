@@ -87,6 +87,7 @@ const LANG = {
   detail: 'Detil Bet',
   multiple: 'Banyak',
   syncMultipleBets: 'Sync Multiple Bets',
+  recentlyGames: 'Bet Games',
 };
 
 export default LANG;
