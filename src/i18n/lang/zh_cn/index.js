@@ -915,7 +915,7 @@ const LANG = {
   betFail: '下注失敗',
   confirmBetInfos: '请确认投注信息',
   number: '号码',
-  odds: '赔率',
+  odds: '奖金',
   amount: '金额',
   amountByStakes: '单注金额',
   expectedToWin: '预计可赢',

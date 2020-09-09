@@ -184,6 +184,7 @@ const LANG = {
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
   predictionAmount: 'will win<div class="red-words">%@</div>',
   filterResultMsg: 'Remove Duplicate %@ Invalid no. %@',
+  odds: 'Payouts',
   amount: 'Stake',
   manualBetPlaceHolderSEA: 'Please type your bets here or upload a txt file. The format is per sample below :\n%@\nNOTE:  You can use "," or ";" or "<Space>" or new line to separate the numbers you are betting.',
 

@@ -156,6 +156,7 @@ const LANG = {
   betsNTotalAmount: '您選擇了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
   predictionAmount: '單注最高可中<div class="red-words">%@</div>元',
   filterResultMsg: '已經過濾%@组重複號，%@組無效號',
+  odds: '獎金',
   amount: '金額',
   multiple: '倍數',
   syncMultipleBets: '批量修改倍數',

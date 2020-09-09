@@ -145,6 +145,7 @@ const LANG = {
   betsNTotalAmount: '<div class="font-bold">%@</div>บิล，รวม<div class="font-bold">%@</div>，',
   predictionAmount: 'อัตราการเดิมพัน<div class="red-words">%@</div>',
   filterResultMsg: 'ลบหมายเลขซ้ำ %@ โมฆะ %@',
+  odds: 'จ่าย',
   amount: 'การใช้จ่าย',
   multiple: 'หลาย',
   syncMultipleBets: 'ความหลาย',

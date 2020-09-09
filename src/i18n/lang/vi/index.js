@@ -188,6 +188,7 @@ const LANG = {
   betsNTotalAmount: 'Đã chọn<div class="font-bold">%@</div>số，Số Tiền Cược<div class="font-bold">%@</div>，',
   predictionAmount: 'Tỷ Lệ Cược<div class="red-words">%@</div>',
   filterResultMsg: 'trùng lặp %@ không hợp lệ %@',
+  odds: 'Tỉ lệ',
   amount: 'Trên mỗi cược',
   multiple: 'Cấp Số Nhân',
   syncMultipleBets: 'Đồng bộ cược',
