@@ -906,6 +906,7 @@ const LANG = {
   haveChosen: '已选中',
   roadMapChart: '路纸图',
   quickBet: '快捷投注',
+  quickEnter: '快打输入',
   bothSideDragon: '两面长龙',
   reset: '重置',
   atLeastChooseOneNumber: '请选择号码下注！！',
