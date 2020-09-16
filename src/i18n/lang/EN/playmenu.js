@@ -86,12 +86,15 @@ const PlayMenu = {
 
     // 北部
     2515: 'AnyRoll', // 包膽
+    2516: 'Last 2D of AnyResult', // 后二包胆
     2517: 'Last 2D of AnyResult', // 后二包胆
     2518: 'Norm Last 2D of AnyResult', // 后二包胆(复式)
     2519: 'Manual Last 2D of AnyResult', // 后二包胆(单式)
+    2520: 'Last 3D of AnyResult', // 后三包胆
     2521: 'Last 3D of AnyResult', // 后三包胆
     2522: 'Norm Last 3D of AnyResult', // 后三包胆（复式）
     2523: 'Manual Last 3D of AnyResult', // 后三包胆（单式）
+    2524: 'Last 4D of AnyResult', // 后四包胆
     2525: 'Last 4D of AnyResult', // 后四包胆
     2526: 'Norm Last 4D of AnyResult', // 后四包胆（复式）
     2527: 'Manual Last 4D of AnyResult', // 后四包胆（单式）
@@ -107,12 +110,15 @@ const PlayMenu = {
     2559: 'Manual FailParlay 10', // 北部 - 十不中(单式) - 三級選單
     // 中南部
     2528: 'AnyRoll', // 包膽
+    2529: 'Last 2D of AnyResult', // 后二包胆
     2530: 'Last 2D of AnyResult', // 后二包胆
     2531: 'Norm Last 2D of AnyResult', // 后二包胆(复式)
     2532: 'Manual Last 2D of AnyResult', // 后二包胆(单式)
+    2533: 'Last 3D of AnyResult', // 后三包胆
     2534: 'Last 3D of AnyResult', // 后三包胆
     2535: 'Norm Last 3D of AnyResult', // 后三包胆（复式）
     2536: 'Manual Last 3D of AnyResult', // 后三包胆（单式）
+    2537: 'Last 4D of AnyResult', // 后四包胆
     2538: 'Last 4D of AnyResult', // 后四包胆
     2539: 'Norm Last 4D of AnyResult', // 后四包胆（复式）
     2540: 'Manual Last 4D of AnyResult', // 后四包胆（单式）
