@@ -93,6 +93,16 @@ const PlayMenu = {
     2525: 'Last 4D of AnyResult', // 后四包胆
     2526: 'Norm Last 4D of AnyResult', // 后四包胆（复式）
     2527: 'Manual Last 4D of AnyResult', // 后四包胆（单式）
+    2550: 'KegagalanParlay', // 北部 逆向 - 一級選單
+    2551: 'KegagalanParlay 4',  // 北部 - 四不中 - 二級選單
+    2554: 'KegagalanParlay 8',  // 北部 - 八不中 - 二級選單
+    2557: 'KegagalanParlay 10',  // 北部 - 十不中 - 二級選單
+    2552: 'KegagalanParlay 4',  // 北部 - 四不中 - 三級選單
+    2553: 'Manual Kegagalan Parlay 4', //北部 - 四不中(单式) - 三級選單
+    2555: 'KegagalanParlay 8', // 北部 - 八不中 - 三級選單
+    2556: 'Manual Kegagalan Parlay 8', // 北部 - 八不中(单式) - 三級選單
+    2558: 'KegagalanParlay 10', // 北部 - 十不中 - 三級選單
+    2559: 'Manual Kegagalan Parlay 10', // 北部 - 十不中(单式) - 三級選單
     // 中南部
     2528: 'AnyRoll', // 包膽
     2530: 'Last 2D of AnyResult', // 后二包胆
@@ -104,6 +114,16 @@ const PlayMenu = {
     2538: 'Last 4D of AnyResult', // 后四包胆
     2539: 'Norm Last 4D of AnyResult', // 后四包胆（复式）
     2540: 'Manual Last 4D of AnyResult', // 后四包胆（单式）
+    2560: 'KegagalanParlay', // 南部 逆向 - 一級選單
+    2561: 'KegagalanParlay 4 ',  // 南部 - 四不中 - 二級選單
+    2564: 'KegagalanParlay 8',  // 南部 - 八不中 - 二級選單
+    2567: 'KegagalanParlay 10',  // 南部 - 十不中 - 二級選單
+    2562: 'KegagalanParlay 4', // 南部 - 四不中 - 三級選單
+    2563: 'Manual Kegagalan Parlay 4', // 南部 - 四不中(单式) - 三級選單
+    2565: 'KegagalanParlay 8', // 南部 - 八不中 - 三級選單
+    2566: 'Manual Kegagalan Parlay 8', // 南部 - 八不中(单式) - 三級選單
+    2568: 'KegagalanParlay 8', // 南部 - 十不中 - 三級選單
+    2569: 'Manual Kegagalan Parlay 10', // 南部 - 十不中(单式) - 三級選單
 
     // LAO 老挝彩
     2127: 'Empat digit',
