@@ -454,6 +454,42 @@ const ManualBetConfigVNC = {
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
+  // 4_Not_Winning_Numbers_Single_North_VNC 北部 - 四不中(单式)
+  2553: ManualBetConfigRecord({
+    ...baseSEAProps,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // 8_Not_Winning_Numbers_Single_North_VNC 北部 - 八不中(单式)
+  2556: ManualBetConfigRecord({
+    ...baseSEAProps,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // 10_Not_Winning_Numbers_Single_North_VNC 北部 - 十不中(单式)
+  2559: ManualBetConfigRecord({
+    ...baseSEAProps,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // 4_Not_Winning_Numbers_Single_South_VNC 南部 - 四不中(单式)
+  2553: ManualBetConfigRecord({
+    ...baseSEAProps,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // 8_Not_Winning_Numbers_Single_South_VNC 南部 - 八不中(单式)
+  2556: ManualBetConfigRecord({
+    ...baseSEAProps,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // 10_Not_Winning_Numbers_Single_South_VNC 南部 - 十不中(单式)
+  2559: ManualBetConfigRecord({
+    ...baseSEAProps,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
 };
 
 const ManualBetConfigLAO = {

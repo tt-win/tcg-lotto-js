@@ -150,7 +150,7 @@ const LANG = {
   amount: 'การใช้จ่าย',
   multiple: 'หลาย',
   syncMultipleBets: 'ความหลาย',
-  manualBetPlaceHolderSEA: 'ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：\n%@',
+  manualBetPlaceHolderSEA: `ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：`,
 };
 
 export default LANG;

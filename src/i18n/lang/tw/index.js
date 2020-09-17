@@ -161,7 +161,7 @@ const LANG = {
   amount: '金額',
   multiple: '倍數',
   syncMultipleBets: '批量修改倍數',
-  manualBetPlaceHolderSEA: '每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：\n%@',
+  manualBetPlaceHolderSEA: `每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：`,
 };
 
 export default LANG;
