@@ -31,7 +31,7 @@ export const BallBoardConfigRecord = Record({
   manualDigitsI18n: [], // 選擇位數i18n
   defaultManualDigits: [], // 預設選擇位數值
   minChooseManualDigits: 0, // 最少選擇位數
-
+  minChooseFailParlayDigits: 0,
   displayBallBonus: false,  // 是否顯示個別球最高獎金  2017.06.02 added by G
   prizeTypeMapping: {},   // prizeType對照
   rowMulti: true, // 每一列球號是否多選 false:每一列球號不能相同
