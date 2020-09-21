@@ -894,6 +894,7 @@ const LANG = {
   lobby: '大厅',
   openWinningNumber: '开奖',
   bet: '投注',
+  longDragonBet: '长龙',
   trend: '走势',
   winningHistory: '记录',
   drawRemainTime: '距离开奖还剩',
