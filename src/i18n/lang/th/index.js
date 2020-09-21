@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: 'รายการแทง',
   confirmBetting: 'ส่งโพย',
   clearBallText: 'ลบข้อมูล',
+  addToBetSlip: 'เพิ่มบิลการเดิมพัน',
   betNow: 'แทงหวย',
   betSuccess: 'ส่งโพยสำเร็จ',
   confirmBetInfos: 'ตรวจโพยอีกครั้งก่อนส่งโพย',

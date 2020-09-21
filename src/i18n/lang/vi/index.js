@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: 'rổ mua xổ số',
   confirmBetting: 'xác nhận đặt cược',
   clearBallText: 'xóa số lựa chọn',
+  addToBetSlip: 'Thêm vé cược',
   betNow: 'đặt cược ngay',
   betSuccess: 'chúc mừng, đặt cược thành công',
   confirmBetInfos: 'hãy xác nhận thông tin đặt cược',

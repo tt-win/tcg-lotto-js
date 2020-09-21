@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: 'Cart',
   confirmBetting: 'Confirm Bet',
   clearBallText: 'Clear',
+  addToBetSlip: 'Add To Bet Slip',
   betNow: 'Bet Now',
   betSuccess: 'Bet Success',
   confirmBetInfos: 'Please Confirm the Betting Details',
