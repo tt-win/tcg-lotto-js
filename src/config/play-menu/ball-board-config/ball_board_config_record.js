@@ -140,3 +140,8 @@ export const fanTanBSOEProps = {
     3: 'P_EVEN',
   },
 };
+
+export const seaMultiBetProps = {
+  ballRange: [0, 9],
+  ballDigit: 1,
+};
