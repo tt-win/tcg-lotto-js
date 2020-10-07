@@ -87,38 +87,9 @@ export default {
     formula: 'straight',
   }),
 
-  // 北部 - 四不中
-  2552: BallBoardConfigRecord({
-    minChooseFailParlayDigits: 4,
-  }),
-
-  // 北部 - 八不中
-  2555: BallBoardConfigRecord({
-    minChooseFailParlayDigits: 8,
-  }),
-
-  // 北部 - 十不中
-  2558: BallBoardConfigRecord({
-    minChooseFailParlayDigits: 10,
-  }),
-
-  // 南部 - 四不中
-  2562: BallBoardConfigRecord({
-    minChooseFailParlayDigits: 4,
-  }),
-
-  // 南部 - 八不中
-  2565: BallBoardConfigRecord({
-    minChooseFailParlayDigits: 8,
-  }),
-
-  // 南部 - 十不中
-  2568: BallBoardConfigRecord({
-    minChooseFailParlayDigits: 10,
-  }),
-
   // Hoo_Hey_How_Play_VNC 鱼虾蟹
   2302: BallBoardConfigRecord({
+    ...seaMultiBetProps,
     ...fishPrawnCrabBallProps,
   }),
 
