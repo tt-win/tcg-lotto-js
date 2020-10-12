@@ -458,6 +458,8 @@ const ManualBetConfigVNC = {
   2553: ManualBetConfigRecord({
     ...baseSEAProps,
     ballCount: 4,
+    ballDigit: 2,
+    ballDelimiter: '-',
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
@@ -465,6 +467,8 @@ const ManualBetConfigVNC = {
   2556: ManualBetConfigRecord({
     ...baseSEAProps,
     ballCount: 8,
+    ballDigit: 2,
+    ballDelimiter: '-',
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
@@ -472,6 +476,8 @@ const ManualBetConfigVNC = {
   2559: ManualBetConfigRecord({
     ...baseSEAProps,
     ballCount: 10,
+    ballDigit: 2,
+    ballDelimiter: '-',
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
@@ -479,6 +485,8 @@ const ManualBetConfigVNC = {
   2563: ManualBetConfigRecord({
     ...baseSEAProps,
     ballCount: 4,
+    ballDigit: 2,
+    ballDelimiter: '-',
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
@@ -486,6 +494,8 @@ const ManualBetConfigVNC = {
   2566: ManualBetConfigRecord({
     ...baseSEAProps,
     ballCount: 8,
+    ballDigit: 2,
+    ballDelimiter: '-',
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
@@ -493,6 +503,8 @@ const ManualBetConfigVNC = {
   2569: ManualBetConfigRecord({
     ...baseSEAProps,
     ballCount: 10,
+    ballDigit: 2,
+    ballDelimiter: '-',
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
