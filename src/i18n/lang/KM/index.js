@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: 'កន្រ្តក',
   confirmBetting: 'បញ្ជក់ការភ្ជាល់',
   clearBallText: 'លុបលេខបាល់',
+  addToBetSlip: 'កើនឡើង',
   betNow: 'ចាក់ឥឡូវ',
   betSuccess: 'ការចាក់ជោគជ័យ',
   confirmBetInfos: 'បញ្ជាក់ទិន័្ទយកាចាក់',

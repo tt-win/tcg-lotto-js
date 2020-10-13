@@ -108,6 +108,7 @@ const LANG = {
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',
   clearBallText: '삭제',
+  addToBetSlip: '슬립에 추가',
   filterRepeat: '중복 제거',
   betsNTotalAmount: '<div class="font-bold">%@</div>내기，총 베팅<div class="font-bold">%@</div>，',
   predictionAmount: '보너스<div class="red-words">%@</div>',

@@ -5,130 +5,91 @@ import {
   fanTanJiaoBallProps,
   fanTanNianBallProps,
   fanTanBSOEProps,
+  seaMultiBetProps,
 } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
-
-const baseVNCProps = {
-  ballRange: [0, 9],
-  ballDigit: 1,
-};
 
 export default {
   // Last_2_Straight_1st_VNC_Multi 上正二位数（复式）
   2279: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Last_2_Straight_2nd_VNC_Multi 下正二位数（复式）
   2281: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Last_3_Combine_1st_VNC_Multi 上反三位数（复式）
   2283: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.COM],
     formula: 'combineSix',
   }),
 
   // Last_3_Straight_1st_VNC_Multi 上正三位数（复式）
   2284: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Last_4_Straight_1st_VNC_Multi 上正四位数（复式）
   2286: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Any_Roll_Last_2_North_VNC_Multi 后二包胆（复式）
   2518: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Any_Roll_Last_3_North_VNC_Multi 后三包胆（复式）
   2522: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Any_Roll_Last_4_North_VNC_Multi 后四包胆（复式）
   2526: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Any_Roll_Last_2_South_VNC_Multi 后二包胆（复式）
   2531: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Any_Roll_Last_3_South_VNC_Multi 后三包胆（复式）
   2535: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
   // Any_Roll_Last_4_South_VNC_Multi 后四包胆（复式）
   2539: BallBoardConfigRecord({
-    ...baseVNCProps,
+    ...seaMultiBetProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
   }),
 
-  // 北部 - 四不中
-  2552: BallBoardConfigRecord({
-    ...baseVNCProps,
-    minChooseFailParlayDigits: 4,
-  }),
-
-  // 北部 - 八不中
-  2555: BallBoardConfigRecord({
-    ...baseVNCProps,
-    minChooseFailParlayDigits: 8,
-  }),
-
-  // 北部 - 十不中
-  2558: BallBoardConfigRecord({
-    ...baseVNCProps,
-    minChooseFailParlayDigits: 10,
-  }),
-
-  // 南部 - 四不中
-  2562: BallBoardConfigRecord({
-    ...baseVNCProps,
-    minChooseFailParlayDigits: 4,
-  }),
-
-  // 南部 - 八不中
-  2565: BallBoardConfigRecord({
-    ...baseVNCProps,
-    minChooseFailParlayDigits: 8,
-  }),
-
-  // 南部 - 十不中
-  2568: BallBoardConfigRecord({
-    ...baseVNCProps,
-    minChooseFailParlayDigits: 10,
-  }),
-
   // Hoo_Hey_How_Play_VNC 鱼虾蟹
   2302: BallBoardConfigRecord({
+    ...seaMultiBetProps,
     ...fishPrawnCrabBallProps,
   }),
 

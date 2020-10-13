@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: '購彩籃',
   confirmBetting: '確認投注',
   clearBallText: '清除選號',
+  addToBetSlip: '加入購物車',
   betNow: '立即投注',
   betSuccess: '恭喜, 下注成功',
   betPartialSuccess: '餘額不足，部份生成訂單成功',

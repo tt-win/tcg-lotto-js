@@ -841,6 +841,7 @@ const LANG = {
   filterResultMsg: '已经过滤%@组重复号，%@组无效号',
   chooseFile: '选择文件',
   clearBallText: '清除选号',
+  addToBetSlip: '加入购物车',
   filterRepeat: '过滤重复/无效号',
   lostSeriesData: '缺少系列资料',
   logInTimeOut: '登入超时 请重新登入',

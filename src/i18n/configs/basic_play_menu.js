@@ -894,12 +894,12 @@ export const PlayMenu = {
   Fan_Tan_Nian_VNC: 2494, // 番攤 - 念
   Fan_Tan_BSOE_VNC: 2496, // 番攤 - 大小單雙
 
-  "4_Not_Winning_Numbers_Main_North_VNC": 2551,  // 北部 - 四不中
-  "8_Not_Winning_Numbers_Main_North_VNC": 2554,  // 北部 - 八不中
-  "10_Not_Winning_Numbers_Main_North_VNC": 2557,  // 北部 - 十不中
-  "4_Not_Winning_Numbers_Main_South_VNC": 2561,  // 南部 - 四不中
-  "8_Not_Winning_Numbers_Main_South_VNC": 2564,  // 南部 - 八不中
-  "10_Not_Winning_Numbers_Main_South_VNC": 2567,  // 南部 - 十不中
+  '4_Not_Winning_Numbers_Main_North_VNC': 2551,  // 北部 - 四不中
+  '8_Not_Winning_Numbers_Main_North_VNC': 2554,  // 北部 - 八不中
+  '10_Not_Winning_Numbers_Main_North_VNC': 2557,  // 北部 - 十不中
+  '4_Not_Winning_Numbers_Main_South_VNC': 2561,  // 南部 - 四不中
+  '8_Not_Winning_Numbers_Main_South_VNC': 2564,  // 南部 - 八不中
+  '10_Not_Winning_Numbers_Main_South_VNC': 2567,  // 南部 - 十不中
 
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
@@ -922,37 +922,37 @@ export const PlayMenu = {
   Last_4_Straight_1st_VNC_Multi: 2286, // 上正四位数（复式）
   Last_4_Straight_1st_VNC_Single: 2287, // 上正四位数（单式）
 
-  Any_Roll_Last_2_North_VNC : 2517, // 北部 - 后二包胆
-  Any_Roll_Last_2_North_VNC_Multi : 2518, // 北部 - 后二包胆（复式）
-  Any_Roll_Last_2_North_VNC_Single : 2519, // 北部 - 后二包胆（单式）
-  Any_Roll_Last_3_North_VNC : 2521, // 北部 - 后三包胆
-  Any_Roll_Last_3_North_VNC_Multi : 2522, // 北部 - 后三包胆（复式）
-  Any_Roll_Last_3_North_VNC_Single : 2523, // 北部 - 后三包胆（单式）
-  Any_Roll_Last_4_North_VNC : 2525, // 北部 - 后四包胆
-  Any_Roll_Last_4_North_VNC_Multi : 2526, // 北部 - 后四包胆（复式）
-  Any_Roll_Last_4_North_VNC_Single : 2527, // 北部 - 后四包胆（单式）
-  "4_Not_Winning_Numbers_North_VNC" : 2552, // 北部 - 四不中
-  "4_Not_Winning_Numbers_Single_North_VNC" : 2553, // 北部 - 四不中(单式)
-  "8_Not_Winning_Numbers_North_VNC" : 2555, // 北部 - 八不中
-  "8_Not_Winning_Numbers_Single_North_VNC" : 2556, // 北部 - 八不中(单式)
-  "10_Not_Winning_Numbers_North_VNC" : 2558, // 北部 - 十不中
-  "10_Not_Winning_Numbers_Single_North_VNC" : 2559, // 北部 - 十不中(单式)
+  Any_Roll_Last_2_North_VNC: 2517, // 北部 - 后二包胆
+  Any_Roll_Last_2_North_VNC_Multi: 2518, // 北部 - 后二包胆（复式）
+  Any_Roll_Last_2_North_VNC_Single: 2519, // 北部 - 后二包胆（单式）
+  Any_Roll_Last_3_North_VNC: 2521, // 北部 - 后三包胆
+  Any_Roll_Last_3_North_VNC_Multi: 2522, // 北部 - 后三包胆（复式）
+  Any_Roll_Last_3_North_VNC_Single: 2523, // 北部 - 后三包胆（单式）
+  Any_Roll_Last_4_North_VNC: 2525, // 北部 - 后四包胆
+  Any_Roll_Last_4_North_VNC_Multi: 2526, // 北部 - 后四包胆（复式）
+  Any_Roll_Last_4_North_VNC_Single: 2527, // 北部 - 后四包胆（单式）
+  '4_Not_Winning_Numbers_North_VNC': 2552, // 北部 - 四不中
+  '4_Not_Winning_Numbers_Single_North_VNC': 2553, // 北部 - 四不中(单式)
+  '8_Not_Winning_Numbers_North_VNC': 2555, // 北部 - 八不中
+  '8_Not_Winning_Numbers_Single_North_VNC': 2556, // 北部 - 八不中(单式)
+  '10_Not_Winning_Numbers_North_VNC': 2558, // 北部 - 十不中
+  '10_Not_Winning_Numbers_Single_North_VNC': 2559, // 北部 - 十不中(单式)
 
-  Any_Roll_Last_2_South_VNC : 2530, // 中南部 - 后二包胆
-  Any_Roll_Last_2_South_VNC_Multi : 2531, // 中南部 - 后二包胆（复式）
-  Any_Roll_Last_2_South_VNC_Single : 2532, // 中南部 - 后二包胆（单式）
-  Any_Roll_Last_3_South_VNC : 2534, // 中南部 - 后三包胆
-  Any_Roll_Last_3_South_VNC_Multi : 2535, // 中南部 - 后三包胆（复式）
-  Any_Roll_Last_3_South_VNC_Single : 2536, // 中南部 - 后三包胆（单式）
-  Any_Roll_Last_4_South_VNC : 2538, // 中南部 - 后四包胆
-  Any_Roll_Last_4_South_VNC_Multi : 2539, // 中南部 - 后四包胆（复式）
-  Any_Roll_Last_4_South_VNC_Single : 2540, // 中南部 - 后四包胆（单式）
-  "4_Not_Winning_Numbers_Sourth_VNC" : 2562, // 南部 - 四不中
-  "4_Not_Winning_Numbers_Single_South_VNC" : 2563, // 南部 - 四不中(单式)
-  "8_Not_Winning_Numbers_South_VNC" : 2565, // 南部 - 八不中
-  "8_Not_Winning_Numbers_Single_South_VNC" : 2566, // 南部 - 八不中(单式)
-  "10_Not_Winning_Numbers_South_VNC" : 2568, // 南部 - 十不中
-  "10_Not_Winning_Numbers_Single_South_VNC" : 2569, // 南部 - 十不中(单式)
+  Any_Roll_Last_2_South_VNC: 2530, // 中南部 - 后二包胆
+  Any_Roll_Last_2_South_VNC_Multi: 2531, // 中南部 - 后二包胆（复式）
+  Any_Roll_Last_2_South_VNC_Single: 2532, // 中南部 - 后二包胆（单式）
+  Any_Roll_Last_3_South_VNC: 2534, // 中南部 - 后三包胆
+  Any_Roll_Last_3_South_VNC_Multi: 2535, // 中南部 - 后三包胆（复式）
+  Any_Roll_Last_3_South_VNC_Single: 2536, // 中南部 - 后三包胆（单式）
+  Any_Roll_Last_4_South_VNC: 2538, // 中南部 - 后四包胆
+  Any_Roll_Last_4_South_VNC_Multi: 2539, // 中南部 - 后四包胆（复式）
+  Any_Roll_Last_4_South_VNC_Single: 2540, // 中南部 - 后四包胆（单式）
+  '4_Not_Winning_Numbers_South_VNC': 2562, // 南部 - 四不中
+  '4_Not_Winning_Numbers_Single_South_VNC': 2563, // 南部 - 四不中(单式)
+  '8_Not_Winning_Numbers_South_VNC': 2565, // 南部 - 八不中
+  '8_Not_Winning_Numbers_Single_South_VNC': 2566, // 南部 - 八不中(单式)
+  '10_Not_Winning_Numbers_South_VNC': 2568, // 南部 - 十不中
+  '10_Not_Winning_Numbers_Single_South_VNC': 2569, // 南部 - 十不中(单式)
 
   // LAO 老挝彩
   '4_Num_LAO': 2127,

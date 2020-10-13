@@ -108,6 +108,7 @@ const LANG = {
   drawFrequency: 'Frekuensi the draw',
   chooseFile: 'unggah data',
   clearBallText: 'PASANG',
+  addToBetSlip: 'Tambah Taruhan',
   filterRepeat: 'Hapus Nomor Gandakan',
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
   predictionAmount: 'akan menang<div class="red-words">%@</div>',
