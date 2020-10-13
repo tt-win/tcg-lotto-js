@@ -1,5 +1,5 @@
-import { PlayMenu } from 'configs/play-menu';
 import _ from 'lodash';
+import { PlayMenu } from '../i18n/configs/basic_play_menu';
 
 const baseProps = {
   grade: _.times(9), // 全獎級顯示
