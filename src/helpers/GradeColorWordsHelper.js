@@ -32,6 +32,9 @@ export const getGradeNumberOfColorWords = (playId) => {
     case PlayMenu.Any_Roll_Last_4_South_VNC_Multi:
     case PlayMenu.Any_Roll_Last_4_South_VNC_Single:
       return { ...baseProps, numberOfColorWords: 4 };
+      // 上正四位数 test
+    case PlayMenu.LAST_4_STRAIGHT_1ST_VNC:
+      return { grade: [0], numberOfColorWords: 4 }; // 特等獎 後四位
     default:
       return baseProps;
   }
