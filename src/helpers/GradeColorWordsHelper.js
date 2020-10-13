@@ -6,7 +6,7 @@ const baseProps = {
   numberOfColorWords: 0, // 後幾位變色
 };
 
-export const getGradeNumberOfColorWords = (gameCode, playId) => {
+export const getGradeNumberOfColorWords = (playId) => {
   switch (playId) {
       // 北部 後二包膽
     case PlayMenu.Any_Roll_Last_2_North_VNC:
