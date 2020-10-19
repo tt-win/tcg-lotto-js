@@ -120,6 +120,18 @@ const LANG = {
   multiple: 'Banyak',
   syncMultipleBets: 'Sync Multiple Bets',
   recentlyGames: 'Bet Games',
+
+  drawPrize: {
+    specialPrize: 'Special',
+    firstPrize: '1st Prize',
+    secondPrize: '2nd Prize',
+    thirdPrize: '3rd Prize',
+    fourthPrize: '4th Prize',
+    fifthPrize: '5th Prize',
+    sixthPrize: '6th Prize',
+    seventhPrize: '7th Prize',
+    eighthPrize: '8th Prize',
+  },
 };
 
 export default LANG;

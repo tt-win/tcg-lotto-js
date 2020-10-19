@@ -122,6 +122,18 @@ const LANG = {
   multiple: '배수',
   syncMultipleBets: '동기화',
   recentlyGames: '오픈베팅',
+
+  drawPrize: {
+    specialPrize: '스페셜',
+    firstPrize: '1등',
+    secondPrize: '2등',
+    thirdPrize: '3등',
+    fourthPrize: '4등',
+    fifthPrize: '5등',
+    sixthPrize: '6등',
+    seventhPrize: '7등',
+    eighthPrize: '8등',
+  },
 };
 
 export default LANG;

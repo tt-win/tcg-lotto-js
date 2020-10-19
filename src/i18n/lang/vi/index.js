@@ -195,6 +195,18 @@ const LANG = {
   multiple: 'Cấp Số Nhân',
   syncMultipleBets: 'Đồng bộ cược',
   manualBetPlaceHolderSEA: `Giữa mỗi cược cần phân cách bởi dấu chấm phẩy ";" hoặc dấu phẩy\n"," hoặc khoảng trắng " "\nSử dụng tệp TXT hoặc dán Ví dụ:`,
+
+  drawPrize: {
+    specialPrize: 'Giải ĐB',
+    firstPrize: 'Giải nhất',
+    secondPrize: 'Giải nhì',
+    thirdPrize: 'Giải ba',
+    fourthPrize: 'Giải tư',
+    fifthPrize: 'Giải năm',
+    sixthPrize: 'Giải sáu',
+    seventhPrize: 'Giải bảy',
+    eighthPrize: 'Giải tám',
+  },
 };
 
 export default LANG;

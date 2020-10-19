@@ -1482,6 +1482,18 @@ const LANG = {
   LimitOnlyBetBar: '系列值使用拉杆',
   NoData: '尚未设定预设玩法',
 
+  drawPrize: {
+    specialPrize: '特等奖',
+    firstPrize: '一等奖',
+    secondPrize: '二等奖',
+    thirdPrize: '三等奖',
+    fourthPrize: '四等奖',
+    fifthPrize: '五等奖',
+    sixthPrize: '六等奖',
+    seventhPrize: '七等奖',
+    eighthPrize: '八等奖',
+  },
+
   ...BaseGame,
   ...ProTrendChart,
 };

@@ -163,6 +163,18 @@ const LANG = {
   multiple: '倍數',
   syncMultipleBets: '批量修改倍數',
   manualBetPlaceHolderSEA: `每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：`,
+
+  drawPrize: {
+    specialPrize: '特等獎',
+    firstPrize: '一等獎',
+    secondPrize: '二等獎',
+    thirdPrize: '三等獎',
+    fourthPrize: '四等獎',
+    fifthPrize: '五等獎',
+    sixthPrize: '六等獎',
+    seventhPrize: '七等獎',
+    eighthPrize: '八等獎',
+  },
 };
 
 export default LANG;
