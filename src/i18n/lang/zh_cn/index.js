@@ -1466,6 +1466,7 @@ const LANG = {
   },
   betsNTotalAmount: '您选择了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
   predictionAmount: '单注最高可中<div class="red-words">%@</div>元',
+  willWin: '预计中奖金额',
   defaultMode: '预设模式',
   defaultBetting: '预设玩法',
   MultipleDefaultBetting: '批量调整预设玩法',

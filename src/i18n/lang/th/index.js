@@ -146,6 +146,7 @@ const LANG = {
   filterRepeat: 'ลบหมายเลขซ้ำ',
   betsNTotalAmount: '<div class="font-bold">%@</div>บิล，รวม<div class="font-bold">%@</div>，',
   predictionAmount: 'อัตราการเดิมพัน<div class="red-words">%@</div>',
+  willWin: 'อัตราการเดิมพัน',
   filterResultMsg: 'ลบหมายเลขซ้ำ %@ โมฆะ %@',
   odds: 'จ่าย',
   amount: 'การใช้จ่าย',

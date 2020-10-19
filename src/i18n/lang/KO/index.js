@@ -112,6 +112,7 @@ const LANG = {
   filterRepeat: '중복 제거',
   betsNTotalAmount: '<div class="font-bold">%@</div>내기，총 베팅<div class="font-bold">%@</div>，',
   predictionAmount: '보너스<div class="red-words">%@</div>',
+  willWin: '보너스',
   filterResultMsg: '%@ 중복제거 %@ 무효',
   odds: '배당',
   amount: '금액',

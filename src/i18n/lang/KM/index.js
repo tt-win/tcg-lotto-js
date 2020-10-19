@@ -146,6 +146,7 @@ const LANG = {
   filterRepeat: 'លុបស្ទួន',
   betsNTotalAmount: 'ភ្នាល់<div class="font-bold">%@</div>ប៉ុ，ភ្នាល់សរុប<div class="font-bold">%@</div>，',
   predictionAmount: 'ហាងឆេង<div class="red-words">%@</div>',
+  willWin: 'ហាងឆេង',
   filterResultMsg: '%@  រូវបានត្រង មលេខ %@ មិនត្រឹមត្រូវ',
   odds: 'ហាងឆេង',
   amount: 'ចំនួនភ្នាល់',

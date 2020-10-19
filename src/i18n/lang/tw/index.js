@@ -157,6 +157,7 @@ const LANG = {
   filterRepeat: '過濾重複/無效號',
   betsNTotalAmount: '您選擇了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
   predictionAmount: '單注最高可中<div class="red-words">%@</div>元',
+  willWin: '預計中獎金額',
   filterResultMsg: '已經過濾%@组重複號，%@組無效號',
   odds: '獎金',
   amount: '金額',

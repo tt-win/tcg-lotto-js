@@ -112,6 +112,7 @@ const LANG = {
   filterRepeat: 'Hapus Nomor Gandakan',
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
   predictionAmount: 'akan menang<div class="red-words">%@</div>',
+  willWin: 'akan menang',
   filterResultMsg: 'Remove Duplicate%@ Invalid no.%@',
   odds: 'Peluang',
   amount: 'Stake',

@@ -189,6 +189,7 @@ const LANG = {
   filterRepeat: 'Xóa số trùng lặp',
   betsNTotalAmount: 'Đã chọn<div class="font-bold">%@</div>số，Số Tiền Cược<div class="font-bold">%@</div>，',
   predictionAmount: 'Tỷ Lệ Cược<div class="red-words">%@</div>',
+  willWin: 'Tỷ Lệ Cược',
   filterResultMsg: 'trùng lặp %@ không hợp lệ %@',
   odds: 'Tỉ lệ',
   amount: 'Trên mỗi cược',
