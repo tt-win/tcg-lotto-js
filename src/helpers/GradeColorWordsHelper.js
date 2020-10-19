@@ -15,6 +15,19 @@ export const getGradeNumberOfColorWords = (playId) => {
     case PlayMenu.Any_Roll_Last_2_South_VNC:
     case PlayMenu.Any_Roll_Last_2_South_VNC_Multi:
     case PlayMenu.Any_Roll_Last_2_South_VNC_Single:
+    // 逆向
+    case PlayMenu['4_Not_Winning_Numbers_North_VNC']:
+    case PlayMenu['4_Not_Winning_Numbers_Single_North_VNC']:
+    case PlayMenu['8_Not_Winning_Numbers_North_VNC']:
+    case PlayMenu['8_Not_Winning_Numbers_Single_North_VNC']:
+    case PlayMenu['10_Not_Winning_Numbers_North_VNC']:
+    case PlayMenu['10_Not_Winning_Numbers_Single_North_VNC']:
+    case PlayMenu['4_Not_Winning_Numbers_South_VNC']:
+    case PlayMenu['4_Not_Winning_Numbers_Single_South_VNC']:
+    case PlayMenu['8_Not_Winning_Numbers_South_VNC']:
+    case PlayMenu['8_Not_Winning_Numbers_Single_South_VNC']:
+    case PlayMenu['10_Not_Winning_Numbers_South_VNC']:
+    case PlayMenu['10_Not_Winning_Numbers_Single_South_VNC']:
       return { ...baseProps, numberOfColorWords: 2 };
       // 北部 後三包膽
     case PlayMenu.Any_Roll_Last_3_North_VNC:

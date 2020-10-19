@@ -164,7 +164,11 @@ const LANG = {
   multiple: '倍數',
   syncMultipleBets: '批量修改倍數',
   manualBetPlaceHolderSEA: `每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：`,
-
+  gameName: '玩法名稱',
+  gameContent: '玩法內容',
+  odds1Time: '獎金/注',
+  betAmount: '注數',
+  
   drawPrize: {
     specialPrize: '特等獎',
     firstPrize: '一等獎',

@@ -937,6 +937,10 @@ const LANG = {
   chineseZodiac: '生肖',
   numberAbbrev: '号',
   type: '种类',
+  gameName: '玩法名称',
+  gameContent: '玩法内容',
+  odds1Time: '奖金/注',
+
   numbers: {
     1: '一',
     2: '二',

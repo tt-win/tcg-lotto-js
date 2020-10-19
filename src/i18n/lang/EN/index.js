@@ -217,6 +217,10 @@ const LANG = {
   },
   multiple: 'Multiple',
   syncMultipleBets: 'Sync Multiple Bets',
+  gameName: 'Bet Type',
+  gameContent: 'Bet Details',
+  odds1Time: 'Payouts/1Time',
+  betAmount: 'Bet Count',
 
   drawPrize: {
     specialPrize: 'Special',

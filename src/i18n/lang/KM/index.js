@@ -154,6 +154,10 @@ const LANG = {
       `សូមនាំចូលឯកសារ TXT ថតចម្លងឬបញ្ចូលទម្រង់គាំទ្រដូចខាងក្រោម៖`,
   multiple: 'ច្រើន',
   syncMultipleBets: 'បាច់ច្រើន',
+  gameName: 'ប្រភេទ',
+  gameContent: 'មាតិកា',
+  odds1Time: 'ប្រាក់រង្វា/បរិមា',
+  betAmount: 'បរិមាណ',
 
   drawPrize: {
     specialPrize: 'ពិសេស',

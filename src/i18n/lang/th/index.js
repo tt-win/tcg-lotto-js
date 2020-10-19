@@ -153,6 +153,10 @@ const LANG = {
   multiple: 'หลาย',
   syncMultipleBets: 'ความหลาย',
   manualBetPlaceHolderSEA: `ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：`,
+  gameName: 'เดิมพัน',
+  gameContent: 'เดิมพัน',
+  odds1Time: 'จ่าย/ทีม 1',
+  betAmount: 'การรวมกัน',
 
   drawPrize: {
     specialPrize: 'รางวัลที่S',

@@ -121,6 +121,10 @@ const LANG = {
   multiple: 'Banyak',
   syncMultipleBets: 'Sync Multiple Bets',
   recentlyGames: 'Bet Games',
+  gameName: 'Jenis',
+  gameContent: 'Detil Bet',
+  odds1Time: 'Menangkan / 1Time',
+  betAmount: 'Hitungan',
 
   drawPrize: {
     specialPrize: 'Special',

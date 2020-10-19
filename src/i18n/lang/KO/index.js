@@ -123,6 +123,10 @@ const LANG = {
   multiple: '배수',
   syncMultipleBets: '동기화',
   recentlyGames: '오픈베팅',
+  gameName: '범주',
+  gameContent: '베팅 정보',
+  odds1Time: '보너스/조합',
+  betAmount: '조합',
 
   drawPrize: {
     specialPrize: '스페셜',

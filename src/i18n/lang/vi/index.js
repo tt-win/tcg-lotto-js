@@ -196,6 +196,10 @@ const LANG = {
   multiple: 'Cấp Số Nhân',
   syncMultipleBets: 'Đồng bộ cược',
   manualBetPlaceHolderSEA: `Giữa mỗi cược cần phân cách bởi dấu chấm phẩy ";" hoặc dấu phẩy\n"," hoặc khoảng trắng " "\nSử dụng tệp TXT hoặc dán Ví dụ:`,
+  gameName: 'Tên Cược',
+  gameContent: 'Số Cược',
+  odds1Time: 'Tiền Thắng / 1 Lần',
+  betAmount: 'Tổng Cược',
 
   drawPrize: {
     specialPrize: 'Giải ĐB',
