@@ -157,12 +157,29 @@ const LANG = {
   filterRepeat: '過濾重複/無效號',
   betsNTotalAmount: '您選擇了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
   predictionAmount: '單注最高可中<div class="red-words">%@</div>元',
+  willWin: '預計中獎金額',
   filterResultMsg: '已經過濾%@组重複號，%@組無效號',
   odds: '獎金',
   amount: '金額',
   multiple: '倍數',
   syncMultipleBets: '批量修改倍數',
   manualBetPlaceHolderSEA: `每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：`,
+  gameName: '玩法名稱',
+  gameContent: '玩法內容',
+  odds1Time: '獎金/注',
+  betAmount: '注數',
+  
+  drawPrize: {
+    specialPrize: '特等獎',
+    firstPrize: '一等獎',
+    secondPrize: '二等獎',
+    thirdPrize: '三等獎',
+    fourthPrize: '四等獎',
+    fifthPrize: '五等獎',
+    sixthPrize: '六等獎',
+    seventhPrize: '七等獎',
+    eighthPrize: '八等獎',
+  },
 };
 
 export default LANG;

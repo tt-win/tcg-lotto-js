@@ -185,6 +185,7 @@ const LANG = {
   filterRepeat: 'Remove Duplicate Number',
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
   predictionAmount: 'will win<div class="red-words">%@</div>',
+  willWin: 'will win',
   filterResultMsg: 'Remove Duplicate %@ Invalid no. %@',
   odds: 'Payouts',
   amount: 'Stake',
@@ -216,6 +217,22 @@ const LANG = {
   },
   multiple: 'Multiple',
   syncMultipleBets: 'Sync Multiple Bets',
+  gameName: 'Bet Type',
+  gameContent: 'Bet Details',
+  odds1Time: 'Payouts/1Time',
+  betAmount: 'Bet Count',
+
+  drawPrize: {
+    specialPrize: 'Special',
+    firstPrize: '1st Prize',
+    secondPrize: '2nd Prize',
+    thirdPrize: '3rd Prize',
+    fourthPrize: '4th Prize',
+    fifthPrize: '5th Prize',
+    sixthPrize: '6th Prize',
+    seventhPrize: '7th Prize',
+    eighthPrize: '8th Prize',
+  },
 };
 
 export default LANG;

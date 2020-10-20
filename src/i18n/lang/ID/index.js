@@ -112,6 +112,7 @@ const LANG = {
   filterRepeat: 'Hapus Nomor Gandakan',
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
   predictionAmount: 'akan menang<div class="red-words">%@</div>',
+  willWin: 'akan menang',
   filterResultMsg: 'Remove Duplicate%@ Invalid no.%@',
   odds: 'Peluang',
   amount: 'Stake',
@@ -120,6 +121,22 @@ const LANG = {
   multiple: 'Banyak',
   syncMultipleBets: 'Sync Multiple Bets',
   recentlyGames: 'Bet Games',
+  gameName: 'Jenis',
+  gameContent: 'Detil Bet',
+  odds1Time: 'Menangkan / 1Time',
+  betAmount: 'Hitungan',
+
+  drawPrize: {
+    specialPrize: 'Special',
+    firstPrize: '1st Prize',
+    secondPrize: '2nd Prize',
+    thirdPrize: '3rd Prize',
+    fourthPrize: '4th Prize',
+    fifthPrize: '5th Prize',
+    sixthPrize: '6th Prize',
+    seventhPrize: '7th Prize',
+    eighthPrize: '8th Prize',
+  },
 };
 
 export default LANG;

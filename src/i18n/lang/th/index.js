@@ -146,12 +146,29 @@ const LANG = {
   filterRepeat: 'ลบหมายเลขซ้ำ',
   betsNTotalAmount: '<div class="font-bold">%@</div>บิล，รวม<div class="font-bold">%@</div>，',
   predictionAmount: 'อัตราการเดิมพัน<div class="red-words">%@</div>',
+  willWin: 'อัตราการเดิมพัน',
   filterResultMsg: 'ลบหมายเลขซ้ำ %@ โมฆะ %@',
   odds: 'จ่าย',
   amount: 'การใช้จ่าย',
   multiple: 'หลาย',
   syncMultipleBets: 'ความหลาย',
   manualBetPlaceHolderSEA: `ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：`,
+  gameName: 'เดิมพัน',
+  gameContent: 'เดิมพัน',
+  odds1Time: 'จ่าย/ทีม 1',
+  betAmount: 'การรวมกัน',
+
+  drawPrize: {
+    specialPrize: 'รางวัลที่S',
+    firstPrize: 'รางวัลที่1',
+    secondPrize: 'รางวัลที่2',
+    thirdPrize: 'รางวัลที่3',
+    fourthPrize: 'รางวัลที่4',
+    fifthPrize: 'รางวัลที่5',
+    sixthPrize: 'รางวัลที่6',
+    seventhPrize: 'รางวัลที่7',
+    eighthPrize: 'รางวัลที่8',
+  },
 };
 
 export default LANG;

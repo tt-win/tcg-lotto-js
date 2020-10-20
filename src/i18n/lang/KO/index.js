@@ -112,6 +112,7 @@ const LANG = {
   filterRepeat: '중복 제거',
   betsNTotalAmount: '<div class="font-bold">%@</div>내기，총 베팅<div class="font-bold">%@</div>，',
   predictionAmount: '보너스<div class="red-words">%@</div>',
+  willWin: '보너스',
   filterResultMsg: '%@ 중복제거 %@ 무효',
   odds: '배당',
   amount: '금액',
@@ -122,6 +123,22 @@ const LANG = {
   multiple: '배수',
   syncMultipleBets: '동기화',
   recentlyGames: '오픈베팅',
+  gameName: '범주',
+  gameContent: '베팅 정보',
+  odds1Time: '보너스/조합',
+  betAmount: '조합',
+
+  drawPrize: {
+    specialPrize: '스페셜',
+    firstPrize: '1등',
+    secondPrize: '2등',
+    thirdPrize: '3등',
+    fourthPrize: '4등',
+    fifthPrize: '5등',
+    sixthPrize: '6등',
+    seventhPrize: '7등',
+    eighthPrize: '8등',
+  },
 };
 
 export default LANG;

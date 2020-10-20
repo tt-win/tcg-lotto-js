@@ -189,12 +189,29 @@ const LANG = {
   filterRepeat: 'Xóa số trùng lặp',
   betsNTotalAmount: 'Đã chọn<div class="font-bold">%@</div>số，Số Tiền Cược<div class="font-bold">%@</div>，',
   predictionAmount: 'Tỷ Lệ Cược<div class="red-words">%@</div>',
+  willWin: 'Tỷ Lệ Cược',
   filterResultMsg: 'trùng lặp %@ không hợp lệ %@',
   odds: 'Tỉ lệ',
   amount: 'Trên mỗi cược',
   multiple: 'Cấp Số Nhân',
   syncMultipleBets: 'Đồng bộ cược',
   manualBetPlaceHolderSEA: `Giữa mỗi cược cần phân cách bởi dấu chấm phẩy ";" hoặc dấu phẩy\n"," hoặc khoảng trắng " "\nSử dụng tệp TXT hoặc dán Ví dụ:`,
+  gameName: 'Tên Cược',
+  gameContent: 'Số Cược',
+  odds1Time: 'Tiền Thắng / 1 Lần',
+  betAmount: 'Tổng Cược',
+
+  drawPrize: {
+    specialPrize: 'Giải ĐB',
+    firstPrize: 'Giải nhất',
+    secondPrize: 'Giải nhì',
+    thirdPrize: 'Giải ba',
+    fourthPrize: 'Giải tư',
+    fifthPrize: 'Giải năm',
+    sixthPrize: 'Giải sáu',
+    seventhPrize: 'Giải bảy',
+    eighthPrize: 'Giải tám',
+  },
 };
 
 export default LANG;

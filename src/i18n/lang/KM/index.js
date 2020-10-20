@@ -146,6 +146,7 @@ const LANG = {
   filterRepeat: 'លុបស្ទួន',
   betsNTotalAmount: 'ភ្នាល់<div class="font-bold">%@</div>ប៉ុ，ភ្នាល់សរុប<div class="font-bold">%@</div>，',
   predictionAmount: 'ហាងឆេង<div class="red-words">%@</div>',
+  willWin: 'ហាងឆេង',
   filterResultMsg: '%@  រូវបានត្រង មលេខ %@ មិនត្រឹមត្រូវ',
   odds: 'ហាងឆេង',
   amount: 'ចំនួនភ្នាល់',
@@ -153,6 +154,22 @@ const LANG = {
       `សូមនាំចូលឯកសារ TXT ថតចម្លងឬបញ្ចូលទម្រង់គាំទ្រដូចខាងក្រោម៖`,
   multiple: 'ច្រើន',
   syncMultipleBets: 'បាច់ច្រើន',
+  gameName: 'ប្រភេទ',
+  gameContent: 'មាតិកា',
+  odds1Time: 'ប្រាក់រង្វា/បរិមា',
+  betAmount: 'បរិមាណ',
+
+  drawPrize: {
+    specialPrize: 'ពិសេស',
+    firstPrize: 'ង្វាន់ទី1',
+    secondPrize: 'ង្វាន់ទី2',
+    thirdPrize: 'ង្វាន់ទី3',
+    fourthPrize: 'ង្វាន់ទី4',
+    fifthPrize: 'ង្វាន់ទី5',
+    sixthPrize: 'ង្វាន់ទី6',
+    seventhPrize: 'ង្វាន់ទី7',
+    eighthPrize: 'ង្វាន់ទី8',
+  },
 };
 
 export default LANG;

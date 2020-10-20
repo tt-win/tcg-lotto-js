@@ -937,6 +937,10 @@ const LANG = {
   chineseZodiac: '生肖',
   numberAbbrev: '号',
   type: '种类',
+  gameName: '玩法名称',
+  gameContent: '玩法内容',
+  odds1Time: '奖金/注',
+
   numbers: {
     1: '一',
     2: '二',
@@ -1466,6 +1470,7 @@ const LANG = {
   },
   betsNTotalAmount: '您选择了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
   predictionAmount: '单注最高可中<div class="red-words">%@</div>元',
+  willWin: '预计中奖金额',
   defaultMode: '预设模式',
   defaultBetting: '预设玩法',
   MultipleDefaultBetting: '批量调整预设玩法',
@@ -1481,6 +1486,18 @@ const LANG = {
   LimitOnlyBetMinOdds: '系列固定最小值',
   LimitOnlyBetBar: '系列值使用拉杆',
   NoData: '尚未设定预设玩法',
+
+  drawPrize: {
+    specialPrize: '特等奖',
+    firstPrize: '一等奖',
+    secondPrize: '二等奖',
+    thirdPrize: '三等奖',
+    fourthPrize: '四等奖',
+    fifthPrize: '五等奖',
+    sixthPrize: '六等奖',
+    seventhPrize: '七等奖',
+    eighthPrize: '八等奖',
+  },
 
   ...BaseGame,
   ...ProTrendChart,
