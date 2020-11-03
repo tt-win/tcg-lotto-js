@@ -47,6 +47,18 @@ const PlayMenu = {
     2100: 'Đánh Đề', // 二数
     2105: 'Đầu Đuôi', // 跑数
 
+    2515: 'Bao Lô', // 包膽 北部
+    2528: 'Bao Lô', // 包膽 中南部
+
+    2550: 'Lô Trượt', // 北部 逆向 - 一級選單
+    2560: 'Lô Trượt', // 南部 逆向 - 一級選單
+
+    2300: 'Bầu Cua', // 魚蝦蟹
+
+    2488: 'FanTan', // 番摊
+
+    // 二級選單
+
     2091: 'Chính Xác', // 上正
     2093: 'Bất Kỳ', // 上反
     2096: 'Chính Xác', // 上正
@@ -54,45 +66,37 @@ const PlayMenu = {
     2101: 'Chính Xác', // 上正
     2103: 'Chính Xác', // 下正
 
-    2515: 'Bao Lô', // 包膽 北部
-    2528: 'Bao Lô', // 包膽 中南部
-
-    2550: 'Lô Trượt', // 北部 逆向 - 一級選單
-    2560: 'Lô Trượt', // 南部 逆向 - 一級選單
-
-    // 二級選單
-
     2092: '4 Càng Đặc Biệt - Nhanh', // 上正四位数 Last_4_Straight_1st_VNC
-    2094: 'Xiên 4 Đặc Biệt', // 上反四位数 Last_4_Combine_1st_VNC
-    2097: '3 Càng Đặc Biệt-Nhanh', // 上正三位数 Last_3_Straight_1st_VNC
-    2099: 'Xiên 3 Đặc Biệt - Nhanh', // 上反三位数 Last_3_Combine_1st_VNC
-    2102: 'Đề Đặc Biệt - Nhanh', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: 'Đề Giải Nhất - Nhanh', // 下正二位数 Last_2_Straight_2nd_VNC
-    2107: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
-    2109: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
-
     2286: '4 Càng Đặc Biệt - Chọn Số', // 上正四位数（复式）Last_4_Straight_1st_VNC_Multi
     2287: '4 Càng Đặc Biệt - Nhập Số', // 上正四位数（单式）Last_4_Straight_1st_VNC_Single
+    2094: 'Xiên 4 Đặc Biệt', // 上反四位数 Last_4_Combine_1st_VNC
+
+    2097: '3 Càng Đặc Biệt-Nhanh', // 上正三位数 Last_3_Straight_1st_VNC
     2284: '3 Càng Đặc Biệt - Chọn Số', // 上正三位数（复式）Last_3_Straight_1st_VNC_Multi
     2285: '3 Càng Đặc Biệt - Nhập Số', // 上正三位数（单式）Last_3_Straight_1st_VNC_Single
     2283: 'Xiên 3 Đặc Biệt - Chọn Số', // 上反三位数（复式）Last_3_Combine_1st_VNC_Multi
-    2280: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2279: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
-    2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
-    2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2099: 'Xiên 3 Đặc Biệt - Nhanh', // 上反三位数 Last_3_Combine_1st_VNC
 
-    2300: 'Bầu Cua', // 魚蝦蟹
+    2279: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
+    2280: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
+    2102: 'Đề Đặc Biệt - Nhanh', // 上正二位数 Last_2_Straight_1st_VNC
+    2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
+    2104: 'Đề Giải Nhất - Nhanh', // 下正二位数 Last_2_Straight_2nd_VNC
+
+    2107: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
+    2109: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
+
     2301: 'Bầu Cua', // 魚蝦蟹
-    2302: 'Bầu Cua', // 魚蝦蟹
-    2488: 'FanTan', // 番摊
-    2489: 'Fan',
-    2490: 'Fan',
-    2491: 'Kwok',
-    2492: 'Kwok',
-    2493: 'Nim',
-    2494: 'Nim',
-    2495: 'TàiXỉuLẻChẵn',
-    2496: 'TàiXỉuLẻChẵn',
+
+    2489: 'Fan', // 番
+    2490: 'Fan', // 番
+    2491: 'Kwok', // 角
+    2492: 'Kwok', // 角
+    2493: 'Nim', // 念
+    2494: 'Nim', // 念
+    2495: 'TàiXỉuLẻChẵn', // 大小单双
+    2496: 'TàiXỉuLẻChẵn', // 大小单双
 
     // 北部
     2516: 'Lô 2 Số', // 北部 后二包胆
@@ -149,6 +153,9 @@ const PlayMenu = {
     2566: 'Trượt Xiên 8 - Nhập Số', // 南部 - 八不中(单式) - 三級選單
     2568: 'Trượt Xiên 10 - Nhanh', // 南部 - 十不中 - 三級選單
     2569: 'Trượt Xiên 10 - Nhập Số', // 南部 - 十不中(单式) - 三級選單
+
+    // 其他
+    2302: 'Bầu Cua', // 魚蝦蟹
 
     // LAO 老挝彩
     2127: '4 số', // 四数
