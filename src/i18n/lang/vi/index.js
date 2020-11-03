@@ -3,7 +3,7 @@ import PlayMenu from './playmenu';
 const LANG = {
   ...PlayMenu,
   shoppingBasket: 'rổ mua xổ số',
-  confirmBetting: 'xác nhận đặt cược',
+  confirmBetting: 'Đặt Cược',
   clearBallText: 'xóa số lựa chọn',
   addToBetSlip: 'Thêm vé cược',
   betNow: 'đặt cược ngay',
