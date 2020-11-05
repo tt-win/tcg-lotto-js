@@ -130,7 +130,7 @@ const PlayMenu = {
     2563: 'Manual FailParlay 4', // 南部 - 四不中(单式) - 三級選單
     2565: 'FailParlay 8', // 南部 - 八不中 - 三級選單
     2566: 'Manual FailParlay 8', // 南部 - 八不中(单式) - 三級選單
-    2568: 'FailParlay 8', // 南部 - 十不中 - 三級選單
+    2568: 'FailParlay 10', // 南部 - 十不中 - 三級選單
     2569: 'Manual FailParlay 10', // 南部 - 十不中(单式) - 三級選單
 
     // LAO 老挝彩
