@@ -761,7 +761,7 @@ const LANG = {
   manualDigitsTip: '提示：至少选<span>%@</span>个位置,您已选了<span>%@</span>个位置，系统将自动生成<span>%@</span>个方案。',
   dayNamesMin: ['日', '一', '二', '三', '四', '五', '六'],
   monthNames: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
-  query: '查询',
+  query: '查找',
   bettingAmount: '投注金额',
   chasingNumeros: {
     sameMultiplesChasing: '普通追号',
