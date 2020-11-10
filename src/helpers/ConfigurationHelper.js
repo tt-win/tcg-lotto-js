@@ -367,7 +367,6 @@ export default class ConfigurationHelper {
       case 'EMPTY':
       default:
         return showBZHName.EMPTY;
-        break;
     }
   }
 }

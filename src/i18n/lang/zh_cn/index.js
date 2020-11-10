@@ -95,6 +95,7 @@ const LANG = {
     Two_Num_Any_Code_4D: '二字现',
     Three_Num_Any_Code_4D: '三字现',
 
+    TUO: '拖码',
   },
   startDigit: {
     ones: '（个）',
