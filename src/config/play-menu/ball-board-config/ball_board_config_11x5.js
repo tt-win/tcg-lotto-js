@@ -20,6 +20,16 @@ const ballOECountsI18n = {
   },
 };
 
+// 膽拖 base ball config
+const dantuoBallProps = {
+  ...base11X5Props,
+  rowMulti: false,
+  canShowHotGap: false,
+  betDigits: [betDigits.DAN, betDigits.TUO],
+  ballShowPosition: ballShowPosition.ALL,
+  canHideToolBarOdd: true,
+};
+
 export default {
   // First3Straight_11X5
   918: BallBoardConfigRecord({
@@ -150,4 +160,40 @@ export default {
     ballShowPosition: ballShowPosition.LAST_ONE,
   }),
 
+  // 膽拖
+  // Any2_Dantuo_11X5
+  2572: BallBoardConfigRecord({
+    ...dantuoBallProps,
+    formula: 'any2Of11X5',
+  }),
+  // Any3_Dantuo_11X5
+  2573: BallBoardConfigRecord({
+    ...dantuoBallProps,
+    formula: 'any3Of11X5',
+  }),
+  // Any4_Dantuo_11X5
+  2574: BallBoardConfigRecord({
+    ...dantuoBallProps,
+    formula: 'any4Of11X5',
+  }),
+  // Any5_Dantuo_11X5
+  2575: BallBoardConfigRecord({
+    ...dantuoBallProps,
+    formula: 'any5Of11X5',
+  }),
+  // Any6_Dantuo_11X5
+  2576: BallBoardConfigRecord({
+    ...dantuoBallProps,
+    formula: 'any6Of11X5',
+  }),
+  // Any7_Dantuo_11X5
+  2577: BallBoardConfigRecord({
+    ...dantuoBallProps,
+    formula: 'any7Of11X5',
+  }),
+  // Any8_Dantuo_11X5
+  2578: BallBoardConfigRecord({
+    ...dantuoBallProps,
+    formula: 'any8Of11X5',
+  }),
 };
