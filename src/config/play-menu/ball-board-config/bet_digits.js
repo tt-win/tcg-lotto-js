@@ -39,6 +39,9 @@ export const betDigits = {
   DAN2: 'DAN2',
   DAN3: 'DAN3',
 
+  // 拖
+  TUO: 'TUO',
+
   // 猜中位
   MIDDLE: 'MIDDLE',
 
