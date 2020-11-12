@@ -561,6 +561,14 @@ export const PlayMenu = {
   '11_Not_in_Winning_Numbers_LHC': 2160,
   '12_Not_in_Winning_Numbers_LHC': 2162,
 
+  // 11x5 任選膽拖
+  Any2_Dantuo_11X5: 2572,
+  Any3_Dantuo_11X5: 2573,
+  Any4_Dantuo_11X5: 2574,
+  Any5_Dantuo_11X5: 2575,
+  Any6_Dantuo_11X5: 2576,
+  Any7_Dantuo_11X5: 2577,
+  Any8_Dantuo_11X5: 2578,
 
   // ENT config
   First_Straight_ENT: 1756,
