@@ -27,7 +27,6 @@ const dantuoBallProps = {
   canShowHotGap: false,
   betDigits: [betDigits.DAN, betDigits.TUO],
   ballShowPosition: ballShowPosition.ALL,
-  canHideToolBarOdd: true,
 };
 
 export default {
@@ -164,36 +163,36 @@ export default {
   // Any2_Dantuo_11X5
   2572: BallBoardConfigRecord({
     ...dantuoBallProps,
-    formula: 'any2Of11X5',
+    formula: 'any2DanTuo11X5',
   }),
   // Any3_Dantuo_11X5
   2573: BallBoardConfigRecord({
     ...dantuoBallProps,
-    formula: 'any3Of11X5',
+    formula: 'any3DanTuo11X5',
   }),
   // Any4_Dantuo_11X5
   2574: BallBoardConfigRecord({
     ...dantuoBallProps,
-    formula: 'any4Of11X5',
+    formula: 'any4DanTuo11X5',
   }),
   // Any5_Dantuo_11X5
   2575: BallBoardConfigRecord({
     ...dantuoBallProps,
-    formula: 'any5Of11X5',
+    formula: 'any5DanTuo11X5',
   }),
   // Any6_Dantuo_11X5
   2576: BallBoardConfigRecord({
     ...dantuoBallProps,
-    formula: 'any6Of11X5',
+    formula: 'any6DanTuo11X5',
   }),
   // Any7_Dantuo_11X5
   2577: BallBoardConfigRecord({
     ...dantuoBallProps,
-    formula: 'any7Of11X5',
+    formula: 'any7DanTuo11X5',
   }),
   // Any8_Dantuo_11X5
   2578: BallBoardConfigRecord({
     ...dantuoBallProps,
-    formula: 'any8Of11X5',
+    formula: 'any8DanTuo11X5',
   }),
 };
