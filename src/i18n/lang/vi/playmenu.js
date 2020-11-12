@@ -89,6 +89,13 @@ const PlayMenu = {
     2564: 'Trượt Xiên 8',  // 中南部 - 八不中 - 二級選單
     2567: 'Trượt Xiên 10',  // 中南部 - 十不中 - 二級選單
 
+    // 跑數二級選單目前不會使用到
+
+    2106: '一等二星不定位', // 跑數二級選單
+    2108: '二等二星不定位', // 跑數二級選單
+
+    2579: '特等二星不定位', // 特等一等 - 十位個位 - 跑數 - 二級選單
+
     // 三級選單
 
     2517: 'Lô 2 Số - Nhanh', // 北部 后二包胆
@@ -145,6 +152,10 @@ const PlayMenu = {
 
     2107: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
+    2580: 'Đầu Đặc Biệt ', // 特等十位 Ten_Digit_1st_VNC
+    2581: 'Đuôi Đặc Biệt', // 特等个位 Unit_Digit_1st_VNC
+    2582: 'Đầu Giải Nhất', // 一等十位 Ten_Digit_2nd_VNC
+    2583: 'Đuôi Giải Nhất', // 一等个位 Unit_Digit_2nd_VNC
 
     2302: 'Bầu Cua', // 魚蝦蟹
 

@@ -27,7 +27,7 @@ const PlayMenu = {
     2297: 'ត្រីនិងក្តាម', // 魚蝦蟹,
     2298: 'ត្រីនិងក្តាម', // 魚蝦蟹,
     2299: 'ត្រីនិងក្តាម', // 魚蝦蟹,
-    2497: 'ហ្វានតាន់', //番摊
+    2497: 'ហ្វានតាន់', // 番摊
     2498: 'Fan',
     2499: 'Fan',
     2500: 'Nim',
@@ -43,93 +43,121 @@ const PlayMenu = {
     2100: '2D', // 二数
     2105: '1D', // 跑数
 
-    2091: 'ជាក់ស្តែង', // 上正
-    2093: 'ក្រុម', // 上反
-    2096: 'ជាក់ស្តែង', // 上正
-    2098: 'ក្រុម', // 上反
-    2101: 'ជាក់ស្តែង', // 上正
-    2103: 'ជាក់ស្តែង', // 下正
+    2515: 'AnyRoll', // 包膽 北部
+    2528: 'AnyRoll', // 包膽 中南部
 
-    2092: 'តួលេខពបួនខ្ទង់', // 上正四位数 Last_4_Straight_1st_VNC
-    2094: 'លេខបួនខ្ទង់លើ', // 上反四位数 Last_4_Combine_1st_VNC
-    2097: 'តួលេខបីខ្ទង់', // 上正三位数 Last_3_Straight_1st_VNC
-    2099: 'លេខបីខ្ទង់លើ', // 上反三位数 Last_3_Combine_1st_VNC
-    2102: 'តួលេខពីរខ្ទង់', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: 'អវិជ្ជមានលេខពីរខ្ទង់', // 下正二位数 Last_2_Straight_2nd_VNC
-    2107: 'រត់ពីរខ្ទង់', // 上跑两位数 Last_2_Any_1st_VNC
-    2109: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 Last_2_Any_2nd_VNC
-
-    2286: 'Norm EXACT 4D-1st', // Last_4_Straight_1st_VNC_Multi
-    2287: 'Manual Enter EXACT 4D-1st', // Last_4_Straight_1st_VNC_Single
-    2285: 'Manual Enter EXACT 3D-1st', // Last_3_Straight_1st_VNC_Single
-    2284: 'Norm EXACT 3D-1st', // Last_3_Straight_1st_VNC_Multi
-    2283: 'Norm ANY 3D-1st', // Last_3_Combine_1st_VNC_Multi
-    2280: 'Manual Enter EXACT 2D-1st', // Last_2_Straight_1st_VNC_Single
-    2279: 'Norm EXACT 2D-1st', // Last_2_Straight_1st_VNC_Multi
-    2282: 'Manual Enter ANY 3D-2nd', // Last_2_Straight_2nd_VNC_Single
-    2281: 'Norm ANY 3D-2nd', // Last_2_Straight_2nd_VNC_Multi
-
-    2300: 'ត្រីនិងក្តាម', // 魚蝦蟹,
-    2301: 'ត្រីនិងក្តាម', // 魚蝦蟹,
-    2302: 'ត្រីនិងក្តាម', // 魚蝦蟹,
-    2488: 'ហ្វានតាន់', //番摊
-    2489: 'Fan',
-    2490: 'Fan',
-    2491: 'Nim',
-    2492: 'Nim',
-    2493: 'Kwok',
-    2494: 'Kwok',
-    2495: 'ធំតូចសេសគូ',
-    2496: 'ធំតូចសេសគូ',
-
-    // 北部
-    2515: 'AnyRoll', // 包膽
-    2516: 'Last 2D of AnyResult', // 后二包胆
-    2517: 'Last 2D of AnyResult', // 后二包胆
-    2518: 'Norm Last 2D of AnyResult', // 后二包胆(复式)
-    2519: 'Manual Last 2D of AnyResult', // 后二包胆(单式)
-    2520: 'Last 3D of AnyResult', // 后三包胆
-    2521: 'Last 3D of AnyResult', // 后三包胆
-    2522: 'Norm Last 3D of AnyResult', // 后三包胆（复式）
-    2523: 'Manual Last 3D of AnyResult', // 后三包胆（单式）
-    2524: 'Last 4D of AnyResult', // 后四包胆
-    2525: 'Last 4D of AnyResult', // 后四包胆
-    2526: 'Norm Last 4D of AnyResult', // 后四包胆（复式）
-    2527: 'Manual Last 4D of AnyResult', // 后四包胆（单式）
     2550: 'FailParlay', // 北部 逆向 - 一級選單
+    2560: 'FailParlay', // 中南部 逆向 - 一級選單
+
+    2300: 'ត្រីនិងក្តាម', // 魚蝦蟹
+    2488: 'ហ្វានតាន់', // 番摊
+
+    // 二級選單
+
+    2091: 'ជាក់ស្តែង', // 四数 上正
+    2093: 'ក្រុម', // 四数 上反
+    2096: 'ជាក់ស្តែង', // 三数 上正
+    2098: 'ក្រុម', // 三数 上反
+    2101: 'ជាក់ស្តែង', // 二数 上正
+    2103: 'ជាក់ស្តែង', // 二数 下正
+
+    2301: 'ត្រីនិងក្តាម', // 魚蝦蟹
+
+    2489: 'Fan', // 番
+    2491: 'Nim', // 角
+    2493: 'Kwok', // 念
+    2495: 'ធំតូចសេសគូ', // 大小单双
+
+    2516: 'Last 2D of AnyResult', // 北部 后二包胆
+    2520: 'Last 3D of AnyResult', // 北部 后三包胆
+    2524: 'Last 4D of AnyResult', // 北部 后四包胆
+
     2551: 'FailParlay 4',  // 北部 - 四不中 - 二級選單
     2554: 'FailParlay 8',  // 北部 - 八不中 - 二級選單
     2557: 'FailParlay 10',  // 北部 - 十不中 - 二級選單
+
+    2529: 'Last 2D of AnyResult', // 中南部 后二包胆
+    2533: 'Last 3D of AnyResult', // 中南部 后三包胆
+    2537: 'Last 4D of AnyResult', // 中南部 后四包胆
+
+    2561: 'FailParlay 4 ',  // 中南部 - 四不中 - 二級選單
+    2564: 'FailParlay 8',  // 中南部 - 八不中 - 二級選單
+    2567: 'FailParlay 10',  // 中南部 - 十不中 - 二級選單
+
+    // 跑數二級選單目前不會使用到
+
+    2106: '一等二星不定位', // 跑數二級選單
+    2108: '二等二星不定位', // 跑數二級選單
+
+    2579: '特等二星不定位', // 特等一等 - 十位個位 - 跑數 - 二級選單
+
+    // 三級選單
+
+    2517: 'Last 2D of AnyResult', // 北部 后二包胆
+    2518: 'Norm Last 2D of AnyResult', // 北部 后二包胆(复式)
+    2519: 'Manual Last 2D of AnyResult', // 北部 后二包胆(单式)
+    2521: 'Last 3D of AnyResult', // 北部 后三包胆
+    2522: 'Norm Last 3D of AnyResult', // 北部 后三包胆（复式）
+    2523: 'Manual Last 3D of AnyResult', // 北部 后三包胆（单式）
+    2525: 'Last 4D of AnyResult', // 北部 后四包胆
+    2526: 'Norm Last 4D of AnyResult', // 北部 后四包胆（复式）
+    2527: 'Manual Last 4D of AnyResult', // 北部 后四包胆（单式）
+
     2552: 'FailParlay 4',  // 北部 - 四不中 - 三級選單
-    2553: 'Manual FailParlay 4', //北部 - 四不中(单式) - 三級選單
+    2553: 'Manual FailParlay 4', // 北部 - 四不中(单式) - 三級選單
     2555: 'FailParlay 8', // 北部 - 八不中 - 三級選單
     2556: 'Manual FailParlay 8', // 北部 - 八不中(单式) - 三級選單
     2558: 'FailParlay 10', // 北部 - 十不中 - 三級選單
     2559: 'Manual FailParlay 10', // 北部 - 十不中(单式) - 三級選單
-    // 中南部
-    2528: 'AnyRoll', // 包膽
-    2529: 'Last 2D of AnyResult', // 后二包胆
-    2530: 'Last 2D of AnyResult', // 后二包胆
-    2531: 'Norm Last 2D of AnyResult', // 后二包胆(复式)
-    2532: 'Manual Last 2D of AnyResult', // 后二包胆(单式)
-    2533: 'Last 3D of AnyResult', // 后三包胆
-    2534: 'Last 3D of AnyResult', // 后三包胆
-    2535: 'Norm Last 3D of AnyResult', // 后三包胆（复式）
-    2536: 'Manual Last 3D of AnyResult', // 后三包胆（单式）
-    2537: 'Last 4D of AnyResult', // 后四包胆
-    2538: 'Last 4D of AnyResult', // 后四包胆
-    2539: 'Norm Last 4D of AnyResult', // 后四包胆（复式）
-    2540: 'Manual Last 4D of AnyResult', // 后四包胆（单式）
-    2560: 'FailParlay', // 南部 逆向 - 一級選單
-    2561: 'FailParlay 4 ',  // 南部 - 四不中 - 二級選單
-    2564: 'FailParlay 8',  // 南部 - 八不中 - 二級選單
-    2567: 'FailParlay 10',  // 南部 - 十不中 - 二級選單
-    2562: 'FailParlay 4', // 南部 - 四不中 - 三級選單
-    2563: 'Manual FailParlay 4', // 南部 - 四不中(单式) - 三級選單
-    2565: 'FailParlay 8', // 南部 - 八不中 - 三級選單
-    2566: 'Manual FailParlay 8', // 南部 - 八不中(单式) - 三級選單
-    2568: 'FailParlay 10', // 南部 - 十不中 - 三級選單
-    2569: 'Manual FailParlay 10', // 南部 - 十不中(单式) - 三級選單
+
+    2530: 'Last 2D of AnyResult', // 中南部 后二包胆
+    2531: 'Norm Last 2D of AnyResult', // 中南部 后二包胆(复式)
+    2532: 'Manual Last 2D of AnyResult', // 中南部 后二包胆(单式)
+    2534: 'Last 3D of AnyResult', // 中南部 后三包胆
+    2535: 'Norm Last 3D of AnyResult', // 中南部 后三包胆（复式）
+    2536: 'Manual Last 3D of AnyResult', // 中南部 后三包胆（单式）
+    2538: 'Last 4D of AnyResult', // 中南部 后四包胆
+    2539: 'Norm Last 4D of AnyResult', // 中南部 后四包胆（复式）
+    2540: 'Manual Last 4D of AnyResult', // 中南部 后四包胆（单式）
+
+    2562: 'FailParlay 4', // 中南部 - 四不中 - 三級選單
+    2563: 'Manual FailParlay 4', // 中南部 - 四不中(单式) - 三級選單
+    2565: 'FailParlay 8', // 中南部 - 八不中 - 三級選單
+    2566: 'Manual FailParlay 8', // 中南部 - 八不中(单式) - 三級選單
+    2568: 'FailParlay 10', // 中南部 - 十不中 - 三級選單
+    2569: 'Manual FailParlay 10', // 中南部 - 十不中(单式) - 三級選單
+
+    2092: 'តួលេខពបួនខ្ទង់', // 上正四位数 Last_4_Straight_1st_VNC
+    2286: 'Norm EXACT 4D-1st', // 上正四位数（复式）Last_4_Straight_1st_VNC_Multi
+    2287: 'Manual Enter EXACT 4D-1st', // 上正四位数（单式）Last_4_Straight_1st_VNC_Single
+    2094: 'លេខបួនខ្ទង់លើ', // 上反四位数 Last_4_Combine_1st_VNC
+
+    2097: 'តួលេខបីខ្ទង់', // 上正三位数 Last_3_Straight_1st_VNC
+    2284: 'Norm EXACT 3D-1st', // 上正三位数（复式）Last_3_Straight_1st_VNC_Multi
+    2285: 'Manual Enter EXACT 3D-1st', // 上正三位数（单式）Last_3_Straight_1st_VNC_Single
+    2283: 'Norm ANY 3D-1st', // 上反三位数（复式）Last_3_Combine_1st_VNC_Multi
+    2099: 'លេខបីខ្ទង់លើ', // 上反三位数 Last_3_Combine_1st_VNC
+
+    2279: 'Norm EXACT 2D-1st', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
+    2280: 'Manual Enter EXACT 2D-1st', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
+    2102: 'តួលេខពីរខ្ទង់', // 上正二位数 Last_2_Straight_1st_VNC
+    2281: 'Norm ANY 3D-2nd', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2282: 'Manual Enter ANY 3D-2nd', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
+    2104: 'អវិជ្ជមានលេខពីរខ្ទង់', // 下正二位数 Last_2_Straight_2nd_VNC
+
+    2107: 'រត់ពីរខ្ទង់', // 上跑两位数 Last_2_Any_1st_VNC
+    2109: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 Last_2_Any_2nd_VNC
+    2580: 'Tens-Special', // 特等十位 Ten_Digit_1st_VNC
+    2581: 'Ones-Special', // 特等个位 Unit_Digit_1st_VNC
+    2582: 'Tens-Special', // 一等十位 Ten_Digit_2nd_VNC
+    2583: 'Ones-Special', // 一等个位 Unit_Digit_2nd_VNC
+
+    2302: 'ត្រីនិងក្តាម', // 魚蝦蟹
+
+    2490: 'Fan', // 番
+    2492: 'Nim', // 角
+    2494: 'Kwok', // 念
+    2496: 'ធំតូចសេសគូ', // 大小单双
 
     // LAO 老挝彩
     2127: '4D', // 四数
@@ -166,7 +194,7 @@ const PlayMenu = {
     2303: 'ត្រីនិងក្តាម', // 魚蝦蟹,
     2304: 'ត្រីនិងក្តាម', // 魚蝦蟹,
     2305: 'ត្រីនិងក្តាម', // 魚蝦蟹,
-    2506: 'ហ្វានតាន់', //番摊
+    2506: 'ហ្វានតាន់', // 番摊
     2507: 'Fan',
     2508: 'Fan',
     2509: 'Nim',
