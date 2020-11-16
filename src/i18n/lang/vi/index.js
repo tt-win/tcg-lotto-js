@@ -33,8 +33,8 @@ const LANG = {
   orderStatus: {
     orderStatus_0: 'toàn bộ',
     orderStatus_2: 'Thành Công',
-    orderStatus_4: 'Tiền Thắng',
-    orderStatus_5: 'Mất tiền',
+    orderStatus_4: 'Cược Thắng',
+    orderStatus_5: 'Cược Thua',
     orderStatus_6: 'Hủy bỏ',
     orderStatus_7: 'Hủy bỏ',
     orderStatus_8: 'Hủy bỏ',
@@ -168,7 +168,9 @@ const LANG = {
   drawFrequencyInfoByDay: '%@ Mỗi ngày',
   erease: 'Về 0 ',
   backSpace: 'Trả về',
-  lastSevenDays: '7 ngày gần nhất',
+  today: 'Hôm Nay',
+  yesterday: 'Hôm Qua',
+  lastSevenDays: '7 Ngày Gần Nhất',
   thaiRuletit: 'Luật chơi và Số mở thưởng của xổ số Thái Lan',
   thaiEveryMonth: 'Xổ số của chính phủ Thái Lan sẽ quay vào 15.20 ngày 1 và 16 mỗi tháng',
   thaiIfChangeDate: '(Nếu bạn thay đổi ngày hoặc giờ, vui lòng theo dõi trang web chính thức)',
@@ -201,6 +203,7 @@ const LANG = {
   gameContent: 'Số Cược',
   odds1Time: 'Tiền Thắng / 1 Lần',
   betAmount: 'Tổng Cược',
+  query: 'Tìm Kiếm',
 
   drawPrize: {
     specialPrize: 'Giải ĐB',
