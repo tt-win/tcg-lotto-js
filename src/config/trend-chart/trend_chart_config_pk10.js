@@ -35,6 +35,7 @@ const PK10 = {
     ],
     dragonTiger: ['Dragon_Tiger'],
     BSOETrend: ['firstSecondSumBSOE', 'first5BSOE', 'last5BSOE'],
+    fanTan: ['Fan_Tan'],
   },
   list: {
     First_To_Third: {

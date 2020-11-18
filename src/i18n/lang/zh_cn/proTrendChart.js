@@ -9,6 +9,7 @@ const trendChart = {
     multipleTrend: '组合走势',
     dragonTiger: '龙虎',
     BSOETrend: '大小单双',
+    fanTan: '番摊',
 
     // SSC 二級選單
     All_5: '五星',
