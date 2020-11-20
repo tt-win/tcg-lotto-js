@@ -315,6 +315,27 @@ const groupBetConfig11X5 = {
   First2Com_11X5: BetConfigRecord({
     minBalls: [2],
   }),
+  Any2_Dantuo_11X5: BetConfigRecord({
+    minRows: [2],
+  }),
+  Any3_Dantuo_11X5: BetConfigRecord({
+    minRows: [2],
+  }),
+  Any4_Dantuo_11X5: BetConfigRecord({
+    minRows: [2],
+  }),
+  Any5_Dantuo_11X5: BetConfigRecord({
+    minRows: [2],
+  }),
+  Any6_Dantuo_11X5: BetConfigRecord({
+    minRows: [2],
+  }),
+  Any7_Dantuo_11X5: BetConfigRecord({
+    minRows: [2],
+  }),
+  Any8_Dantuo_11X5: BetConfigRecord({
+    minRows: [2],
+  }),
 };
 
 const groupBetConfigLF = {
