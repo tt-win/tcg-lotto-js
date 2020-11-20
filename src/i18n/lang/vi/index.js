@@ -47,7 +47,7 @@ const LANG = {
   betDigit: {
     THOUSANDS: 'Nghìn',
     HUNDREDS: 'Trăm',
-    TENS: 'Chứa số',
+    TENS: 'Chục',
     ONES: 'Đơn vị',
     COM: 'Nhóm',
   },
