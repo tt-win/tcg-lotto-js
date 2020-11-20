@@ -1037,6 +1037,20 @@ const _11X5Translator = {
     ],
     getText: (content) => i18n(`playKey.${_11X5_KEY.Dragon_Tiger[content]}`),
   },
+
+  DanTuo_11X5: {
+    items: [
+      PlayMenu.Any2_Dantuo_11X5,
+      PlayMenu.Any3_Dantuo_11X5,
+      PlayMenu.Any4_Dantuo_11X5,
+      PlayMenu.Any5_Dantuo_11X5,
+      PlayMenu.Any6_Dantuo_11X5,
+      PlayMenu.Any7_Dantuo_11X5,
+      PlayMenu.Any8_Dantuo_11X5,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
 };
 
 const SSCTranslator = {
