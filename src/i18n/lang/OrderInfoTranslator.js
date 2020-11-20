@@ -1736,6 +1736,13 @@ const commaConfig = {
     PlayMenu.Any2_Straight_4D,
     PlayMenu.Any3_Straight_4D,
     PlayMenu.Any4_Straight_4D,
+    PlayMenu.Any2_Dantuo_11X5,
+    PlayMenu.Any3_Dantuo_11X5,
+    PlayMenu.Any4_Dantuo_11X5,
+    PlayMenu.Any5_Dantuo_11X5,
+    PlayMenu.Any6_Dantuo_11X5,
+    PlayMenu.Any7_Dantuo_11X5,
+    PlayMenu.Any8_Dantuo_11X5,
   ],
 };
 
