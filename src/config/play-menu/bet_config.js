@@ -317,24 +317,31 @@ const groupBetConfig11X5 = {
   }),
   Any2_Dantuo_11X5: BetConfigRecord({
     minRows: [2],
+    canRandomDuplicateBall: false,
   }),
   Any3_Dantuo_11X5: BetConfigRecord({
     minRows: [2],
+    canRandomDuplicateBall: false,
   }),
   Any4_Dantuo_11X5: BetConfigRecord({
     minRows: [2],
+    canRandomDuplicateBall: false,
   }),
   Any5_Dantuo_11X5: BetConfigRecord({
     minRows: [2],
+    canRandomDuplicateBall: false,
   }),
   Any6_Dantuo_11X5: BetConfigRecord({
     minRows: [2],
+    canRandomDuplicateBall: false,
   }),
   Any7_Dantuo_11X5: BetConfigRecord({
     minRows: [2],
+    canRandomDuplicateBall: false,
   }),
   Any8_Dantuo_11X5: BetConfigRecord({
     minRows: [2],
+    canRandomDuplicateBall: false,
   }),
 };
 
