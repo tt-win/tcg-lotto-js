@@ -1278,7 +1278,7 @@ const THAITranslator = {
     items: [
       PlayMenu.Last_3_Straight_THAI_Multi,
       PlayMenu.Last_3_Combine_THAI_Multi,
-      PlayMenu.['2_Straight_Add_THAI_Multi'],
+      PlayMenu['2_Straight_Add_THAI_Multi'],
       PlayMenu.Last_2_Combine_THAI_Multi,
       PlayMenu.Last_2_Straight_THAI_Multi,
       PlayMenu.Any_Roll_Last_2_North_VNC_Multi,
@@ -1784,7 +1784,7 @@ const commaConfig = {
     PlayMenu.Any8_Dantuo_11X5,
     PlayMenu.Last_3_Straight_THAI_Multi,
     PlayMenu.Last_3_Combine_THAI_Multi,
-    PlayMenu.['2_Straight_Add_THAI_Multi'],
+    PlayMenu['2_Straight_Add_THAI_Multi'],
     PlayMenu.Last_2_Combine_THAI_Multi,
     PlayMenu.Last_2_Straight_THAI_Multi,
     PlayMenu.Any_Roll_Last_2_North_VNC_Multi,
