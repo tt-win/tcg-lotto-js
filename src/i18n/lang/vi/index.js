@@ -135,6 +135,11 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'hệ thống bận, đặt cược thất bại!',
     NOT_SUPPORT_LANDSCAPE: 'không hỗ trợ để ngang màn hình',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Cược đặt cược vượt quá giới hạn',
+
+// VN
+    BALANCE_NOT_ENOUGH_ERROR: 'Không Đủ Số Dư Để Đặt Cược',
+    BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Vượt quá số lượng cược tối đa',
+    CANCEL_ORDER_ERROR: 'Cancel order failed',
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',

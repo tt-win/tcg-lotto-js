@@ -104,6 +104,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Taruhan Taruhan lebih dari batas taruhannya',
+//  VN
+    BALANCE_NOT_ENOUGH_ERROR: 'Saldo tidak mencukupi',
+    BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Slip taruhan penuh',
+    CANCEL_ORDER_ERROR: 'Cancel order failed',
   },
   drawFrequency: 'Frekuensi the draw',
   chooseFile: 'unggah data',

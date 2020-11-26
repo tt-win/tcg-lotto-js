@@ -171,6 +171,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit stakes',
+//  VN
+    BALANCE_NOT_ENOUGH_ERROR: 'Insufficient Balance',
+    BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Amount is over limit',
+    CANCEL_ORDER_ERROR: 'Cancel order failed',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',

@@ -133,6 +133,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'ប្រព័ន្ធនេះរវល់គារភ្នាល់-បរាជ័យ',
     NOT_SUPPORT_LANDSCAPE: 'មិនអាច-កំណត់-ទេសភាព',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ',
+//  VN
+    BALANCE_NOT_ENOUGH_ERROR: 'ទឹកប្រាក់មិនគ្រប់គ្រាន់',
+    BETTING_AMOUNT_OVER_LIMITS_ERROR: 'ការភ្នាល់បរាជ័យចំនួនភ្នាល់លើសចំនួនអតិបរមា',
+    CANCEL_ORDER_ERROR: 'Cancel order failed',
   },
   gameHistoryCancel: 'ប្រវត្តិល្បែងត្រូវបានលុប',
   gameHistoryCancel_success: 'ប្រវត្តិល្បែងត្រូវបានលុបដោយ-ជោគជ័យ',
