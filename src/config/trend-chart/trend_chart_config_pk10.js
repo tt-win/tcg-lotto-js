@@ -7,6 +7,7 @@ const PK10 = {
   numGroup: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   // 中間值 用來判斷大小
   meanValue: 6,
+  tie: 0,
   singleDigit: {
     firstPlace: 0,
     secondPlace: 1,
@@ -33,6 +34,8 @@ const PK10 = {
       'tenthPlace',
     ],
     dragonTiger: ['Dragon_Tiger'],
+    BSOETrend: ['firstSecondSumBSOE', 'first5BSOE', 'last5BSOE'],
+    fanTan: ['Fan_Tan'],
   },
   list: {
     First_To_Third: {
@@ -72,7 +75,7 @@ const PK10 = {
     },
     BSOE: {
       column: ['numero', 'drawNumber', 'BSOEDigit'],
-      h5Column: ['numero', 'drawNumber', 'BSOEDigit'],
+      h5Column: ['numero', 'drawNumber', 'sumBSOEDigit'],
       options: {
         BSOEDigit: {
           firstBSOE: 0,
@@ -85,6 +88,11 @@ const PK10 = {
           eighthBSOE: 7,
           ninthBSOE: 8,
           tenthBSOE: 9,
+        },
+        sumBSOEDigit: {
+          firstSecondSumBSOE: { type: 'sum', sumMeanValue: 12, digit: [0, 1] },
+          first5BSOE: { type: 'digit', sumMeanValue: 6, digit: ['firstPlace', 'secondPlace', 'thirdPlace', 'fourthPlace', 'fifthPlace'] },
+          last5BSOE: { type: 'digit', sumMeanValue: 6, digit: ['sixthPlace', 'seventhPlace', 'eighthPlace', 'ninthPlace', 'tenthPlace'] },
         },
       },
     },
@@ -99,6 +107,15 @@ const PK10 = {
           Dragon_Tiger_4_VS_7: [3, 6],
           Dragon_Tiger_5_VS_6: [4, 5],
         },
+      },
+    },
+    Fan_Tan: {
+      column: ['numero', 'drawNumber', 'guFan', 'fanBS', 'fanOE'],
+      h5Column: ['numero', 'drawNumber', 'guFan', 'fanBS', 'fanOE'],
+      options: {
+        // 前三總和
+        ballDigit: [0, 2],
+        meanValue: 3,
       },
     },
   },

@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: 'Cart',
   confirmBetting: 'Confirm Bet',
   clearBallText: 'Clear',
+  addToBetSlip: 'Add To Bet Slip',
   betNow: 'Bet Now',
   betSuccess: 'Bet Success',
   confirmBetInfos: 'Please Confirm the Betting Details',
@@ -27,6 +28,7 @@ const LANG = {
   betFail: 'Bet Failed',
   betFailed: 'Incorrect/Incomplete Playslip. Processing failed.',
   detail: 'Details',
+  recentlyGames: 'Bet Games',
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_2: 'IN PROGRESS',
@@ -94,7 +96,7 @@ const LANG = {
       '4_1': '4 Nim 1',
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
-    }
+    },
   },
 
   prizeListPrizeType: {
@@ -169,6 +171,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit stakes',
+//  VN
+    BALANCE_NOT_ENOUGH_ERROR: 'Insufficient Balance',
+    BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Amount is over limit',
+    CANCEL_ORDER_ERROR: 'Cancel order failed',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',
@@ -183,9 +189,11 @@ const LANG = {
   filterRepeat: 'Remove Duplicate Number',
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
   predictionAmount: 'will win<div class="red-words">%@</div>',
+  willWin: 'will win',
   filterResultMsg: 'Remove Duplicate %@ Invalid no. %@',
+  odds: 'Payouts',
   amount: 'Stake',
-  manualBetPlaceHolderSEA: 'Please type your bets here or upload a txt file. The format is per sample below :\n%@\nNOTE:  You can use "," or ";" or "<Space>" or new line to separate the numbers you are betting.',
+  manualBetPlaceHolderSEA: `Please type your bets here or upload a txt file. The format is per sample below :\n\nNOTE:  You can use "," or ";" or "<Space>" or new line to separate the numbers you are betting.`,
 
   defaultMode: 'Default Lott Play Mode',
   defaultBetting: 'Default Lott Play Betting',
@@ -210,7 +218,25 @@ const LANG = {
     SGC: 'Singapore',
     TWC: 'Taiwan',
     STOCK: 'Stock',
-  }
+  },
+  multiple: 'Multiple',
+  syncMultipleBets: 'Sync Multiple Bets',
+  gameName: 'Bet Type',
+  gameContent: 'Bet Details',
+  odds1Time: 'Payouts/1Time',
+  betAmount: 'Bet Count',
+
+  drawPrize: {
+    specialPrize: 'Special',
+    firstPrize: '1st Prize',
+    secondPrize: '2nd Prize',
+    thirdPrize: '3rd Prize',
+    fourthPrize: '4th Prize',
+    fifthPrize: '5th Prize',
+    sixthPrize: '6th Prize',
+    seventhPrize: '7th Prize',
+    eighthPrize: '8th Prize',
+  },
 };
 
 export default LANG;

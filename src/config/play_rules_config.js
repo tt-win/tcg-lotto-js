@@ -324,7 +324,12 @@ const PK10PlayRuleConfig = {
     PlayMenu.Two_Side_FifthPlace_Dragon_PK10,
     PlayMenu.Dragon_Tiger_5_VS_6_PK10,
   ],
-
+  Fan_Tan_PK10: [
+    PlayMenu.Fan_Tan_Fan_PK10,
+    PlayMenu.Fan_Tan_Jiao_PK10,
+    PlayMenu.Fan_Tan_Nian_PK10,
+    PlayMenu.Fan_Tan_BSOE_PK10,
+  ],
 };
 
 const PCBPlayRuleConfig = {

@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: 'รายการแทง',
   confirmBetting: 'ส่งโพย',
   clearBallText: 'ลบข้อมูล',
+  addToBetSlip: 'เพิ่มบิลการเดิมพัน',
   betNow: 'แทงหวย',
   betSuccess: 'ส่งโพยสำเร็จ',
   confirmBetInfos: 'ตรวจโพยอีกครั้งก่อนส่งโพย',
@@ -27,6 +28,7 @@ const LANG = {
   betFail: 'ใส่ราคาไม่ตรงเงื่อนไข',
   betFailed: 'ใส่ราคาไม่ตรงเงื่อนไข!!',
   detail: 'รายการเดิมพัน',
+  recentlyGames: 'เปิดการเดิมพัน',
   orderStatus: {
     orderStatus_0: 'รายละเอียด',
     orderStatus_2: 'สำเร็จ',
@@ -131,6 +133,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'ระบบไม่ว่าง กรุณาลองไหม่อีกครั้ง',
     NOT_SUPPORT_LANDSCAPE: 'หน้าจอไม่สามารถตั้งเป็นแนวนอน',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด',
+//  VN
+    BALANCE_NOT_ENOUGH_ERROR: 'ยอดคงเหลือไม่พอ',
+    BETTING_AMOUNT_OVER_LIMITS_ERROR: 'รายการเดิมพันเต็ม',
+    CANCEL_ORDER_ERROR: 'Cancel order failed',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',
@@ -144,9 +150,29 @@ const LANG = {
   filterRepeat: 'ลบหมายเลขซ้ำ',
   betsNTotalAmount: '<div class="font-bold">%@</div>บิล，รวม<div class="font-bold">%@</div>，',
   predictionAmount: 'อัตราการเดิมพัน<div class="red-words">%@</div>',
+  willWin: 'อัตราการเดิมพัน',
   filterResultMsg: 'ลบหมายเลขซ้ำ %@ โมฆะ %@',
+  odds: 'จ่าย',
   amount: 'การใช้จ่าย',
-  manualBetPlaceHolderSEA: 'ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：\n%@',
+  multiple: 'หลาย',
+  syncMultipleBets: 'ความหลาย',
+  manualBetPlaceHolderSEA: `ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：`,
+  gameName: 'เดิมพัน',
+  gameContent: 'เดิมพัน',
+  odds1Time: 'จ่าย/ทีม 1',
+  betAmount: 'การรวมกัน',
+
+  drawPrize: {
+    specialPrize: 'รางวัลที่S',
+    firstPrize: 'รางวัลที่1',
+    secondPrize: 'รางวัลที่2',
+    thirdPrize: 'รางวัลที่3',
+    fourthPrize: 'รางวัลที่4',
+    fifthPrize: 'รางวัลที่5',
+    sixthPrize: 'รางวัลที่6',
+    seventhPrize: 'รางวัลที่7',
+    eighthPrize: 'รางวัลที่8',
+  },
 };
 
 export default LANG;

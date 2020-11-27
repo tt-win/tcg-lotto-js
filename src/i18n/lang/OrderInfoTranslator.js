@@ -685,6 +685,21 @@ const PK10Translator = {
     getText: (content) => content.split(',').reduce((result, val) =>
       (`${result}${result && val ? ' | ' : ' '}${val}`), '').replace(/-/g, ' '),
   },
+
+  FAN_PK10: {
+    items: [PlayMenu.Fan_Tan_Fan_PK10],
+    getText: (content) => i18n(`ball.fanTanFan.${content.replace('0', '4')}`),
+  },
+
+  JIAO_PK10: {
+    items: [PlayMenu.Fan_Tan_Jiao_PK10],
+    getText: (content) => i18n(`ball.fanTanJiao.${content.replace('0', '4').split('').join('_')}`),
+  },
+
+  NIAN_PK10: {
+    items: [PlayMenu.Fan_Tan_Nian_PK10],
+    getText: (content) => i18n(`ball.fanTanNian.${content.replace('0', '4').split('').join('_')}`),
+  },
 };
 
 const PCBTranslator = {
@@ -1022,6 +1037,20 @@ const _11X5Translator = {
     ],
     getText: (content) => i18n(`playKey.${_11X5_KEY.Dragon_Tiger[content]}`),
   },
+
+  DanTuo_11X5: {
+    items: [
+      PlayMenu.Any2_Dantuo_11X5,
+      PlayMenu.Any3_Dantuo_11X5,
+      PlayMenu.Any4_Dantuo_11X5,
+      PlayMenu.Any5_Dantuo_11X5,
+      PlayMenu.Any6_Dantuo_11X5,
+      PlayMenu.Any7_Dantuo_11X5,
+      PlayMenu.Any8_Dantuo_11X5,
+    ],
+    getText: (content) => content.split(',').reduce((result, val) =>
+      (`${result}${result && val ? ' | ' : ''}${val}`), ''),
+  },
 };
 
 const SSCTranslator = {
@@ -1239,8 +1268,36 @@ const THAITranslator = {
       PlayMenu.Any_Roll_Last_2_South_VNC,
       PlayMenu.Any_Roll_Last_3_South_VNC,
       PlayMenu.Any_Roll_Last_4_South_VNC,
+      PlayMenu['4_Not_Winning_Numbers_North_VNC'],
+      PlayMenu['8_Not_Winning_Numbers_North_VNC'],
+      PlayMenu['10_Not_Winning_Numbers_North_VNC'],
     ],
     getText: (content) => (content || '').split(',')[0],
+  },
+  MULTI: {
+    items: [
+      PlayMenu.Last_3_Straight_THAI_Multi,
+      PlayMenu.Last_3_Combine_THAI_Multi,
+      PlayMenu['2_Straight_Add_THAI_Multi'],
+      PlayMenu.Last_2_Combine_THAI_Multi,
+      PlayMenu.Last_2_Straight_THAI_Multi,
+      PlayMenu.Any_Roll_Last_2_North_VNC_Multi,
+      PlayMenu.Any_Roll_Last_3_North_VNC_Multi,
+      PlayMenu.Any_Roll_Last_4_North_VNC_Multi,
+      PlayMenu.Any_Roll_Last_2_South_VNC_Multi,
+      PlayMenu.Any_Roll_Last_3_South_VNC_Multi,
+      PlayMenu.Any_Roll_Last_4_South_VNC_Multi,
+      PlayMenu.Last_4_Straight_1st_VNC_Multi,
+      PlayMenu.Last_3_Straight_1st_VNC_Multi,
+      PlayMenu.Last_3_Straight_1st_VNC_Single,
+      PlayMenu.Last_2_Straight_1st_VNC_Multi,
+      PlayMenu.Last_2_Straight_2nd_VNC_Multi,
+      PlayMenu.First_2_Straight_LAO_Multi,
+      PlayMenu.Last_3_Combine_LAO_Multi,
+      PlayMenu.Last_3_Straight_LAO_Multi,
+      PlayMenu.Last_4_Straight_LAO_Multi,
+    ],
+    getText: (content = '') => content.split(',').filter((v) => v !== '').join('|'),
   },
   FISH_PRAWN_CRAB: {
     items: [
@@ -1391,6 +1448,10 @@ const OrderInfoTranslatorList = {
       PlayMenu.First5BSOE_PK10,
       PlayMenu.Last5BSOE_PK10,
       PlayMenu.First2SumBSOE_PK10,
+
+      // PK10 Fantan
+      PlayMenu.Fan_Tan_BSOE_PK10,
+
       // PCB28
       PlayMenu.SpecialBSOE_PCB,
       PlayMenu.BOSE_WITH_TIE_PCB,
@@ -1714,6 +1775,33 @@ const commaConfig = {
     PlayMenu.Any2_Straight_4D,
     PlayMenu.Any3_Straight_4D,
     PlayMenu.Any4_Straight_4D,
+    PlayMenu.Any2_Dantuo_11X5,
+    PlayMenu.Any3_Dantuo_11X5,
+    PlayMenu.Any4_Dantuo_11X5,
+    PlayMenu.Any5_Dantuo_11X5,
+    PlayMenu.Any6_Dantuo_11X5,
+    PlayMenu.Any7_Dantuo_11X5,
+    PlayMenu.Any8_Dantuo_11X5,
+    PlayMenu.Last_3_Straight_THAI_Multi,
+    PlayMenu.Last_3_Combine_THAI_Multi,
+    PlayMenu['2_Straight_Add_THAI_Multi'],
+    PlayMenu.Last_2_Combine_THAI_Multi,
+    PlayMenu.Last_2_Straight_THAI_Multi,
+    PlayMenu.Any_Roll_Last_2_North_VNC_Multi,
+    PlayMenu.Any_Roll_Last_3_North_VNC_Multi,
+    PlayMenu.Any_Roll_Last_4_North_VNC_Multi,
+    PlayMenu.Any_Roll_Last_2_South_VNC_Multi,
+    PlayMenu.Any_Roll_Last_3_South_VNC_Multi,
+    PlayMenu.Any_Roll_Last_4_South_VNC_Multi,
+    PlayMenu.Last_4_Straight_1st_VNC_Multi,
+    PlayMenu.Last_3_Straight_1st_VNC_Multi,
+    PlayMenu.Last_3_Straight_1st_VNC_Single,
+    PlayMenu.Last_2_Straight_1st_VNC_Multi,
+    PlayMenu.Last_2_Straight_2nd_VNC_Multi,
+    PlayMenu.First_2_Straight_LAO_Multi,
+    PlayMenu.Last_3_Combine_LAO_Multi,
+    PlayMenu.Last_3_Straight_LAO_Multi,
+    PlayMenu.Last_4_Straight_LAO_Multi,
   ],
 };
 

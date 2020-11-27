@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: 'កន្រ្តក',
   confirmBetting: 'បញ្ជក់ការភ្ជាល់',
   clearBallText: 'លុបលេខបាល់',
+  addToBetSlip: 'កើនឡើង',
   betNow: 'ចាក់ឥឡូវ',
   betSuccess: 'ការចាក់ជោគជ័យ',
   confirmBetInfos: 'បញ្ជាក់ទិន័្ទយកាចាក់',
@@ -27,6 +28,7 @@ const LANG = {
   betFail: 'ការភ្នាល់មិនជោគជ័យ',
   betFailed: 'ការភ្នាល់មិនជោគជ័យ!',
   detail: 'ការចេញលេខ.',
+  recentlyGames: 'ការភ្នាល់នៅ',
   orderStatus: {
     orderStatus_0: 'ពត៌មានលំអិត',
     orderStatus_2: 'កំពុងដំណើរការ',
@@ -131,6 +133,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'ប្រព័ន្ធនេះរវល់គារភ្នាល់-បរាជ័យ',
     NOT_SUPPORT_LANDSCAPE: 'មិនអាច-កំណត់-ទេសភាព',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ',
+//  VN
+    BALANCE_NOT_ENOUGH_ERROR: 'ទឹកប្រាក់មិនគ្រប់គ្រាន់',
+    BETTING_AMOUNT_OVER_LIMITS_ERROR: 'ការភ្នាល់បរាជ័យចំនួនភ្នាល់លើសចំនួនអតិបរមា',
+    CANCEL_ORDER_ERROR: 'Cancel order failed',
   },
   gameHistoryCancel: 'ប្រវត្តិល្បែងត្រូវបានលុប',
   gameHistoryCancel_success: 'ប្រវត្តិល្បែងត្រូវបានលុបដោយ-ជោគជ័យ',
@@ -144,10 +150,30 @@ const LANG = {
   filterRepeat: 'លុបស្ទួន',
   betsNTotalAmount: 'ភ្នាល់<div class="font-bold">%@</div>ប៉ុ，ភ្នាល់សរុប<div class="font-bold">%@</div>，',
   predictionAmount: 'ហាងឆេង<div class="red-words">%@</div>',
+  willWin: 'ហាងឆេង',
   filterResultMsg: '%@  រូវបានត្រង មលេខ %@ មិនត្រឹមត្រូវ',
+  odds: 'ហាងឆេង',
   amount: 'ចំនួនភ្នាល់',
-  manualBetPlaceHolderSEA: 'ចំណាំនីមួយៗអាចត្រូវបានបំបែកដោយកូនសោបញ្ជាក់, ចន្លោះ [], ក្បៀស [,] ឬសញ្ញាក្បៀស [;]\n' +
-      'សូមនាំចូលឯកសារ TXT ថតចម្លងឬបញ្ចូលទម្រង់គាំទ្រដូចខាងក្រោម៖\n%@',
+  manualBetPlaceHolderSEA: `ចំណាំនីមួយៗអាចត្រូវបានបំបែកដោយកូនសោបញ្ជាក់, ចន្លោះ [], ក្បៀស [,] ឬសញ្ញាក្បៀស [;]\n` +
+      `សូមនាំចូលឯកសារ TXT ថតចម្លងឬបញ្ចូលទម្រង់គាំទ្រដូចខាងក្រោម៖`,
+  multiple: 'ច្រើន',
+  syncMultipleBets: 'បាច់ច្រើន',
+  gameName: 'ប្រភេទ',
+  gameContent: 'មាតិកា',
+  odds1Time: 'ប្រាក់រង្វា/បរិមា',
+  betAmount: 'បរិមាណ',
+
+  drawPrize: {
+    specialPrize: 'ពិសេស',
+    firstPrize: 'ង្វាន់ទី1',
+    secondPrize: 'ង្វាន់ទី2',
+    thirdPrize: 'ង្វាន់ទី3',
+    fourthPrize: 'ង្វាន់ទី4',
+    fifthPrize: 'ង្វាន់ទី5',
+    sixthPrize: 'ង្វាន់ទី6',
+    seventhPrize: 'ង្វាន់ទី7',
+    eighthPrize: 'ង្វាន់ទី8',
+  },
 };
 
 export default LANG;

@@ -8,6 +8,8 @@ const trendChart = {
     singleTrend: '定位走势',
     multipleTrend: '组合走势',
     dragonTiger: '龙虎',
+    BSOETrend: '大小单双',
+    fanTan: '番摊',
 
     // SSC 二級選單
     All_5: '五星',
@@ -22,6 +24,7 @@ const trendChart = {
     First_2: '前二',
     Last_2: '后二',
     Dragon_Tiger: '龙虎',
+    Fan_Tan: '番摊',
     P3_First_3: 'P3前三',
     P5_Last_3: 'P5后三',
     P3_First_2: 'P3前二',
@@ -53,6 +56,9 @@ const trendChart = {
     First_To_Third: '第1-3名',
     Fourth_To_Sixth: '第4-6名',
     Seventh_To_Tenth: '第7-10名',
+    firstSecondSumBSOE: '冠亚和',
+    first5BSOE: '前五',
+    last5BSOE: '后五',
 
     // 走勢圖
     numero: '期号',
@@ -126,6 +132,9 @@ const trendChart = {
     Dragon_Tiger_3_VS_8: '第三名 VS 第八名',
     Dragon_Tiger_4_VS_7: '第四名 VS 第七名',
     Dragon_Tiger_5_VS_6: '第五名 VS 第六名',
+    guFan: '孤番',
+    fanBS: '番大小',
+    fanOE: '番单双',
     firstBSOE: '第一名大小单双',
     secondBSOE: '第二名大小单双',
     thirdBSOE: '第三名大小单双',

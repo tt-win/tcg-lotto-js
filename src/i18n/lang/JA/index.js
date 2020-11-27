@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: 'カート',
   confirmBetting: 'ベットしますか？',
   clearBallText: 'クリアー',
+  addToBetSlip: 'Add To Bet Slip',
   betNow: 'べットする',
   betSuccess: 'ベット完了',
   confirmBetInfos: 'ベット内容の確認',

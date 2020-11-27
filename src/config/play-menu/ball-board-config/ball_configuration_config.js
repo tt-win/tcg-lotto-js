@@ -1,4 +1,4 @@
-import { i18n } from 'locales';
+import { i18n } from '../../../i18n/lang/i18n-key-finder';
 
 // 根據玩法 球要顯示組態的位置
 export const ballShowPosition = {

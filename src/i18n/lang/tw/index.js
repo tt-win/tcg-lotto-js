@@ -5,6 +5,7 @@ const LANG = {
   shoppingBasket: '購彩籃',
   confirmBetting: '確認投注',
   clearBallText: '清除選號',
+  addToBetSlip: '加入購物車',
   betNow: '立即投注',
   betSuccess: '恭喜, 下注成功',
   betPartialSuccess: '餘額不足，部份生成訂單成功',
@@ -29,6 +30,7 @@ const LANG = {
   betFailed: '生成訂單失敗',
   detail: '詳細',
   status: '狀態',
+  recentlyGames: '最近遊戲',
   orderStatus: {
     orderStatus_0: '全部',
     orderStatus_2: '進行中',
@@ -139,6 +141,10 @@ const LANG = {
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中獎即停不可使用',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此號碼已超出當前期購買額度，請與客服聯繫',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注數已超過允許的上限',
+// VN
+    BALANCE_NOT_ENOUGH_ERROR: '餘額不足',
+    BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注金額已超過允許的上限',
+    CANCEL_ORDER_ERROR: '撤單失敗',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',
@@ -155,9 +161,29 @@ const LANG = {
   filterRepeat: '過濾重複/無效號',
   betsNTotalAmount: '您選擇了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
   predictionAmount: '單注最高可中<div class="red-words">%@</div>元',
+  willWin: '預計中獎金額',
   filterResultMsg: '已經過濾%@组重複號，%@組無效號',
+  odds: '獎金',
   amount: '金額',
-  manualBetPlaceHolderSEA: '每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：\n%@',
+  multiple: '倍數',
+  syncMultipleBets: '批量修改倍數',
+  manualBetPlaceHolderSEA: `每注之間可以用確認鍵丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：`,
+  gameName: '玩法名稱',
+  gameContent: '玩法內容',
+  odds1Time: '獎金/注',
+  betAmount: '注數',
+  
+  drawPrize: {
+    specialPrize: '特等獎',
+    firstPrize: '一等獎',
+    secondPrize: '二等獎',
+    thirdPrize: '三等獎',
+    fourthPrize: '四等獎',
+    fifthPrize: '五等獎',
+    sixthPrize: '六等獎',
+    seventhPrize: '七等獎',
+    eighthPrize: '八等獎',
+  },
 };
 
 export default LANG;
