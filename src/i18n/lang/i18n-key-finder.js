@@ -64,13 +64,12 @@ const getLang = (targetLangKey) => {
  * @returns {*}
  */
 const findByI18nKey = (key, ...args) => {
-  const userLang = getLang();
-  return findByI18nKeyWithLang(userLang, key, ...args);
+  return findByI18nKeyWithLang(undefined, key, ...args);
 };
 
 const findByI18nKeyWithLang = (langKey, key, ...args) => {
   const userLang = getLang(langKey);
-  const val = _property(key)(userLang || getLang());
+  const val = _property(key)(userLang);
   if (!val) {
     // console.warn(`Can\'t find i18n key ${key}`)
     return key;
