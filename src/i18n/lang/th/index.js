@@ -118,6 +118,7 @@ const LANG = {
     LGS_BETTING_MODE_CLOSED_ERROR: 'ปิดรับแทงแล้ว ไม่สามารถแทงได้',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'ไม่สามารถแทงได้',
     SYSTEM_NOT_ALLOW_BETTING: 'เกมล์นี้ปิดรับแทงแล้ว',
+    SYSTEM_NOT_ALLOW_CHASE: 'SYSTEM_NOT_ALLOW_CHASE',
     BETTING_ITEM_LIMIT: 'รายการสั่งซื้อเกินขีดจำกัด',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'รับรายการเรียบร้อยแล้ว ไม่สามารถยกเลิกได้',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'ยอดคงเหลือไม่พอ',

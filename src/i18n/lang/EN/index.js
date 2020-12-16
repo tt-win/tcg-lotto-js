@@ -156,6 +156,7 @@ const LANG = {
     LGS_BETTING_MODE_CLOSED_ERROR: 'Betting mode is closed.',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'Bet mode is not allowed.',
     SYSTEM_NOT_ALLOW_BETTING: 'Game closed, please wait until next time.',
+    SYSTEM_NOT_ALLOW_CHASE: 'Chasing Numbers is not allowed in the game',
     BETTING_ITEM_LIMIT: 'Bet exceeds the limit',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'Bet has been locked and cannot be cancelled.',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'Insufficient Balance',

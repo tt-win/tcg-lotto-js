@@ -99,7 +99,7 @@ const LANG = {
       '4_1': '4念1',
       '4_2': '4念2',
       '4_3': '4念3',
-    },
+    }
   },
 
     // TODO i18n
@@ -122,6 +122,7 @@ const LANG = {
     LGS_BETTING_MODE_CLOSED_ERROR: '投注模式關閉不允許投注',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: '不允許使用此投注模式',
     SYSTEM_NOT_ALLOW_BETTING: '本期已封盤，請待下一期開始',
+    SYSTEM_NOT_ALLOW_CHASE: '遊戲不允許追號',
     BETTING_ITEM_LIMIT: '訂單內容超出系統限制',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: '訂單已經鎖定，無法撤單',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: '您的彩票餘額不足',
@@ -145,6 +146,7 @@ const LANG = {
     STAKES_IS_OVER_LIMIT_ERROR: '投注注數已超過允許的上限',
     BALANCE_NOT_ENOUGH_ERROR: '餘額不足',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注金額已超過允許的上限',
+    OBJECT_NOT_EXIST: '資料異常',
     CALCULATE_BETTING_AMOUNT_ERROR: '投注失敗，請稍後再試或與客服聯繫！',
     IILLEGAL_BALL_NUMBER_ERROR: '投注失敗，請稍後再試或與客服聯繫！',
     ILLEGAL_BETTING_ARGUMENT_ERROR: '投注失敗，請稍後再試或與客服聯繫！',
@@ -168,6 +170,7 @@ const LANG = {
     INVALID_TOKEN: '帳號異常請重新登入!',
     USER_NOT_LOGIN: '帳號異常請重新登入!',
     CANCEL_ORDER_ERROR: '撤單失敗',
+    NOT_AVAILABLE_FOR_SALE_ERROR: '遊戲維護中，請稍後再試!',
     INTERNAL_SERVER_ERROR: '系統錯誤',
     OBJECT_NOT_EXIST: '系統錯誤',
     ILLEGAL_PARAMS_VALUE: '系統錯誤',
@@ -201,6 +204,7 @@ const LANG = {
   gameContent: '玩法內容',
   odds1Time: '獎金/注',
   betAmount: '注數',
+  
   drawPrize: {
     specialPrize: '特等獎',
     firstPrize: '一等獎',
