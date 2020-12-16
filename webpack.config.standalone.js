@@ -78,7 +78,7 @@ module.exports = {
         exclude: /node_modules/,
         query: {
           plugins: ['lodash'],
-          presets: ['es2015'],
+          presets: ['env'],
         },
       },
     ],

@@ -2,7 +2,7 @@ import _isNumber from 'lodash/isNumber';
 import _findIndex from 'lodash/findIndex';
 import _reverse from 'lodash/reverse';
 import _padStart from 'lodash/padStart';
-import { i18n, lang } from './lang/i18n-key-finder';
+import { i18n, lang, i18nWithLang } from './lang/i18n-key-finder';
 import { orderDigitsI18n, PlayMenu } from './configs/basic_play_menu';
 import OrderInfoTranslator from './lang/OrderInfoTranslator';
 
@@ -165,7 +165,7 @@ export const genChasingOrderText = ({ chasing, chasingOrder, chasingPhase }) => 
  *
  * @returns {string} 訂單詳情 / 投注內容 欄位的顯示內容
  */
-export const i18nOrderInfo = ({ playId, bettingContent }) => OrderInfoTranslator.getText(playId, bettingContent);
+export const i18nOrderInfo = ({ playId, bettingContent, lang }) => OrderInfoTranslator.getText(playId, bettingContent, lang);
 
 export { i18n } from './lang/i18n-key-finder';
 
@@ -179,5 +179,6 @@ export default {
   genChasingOrderText,
   genBallContentText: i18nOrderInfo,
   i18n,
+  i18nWithLang,
   lang,
 };
