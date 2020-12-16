@@ -96,7 +96,7 @@ const LANG = {
       '4_1': '4 Nim 1',
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
-    }
+    },
   },
 
   // TODO i18n
@@ -133,6 +133,7 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'ระบบไม่ว่าง กรุณาลองไหม่อีกครั้ง',
     NOT_SUPPORT_LANDSCAPE: 'หน้าจอไม่สามารถตั้งเป็นแนวนอน',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด',
+    STAKES_ABOVE_LIMIT: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด > %@',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',

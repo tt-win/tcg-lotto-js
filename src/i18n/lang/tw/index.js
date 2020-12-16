@@ -141,6 +141,7 @@ const LANG = {
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中獎即停不可使用',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此號碼已超出當前期購買額度，請與客服聯繫',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注數已超過允許的上限',
+    STAKES_ABOVE_LIMIT: '投注注數已超過%@允许的上限',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',

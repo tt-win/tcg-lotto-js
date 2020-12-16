@@ -69,7 +69,7 @@ const LANG = {
       '4_1': '4 Nim 1',
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
-    }
+    },
   },
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
@@ -104,6 +104,7 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '베팅 말뚝이 한도 초과',
+    STAKES_ABOVE_LIMIT: '베팅 말뚝이 한도 초과 > %@',
   },
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',
