@@ -899,6 +899,7 @@ export const PlayMenu = {
 
   // 三級選單
 
+  // 北部
   Any_Roll_Last_2_North_VNC: 2517, // 北部 - 后二包胆
   Any_Roll_Last_2_North_VNC_Multi: 2518, // 北部 - 后二包胆（复式）
   Any_Roll_Last_2_North_VNC_Single: 2519, // 北部 - 后二包胆（单式）
@@ -916,6 +917,14 @@ export const PlayMenu = {
   '10_Not_Winning_Numbers_North_VNC': 2558, // 北部 - 十不中
   '10_Not_Winning_Numbers_Single_North_VNC': 2559, // 北部 - 十不中(单式)
 
+  Last_2_1st_7th_North_VNC: 2585, // 北部 二数头尾
+  Last_2_1st_7th_North_VNC_Single: 2586, // 北部 二数头尾 (单式)
+  Last_2_1st_7th_North_VNC_Multi: 2587, // 北部 二数头尾（复式)
+  Last_2_7th_North_VNC: 2588, // 北部 二数头
+  Last_2_7th_North_VNC_Single: 2589, // 北部 二数头 (单式)
+  Last_2_7th_North_VNC_Multi: 2590, // 北部 二数头（复式)
+
+  // 中南部
   Any_Roll_Last_2_South_VNC: 2530, // 中南部 - 后二包胆
   Any_Roll_Last_2_South_VNC_Multi: 2531, // 中南部 - 后二包胆（复式）
   Any_Roll_Last_2_South_VNC_Single: 2532, // 中南部 - 后二包胆（单式）
@@ -933,6 +942,14 @@ export const PlayMenu = {
   '10_Not_Winning_Numbers_South_VNC': 2568, // 中南部 - 十不中
   '10_Not_Winning_Numbers_Single_South_VNC': 2569, // 中南部 - 十不中(单式)
 
+  Last_2_1st_8th_South_VNC: 2592, // 中南部 二数头尾
+  Last_2_1st_8th_South_VNC_Single: 2593, // 中南部 二数头尾 (单式)
+  Last_2_1st_8th_South_VNC_Multi: 2594, // 中南部 二数头尾（复式)
+  Last_2_7th_South_VNC: 2595, // 中南部 二数头
+  Last_2_8th_South_VNC_Single: 2596, // 中南部 二数头 (单式)
+  Last_2_8th_South_VNC_Multi: 2597, // 中南部 二数头(复式)
+
+  // 以下不分南北部
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   Last_4_Straight_1st_VNC_Multi: 2286, // 上正四位数（复式）
   Last_4_Straight_1st_VNC_Single: 2287, // 上正四位数（单式）

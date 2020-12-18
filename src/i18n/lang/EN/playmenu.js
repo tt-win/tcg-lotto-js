@@ -81,6 +81,8 @@ const PlayMenu = {
     2554: 'FailParlay 8',  // 北部 - 八不中 - 二級選單
     2557: 'FailParlay 10',  // 北部 - 十不中 - 二級選單
 
+    2584: 'Head 2D & Special', // 北部 - 二数头尾 - 二級選單
+
     2529: 'Last 2D of AnyResult', // 中南部 后二包胆
     2533: 'Last 3D of AnyResult', // 中南部 后三包胆
     2537: 'Last 4D of AnyResult', // 中南部 后四包胆
@@ -88,6 +90,8 @@ const PlayMenu = {
     2561: 'FailParlay 4 ',  // 中南部 - 四不中 - 二級選單
     2564: 'FailParlay 8',  // 中南部 - 八不中 - 二級選單
     2567: 'FailParlay 10',  // 中南部 - 十不中 - 二級選單
+
+    2591: 'Head 2D & Special', // 中南部 - 二数头尾 - 二級選單
 
     // 跑數二級選單目前不會使用到
 
@@ -98,6 +102,7 @@ const PlayMenu = {
 
     // 三級選單
 
+    // 北部
     2517: 'Last 2D of AnyResult', // 北部 后二包胆
     2518: 'Norm Last 2D of AnyResult', // 北部 后二包胆(复式)
     2519: 'Manual Last 2D of AnyResult', // 北部 后二包胆(单式)
@@ -115,6 +120,14 @@ const PlayMenu = {
     2558: 'FailParlay 10', // 北部 - 十不中 - 三級選單
     2559: 'Manual FailParlay 10', // 北部 - 十不中(单式) - 三級選單
 
+    2585: 'Head 2D & Special', // 北部 二数头尾 Last_2_1st_7th_North_VNC
+    2586: 'Manual Head 2D & Special', // 北部 二数头尾 (单式) Last_2_1st_7th_North_VNC_Single
+    2587: 'Norm Head 2D & Special', // 北部 二数头尾（复式) Last_2_1st_7th_North_VNC_Multi
+    2588: 'Head 2D', // 北部 二数头 Last_2_7th_North_VNC
+    2589: 'Manual Head 2D', // 北部 二数头 (单式) Last_2_7th_North_VNC_Single
+    2590: 'Norm Head 2D', // 北部 二数头（复式) Last_2_7th_North_VNC_Multi
+
+    // 中南部
     2530: 'Last 2D of AnyResult', // 中南部 后二包胆
     2531: 'Norm Last 2D of AnyResult', // 中南部 后二包胆(复式)
     2532: 'Manual Last 2D of AnyResult', // 中南部 后二包胆(单式)
@@ -132,6 +145,14 @@ const PlayMenu = {
     2568: 'FailParlay 8', // 中南部 - 十不中 - 三級選單
     2569: 'Manual FailParlay 10', // 中南部 - 十不中(单式) - 三級選單
 
+    2592: 'Head 2D & Special', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
+    2593: 'Manual Head 2D & Special', // 中南部 二数头尾 (单式) Last_2_1st_8th_South_VNC_Single
+    2594: 'Norm Head 2D & Special', // 中南部 二数头尾（复式) Last_2_1st_8th_South_VNC_Multi
+    2595: 'Head 2D', // 中南部 二数头 Last_2_7th_South_VNC
+    2596: 'Manual Head 2D', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
+    2597: 'Norm Head 2D', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
+
+    // 以下不分南北部
     2092: 'EXACT 4D-Special', // 上正四位数 Last_4_Straight_1st_VNC
     2286: 'Norm EXACT 4D-Special', // 上正四位数（复式）Last_4_Straight_1st_VNC_Multi
     2287: 'Manual EXACT 4D-Special', // 上正四位数（单式）Last_4_Straight_1st_VNC_Single
@@ -149,18 +170,6 @@ const PlayMenu = {
     2281: 'Norm ANY 2D-1st', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Manual Enter ANY 2D-1st', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
     2104: 'ANY 2D-1st', // 下正二位数 Last_2_Straight_2nd_VNC
-    2585: 'Head 2D & Special', // 二数头尾 Last_2_1st_7th_North_VNC
-    2586: 'Manual Head 2D & Special', // 二数头尾 (单式) Last_2_1st_7th_North_VNC_Single
-    2587: 'Norm Head 2D & Special', // 二数头尾（复式) Last_2_1st_7th_North_VNC_Multi
-    2588: 'Head 2D', // 二数头 Last_2_7th_North_VNC
-    2589: 'Manual Head 2D', // 二数头 (单式) Last_2_7th_North_VNC_Single
-    2590: 'Norm Head 2D', // 二数头（复式) Last_2_7th_North_VNC_Multi
-    2592: 'Head 2D & Special', // 二数头尾 Last_2_1st_8th_South_VNC
-    2593: 'Manual Head 2D & Special', // 二数头尾 (单式) Last_2_1st_8th_South_VNC_Single
-    2594: 'Norm Head 2D & Special', // 二数头尾（复式) Last_2_1st_8th_South_VNC_Multi
-    2595: 'Head 2D', // 二数头 Last_2_7th_South_VNC
-    2596: 'Manual Head 2D', // 二数头 (单式) Last_2_8th_South_VNC_Single
-    2597: 'Norm Head 2D', // 二数头(复式) Last_2_8th_South_VNC_Multi
 
     2107: 'ANY 1D-Special', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'ANY 1D-1st', // 下跑两位数 Last_2_Any_2nd_VNC
