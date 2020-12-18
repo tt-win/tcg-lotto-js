@@ -149,6 +149,18 @@ const PlayMenu = {
     2281: 'Norm ANY 2D-1st', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Manual Enter ANY 2D-1st', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
     2104: 'ANY 2D-1st', // 下正二位数 Last_2_Straight_2nd_VNC
+    2585: 'Head 2D & Special', // 二数头尾 Last_2_1st_7th_North_VNC
+    2586: 'Manual Head 2D & Special', // 二数头尾 (单式) Last_2_1st_7th_North_VNC_Single
+    2587: 'Norm Head 2D & Special', // 二数头尾（复式) Last_2_1st_7th_North_VNC_Multi
+    2588: 'Head 2D', // 二数头 Last_2_7th_North_VNC
+    2589: 'Manual Head 2D', // 二数头 (单式) Last_2_7th_North_VNC_Single
+    2590: 'Norm Head 2D', // 二数头（复式) Last_2_7th_North_VNC_Multi
+    2592: 'Head 2D & Special', // 二数头尾 Last_2_1st_8th_South_VNC
+    2593: 'Manual Head 2D & Special', // 二数头尾 (单式) Last_2_1st_8th_South_VNC_Single
+    2594: 'Norm Head 2D & Special', // 二数头尾（复式) Last_2_1st_8th_South_VNC_Multi
+    2595: 'Head 2D', // 二数头 Last_2_7th_South_VNC
+    2596: 'Manual Head 2D', // 二数头 (单式) Last_2_8th_South_VNC_Single
+    2597: 'Norm Head 2D', // 二数头(复式) Last_2_8th_South_VNC_Multi
 
     2107: 'ANY 1D-Special', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'ANY 1D-1st', // 下跑两位数 Last_2_Any_2nd_VNC

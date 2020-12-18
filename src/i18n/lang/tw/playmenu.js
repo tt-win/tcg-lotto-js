@@ -149,6 +149,18 @@ const PlayMenu = {
     2281: '下正二位數（包注）', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: '下正二位數（輸入）', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
     2104: '下正二位數', // 下正二位数 Last_2_Straight_2nd_VNC
+    2585: '二數頭尾', // 二数头尾 Last_2_1st_7th_North_VNC
+    2586: '二數頭尾（輸入）', // 二数头尾 (单式) Last_2_1st_7th_North_VNC_Single
+    2587: '二數頭尾（包注）', // 二数头尾（复式) Last_2_1st_7th_North_VNC_Multi
+    2588: '二數頭', // 二数头 Last_2_7th_North_VNC
+    2589: '二數頭（輸入）', // 二数头 (单式) Last_2_7th_North_VNC_Single
+    2590: '二數頭（包注）', // 二数头（复式) Last_2_7th_North_VNC_Multi
+    2592: '二數頭尾', // 二数头尾 Last_2_1st_8th_South_VNC
+    2593: '二數頭尾（輸入）', // 二数头尾 (单式) Last_2_1st_8th_South_VNC_Single
+    2594: '二數頭尾（包注）', // 二数头尾（复式) Last_2_1st_8th_South_VNC_Multi
+    2595: '二數頭', // 二数头 Last_2_7th_South_VNC
+    2596: '二數頭（輸入）', // 二数头 (单式) Last_2_8th_South_VNC_Single
+    2597: '二數頭（包注）', // 二数头(复式) Last_2_8th_South_VNC_Multi
 
     2107: '上跑兩位數', // 上跑两位数 Last_2_Any_1st_VNC
     2109: '下跑兩位數', // 下跑两位数 Last_2_Any_2nd_VNC
