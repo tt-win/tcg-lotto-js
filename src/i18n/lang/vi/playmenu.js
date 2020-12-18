@@ -148,7 +148,7 @@ const PlayMenu = {
     2592: 'Đề Đầu Đuôi-Nhanh', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
     2593: 'Đề Đầu Đuôi-Nhập Số', // 中南部 二数头尾 (单式) Last_2_1st_8th_South_VNC_Single
     2594: 'Đề Đầu Đuôi-Chọn Số', // 中南部 二数头尾（复式) Last_2_1st_8th_South_VNC_Multi
-    2595: 'Đề Đầu-Nhanh', // 中南部 二数头 Last_2_7th_South_VNC
+    2595: 'Đề Đầu-Nhanh', // 中南部 二数头 Last_2_8th_South_VNC
     2596: 'Đề Đầu-Nhập Số', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: 'Đề Đầu-Chọn Số', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
 

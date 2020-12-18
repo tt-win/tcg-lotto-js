@@ -146,7 +146,7 @@ const PlayMenu = {
     2592: 'Head 2D & Special', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
     2593: 'Manual Head 2D & Special', // 中南部 二数头尾 (单式) Last_2_1st_8th_South_VNC_Single
     2594: 'Norm Head 2D & Special', // 中南部 二数头尾（复式) Last_2_1st_8th_South_VNC_Multi
-    2595: 'Head 2D', // 中南部 二数头 Last_2_7th_South_VNC
+    2595: 'Head 2D', // 中南部 二数头 Last_2_8th_South_VNC
     2596: 'Manual Head 2D', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: 'Norm Head 2D', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
 

@@ -945,7 +945,7 @@ export const PlayMenu = {
   Last_2_1st_8th_South_VNC: 2592, // 中南部 二数头尾
   Last_2_1st_8th_South_VNC_Single: 2593, // 中南部 二数头尾 (单式)
   Last_2_1st_8th_South_VNC_Multi: 2594, // 中南部 二数头尾（复式)
-  Last_2_7th_South_VNC: 2595, // 中南部 二数头
+  Last_2_8th_South_VNC: 2595, // 中南部 二数头
   Last_2_8th_South_VNC_Single: 2596, // 中南部 二数头 (单式)
   Last_2_8th_South_VNC_Multi: 2597, // 中南部 二数头(复式)
 

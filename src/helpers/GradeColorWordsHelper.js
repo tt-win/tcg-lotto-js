@@ -96,6 +96,22 @@ export const getGradeNumberOfColorWords = (playId) => {
     case PlayMenu['1_AT_ANY_LAST_3_THAI']:
     case PlayMenu.Fan_Tan_Fan_THAI:
       return { grade: [1], unitColorWords: '111' }; // 一等獎 後三位
+    case PlayMenu.Last_2_1st_7th_North_VNC:
+    case PlayMenu.Last_2_1st_7th_North_VNC_Single:
+    case PlayMenu.Last_2_1st_7th_North_VNC_Multi:
+      return { grade: [0, 7], unitColorWords: '11' }; // 特等獎 七等獎 後二
+    case PlayMenu.Last_2_7th_North_VNC:
+    case PlayMenu.Last_2_7th_North_VNC_Single:
+    case PlayMenu.Last_2_7th_North_VNC_Multi:
+      return { grade: [7], unitColorWords: '11' }; // 七等獎 後二
+    case PlayMenu.Last_2_1st_8th_South_VNC:
+    case PlayMenu.Last_2_1st_8th_South_VNC_Single:
+    case PlayMenu.Last_2_1st_8th_South_VNC_Multi:
+      return { grade: [0, 8], unitColorWords: '11' }; //特等獎 八等獎 後二
+    case PlayMenu.Last_2_8th_South_VNC:
+    case PlayMenu.Last_2_8th_South_VNC_Single:
+    case PlayMenu.Last_2_8th_South_VNC_Multi:
+      return { grade: [8], unitColorWords: '11' }; // 八等獎 後二
     default:
       return baseProps;
   }

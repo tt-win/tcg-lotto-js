@@ -755,7 +755,7 @@ const PlayMenu = {
     2592: '二数头尾', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
     2593: '二数头尾 (单式)', // 中南部 二数头尾 (单式) Last_2_1st_8th_South_VNC_Single
     2594: '二数头尾 (复式)', // 中南部 二数头尾（复式) Last_2_1st_8th_South_VNC_Multi
-    2595: '二数头', // 中南部 二数头 Last_2_7th_South_VNC
+    2595: '二数头', // 中南部 二数头 Last_2_8th_South_VNC
     2596: '二数头 (单式)', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: '二数头 (复式)', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
 
