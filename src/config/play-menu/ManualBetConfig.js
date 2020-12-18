@@ -61,7 +61,7 @@ const manualDigitsProps4D = {
   canShowManualDigits: true,
   manualDigits: [1, 2, 3, 4],
   manualDigitsI18n: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
-}
+};
 
 const baseSEAProps = {
   ballRange: [0, 9],
@@ -503,6 +503,42 @@ const ManualBetConfigVNC = {
   2569: ManualBetConfigRecord({
     ...baseSEAProps,
     ballCount: 10,
+    ballDigit: 2,
+    ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Last_2_1st_7th_North_VNC_Single 北部 - 二数头尾(单式)
+  2586: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    ballDigit: 2,
+    ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Last_2_7th_North_VNC_Single 北部 - 二数头(单式)
+  2589: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    ballDigit: 2,
+    ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Last_2_1st_8th_South_VNC_Single 中/南部 - 二数头尾(单式)
+  2593: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    ballDigit: 2,
+    ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Last_2_8th_South_VNC_Single 中/南部 - 二数头(单式)
+  2596: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
     ballDigit: 2,
     ballDelimiter: '-',
     bitCompression: true,
