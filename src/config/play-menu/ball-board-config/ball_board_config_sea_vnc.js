@@ -87,6 +87,34 @@ export default {
     formula: 'straight',
   }),
 
+  // Last_2_1st_7th_North_VNC_Multi 北部 二数头尾（复式)
+  2587: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
+  // Last_2_7th_North_VNC_Multi 北部 二数头（复式)
+  2590: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
+  // Last_2_1st_8th_South_VNC_Multi 中南部 二数头尾（复式)
+  25259490: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
+  // Last_2_8th_South_VNC_Multi 中南部 二数头（复式)
+  2597: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
   // Hoo_Hey_How_Play_VNC 鱼虾蟹
   2302: BallBoardConfigRecord({
     ...seaMultiBetProps,
