@@ -102,7 +102,7 @@ export default {
   }),
 
   // Last_2_1st_8th_South_VNC_Multi 中南部 二数头尾（复式)
-  25259490: BallBoardConfigRecord({
+  2594: BallBoardConfigRecord({
     ...seaMultiBetProps,
     betDigits: [betDigits.TENS, betDigits.ONES],
     formula: 'straight',

@@ -3,7 +3,7 @@ import { PlayMenu } from '../i18n/configs/basic_play_menu';
 
 const baseProps = {
   grade: _.times(9), // 全獎級顯示
-  unitColorWords: '' // 變色單位 111=>後三位, 10=>十位
+  unitColorWords: '', // 變色單位 111=>後三位, 10=>十位
 };
 
 export const getGradeNumberOfColorWords = (playId) => {
@@ -107,7 +107,7 @@ export const getGradeNumberOfColorWords = (playId) => {
     case PlayMenu.Last_2_1st_8th_South_VNC:
     case PlayMenu.Last_2_1st_8th_South_VNC_Single:
     case PlayMenu.Last_2_1st_8th_South_VNC_Multi:
-      return { grade: [0, 8], unitColorWords: '11' }; //特等獎 八等獎 後二
+      return { grade: [0, 8], unitColorWords: '11' }; // 特等獎 八等獎 後二
     case PlayMenu.Last_2_8th_South_VNC:
     case PlayMenu.Last_2_8th_South_VNC_Single:
     case PlayMenu.Last_2_8th_South_VNC_Multi:
