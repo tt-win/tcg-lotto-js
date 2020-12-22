@@ -49,6 +49,9 @@ const PlayMenu = {
     2550: 'FailParlay', // 北部 逆向 - 一級選單
     2560: 'FailParlay', // 中南部 逆向 - 一級選單
 
+    2598: 'Parlay', // 北部 串组 - 一級選單
+    2608: 'Parlay', // 中南部 串组 - 一級選單
+
     2300: 'ត្រីនិងក្តាម', // 魚蝦蟹
     2488: 'ហ្វានតាន់', // 番摊
 
@@ -76,6 +79,10 @@ const PlayMenu = {
     2554: 'FailParlay 8',  // 北部 - 八不中 - 二級選單
     2557: 'FailParlay 10',  // 北部 - 十不中 - 二級選單
 
+    2599: 'Parlay 2', // 北部 - 串2组 - 二級選單
+    2602: 'Parlay 2', // 北部 - 串3组 - 二級選單
+    2605: 'Parlay 4', // 北部 - 串4组 - 二級選單
+
     2584: 'Head 2D & Special', // 北部 - 二数头尾 - 二級選單
 
     2529: 'Last 2D of AnyResult', // 中南部 后二包胆
@@ -85,6 +92,10 @@ const PlayMenu = {
     2561: 'FailParlay 4 ',  // 中南部 - 四不中 - 二級選單
     2564: 'FailParlay 8',  // 中南部 - 八不中 - 二級選單
     2567: 'FailParlay 10',  // 中南部 - 十不中 - 二級選單
+
+    2609: 'Parlay 2', // 中南部 - 串2组 - 二級選單
+    2612: 'Parlay 3', // 中南部 - 串3组 - 二級選單
+    2615: 'Parlay 4', // 中南部 - 串4组 - 二級選單
 
     2591: 'Head 2D & Special', // 中南部 - 二数头尾 - 二級選單
 
@@ -122,6 +133,13 @@ const PlayMenu = {
     2589: 'Manual Head 2D', // 北部 二数头 (单式) Last_2_7th_North_VNC_Single
     2590: 'Norm Head 2D', // 北部 二数头（复式) Last_2_7th_North_VNC_Multi
 
+    2600: 'Parlay 2', // 北部 串2组 Bunch_2_North_VNC
+    2601: 'Manual Parlay 2', // 北部 串2组（单式） Bunch_2_North_VNC_Single
+    2603: 'Parlay 3', // 北部 串3组 Bunch_3_North_VNC
+    2604: 'Manual Parlay 3', // 北部 串3组 Bunch_3_North_VNC_Single
+    2606: 'Parlay 4', // 北部 串4组 Bunch_4_North_VNC
+    2607: 'Manual Parlay 4', // 北部 串4组（单式） Bunch_4_North_VNC_Single
+
     // 中南部
     2530: 'Last 2D of AnyResult', // 中南部 后二包胆
     2531: 'Norm Last 2D of AnyResult', // 中南部 后二包胆(复式)
@@ -146,6 +164,13 @@ const PlayMenu = {
     2595: 'Head 2D', // 中南部 二数头 Last_2_8th_South_VNC
     2596: 'Manual Head 2D', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: 'Norm Head 2D', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
+
+    2610: 'Parlay 2', // 中南部 串2组 Bunch_2_South_VNC
+    2611: 'Manual Parlay 2', // 中南部 串2组（单式） Bunch_2_South_VNC_Single
+    2613: 'Parlay 3', // 中南部 串3组 Bunch_3_South_VNC
+    2614: 'Manual Parlay 3', // 中南部 串3组 Bunch_3_South_VNC_Single
+    2616: 'Parlay 4', // 中南部 串4组 Bunch_4_South_VNC
+    2617: 'Manual Parlay 4', // 中南部 串4组（单式） Bunch_4_South_VNC_Single
 
     // 以下不分南北部
     2092: 'តួលេខពបួនខ្ទង់', // 上正四位数 Last_4_Straight_1st_VNC

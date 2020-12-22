@@ -894,6 +894,9 @@ export const PlayMenu = {
   Not_Winning_Numbers_North_VNC: 2550, // 北部 - 逆向
   Not_Winning_Numbers_South_VNC: 2560, // 中南部 - 逆向
 
+  Bunch_North_VNC: 2598, // 北部 串组 - 一級選單
+  Bunch_South_VNC: 2608, // 中南部 串组 - 一級選單
+
   Hoo_Hey_How_Main_VNC: 2300, // 魚蝦蟹
   Fan_Tan_VNC: 2488, // 番攤
 
@@ -924,6 +927,13 @@ export const PlayMenu = {
   Last_2_7th_North_VNC_Single: 2589, // 北部 二数头 (单式)
   Last_2_7th_North_VNC_Multi: 2590, // 北部 二数头（复式)
 
+  Bunch_2_North_VNC: 2600, // 北部 串2组
+  Bunch_2_North_VNC_Single: 2601, // 北部 串2组（单式）
+  Bunch_3_North_VNC: 2603, // 北部 串3组
+  Bunch_3_North_VNC_Single: 2604, // 北部 串3组
+  Bunch_4_North_VNC: 2606, // 北部 串4组
+  Bunch_4_North_VNC_Single: 2607, // 北部 串4组（单式）
+
   // 中南部
   Any_Roll_Last_2_South_VNC: 2530, // 中南部 - 后二包胆
   Any_Roll_Last_2_South_VNC_Multi: 2531, // 中南部 - 后二包胆（复式）
@@ -948,6 +958,13 @@ export const PlayMenu = {
   Last_2_8th_South_VNC: 2595, // 中南部 二数头
   Last_2_8th_South_VNC_Single: 2596, // 中南部 二数头 (单式)
   Last_2_8th_South_VNC_Multi: 2597, // 中南部 二数头(复式)
+
+  Bunch_2_South_VNC: 2610, // 中南部 串2组
+  Bunch_2_South_VNC_Single: 2611, // 中南部 串2组（单式）
+  Bunch_3_South_VNC: 2613, // 中南部 串3组
+  Bunch_3_South_VNC_Single: 2614, // 中南部 串3组
+  Bunch_4_South_VNC: 2616, // 中南部 串4组
+  Bunch_4_South_VNC_Single: 2617, // 中南部 串4组（单式）
 
   // 以下不分南北部
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数

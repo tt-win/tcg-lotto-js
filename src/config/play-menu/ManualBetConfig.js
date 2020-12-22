@@ -544,6 +544,48 @@ const ManualBetConfigVNC = {
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
+  // Bunch_2_North_VNC_Single 北部 串2组（单式）
+  2601: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  // Bunch_3_North_VNC_Single 北部 串3组（单式）
+  2604: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_4_North_VNC_Single 北部 串4组（单式）
+  2607: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_2_South_VNC_Single 中南部 串2组（单式）
+  2611: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_3_South_VNC_Single 中南部 串3组（单式）
+  2614: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_4_South_VNC_Single 中南部 串4组（单式）
+  2617: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
 };
 
 const ManualBetConfigLAO = {

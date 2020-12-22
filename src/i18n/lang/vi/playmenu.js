@@ -53,6 +53,9 @@ const PlayMenu = {
     2550: 'Lô Trượt', // 北部 逆向 - 一級選單
     2560: 'Lô Trượt', // 中南部 逆向 - 一級選單
 
+    2598: 'Lô Xiên', // 北部 串组 - 一級選單
+    2608: 'Lô Xiên', // 中南部 串组 - 一級選單
+
     2300: 'Bầu Cua', // 魚蝦蟹
 
     2488: 'FanTan', // 番摊
@@ -81,6 +84,10 @@ const PlayMenu = {
     2554: 'Trượt Xiên 8',  // 北部 - 八不中 - 二級選單
     2557: 'Trượt Xiên 10',  // 北部 - 十不中 - 二級選單
 
+    2599: 'Xiên 2', // 北部 - 串2组 - 二級選單
+    2602: 'Xiên 3', // 北部 - 串3组 - 二級選單
+    2605: 'Xiên 4', // 北部 - 串4组 - 二級選單
+
     2584: 'Đề Đầu Đuôi-Nhanh', // 北部 - 二数头尾 - 二級選單
 
     2529: 'Lô 2 Số', // 中南部 后二包胆
@@ -90,6 +97,10 @@ const PlayMenu = {
     2561: 'Trượt Xiên 4',  // 中南部 - 四不中 - 二級選單
     2564: 'Trượt Xiên 8',  // 中南部 - 八不中 - 二級選單
     2567: 'Trượt Xiên 10',  // 中南部 - 十不中 - 二級選單
+
+    2609: 'Xiên 2', // 中南部 - 串2组 - 二級選單
+    2612: 'Xiên 3', // 中南部 - 串3组 - 二級選單
+    2615: 'Xiên 4', // 中南部 - 串4组 - 二級選單
 
     2591: 'Đề Đầu Đuôi-Nhanh', // 中南部 - 二数头尾 - 二級選單
 
@@ -127,6 +138,13 @@ const PlayMenu = {
     2589: 'Đề Giải 7-Nhập Số', // 北部 二数头 (单式) Last_2_7th_North_VNC_Single
     2590: 'Đề Giải 7-Chọn Số', // 北部 二数头（复式) Last_2_7th_North_VNC_Multi
 
+    2600: 'Xiên 2 - Nhanh', // 北部 串2组 Bunch_2_North_VNC
+    2601: 'Xiên 2 - Nhập Số', // 北部 串2组（单式） Bunch_2_North_VNC_Single
+    2603: 'Xiên 3 - Nhanh', // 北部 串3组 Bunch_3_North_VNC
+    2604: 'Xiên 3 - Nhập Số', // 北部 串3组 Bunch_3_North_VNC_Single
+    2606: 'Xiên 4 - Nhanh', // 北部 串4组 Bunch_4_North_VNC
+    2607: 'Xiên 4 - Nhập Số', // 北部 串4组（单式） Bunch_4_North_VNC_Single
+
     // 中南部
     2530: 'Lô 2 Số - Nhanh', // 中南部 后二包胆
     2531: 'Lô 2 Số - Chọn Số', // 中南部 后二包胆(复式)
@@ -151,6 +169,13 @@ const PlayMenu = {
     2595: 'Đề Đầu-Nhanh', // 中南部 二数头 Last_2_8th_South_VNC
     2596: 'Đề Đầu-Nhập Số', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: 'Đề Đầu-Chọn Số', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
+
+    2610: 'Xiên 2 - Nhanh', // 中南部 串2组 Bunch_2_South_VNC
+    2611: 'Xiên 2 - Nhập Số', // 中南部 串2组（单式） Bunch_2_South_VNC_Single
+    2613: 'Xiên 3 - Nhanh', // 中南部 串3组 Bunch_3_South_VNC
+    2614: 'Xiên 3 - Nhập Số', // 中南部 串3组 Bunch_3_South_VNC_Single
+    2616: 'Xiên 4 - Nhanh', // 中南部 串4组 Bunch_4_South_VNC
+    2617: 'Xiên 4 - Nhập Số', // 中南部 串4组（单式） Bunch_4_South_VNC_Single
 
     // 以下不分南北部
     2092: '4 Càng Đặc Biệt - Nhanh', // 上正四位数 Last_4_Straight_1st_VNC
