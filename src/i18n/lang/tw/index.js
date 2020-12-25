@@ -176,7 +176,7 @@ const LANG = {
     ILLEGAL_PARAMS_VALUE: '系統錯誤',
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: '您的倍數超過允許的上限',
     GAME_CLOSED_ERROR: '投注彩種已關閉',
-    STAKES_ABOVE_LIMIT: '投注注數已超過%@允许的上限',
+    STAKES_ABOVE_LIMIT: '投注注數已超過%@注允许的上限',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',

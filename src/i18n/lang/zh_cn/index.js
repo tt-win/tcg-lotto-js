@@ -439,7 +439,7 @@ const LANG = {
     ILLEGAL_PARAMS_VALUE: '系统错误',
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: '您的倍数超过允许的上限',
     GAME_CLOSED_ERROR: '投注彩种已关闭',
-    STAKES_ABOVE_LIMIT: '投注注数已超过%@允许的上限',
+    STAKES_ABOVE_LIMIT: '投注注数已超过%@注允许的上限',
   },
   chasingStatus: {
     All: '全部',
