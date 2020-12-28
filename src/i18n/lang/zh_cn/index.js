@@ -405,6 +405,7 @@ const LANG = {
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中奖即停不可使用',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此号码已超出当前期购买额度，请与客服联系',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注数已超过允许的上限',
+    NOT_SUPPORT_TRIAL_CUSTOMER: '该帐号尚未开放此彩种',
 // VN
     ORDER_ALREADY_CANCELED: '该订单已经撤单',
     STAKES_IS_OVER_LIMIT_ERROR: '投注注数已超过允许的上限',
