@@ -28,6 +28,19 @@ export const getGradeNumberOfColorWords = (playId) => {
     case PlayMenu['8_Not_Winning_Numbers_Single_South_VNC']:
     case PlayMenu['10_Not_Winning_Numbers_South_VNC']:
     case PlayMenu['10_Not_Winning_Numbers_Single_South_VNC']:
+    // 串組
+    case PlayMenu.Bunch_2_North_VNC:
+    case PlayMenu.Bunch_2_North_VNC_Single:
+    case PlayMenu.Bunch_3_North_VNC:
+    case PlayMenu.Bunch_3_North_VNC_Single:
+    case PlayMenu.Bunch_4_North_VNC:
+    case PlayMenu.Bunch_4_North_VNC_Single:
+    case PlayMenu.Bunch_2_South_VNC:
+    case PlayMenu.Bunch_2_South_VNC_Single:
+    case PlayMenu.Bunch_3_South_VNC:
+    case PlayMenu.Bunch_3_South_VNC_Single:
+    case PlayMenu.Bunch_4_South_VNC:
+    case PlayMenu.Bunch_4_South_VNC_Single:
       return { ...baseProps, unitColorWords: '11' };
       // 北部 後三包膽
     case PlayMenu.Any_Roll_Last_3_North_VNC:
