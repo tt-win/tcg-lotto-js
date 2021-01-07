@@ -900,6 +900,14 @@ export const PlayMenu = {
   Hoo_Hey_How_Main_VNC: 2300, // 魚蝦蟹
   Fan_Tan_VNC: 2488, // 番攤
 
+  // 二級選單
+  Tier2_Any_Roll_Last_2_North_VNC: 2516, // 北部 - 后二包胆
+  Tier2_Any_Roll_Last_3_North_VNC: 2520, // 北部 - 后三包胆
+  Tier2_Any_Roll_Last_4_North_VNC: 2524, // 北部 - 后四包胆
+  Tier2_Any_Roll_Last_2_South_VNC: 2529, // 中南部 - 后二包胆
+  Tier2_Any_Roll_Last_3_South_VNC: 2533, // 中南部 - 后三包胆
+  Tier2_Any_Roll_Last_4_South_VNC: 2537, // 中南部 - 后四包胆
+
   // 三級選單
 
   // 北部
