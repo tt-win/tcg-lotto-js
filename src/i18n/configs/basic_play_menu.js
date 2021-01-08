@@ -852,6 +852,9 @@ export const PlayMenu = {
   Last3_Special_3_SSC: 2118,
 
   // THAI
+
+  // 一級選單
+
   Last_3_THAI: 2055,
   '2_Star_THAI': 2060,
   Any_Place_THAI: 2067,
@@ -863,12 +866,17 @@ export const PlayMenu = {
   Fan_Tan_Nian_THAI: 2503,
   Fan_Tan_BSOE_THAI: 2505,
 
+  // 二級選單
+
+  // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
   LAST_3_STRAIGHT_THAI: 2057, // 上正三位数
   LAST_3_COMBINE_THAI: 2059, // 上反三位数
   LAST_2_STRAIGHT_THAI: 2062, // 上正二位数
   LAST_2_COMBINE_THAI: 2064, // 上反二位数
   '2_STRAIGHT_ADD_THAI': 2066, // 下正二位数
   '1_AT_ANY_LAST_3_THAI': 2069, // 上跑三位数
+
+  // 三級選單
 
   Last_3_Straight_THAI_Multi: 2485, // 上正三位数（复式）
   Last_3_Straight_THAI_Single: 2486, // 上正三位数（单式）
@@ -901,12 +909,23 @@ export const PlayMenu = {
   Fan_Tan_VNC: 2488, // 番攤
 
   // 二級選單
+
   Tier2_Any_Roll_Last_2_North_VNC: 2516, // 北部 - 后二包胆
   Tier2_Any_Roll_Last_3_North_VNC: 2520, // 北部 - 后三包胆
   Tier2_Any_Roll_Last_4_North_VNC: 2524, // 北部 - 后四包胆
   Tier2_Any_Roll_Last_2_South_VNC: 2529, // 中南部 - 后二包胆
   Tier2_Any_Roll_Last_3_South_VNC: 2533, // 中南部 - 后三包胆
   Tier2_Any_Roll_Last_4_South_VNC: 2537, // 中南部 - 后四包胆
+
+  // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
+  LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
+  LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
+  LAST_3_STRAIGHT_1ST_VNC: 2097, // 上正三位数
+  LAST_3_COMBINE_1ST_VNC: 2099, // 上反三位数
+  LAST_2_STRAIGHT_1ST_VNC: 2102, // 上正二位数
+  LAST_2_STRAIGHT_2ND_VNC: 2104, // 下正二位数
+  LAST_2_ANY_1ST_VNC: 2107, // 上跑两位数
+  LAST_2_ANY_2ND_VNC: 2109, // 下跑两位数
 
   // 三級選單
 
@@ -975,26 +994,17 @@ export const PlayMenu = {
   Bunch_4_South_VNC_Single: 2617, // 中南部 串4组（单式）
 
   // 以下不分南北部
-  LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   Last_4_Straight_1st_VNC_Multi: 2286, // 上正四位数（复式）
   Last_4_Straight_1st_VNC_Single: 2287, // 上正四位数（单式）
-  LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
 
-  LAST_3_STRAIGHT_1ST_VNC: 2097, // 上正三位数
   Last_3_Straight_1st_VNC_Multi: 2284, // 上正三位数（复式）
   Last_3_Straight_1st_VNC_Single: 2285, // 上正三位数（单式）
   Last_3_Combine_1st_VNC_Multi: 2283, // 上反三位数（复式）
-  LAST_3_COMBINE_1ST_VNC: 2099, // 上反三位数
 
   Last_2_Straight_1st_VNC_Multi: 2279, // 上正二位数(复式)
   Last_2_Straight_1st_VNC_Single: 2280, // 上正二位数（单式）
-  LAST_2_STRAIGHT_1ST_VNC: 2102, // 上正二位数
   Last_2_Straight_2nd_VNC_Multi: 2281, // 下正二位数（复式）
   Last_2_Straight_2nd_VNC_Single: 2282, // 下正二位数（单式）
-  LAST_2_STRAIGHT_2ND_VNC: 2104, // 下正二位数
-
-  LAST_2_ANY_1ST_VNC: 2107, // 上跑两位数
-  LAST_2_ANY_2ND_VNC: 2109, // 下跑两位数
 
   Ten_Digit_1st_VNC: 2580, // 特等十位
   Unit_Digit_1st_VNC: 2581, // 特等个位
@@ -1008,6 +1018,9 @@ export const PlayMenu = {
   Fan_Tan_BSOE_VNC: 2496, // 番攤 - 大小單雙
 
   // LAO 老挝彩
+
+  // 一級選單
+
   '4_Num_LAO': 2127,
   '3_Num_LAO': 2132,
   '2_Num_LAO': 2137,
@@ -1020,6 +1033,9 @@ export const PlayMenu = {
   Fan_Tan_Nian_LAO: 2512,
   Fan_Tan_BSOE_LAO: 2514,
 
+  // 二級選單
+
+  // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
   LAST_4_STRAIGHT_LAO: 2129, // 上正四位数
   LAST_4_COMBINE_LAO: 2131, // 上反四位数
   LAST_3_STRAIGHT_LAO: 2134, // 上正三位数
@@ -1028,6 +1044,8 @@ export const PlayMenu = {
   FIRST_2_STRAIGHT_LAO: 2141, // 下正二位数
   LAST_2_ANY_LAO: 2144, // 上跑两位数
   FIRST_2_ANY_LAO: 2146, // 下跑两位数
+
+  // 三級選單
 
   Last_2_Straight_LAO_Multi: 2288, // 上正四位数（单式）
   Last_2_Straight_LAO_Single: 2289, // 上正二位数（单式）
