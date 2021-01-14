@@ -876,6 +876,14 @@ export const PlayMenu = {
   '2_STRAIGHT_ADD_THAI': 2066, // 下正二位数
   '1_AT_ANY_LAST_3_THAI': 2069, // 上跑三位数
 
+  Any_Roll_Last_2_North_VNC: 2517, // 北部 - 后二包胆
+  Any_Roll_Last_3_North_VNC: 2521, // 北部 - 后三包胆
+  Any_Roll_Last_4_North_VNC: 2525, // 北部 - 后四包胆
+
+  Any_Roll_Last_2_South_VNC: 2530, // 中南部 - 后二包胆
+  Any_Roll_Last_3_South_VNC: 2534, // 中南部 - 后三包胆
+  Any_Roll_Last_4_South_VNC: 2538, // 中南部 - 后四包胆
+
   // 三級選單
 
   Last_3_Straight_THAI_Multi: 2485, // 上正三位数（复式）
@@ -908,15 +916,6 @@ export const PlayMenu = {
   Hoo_Hey_How_Main_VNC: 2300, // 魚蝦蟹
   Fan_Tan_VNC: 2488, // 番攤
 
-  // 二級選單
-
-  Tier2_Any_Roll_Last_2_North_VNC: 2516, // 北部 - 后二包胆
-  Tier2_Any_Roll_Last_3_North_VNC: 2520, // 北部 - 后三包胆
-  Tier2_Any_Roll_Last_4_North_VNC: 2524, // 北部 - 后四包胆
-  Tier2_Any_Roll_Last_2_South_VNC: 2529, // 中南部 - 后二包胆
-  Tier2_Any_Roll_Last_3_South_VNC: 2533, // 中南部 - 后三包胆
-  Tier2_Any_Roll_Last_4_South_VNC: 2537, // 中南部 - 后四包胆
-
   // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
   LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
@@ -930,13 +929,11 @@ export const PlayMenu = {
   // 三級選單
 
   // 北部
-  Any_Roll_Last_2_North_VNC: 2517, // 北部 - 后二包胆
+
   Any_Roll_Last_2_North_VNC_Multi: 2518, // 北部 - 后二包胆（复式）
   Any_Roll_Last_2_North_VNC_Single: 2519, // 北部 - 后二包胆（单式）
-  Any_Roll_Last_3_North_VNC: 2521, // 北部 - 后三包胆
   Any_Roll_Last_3_North_VNC_Multi: 2522, // 北部 - 后三包胆（复式）
   Any_Roll_Last_3_North_VNC_Single: 2523, // 北部 - 后三包胆（单式）
-  Any_Roll_Last_4_North_VNC: 2525, // 北部 - 后四包胆
   Any_Roll_Last_4_North_VNC_Multi: 2526, // 北部 - 后四包胆（复式）
   Any_Roll_Last_4_North_VNC_Single: 2527, // 北部 - 后四包胆（单式）
 
@@ -962,13 +959,11 @@ export const PlayMenu = {
   Bunch_4_North_VNC_Single: 2607, // 北部 串4组（单式）
 
   // 中南部
-  Any_Roll_Last_2_South_VNC: 2530, // 中南部 - 后二包胆
+
   Any_Roll_Last_2_South_VNC_Multi: 2531, // 中南部 - 后二包胆（复式）
   Any_Roll_Last_2_South_VNC_Single: 2532, // 中南部 - 后二包胆（单式）
-  Any_Roll_Last_3_South_VNC: 2534, // 中南部 - 后三包胆
   Any_Roll_Last_3_South_VNC_Multi: 2535, // 中南部 - 后三包胆（复式）
   Any_Roll_Last_3_South_VNC_Single: 2536, // 中南部 - 后三包胆（单式）
-  Any_Roll_Last_4_South_VNC: 2538, // 中南部 - 后四包胆
   Any_Roll_Last_4_South_VNC_Multi: 2539, // 中南部 - 后四包胆（复式）
   Any_Roll_Last_4_South_VNC_Single: 2540, // 中南部 - 后四包胆（单式）
 
