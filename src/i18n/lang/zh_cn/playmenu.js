@@ -712,11 +712,27 @@ const PlayMenu = {
     2591: '二数头尾', // 中南部 - 二数头尾 - 二級選單
 
     // 跑數二級選單目前不會使用到
-
     2106: '一等二星不定位', // 跑數二級選單
     2108: '二等二星不定位', // 跑數二級選單
 
     2579: '特等二星不定位', // 特等一等 - 十位個位 - 跑數 - 二級選單
+
+    // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
+    2092: '上正四位数', // 上正四位数 Last_4_Straight_1st_VNC
+    2094: '上反四位数', // 上反四位数 Last_4_Combine_1st_VNC
+    2097: '上正三位数', // 上正三位数 Last_3_Straight_1st_VNC
+    2099: '上反三位数', // 上反三位数 Last_3_Combine_1st_VNC
+    2102: '上正二位数', // 上正二位数 Last_2_Straight_1st_VNC
+    2104: '下正二位数', // 下正二位数 Last_2_Straight_2nd_VNC
+    2107: '上跑两位数', // 上跑两位数 Last_2_Any_1st_VNC
+    2109: '下跑两位数', // 下跑两位数 Last_2_Any_2nd_VNC
+
+    2601: '串2组', // 北部 串2组 Bunch_2_North_VNC
+    2604: '串3组', // 北部 串3组 Bunch_3_North_VNC
+    2607: '串4组', // 北部 串4组 Bunch_4_North_VNC
+    2611: '串2组', // 中南部 串2组 Bunch_2_South_VNC
+    2614: '串3组', // 中南部 串3组 Bunch_3_South_VNC
+    2617: '串4组', // 中南部 串4组 Bunch_4_South_VNC
 
     // 三級選單
 
@@ -745,13 +761,6 @@ const PlayMenu = {
     2589: '二数头 (单式)', // 北部 二数头 (单式) Last_2_7th_North_VNC_Single
     2590: '二数头（复式)', // 北部 二数头（复式) Last_2_7th_North_VNC_Multi
 
-    2600: '串2组', // 北部 串2组 Bunch_2_North_VNC
-    2601: '串2组（单式）', // 北部 串2组（单式） Bunch_2_North_VNC_Single
-    2603: '串3组', // 北部 串3组 Bunch_3_North_VNC
-    2604: '串3组（单式）', // 北部 串3组 Bunch_3_North_VNC_Single
-    2606: '串4组', // 北部 串4组 Bunch_4_North_VNC
-    2607: '串4组（单式）', // 北部 串4组（单式） Bunch_4_North_VNC_Single
-
     // 中南部
     2530: '后二包胆', // 中南部 后二包胆
     2531: '后二包胆（复式）', // 中南部 后二包胆（复式）
@@ -777,34 +786,19 @@ const PlayMenu = {
     2596: '二数头 (单式)', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: '二数头 (复式)', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
 
-    2610: '串2组', // 中南部 串2组 Bunch_2_South_VNC
-    2611: '串2组（单式）', // 中南部 串2组（单式） Bunch_2_South_VNC_Single
-    2613: '串3组', // 中南部 串3组 Bunch_3_South_VNC
-    2614: '串3组（单式）', // 中南部 串3组 Bunch_3_South_VNC_Single
-    2616: '串4组', // 中南部 串4组 Bunch_4_South_VNC
-    2617: '串4组（单式）', // 中南部 串4组（单式） Bunch_4_South_VNC_Single
-
     // 以下不分南北部
-    2092: '上正四位数', // 上正四位数 Last_4_Straight_1st_VNC
     2286: '上正四位数（复式）', // 上正四位数（复式）Last_4_Straight_1st_VNC_Multi
     2287: '上正四位数（单式）', // 上正四位数（单式）Last_4_Straight_1st_VNC_Single
-    2094: '上反四位数', // 上反四位数 Last_4_Combine_1st_VNC
 
-    2097: '上正三位数', // 上正三位数 Last_3_Straight_1st_VNC
     2284: '上正三位数（复式）', // 上正三位数（复式）Last_3_Straight_1st_VNC_Multi
     2285: '上正三位数（单式）', // 上正三位数（单式）Last_3_Straight_1st_VNC_Single
     2283: '上反三位数（复式）', // 上反三位数（复式）Last_3_Combine_1st_VNC_Multi
-    2099: '上反三位数', // 上反三位数 Last_3_Combine_1st_VNC
 
     2279: '上正二位数（复式）', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: '上正二位数（单式）', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2102: '上正二位数', // 上正二位数 Last_2_Straight_1st_VNC
     2281: '下正二位数（复式）', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: '下正二位数（单式）', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
-    2104: '下正二位数', // 下正二位数 Last_2_Straight_2nd_VNC
 
-    2107: '上跑两位数', // 上跑两位数 Last_2_Any_1st_VNC
-    2109: '下跑两位数', // 下跑两位数 Last_2_Any_2nd_VNC
     2580: '特等十位', // 特等十位 Ten_Digit_1st_VNC
     2581: '特等个位', // 特等个位 Unit_Digit_1st_VNC
     2582: '一等十位', // 一等十位 Ten_Digit_2nd_VNC

@@ -100,11 +100,27 @@ const PlayMenu = {
     2591: 'Head 2D & Special', // 中南部 - 二数头尾 - 二級選單
 
     // 跑數二級選單目前不會使用到
-
     2106: '一等二星不定位', // 跑數二級選單
     2108: '二等二星不定位', // 跑數二級選單
 
     2579: '特等二星不定位', // 特等一等 - 十位個位 - 跑數 - 二級選單
+
+    // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
+    2092: 'តួលេខពបួនខ្ទង់', // 上正四位数 Last_4_Straight_1st_VNC
+    2094: 'លេខបួនខ្ទង់លើ', // 上反四位数 Last_4_Combine_1st_VNC
+    2097: 'តួលេខបីខ្ទង់', // 上正三位数 Last_3_Straight_1st_VNC
+    2099: 'លេខបីខ្ទង់លើ', // 上反三位数 Last_3_Combine_1st_VNC
+    2102: 'តួលេខពីរខ្ទង់', // 上正二位数 Last_2_Straight_1st_VNC
+    2104: 'អវិជ្ជមានលេខពីរខ្ទង់', // 下正二位数 Last_2_Straight_2nd_VNC
+    2107: 'រត់ពីរខ្ទង់', // 上跑两位数 Last_2_Any_1st_VNC
+    2109: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 Last_2_Any_2nd_VNC
+
+    2601: 'Parlay 2', // 北部 串2组 Bunch_2_North_VNC
+    2604: 'Parlay 3', // 北部 串3组 Bunch_3_North_VNC
+    2607: 'Parlay 4', // 北部 串4组 Bunch_4_North_VNC
+    2611: 'Parlay 2', // 中南部 串2组 Bunch_2_South_VNC
+    2614: 'Parlay 3', // 中南部 串3组 Bunch_3_South_VNC
+    2617: 'Parlay 4', // 中南部 串4组 Bunch_4_South_VNC
 
     // 三級選單
 
@@ -133,13 +149,6 @@ const PlayMenu = {
     2589: 'Manual Head 2D', // 北部 二数头 (单式) Last_2_7th_North_VNC_Single
     2590: 'Norm Head 2D', // 北部 二数头（复式) Last_2_7th_North_VNC_Multi
 
-    2600: 'Parlay 2', // 北部 串2组 Bunch_2_North_VNC
-    2601: 'Manual Parlay 2', // 北部 串2组（单式） Bunch_2_North_VNC_Single
-    2603: 'Parlay 3', // 北部 串3组 Bunch_3_North_VNC
-    2604: 'Manual Parlay 3', // 北部 串3组 Bunch_3_North_VNC_Single
-    2606: 'Parlay 4', // 北部 串4组 Bunch_4_North_VNC
-    2607: 'Manual Parlay 4', // 北部 串4组（单式） Bunch_4_North_VNC_Single
-
     // 中南部
     2530: 'Last 2D of AnyResult', // 中南部 后二包胆
     2531: 'Norm Last 2D of AnyResult', // 中南部 后二包胆(复式)
@@ -165,34 +174,19 @@ const PlayMenu = {
     2596: 'Manual Head 2D', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: 'Norm Head 2D', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
 
-    2610: 'Parlay 2', // 中南部 串2组 Bunch_2_South_VNC
-    2611: 'Manual Parlay 2', // 中南部 串2组（单式） Bunch_2_South_VNC_Single
-    2613: 'Parlay 3', // 中南部 串3组 Bunch_3_South_VNC
-    2614: 'Manual Parlay 3', // 中南部 串3组 Bunch_3_South_VNC_Single
-    2616: 'Parlay 4', // 中南部 串4组 Bunch_4_South_VNC
-    2617: 'Manual Parlay 4', // 中南部 串4组（单式） Bunch_4_South_VNC_Single
-
     // 以下不分南北部
-    2092: 'តួលេខពបួនខ្ទង់', // 上正四位数 Last_4_Straight_1st_VNC
     2286: 'Norm EXACT 4D-1st', // 上正四位数（复式）Last_4_Straight_1st_VNC_Multi
     2287: 'Manual Enter EXACT 4D-1st', // 上正四位数（单式）Last_4_Straight_1st_VNC_Single
-    2094: 'លេខបួនខ្ទង់លើ', // 上反四位数 Last_4_Combine_1st_VNC
 
-    2097: 'តួលេខបីខ្ទង់', // 上正三位数 Last_3_Straight_1st_VNC
     2284: 'Norm EXACT 3D-1st', // 上正三位数（复式）Last_3_Straight_1st_VNC_Multi
     2285: 'Manual Enter EXACT 3D-1st', // 上正三位数（单式）Last_3_Straight_1st_VNC_Single
     2283: 'Norm ANY 3D-1st', // 上反三位数（复式）Last_3_Combine_1st_VNC_Multi
-    2099: 'លេខបីខ្ទង់លើ', // 上反三位数 Last_3_Combine_1st_VNC
 
     2279: 'Norm EXACT 2D-1st', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: 'Manual Enter EXACT 2D-1st', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2102: 'តួលេខពីរខ្ទង់', // 上正二位数 Last_2_Straight_1st_VNC
     2281: 'Norm ANY 3D-2nd', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Manual Enter ANY 3D-2nd', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
-    2104: 'អវិជ្ជមានលេខពីរខ្ទង់', // 下正二位数 Last_2_Straight_2nd_VNC
 
-    2107: 'រត់ពីរខ្ទង់', // 上跑两位数 Last_2_Any_1st_VNC
-    2109: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 Last_2_Any_2nd_VNC
     2580: 'Tens-Special', // 特等十位 Ten_Digit_1st_VNC
     2581: 'Ones-Special', // 特等个位 Unit_Digit_1st_VNC
     2582: 'Tens-Special', // 一等十位 Ten_Digit_2nd_VNC

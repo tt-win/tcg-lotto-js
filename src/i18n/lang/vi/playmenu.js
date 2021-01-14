@@ -105,11 +105,27 @@ const PlayMenu = {
     2591: 'Đề Đầu Đuôi-Nhanh', // 中南部 - 二数头尾 - 二級選單
 
     // 跑數二級選單目前不會使用到
-
     2106: '一等二星不定位', // 跑數二級選單
     2108: '二等二星不定位', // 跑數二級選單
 
     2579: '特等二星不定位', // 特等一等 - 十位個位 - 跑數 - 二級選單
+
+    // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
+    2092: '4 Càng Đặc Biệt - Nhanh', // 上正四位数 Last_4_Straight_1st_VNC
+    2094: 'Xiên 4 Đặc Biệt', // 上反四位数 Last_4_Combine_1st_VNC
+    2097: '3 Càng Đặc Biệt - Nhanh', // 上正三位数 Last_3_Straight_1st_VNC
+    2099: 'Xiên 3 Đặc Biệt - Nhanh', // 上反三位数 Last_3_Combine_1st_VNC
+    2102: 'Đề Đặc Biệt - Nhanh', // 上正二位数 Last_2_Straight_1st_VNC
+    2104: 'Đề Giải Nhất - Nhanh', // 下正二位数 Last_2_Straight_2nd_VNC
+    2107: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
+    2109: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
+
+    2601: 'Xiên 2 - Nhanh', // 北部 串2组 Bunch_2_North_VNC
+    2604: 'Xiên 3 - Nhanh', // 北部 串3组 Bunch_3_North_VNC
+    2607: 'Xiên 4 - Nhanh', // 北部 串4组 Bunch_4_North_VNC
+    2611: 'Xiên 2 - Nhanh', // 中南部 串2组 Bunch_2_South_VNC
+    2614: 'Xiên 3 - Nhanh', // 中南部 串3组 Bunch_3_South_VNC
+    2617: 'Xiên 4 - Nhanh', // 中南部 串4组 Bunch_4_South_VNC
 
     // 三級選單
 
@@ -138,13 +154,6 @@ const PlayMenu = {
     2589: 'Đề Giải 7-Nhập Số', // 北部 二数头 (单式) Last_2_7th_North_VNC_Single
     2590: 'Đề Giải 7-Chọn Số', // 北部 二数头（复式) Last_2_7th_North_VNC_Multi
 
-    2600: 'Xiên 2 - Nhanh', // 北部 串2组 Bunch_2_North_VNC
-    2601: 'Xiên 2 - Nhập Số', // 北部 串2组（单式） Bunch_2_North_VNC_Single
-    2603: 'Xiên 3 - Nhanh', // 北部 串3组 Bunch_3_North_VNC
-    2604: 'Xiên 3 - Nhập Số', // 北部 串3组 Bunch_3_North_VNC_Single
-    2606: 'Xiên 4 - Nhanh', // 北部 串4组 Bunch_4_North_VNC
-    2607: 'Xiên 4 - Nhập Số', // 北部 串4组（单式） Bunch_4_North_VNC_Single
-
     // 中南部
     2530: 'Lô 2 Số - Nhanh', // 中南部 后二包胆
     2531: 'Lô 2 Số - Chọn Số', // 中南部 后二包胆(复式)
@@ -170,34 +179,19 @@ const PlayMenu = {
     2596: 'Đề Đầu-Nhập Số', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: 'Đề Đầu-Chọn Số', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
 
-    2610: 'Xiên 2 - Nhanh', // 中南部 串2组 Bunch_2_South_VNC
-    2611: 'Xiên 2 - Nhập Số', // 中南部 串2组（单式） Bunch_2_South_VNC_Single
-    2613: 'Xiên 3 - Nhanh', // 中南部 串3组 Bunch_3_South_VNC
-    2614: 'Xiên 3 - Nhập Số', // 中南部 串3组 Bunch_3_South_VNC_Single
-    2616: 'Xiên 4 - Nhanh', // 中南部 串4组 Bunch_4_South_VNC
-    2617: 'Xiên 4 - Nhập Số', // 中南部 串4组（单式） Bunch_4_South_VNC_Single
-
     // 以下不分南北部
-    2092: '4 Càng Đặc Biệt - Nhanh', // 上正四位数 Last_4_Straight_1st_VNC
     2286: '4 Càng Đặc Biệt - Chọn Số', // 上正四位数（复式）Last_4_Straight_1st_VNC_Multi
     2287: '4 Càng Đặc Biệt - Nhập Số', // 上正四位数（单式）Last_4_Straight_1st_VNC_Single
-    2094: 'Xiên 4 Đặc Biệt', // 上反四位数 Last_4_Combine_1st_VNC
 
-    2097: '3 Càng Đặc Biệt-Nhanh', // 上正三位数 Last_3_Straight_1st_VNC
     2284: '3 Càng Đặc Biệt - Chọn Số', // 上正三位数（复式）Last_3_Straight_1st_VNC_Multi
     2285: '3 Càng Đặc Biệt - Nhập Số', // 上正三位数（单式）Last_3_Straight_1st_VNC_Single
     2283: 'Xiên 3 Đặc Biệt - Chọn Số', // 上反三位数（复式）Last_3_Combine_1st_VNC_Multi
-    2099: 'Xiên 3 Đặc Biệt - Nhanh', // 上反三位数 Last_3_Combine_1st_VNC
 
     2279: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2102: 'Đề Đặc Biệt - Nhanh', // 上正二位数 Last_2_Straight_1st_VNC
     2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
-    2104: 'Đề Giải Nhất - Nhanh', // 下正二位数 Last_2_Straight_2nd_VNC
 
-    2107: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
-    2109: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
     2580: 'Đầu Đặc Biệt ', // 特等十位 Ten_Digit_1st_VNC
     2581: 'Đuôi Đặc Biệt', // 特等个位 Unit_Digit_1st_VNC
     2582: 'Đầu Giải Nhất', // 一等十位 Ten_Digit_2nd_VNC
