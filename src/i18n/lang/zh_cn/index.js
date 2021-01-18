@@ -4,6 +4,11 @@ import ProTrendChart from './proTrendChart';
 
 const LANG = {
   ...PlayMenu,
+  bettingApproach: {
+    1: '标准选号',
+    2: '单式选号',
+    3: '复式选号',
+  },
   prizeMode: {
     Lott: '官方',
     Tradition: '官方', // TODO clean this

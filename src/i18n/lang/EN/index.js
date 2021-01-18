@@ -29,6 +29,11 @@ const LANG = {
   betFailed: 'Incorrect/Incomplete Playslip. Processing failed.',
   detail: 'Details',
   recentlyGames: 'Bet Games',
+  bettingApproach: {
+    1: 'Straight',
+    2: 'Single',
+    3: 'Multi',
+  },
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_2: 'IN PROGRESS',
