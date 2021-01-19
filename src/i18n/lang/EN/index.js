@@ -232,6 +232,7 @@ const LANG = {
 
   defaultMode: 'Default Lott Play Mode',
   defaultBetting: 'Default Lott Play Betting',
+  defaultBettingApproach: 'Set BettingApproach',
   MultipleDefaultBetting: 'Multiple Game Default Betting config',
   MultipleDefaultMode: 'Multiple Game Default Mode config',
   SaveDefaultPlayBetting: 'Save Default PlayBetting',
