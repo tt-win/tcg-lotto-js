@@ -272,7 +272,7 @@ const LANG = {
       '4_1': '4念1',
       '4_2': '4念2',
       '4_3': '4念3',
-    }
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',
@@ -411,7 +411,7 @@ const LANG = {
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此号码已超出当前期购买额度，请与客服联系',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注数已超过允许的上限',
     NOT_SUPPORT_TRIAL_CUSTOMER: '该帐号尚未开放此彩种',
-// VN
+    // VN
     ORDER_ALREADY_CANCELED: '该订单已经撤单',
     STAKES_IS_OVER_LIMIT_ERROR: '投注注数已超过允许的上限',
     BALANCE_NOT_ENOUGH_ERROR: '餘額不足',
@@ -640,6 +640,7 @@ const LANG = {
     PK10_eighth: '八位',
     PK10_ninth: '九位',
     PK10_tenth: '十位',
+    PK10_fanTan: '番摊',
     K3_first: '百',
     K3_second: '十',
     K3_third: '个',
@@ -655,7 +656,6 @@ const LANG = {
     first3: '前三',
     middle3: '中三',
     last3: '后三',
-
   },
   quickBetLHC: {
     odd: '单码',
@@ -799,9 +799,23 @@ const LANG = {
   numeroAbbreviation: '期号',
   thisNumero: '本期',
   nextNumero: '下期',
-  manualDigitsTip: '提示：至少选<span>%@</span>个位置,您已选了<span>%@</span>个位置，系统将自动生成<span>%@</span>个方案。',
+  manualDigitsTip:
+    '提示：至少选<span>%@</span>个位置,您已选了<span>%@</span>个位置，系统将自动生成<span>%@</span>个方案。',
   dayNamesMin: ['日', '一', '二', '三', '四', '五', '六'],
-  monthNames: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+  monthNames: [
+    '一月',
+    '二月',
+    '三月',
+    '四月',
+    '五月',
+    '六月',
+    '七月',
+    '八月',
+    '九月',
+    '十月',
+    '十一月',
+    '十二月',
+  ],
   query: '查找',
   bettingAmount: '投注金额',
   chasingNumeros: {
@@ -871,7 +885,8 @@ const LANG = {
 请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetPlaceHolder_2Digit: `每注之间可以用回车丶逗号[,]或者分号[;]、["|"]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
-  manualBetPlaceHolder_h5: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]、["|"]隔开，请导入TXT文件丶复制或者输入支持格式如下：',
+  manualBetPlaceHolder_h5:
+    '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]、["|"]隔开，请导入TXT文件丶复制或者输入支持格式如下：',
   manualBetPlaceHolder_2Digit_h5: `每注之间可以用回车丶逗号[,]或者分号[;]、["|"]，请导入TXT文件丶隔开复制或者输入支持格式如下：`,
   manualBetPlaceHolderSEA: `每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开\n请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetFormatError: '您的投注内容不符合要求<br />里面还有字母或者中文！',
@@ -919,7 +934,8 @@ const LANG = {
   betRowStakeOverLimit: '该玩法单列可投上限为%@注，请重新下注！谢谢',
   overBetAmountMax: '超过单笔投注最大金额',
   drawAnnouncement: '开奖公告',
-  onceAlertDialog: '{欢迎归来}<br />此次游戏维护升级时间较长，天成致以最诚挚的歉意，为您奉上专属红包，已为您派发到您的彩票钱包，祝您体验愉快。',
+  onceAlertDialog:
+    '{欢迎归来}<br />此次游戏维护升级时间较长，天成致以最诚挚的歉意，为您奉上专属红包，已为您派发到您的彩票钱包，祝您体验愉快。',
   today: '今天',
   yesterday: '昨天',
   beforeYesterday: '前天',
