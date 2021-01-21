@@ -132,16 +132,37 @@ const PlayMenu = {
     2565: 'KegagalanParlay 8', // 中南部 - 八不中
     2568: 'KegagalanParlay 10', // 中南部 - 十不中
 
+    2517: 'Last 2D of AnyResult', // 北部 后二包胆
+    2521: 'Last 3D of AnyResult', // 北部 后三包胆
+    2525: 'Last 4D of AnyResult', // 北部 后四包胆
+    2530: 'Last 2D of AnyResult', // 中南部 后二包胆
+    2534: 'Last 3D of AnyResult', // 中南部 后三包胆
+    2538: 'Last 4D of AnyResult', // 中南部 后四包胆
+
+    2586: 'Head 2D & Special', // 北部 二数头尾 Last_2_1st_7th_North_VNC
+    2589: 'Head 2D', // 北部 二数头 Last_2_7th_North_VNC
+    2593: 'Head 2D & Special', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
+    2596: 'Head 2D', // 中南部 二数头 Last_2_8th_South_VNC
+
+    2580: 'Puluhan-Special', // 特等十位 Ten_Digit_1st_VNC
+    2581: 'Satuan-Special', // 特等个位 Unit_Digit_1st_VNC
+    2582: 'Puluhan-1st', // 一等十位 Ten_Digit_2nd_VNC
+    2583: 'Satuan-1st', // 一等个位 Unit_Digit_2nd_VNC
+
+    2302: 'FishPrawnCrab', // 魚蝦蟹
+
+    2490: 'Fan', // 番
+    2492: 'Kwok', // 角
+    2494: 'Nim', // 念
+    2496: 'BesarKecilGanjilLLGenap', // 大小单双
+
     // 三級選單
 
     // 北部
-    2517: 'Last 2D of AnyResult', // 北部 后二包胆
     2518: 'Norm Last 2D of AnyResult', // 北部 后二包胆(复式)
     2519: 'Manual Last 2D of AnyResult', // 北部 后二包胆(单式)
-    2521: 'Last 3D of AnyResult', // 北部 后三包胆
     2522: 'Norm Last 3D of AnyResult', // 北部 后三包胆（复式）
     2523: 'Manual Last 3D of AnyResult', // 北部 后三包胆（单式）
-    2525: 'Last 4D of AnyResult', // 北部 后四包胆
     2526: 'Norm Last 4D of AnyResult', // 北部 后四包胆（复式）
     2527: 'Manual Last 4D of AnyResult', // 北部 后四包胆（单式）
 
@@ -149,21 +170,14 @@ const PlayMenu = {
     2556: 'Manual Kegagalan Parlay 8', // 北部 - 八不中(单式) - 三級選單
     2559: 'Manual Kegagalan Parlay 10', // 北部 - 十不中(单式) - 三級選單
 
-    2585: 'Head 2D & Special', // 北部 二数头尾 Last_2_1st_7th_North_VNC
-    2586: 'Manual Head 2D & Special', // 北部 二数头尾 (单式) Last_2_1st_7th_North_VNC_Single
     2587: 'Norm Head 2D & Special', // 北部 二数头尾（复式) Last_2_1st_7th_North_VNC_Multi
-    2588: 'Head 2D', // 北部 二数头 Last_2_7th_North_VNC
-    2589: 'Manual Head 2D', // 北部 二数头 (单式) Last_2_7th_North_VNC_Single
     2590: 'Norm Head 2D', // 北部 二数头（复式) Last_2_7th_North_VNC_Multi
 
     // 中南部
-    2530: 'Last 2D of AnyResult', // 中南部 后二包胆
     2531: 'Norm Last 2D of AnyResult', // 中南部 后二包胆(复式)
     2532: 'Manual Last 2D of AnyResult', // 中南部 后二包胆(单式)
-    2534: 'Last 3D of AnyResult', // 中南部 后三包胆
     2535: 'Norm Last 3D of AnyResult', // 中南部 后三包胆（复式）
     2536: 'Manual Last 3D of AnyResult', // 中南部 后三包胆（单式）
-    2538: 'Last 4D of AnyResult', // 中南部 后四包胆
     2539: 'Norm Last 4D of AnyResult', // 中南部 后四包胆（复式）
     2540: 'Manual Last 4D of AnyResult', // 中南部 后四包胆（单式）
 
@@ -171,11 +185,7 @@ const PlayMenu = {
     2566: 'Manual Kegagalan Parlay 8', // 中南部 - 八不中(单式) - 三級選單
     2569: 'Manual Kegagalan Parlay 10', // 中南部 - 十不中(单式) - 三級選單
 
-    2592: 'Head 2D & Special', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
-    2593: 'Manual Head 2D & Special', // 中南部 二数头尾 (单式) Last_2_1st_8th_South_VNC_Single
     2594: 'Norm Head 2D & Special', // 中南部 二数头尾（复式) Last_2_1st_8th_South_VNC_Multi
-    2595: 'Head 2D', // 中南部 二数头 Last_2_8th_South_VNC
-    2596: 'Manual Head 2D', // 中南部 二数头 (单式) Last_2_8th_South_VNC_Single
     2597: 'Norm Head 2D', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
 
     // 以下不分南北部
@@ -190,18 +200,6 @@ const PlayMenu = {
     2280: 'Manual Dua digit berurutan - 1st', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
     2281: 'Norma Tiga digit tanpa urutan - 2nd', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Manual Tiga digit tanpa urutan - 2nd', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
-
-    2580: 'Puluhan-Special', // 特等十位 Ten_Digit_1st_VNC
-    2581: 'Satuan-Special', // 特等个位 Unit_Digit_1st_VNC
-    2582: 'Puluhan-1st', // 一等十位 Ten_Digit_2nd_VNC
-    2583: 'Satuan-1st', // 一等个位 Unit_Digit_2nd_VNC
-
-    2302: 'FishPrawnCrab', // 魚蝦蟹
-
-    2490: 'Fan', // 番
-    2492: 'Kwok', // 角
-    2494: 'Nim', // 念
-    2496: 'BesarKecilGanjilLLGenap', // 大小单双
 
     // LAO 老挝彩
     2127: 'Empat digit',
