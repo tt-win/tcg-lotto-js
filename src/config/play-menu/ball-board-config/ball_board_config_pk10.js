@@ -16,10 +16,10 @@ export const dragonTigerProps = {
   },
   boardClassNames: 'dragon-tiger-pk10',
   betDigits: [betDigits.DRAGON_TIGER],
-  multi: false,    // 可否複選
-  canShowHotGap: false,  // 冷熱遺漏
-  hasToolbar: false,  // right toolbar
-  canShowBallAtSub: true,   // 龍虎 字位置
+  multi: false, // 可否複選
+  canShowHotGap: false, // 冷熱遺漏
+  hasToolbar: false, // right toolbar
+  canShowBallAtSub: true, // 龍虎 字位置
   formula: 'oneNum',
 };
 
@@ -55,21 +55,39 @@ export default {
   //  First5_PK10
   1461: BallBoardConfigRecord({
     ...basePK10Props,
-    betDigits: [betDigits.PK10_FIRST, betDigits.PK10_SECOND, betDigits.PK10_THIRD, betDigits.PK10_FOURTH, betDigits.PK10_FIFTH],
+    betDigits: [
+      betDigits.PK10_FIRST,
+      betDigits.PK10_SECOND,
+      betDigits.PK10_THIRD,
+      betDigits.PK10_FOURTH,
+      betDigits.PK10_FIFTH,
+    ],
     formula: 'notDuplicateStraight',
     ballShowPosition: ballShowPosition.FIRST_FIVE,
   }),
   //  First5Fixed_PK10
   1462: BallBoardConfigRecord({
     ...basePK10Props,
-    betDigits: [betDigits.PK10_FIRST, betDigits.PK10_SECOND, betDigits.PK10_THIRD, betDigits.PK10_FOURTH, betDigits.PK10_FIFTH],
+    betDigits: [
+      betDigits.PK10_FIRST,
+      betDigits.PK10_SECOND,
+      betDigits.PK10_THIRD,
+      betDigits.PK10_FOURTH,
+      betDigits.PK10_FIFTH,
+    ],
     formula: 'oneBallOneNum',
     ballShowPosition: ballShowPosition.FIRST_FIVE,
   }),
   //  Last5Fixed_PK10
   1463: BallBoardConfigRecord({
     ...basePK10Props,
-    betDigits: [betDigits.PK10_SIXTH, betDigits.PK10_SEVENTH, betDigits.PK10_EIGHTH, betDigits.PK10_NINTH, betDigits.PK10_TENTH],
+    betDigits: [
+      betDigits.PK10_SIXTH,
+      betDigits.PK10_SEVENTH,
+      betDigits.PK10_EIGHTH,
+      betDigits.PK10_NINTH,
+      betDigits.PK10_TENTH,
+    ],
     formula: 'oneBallOneNum',
     ballShowPosition: ballShowPosition.LAST_FIVE,
   }),
@@ -82,7 +100,7 @@ export default {
     formula: 'oneBallOneNum',
     delimiter: ',',
     forceUseDelimiter: true,
-    forceSmallUpper: 11,   // 快捷投注大小區分
+    forceSmallUpper: 11, // 快捷投注大小區分
     boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_TWO,
   }),
@@ -107,7 +125,7 @@ export default {
     formula: 'oneBallOneNum',
     delimiter: ',',
     forceUseDelimiter: true,
-    forceSmallUpper: 11,   // 快捷投注大小區分
+    forceSmallUpper: 11, // 快捷投注大小區分
     boardClassNames: 'sum',
     ballShowPosition: ballShowPosition.FIRST_ONE_TEN,
   }),
@@ -115,14 +133,33 @@ export default {
   1467: BallBoardConfigRecord({
     ...baseBSOEProps,
     formula: 'oneBallOneNum',
-    betDigits: [betDigits.PK10_FIRST, betDigits.PK10_SECOND, betDigits.PK10_THIRD, betDigits.PK10_FOURTH, betDigits.PK10_FIFTH],
+    betDigits: [
+      betDigits.PK10_FIRST,
+      betDigits.PK10_SECOND,
+      betDigits.PK10_THIRD,
+      betDigits.PK10_FOURTH,
+      betDigits.PK10_FIFTH,
+    ],
     ballShowPosition: ballShowPosition.FIRST_FIVE,
+    prizeTypeMapping: {
+      // 各球最高獎金的對應prize type
+      0: 'P_BIG',
+      1: 'P_SMALL',
+      2: 'P_ODD',
+      3: 'P_EVEN',
+    },
   }),
   //  Last5BSOE_PK10
   1468: BallBoardConfigRecord({
     ...baseBSOEProps,
     formula: 'oneBallOneNum',
-    betDigits: [betDigits.PK10_SIXTH, betDigits.PK10_SEVENTH, betDigits.PK10_EIGHTH, betDigits.PK10_NINTH, betDigits.PK10_TENTH],
+    betDigits: [
+      betDigits.PK10_SIXTH,
+      betDigits.PK10_SEVENTH,
+      betDigits.PK10_EIGHTH,
+      betDigits.PK10_NINTH,
+      betDigits.PK10_TENTH,
+    ],
     ballShowPosition: ballShowPosition.LAST_FIVE,
   }),
   //  First2SumBSOE_PK10
