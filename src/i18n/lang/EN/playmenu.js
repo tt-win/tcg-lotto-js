@@ -80,12 +80,12 @@ const PlayMenu = {
     2520: 'Last 3D of AnyResult', // 北部 后三包胆
     2524: 'Last 4D of AnyResult', // 北部 后四包胆
 
-    2551: 'FailParlay 4',  // 北部 - 四不中 - 二級選單
-    2554: 'FailParlay 8',  // 北部 - 八不中 - 二級選單
-    2557: 'FailParlay 10',  // 北部 - 十不中 - 二級選單
+    2551: 'FailParlay 4', // 北部 - 四不中 - 二級選單
+    2554: 'FailParlay 8', // 北部 - 八不中 - 二級選單
+    2557: 'FailParlay 10', // 北部 - 十不中 - 二級選單
 
     2599: 'Parlay 2', // 北部 - 串2组 - 二級選單
-    2602: 'Parlay 2', // 北部 - 串3组 - 二級選單
+    2602: 'Parlay 3', // 北部 - 串3组 - 二級選單
     2605: 'Parlay 4', // 北部 - 串4组 - 二級選單
 
     2584: 'Head 2D & Special', // 北部 - 二数头尾 - 二級選單
@@ -127,6 +127,13 @@ const PlayMenu = {
     2614: 'Parlay 3', // 中南部 串3组 Bunch_3_South_VNC
     2617: 'Parlay 4', // 中南部 串4组 Bunch_4_South_VNC
 
+    2552: 'FailParlay 4', // 北部 - 四不中
+    2555: 'FailParlay 8', // 北部 - 八不中
+    2558: 'FailParlay 10', // 北部 - 十不中
+    2562: 'FailParlay 4', // 中南部 - 四不中
+    2565: 'FailParlay 8', // 中南部 - 八不中
+    2568: 'FailParlay 10', // 中南部 - 十不中
+
     // 三級選單
 
     // 北部
@@ -140,11 +147,8 @@ const PlayMenu = {
     2526: 'Norm Last 4D of AnyResult', // 北部 后四包胆（复式）
     2527: 'Manual Last 4D of AnyResult', // 北部 后四包胆（单式）
 
-    2552: 'FailParlay 4',  // 北部 - 四不中 - 三級選單
     2553: 'Manual FailParlay 4', // 北部 - 四不中(单式) - 三級選單
-    2555: 'FailParlay 8', // 北部 - 八不中 - 三級選單
     2556: 'Manual FailParlay 8', // 北部 - 八不中(单式) - 三級選單
-    2558: 'FailParlay 10', // 北部 - 十不中 - 三級選單
     2559: 'Manual FailParlay 10', // 北部 - 十不中(单式) - 三級選單
 
     2585: 'Head 2D & Special', // 北部 二数头尾 Last_2_1st_7th_North_VNC
@@ -165,11 +169,8 @@ const PlayMenu = {
     2539: 'Norm Last 4D of AnyResult', // 中南部 后四包胆（复式）
     2540: 'Manual Last 4D of AnyResult', // 中南部 后四包胆（单式）
 
-    2562: 'FailParlay 4', // 中南部 - 四不中 - 三級選單
     2563: 'Manual FailParlay 4', // 中南部 - 四不中(单式) - 三級選單
-    2565: 'FailParlay 8', // 中南部 - 八不中 - 三級選單
     2566: 'Manual FailParlay 8', // 中南部 - 八不中(单式) - 三級選單
-    2568: 'FailParlay 8', // 中南部 - 十不中 - 三級選單
     2569: 'Manual FailParlay 10', // 中南部 - 十不中(单式) - 三級選單
 
     2592: 'Head 2D & Special', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
