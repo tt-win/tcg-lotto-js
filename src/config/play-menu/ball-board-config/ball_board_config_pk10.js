@@ -141,6 +141,7 @@ export default {
       betDigits.PK10_FIFTH,
     ],
     ballShowPosition: ballShowPosition.FIRST_FIVE,
+    displayBallBonus: true, // 顯示各球的最高獎金
     prizeTypeMapping: {
       // 各球最高獎金的對應prize type
       0: 'P_BIG',
