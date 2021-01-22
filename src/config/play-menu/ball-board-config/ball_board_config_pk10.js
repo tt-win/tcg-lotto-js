@@ -162,6 +162,14 @@ export default {
       betDigits.PK10_TENTH,
     ],
     ballShowPosition: ballShowPosition.LAST_FIVE,
+    displayBallBonus: true, // 顯示各球的最高獎金
+    prizeTypeMapping: {
+      // 各球最高獎金的對應prize type
+      0: 'P_BIG',
+      1: 'P_SMALL',
+      2: 'P_ODD',
+      3: 'P_EVEN',
+    },
   }),
   //  First2SumBSOE_PK10
   1469: BallBoardConfigRecord({
@@ -170,6 +178,14 @@ export default {
     formula: 'oneBallOneNum',
     betDigits: [betDigits.FIRST2_SUM],
     ballShowPosition: ballShowPosition.FIRST_TWO,
+    displayBallBonus: true, // 顯示各球的最高獎金
+    prizeTypeMapping: {
+      // 各球最高獎金的對應prize type
+      0: 'P_BIG',
+      1: 'P_SMALL',
+      2: 'P_ODD',
+      3: 'P_EVEN',
+    },
   }),
   // Dragon_Tiger_1_VS_10
   1470: BallBoardConfigRecord({
