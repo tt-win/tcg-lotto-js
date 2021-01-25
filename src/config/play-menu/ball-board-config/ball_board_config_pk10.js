@@ -180,7 +180,7 @@ export default {
     formula: 'oneBallOneNum',
     betDigits: [betDigits.FIRST2_SUM],
     ballShowPosition: ballShowPosition.FIRST_TWO,
-    displayBallBonus: false, // 顯示各球的最高獎金
+    displayBallBonus: true, // 顯示各球的最高獎金
     boardClassNames: 'game-mid-size-ball',
     prizeTypeMapping: {
       // 各球最高獎金的對應prize type
