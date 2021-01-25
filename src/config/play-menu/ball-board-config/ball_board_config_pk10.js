@@ -141,7 +141,8 @@ export default {
       betDigits.PK10_FIFTH,
     ],
     ballShowPosition: ballShowPosition.FIRST_FIVE,
-    displayBallBonus: true, // 顯示各球的最高獎金
+    displayBallBonus: false, // 顯示各球的最高獎金
+    boardClassNames: 'game-mid-size-ball',
     prizeTypeMapping: {
       // 各球最高獎金的對應prize type
       0: 'P_BIG',
@@ -162,7 +163,8 @@ export default {
       betDigits.PK10_TENTH,
     ],
     ballShowPosition: ballShowPosition.LAST_FIVE,
-    displayBallBonus: true, // 顯示各球的最高獎金
+    displayBallBonus: false, // 顯示各球的最高獎金
+    boardClassNames: 'game-mid-size-ball',
     prizeTypeMapping: {
       // 各球最高獎金的對應prize type
       0: 'P_BIG',
@@ -178,7 +180,8 @@ export default {
     formula: 'oneBallOneNum',
     betDigits: [betDigits.FIRST2_SUM],
     ballShowPosition: ballShowPosition.FIRST_TWO,
-    displayBallBonus: true, // 顯示各球的最高獎金
+    displayBallBonus: false, // 顯示各球的最高獎金
+    boardClassNames: 'game-mid-size-ball',
     prizeTypeMapping: {
       // 各球最高獎金的對應prize type
       0: 'P_BIG',
