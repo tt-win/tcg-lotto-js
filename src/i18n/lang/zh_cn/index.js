@@ -482,6 +482,7 @@ const LANG = {
     zu6: '杂六',
     straight: '顺子',
     halfStraight: '半顺',
+    fan: '番',
   },
   zodiac: {
     1: '鼠',
@@ -581,6 +582,7 @@ const LANG = {
     maxCombo: '最大连出值',
     numerosCount: '期数',
     goBet: '投注去',
+    fan: '番',
     // LHC
     draw: '和局',
     totalSumOdd: '总和单',
