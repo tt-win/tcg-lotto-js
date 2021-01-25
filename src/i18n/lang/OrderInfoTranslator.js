@@ -1342,6 +1342,11 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Last_2_7th_North_VNC_Single, // 北部 二数头
         PlayMenu.Last_2_1st_8th_South_VNC_Single, // 中南部 二数头尾
         PlayMenu.Last_2_8th_South_VNC_Single, // 中南部 二数头
+
+        PlayMenu.Ten_Digit_1st_VNC, // 特等十位
+        PlayMenu.Unit_Digit_1st_VNC, // 特等个位
+        PlayMenu.Ten_Digit_2nd_VNC, // 一等十位
+        PlayMenu.Unit_Digit_2nd_VNC, // 一等个位
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ',')
     },
