@@ -483,6 +483,8 @@ const LANG = {
     straight: '顺子',
     halfStraight: '半顺',
     fan: '番',
+    fanBS: '番大小',
+    fanOE: '番单双',
   },
   zodiac: {
     1: '鼠',
