@@ -1522,6 +1522,7 @@ const LANG = {
   longDragonLott: '彩种类型',
   refresh: '刷新',
   longDragonContinuousDraw: '连%@期',
+  voucherCenter: '充值',
   twoSidePlay: {
     showAll: '全部',
     threeRow: '连三',
