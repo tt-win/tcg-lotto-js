@@ -1562,6 +1562,9 @@ const LANG = {
     seventhPrize: '七等奖',
     eighthPrize: '八等奖',
   },
+  betOpen: {
+    betOpen: '即投即开'
+  },
 
   ...BaseGame,
   ...ProTrendChart,
