@@ -1506,7 +1506,6 @@ const LANG = {
   betOpen: {
     betOpen: '即投即开',
   },
-
   ...BaseGame,
   ...ProTrendChart,
 };
