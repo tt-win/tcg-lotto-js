@@ -6,7 +6,6 @@ import { sscBothSideRank } from './play-ssc';
 import { pcbBothSideRank } from './play-pcb';
 import { k3BothSideRank } from './play-k3';
 import playRemark from './playRemark';
-import playRemarkSpecialRule from './playRemarkSpecialRule';
 
 const PlayMenu = {
   playId: {
@@ -1297,9 +1296,6 @@ const PlayMenu = {
   },
   playRemark: {
     ...playRemark,
-  },
-  playRemarkSpecialRule: {
-    ...playRemarkSpecialRule,
   },
   bothSideRank: {
     ...lhcBothSideRank,
