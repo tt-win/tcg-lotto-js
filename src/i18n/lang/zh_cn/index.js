@@ -483,6 +483,8 @@ const LANG = {
     straight: '顺子',
     halfStraight: '半顺',
     fan: '番',
+    fanBS: '番大小',
+    fanOE: '番单双',
   },
   zodiac: {
     1: '鼠',
@@ -791,6 +793,7 @@ const LANG = {
   winningAmount_daily: '今日输赢',
   ensure: '确定',
   cancel: '取消',
+  adding: '新增',
   date: '日期',
   time: '时间',
   lastTime: '剩余时间',
@@ -1520,6 +1523,7 @@ const LANG = {
   longDragonLott: '彩种类型',
   refresh: '刷新',
   longDragonContinuousDraw: '连%@期',
+  voucherCenter: '充值',
   twoSidePlay: {
     showAll: '全部',
     threeRow: '连三',
@@ -1559,6 +1563,7 @@ const LANG = {
     seventhPrize: '七等奖',
     eighthPrize: '八等奖',
   },
+  betThenDraw: '即投即开',
 
   ...BaseGame,
   ...ProTrendChart,

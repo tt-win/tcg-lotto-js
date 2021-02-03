@@ -58,26 +58,6 @@ const commaConfig = {
     PlayMenu.Any6_Dantuo_11X5,
     PlayMenu.Any7_Dantuo_11X5,
     PlayMenu.Any8_Dantuo_11X5,
-    PlayMenu.Last_3_Straight_THAI_Multi,
-    PlayMenu.Last_3_Combine_THAI_Multi,
-    PlayMenu['2_Straight_Add_THAI_Multi'],
-    PlayMenu.Last_2_Combine_THAI_Multi,
-    PlayMenu.Last_2_Straight_THAI_Multi,
-    PlayMenu.Any_Roll_Last_2_North_VNC_Multi,
-    PlayMenu.Any_Roll_Last_3_North_VNC_Multi,
-    PlayMenu.Any_Roll_Last_4_North_VNC_Multi,
-    PlayMenu.Any_Roll_Last_2_South_VNC_Multi,
-    PlayMenu.Any_Roll_Last_3_South_VNC_Multi,
-    PlayMenu.Any_Roll_Last_4_South_VNC_Multi,
-    PlayMenu.Last_4_Straight_1st_VNC_Multi,
-    PlayMenu.Last_3_Straight_1st_VNC_Multi,
-    PlayMenu.Last_3_Straight_1st_VNC_Single,
-    PlayMenu.Last_2_Straight_1st_VNC_Multi,
-    PlayMenu.Last_2_Straight_2nd_VNC_Multi,
-    PlayMenu.First_2_Straight_LAO_Multi,
-    PlayMenu.Last_3_Combine_LAO_Multi,
-    PlayMenu.Last_3_Straight_LAO_Multi,
-    PlayMenu.Last_4_Straight_LAO_Multi,
   ],
 };
 
@@ -1315,7 +1295,7 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
-  // 泰彩的投注內容
+  // 泰彩 & 越南彩的投注內容 
   const THAITranslator = {
     Thai: {
       items: [
@@ -1350,8 +1330,25 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu['4_Not_Winning_Numbers_North_VNC'],
         PlayMenu['8_Not_Winning_Numbers_North_VNC'],
         PlayMenu['10_Not_Winning_Numbers_North_VNC'],
+
+        PlayMenu.Bunch_2_North_VNC, // 北部 串2组
+        PlayMenu.Bunch_3_North_VNC, // 北部 串3组
+        PlayMenu.Bunch_4_North_VNC, // 北部 串4组
+        PlayMenu.Bunch_2_South_VNC, // 中南部 串2组
+        PlayMenu.Bunch_3_South_VNC, // 中南部 串3组
+        PlayMenu.Bunch_4_South_VNC, // 中南部 串4组
+
+        PlayMenu.Last_2_1st_7th_North_VNC_Single, // 北部 二数头尾
+        PlayMenu.Last_2_7th_North_VNC_Single, // 北部 二数头
+        PlayMenu.Last_2_1st_8th_South_VNC_Single, // 中南部 二数头尾
+        PlayMenu.Last_2_8th_South_VNC_Single, // 中南部 二数头
+
+        PlayMenu.Ten_Digit_1st_VNC, // 特等十位
+        PlayMenu.Unit_Digit_1st_VNC, // 特等个位
+        PlayMenu.Ten_Digit_2nd_VNC, // 一等十位
+        PlayMenu.Unit_Digit_2nd_VNC, // 一等个位
       ],
-      getText: (content) => (content || '').split(',')[0],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ',')
     },
     MULTI: {
       items: [
@@ -1376,7 +1373,7 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Last_3_Straight_LAO_Multi,
         PlayMenu.Last_4_Straight_LAO_Multi,
       ],
-      getText: (content = '') => content.split(',').filter((v) => v !== '').join('|'),
+      getText: (content = '') => content.split(',').filter((v) => v !== '').join(','),
     },
     FISH_PRAWN_CRAB: {
       items: [
