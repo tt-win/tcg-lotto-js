@@ -210,6 +210,7 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'Multiple bets exceeded the maximum limit.',
     GAME_CLOSED_ERROR: 'Lottery Closed',
     STAKES_ABOVE_LIMIT: 'Bet Stakes is over limit stakes > %@',
+    REQUEST_TIME_OUT: 'request time out, please check your internet',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',
