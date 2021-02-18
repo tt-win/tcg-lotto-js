@@ -139,6 +139,7 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'Multiple bets exceeded the maximum limit.',
     GAME_CLOSED_ERROR: 'Lottery Closed',
     STAKES_ABOVE_LIMIT: '베팅 말뚝이 한도 초과 > %@',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '%@ 베팅 번호 이후 동일한 두 자리로 판매가 허용되는 최대 판돈은 %@입니다',
   },
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',

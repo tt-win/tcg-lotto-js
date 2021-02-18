@@ -172,6 +172,8 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'đặt cược có hiệu lực của bạn vượt quá giới hạn trên cho phép',
     GAME_CLOSED_ERROR: 'trang đặt cược đã đóng',
     STAKES_ABOVE_LIMIT: 'Cược tối đa %@ tổng số vé cược.',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Đặt cược tối đa %@2/ số %@1 đối với các số có 2 chữ số cuối giống nhau.',
+
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',
