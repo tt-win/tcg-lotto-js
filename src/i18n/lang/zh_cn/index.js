@@ -273,6 +273,9 @@ const LANG = {
       '4_2': '4念2',
       '4_3': '4念3',
     },
+    sicBoAllSurroundDice: {
+      1: '全围',
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',

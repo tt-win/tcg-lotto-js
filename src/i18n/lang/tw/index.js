@@ -99,7 +99,10 @@ const LANG = {
       '4_1': '4念1',
       '4_2': '4念2',
       '4_3': '4念3',
-    }
+    },
+    sicBoAllSurroundDice: {
+      1: '全圍',
+    },
   },
 
     // TODO i18n
