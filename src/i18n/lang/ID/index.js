@@ -70,6 +70,9 @@ const LANG = {
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
     },
+    sicBoAllSurroundDice: {
+      1: 'Any Triple',
+    },
   },
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
@@ -139,6 +142,7 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'Multiple bets exceeded the maximum limit.',
     GAME_CLOSED_ERROR: 'Lottery Closed',
     STAKES_ABOVE_LIMIT: 'Taruhan Taruhan lebih dari batas taruhannya > %@',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Taruhan maksimum yang diizinkan untuk dijual dengan dua digit yang sama setelah nomor taruhan %@ adalah %@.',
   },
   drawFrequency: 'Frekuensi the draw',
   chooseFile: 'unggah data',

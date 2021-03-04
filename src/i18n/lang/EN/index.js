@@ -102,6 +102,9 @@ const LANG = {
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
     },
+    sicBoAllSurroundDice: {
+      1: 'Any Triple',
+    },
   },
 
   prizeListPrizeType: {
@@ -210,6 +213,8 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'Multiple bets exceeded the maximum limit.',
     GAME_CLOSED_ERROR: 'Lottery Closed',
     STAKES_ABOVE_LIMIT: 'Bet Stakes is over limit stakes > %@',
+    REQUEST_TIME_OUT: 'request time out, please check your internet',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Stakes is over limit stakes > %@2',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',

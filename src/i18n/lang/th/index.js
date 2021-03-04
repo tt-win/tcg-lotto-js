@@ -97,6 +97,9 @@ const LANG = {
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
     },
+    sicBoAllSurroundDice: {
+      1: 'Any Triple',
+    },
   },
 
   // TODO i18n
@@ -167,6 +170,7 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'LGS_BETTING_MULTIPLE_OVER_LIMITS',
     GAME_CLOSED_ERROR: 'หวยปิดรับแทง',
     STAKES_ABOVE_LIMIT: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด > %@',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'จำนวนเงินเดิมพันสูงสุดที่อนุญาตให้ขายได้ด้วยตัวเลขสองหลักเดียวกันหลังหมายเลขเดิมพัน %@ คือ %@',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',

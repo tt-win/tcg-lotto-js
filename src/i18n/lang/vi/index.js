@@ -98,6 +98,9 @@ const LANG = {
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
     },
+    sicBoAllSurroundDice: {
+      1: 'Any Triple',
+    },
   },
 
 
@@ -172,6 +175,8 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'đặt cược có hiệu lực của bạn vượt quá giới hạn trên cho phép',
     GAME_CLOSED_ERROR: 'trang đặt cược đã đóng',
     STAKES_ABOVE_LIMIT: 'Cược tối đa %@ tổng số vé cược.',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Đặt cược tối đa %@2/ số %@1 đối với các số có 2 chữ số cuối giống nhau.',
+
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',
@@ -227,7 +232,7 @@ const LANG = {
   chooseFile: 'tải lên',
   filterRepeat: 'Xóa số trùng lặp',
   betsNTotalAmount: 'Đã chọn<div class="font-bold">%@</div>số，Số Tiền Cược<div class="font-bold">%@</div>，',
-  predictionAmount: 'Tỷ Lệ Cược<div class="red-words">%@</div>',
+  predictionAmount: 'Tiền thắng<div class="red-words">%@</div>',
   willWin: 'Tỷ Lệ Cược',
   filterResultMsg: 'trùng lặp %@ không hợp lệ %@',
   odds: 'Tỉ lệ',

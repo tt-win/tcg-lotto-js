@@ -60,6 +60,8 @@ const PlayMenu = {
     2300: 'FishPrawnCrab', // 魚蝦蟹
     2488: 'FanTan', // 番摊
 
+    2618: 'Sic Bo Fast3', // 骰寶快三
+
     // 二級選單
 
     2091: 'EXACT', // 四数 上正
@@ -75,6 +77,12 @@ const PlayMenu = {
     2491: 'Kwok', // 角
     2493: 'Nim', // 念
     2495: 'BSOE', // 大小单双
+
+    2619: 'Single Dice Bet', // 骰寶快三 - 单骰
+    2620: 'Three Dice Total', // 骰寶快三 - 和值
+    2621: 'Triple', // 骰寶快三 - 围骰
+    2622: 'Any Triple ', // 骰寶快三 - 全围
+    2623: 'BSOE', // 骰寶快三 - 大小单双
 
     2516: 'Last 2D of AnyResult', // 北部 后二包胆
     2520: 'Last 3D of AnyResult', // 北部 后三包胆

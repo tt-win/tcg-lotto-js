@@ -99,7 +99,10 @@ const LANG = {
       '4_1': '4念1',
       '4_2': '4念2',
       '4_3': '4念3',
-    }
+    },
+    sicBoAllSurroundDice: {
+      1: '全圍',
+    },
   },
 
     // TODO i18n
@@ -177,6 +180,7 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: '您的倍數超過允許的上限',
     GAME_CLOSED_ERROR: '投注彩種已關閉',
     STAKES_ABOVE_LIMIT: '投注注數已超過%@注允许的上限',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注號碼%@後二位相同數字每期允許銷售的最大投注數額%@元。',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',

@@ -6,7 +6,6 @@ import { sscBothSideRank } from './play-ssc';
 import { pcbBothSideRank } from './play-pcb';
 import { k3BothSideRank } from './play-k3';
 import playRemark from './playRemark';
-import playRemarkSpecialRule from './playRemarkSpecialRule';
 
 const PlayMenu = {
   playId: {
@@ -667,6 +666,8 @@ const PlayMenu = {
     2300: '鱼虾蟹', // 魚蝦蟹
     2488: '番摊', // 番摊
 
+    2618: '骰寶快三', // 骰寶快三
+
     // 二級選單
 
     2091: '上正', // 四数 上正
@@ -682,6 +683,12 @@ const PlayMenu = {
     2491: '角', // 角
     2493: '念', // 念
     2495: '大小单双', // 大小单双
+
+    2619: '单骰', // 骰寶快三 - 单骰
+    2620: '和值', // 骰寶快三 - 和值
+    2621: '围骰', // 骰寶快三 - 围骰
+    2622: '全围', // 骰寶快三 - 全围
+    2623: '大小单双', // 骰寶快三 - 大小单双
 
     2516: '后二包胆', // 北部 后二包胆
     2520: '后三包胆', // 北部 后三包胆
@@ -1296,9 +1303,6 @@ const PlayMenu = {
   },
   playRemark: {
     ...playRemark,
-  },
-  playRemarkSpecialRule: {
-    ...playRemarkSpecialRule,
   },
   bothSideRank: {
     ...lhcBothSideRank,

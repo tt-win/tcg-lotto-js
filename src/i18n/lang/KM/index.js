@@ -97,6 +97,9 @@ const LANG = {
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
     },
+    sicBoAllSurroundDice: {
+      1: 'Any Triple',
+    },
   },
 
     // TODO i18n
@@ -168,6 +171,7 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'ភ្នាល់លើសចំនួនអតិបរមាដែលបានកំណត់',
     GAME_CLOSED_ERROR: 'អិលជីអេស-ការភ្នាល់ឆ្នោតត្រូវបានបិទ-បរាជ័យ',
     STAKES_ABOVE_LIMIT: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ > %@',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'จำนวนเงินเดิมพันสูงสุดที่อนุญาตให้ขายได้ด้วยตัวเลขสองหลักเดียวกันหลังหมายเลขเดิมพัน %@ คือ  %@',
   },
   gameHistoryCancel: 'ប្រវត្តិល្បែងត្រូវបានលុប',
   gameHistoryCancel_success: 'ប្រវត្តិល្បែងត្រូវបានលុបដោយ-ជោគជ័យ',

@@ -273,6 +273,9 @@ const LANG = {
       '4_2': '4念2',
       '4_3': '4念3',
     },
+    sicBoAllSurroundDice: {
+      1: '全围',
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',
@@ -391,7 +394,6 @@ const LANG = {
     LGS_BETTING_MODE_CLOSED_ERROR: '投注模式关闭不允许投注',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: '不允许使用此投注模式',
     SYSTEM_NOT_ALLOW_BETTING: '本期已封盘，请待下一期开始',
-    SYSTEM_NOT_ALLOW_CHASE: '游戏不允许追号',
     BETTING_ITEM_LIMIT: '订单内容超出系统限制',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: '订单已经锁定，无法撤单',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: '您的彩票余额不足',
@@ -430,7 +432,6 @@ const LANG = {
     ORDER_PRIZE_NOT_FOUND_ERROR: '奖金读取失败，请稍后再试!',
     ORDER_SAVED_FAILED: '订单读取失败，请稍后再试!',
     PLATFORM_SETTING_NOT_FOUND_ERROR: '玩法维护中，请稍后再试!',
-    NOT_AVAILABLE_FOR_SALE_ERROR: '玩法维护中，请稍后再试!',
     PLAY_NOT_FOUND_ERROR: '玩法维护中，请稍后再试!',
     GAME_SETTING_NOT_FOUND: '玩法维护中，请稍后再试!',
     GAME_DRWW_TIME_PARSE_ERROR: '开奖时间读取失败，请稍后再试!',
@@ -446,6 +447,8 @@ const LANG = {
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: '您的倍数超过允许的上限',
     GAME_CLOSED_ERROR: '投注彩种已关闭',
     STAKES_ABOVE_LIMIT: '投注注数已超过%@注允许的上限',
+    REQUEST_TIME_OUT: '您的网路不给力，请稍后再试！',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注号码%@后二位相同数字每期允许销售的最大投注数额%@元。',
   },
   chasingStatus: {
     All: '全部',
@@ -793,6 +796,7 @@ const LANG = {
   winningAmount_daily: '今日输赢',
   ensure: '确定',
   cancel: '取消',
+  adding: '新增',
   date: '日期',
   time: '时间',
   lastTime: '剩余时间',
