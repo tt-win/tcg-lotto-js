@@ -98,7 +98,7 @@ const LANG = {
       '4_3': '4 Nim 3',
     },
     sicBoAllSurroundDice: {
-      1: 'Any Triple',
+      1: 'แทงลูกตองรวม',
     },
   },
 
