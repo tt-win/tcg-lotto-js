@@ -124,6 +124,7 @@ const PlayMenu = {
     2097: 'EXACT 3D-Special', // 上正三位数 Last_3_Straight_1st_VNC
     2099: 'ANY 3D-Special', // 上反三位数 Last_3_Combine_1st_VNC
     2102: 'EXACT 2D-Special', // 上正二位数 Last_2_Straight_1st_VNC
+    2104: 'EXACT 2D-1st', // 下正二位数 Last_2_Straight_2nd_VNC
     2107: 'ANY 1D-Special', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'ANY 1D-1st', // 下跑两位数 Last_2_Any_2nd_VNC
 
