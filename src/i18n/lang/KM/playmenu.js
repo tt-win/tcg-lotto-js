@@ -119,7 +119,7 @@ const PlayMenu = {
     2097: 'តួលេខបីខ្ទង់', // 上正三位数 Last_3_Straight_1st_VNC
     2099: 'លេខបីខ្ទង់លើ', // 上反三位数 Last_3_Combine_1st_VNC
     2102: 'តួលេខពីរខ្ទង់', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: 'អវិជ្ជមានលេខពីរខ្ទង់', // 下正二位数 Last_2_Straight_2nd_VNC
+    2104: 'EXACT 2D-1st', // 下正二位数 Last_2_Straight_2nd_VNC
     2107: 'រត់ពីរខ្ទង់', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 Last_2_Any_2nd_VNC
 
@@ -203,8 +203,8 @@ const PlayMenu = {
 
     2279: 'Norm EXACT 2D-1st', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: 'Manual Enter EXACT 2D-1st', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2281: 'Norm ANY 3D-2nd', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
-    2282: 'Manual Enter ANY 3D-2nd', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
+    2281: 'Norm EXACT 2D-1st', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2282: 'Manual Enter EXACT 2D-1st', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
     // LAO 老挝彩
     2127: '4D', // 四数

@@ -122,7 +122,7 @@ const PlayMenu = {
     2097: 'Tiga digit berurutan - 1st', // 上正三位数 Last_3_Straight_1st_VNC
     2099: 'Tiga digit tanpa urutan - 1st', // 上反三位数 Last_3_Combine_1st_VNC
     2102: 'Dua digit berurutan - 1st', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: 'Tiga digit tanpa urutan - 2nd', // 下正二位数 Last_2_Straight_2nd_VNC
+    2104: 'EXACT 2D-1st', // 下正二位数 Last_2_Straight_2nd_VNC
     2107: 'Satu digit tanpa urutan - 1st', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'Satu digit tanpa urutan - 2nd', // 下跑两位数 Last_2_Any_2nd_VNC
 
@@ -206,8 +206,8 @@ const PlayMenu = {
 
     2279: 'Norm EXACT 2D-1st', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: 'Manual Dua digit berurutan - 1st', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2281: 'Norma Tiga digit tanpa urutan - 2nd', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
-    2282: 'Manual Tiga digit tanpa urutan - 2nd', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
+    2281: 'Norm EXACT 2D-1st', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2282: 'Manual Enter EXACT 2D-1st', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
     // LAO 老挝彩
     2127: 'Empat digit',
