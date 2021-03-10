@@ -276,6 +276,11 @@ const LANG = {
     sicBoAllSurroundDice: {
       1: '全围',
     },
+    sicBoDiceOdds: {
+      1: '单骰',
+      2: '双骰',
+      3: '三骰',
+    },
   },
   gameGroupCode: {
     SSC: '时时彩',

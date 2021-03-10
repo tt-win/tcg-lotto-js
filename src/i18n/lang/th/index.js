@@ -100,6 +100,11 @@ const LANG = {
     sicBoAllSurroundDice: {
       1: 'ตองใดๆ',
     },
+    sicBoDiceOdds: {
+      1: 'ONE DICE',
+      2: 'TWO DICE',
+      3: 'THREE DICE',
+    },
   },
 
   // TODO i18n

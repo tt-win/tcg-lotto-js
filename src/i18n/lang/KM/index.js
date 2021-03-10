@@ -100,9 +100,14 @@ const LANG = {
     sicBoAllSurroundDice: {
       1: 'Any Triple',
     },
+    sicBoDiceOdds: {
+      1: 'ONE DICE',
+      2: 'TWO DICE',
+      3: 'THREE DICE',
+    },
   },
 
-    // TODO i18n
+  // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'អិលជីអេស-ការភ្នាល់ឆ្នោតត្រូវបានបិទ-បរាជ័យ',
     LGS_BETTING_GAME_FESTIVAL_ERROR: 'អិលជីអេស-ការភ្នាល់ឆ្នោតនៃពិធីបុណ្យ-បរាជ័យ',

@@ -73,7 +73,13 @@ const LANG = {
     sicBoAllSurroundDice: {
       1: 'Any Triple',
     },
+    sicBoDiceOdds: {
+      1: 'ONE DICE',
+      2: 'TWO DICE',
+      3: 'THREE DICE',
+    },
   },
+
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
     LGS_BETTING_GAME_FESTIVAL_ERROR: 'Lottery Closed',

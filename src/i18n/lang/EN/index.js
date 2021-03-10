@@ -105,6 +105,11 @@ const LANG = {
     sicBoAllSurroundDice: {
       1: 'Any Triple',
     },
+    sicBoDiceOdds: {
+      1: 'ONE DICE',
+      2: 'TWO DICE',
+      3: 'THREE DICE',
+    },
   },
 
   prizeListPrizeType: {
@@ -145,7 +150,7 @@ const LANG = {
     2: 'BAR',
   },
 
-    // TODO i18n
+  // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
     LGS_BETTING_GAME_FESTIVAL_ERROR: 'Lottery Closed',
@@ -179,7 +184,7 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit stakes',
-//  VN
+    //  VN
     ORDER_ALREADY_CANCELED: 'The bet has been cancelled.',
     STAKES_IS_OVER_LIMIT_ERROR: 'Bet Stakes is over limit stakes',
     BALANCE_NOT_ENOUGH_ERROR: 'Insufficient Balance',

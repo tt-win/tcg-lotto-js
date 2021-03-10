@@ -103,9 +103,14 @@ const LANG = {
     sicBoAllSurroundDice: {
       1: '全圍',
     },
+    sicBoDiceOdds: {
+      1: '單骰',
+      2: '雙骰',
+      3: '三骰',
+    },
   },
 
-    // TODO i18n
+  // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩種已關閉',
     LGS_BETTING_GAME_FESTIVAL_ERROR: '投注彩種已關閉',
@@ -144,7 +149,8 @@ const LANG = {
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中獎即停不可使用',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此號碼已超出當前期購買額度，請與客服聯繫',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注數已超過允許的上限',
-// VN
+
+    // VN
     ORDER_ALREADY_CANCELED: '該訂單已經撤單',
     STAKES_IS_OVER_LIMIT_ERROR: '投注注數已超過允許的上限',
     BALANCE_NOT_ENOUGH_ERROR: '餘額不足',
@@ -208,7 +214,7 @@ const LANG = {
   gameContent: '玩法內容',
   odds1Time: '獎金/注',
   betAmount: '注數',
-  
+
   drawPrize: {
     specialPrize: '特等獎',
     firstPrize: '一等獎',

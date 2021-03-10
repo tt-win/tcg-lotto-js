@@ -42,7 +42,7 @@ const LANG = {
     orderStatus_99: '注文無効',
   },
 
-    // TODO i18n
+  // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '宝くじ終了。',
     LGS_BETTING_GAME_FESTIVAL_ERROR: '宝くじ終了。',

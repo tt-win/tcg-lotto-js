@@ -101,8 +101,12 @@ const LANG = {
     sicBoAllSurroundDice: {
       1: 'Bộ3bấtkỳ',
     },
+    sicBoDiceOdds: {
+      1: 'ONE DICE',
+      2: 'TWO DICE',
+      3: 'THREE DICE',
+    },
   },
-
 
   // TODO i18n
   errorCode: {
@@ -139,7 +143,7 @@ const LANG = {
     NOT_SUPPORT_LANDSCAPE: 'không hỗ trợ để ngang màn hình',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Cược đặt cược vượt quá giới hạn',
 
-// VN
+    // VN
     ORDER_ALREADY_CANCELED: 'đơn hàng này đã rút đơn',
     STAKES_IS_OVER_LIMIT_ERROR: 'Cược đặt cược vượt quá giới hạn',
     BALANCE_NOT_ENOUGH_ERROR: 'Không Đủ Số Dư Để Đặt Cược',
