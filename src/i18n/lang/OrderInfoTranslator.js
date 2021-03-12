@@ -1411,6 +1411,22 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content) => i18n(`ball.fanTanNian.${content.replace('0', '4').split('').join('_')}`),
     },
+    
+    SICBO_ALL_SURROUND: {
+      items: [
+        PlayMenu.All_Surround_Dice_Main_VK3,
+      ],
+      getText: (content) => i18n(`ball.sicBoAllSurroundDice.${content}`),
+    },
+
+    SICBO_OTHER: {
+      items: [
+        PlayMenu.Single_Dice_Main_VK3,
+        PlayMenu.Dice_Sum_Main_VK3,
+        PlayMenu.Surround_Dice_Main_VK3,
+      ],
+      getText: (content) => content,
+    },
   };
 
   const LFTranslator = {
@@ -1559,6 +1575,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fan_Tan_BSOE_THAI,
         PlayMenu.Fan_Tan_BSOE_VNC,
         PlayMenu.Fan_Tan_BSOE_LAO,
+
+        // SICBO
+        PlayMenu.Dice_BSOE_Main_VK3,
       ],
       getText: (content) =>
         content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -1814,9 +1833,12 @@ const OrderInfoTranslator = {
       return '';
     }
     const OrderInfoTranslatorList = getOrderInfoTranslatorList(lang);
+    console.log(OrderInfoTranslatorList);
 
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
+    console.log(translator);
     const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
+    console.log(noFilter);
     if (translator) {
       if (noFilter) {
         return translator.getText(bettingContent);
