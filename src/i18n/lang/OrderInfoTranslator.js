@@ -1832,13 +1832,11 @@ const OrderInfoTranslator = {
     if (!playId || !bettingContent) {
       return '';
     }
-    const OrderInfoTranslatorList = getOrderInfoTranslatorList(lang);
-    console.log(OrderInfoTranslatorList);
 
+    const OrderInfoTranslatorList = getOrderInfoTranslatorList(lang);
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
-    console.log(translator);
     const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
-    console.log(noFilter);
+
     if (translator) {
       if (noFilter) {
         return translator.getText(bettingContent);
