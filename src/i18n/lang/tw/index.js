@@ -187,6 +187,7 @@ const LANG = {
     GAME_CLOSED_ERROR: '投注彩種已關閉',
     STAKES_ABOVE_LIMIT: '投注注數已超過%@注允许的上限',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注號碼%@後二位相同數字每期允許銷售的最大投注數額%@元。',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注號碼%@達到當前庫存允許銷售的最大投注數額。',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',

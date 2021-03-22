@@ -454,6 +454,7 @@ const LANG = {
     STAKES_ABOVE_LIMIT: '投注注数已超过%@注允许的上限',
     REQUEST_TIME_OUT: '您的网路不给力，请稍后再试！',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注号码%@后二位相同数字每期允许销售的最大投注数额%@元。',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注号码%@达到当前庫存允许销售的最大投注数额。',
   },
   chasingStatus: {
     All: '全部',

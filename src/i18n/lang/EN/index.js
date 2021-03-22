@@ -220,6 +220,7 @@ const LANG = {
     STAKES_ABOVE_LIMIT: 'Bet Stakes is over limit stakes > %@',
     REQUEST_TIME_OUT: 'request time out, please check your internet',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Stakes is over limit stakes > %@2',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'No.%@ .Already betting limit amount exceeded out of stock.',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',

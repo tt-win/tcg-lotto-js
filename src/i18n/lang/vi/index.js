@@ -180,6 +180,7 @@ const LANG = {
     GAME_CLOSED_ERROR: 'trang đặt cược đã đóng',
     STAKES_ABOVE_LIMIT: 'Cược tối đa %@ tổng số vé cược.',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Đặt cược tối đa %@2/ số %@1 đối với các số có 2 chữ số cuối giống nhau.',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'số %@ đặt cược đã đạt mức tối đa trong kho, Bạn có thể đặt cược cho lượt sau.',
 
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',

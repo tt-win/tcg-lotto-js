@@ -149,6 +149,7 @@ const LANG = {
     GAME_CLOSED_ERROR: 'Lottery Closed',
     STAKES_ABOVE_LIMIT: 'Taruhan Taruhan lebih dari batas taruhannya > %@',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Taruhan maksimum yang diizinkan untuk dijual dengan dua digit yang sama setelah nomor taruhan %@ adalah %@.',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'No.%@. Jumlah batas taruhan sudah melebihi dari stok.',
   },
   drawFrequency: 'Frekuensi the draw',
   chooseFile: 'unggah data',
