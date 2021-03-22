@@ -176,6 +176,7 @@ const LANG = {
     GAME_CLOSED_ERROR: 'หวยปิดรับแทง',
     STAKES_ABOVE_LIMIT: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด > %@',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'จำนวนเงินเดิมพันสูงสุดที่อนุญาตให้ขายได้ด้วยตัวเลขสองหลักเดียวกันหลังหมายเลขเดิมพัน %@ คือ %@',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '%@ เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้าคงคลังเป็นศูนย์',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',
