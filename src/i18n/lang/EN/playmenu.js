@@ -62,6 +62,10 @@ const PlayMenu = {
 
     2618: 'Sic Bo Fast3', // 骰寶快三
 
+    2624: 'Ranking', // 极速PK10 - 第1-10名排名
+    2627: 'Sum of 1st & 2nd', // 极速PK10 - 冠亚和值
+    2630: 'Dragon&Tiger', // 极速PK10 - 龙虎斗
+
     // 二級選單
 
     2091: 'EXACT', // 四数 上正
@@ -83,6 +87,12 @@ const PlayMenu = {
     2621: 'Triple', // 骰寶快三 - 围骰
     2622: 'Any Triple ', // 骰寶快三 - 全围
     2623: 'BSOE', // 骰寶快三 - 大小单双
+
+    2625: 'Ranking', // 极速PK10 - 第1-10名排名-二級選單
+    2626: '1-10 BSOE', // 极速PK10 - 第1-10名-大小单双
+    2628: 'Sum of 1st & 2nd', // 极速PK10 - 冠亚和值-二級選單
+    2629: 'BSOE1&2 of Sum', // 极速PK10 - 冠亚和值-大小单双
+    2631: 'Dragon&Tiger', // 极速PK10 - 龙虎斗-二級選單
 
     2516: 'Last 2D of AnyResult', // 北部 后二包胆
     2520: 'Last 3D of AnyResult', // 北部 后三包胆

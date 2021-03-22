@@ -918,6 +918,10 @@ export const PlayMenu = {
 
   SicBO_VK3: 2618, // 骰寶快三
 
+  First_To_Tenth_VPK10: 2624, // 极速PK10 - 第1-10名排名
+  First_Second_Sum_VPK10: 2627, // 极速PK10 - 冠亚和值
+  Dragon_Tiger_VPK10: 2630, // 极速PK10 - 龙虎斗
+
   // 二級選單
 
   Single_Dice_Main_VK3: 2619, // 骰寶快三 - 单骰
@@ -925,6 +929,12 @@ export const PlayMenu = {
   Surround_Dice_Main_VK3: 2621, // 骰寶快三 - 围骰
   All_Surround_Dice_Main_VK3: 2622, // 骰寶快三 - 全围
   Dice_BSOE_Main_VK3: 2623, // 骰寶快三 - 大小单双
+
+  First_To_Tenth_Guess_Rank_VPK10: 2625, // 极速PK10 - 第1-10名排名-二級選單
+  First_To_Tenth_BSOE_VPK10: 2626, // 极速PK10 - 第1-10名-大小单双
+  First_Second_Sum_Main_VPK10: 2628, // 极速PK10 - 冠亚和值-二級選單
+  First_Second_Sum_BSOE_VPK10: 2629, // 极速PK10 - 冠亚和值-大小单双
+  Dragon_Tiger_Main_PK10: 2631, // 极速PK10 - 龙虎斗-二級選單
 
   // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
   LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
