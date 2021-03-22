@@ -808,6 +808,8 @@ const LANG = {
   lastTime: '剩余时间',
   to: '到',
   game: '游戏',
+  duplicateDrawBack: '多选撤单',
+  duplicateDrawBackCheck: '是否进行撤单？',
   order: '订单',
   lock: '锁定',
   numeroAbbreviation: '期号',
