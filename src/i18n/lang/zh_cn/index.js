@@ -810,6 +810,7 @@ const LANG = {
   game: '游戏',
   duplicateDrawBack: '多选撤单',
   duplicateDrawBackCheck: '是否进行撤单？',
+  duplicate: '多选',
   order: '订单',
   lock: '锁定',
   numeroAbbreviation: '期号',
