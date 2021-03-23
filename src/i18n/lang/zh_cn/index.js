@@ -157,6 +157,12 @@ const LANG = {
       even: '双',
       tie: '和', // pk10 冠亞和值
     },
+    K3_BSOE: {
+      big: '大',
+      small: '小',
+      odd: '单',
+      even: '双',
+    },
     OECounts: {
       '05': '0单5双',
       14: '1单4双',

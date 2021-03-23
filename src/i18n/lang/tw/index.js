@@ -74,6 +74,12 @@ const LANG = {
       even: '雙',
       tie: '和', // pk10 冠亞和值
     },
+    K3_BSOE: {
+      big: '大',
+      small: '小',
+      odd: '單',
+      even: '雙',
+    },
     fanTanFan: {
       1: '1番',
       2: '2番',

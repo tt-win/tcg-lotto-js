@@ -71,6 +71,12 @@ const LANG = {
       odd: 'คี่',
       even: 'คู่',
     },
+    K3_BSOE: {
+      big: 'ใหญ่',
+      small: 'เล็ก',
+      odd: 'คี่',
+      even: 'คู่',
+    },
     fanTanFan: {
       1: '1 Fan',
       2: '2 Fan',

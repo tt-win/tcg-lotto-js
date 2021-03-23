@@ -76,6 +76,12 @@ const LANG = {
       odd: 'Odd',
       even: 'Even',
     },
+    K3_BSOE: {
+      big: 'Big',
+      small: 'Small ',
+      odd: 'Odd',
+      even: 'Even',
+    },
     fanTanFan: {
       1: '1 Fan',
       2: '2 Fan',
