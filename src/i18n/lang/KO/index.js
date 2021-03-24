@@ -45,10 +45,10 @@ const LANG = {
       even: '짝수 베팅',
     },
     K3_BSOE: {
-      big: '빅 베팅',
-      small: '스몰 베팅',
-      odd: '홀수 베팅',
-      even: '짝수 베팅',
+      big: 'Big',
+      small: 'Small ',
+      odd: 'Odd',
+      even: 'Even',
     },
     fanTanFan: {
       1: '1 Fan',
