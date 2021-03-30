@@ -46,7 +46,13 @@ const LANG = {
     },
     K3_BSOE: {
       big: 'Big',
-      small: 'Small ',
+      small: 'Small',
+      odd: 'Odd',
+      even: 'Even',
+    },
+    PK10_BSOE: {
+      big: 'Big',
+      small: 'Small',
       odd: 'Odd',
       even: 'Even',
     },

@@ -78,6 +78,12 @@ const LANG = {
       odd: 'Lẻ',
       even: 'Chẵn',
     },
+    PK10_BSOE: {
+      big: 'Tài',
+      small: 'Xỉu',
+      odd: 'Lẻ',
+      even: 'Chẵn',
+    },
     fanTanFan: {
       1: '1 Fan',
       2: '2 Fan',

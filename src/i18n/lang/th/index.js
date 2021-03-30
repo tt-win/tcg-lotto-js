@@ -77,6 +77,12 @@ const LANG = {
       odd: 'คี่',
       even: 'คู่',
     },
+    PK10_BSOE: {
+      big: 'สูง',
+      small: 'ต่ำ',
+      odd: 'คี่',
+      even: 'คู่',
+    },
     fanTanFan: {
       1: '1 Fan',
       2: '2 Fan',

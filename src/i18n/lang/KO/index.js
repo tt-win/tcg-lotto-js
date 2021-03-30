@@ -46,9 +46,15 @@ const LANG = {
     },
     K3_BSOE: {
       big: 'Big',
-      small: 'Small ',
+      small: 'Small',
       odd: 'Odd',
       even: 'Even',
+    },
+    PK10_BSOE: {
+      big: '빅',
+      small: '스몰',
+      odd: '홀수',
+      even: '짝수',
     },
     fanTanFan: {
       1: '1 Fan',

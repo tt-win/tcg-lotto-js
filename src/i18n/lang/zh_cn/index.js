@@ -163,6 +163,12 @@ const LANG = {
       odd: '单',
       even: '双',
     },
+    K3_BSOE: {
+      big: '大',
+      small: '小',
+      odd: '单',
+      even: '双',
+    },
     OECounts: {
       '05': '0单5双',
       14: '1单4双',
