@@ -96,6 +96,9 @@ const LANG = {
       odd: 'Lẻ',
       even: 'Chẵn',
     },
+    VNC_PK10_DragonTiger: {
+      dragonTiger: 'Rồng vs Hổ',
+    },
     fanTanFan: {
       1: '1 Fan',
       2: '2 Fan',

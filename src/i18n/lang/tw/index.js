@@ -92,17 +92,20 @@ const LANG = {
       odd: '單',
       even: '雙',
     },
-    fanTanFan: {
-      1: '1番',
-      2: '2番',
-      3: '3番',
-      4: '4番',
-    },
     PK10_BSOE: {
       big: '大',
       small: '小',
       odd: '單',
       even: '雙',
+    },
+    VNC_PK10_DragonTiger: {
+      dragonTiger: '龍虎鬥',
+    },
+    fanTanFan: {
+      1: '1番',
+      2: '2番',
+      3: '3番',
+      4: '4番',
     },
     fanTanJiao: {
       '1_2': '1-2角',

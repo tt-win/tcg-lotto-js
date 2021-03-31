@@ -68,6 +68,9 @@ const LANG = {
       odd: '홀수',
       even: '짝수',
     },
+    VNC_PK10_DragonTiger: {
+      dragonTiger: 'Dragon&Tiger',
+    },
     fanTanFan: {
       1: '1 Fan',
       2: '2 Fan',

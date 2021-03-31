@@ -175,11 +175,14 @@ const LANG = {
       odd: '单',
       even: '双',
     },
-    K3_BSOE: {
+    PK10_BSOE: {
       big: '大',
       small: '小',
       odd: '单',
       even: '双',
+    },
+    VNC_PK10_DragonTiger: {
+      dragonTiger: '龙虎斗',
     },
     OECounts: {
       '05': '0单5双',

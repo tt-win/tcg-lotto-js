@@ -100,6 +100,9 @@ const LANG = {
       odd: 'Odd',
       even: 'Even',
     },
+    VNC_PK10_DragonTiger: {
+      dragonTiger: 'Dragon&Tiger',
+    },
     fanTanFan: {
       1: '1 Fan',
       2: '2 Fan',
