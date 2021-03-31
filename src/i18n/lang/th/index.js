@@ -59,6 +59,18 @@ const LANG = {
     even: 'คู่',
     clear: 'ล้างข้',
   },
+  pk10Ranking: {
+    1: '1st',
+    2: '2nd',
+    3: '3rd',
+    4: '4th',
+    5: '5th',
+    6: '6th',
+    7: '7th',
+    8: '8th',
+    9: '9th',
+    10: '10th',
+  },
   ball: {
     fishPrawnCrab: {
       fish: 'ปลาเล็ก',
@@ -82,6 +94,10 @@ const LANG = {
       small: 'ต่ำ',
       odd: 'คี่',
       even: 'คู่',
+    },
+    VNC_PK10_DragonTiger: {
+      dragon: 'Dragon',
+      tiger: 'Tiger',
     },
     fanTanFan: {
       1: '1 Fan',

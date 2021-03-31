@@ -60,6 +60,18 @@ const LANG = {
     even: 'Chẵn',
     clear: 'Xóa',
   },
+  pk10Ranking: {
+    1: 'Thứ 1',
+    2: 'Thứ 2',
+    3: 'Thứ 3',
+    4: 'Thứ 4',
+    5: 'Thứ 5',
+    6: 'Thứ 6',
+    7: 'Thứ 7',
+    8: 'Thứ 8',
+    9: 'Thứ 9',
+    10: 'Thứ 10',
+  },
   ball: {
     fishPrawnCrab: {
       fish: 'cá',
@@ -83,6 +95,10 @@ const LANG = {
       small: 'Xỉu',
       odd: 'Lẻ',
       even: 'Chẵn',
+    },
+    VNC_PK10_DragonTiger: {
+      dragon: 'Rồng',
+      tiger: 'Hổ',
     },
     fanTanFan: {
       1: '1 Fan',

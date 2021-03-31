@@ -61,6 +61,18 @@ const LANG = {
     even: '偶',
     clear: '清',
   },
+  pk10Ranking: {
+    1: '第1名',
+    2: '第2名',
+    3: '第3名',
+    4: '第4名',
+    5: '第5名',
+    6: '第6名',
+    7: '第7名',
+    8: '第8名',
+    9: '第9名',
+    10: '第10名',
+  },
   ball: {
     fishPrawnCrab: {
       fish: '魚',
@@ -80,17 +92,21 @@ const LANG = {
       odd: '單',
       even: '雙',
     },
-    fanTanFan: {
-      1: '1番',
-      2: '2番',
-      3: '3番',
-      4: '4番',
-    },
     PK10_BSOE: {
       big: '大',
       small: '小',
       odd: '單',
       even: '雙',
+    },
+    VNC_PK10_DragonTiger: {
+      dragon: '龍',
+      tiger: '虎',
+    },
+    fanTanFan: {
+      1: '1番',
+      2: '2番',
+      3: '3番',
+      4: '4番',
     },
     fanTanJiao: {
       '1_2': '1-2角',
