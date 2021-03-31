@@ -163,12 +163,6 @@ const LANG = {
       odd: '单',
       even: '双',
     },
-    K3_BSOE: {
-      big: '大',
-      small: '小',
-      odd: '单',
-      even: '双',
-    },
     OECounts: {
       '05': '0单5双',
       14: '1单4双',
@@ -916,8 +910,8 @@ const LANG = {
 请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetPlaceHolder_h5:
     '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]、["|"]隔开，请导入TXT文件丶复制或者输入支持格式如下：',
-  manualBetPlaceHolder_2Digit_h5: `每注之间可以用回车丶逗号[,]或者分号[;]、["|"]，请导入TXT文件丶隔开复制或者输入支持格式如下：`,
-  manualBetPlaceHolderSEA: `每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开\n请导入TXT文件丶复制或者输入支持格式如下：`,
+  manualBetPlaceHolder_2Digit_h5: '每注之间可以用回车丶逗号[,]或者分号[;]、["|"]，请导入TXT文件丶隔开复制或者输入支持格式如下：',
+  manualBetPlaceHolderSEA: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开\n请导入TXT文件丶复制或者输入支持格式如下：',
   manualBetFormatError: '您的投注内容不符合要求<br />里面还有字母或者中文！',
   multipleFormatError: '您输入的投注倍数格式不正确<br />只能输入大于或等于1的数字！',
   multipleMaxError: '您的最大投注倍数不能超过 %@ 倍',
@@ -927,6 +921,7 @@ const LANG = {
   filterResultMsg: '已经过滤%@组重复号，%@组无效号',
   chooseFile: '选择文件',
   clearBallText: '清除选号',
+  category: '分类',
   addToBetSlip: '加入购物车',
   filterRepeat: '过滤重复/无效号',
   lostSeriesData: '缺少系列资料',
