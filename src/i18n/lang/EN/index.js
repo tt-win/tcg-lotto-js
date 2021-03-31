@@ -101,7 +101,8 @@ const LANG = {
       even: 'Even',
     },
     VNC_PK10_DragonTiger: {
-      dragonTiger: 'Dragon&Tiger',
+      dragon: 'Dragon',
+      tiger: 'Tiger',
     },
     fanTanFan: {
       1: '1 Fan',

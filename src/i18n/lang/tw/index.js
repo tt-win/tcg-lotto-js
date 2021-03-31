@@ -99,7 +99,8 @@ const LANG = {
       even: '雙',
     },
     VNC_PK10_DragonTiger: {
-      dragonTiger: '龍虎鬥',
+      dragon: '龍',
+      tiger: '虎',
     },
     fanTanFan: {
       1: '1番',

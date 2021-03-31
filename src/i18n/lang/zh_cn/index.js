@@ -182,7 +182,8 @@ const LANG = {
       even: '双',
     },
     VNC_PK10_DragonTiger: {
-      dragonTiger: '龙虎斗',
+      dragon: '龙',
+      tiger: '虎',
     },
     OECounts: {
       '05': '0单5双',
