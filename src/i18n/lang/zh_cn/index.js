@@ -830,7 +830,7 @@ const LANG = {
   winningAmount_daily: '今日输赢',
   ensure: '确定',
   cancel: '取消',
-  adding: '新增',
+  newCategory: '新增分类',
   date: '日期',
   time: '时间',
   lastTime: '剩余时间',
