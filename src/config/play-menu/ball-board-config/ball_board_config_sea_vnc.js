@@ -155,8 +155,8 @@ export default {
 
   // VN PK10 First_To_Tenth_Guess_Rank_VPK10
   2625: BallBoardConfigRecord({
-    ...vnPK10FirstTenthGuessRankProps
-  })
+    ...vnPK10FirstTenthGuessRankProps,
+  }),
 
   // VN PK10 First_To_Tenth_BSOE
   2626: BallBoardConfigRecord({
@@ -171,10 +171,10 @@ export default {
   // First_Second_Sum_BSOE_VPK10
   2629: BallBoardConfigRecord({
     ...vnPK10FirstSecondSumBSOEProps,
-  })
+  }),
 
   // Dragon_Tiger_Main_PK10
   2631: BallBoardConfigRecord({
     ...vnPK10DragonTigerProps,
-  })
+  }),
 };
