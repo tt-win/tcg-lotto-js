@@ -153,6 +153,11 @@ export default {
     ...fanTanBSOEProps,
   }),
 
+  // VN PK10 First_To_Tenth_Guess_Rank_VPK10
+  2625: BallBoardConfigRecord({
+    ...vnPK10FirstTenthGuessRankProps
+  })
+
   // VN PK10 First_To_Tenth_BSOE
   2626: BallBoardConfigRecord({
     ...vnPk10FirstTenthBSOEProps,
@@ -162,4 +167,14 @@ export default {
   2628: BallBoardConfigRecord({
     ...vnPk10FirstSecondSumMainProps,
   }),
+
+  // First_Second_Sum_BSOE_VPK10
+  2629: BallBoardConfigRecord({
+    ...vnPK10FirstSecondSumBSOEProps,
+  })
+
+  // Dragon_Tiger_Main_PK10
+  2631: BallBoardConfigRecord({
+    ...vnPK10DragonTigerProps,
+  })
 };

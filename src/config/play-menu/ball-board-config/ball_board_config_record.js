@@ -146,6 +146,21 @@ export const seaMultiBetProps = {
   ballDigit: 1,
 };
 
+export const vnPK10FirstTenthGuessRankProps = {
+  prizeTypeMapping: {
+    1: 'VPK10_RANK_1',
+    2: 'VPK10_RANK_2',
+    3: 'VPK10_RANK_3',
+    4: 'VPK10_RANK_4',
+    5: 'VPK10_RANK_5',
+    6: 'VPK10_RANK_6',
+    7: 'VPK10_RANK_7',
+    8: 'VPK10_RANK_8',
+    9: 'VPK10_RANK_9',
+    10: 'VPK10_RANK_10',
+  },
+};
+
 export const vnPk10FirstTenthBSOEProps = {
   prizeTypeMapping: {
     '1_0': 'VPK10_RANK_BSOE_1_BIG',
@@ -210,5 +225,29 @@ export const vnPk10FirstSecondSumMainProps = {
     17: 'VPK10_1_2_SUM_17',
     18: 'VPK10_1_2_SUM_18',
     19: 'VPK10_1_2_SUM_19',
+  },
+};
+
+export const vnPK10FirstSecondSumBSOEProps = {
+  prizeTypeMapping: {
+    0: 'VPK10_1_2_SUM_BSOE_BIG',
+    1: 'VPK10_1_2_SUM_BSOE_SMALL',
+    2: 'VPK10_1_2_SUM_BSOE_ODD',
+    3: 'VPK10_1_2_SUM_BSOE_EVEN',
+  },
+};
+
+export const vnPK10DragonTigerProps = {
+  prizeTypeMapping: {
+    '1-10_0': 'VPK10_DRAGON_TIGER_1-10_DRAGON',
+    '1-10_1': 'VPK10_DRAGON_TIGER_1-10_TIGER',
+    '2-9_0': 'VPK10_DRAGON_TIGER_2-9_DRAGON',
+    '2-9_1': 'VPK10_DRAGON_TIGER_2-9_TIGER',
+    '3-8_0': 'VPK10_DRAGON_TIGER_3-8_DRAGON',
+    '3-8_1': 'VPK10_DRAGON_TIGER_3-8_TIGER',
+    '4-7_0': 'VPK10_DRAGON_TIGER_4-7_DRAGON',
+    '4-7_1': 'VPK10_DRAGON_TIGER_4-7_TIGER',
+    '5-6_0': 'VPK10_DRAGON_TIGER_5-6_DRAGON',
+    '5-6_1': 'VPK10_DRAGON_TIGER_5-6_TIGER',
   },
 };
