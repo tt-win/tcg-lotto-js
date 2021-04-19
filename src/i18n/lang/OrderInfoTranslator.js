@@ -58,6 +58,10 @@ const commaConfig = {
     PlayMenu.Any6_Dantuo_11X5,
     PlayMenu.Any7_Dantuo_11X5,
     PlayMenu.Any8_Dantuo_11X5,
+
+    PlayMenu.Dragon_Tiger_Main_PK10,
+    PlayMenu.First_To_Tenth_Guess_Rank_VPK10,
+    PlayMenu.First_To_Tenth_BSOE_VPK10,
   ],
 };
 
@@ -726,7 +730,6 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.EighthPlace_PK10,
         PlayMenu.NinthPlace_PK10,
         PlayMenu.TenthPlace_PK10,
-
       ],
       getText: (content) => content.split('-').reduce((result, val) =>
       (`${result}${result ? ' ' : ''}${val}`), ''),
@@ -1578,6 +1581,9 @@ function getOrderInfoTranslatorList(lang) {
 
         // SICBO
         PlayMenu.Dice_BSOE_Main_VK3,
+
+        // VN PK10
+        PlayMenu.First_Second_Sum_BSOE_VPK10,
       ],
       getText: (content) =>
         content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -1808,6 +1814,50 @@ function getOrderInfoTranslatorList(lang) {
         // 總和大單 | 總和小雙
         return content.split('|').sort().map((num) => i18n(`ball.sumBSOE.${num.split('').join('_')}`)).join(' | ');
       },
+    },
+
+    VN_PK10_DRAGON_TIGER: {
+      items: [
+        PlayMenu.Dragon_Tiger_Main_PK10,
+      ],
+      getText: (content) => {
+        const data = content.split(',');
+        const ranking = data[0].split('-');        
+        return `${i18n(`pk10Ranking.${ranking[0]}`)} VS ${i18n(`pk10Ranking.${ranking[1]}`)} @ ${ranking[data[1]]}`;
+      }
+    },
+
+    VN_PK10_FIRST_TO_TENTH_GUESS_RANK: {
+      items: [
+        PlayMenu.First_To_Tenth_Guess_Rank_VPK10,
+      ],
+      getText: (content) => {
+        const data = content.split(',');
+        return `${i18n(`pk10Ranking.${data[0]}`)} @ ${data[1]}`;
+      },
+    },
+
+    VN_PK10_FIRST_TO_BSOE: {
+      items: [
+        PlayMenu.First_To_Tenth_BSOE_VPK10,
+      ],
+      getText: (content) => {
+        const data = content.split(',');
+        const ballI18n = {
+          0: 'ball.PK10_BSOE.big',
+          1: 'ball.PK10_BSOE.small',
+          2: 'ball.PK10_BSOE.odd',
+          3: 'ball.PK10_BSOE.even',
+        }[data[1]];
+        return `${i18n(`pk10Ranking.${data[0]}`)} @ ${i18n(ballI18n)}`;
+      },
+    },
+
+    VN_PK10_SUM: {
+      items: [
+        PlayMenu.First_Second_Sum_Main_VPK10
+      ],
+      getText: (content) => ( content )
     },
 
     ...PK10Translator,
