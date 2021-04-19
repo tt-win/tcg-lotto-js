@@ -190,3 +190,25 @@ export const vnPk10FirstTenthBSOEProps = {
     '10_3': 'VPK10_RANK_BSOE_10_EVEN',
   },
 };
+
+export const vnPk10FirstSecondSumMainProps = {
+  prizeTypeMapping: {
+    3: 'VPK10_1_2_SUM_3',
+    4: 'VPK10_1_2_SUM_4',
+    5: 'VPK10_1_2_SUM_5',
+    6: 'VPK10_1_2_SUM_6',
+    7: 'VPK10_1_2_SUM_7',
+    8: 'VPK10_1_2_SUM_8',
+    9: 'VPK10_1_2_SUM_9',
+    10: 'VPK10_1_2_SUM_10',
+    11: 'VPK10_1_2_SUM_11',
+    12: 'VPK10_1_2_SUM_12',
+    13: 'VPK10_1_2_SUM_13',
+    14: 'VPK10_1_2_SUM_14',
+    15: 'VPK10_1_2_SUM_15',
+    16: 'VPK10_1_2_SUM_16',
+    17: 'VPK10_1_2_SUM_17',
+    18: 'VPK10_1_2_SUM_18',
+    19: 'VPK10_1_2_SUM_19',
+  },
+};
