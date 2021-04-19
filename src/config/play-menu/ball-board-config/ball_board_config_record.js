@@ -6,7 +6,7 @@ export const BallBoardConfigRecord = Record({
   ballRange: [],
   ballDigit: 1, // 數字位數 ex: 02 => 2位
   ballI18n: {}, // 特殊: 根據球號值對應 i18n, ex: 大小單雙, 定單雙, 龍虎, 龍虎和
-  ballI18nDigitExclude: [],  // 不須進行翻譯的ballDigit key
+  ballI18nDigitExclude: [], // 不須進行翻譯的ballDigit key
   fixedBalls: [], // 特殊: 固定球號, 球號無規律, ex: 定單雙
   betDigits: [], // 球號每列名稱
   boardClassNames: '', // ball board class
@@ -23,7 +23,7 @@ export const BallBoardConfigRecord = Record({
   canShowBallAtSub: false, // 直接在額外欄顯示球號文字
   isBSOE: false,
   formula: undefined, // 注數計算公式
-  forceSmallUpper: undefined,  // 快捷投注大小區分 >為大 <=為小  預設不給
+  forceSmallUpper: undefined, // 快捷投注大小區分 >為大 <=為小  預設不給
   multi: true,
   maxBallCount: -1, // 最大選擇球數, -1 表示不限球數, 特殊玩法使用
   canShowManualDigits: false, // 位數選擇器
@@ -32,8 +32,8 @@ export const BallBoardConfigRecord = Record({
   defaultManualDigits: [], // 預設選擇位數值
   minChooseManualDigits: 0, // 最少選擇位數
   minChooseFailParlayDigits: 0,
-  displayBallBonus: false,  // 是否顯示個別球最高獎金  2017.06.02 added by G
-  prizeTypeMapping: {},   // prizeType對照
+  displayBallBonus: false, // 是否顯示個別球最高獎金  2017.06.02 added by G
+  prizeTypeMapping: {}, // prizeType對照
   rowMulti: true, // 每一列球號是否多選 false:每一列球號不能相同
   ballShowWithDice: false,
   ballShowPosition: '', // 組態球要顯示的位置
@@ -100,7 +100,7 @@ export const fanTanJiaoBallProps = {
 };
 
 export const fanTanNianBallProps = {
-  fixedBalls: ['3_0', '3_1', '3_2','0_3', '2_3', '0_2', '2_0', '0_1', '2_1', '1_0', '1_3', '1_2'],
+  fixedBalls: ['3_0', '3_1', '3_2', '0_3', '2_3', '0_2', '2_0', '0_1', '2_1', '1_0', '1_3', '1_2'],
   ballI18n: {
     '1_2': 'ball.fanTanNian.1_2',
     '1_3': 'ball.fanTanNian.1_3',
@@ -144,4 +144,49 @@ export const fanTanBSOEProps = {
 export const seaMultiBetProps = {
   ballRange: [0, 9],
   ballDigit: 1,
+};
+
+export const vnPk10FirstTenthBSOEProps = {
+  prizeTypeMapping: {
+    '1_0': 'VPK10_RANK_BSOE_1_BIG',
+    '1_1': 'VPK10_RANK_BSOE_1_SMALL',
+    '1_2': 'VPK10_RANK_BSOE_1_ODD',
+    '1_3': 'VPK10_RANK_BSOE_1_EVEN',
+    '2_0': 'VPK10_RANK_BSOE_2_BIG',
+    '2_1': 'VPK10_RANK_BSOE_2_SMALL',
+    '2_2': 'VPK10_RANK_BSOE_2_ODD',
+    '2_3': 'VPK10_RANK_BSOE_2_EVEN',
+    '3_0': 'VPK10_RANK_BSOE_3_BIG',
+    '3_1': 'VPK10_RANK_BSOE_3_SMALL',
+    '3_2': 'VPK10_RANK_BSOE_3_ODD',
+    '3_3': 'VPK10_RANK_BSOE_3_EVEN',
+    '4_0': 'VPK10_RANK_BSOE_4_BIG',
+    '4_1': 'VPK10_RANK_BSOE_4_SMALL',
+    '4_2': 'VPK10_RANK_BSOE_4_ODD',
+    '4_3': 'VPK10_RANK_BSOE_4_EVEN',
+    '5_0': 'VPK10_RANK_BSOE_5_BIG',
+    '5_1': 'VPK10_RANK_BSOE_5_SMALL',
+    '5_2': 'VPK10_RANK_BSOE_5_ODD',
+    '5_3': 'VPK10_RANK_BSOE_5_EVEN',
+    '6_0': 'VPK10_RANK_BSOE_6_BIG',
+    '6_1': 'VPK10_RANK_BSOE_6_SMALL',
+    '6_2': 'VPK10_RANK_BSOE_6_ODD',
+    '6_3': 'VPK10_RANK_BSOE_6_EVEN',
+    '7_0': 'VPK10_RANK_BSOE_7_BIG',
+    '7_1': 'VPK10_RANK_BSOE_7_SMALL',
+    '7_2': 'VPK10_RANK_BSOE_7_ODD',
+    '7_3': 'VPK10_RANK_BSOE_7_EVEN',
+    '8_0': 'VPK10_RANK_BSOE_8_BIG',
+    '8_1': 'VPK10_RANK_BSOE_8_SMALL',
+    '8_2': 'VPK10_RANK_BSOE_8_ODD',
+    '8_3': 'VPK10_RANK_BSOE_8_EVEN',
+    '9_0': 'VPK10_RANK_BSOE_9_BIG',
+    '9_1': 'VPK10_RANK_BSOE_9_SMALL',
+    '9_2': 'VPK10_RANK_BSOE_9_ODD',
+    '9_3': 'VPK10_RANK_BSOE_9_EVEN',
+    '10_0': 'VPK10_RANK_BSOE_10_BIG',
+    '10_1': 'VPK10_RANK_BSOE_10_SMALL',
+    '10_2': 'VPK10_RANK_BSOE_10_ODD',
+    '10_3': 'VPK10_RANK_BSOE_10_EVEN',
+  },
 };

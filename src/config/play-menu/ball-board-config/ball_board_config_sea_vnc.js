@@ -6,6 +6,7 @@ import {
   fanTanNianBallProps,
   fanTanBSOEProps,
   seaMultiBetProps,
+  vnPk10FirstTenthBSOEProps,
 } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
 
@@ -149,5 +150,10 @@ export default {
   // fan tan BSOE
   2496: BallBoardConfigRecord({
     ...fanTanBSOEProps,
+  }),
+
+  // VN PK10 First_To_Tenth_BSOE
+  2626: BallBoardConfigRecord({
+    ...vnPk10FirstTenthBSOEProps,
   }),
 };
