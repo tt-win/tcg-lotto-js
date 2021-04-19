@@ -6,8 +6,11 @@ import {
   fanTanNianBallProps,
   fanTanBSOEProps,
   seaMultiBetProps,
+  vnPK10FirstTenthGuessRankProps,
   vnPk10FirstTenthBSOEProps,
   vnPk10FirstSecondSumMainProps,
+  vnPK10FirstSecondSumBSOEProps,
+  vnPK10DragonTigerProps,
 } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
 
