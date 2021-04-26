@@ -129,8 +129,8 @@ export const getGradeNumberOfColorWords = (playId) => {
   }
 };
 
-const GradeColorWordsHelper = {
+const gradeColorWordsHelper = {
   getGradeNumberOfColorWords,
 }
 
-export default GradeColorWordsHelper;
+export default gradeColorWordsHelper;
