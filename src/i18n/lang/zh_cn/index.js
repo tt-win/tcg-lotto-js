@@ -1362,6 +1362,7 @@ const LANG = {
   winProfitMaxByNumero: '彩种单期最高利润',
   winAmountMax: '彩种单笔最高奖金',
   betAmountMaxByNumero: '彩种单期投注最大金额',
+  betAmountMaxOneBet: '彩种单笔投注最大金额',
   itemMaxBettingAmountByNumero: '单期限额',
   winAmountMaxByPlay: '玩法单期最高奖金',
   drawInterval: '开奖时间',
