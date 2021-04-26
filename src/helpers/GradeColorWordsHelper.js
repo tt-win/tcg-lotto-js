@@ -8,7 +8,7 @@ const baseProps = {
 // 泰彩的特獎在最後
 export const getGradeNumberOfColorWords = (playId) => {
   switch (playId) {
-      // 北部 後二包膽
+    // 北部 後二包膽
     case PlayMenu.Any_Roll_Last_2_North_VNC:
     case PlayMenu.Any_Roll_Last_2_North_VNC_Multi:
     case PlayMenu.Any_Roll_Last_2_North_VNC_Single:
@@ -131,6 +131,6 @@ export const getGradeNumberOfColorWords = (playId) => {
 
 const gradeColorWordsHelper = {
   getGradeNumberOfColorWords,
-}
+};
 
 export default gradeColorWordsHelper;
