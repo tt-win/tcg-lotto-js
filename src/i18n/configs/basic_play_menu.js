@@ -660,6 +660,7 @@ export const PlayMenu = {
   Dragon_Tiger_5_VS_6: 1474,
 
   // ENT PK10
+  Quick_Play_PK10: 99999,
   Two_Side_PK10: 1856,
   Sum_PK10: 1884,
   // 猜和值 與 定位膽 playcode與傳統重複..
