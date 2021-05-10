@@ -20,7 +20,7 @@ export default {
   // First_2_Straight_LAO_Multi 下正二位数（复式）
   2290: BallBoardConfigRecord({
     ...seaMultiBetProps,
-    betDigits: [betDigits.TENS, betDigits.ONES],
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS],
     formula: 'straight',
   }),
 
