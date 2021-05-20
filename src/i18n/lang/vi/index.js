@@ -127,7 +127,7 @@ const LANG = {
       '4_3': '4 Nim 3',
     },
     sicBoAllSurroundDice: {
-      1: 'Bộ3bấtkỳ',
+      1: 'Bộ ba bất kỳ',
     },
     sicBoDiceOdds: {
       1: 'ONE DICE',
