@@ -206,7 +206,8 @@ const LANG = {
     ILLEGAL_PARAMS_VALUE: 'lỗi hệ thống',
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'đặt cược có hiệu lực của bạn vượt quá giới hạn trên cho phép',
     GAME_CLOSED_ERROR: 'trang đặt cược đã đóng',
-    STAKES_ABOVE_LIMIT: 'Cược tối đa %@ tổng số vé cược.',
+    STAKES_ABOVE_LIMIT: 'Chào bạn, Quy định đặt cược là không được bao toàn bộ số, nghĩa là cùng 1 kỳ cùng 1 kiểu chơi cược quá %@ tổng các số. Nên đơn cược này tạm thời không được chấp nhận. Xin vui lòng sửa lại nội dung đơn cược. Mọi bất tiện xin quý khách vui lòng bỏ qua.',
+
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Đặt cược tối đa %@2/ số %@1 đối với các số có 2 chữ số cuối giống nhau.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'số %@ đặt cược đã đạt mức tối đa trong kho, Bạn có thể đặt cược cho lượt sau.',
 

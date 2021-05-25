@@ -213,7 +213,7 @@ const LANG = {
     ILLEGAL_PARAMS_VALUE: '系統錯誤',
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: '您的倍數超過允許的上限',
     GAME_CLOSED_ERROR: '投注彩種已關閉',
-    STAKES_ABOVE_LIMIT: '投注注數已超過%@注允许的上限',
+    STAKES_ABOVE_LIMIT: '您好，平台规则不能全包投注，即同期同玩法投注%@以上的号码，故该注单平台暂不能受理，请修改您的投注内容再来下注，给您带来不便，还请谅解；',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注號碼%@後二位相同數字每期允許銷售的最大投注數額%@元。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注號碼%@達到當前庫存允許銷售的最大投注數額。',
   },
