@@ -863,6 +863,11 @@ const LANG = {
     '十一月',
     '十二月',
   ],
+  numberScaleName: [
+    '万',
+    '亿',
+    '兆',
+  ],
   query: '查找',
   bettingAmount: '投注金额',
   chasingNumeros: {
