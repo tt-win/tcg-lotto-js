@@ -144,6 +144,7 @@ const LANG = {
     Dime: '角',
     Cent: '分',
     Thousandth: '厘',
+    USD: '美元',
   },
   pk10Ranking: {
     1: '第1名',
@@ -479,9 +480,11 @@ const LANG = {
     ILLEGAL_PARAMS_VALUE: '系统错误',
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: '您的倍数超过允许的上限',
     GAME_CLOSED_ERROR: '投注彩种已关闭',
-    STAKES_ABOVE_LIMIT: '您好，平台规则不能全包投注，即同期同玩法投注%@以上的号码，故该注单平台暂不能受理，请修改您的投注内容再来下注，给您带来不便，还请谅解；',
+    STAKES_ABOVE_LIMIT:
+      '您好，平台规则不能全包投注，即同期同玩法投注%@以上的号码，故该注单平台暂不能受理，请修改您的投注内容再来下注，给您带来不便，还请谅解；',
     REQUEST_TIME_OUT: '您的网路不给力，请稍后再试！',
-    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注号码%@后二位相同数字每期允许销售的最大投注数额%@元。',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR:
+      '投注号码%@后二位相同数字每期允许销售的最大投注数额%@元。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注号码%@达到当前庫存允许销售的最大投注数额。',
   },
   chasingStatus: {
@@ -570,7 +573,8 @@ const LANG = {
     BJSSC: '开奖时间：09:05-23:55, 共179期 每5分钟开奖',
     DJSSC: '开奖时间：23:01:30-次日23:00:00, 共920期 每1.5分钟开奖',
     TDJWFC: '开奖时间：23:01:30-次日23:00:00, 共920期 每1.5分钟开奖',
-    CQSSC: '开奖时间：10:00-次日1:55, 共120期    10:00-22:00期间 每10分钟开奖，22:00-01:55期间 每5分钟开奖',
+    CQSSC:
+      '开奖时间：10:00-次日1:55, 共120期    10:00-22:00期间 每10分钟开奖，22:00-01:55期间 每5分钟开奖',
     HLJSSC: '开奖时间：08:50-22:40, 共84期 每10分钟开奖',
     XJSSC: '开奖时间：10:10-次日02:00, 共96期 每10分钟开奖',
     TJSSC: '开奖时间：09:08-22:58, 共84期 每10分钟开奖',
@@ -844,9 +848,23 @@ const LANG = {
   numeroAbbreviation: '期号',
   thisNumero: '本期',
   nextNumero: '下期',
-  manualDigitsTip: '提示：至少选<span>%@</span>个位置,您已选了<span>%@</span>个位置，系统将自动生成<span>%@</span>个方案。',
+  manualDigitsTip:
+    '提示：至少选<span>%@</span>个位置,您已选了<span>%@</span>个位置，系统将自动生成<span>%@</span>个方案。',
   dayNamesMin: ['日', '一', '二', '三', '四', '五', '六'],
-  monthNames: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+  monthNames: [
+    '一月',
+    '二月',
+    '三月',
+    '四月',
+    '五月',
+    '六月',
+    '七月',
+    '八月',
+    '九月',
+    '十月',
+    '十一月',
+    '十二月',
+  ],
   numberScaleName: ['万', '亿', '兆'],
   query: '查找',
   bettingAmount: '投注金额',
@@ -917,9 +935,12 @@ const LANG = {
 请导入TXT文件丶复制或者输入支持格式如下：`,
   manualBetPlaceHolder_2Digit: `每注之间可以用回车丶逗号[,]或者分号[;]、["|"]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
-  manualBetPlaceHolder_h5: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]、["|"]隔开，请导入TXT文件丶复制或者输入支持格式如下：',
-  manualBetPlaceHolder_2Digit_h5: '每注之间可以用回车丶逗号[,]或者分号[;]、["|"]，请导入TXT文件丶隔开复制或者输入支持格式如下：',
-  manualBetPlaceHolderSEA: '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开\n请导入TXT文件丶复制或者输入支持格式如下：',
+  manualBetPlaceHolder_h5:
+    '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]、["|"]隔开，请导入TXT文件丶复制或者输入支持格式如下：',
+  manualBetPlaceHolder_2Digit_h5:
+    '每注之间可以用回车丶逗号[,]或者分号[;]、["|"]，请导入TXT文件丶隔开复制或者输入支持格式如下：',
+  manualBetPlaceHolderSEA:
+    '每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]隔开\n请导入TXT文件丶复制或者输入支持格式如下：',
   manualBetFormatError: '您的投注内容不符合要求<br />里面还有字母或者中文！',
   multipleFormatError: '您输入的投注倍数格式不正确<br />只能输入大于或等于1的数字！',
   multipleMaxError: '您的最大投注倍数不能超过 %@ 倍',
@@ -966,7 +987,8 @@ const LANG = {
   betRowStakeOverLimit: '该玩法单列可投上限为%@注，请重新下注！谢谢',
   overBetAmountMax: '超过单笔投注最大金额',
   drawAnnouncement: '开奖公告',
-  onceAlertDialog: '{欢迎归来}<br />此次游戏维护升级时间较长，天成致以最诚挚的歉意，为您奉上专属红包，已为您派发到您的彩票钱包，祝您体验愉快。',
+  onceAlertDialog:
+    '{欢迎归来}<br />此次游戏维护升级时间较长，天成致以最诚挚的歉意，为您奉上专属红包，已为您派发到您的彩票钱包，祝您体验愉快。',
   today: '今天',
   yesterday: '昨天',
   beforeYesterday: '前天',
@@ -1784,7 +1806,8 @@ const LANG = {
     nineRow: '连九',
     allSelected: '全选',
   },
-  betsNTotalAmount: '您选择了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
+  betsNTotalAmount:
+    '您选择了<div class="font-bold">%@</div>注，共<div class="font-bold">%@</div>元，',
   predictionAmount: '单注最高可中<div class="red-words">%@</div>元',
   willWin: '预计中奖金额',
   defaultMode: '预设模式',
