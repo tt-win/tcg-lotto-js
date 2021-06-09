@@ -1081,6 +1081,7 @@ const LANG = {
   selectAll: '全选',
   playRule: '玩法规则',
   backHome: '返回首页',
+  backToLobby: '返回大厅',
   BTSplayRule: '区块链彩票说明',
   STplayRule: '电玩彩彩票说明',
   normal: '一般',
