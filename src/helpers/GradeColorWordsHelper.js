@@ -70,6 +70,9 @@ export const getGradeNumberOfColorWords = (playId) => {
     case PlayMenu.Last_3_Combine_1st_VNC_Multi:
     case PlayMenu.Last_3_Straight_1st_VNC_Single:
     case PlayMenu.Fan_Tan_Fan_VNC:
+    case PlayMenu.Fan_Tan_Jiao_VNC:
+    case PlayMenu.Fan_Tan_Nian_VNC:
+    case PlayMenu.Fan_Tan_BSOE_VNC:
     case PlayMenu.LAST_3_STRAIGHT_THAI:
     case PlayMenu.Last_3_Straight_THAI_Multi:
     case PlayMenu.Last_3_Straight_THAI_Single:
@@ -77,6 +80,9 @@ export const getGradeNumberOfColorWords = (playId) => {
     case PlayMenu.LAST_3_COMBINE_THAI:
     case PlayMenu['1_AT_ANY_LAST_3_THAI']:
     case PlayMenu.Fan_Tan_Fan_THAI:
+    case PlayMenu.Fan_Tan_Jiao_THAI:
+    case PlayMenu.Fan_Tan_Nian_THAI:
+    case PlayMenu.Fan_Tan_BSOE_THAI:
       return { grade: [0], unitColorWords: '111' }; // 特等獎 後三位 (TAHI 一等獎 後三位)
     case PlayMenu.LAST_2_STRAIGHT_1ST_VNC:
     case PlayMenu.Last_2_Straight_1st_VNC_Multi:
