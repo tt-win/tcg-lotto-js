@@ -201,6 +201,9 @@ const LHCPlayRuleConfig = {
   Normal_LHC: [
     PlayMenu.Normal_LHC,
   ],
+  Normal_Total_BSOE_LHC: [
+    PlayMenu.Normal_Total_BSOE_LHC,
+  ],
   Normal_Fixed_Place_LHC: [
     PlayMenu.Normal_Fixed_Place_LHC,
   ],
