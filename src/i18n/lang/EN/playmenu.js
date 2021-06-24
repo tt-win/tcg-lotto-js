@@ -242,6 +242,7 @@ const PlayMenu = {
     2141: 'EXACT 2D-first', // 下正二位数 First_2_Straight_LAO
     2144: 'ANY 1D-last', // 上跑两位数 Last_2_Any_LAO
     2146: 'ANY 1D-first', // 下跑两位数 First_2_Any_LAO
+    2632: 'Position', // SEA 4D 一数 Fixed_Place_4D
 
     2288: 'Norm EXACT 2D-last', // Last_2_Straight_LAO_Multi
     2289: 'Manual Enter EXACT 2D-last', // Last_2_Straight_LAO_Single

@@ -1053,8 +1053,14 @@ export const PlayMenu = {
   FIRST_2_STRAIGHT_LAO: 2141, // 下正二位数
   LAST_2_ANY_LAO: 2144, // 上跑两位数
   FIRST_2_ANY_LAO: 2146, // 下跑两位数
+  Fixed_Place_4D: 2632, // SEA 4D 一数
 
   // 三級選單
+
+  Fixed_Place_4D_Unit: 2633, // SEA 4D 一数 (個位)
+  Fixed_Place_4D_Ten: 2634, // SEA 4D 一数 (十位)
+  Fixed_Place_4D_hundred: 2635, // SEA 4D 一数 (百位)
+  Fixed_Place_4D_Thousand: 2636, // SEA 4D 一数 (千位)
 
   Last_2_Straight_LAO_Multi: 2288, // 上正四位数（单式）
   Last_2_Straight_LAO_Single: 2289, // 上正二位数（单式）

@@ -240,6 +240,7 @@ const PlayMenu = {
     2141: 'Dua digit berurutan - Pertama', // First_2_Straight_LAO
     2144: 'Satu digit tanpa urutan - Terakhir', // Last_2_Any_LAO
     2146: 'Satu digit tanpa urutan - Pertama', // First_2_Any_LAO
+    2632: 'Position', // SEA 4D 一数 Fixed_Place_4D
 
     2288: 'Norma Dua digit berurutan - Terakhir', // Last_2_Straight_LAO_Multi
     2289: 'Manual Dua digit berurutan - Terakhir', // Last_2_Straight_LAO_Single

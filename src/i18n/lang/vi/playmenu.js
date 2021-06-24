@@ -242,6 +242,7 @@ const PlayMenu = {
     2141: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_LAO
     2144: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_LAO
     2146: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_LAO
+    2632: 'VỊ TRÍ', // SEA 4D 一数 Fixed_Place_4D
 
     2288: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_LAO_Multi
     2289: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_LAO_Single
