@@ -49,7 +49,7 @@ export default {
   2632: BallBoardConfigRecord({
     ...seaMultiBetProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
-    formula: 'straight',
+    formula: 'oneBallOneNum',
   }),
 
   // Hoo_Hey_How_Play_LAO 鱼虾蟹
