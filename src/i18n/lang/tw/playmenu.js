@@ -242,7 +242,12 @@ const PlayMenu = {
     2141: '下正二位數', // 下正二位数 First_2_Straight_LAO
     2144: '上跑兩位數', // 上跑两位数 Last_2_Any_LAO
     2146: '下跑兩位數', // 下跑两位数 First_2_Any_LAO
+
     2632: '一數', // SEA 4D 一数 Fixed_Place_4D
+    2633: '一數 (個位)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
+    2634: '一數 (十位)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
+    2635: '一數 (百位)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
+    2636: '一數 (千位)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
     2288: '上正二位数（包注）', // Last_2_Straight_LAO_Multi
     2289: '上正二位数（輸入）', // Last_2_Straight_LAO_Single

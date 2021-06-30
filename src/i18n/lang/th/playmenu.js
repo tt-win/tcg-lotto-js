@@ -241,7 +241,12 @@ const PlayMenu = {
     2141: 'สองตัวล่าง', // 下正二位数 First_2_Straight_LAO
     2144: 'วิ่งบน', // 上跑两位数 Last_2_Any_LAO
     2146: 'วิ่งล่าง', // 下跑两位数 First_2_Any_LAO
+
     2632: 'เลขวิ่ง', // SEA 4D 一数 Fixed_Place_4D
+    2633: 'เลขวิ่ง (หลักที่1)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
+    2634: 'เลขวิ่ง (หลักที่2)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
+    2635: 'เลขวิ่ง (หลักที่3)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
+    2636: 'เลขวิ่ง (หลักที่4)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
     2288: 'บรรทัดฐาน สองตัวบน', // Last_2_Straight_LAO_Multi
     2289: 'ป้อนด้วยตนเอง สองตัวบน', // Last_2_Straight_LAO_Single

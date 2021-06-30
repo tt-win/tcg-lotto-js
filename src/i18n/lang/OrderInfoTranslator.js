@@ -1350,6 +1350,11 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Unit_Digit_1st_VNC, // 特等个位
         PlayMenu.Ten_Digit_2nd_VNC, // 一等十位
         PlayMenu.Unit_Digit_2nd_VNC, // 一等个位
+
+        PlayMenu.Fixed_Place_4D_Unit, // 4D 一数 (個位)
+        PlayMenu.Fixed_Place_4D_Ten, // 4D 一数 (十位)
+        PlayMenu.Fixed_Place_4D_hundred, // 4D 一数 (百位)
+        PlayMenu.Fixed_Place_4D_Thousand, // 4D 一数 (千位)
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ',')
     },

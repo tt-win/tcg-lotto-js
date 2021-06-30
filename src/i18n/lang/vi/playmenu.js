@@ -242,7 +242,12 @@ const PlayMenu = {
     2141: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_LAO
     2144: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_LAO
     2146: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_LAO
+
     2632: 'VỊ TRÍ', // SEA 4D 一数 Fixed_Place_4D
+    2633: 'VỊ TRÍ (Đơn vị)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
+    2634: 'VỊ TRÍ (Chục)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
+    2635: 'VỊ TRÍ (Trăm)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
+    2636: 'VỊ TRÍ (Nghìn)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
     2288: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_LAO_Multi
     2289: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_LAO_Single

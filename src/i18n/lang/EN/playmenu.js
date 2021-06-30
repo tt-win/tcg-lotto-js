@@ -242,7 +242,12 @@ const PlayMenu = {
     2141: 'EXACT 2D-first', // 下正二位数 First_2_Straight_LAO
     2144: 'ANY 1D-last', // 上跑两位数 Last_2_Any_LAO
     2146: 'ANY 1D-first', // 下跑两位数 First_2_Any_LAO
+
     2632: 'Position', // SEA 4D 一数 Fixed_Place_4D
+    2633: 'Position (Ones)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
+    2634: 'Position (Tens)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
+    2635: 'Position (Hundreds)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
+    2636: 'Position (Thousands)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
     2288: 'Norm EXACT 2D-last', // Last_2_Straight_LAO_Multi
     2289: 'Manual Enter EXACT 2D-last', // Last_2_Straight_LAO_Single

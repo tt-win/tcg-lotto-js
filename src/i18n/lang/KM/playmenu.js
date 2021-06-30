@@ -237,7 +237,12 @@ const PlayMenu = {
     2141: 'លេខពីរខ្ទង់ក្រោម', // 下正二位数 First_2_Straight_LAO
     2144: 'រត់ពីរខ្ទង់ខាងលើ', // 上跑两位数 Last_2_Any_LAO
     2146: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 First_2_Any_LAO
+
     2632: 'ចំនាត់ថ្នាក់', // SEA 4D 一数 Fixed_Place_4D
+    2633: 'ចំនាត់ថ្នាក់ (ឯក)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
+    2634: 'ចំនាត់ថ្នាក់ (ដប់)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
+    2635: 'ចំនាត់ថ្នាក់ (រយ)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
+    2636: 'ចំនាត់ថ្នាក់ (ពាន់)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
     2288: 'Norm EXACT 2D-last', // Last_2_Straight_LAO_Multi
     2289: 'Manual Enter EXACT 2D-last', // Last_2_Straight_LAO_Single
