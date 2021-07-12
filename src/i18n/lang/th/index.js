@@ -147,6 +147,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: 'ยอดแทงไม่ถูกต้อง แทงไม่สำเร็จ',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: 'กรุณาเข้าระบบใหม่อีกครั้ง',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: 'LGS_CANCEL_ORDER_ARGUMENT_ERROR',
+    LGS_BETTING_NUMBER_OVER_LIMITS: '%@ เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้าคงคลังเป็นศูนย์',
     ORDER_NOT_DRAWABLE: 'อยู่ระหว่างการรอผล',
     LGS_CANCEL_ORDER_INACTIVITY: 'ไม่สามารยกเลิกรายการนี้',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: 'LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT',

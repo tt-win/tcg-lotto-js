@@ -148,6 +148,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: 'tham số đặt cược không hợp quy định, đặt cược thất bại!',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: 'số tài khoản đã đăng xuất, vui lòng đăng nhập lại',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: 'lỗi tham số nuôi số ',
+    LGS_BETTING_NUMBER_OVER_LIMITS: 'số %@ đặt cược đã đạt mức tối đa trong kho, Bạn có thể đặt cược cho lượt sau.',
     ORDER_NOT_DRAWABLE: 'đơn đặt chưa mở giải',
     LGS_CANCEL_ORDER_INACTIVITY: 'hệ thống trước đó không thể tiến hành rút đơn hội viên',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: 'phí thủ tục rút đơn nhỏ hơn số tiền đặt cược',

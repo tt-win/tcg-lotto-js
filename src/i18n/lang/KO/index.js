@@ -118,6 +118,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: 'Incorrect bet, please try again.',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: 'Your session is expired, please try again later',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: 'Bet cancel error',
+    LGS_BETTING_NUMBER_OVER_LIMITS: '%@. 이미 베팅 한도 금액이 재고를 초과했습니다.',
     ORDER_NOT_DRAWABLE: 'Lottery Results pending',
     LGS_CANCEL_ORDER_INACTIVITY: 'The current system cannot cancel membership',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: 'Cancellations fee is less than the amount of bets',

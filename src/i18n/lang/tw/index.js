@@ -151,6 +151,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: '投注參數不符合規定，投注失敗！ ',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: '帳號已登出，請重新登錄',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: '追號參數錯誤',
+    LGS_BETTING_NUMBER_OVER_LIMITS: '投注號碼%@達到當前庫存允許銷售的最大投注數額。',
     ORDER_NOT_DRAWABLE: '訂單尚未開獎',
     LGS_CANCEL_ORDER_INACTIVITY: '當前系統不能進行會員撤單',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: '撤單手續費小於投注金額',

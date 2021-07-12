@@ -421,6 +421,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: '投注参数不符合规定，投注失败！',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: '账号已登出，请重新登录',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: '追号参数错误',
+    LGS_BETTING_NUMBER_OVER_LIMITS: '投注号码%@达到当前庫存允许销售的最大投注数额。',
     ORDER_NOT_DRAWABLE: '订单尚未开奖',
     LGS_CANCEL_ORDER_INACTIVITY: '当前系统不能进行会员撤单',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: '撤单手续费小于投注金额',

@@ -147,6 +147,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: 'ភ្នាល់មិនអនុលោមនិងកាភ្នាល់-បរាជ័យ',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: 'គណនីត្រូវបានចាកចេញសូមចូលម្តងទៀត',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: 'កំហុសក្នុងការតាមដានប៉ារ៉ាមែត្រ-បរាជ័យ',
+    LGS_BETTING_NUMBER_OVER_LIMITS: 'លេខភ្នាល់លេខ %@ ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     ORDER_NOT_DRAWABLE: 'ការបញ្ជាទិញមិនត្រូវបានផ្តល់ជូន',
     LGS_CANCEL_ORDER_INACTIVITY: 'ប្រព័ន្ធបច្ចុប្បន្នមិនអាចប្រើសំរាប់ដកសមាជិកបានទេ',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: 'អិលជីអេស-ការដកប្រាក់តិចជាងចំនួនទឹកប្រាក់ភ្នាល់',
