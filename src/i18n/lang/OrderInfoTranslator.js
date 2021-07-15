@@ -1715,6 +1715,49 @@ const OrderInfoTranslatorList = {
     },
   },
 
+  STRAIGHT_LF: {
+    items: [
+      PlayMenu.Last3Straight_LF,
+      PlayMenu.Last3Straight_LF_Single,
+      PlayMenu.First2Straight_LF,
+      PlayMenu.First2Straight_LF_Single,
+      PlayMenu.Last2Straight_LF,
+      PlayMenu.Last2Straight_LF_Single,
+      PlayMenu.Last3StraightAnyCode1_LF,
+      PlayMenu.Last3StraightAnyCode2_LF,
+      PlayMenu.P3Straight_LF,
+      PlayMenu.P3Straight_LF_Single,
+      PlayMenu.P3StraightAnyCode1_LF,
+      PlayMenu.P3StraightAnyCode2_LF,
+      PlayMenu.P5First2Straight_LF,
+      PlayMenu.P5First2Straight_LF_Single,
+      PlayMenu.P3Last2Straight_LF,
+      PlayMenu.P3Last2Straight_LF_Single,
+      PlayMenu.P5Last2Straight_LF,
+      PlayMenu.P5Last2Straight_LF_Single,
+    ],
+    getText: (content, bettingContent) => 
+    bettingContent.replace(/\|/g, ' ').split(',').filter((e) => e === 0 || e).join(' | ')
+  },
+
+  NON_STRAIGHT_LF: {
+    items: [
+      PlayMenu.Last3Com3_LF,
+      PlayMenu.Last3Com6_LF,
+      PlayMenu.Last3Com_LF,
+      PlayMenu.First2Com_LF,
+      PlayMenu.Last2Com_LF,
+      PlayMenu.FixedPlace_LF,
+      PlayMenu.P3Com3_LF,
+      PlayMenu.P3Com6_LF,
+      PlayMenu.P5First2Com_LF,
+      PlayMenu.P3Last2Com_LF,
+      PlayMenu.Last2Com_LF,
+      PlayMenu.Last2BSOE_LF,
+    ],
+    getText: (content, bettingContent) => bettingContent.replace(/,/g, '').replace(/\|/g, ' | '),
+  },
+
   ...PK10Translator,
   ...LHCTranslator,
   ...PCBTranslator,
