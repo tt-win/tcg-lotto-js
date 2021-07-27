@@ -1171,4 +1171,28 @@ export const PlayMenu = {
   P5Last2Straight_LF_Single: 166,
   P3Last2Com_LF: 1441,
   Last2Com_LF: 1443,
+  // PK10_Single
+  First2_PK10_Single: 1732,
+  First3_PK10_Single: 1733,
+  First4_PK10_Single: 1734,
+  First5_PK10_Single: 1735,
+  // 11X5_Single
+  Any2_11X5_Single: 100,
+  Any3_11X5_Single: 101,
+  Any4_11X5_Single: 102,
+  Any5_11X5_Single: 103,
+  Any6_11X5_Single: 104,
+  Any7_11X5_Single: 105,
+  Any8_11X5_Single: 106,
+  First3Straight_11X5_Single: 107,
+  First3Com_11X5_Single: 108,
+  First2Straight_11X5_Single: 109,
+  First2Com_11X5_Single: 110, 
+  // SSC_Single
+  All5Straight_Single: 80,
+  All5All_Single: 81,
+  All5Join_Single: 82,
+  Any2_Single: 97,
+  Any3_Single: 98,
+  Any4_Single: 99,
 };

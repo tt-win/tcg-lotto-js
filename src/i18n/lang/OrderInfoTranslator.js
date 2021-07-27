@@ -1868,26 +1868,32 @@ function getOrderInfoTranslatorList(lang) {
     STRAIGHT_LF: {
       items: [
         PlayMenu.Last3Straight_LF,
-        PlayMenu.Last3Straight_LF_Single,
         PlayMenu.First2Straight_LF,
-        PlayMenu.First2Straight_LF_Single,
         PlayMenu.Last2Straight_LF,
-        PlayMenu.Last2Straight_LF_Single,
         PlayMenu.Last3StraightAnyCode1_LF,
         PlayMenu.Last3StraightAnyCode2_LF,
         PlayMenu.P3Straight_LF,
-        PlayMenu.P3Straight_LF_Single,
         PlayMenu.P3StraightAnyCode1_LF,
         PlayMenu.P3StraightAnyCode2_LF,
         PlayMenu.P5First2Straight_LF,
-        PlayMenu.P5First2Straight_LF_Single,
         PlayMenu.P3Last2Straight_LF,
-        PlayMenu.P3Last2Straight_LF_Single,
         PlayMenu.P5Last2Straight_LF,
-        PlayMenu.P5Last2Straight_LF_Single,
       ],
       getText: (content, bettingContent) => 
       bettingContent.replace(/\|/g, ' ').split(',').filter((e) => e === 0 || e).join(' | ')
+    },
+    
+    STRAIGHT_LF_SINGLE: {
+      items: [
+        PlayMenu.Last3Straight_LF_Single,
+        PlayMenu.First2Straight_LF_Single,
+        PlayMenu.Last2Straight_LF_Single,
+        PlayMenu.P3Straight_LF_Single,
+        PlayMenu.P5First2Straight_LF_Single,
+        PlayMenu.P3Last2Straight_LF_Single,
+        PlayMenu.P5Last2Straight_LF_Single,
+      ],
+      getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
     },
   
     NON_STRAIGHT_LF: {
@@ -1906,6 +1912,33 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Last2BSOE_LF,
       ],
       getText: (content, bettingContent) => bettingContent.replace(/,/g, '').replace(/\|/g, ' | '),
+    },
+
+    play_type_SINGLE: {
+      items: [
+        PlayMenu.First2_PK10_Single,
+        PlayMenu.First3_PK10_Single,
+        PlayMenu.First4_PK10_Single,
+        PlayMenu.First5_PK10_Single,
+        PlayMenu.Any2_11X5_Single,
+        PlayMenu.Any3_11X5_Single,
+        PlayMenu.Any4_11X5_Single,
+        PlayMenu.Any5_11X5_Single,
+        PlayMenu.Any6_11X5_Single,
+        PlayMenu.Any7_11X5_Single,
+        PlayMenu.Any8_11X5_Single,
+        PlayMenu.First3Straight_11X5_Single,
+        PlayMenu.First3Com_11X5_Single,
+        PlayMenu.First2Straight_11X5_Single,
+        PlayMenu.First2Com_11X5_Single,
+        PlayMenu.All5Straight_Single,
+        PlayMenu.All5All_Single,
+        PlayMenu.All5Join_Single,
+        PlayMenu.Any2_Single,
+        PlayMenu.Any3_Single,
+        PlayMenu.Any4_Single,
+      ],
+      getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
     },
 
     ...PK10Translator,
