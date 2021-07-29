@@ -412,7 +412,7 @@ const LANG = {
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩种已关闭',
     LGS_BETTING_GAME_FESTIVAL_ERROR: '投注彩种已关闭',
-    LGS_BETTING_GAME_PAUSED_ERROR: '投注彩种已关闭',
+    LGS_BETTING_GAME_PAUSED_ERROR: '投注彩种目前停止销售',
     LGS_BETTING_PLAY_MENU_CLOSED_ERROR: '投注玩法已关闭',
     LGS_BETTING_AMOUNT_OVER_LIMITS: '您的投注金额已超过允许的上限',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '%@的单注最大可投金额已超过允许的上限',
