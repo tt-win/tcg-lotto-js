@@ -1155,7 +1155,7 @@ export const PlayMenu = {
   First2Com_LF: 1417,
   Last2Straight_LF: 1418,
   Last2Straight_LF_Single: 113,
-  Last2Com_LF: 1419,
+  Last2Com_LF_3D: 1419,
   Last3StraightAnyCode1_LF: 1414,
   Last3StraightAnyCode2_LF: 1415,
   FixedPlace_LF: 1422,
@@ -1170,7 +1170,7 @@ export const PlayMenu = {
   P5Last2Straight_LF: 1442,
   P5Last2Straight_LF_Single: 166,
   P3Last2Com_LF: 1441,
-  Last2Com_LF: 1443,
+  Last2Com_LF_P3P5: 1443,
   // PK10_Single
   First2_PK10_Single: 1732,
   First3_PK10_Single: 1733,
