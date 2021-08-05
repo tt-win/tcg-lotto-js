@@ -1020,6 +1020,11 @@ export const PlayMenu = {
   Ten_Digit_2nd_VNC: 2582, // 一等十位
   Unit_Digit_2nd_VNC: 2583, // 一等个位
 
+  Fixed_Place_4D_Unit_VNC: 2637, // VNC 4D 一数 (個位)
+  Fixed_Place_4D_Ten_VNC: 2638, // VNC 4D 一数 (十位)
+  Fixed_Place_4D_hundred_VNC: 2639, // VNC 4D 一数 (百位)
+  Fixed_Place_4D_Thousand_VNC: 2640, // VNC 4D 一数 (千位)
+
   Hoo_Hey_How_Play_VNC: 2302, // 魚蝦蟹
   Fan_Tan_Fan_VNC: 2490, // 番攤 - 番
   Fan_Tan_Jiao_VNC: 2492, // 番攤 - 角
