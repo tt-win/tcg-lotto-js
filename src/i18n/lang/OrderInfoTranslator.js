@@ -1355,6 +1355,11 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fixed_Place_4D_Ten, // 4D 一数 (十位)
         PlayMenu.Fixed_Place_4D_hundred, // 4D 一数 (百位)
         PlayMenu.Fixed_Place_4D_Thousand, // 4D 一数 (千位)
+
+        PlayMenu.Fixed_Place_4D_Unit_VNC, // VNC 4D 一数 (個位)
+        PlayMenu.Fixed_Place_4D_Ten_VNC, // VNC 4D 一数 (十位)
+        PlayMenu.Fixed_Place_4D_hundred_VNC, // VNC 4D 一数 (百位)
+        PlayMenu.Fixed_Place_4D_Thousand_VNC, // VNC 4D 一数 (千位)
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ',')
     },
