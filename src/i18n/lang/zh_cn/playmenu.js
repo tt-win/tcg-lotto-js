@@ -855,6 +855,11 @@ const PlayMenu = {
     2635: '一数 (百位)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: '一数 (千位)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
+    2637: '一数 (个位)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
+    2638: '一数 (十位)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
+    2639: '一数 (百位)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
+    2640: '一数 (千位)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
+
     2288: '上正二位数（复式）', // Last_2_Straight_LAO_Multi
     2289: '上正二位数（单式）', // Last_2_Straight_LAO_Single
     2290: '下正二位数（复式）', // First_2_Straight_LAO_Multi

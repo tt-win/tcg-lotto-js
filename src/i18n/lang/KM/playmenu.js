@@ -244,6 +244,11 @@ const PlayMenu = {
     2635: 'ចំនាត់ថ្នាក់ (រយ)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'ចំនាត់ថ្នាក់ (ពាន់)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
+    2637: 'ចំនាត់ថ្នាក់ (ឯក)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
+    2638: 'ចំនាត់ថ្នាក់ (ដប់)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
+    2639: 'ចំនាត់ថ្នាក់ (រយ)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
+    2640: 'ចំនាត់ថ្នាក់ (ពាន់)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
+
     2288: 'Norm EXACT 2D-last', // Last_2_Straight_LAO_Multi
     2289: 'Manual Enter EXACT 2D-last', // Last_2_Straight_LAO_Single
     2290: 'Norm EXACT 2D-first', // First_2_Straight_LAO_Multi

@@ -247,6 +247,11 @@ const PlayMenu = {
     2635: 'Position (Ratusan)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'Position (Ribuan)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
+    2637: 'Position (Satuan)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
+    2638: 'Position (Puluhan)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
+    2639: 'Position (Ratusan)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
+    2640: 'Position (Ribuan)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
+
     2288: 'Norma Dua digit berurutan - Terakhir', // Last_2_Straight_LAO_Multi
     2289: 'Manual Dua digit berurutan - Terakhir', // Last_2_Straight_LAO_Single
     2290: 'Norma Dua digit berurutan - Pertama', // First_2_Straight_LAO_Multi
