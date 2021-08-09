@@ -244,6 +244,7 @@ const PlayMenu = {
     2635: 'ចំនាត់ថ្នាក់ (រយ)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'ចំនាត់ថ្នាក់ (ពាន់)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
+    263700: 'ចំនាត់ថ្នាក់', // VNC 4D 一数 Fixed_Place_4D_VNC
     2637: 'ចំនាត់ថ្នាក់ (ឯក)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
     2638: 'ចំនាត់ថ្នាក់ (ដប់)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
     2639: 'ចំនាត់ថ្នាក់ (រយ)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC

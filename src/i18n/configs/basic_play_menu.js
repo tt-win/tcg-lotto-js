@@ -1020,6 +1020,7 @@ export const PlayMenu = {
   Ten_Digit_2nd_VNC: 2582, // 一等十位
   Unit_Digit_2nd_VNC: 2583, // 一等个位
 
+  Fixed_Place_4D_VNC: 263700, // VNC 4D 一数, 後端沒有的playId
   Fixed_Place_4D_Unit_VNC: 2637, // VNC 4D 一数 (個位)
   Fixed_Place_4D_Ten_VNC: 2638, // VNC 4D 一数 (十位)
   Fixed_Place_4D_hundred_VNC: 2639, // VNC 4D 一数 (百位)

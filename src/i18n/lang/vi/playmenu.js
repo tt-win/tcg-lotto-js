@@ -249,6 +249,7 @@ const PlayMenu = {
     2635: 'VỊ TRÍ (Trăm)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'VỊ TRÍ (Nghìn)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
+    263700: 'VỊ TRÍ', // VNC 4D 一数 Fixed_Place_4D_VNC
     2637: 'VỊ TRÍ (Đơn vị)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
     2638: 'VỊ TRÍ (Chục)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
     2639: 'VỊ TRÍ (Trăm)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC

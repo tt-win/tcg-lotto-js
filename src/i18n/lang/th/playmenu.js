@@ -248,6 +248,7 @@ const PlayMenu = {
     2635: 'เลขวิ่ง (หลักร้อย)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'เลขวิ่ง (หลักพัน)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
+    263700: 'เลขวิ่ง', // VNC 4D 一数 Fixed_Place_4D_VNC
     2637: 'เลขวิ่ง (หลักหน่วย)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
     2638: 'เลขวิ่ง (หลักสิบ)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
     2639: 'เลขวิ่ง (หลักร้อย)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC

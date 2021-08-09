@@ -249,6 +249,7 @@ const PlayMenu = {
     2635: 'Position (Hundreds)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'Position (Thousands)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
+    263700: 'Position', // VNC 4D 一数 Fixed_Place_4D_VNC
     2637: 'Position (Ones)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
     2638: 'Position (Tens)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
     2639: 'Position (Hundreds)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
