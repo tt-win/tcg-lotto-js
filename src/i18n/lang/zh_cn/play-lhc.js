@@ -10,10 +10,6 @@ const special = {
   1615: '特码',
   1618: '特码',  // SpecialB_Straight_LHC 球號1-49
   1631: '特码',  // SpecialB_BSOE_LHC 特大小單雙
-  1633: '特码',  // SpecialB_BS_OE_LHC 特(大小)(單雙)
-  1639: '特码',  // SpecialB_Tail_BS_LHC 特尾大小
-  1641: '特码',  // SpecialB_TOSum_BSOE_LHC 特合大小單雙
-  1714: '特码',  // SpecialB_Animal_LHC 特天地前后家野肖
 
   // TP-335移除特碼A
   // Sub menu & ball bet common
@@ -32,11 +28,11 @@ const bothSide = {
   1642: '两面',
 
   // play type
-  1644: '两面',  // Two_Sides_Special_BSOE_LHC 特大小單雙
-  1645: '两面',  // Two_Sides_Special_BS_LHC 特尾大小
-  1646: '两面',  // Two_Sides_Special_TOSum_BSOE_LHC 特合大小單雙
-  1647: '两面',  // Two_Sides_Special_Animal_LHC 特天地前后家野肖
-  1648: '两面',  // Two_Sides_Total_Sum_BSOE_LHC 總大小單雙
+  1633: '特大小单双',  // Special_BS_OE_LHC 特大小單雙
+  1639: '特尾大小',  // Special_Tail_BS_LHC 特尾大小
+  1641: '特合大小单双',  // Two_Sides_Special_TOSum_BSOE_LHC 特合大小單雙
+  1714: '特天地前后家野肖',  // Special_Animal_LHC 特天地前后家野肖
+  1648: '总大小单双',  // Two_Sides_Total_Sum_BSOE_LHC 總大小單雙
 
 };
 
@@ -81,7 +77,6 @@ const combineZodiac = {
 const normal = {
   1619: '正码',
   1621: '正码', // Normal_Straight_LHC 球號1-49
-  1653: '正码', // Normal_Total_BSOE_LHC 總大小單雙
 };
 
 // 正碼特
@@ -98,29 +93,12 @@ const fixed = {
   1628: '正六特', // Sixth_Fixed_LHC 球號1-49
 
   // play type
-  1695: '正一特',  // Fixed_First_BSOE_LHC 大小單雙
-  1696: '正一特',  // Fixed_First_TOSum_OE_LHC 合單雙
-  1697: '正一特',  // Fixed_First_Color_LHC 紅藍綠波
-
-  1698: '正二特',  // Fixed_Second_BSOE_LHC 大小單雙
-  1699: '正二特',  // Fixed_Second_TOSum_OE_LHC 合單雙
-  1700: '正二特',  // Fixed_Second_Color_LHC 紅藍綠波
-
-  1701: '正三特',  // Fixed_Third_BSOE_LHC 大小單雙
-  1702: '正三特',  // Fixed_Third_TOSum_OE_LHC 合單雙
-  1703: '正三特',  // Fixed_Third_Color_LHC 紅藍綠波
-
-  1704: '正四特',  // Fixed_Fourth_BSOE_LHC 大小單雙
-  1705: '正四特',  // Fixed_Fourth_TOSum_OE_LHC 合單雙
-  1706: '正四特',  // Fixed_Fourth_Color_LHC 紅藍綠波
-
-  1707: '正五特',  // Fixed_Fifth_BSOE_LHC 大小單雙
-  1708: '正五特',  // Fixed_Fifth_TOSum_OE_LHC 合單雙
-  1709: '正五特',  // Fixed_Fifth_Color_LHC 紅藍綠波
-
-  1710: '正六特',  // Fixed_Sixth_BSOE_LHC 大小單雙
-  1711: '正六特',  // Fixed_Sixth_TOSum_OE_LHC 合單雙
-  1712: '正六特',  // Fixed_Sixth_Color_LHC 紅藍綠波
+  1665: '正一合(单双)',  // Fixed_First_TOSum_OE_LHC 合單雙
+  1669: '正二合(单双)',  // Normal_Second_TOSum_BSOE_LHC 合單雙
+  1673: '正三合(单双)',  // Normal_Third_TOSum_BSOE_LHC 正三合(单双)
+  1677: '正四合(单双)',  // Normal_Fourth_TOSum_BSOE_LHC 合單雙
+  1681: '正五合(单双)',  // Normal_Fifth_TOSum_BSOE_LHC 合單雙
+  1685: '正六合(单双)',  // Normal_Sixth_TOSum_BSOE_LHC 合單雙
 };
 
 // 正碼1-6
@@ -137,34 +115,27 @@ const normalFirstToSix = {
   1663: '正码六',
 
   // play type
-  1664: '正码一', // Normal_First_BSOE_LHC 大小單雙
-  1665: '正码一', // Normal_First_TOSum_BSOE_LHC 合大小單雙
-  1666: '正码一', // Normal_First_Color_LHC 紅藍綠波
+  1695: '正码一', // Fixed_First_BSOE_LHC 大小單雙
+  1697: '正码一', // Fixed_First_Color_LHC 紅藍綠波
   1667: '正码一', // Normal_First_Tail_BS_LHC 尾大小
 
-  1668: '正码二', // Normal_Second_BSOE_LHC 大小單雙
-  1669: '正码二', // Normal_Second_TOSum_BSOE_LHC 合大小單雙
-  1670: '正码二', // Normal_Second_Color_LHC 紅藍綠波
+  1698: '正码二', // Fixed_Second_BSOE_LHC 大小單雙
+  1700: '正码二', // Fixed_Second_Color_LHC 紅藍綠波
   1671: '正码二', // Normal_Second_Tail_BS_LHC 尾大小
 
-  1672: '正码三', // Normal_Third_BSOE_LHC 大小單雙
-  1673: '正码三', // Normal_Third_TOSum_BSOE_LHC 合大小單雙
-  1674: '正码三', // Normal_Third_Color_LHC 紅藍綠波
+  1701: '正码三', // Fixed_Third_BSOE_LHC 大小單雙
+  1703: '正码三', // Fixed_Third_Color_LHC 紅藍綠波
   1675: '正码三', // Normal_Third_Tail_BS_LHC 尾大小
 
-  1676: '正码四', // Normal_Fourth_BSOE_LHC 大小單雙
-  1677: '正码四', // Normal_Fourth_TOSum_BSOE_LHC 合大小單雙
-  1678: '正码四', // Normal_Fourth_Color_LHC 紅藍綠波
+  1704: '正码四', // Fixed_Fourth_BSOE_LHC 大小單雙
+  1706: '正码四', // Fixed_Fourth_Color_LHC 紅藍綠波
   1679: '正码四', // Normal_Fourth_Tail_BS_LHC 尾大小
 
-  1680: '正码五', // Normal_Fifth_BSOE_LHC 大小單雙
-  1681: '正码五', // Normal_Fifth_TOSum_BSOE_LHC 合大小單雙
-  1682: '正码五', // Normal_Fifth_Color_LHC 紅藍綠波
+  1707: '正码五', // Fixed_Fifth_BSOE_LHC 大小單雙
+  1709: '正码五', // Fixed_Fifth_Color_LHC 紅藍綠波
   1683: '正码五', // Normal_Fifth_Tail_BS_LHC 尾大小
-
-  1684: '正码六', // Normal_Sixth_BSOE_LHC 大小單雙
-  1685: '正码六', // Normal_Sixth_TOSum_BSOE_LHC 合大小單雙
-  1686: '正码六', // Normal_Sixth_Color_LHC 紅藍綠波
+  1710: '正码六', // Fixed_Sixth_BSOE_LHC 大小單雙
+  1712: '正码六', // Fixed_Sixth_Color_LHC 紅藍綠波
   1687: '正码六', // Normal_Sixth_Tail_BS_LHC 尾大小
 };
 
