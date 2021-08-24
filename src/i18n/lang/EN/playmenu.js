@@ -112,9 +112,9 @@ const PlayMenu = {
     2533: 'Last 3D of AnyResult', // 中南部 后三包胆
     2537: 'Last 4D of AnyResult', // 中南部 后四包胆
 
-    2561: 'FailParlay 4 ',  // 中南部 - 四不中 - 二級選單
-    2564: 'FailParlay 8',  // 中南部 - 八不中 - 二級選單
-    2567: 'FailParlay 10',  // 中南部 - 十不中 - 二級選單
+    2561: 'FailParlay 4 ', // 中南部 - 四不中 - 二級選單
+    2564: 'FailParlay 8', // 中南部 - 八不中 - 二級選單
+    2567: 'FailParlay 10', // 中南部 - 十不中 - 二級選單
 
     2609: 'Parlay 2', // 中南部 - 串2组 - 二級選單
     2612: 'Parlay 3', // 中南部 - 串3组 - 二級選單
