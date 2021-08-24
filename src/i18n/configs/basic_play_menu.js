@@ -885,8 +885,8 @@ export const PlayMenu = {
   Any_Roll_Last_3_South_VNC: 2534, // 中南部 - 后三包胆
   Any_Roll_Last_4_South_VNC: 2538, // 中南部 - 后四包胆
 
-  anyRoll2OfNorthVNC: 2641, // 北部 - 后二包胆1K
-  anyRoll2OfSouthVNC: 2642, // 中南部 - 后二包胆1K
+  Any_Roll_Last_2_1K_North_VNC: 2641, // 北部 - 后二包胆1K
+  Any_Roll_Last_2_1K_South_VNC: 2642, // 中南部 - 后二包胆1K
 
   // 三級選單
 
