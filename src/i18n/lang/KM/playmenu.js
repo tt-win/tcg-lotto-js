@@ -154,6 +154,9 @@ const PlayMenu = {
     2534: 'Last 3D of AnyResult', // 中南部 后三包胆
     2538: 'Last 4D of AnyResult', // 中南部 后四包胆
 
+    2641: 'Last 2D 1K of AnyResult', // 北部 后二包胆 1K
+    2642: 'Last 2D 1K of AnyResult', // 中南部 后二包胆 1K
+
     2586: 'Head 2D & Special', // 北部 二数头尾 Last_2_1st_7th_North_VNC
     2589: 'Head 2D', // 北部 二数头 Last_2_7th_North_VNC
     2593: 'Head 2D & Special', // 中南部 二数头尾 Last_2_1st_8th_South_VNC

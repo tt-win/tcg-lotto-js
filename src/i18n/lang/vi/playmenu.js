@@ -159,6 +159,9 @@ const PlayMenu = {
     2534: 'Lô 3 Số', // 中南部 后三包胆
     2538: 'Lô 4 Số', // 中南部 后四包胆
 
+    2641: 'Lô 2 Số 1K- Nhanh', // 北部 后二包胆 1K
+    2642: 'Lô 2 Số 1K- Nhanh', // 中南部 后二包胆 1K
+
     2586: 'Đề Đầu Đuôi', // 北部 二数头尾 Last_2_1st_7th_North_VNC
     2589: 'Đề Giải 7', // 北部 二数头 Last_2_7th_North_VNC
     2593: 'Đề Đầu Đuôi', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
