@@ -1325,6 +1325,8 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.LAST_2_ANY_LAO,
         PlayMenu.FIRST_2_ANY_LAO,
         PlayMenu.Any_Roll_Last_2_North_VNC,
+        PlayMenu.Any_Roll_Last_2_1K_North_VNC,
+        PlayMenu.Any_Roll_Last_2_1K_South_VNC,
         PlayMenu.Any_Roll_Last_3_North_VNC,
         PlayMenu.Any_Roll_Last_4_North_VNC,
         PlayMenu.Any_Roll_Last_2_South_VNC,
