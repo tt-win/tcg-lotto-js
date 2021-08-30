@@ -126,11 +126,14 @@ export const truncBallText = (ballText) => {
  * @param orderNumber 原始訂單編號
  * @param chasing 是否有追號
  * @param chasingOrder 追的第幾期
+ * 
  *
  * @returns {string} 投注記錄 / 訂單編號 欄位的顯示內容
  */
-export const genOrderNumberText = ({ orderNumber = '', chasing = false, chasingOrder = 0 }) => {
-  const orderNoText = orderNumber.slice(-6);
+export const genOrderNumberText = ({ orderNumber = '', chasing = false, chasingOrder = 0 }, merchant) => {
+  // 有取到merchant且為FUN88全系列(tlc557uats及tlc5577s)要顯示完整訂單編號，沒有取到merchant或取到其他品牌則顯示前六碼
+  const showAllOrderNoTextMerchant = ['tlc557uats', 'tlc5577s'];
+  const orderNoText = showAllOrderNoTextMerchant.includes(merchant) ? orderNumber : orderNumber.slice(-6);
   if (chasing) {
     const chaseOrdText = _padStart(chasingOrder, 3, '0');
     return `${orderNoText}-${chaseOrdText}`;

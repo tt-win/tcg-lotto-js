@@ -1221,6 +1221,8 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.LAST_2_ANY_LAO,
         PlayMenu.FIRST_2_ANY_LAO,
         PlayMenu.Any_Roll_Last_2_North_VNC,
+        PlayMenu.Any_Roll_Last_2_1K_North_VNC,
+        PlayMenu.Any_Roll_Last_2_1K_South_VNC,
         PlayMenu.Any_Roll_Last_3_North_VNC,
         PlayMenu.Any_Roll_Last_4_North_VNC,
         PlayMenu.Any_Roll_Last_2_South_VNC,
@@ -1251,6 +1253,11 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fixed_Place_4D_Ten, // 4D 一数 (十位)
         PlayMenu.Fixed_Place_4D_hundred, // 4D 一数 (百位)
         PlayMenu.Fixed_Place_4D_Thousand, // 4D 一数 (千位)
+
+        PlayMenu.Fixed_Place_4D_Unit_VNC, // VNC 4D 一数 (個位)
+        PlayMenu.Fixed_Place_4D_Ten_VNC, // VNC 4D 一数 (十位)
+        PlayMenu.Fixed_Place_4D_hundred_VNC, // VNC 4D 一数 (百位)
+        PlayMenu.Fixed_Place_4D_Thousand_VNC, // VNC 4D 一数 (千位)
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ',')
     },

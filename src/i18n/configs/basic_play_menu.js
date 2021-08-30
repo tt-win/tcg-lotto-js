@@ -376,11 +376,11 @@ export const PlayMenu = {
   Middle3ComAnyCode2: 77,
   Middle3StraightAnyCode1: 78,
   Middle3StraightAnyCode2: 79,
-  Last4StraightAnyCode1_SSC: 1748,   // 四星一码不定位
-  Last4StraightAnyCode2_SSC: 1749,   // 四星二码不定位
-  AllStraightAnyCode1_SSC: 1750,     // 五星一码不定位
-  AllStraightAnyCode2_SSC: 1751,     // 五星二码不定位
-  AllStraightAnyCode3_SSC: 1752,     // 五星三码不定位
+  Last4StraightAnyCode1_SSC: 1748, // 四星一码不定位
+  Last4StraightAnyCode2_SSC: 1749, // 四星二码不定位
+  AllStraightAnyCode1_SSC: 1750, // 五星一码不定位
+  AllStraightAnyCode2_SSC: 1751, // 五星二码不定位
+  AllStraightAnyCode3_SSC: 1752, // 五星三码不定位
   anyComChoose2: 2029, // 五星二码 組選不定位
   anyComChoose3: 2030, // 五星三码 組選不定位
 
@@ -826,6 +826,9 @@ export const PlayMenu = {
   Any_Roll_Last_3_South_VNC: 2534, // 中南部 - 后三包胆
   Any_Roll_Last_4_South_VNC: 2538, // 中南部 - 后四包胆
 
+  Any_Roll_Last_2_1K_North_VNC: 2641, // 北部 - 后二包胆1K
+  Any_Roll_Last_2_1K_South_VNC: 2642, // 中南部 - 后二包胆1K
+
   // 三級選單
 
   Last_3_Straight_THAI_Multi: 2485, // 上正三位数（复式）
@@ -961,6 +964,7 @@ export const PlayMenu = {
   Ten_Digit_2nd_VNC: 2582, // 一等十位
   Unit_Digit_2nd_VNC: 2583, // 一等个位
 
+  Fixed_Place_4D_VNC: 263700, // VNC 4D 一数, 後端沒有的playId
   Fixed_Place_4D_Unit_VNC: 2637, // VNC 4D 一数 (個位)
   Fixed_Place_4D_Ten_VNC: 2638, // VNC 4D 一数 (十位)
   Fixed_Place_4D_hundred_VNC: 2639, // VNC 4D 一数 (百位)
@@ -1133,7 +1137,7 @@ export const PlayMenu = {
   First3Straight_11X5_Single: 107,
   First3Com_11X5_Single: 108,
   First2Straight_11X5_Single: 109,
-  First2Com_11X5_Single: 110, 
+  First2Com_11X5_Single: 110,
   // SSC_Single
   All5Straight_Single: 80,
   All5All_Single: 81,
