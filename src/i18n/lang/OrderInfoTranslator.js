@@ -372,9 +372,7 @@ function getOrderInfoTranslatorList(lang) {
       items: [
         // 特碼A,B
         PlayMenu.SpecialA_BSOE_LHC,
-        PlayMenu.SpecialB_BSOE_LHC,
-        // 兩面
-        PlayMenu.Special_BS_OE_LHC,
+        PlayMenu.Special_BSOE_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.BSOE[content]}`),
     },
@@ -382,7 +380,6 @@ function getOrderInfoTranslatorList(lang) {
     BS_OE_LHC: {
       items: [
         // 特碼A,B
-        PlayMenu.SpecialA_BS_OE_LHC,
         PlayMenu.Special_BS_OE_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.BS_OE[content]}`),
@@ -392,7 +389,6 @@ function getOrderInfoTranslatorList(lang) {
       items: [
         // 特碼A,B
         PlayMenu.SpecialA_TOSum_BSOE_LHC,
-        PlayMenu.SpecialB_TOSum_BSOE_LHC,
         // 兩面
         PlayMenu.Special_TOSum_BSOE_LHC,
       ],
@@ -511,6 +507,56 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fixed_Fourth_BSOE_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_BSOE.FOURTH[content]}`),
+    },
+
+    /* 正碼特合單雙 */
+    // 正一合單雙
+    FIRST_FIXED_TOSum_OE_LHC: {
+      items: [
+        // 正一合單雙
+        PlayMenu.Fixed_First_TOSum_OE_LHC,
+      ],
+      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_TOSum_OE.FIRST[content]}`),
+    },
+    // 正二合單雙
+    SECOND_FIXED_TOSum_OE_LHC: {
+      items: [
+        // 正二合單雙
+        PlayMenu.Fixed_Second_TOSum_OE_LHC,
+      ],
+      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_TOSum_OE.SECOND[content]}`),
+    },
+    // 正三合單雙
+    THIRD_FIXED_TOSum_OE_LHC: {
+      items: [
+        // 正三合單雙
+        PlayMenu.Fixed_Third_TOSum_OE_LHC,
+      ],
+      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_TOSum_OE.THIRD[content]}`),
+    },
+    // 正四合單雙
+    FOURTH_FIXED_TOSum_OE_LHC: {
+      items: [
+        // 正四合單雙
+        PlayMenu.Fixed_Fourth_TOSum_OE_LHC,
+      ],
+      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_TOSum_OE.FOURTH[content]}`),
+    },
+    // 正五合單雙
+    FIFTH_FIXED_TOSum_OE_LHC: {
+      items: [
+        // 正五合單雙
+        PlayMenu.Fixed_Fifth_TOSum_OE_LHC,
+      ],
+      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_TOSum_OE.FIFTH[content]}`),
+    },
+    // 正六合單雙
+    SIXTH_FIXED_TOSum_OE_LHC: {
+      items: [
+        // 正六合單雙
+        PlayMenu.Fixed_Sixth_TOSum_OE_LHC,
+      ],
+      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_TOSum_OE.SIXTH[content]}`),
     },
     /* 正碼特紅藍綠 */
     // 正一紅藍綠

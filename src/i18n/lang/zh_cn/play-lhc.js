@@ -9,8 +9,7 @@ const special = {
   // Menu
   1615: '特码',
   1618: '特码',  // SpecialB_Straight_LHC 球號1-49
-  1631: '特码',  // SpecialB_BSOE_LHC 特大小單雙
-
+  1633: '特码',  // SpecialB_BS_OE_LHC 特(大小)(單雙)
   // TP-335移除特碼A
   // Sub menu & ball bet common
   // 1617: '特码A',  // SpecialA_Straight_LHC 球號1-49
@@ -28,12 +27,11 @@ const bothSide = {
   1642: '两面',
 
   // play type
-  1633: '特大小单双',  // Special_BS_OE_LHC 特大小單雙
+  1631: '两面',  // Special_BSOE_LHC 特大小單雙
   1639: '特尾大小',  // Special_Tail_BS_LHC 特尾大小
   1641: '特合大小单双',  // Two_Sides_Special_TOSum_BSOE_LHC 特合大小單雙
   1714: '特天地前后家野肖',  // Special_Animal_LHC 特天地前后家野肖
   1648: '总大小单双',  // Two_Sides_Total_Sum_BSOE_LHC 總大小單雙
-
 };
 
 // 色波
@@ -92,13 +90,12 @@ const fixed = {
   1627: '正五特', // Fifth_Fixed_LHC 球號1-49
   1628: '正六特', // Sixth_Fixed_LHC 球號1-49
 
-  // play type
-  1665: '正一合(单双)',  // Fixed_First_TOSum_OE_LHC 合單雙
-  1669: '正二合(单双)',  // Normal_Second_TOSum_BSOE_LHC 合單雙
-  1673: '正三合(单双)',  // Normal_Third_TOSum_BSOE_LHC 正三合(单双)
-  1677: '正四合(单双)',  // Normal_Fourth_TOSum_BSOE_LHC 合單雙
-  1681: '正五合(单双)',  // Normal_Fifth_TOSum_BSOE_LHC 合單雙
-  1685: '正六合(单双)',  // Normal_Sixth_TOSum_BSOE_LHC 合單雙
+  1696: '正一特',  // Fixed_First_TOSum_OE_LHC 合單雙
+  1699: '正二特',  // Fixed_Second_TOSum_OE_LHC 合單雙
+  1702: '正三特',  // Fixed_Third_TOSum_OE_LHC 合單雙
+  1705: '正四特',  // Fixed_Fourth_TOSum_OE_LHC 合單雙
+  1708: '正五特',  // Fixed_Fifth_TOSum_OE_LHC 合單雙
+  1711: '正六特',  // Fixed_Sixth_TOSum_OE_LHC 合單雙
 };
 
 // 正碼1-6
@@ -137,6 +134,13 @@ const normalFirstToSix = {
   1710: '正码六', // Fixed_Sixth_BSOE_LHC 大小單雙
   1712: '正码六', // Fixed_Sixth_Color_LHC 紅藍綠波
   1687: '正码六', // Normal_Sixth_Tail_BS_LHC 尾大小
+
+  1665: '正码一', // Normal_First_TOSum_BSOE_LHC 合大小單雙
+  1669: '正码二', // Normal_Second_TOSum_BSOE_LHC 合大小單雙
+  1673: '正码三', // Normal_Third_TOSum_BSOE_LHC 合大小單雙
+  1677: '正码四', // Normal_Fourth_TOSum_BSOE_LHC 合大小單雙
+  1681: '正码五', // Normal_Fifth_TOSum_BSOE_LHC 合大小單雙
+  1685: '正码六', // Normal_Sixth_TOSum_BSOE_LHC 合大小單雙
 };
 
 // 平特一肖尾數
@@ -335,10 +339,10 @@ export const lhcBothSideRank = {
   '1645_0': '两面 - 特尾大',
   '1645_1': '两面 - 特尾小',
 
-  '1644_0': '两面 - 特大',
-  '1644_1': '两面 - 特小',
-  '1644_2': '两面 - 特单',
-  '1644_3': '两面 - 特双',
+  '1631_0': '两面 - 特大',
+  '1631_1': '两面 - 特小',
+  '1631_2': '两面 - 特单',
+  '1631_3': '两面 - 特双',
 };
 
 export const lhcPlayKey = {

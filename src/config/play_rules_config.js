@@ -136,15 +136,13 @@ const LHCPlayRuleConfig = {
     PlayMenu.Special_LHC,
   ],
   Special_BSOE_LHC: [
-    PlayMenu.SpecialB_BSOE_LHC,
-    PlayMenu.Special_BS_OE_LHC,
+    PlayMenu.Special_BSOE_LHC,
     PlayMenu.Color_BSOE_LHC,
   ],
   Special_BS_OE_LHC: [
     PlayMenu.Color_BS_OE_LHC,
   ],
   Special_TOSum_BSOE_LHC: [
-    PlayMenu.SpecialB_TOSum_BSOE_LHC,
     PlayMenu.Special_TOSum_BSOE_LHC,
   ],
   Special_Tail_BS_LHC: [
