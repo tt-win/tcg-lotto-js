@@ -876,6 +876,8 @@ export const PlayMenu = {
   LAST_2_COMBINE_THAI: 2064, // 上反二位数
   '2_STRAIGHT_ADD_THAI': 2066, // 下正二位数
   '1_AT_ANY_LAST_3_THAI': 2069, // 上跑三位数
+  Prize_2_Straight_THAI: 2645, // 二等三位数
+  Special_Prize_2_Straight_THAI: 2646, // 二特三位数
 
   Any_Roll_Last_2_North_VNC: 2517, // 北部 - 后二包胆
   Any_Roll_Last_3_North_VNC: 2521, // 北部 - 后三包胆
