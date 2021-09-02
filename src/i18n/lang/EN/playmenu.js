@@ -112,9 +112,9 @@ const PlayMenu = {
     2533: 'Last 3D of AnyResult', // 中南部 后三包胆
     2537: 'Last 4D of AnyResult', // 中南部 后四包胆
 
-    2561: 'FailParlay 4 ',  // 中南部 - 四不中 - 二級選單
-    2564: 'FailParlay 8',  // 中南部 - 八不中 - 二級選單
-    2567: 'FailParlay 10',  // 中南部 - 十不中 - 二級選單
+    2561: 'FailParlay 4 ', // 中南部 - 四不中 - 二級選單
+    2564: 'FailParlay 8', // 中南部 - 八不中 - 二級選單
+    2567: 'FailParlay 10', // 中南部 - 十不中 - 二級選單
 
     2609: 'Parlay 2', // 中南部 - 串2组 - 二級選單
     2612: 'Parlay 3', // 中南部 - 串3组 - 二級選單
@@ -158,6 +158,9 @@ const PlayMenu = {
     2530: 'Last 2D of AnyResult', // 中南部 后二包胆
     2534: 'Last 3D of AnyResult', // 中南部 后三包胆
     2538: 'Last 4D of AnyResult', // 中南部 后四包胆
+
+    2641: 'Last 2D 1K of AnyResult', // 北部 后二包胆 1K
+    2642: 'Last 2D 1K of AnyResult', // 中南部 后二包胆 1K
 
     2586: 'Head 2D & Special', // 北部 二数头尾 Last_2_1st_7th_North_VNC
     2589: 'Head 2D', // 北部 二数头 Last_2_7th_North_VNC
@@ -249,6 +252,7 @@ const PlayMenu = {
     2635: 'Position (Hundreds)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'Position (Thousands)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
+    263700: 'Position', // VNC 4D 一数 Fixed_Place_4D_VNC
     2637: 'Position (Ones)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
     2638: 'Position (Tens)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
     2639: 'Position (Hundreds)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
