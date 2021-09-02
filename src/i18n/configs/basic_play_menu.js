@@ -646,11 +646,11 @@ export const PlayMenu = {
   Two_Side_NinthPlace_PK10: 1881,
   Two_Side_TenthPlace_PK10: 1883,
   // ENT PK10 龍虎鬥
-  Dragon_Tiger_1_VS_10_PK10: 1900,
-  Dragon_Tiger_2_VS_9_PK10: 1901,
-  Dragon_Tiger_3_VS_8_PK10: 1902,
-  Dragon_Tiger_4_VS_7_PK10: 1903,
-  Dragon_Tiger_5_VS_6_PK10: 1904,
+  Dragon_Tiger_1_VS_10_PK10: 1861,
+  Dragon_Tiger_2_VS_9_PK10: 1864,
+  Dragon_Tiger_3_VS_8_PK10: 1867,
+  Dragon_Tiger_4_VS_7_PK10: 1870,
+  Dragon_Tiger_5_VS_6_PK10: 1873,
 
   // ENT PK10 番攤
   Fan_Tan_PK10: 2541,

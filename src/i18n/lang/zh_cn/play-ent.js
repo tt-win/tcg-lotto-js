@@ -237,11 +237,11 @@ const PK10FixedPlaceEighth = createObj(1896, 'pk10Straight');
 const PK10FixedPlaceNinth = createObj(1897, 'pk10Straight');
 const PK10FixedPlaceTenth = createObj(1898, 'pk10Straight');
 // 龍虎鬥
-const PK10Dragon1VS10 = createObj(1900, 'dragon');
-const PK10Dragon2VS9 = createObj(1901, 'dragon');
-const PK10Dragon3VS8 = createObj(1902, 'dragon');
-const PK10Dragon4VS7 = createObj(1903, 'dragon');
-const PK10Dragon5VS6 = createObj(1904, 'dragon');
+const PK10Dragon1VS10 = createObj(1861, 'dragon');
+const PK10Dragon2VS9 = createObj(1864, 'dragon');
+const PK10Dragon3VS8 = createObj(1867, 'dragon');
+const PK10Dragon4VS7 = createObj(1870, 'dragon');
+const PK10Dragon5VS6 = createObj(1873, 'dragon');
 // 猜和值
 const PK10First2Sum = createObj(1885, 'twoSum');
 const PK10First3Sum = createObj(1886, 'threeSum');
