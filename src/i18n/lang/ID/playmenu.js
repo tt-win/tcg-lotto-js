@@ -10,8 +10,10 @@ const PlayMenu = {
     2055: 'Tiga digit',
     2057: 'Tiga digit berurutan - 1st',
     2059: 'Tiga digit tanpa urutan - 1st',
+    2643: 'Hadiah Kedua', // 三数 二等
+    2644: 'Spesial Kedua', // 三数 二特
     2645: 'Tiga digit tanpa urutan - 2nd', // 二等三位数
-    2646: 'Tiga digit tanpa urutan - 2nd', // 二特三位数
+    2646: 'Tiga digit tanpa urutan - Spesial Kedua', // 二特三位数
 
     2060: 'Dua digit',
     2062: 'Dua digit berurutan - 1st',
@@ -73,8 +75,6 @@ const PlayMenu = {
     2093: 'ANY', // 四数 上反
     2096: 'TEPAT', // 三数 上正
     2098: 'ANY', // 三数 上反
-    2643: '二等', // 三数 二等
-    2644: '二特', // 三数 二特
     2101: 'TEPAT', // 二数 上正
     2103: 'TEPAT', // 二数 下正
 
