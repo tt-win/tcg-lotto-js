@@ -1362,6 +1362,10 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fixed_Place_4D_Ten_VNC, // VNC 4D 一数 (十位)
         PlayMenu.Fixed_Place_4D_hundred_VNC, // VNC 4D 一数 (百位)
         PlayMenu.Fixed_Place_4D_Thousand_VNC, // VNC 4D 一数 (千位)
+
+        PlayMenu.Prize_2_Straight_THAI, // THAI 二等三位数
+        PlayMenu.Special_Prize_2_Straight_THAI, // THAI 二特三位数
+
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ',')
     },
