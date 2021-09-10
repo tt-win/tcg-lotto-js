@@ -10,6 +10,11 @@ const PlayMenu = {
     2055: '3D', // 三数
     2057: 'EXACT 3D-1st', // 上正三位数
     2059: 'ANY 3D-1st', // 上反三位数
+    2643: 'Second Prize', // 二等
+    2644: 'Second Special', // 二特
+    2645: 'EXACT 3D-2nd', // 二等三位数
+    2646: 'EXACT 3D-2nd Special', // 二特三位数
+    
     2060: '2D', // 二数
     2062: 'EXACT 2D-1st', // 上正二位数
     2064: 'ANY 2D-1st', // 上反二位数
