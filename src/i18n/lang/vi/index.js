@@ -40,7 +40,7 @@ const LANG = {
     orderStatus_8: 'Hủy bỏ',
     orderStatus_12: 'Hủy bỏ',
     orderStatus_14: 'chưa mở giải',
-    orderStatus_16: 'ván hòa',
+    orderStatus_16: 'Hoà',
     orderStatus_17: 'Hủy bỏ',
     orderStatus_99: 'đơn hàng vô hiệu',
   },
