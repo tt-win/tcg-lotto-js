@@ -445,7 +445,7 @@ const LANG = {
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '当前彩种暂时没有开始销售 请稍后再试',
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中奖即停不可使用',
-    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此号码已超出当前期购买额度，请与客服联系',
+    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '提示：此号码%@已超出当前期购买额度，已修正可购买金额，请重新下注。',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注数已超过允许的上限',
     NOT_SUPPORT_TRIAL_CUSTOMER: '该帐号尚未开放此彩种',
     // VN
