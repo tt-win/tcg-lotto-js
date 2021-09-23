@@ -415,7 +415,7 @@ const LANG = {
     LGS_BETTING_GAME_PAUSED_ERROR: '该彩种暂停销售，请稍后再试',
     LGS_BETTING_PLAY_MENU_CLOSED_ERROR: '投注玩法已关闭',
     LGS_BETTING_AMOUNT_OVER_LIMITS: '您的投注金额已超过允许的上限',
-    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '%@的单注最大可投金额已超过允许的上限',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '提示：您好，平台规则同期同玩法号码累加投注 %@ 以上金额，故该注单平台暂不能受理，请修改您的投注内容再进行下注，给您带来不便，还请谅解。',
     LGS_BETTING_MULTIPLE_OVER_LIMITS: '您的倍数超过允许的上限',
     LGS_BETTING_RETURN_VALUE_SMALLER_THAN_ZERO: '投注返点值小于0',
     LGS_BETTING_ILLEGAL_ERROR: '投注参数不符合规定，投注失败！',
