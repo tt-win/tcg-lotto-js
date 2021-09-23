@@ -39,7 +39,7 @@ const LANG = {
     orderStatus_8: 'ยกเลิก',
     orderStatus_12: 'ยกเลิก',
     orderStatus_14: 'ไม่มีการจับรางวัล',
-    orderStatus_16: 'จับรางวัล',
+    orderStatus_16: 'วาด',
     orderStatus_17: 'ยกเลิก',
     orderStatus_99: 'โมฆะ',
   },

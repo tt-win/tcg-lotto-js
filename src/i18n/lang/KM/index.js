@@ -39,7 +39,7 @@ const LANG = {
     orderStatus_8: 'លុបចោល',
     orderStatus_12: 'លុបចោល',
     orderStatus_14: 'មិនបានបើក',
-    orderStatus_16: 'ស្មើ',
+    orderStatus_16: 'ចង',
     orderStatus_17: 'លុបចោល',
     orderStatus_99: 'លំដាប់មិនត្រឹមត្រូវ',
   },
