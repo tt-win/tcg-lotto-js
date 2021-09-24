@@ -54,19 +54,19 @@ const LANG = {
       big: 'Besar',
       small: 'Kecil',
       odd: 'Aneh',
-      even: 'Sama rata',
+      even: 'Genap',
     },
     K3_BSOE: {
       big: 'Besar',
       small: 'Kecil',
       odd: 'Aneh',
-      even: 'Sama rata',
+      even: 'Genap',
     },
     PK10_BSOE: {
       big: 'Besar',
       small: 'Kecil',
       odd: 'Aneh',
-      even: 'Sama rata',
+      even: 'Genap',
     },
     VNC_PK10_DragonTiger: {
       dragon: 'Dragon',
@@ -99,7 +99,7 @@ const LANG = {
       '4_3': '4 Nim 3',
     },
     sicBoAllSurroundDice: {
-      1: 'Any Triple',
+      1: '3 apa',
     },
     sicBoDiceOdds: {
       1: 'ONE DICE',
