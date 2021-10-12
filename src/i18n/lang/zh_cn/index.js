@@ -415,7 +415,7 @@ const LANG = {
     LGS_BETTING_GAME_PAUSED_ERROR: '该彩种暂停销售，请稍后再试',
     LGS_BETTING_PLAY_MENU_CLOSED_ERROR: '投注玩法已关闭',
     LGS_BETTING_AMOUNT_OVER_LIMITS: '您的投注金额已超过允许的上限',
-    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '%@的单注最大可投金额已超过允许的上限',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '提示：您好，平台规则同期同玩法号码累加投注 %@ 以上金额，故该注单平台暂不能受理，请修改您的投注内容再进行下注，给您带来不便，还请谅解。',
     LGS_BETTING_MULTIPLE_OVER_LIMITS: '您的倍数超过允许的上限',
     LGS_BETTING_RETURN_VALUE_SMALLER_THAN_ZERO: '投注返点值小于0',
     LGS_BETTING_ILLEGAL_ERROR: '投注参数不符合规定，投注失败！',
@@ -445,7 +445,7 @@ const LANG = {
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '当前彩种暂时没有开始销售 请稍后再试',
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中奖即停不可使用',
-    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此号码已超出当前期购买额度，请与客服联系',
+    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '提示：此号码%@已超出当前期购买额度，已修正可购买金额，请重新下注。',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注数已超过允许的上限',
     NOT_SUPPORT_TRIAL_CUSTOMER: '该帐号尚未开放此彩种',
     // VN

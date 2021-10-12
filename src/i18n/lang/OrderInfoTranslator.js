@@ -362,12 +362,6 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Combine_Fourth_Straight_ENT,
         PlayMenu.Combine_Fifth_Straight_ENT,
 
-        PlayMenu.First_Straight_ENT,
-        PlayMenu.Second_Straight_ENT,
-        PlayMenu.Third_Straight_ENT,
-        PlayMenu.Fourth_Straight_ENT,
-        PlayMenu.Fifth_Straight_ENT,
-
         PlayMenu.Five_Have_One_Straight_ENT,
       ],
       getText: (content) => content.split('-').reduce((result, val) =>
@@ -378,9 +372,7 @@ function getOrderInfoTranslatorList(lang) {
       items: [
         // 特碼A,B
         PlayMenu.SpecialA_BSOE_LHC,
-        PlayMenu.SpecialB_BSOE_LHC,
-        // 兩面
-        PlayMenu.Two_Sides_Special_BSOE_LHC,
+        PlayMenu.Special_BSOE_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.BSOE[content]}`),
     },
@@ -388,8 +380,7 @@ function getOrderInfoTranslatorList(lang) {
     BS_OE_LHC: {
       items: [
         // 特碼A,B
-        PlayMenu.SpecialA_BS_OE_LHC,
-        PlayMenu.SpecialB_BS_OE_LHC,
+        PlayMenu.Special_BS_OE_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.BS_OE[content]}`),
     },
@@ -398,9 +389,8 @@ function getOrderInfoTranslatorList(lang) {
       items: [
         // 特碼A,B
         PlayMenu.SpecialA_TOSum_BSOE_LHC,
-        PlayMenu.SpecialB_TOSum_BSOE_LHC,
         // 兩面
-        PlayMenu.Two_Sides_Special_TOSum_BSOE_LHC,
+        PlayMenu.Special_TOSum_BSOE_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.BALL_TOSUM_BSOE_KEY[content]}`),
     },
@@ -409,9 +399,8 @@ function getOrderInfoTranslatorList(lang) {
       items: [
         // 特碼A,B
         PlayMenu.SpecialA_Tail_BS_LHC,
-        PlayMenu.SpecialB_Tail_BS_LHC,
         // 兩面
-        PlayMenu.Two_Sides_Special_BS_LHC,
+        PlayMenu.Special_Tail_BS_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.TAIL_BS_KEY[content]}`),
     },
@@ -420,9 +409,8 @@ function getOrderInfoTranslatorList(lang) {
       items: [
         // 特碼A,B
         PlayMenu.SpecialA_Animal_LHC,
-        PlayMenu.SpecialB_Animal_LHC,
         // 兩面
-        PlayMenu.Two_Sides_Special_Animal_LHC,
+        PlayMenu.Special_Animal_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.SPECIAL_ZODIAC[content]}`),
     },
@@ -441,13 +429,12 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Color_Straight_LHC,
 
         // 正碼1-6
-        PlayMenu.Normal_First_Color_LHC,
-        PlayMenu.Normal_Second_Color_LHC,
-        PlayMenu.Normal_Third_Color_LHC,
-        PlayMenu.Normal_Fourth_Color_LHC,
-        PlayMenu.Normal_Fifth_Color_LHC,
-        PlayMenu.Normal_Sixth_Color_LHC,
-
+        PlayMenu.Fixed_First_Color_LHC,
+        PlayMenu.Fixed_Second_Color_LHC,
+        PlayMenu.Fixed_Third_Color_LHC,
+        PlayMenu.Fixed_Fourth_Color_LHC,
+        PlayMenu.Fixed_Fifth_Color_LHC,
+        PlayMenu.Fixed_Sixth_Color_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.COLOR_BALL[content]}`),
     },
@@ -507,45 +494,12 @@ function getOrderInfoTranslatorList(lang) {
     // 總大小單雙
     SUM_BSOE_LHC: {
       items: [
-        // 總大小單雙
-        PlayMenu.Normal_Total_BSOE_LHC,
-
         // SSC ENT
         PlayMenu.Combine_Total_Sum_ENT,
-        PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
-        PlayMenu.First_Total_Sum_ENT,
-        PlayMenu.Second_Total_Sum_ENT,
-        PlayMenu.Third_Total_Sum_ENT,
-        PlayMenu.Fourth_Total_Sum_ENT,
-        PlayMenu.Fifth_Total_Sum_ENT,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.SUM_BSOE[content]}`),
     },
     /* 正碼特 */
-    // 正一大小單雙
-    FIRST_FIXED_BSOE_LHC: {
-      items: [
-        // 正一大小單雙
-        PlayMenu.Fixed_First_BSOE_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_BSOE.FIRST[content]}`),
-    },
-    // 正二大小單雙
-    SECOND_FIXED_BSOE_LHC: {
-      items: [
-        // 正二大小單雙
-        PlayMenu.Fixed_Second_BSOE_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_BSOE.SECOND[content]}`),
-    },
-    // 正三大小單雙
-    THIRD_FIXED_BSOE_LHC: {
-      items: [
-        // 正三大小單雙
-        PlayMenu.Fixed_Third_BSOE_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_BSOE.THIRD[content]}`),
-    },
     // 正四大小單雙
     FOURTH_FIXED_BSOE_LHC: {
       items: [
@@ -553,22 +507,6 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fixed_Fourth_BSOE_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_BSOE.FOURTH[content]}`),
-    },
-    // 正五大小單雙
-    FIFTH_FIXED_BSOE_LHC: {
-      items: [
-        // 正五大小單雙
-        PlayMenu.Fixed_Fifth_BSOE_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_BSOE.FIFTH[content]}`),
-    },
-    // 正六大小單雙
-    SIXTH_FIXED_BSOE_LHC: {
-      items: [
-        // 正六大小單雙
-        PlayMenu.Fixed_Sixth_BSOE_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_BSOE.SIXTH[content]}`),
     },
 
     /* 正碼特合單雙 */
@@ -620,7 +558,6 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_TOSum_OE.SIXTH[content]}`),
     },
-
     /* 正碼特紅藍綠 */
     // 正一紅藍綠
     FIRST_FIXED_COLOR_LHC: {
@@ -630,57 +567,16 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_Color.FIRST[content]}`),
     },
-    // 正二紅藍綠
-    SECOND_FIXED_COLOR_LHC: {
-      items: [
-        // 正二紅藍綠
-        PlayMenu.Fixed_Second_Color_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_Color.SECOND[content]}`),
-    },
-    // 正三紅藍綠
-    THIRD_FIXED_COLOR_LHC: {
-      items: [
-        // 正三紅藍綠
-        PlayMenu.Fixed_Third_Color_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_Color.THIRD[content]}`),
-    },
-    // 正四紅藍綠
-    FOURTH_FIXED_COLOR_LHC: {
-      items: [
-        // 正四紅藍綠
-        PlayMenu.Fixed_Fourth_Color_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_Color.FOURTH[content]}`),
-    },
-    // 正五紅藍綠
-    FIFTH_FIXED_COLOR_LHC: {
-      items: [
-        // 正五紅藍綠
-        PlayMenu.Fixed_Fifth_Color_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_Color.FIFTH[content]}`),
-    },
-    // 正六紅藍綠
-    SIXTH_FIXED_COLOR_LHC: {
-      items: [
-        // 正六紅藍綠
-        PlayMenu.Fixed_Sixth_Color_LHC,
-      ],
-      getText: (content) => i18n(`playKey.${LHC_KEY.FIXED_Color.SIXTH[content]}`),
-    },
-
     // 正碼1-6 大小單雙碼
     NORMAL_BSOE_LHC: {
       items: [
         // 正碼1-6大小單雙
-        PlayMenu.Normal_First_BSOE_LHC,
-        PlayMenu.Normal_Second_BSOE_LHC,
-        PlayMenu.Normal_Third_BSOE_LHC,
-        PlayMenu.Normal_Fourth_BSOE_LHC,
-        PlayMenu.Normal_Fifth_BSOE_LHC,
-        PlayMenu.Normal_Sixth_BSOE_LHC,
+        PlayMenu.Fixed_First_BSOE_LHC,
+        PlayMenu.Fixed_Second_BSOE_LHC,
+        PlayMenu.Fixed_Third_BSOE_LHC,
+        PlayMenu.Fixed_Fourth_BSOE_LHC,
+        PlayMenu.Fixed_Fifth_BSOE_LHC,
+        PlayMenu.Fixed_Sixth_BSOE_LHC,
       ],
       getText: (content) => i18n(`playKey.${LHC_KEY.NORMAL_BSOE[content]}`),
     },
@@ -1527,16 +1423,6 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.First2SumBSOE_PK10,
 
         // ENT娛樂城
-        PlayMenu.First_BSOE_ENT,
-        PlayMenu.Second_BSOE_ENT,
-        PlayMenu.Third_BSOE_ENT,
-        PlayMenu.Fourth_BSOE_ENT,
-        PlayMenu.Fifth_BSOE_ENT,
-        PlayMenu.Two_Side_First_BSOE_ENT,
-        PlayMenu.Two_Side_Second_BSOE_ENT,
-        PlayMenu.Two_Side_Third_BSOE_ENT,
-        PlayMenu.Two_Side_Fourth_BSOE_ENT,
-        PlayMenu.Two_Side_Fifth_BSOE_ENT,
         PlayMenu.Combine_First_BSOE_ENT,
         PlayMenu.Combine_Second_BSOE_ENT,
         PlayMenu.Combine_Third_BSOE_ENT,
@@ -1580,11 +1466,6 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Two_Side_Third_BSOE_11X5_ENT,
         PlayMenu.Two_Side_Fourth_BSOE_11X5_ENT,
         PlayMenu.Two_Side_Fifth_BSOE_11X5_ENT,
-        PlayMenu.First_BSOE_11X5_ENT,
-        PlayMenu.Second_BSOE_11X5_ENT,
-        PlayMenu.Third_BSOE_11X5_ENT,
-        PlayMenu.Fourth_BSOE_11X5_ENT,
-        PlayMenu.Fifth_BSOE_11X5_ENT,
         // LF3D
         PlayMenu.Hundreds_BSOE_LF,
         PlayMenu.Tens_BSOE_LF,
@@ -1704,21 +1585,6 @@ function getOrderInfoTranslatorList(lang) {
     // ENT 前三 中三 後三
     GROUP_ENT: {
       items: [
-        PlayMenu.First_First3_ENT,
-        PlayMenu.First_Middle3_ENT,
-        PlayMenu.First_Last3_ENT,
-        PlayMenu.Second_First3_ENT,
-        PlayMenu.Second_Middle3_ENT,
-        PlayMenu.Second_Last3_ENT,
-        PlayMenu.Third_First3_ENT,
-        PlayMenu.Third_Middle3_ENT,
-        PlayMenu.Third_Last3_ENT,
-        PlayMenu.Fourth_First3_ENT,
-        PlayMenu.Fourth_Middle3_ENT,
-        PlayMenu.Fourth_Last3_ENT,
-        PlayMenu.Fifth_First3_ENT,
-        PlayMenu.Fifth_Middle3_ENT,
-        PlayMenu.Fifth_Last3_ENT,
         PlayMenu.Combine_First3_ENT,
         PlayMenu.Combine_Middle3_ENT,
         PlayMenu.Combine_Last3_ENT,
@@ -1906,7 +1772,7 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
     },
-  
+
     NON_STRAIGHT_LF: {
       items: [
         PlayMenu.Last3Com3_LF,
