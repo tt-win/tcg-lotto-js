@@ -48,6 +48,7 @@ const LHC = {
         'specialSumBS',
         'specialSumOE',
         'specialTailBS',
+        'chineseZodiac',
       ],
       h5Column: [
         'numero',

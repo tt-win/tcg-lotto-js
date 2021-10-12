@@ -61,7 +61,7 @@ const manualDigitsProps4D = {
   canShowManualDigits: true,
   manualDigits: [1, 2, 3, 4],
   manualDigitsI18n: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
-}
+};
 
 const baseSEAProps = {
   ballRange: [0, 9],
@@ -505,6 +505,84 @@ const ManualBetConfigVNC = {
     ballCount: 10,
     ballDigit: 2,
     ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Last_2_1st_7th_North_VNC_Single 北部 - 二数头尾(单式)
+  2586: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    ballDigit: 2,
+    ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Last_2_7th_North_VNC_Single 北部 - 二数头(单式)
+  2589: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    ballDigit: 2,
+    ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Last_2_1st_8th_South_VNC_Single 中/南部 - 二数头尾(单式)
+  2593: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    ballDigit: 2,
+    ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Last_2_8th_South_VNC_Single 中/南部 - 二数头(单式)
+  2596: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    ballDigit: 2,
+    ballDelimiter: '-',
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_2_North_VNC_Single 北部 串2组（单式）
+  2601: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    bitCompression: true,
+    bitCompressionSize: 500,
+  }),
+  // Bunch_3_North_VNC_Single 北部 串3组（单式）
+  2604: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_4_North_VNC_Single 北部 串4组（单式）
+  2607: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_2_South_VNC_Single 中南部 串2组（单式）
+  2611: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 2,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_3_South_VNC_Single 中南部 串3组（单式）
+  2614: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 3,
+    bitCompression: true,
+    bitCompressionSize: 5000,
+  }),
+  // Bunch_4_South_VNC_Single 中南部 串4组（单式）
+  2617: ManualBetConfigRecord({
+    ...baseSEAProps,
+    ballCount: 4,
     bitCompression: true,
     bitCompressionSize: 5000,
   }),

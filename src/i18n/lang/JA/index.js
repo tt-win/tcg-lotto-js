@@ -42,7 +42,7 @@ const LANG = {
     orderStatus_99: '注文無効',
   },
 
-    // TODO i18n
+  // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '宝くじ終了。',
     LGS_BETTING_GAME_FESTIVAL_ERROR: '宝くじ終了。',
@@ -54,6 +54,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: '失敗しました、このベットは無効です！',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: 'アカウントはログアウトされました。再度ログインしてください。',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: 'ベットキャンセルエラー',
+    LGS_BETTING_NUMBER_OVER_LIMITS: '投注號碼%@達到當前庫存允許銷售的最大投注數額。',
     ORDER_NOT_DRAWABLE: '宝くじ結果保留中',
     LGS_CANCEL_ORDER_INACTIVITY: '現在のシステム上退会はできません。',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: 'エラー。キャンセル料はベット額より少ないです。',

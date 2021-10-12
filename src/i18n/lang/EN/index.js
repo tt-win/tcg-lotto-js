@@ -29,6 +29,11 @@ const LANG = {
   betFailed: 'Incorrect/Incomplete Playslip. Processing failed.',
   detail: 'Details',
   recentlyGames: 'Bet Games',
+  bettingApproach: {
+    1: 'Straight',
+    2: 'Single',
+    3: 'Multi',
+  },
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_2: 'IN PROGRESS',
@@ -59,6 +64,18 @@ const LANG = {
     even: 'Even',
     clear: 'Delete',
   },
+  pk10Ranking: {
+    1: '1st',
+    2: '2nd',
+    3: '3rd',
+    4: '4th',
+    5: '5th',
+    6: '6th',
+    7: '7th',
+    8: '8th',
+    9: '9th',
+    10: '10th',
+  },
   ball: {
     fishPrawnCrab: {
       fish: 'Fish',
@@ -70,6 +87,22 @@ const LANG = {
       small: 'Small',
       odd: 'Odd',
       even: 'Even',
+    },
+    K3_BSOE: {
+      big: 'Big',
+      small: 'Small',
+      odd: 'Odd',
+      even: 'Even',
+    },
+    PK10_BSOE: {
+      big: 'Big',
+      small: 'Small',
+      odd: 'Odd',
+      even: 'Even',
+    },
+    VNC_PK10_DragonTiger: {
+      dragon: 'Dragon',
+      tiger: 'Tiger',
     },
     fanTanFan: {
       1: '1 Fan',
@@ -96,6 +129,14 @@ const LANG = {
       '4_1': '4 Nim 1',
       '4_2': '4 Nim 2',
       '4_3': '4 Nim 3',
+    },
+    sicBoAllSurroundDice: {
+      1: 'Any Triple',
+    },
+    sicBoDiceOdds: {
+      1: 'ONE DICE',
+      2: 'TWO DICE',
+      3: 'THREE DICE',
     },
   },
 
@@ -137,7 +178,7 @@ const LANG = {
     2: 'BAR',
   },
 
-    // TODO i18n
+  // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
     LGS_BETTING_GAME_FESTIVAL_ERROR: 'Lottery Closed',
@@ -149,6 +190,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: 'Incorrect bet, please try again.',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: 'Your session is expired, please try again later',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: 'Bet cancel error',
+    LGS_BETTING_NUMBER_OVER_LIMITS: 'No. %@ is currently sold out and closed for betting, please try another number or come back later.',
     ORDER_NOT_DRAWABLE: 'Lottery Results pending',
     LGS_CANCEL_ORDER_INACTIVITY: 'The current system cannot cancel membership',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: 'Cancellations fee is less than the amount of bets',
@@ -171,10 +213,44 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit stakes',
-//  VN
+    //  VN
+    ORDER_ALREADY_CANCELED: 'The bet has been cancelled.',
+    STAKES_IS_OVER_LIMIT_ERROR: 'Bet Stakes is over limit stakes',
     BALANCE_NOT_ENOUGH_ERROR: 'Insufficient Balance',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Amount is over limit',
-    CANCEL_ORDER_ERROR: 'Cancel order failed',
+    CALCULATE_BETTING_AMOUNT_ERROR: 'Incorrect bet, please try again.',
+    IILLEGAL_BALL_NUMBER_ERROR: 'Incorrect bet, please try again.',
+    ILLEGAL_BETTING_ARGUMENT_ERROR: 'Incorrect bet, please try again.',
+    SYSTEM_NOT_ALLOW_CHASE: 'Incorrect bet, please try again.',
+    NOT_ALLOWED_TO_HIT_DRAWBACK_ERROR: 'Incorrect bet, please try again.',
+    CALCULATE_STAKES_ERROR: 'Incorrect bet, please try again.',
+    PLAY_NOT_SUPPORTED_ERROR: 'No related recreation found, please try again.',
+    BOOK_FAILED_ERROR: 'Please wait while all funds are being retrieved！',
+    WALLET_NOT_EXISTS_ERROR: 'Please wait while all funds are being retrieved！',
+    B2B_TX_FAILED: 'Please wait while all funds are being retrieved！',
+    DEMO_NOT_SUPPORTED_ERROR: 'Please log in with your official account',
+    ORDER_PRIZE_NOT_FOUND_ERROR: 'No related Prize found, please try again.',
+    ORDER_SAVED_FAILED: 'No related Record found, please try again.',
+    PLATFORM_SETTING_NOT_FOUND_ERROR: 'No related recreation found, please try again.',
+    NOT_AVAILABLE_FOR_SALE_ERROR: 'No related recreation found, please try again.',
+    PLAY_NOT_FOUND_ERROR: 'No related recreation found, please try again.',
+    GAME_SETTING_NOT_FOUND: 'No related recreation found, please try again.',
+    GAME_DRWW_TIME_PARSE_ERROR: 'No related draw time found, please try again.',
+    ACCOUNT_NOT_FOUND_ERROR: 'Please log in with your official account',
+    GAME_URL_NOT_FOUND: 'Please log in with your official account',
+    INVALID_TOKEN: 'Please log in with your official account',
+    USER_NOT_LOGIN: 'Please log in with your official account',
+    CANCEL_ORDER_ERROR: 'Incorrect Cancel Order, please try again.',
+    INTERNAL_SERVER_ERROR: 'System error',
+    OBJECT_NOT_EXIST: 'System error',
+    ILLEGAL_PARAMS_VALUE: 'System error',
+    BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'Multiple bets exceeded the maximum limit.',
+    GAME_CLOSED_ERROR: 'Lottery Closed',
+    STAKES_ABOVE_LIMIT: 'Bet Stakes is over limit stakes > %@',
+    REQUEST_TIME_OUT: 'request time out, please check your internet',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Stakes is over limit stakes > %@2',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'No. %@ is currently sold out and closed for betting, please try another number or come back later.',
+
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',
@@ -197,6 +273,7 @@ const LANG = {
 
   defaultMode: 'Default Lott Play Mode',
   defaultBetting: 'Default Lott Play Betting',
+  defaultBettingApproach: 'Set BettingApproach',
   MultipleDefaultBetting: 'Multiple Game Default Betting config',
   MultipleDefaultMode: 'Multiple Game Default Mode config',
   SaveDefaultPlayBetting: 'Save Default PlayBetting',

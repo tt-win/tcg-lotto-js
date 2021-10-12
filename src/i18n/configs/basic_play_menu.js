@@ -376,11 +376,11 @@ export const PlayMenu = {
   Middle3ComAnyCode2: 77,
   Middle3StraightAnyCode1: 78,
   Middle3StraightAnyCode2: 79,
-  Last4StraightAnyCode1_SSC: 1748,   // 四星一码不定位
-  Last4StraightAnyCode2_SSC: 1749,   // 四星二码不定位
-  AllStraightAnyCode1_SSC: 1750,     // 五星一码不定位
-  AllStraightAnyCode2_SSC: 1751,     // 五星二码不定位
-  AllStraightAnyCode3_SSC: 1752,     // 五星三码不定位
+  Last4StraightAnyCode1_SSC: 1748, // 四星一码不定位
+  Last4StraightAnyCode2_SSC: 1749, // 四星二码不定位
+  AllStraightAnyCode1_SSC: 1750, // 五星一码不定位
+  AllStraightAnyCode2_SSC: 1751, // 五星二码不定位
+  AllStraightAnyCode3_SSC: 1752, // 五星三码不定位
   anyComChoose2: 2029, // 五星二码 組選不定位
   anyComChoose3: 2030, // 五星三码 組選不定位
 
@@ -430,71 +430,54 @@ export const PlayMenu = {
   Join_Main_LHC: 2040,
 
   Special_Combine_Chinese_Zodiac_LHC: 1730,
-  SpecialB_Animal_LHC: 1714,
   SpecialA_Animal_LHC: 1713,
   Fixed_Sixth_Color_LHC: 1712,
-  Fixed_Sixth_TOSum_OE_LHC: 1711,
   Fixed_Sixth_BSOE_LHC: 1710,
   Fixed_Fifth_Color_LHC: 1709,
-  Fixed_Fifth_TOSum_OE_LHC: 1708,
   Fixed_Fifth_BSOE_LHC: 1707,
   Fixed_Fourth_Color_LHC: 1706,
-  Fixed_Fourth_TOSum_OE_LHC: 1705,
   Fixed_Fourth_BSOE_LHC: 1704,
   Fixed_Third_Color_LHC: 1703,
-  Fixed_Third_TOSum_OE_LHC: 1702,
   Fixed_Third_BSOE_LHC: 1701,
   Fixed_Second_Color_LHC: 1700,
-  Fixed_Second_TOSum_OE_LHC: 1699,
   Fixed_Second_BSOE_LHC: 1698,
   Fixed_First_Color_LHC: 1697,
+  Normal_First_TOSum_BSOE_LHC: 1665,
   Fixed_First_TOSum_OE_LHC: 1696,
+  Fixed_Second_TOSum_OE_LHC: 1699,
+  Fixed_Third_TOSum_OE_LHC: 1702,
+  Fixed_Fourth_TOSum_OE_LHC: 1705,
+  Fixed_Fifth_TOSum_OE_LHC: 1708,
+  Fixed_Sixth_TOSum_OE_LHC: 1711,
   Fixed_First_BSOE_LHC: 1695,
   Normal_Special_One_Zodiac_LHC: 1694,
   Special_Zodiac_Straight_LHC: 1693,
   Normal_Sixth_Tail_BS_LHC: 1687,
-  Normal_Sixth_Color_LHC: 1686,
   Normal_Sixth_TOSum_BSOE_LHC: 1685,
-  Normal_Sixth_BSOE_LHC: 1684,
   Normal_Fifth_Tail_BS_LHC: 1683,
-  Normal_Fifth_Color_LHC: 1682,
   Normal_Fifth_TOSum_BSOE_LHC: 1681,
-  Normal_Fifth_BSOE_LHC: 1680,
   Normal_Fourth_Tail_BS_LHC: 1679,
-  Normal_Fourth_Color_LHC: 1678,
   Normal_Fourth_TOSum_BSOE_LHC: 1677,
-  Normal_Fourth_BSOE_LHC: 1676,
   Normal_Third_Tail_BS_LHC: 1675,
-  Normal_Third_Color_LHC: 1674,
   Normal_Third_TOSum_BSOE_LHC: 1673,
-  Normal_Third_BSOE_LHC: 1672,
   Normal_Second_Tail_BS_LHC: 1671,
-  Normal_Second_Color_LHC: 1670,
   Normal_Second_TOSum_BSOE_LHC: 1669,
-  Normal_Second_BSOE_LHC: 1668,
   Normal_First_Tail_BS_LHC: 1667,
-  Normal_First_Color_LHC: 1666,
-  Normal_First_TOSum_BSOE_LHC: 1665,
-  Normal_First_BSOE_LHC: 1664,
   Normal_Special_Tail_No_LHC: 1656,
-  Normal_Total_BSOE_LHC: 1653,
   Head_Tail_Special_LHC: 1651,
   Two_Sides_Total_Sum_BSOE_LHC: 1648,
-  Two_Sides_Special_Animal_LHC: 1647,
-  Two_Sides_Special_TOSum_BSOE_LHC: 1646,
-  Two_Sides_Special_BS_LHC: 1645,
-  Two_Sides_Special_BSOE_LHC: 1644,
+  Special_Animal_LHC: 1714,
+  Special_TOSum_BSOE_LHC: 1641,
+  Special_Tail_BS_LHC: 1639,
+  Special_BS_OE_LHC: 1633,
   SpecialA_TOSum_BSOE_LHC: 1640,
   SpecialA_Tail_BS_LHC: 1638,
   Color_BS_OE_LHC: 1637,
   Color_BSOE_LHC: 1636,
   Color_Straight_LHC: 1635,
   // 特碼
-  SpecialB_TOSum_BSOE_LHC: 1641,
-  SpecialB_Tail_BS_LHC: 1639,
-  SpecialB_BS_OE_LHC: 1633,
   SpecialA_BS_OE_LHC: 1632,
-  SpecialB_BSOE_LHC: 1631,
+  Special_BSOE_LHC: 1631,
   SpecialA_BSOE_LHC: 1630,
   Sixth_Fixed_LHC: 1628,
   Fifth_Fixed_LHC: 1627,
@@ -571,40 +554,9 @@ export const PlayMenu = {
   Any8_Dantuo_11X5: 2578,
 
   // ENT config
-  First_Straight_ENT: 1756,
-  First_BSOE_ENT: 1758,
-  First_Total_Sum_ENT: 1759,
-  First_First3_ENT: 1761,
-  First_Middle3_ENT: 1762,
-  First_Last3_ENT: 1763,
-  Second_Straight_ENT: 1766,
-  Second_BSOE_ENT: 1768,
-  Second_Total_Sum_ENT: 1769,
-  Second_First3_ENT: 1771,
-  Second_Middle3_ENT: 1772,
-  Second_Last3_ENT: 1773,
-  Third_Straight_ENT: 1776,
-  Third_BSOE_ENT: 1778,
-  Third_Total_Sum_ENT: 1779,
-  Third_First3_ENT: 1781,
-  Third_Middle3_ENT: 1782,
-  Third_Last3_ENT: 1783,
-  Fourth_Straight_ENT: 1786,
-  Fourth_BSOE_ENT: 1788,
-  Fourth_Total_Sum_ENT: 1789,
-  Fourth_First3_ENT: 1791,
-  Fourth_Middle3_ENT: 1792,
-  Fourth_Last3_ENT: 1793,
-  Fifth_Straight_ENT: 1796,
-  Fifth_BSOE_ENT: 1798,
-  Fifth_Total_Sum_ENT: 1799,
-  Fifth_First3_ENT: 1801,
-  Fifth_Middle3_ENT: 1802,
-  Fifth_Last3_ENT: 1803,
   Dragon_Tiger_Tie_5_4_ENT: 1843,
   Dragon_Tiger_Tie_5_3_ENT: 1844,
   Dragon_Tiger_Tie_5_2_ENT: 1845,
-  Dragon_Tiger_Tie_5_1_ENT: 1846,
   Dragon_Tiger_Tie_4_3_ENT: 1847,
   Dragon_Tiger_Tie_4_2_ENT: 1848,
   Dragon_Tiger_Tie_4_1_ENT: 1849,
@@ -613,12 +565,6 @@ export const PlayMenu = {
   Dragon_Tiger_Tie_2_1_ENT: 1852,
   Five_Have_One_Straight_ENT: 1855,
   // ENT兩面
-  Two_Side_First_BSOE_ENT: 1830,
-  Two_Side_Second_BSOE_ENT: 1832,
-  Two_Side_Third_BSOE_ENT: 1834,
-  Two_Side_Fourth_BSOE_ENT: 1836,
-  Two_Side_Fifth_BSOE_ENT: 1838,
-  Two_Side_Total_Sum_BSOE_ENT: 1840,
   // ENT整合
   Combine_First_Straight_ENT: 1805,
   Combine_First_BSOE_ENT: 1806,
@@ -660,6 +606,7 @@ export const PlayMenu = {
   Dragon_Tiger_5_VS_6: 1474,
 
   // ENT PK10
+  Quick_Play_PK10: 99999,
   Two_Side_PK10: 1856,
   Sum_PK10: 1884,
   // 猜和值 與 定位膽 playcode與傳統重複..
@@ -699,11 +646,11 @@ export const PlayMenu = {
   Two_Side_NinthPlace_PK10: 1881,
   Two_Side_TenthPlace_PK10: 1883,
   // ENT PK10 龍虎鬥
-  Dragon_Tiger_1_VS_10_PK10: 1900,
-  Dragon_Tiger_2_VS_9_PK10: 1901,
-  Dragon_Tiger_3_VS_8_PK10: 1902,
-  Dragon_Tiger_4_VS_7_PK10: 1903,
-  Dragon_Tiger_5_VS_6_PK10: 1904,
+  Dragon_Tiger_1_VS_10_PK10: 1861,
+  Dragon_Tiger_2_VS_9_PK10: 1864,
+  Dragon_Tiger_3_VS_8_PK10: 1867,
+  Dragon_Tiger_4_VS_7_PK10: 1870,
+  Dragon_Tiger_5_VS_6_PK10: 1873,
 
   // ENT PK10 番攤
   Fan_Tan_PK10: 2541,
@@ -782,19 +729,14 @@ export const PlayMenu = {
   Two_Side_Fifth_BSOE_11X5_ENT: 1958,
   First_LV1_11X5_ENT: 1959,
   First_11X5_ENT: 1961,
-  First_BSOE_11X5_ENT: 1963,
   Second_LV1_11X5_ENT: 1964,
   Second_11X5_ENT: 1966,
-  Second_BSOE_11X5_ENT: 1968,
   Third_LV1_11X5_ENT: 1969,
   Third_11X5_ENT: 1971,
-  Third_BSOE_11X5_ENT: 1973,
   Fourth_LV1_11X5_ENT: 1974,
   Fourth_11X5_ENT: 1976,
-  Fourth_BSOE_11X5_ENT: 1978,
   Fifth_LV1_11X5_ENT: 1979,
   Fifth_11X5_ENT: 1981,
-  Fifth_BSOE_11X5_ENT: 1983,
   Any_11X5_ENT: 1984,
   Any1_11X5_ENT: 1986,
   Any2_11X5_ENT: 1987,
@@ -852,6 +794,9 @@ export const PlayMenu = {
   Last3_Special_3_SSC: 2118,
 
   // THAI
+
+  // 一級選單
+
   Last_3_THAI: 2055,
   '2_Star_THAI': 2060,
   Any_Place_THAI: 2067,
@@ -863,12 +808,30 @@ export const PlayMenu = {
   Fan_Tan_Nian_THAI: 2503,
   Fan_Tan_BSOE_THAI: 2505,
 
+  // 二級選單
+
+  // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
   LAST_3_STRAIGHT_THAI: 2057, // 上正三位数
   LAST_3_COMBINE_THAI: 2059, // 上反三位数
   LAST_2_STRAIGHT_THAI: 2062, // 上正二位数
   LAST_2_COMBINE_THAI: 2064, // 上反二位数
   '2_STRAIGHT_ADD_THAI': 2066, // 下正二位数
   '1_AT_ANY_LAST_3_THAI': 2069, // 上跑三位数
+  Prize_2_Straight_THAI: 2645, // 二等三位数
+  Special_Prize_2_Straight_THAI: 2646, // 二特三位数
+
+  Any_Roll_Last_2_North_VNC: 2517, // 北部 - 后二包胆
+  Any_Roll_Last_3_North_VNC: 2521, // 北部 - 后三包胆
+  Any_Roll_Last_4_North_VNC: 2525, // 北部 - 后四包胆
+
+  Any_Roll_Last_2_South_VNC: 2530, // 中南部 - 后二包胆
+  Any_Roll_Last_3_South_VNC: 2534, // 中南部 - 后三包胆
+  Any_Roll_Last_4_South_VNC: 2538, // 中南部 - 后四包胆
+
+  Any_Roll_Last_2_1K_North_VNC: 2641, // 北部 - 后二包胆1K
+  Any_Roll_Last_2_1K_South_VNC: 2642, // 中南部 - 后二包胆1K
+
+  // 三級選單
 
   Last_3_Straight_THAI_Multi: 2485, // 上正三位数（复式）
   Last_3_Straight_THAI_Single: 2486, // 上正三位数（单式）
@@ -894,18 +857,57 @@ export const PlayMenu = {
   Not_Winning_Numbers_North_VNC: 2550, // 北部 - 逆向
   Not_Winning_Numbers_South_VNC: 2560, // 中南部 - 逆向
 
+  Bunch_North_VNC: 2598, // 北部 串组 - 一級選單
+  Bunch_South_VNC: 2608, // 中南部 串组 - 一級選單
+
   Hoo_Hey_How_Main_VNC: 2300, // 魚蝦蟹
   Fan_Tan_VNC: 2488, // 番攤
 
+  SicBO_VK3: 2618, // 骰寶快三
+
+  First_To_Tenth_VPK10: 2624, // 极速PK10 - 第1-10名排名
+  First_Second_Sum_VPK10: 2627, // 极速PK10 - 冠亚和值
+  Dragon_Tiger_VPK10: 2630, // 极速PK10 - 龙虎斗
+
+  // 二級選單
+
+  Single_Dice_Main_VK3: 2619, // 骰寶快三 - 单骰
+  Dice_Sum_Main_VK3: 2620, // 骰寶快三 - 和值
+  Surround_Dice_Main_VK3: 2621, // 骰寶快三 - 围骰
+  All_Surround_Dice_Main_VK3: 2622, // 骰寶快三 - 全围
+  Dice_BSOE_Main_VK3: 2623, // 骰寶快三 - 大小单双
+
+  First_To_Tenth_Guess_Rank_VPK10: 2625, // 极速PK10 - 第1-10名排名-二級選單
+  First_To_Tenth_BSOE_VPK10: 2626, // 极速PK10 - 第1-10名-大小单双
+  First_Second_Sum_Main_VPK10: 2628, // 极速PK10 - 冠亚和值-二級選單
+  First_Second_Sum_BSOE_VPK10: 2629, // 极速PK10 - 冠亚和值-大小单双
+  Dragon_Tiger_Main_PK10: 2631, // 极速PK10 - 龙虎斗-二級選單
+
+  // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
+  LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
+  LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
+  LAST_3_STRAIGHT_1ST_VNC: 2097, // 上正三位数
+  LAST_3_COMBINE_1ST_VNC: 2099, // 上反三位数
+  LAST_2_STRAIGHT_1ST_VNC: 2102, // 上正二位数
+  LAST_2_STRAIGHT_2ND_VNC: 2104, // 下正二位数
+  LAST_2_ANY_1ST_VNC: 2107, // 上跑两位数
+  LAST_2_ANY_2ND_VNC: 2109, // 下跑两位数
+
+  Bunch_2_North_VNC: 2601, // 北部 串2组
+  Bunch_3_North_VNC: 2604, // 北部 串3组
+  Bunch_4_North_VNC: 2607, // 北部 串4组
+  Bunch_2_South_VNC: 2611, // 中南部 串2组
+  Bunch_3_South_VNC: 2614, // 中南部 串3组
+  Bunch_4_South_VNC: 2617, // 中南部 串4组
+
   // 三級選單
 
-  Any_Roll_Last_2_North_VNC: 2517, // 北部 - 后二包胆
+  // 北部
+
   Any_Roll_Last_2_North_VNC_Multi: 2518, // 北部 - 后二包胆（复式）
   Any_Roll_Last_2_North_VNC_Single: 2519, // 北部 - 后二包胆（单式）
-  Any_Roll_Last_3_North_VNC: 2521, // 北部 - 后三包胆
   Any_Roll_Last_3_North_VNC_Multi: 2522, // 北部 - 后三包胆（复式）
   Any_Roll_Last_3_North_VNC_Single: 2523, // 北部 - 后三包胆（单式）
-  Any_Roll_Last_4_North_VNC: 2525, // 北部 - 后四包胆
   Any_Roll_Last_4_North_VNC_Multi: 2526, // 北部 - 后四包胆（复式）
   Any_Roll_Last_4_North_VNC_Single: 2527, // 北部 - 后四包胆（单式）
 
@@ -916,13 +918,19 @@ export const PlayMenu = {
   '10_Not_Winning_Numbers_North_VNC': 2558, // 北部 - 十不中
   '10_Not_Winning_Numbers_Single_North_VNC': 2559, // 北部 - 十不中(单式)
 
-  Any_Roll_Last_2_South_VNC: 2530, // 中南部 - 后二包胆
+  Last_2_1st_7th_North_VNC: 2585, // 北部 二数头尾
+  Last_2_1st_7th_North_VNC_Single: 2586, // 北部 二数头尾 (单式)
+  Last_2_1st_7th_North_VNC_Multi: 2587, // 北部 二数头尾（复式)
+  Last_2_7th_North_VNC: 2588, // 北部 二数头
+  Last_2_7th_North_VNC_Single: 2589, // 北部 二数头 (单式)
+  Last_2_7th_North_VNC_Multi: 2590, // 北部 二数头（复式)
+
+  // 中南部
+
   Any_Roll_Last_2_South_VNC_Multi: 2531, // 中南部 - 后二包胆（复式）
   Any_Roll_Last_2_South_VNC_Single: 2532, // 中南部 - 后二包胆（单式）
-  Any_Roll_Last_3_South_VNC: 2534, // 中南部 - 后三包胆
   Any_Roll_Last_3_South_VNC_Multi: 2535, // 中南部 - 后三包胆（复式）
   Any_Roll_Last_3_South_VNC_Single: 2536, // 中南部 - 后三包胆（单式）
-  Any_Roll_Last_4_South_VNC: 2538, // 中南部 - 后四包胆
   Any_Roll_Last_4_South_VNC_Multi: 2539, // 中南部 - 后四包胆（复式）
   Any_Roll_Last_4_South_VNC_Single: 2540, // 中南部 - 后四包胆（单式）
 
@@ -933,31 +941,36 @@ export const PlayMenu = {
   '10_Not_Winning_Numbers_South_VNC': 2568, // 中南部 - 十不中
   '10_Not_Winning_Numbers_Single_South_VNC': 2569, // 中南部 - 十不中(单式)
 
-  LAST_4_STRAIGHT_1ST_VNC: 2092, // 上正四位数
+  Last_2_1st_8th_South_VNC: 2592, // 中南部 二数头尾
+  Last_2_1st_8th_South_VNC_Single: 2593, // 中南部 二数头尾 (单式)
+  Last_2_1st_8th_South_VNC_Multi: 2594, // 中南部 二数头尾（复式)
+  Last_2_8th_South_VNC: 2595, // 中南部 二数头
+  Last_2_8th_South_VNC_Single: 2596, // 中南部 二数头 (单式)
+  Last_2_8th_South_VNC_Multi: 2597, // 中南部 二数头(复式)
+
+  // 以下不分南北部
   Last_4_Straight_1st_VNC_Multi: 2286, // 上正四位数（复式）
   Last_4_Straight_1st_VNC_Single: 2287, // 上正四位数（单式）
-  LAST_4_COMBINE_1ST_VNC: 2094, // 上反四位数
 
-  LAST_3_STRAIGHT_1ST_VNC: 2097, // 上正三位数
   Last_3_Straight_1st_VNC_Multi: 2284, // 上正三位数（复式）
   Last_3_Straight_1st_VNC_Single: 2285, // 上正三位数（单式）
   Last_3_Combine_1st_VNC_Multi: 2283, // 上反三位数（复式）
-  LAST_3_COMBINE_1ST_VNC: 2099, // 上反三位数
 
   Last_2_Straight_1st_VNC_Multi: 2279, // 上正二位数(复式)
   Last_2_Straight_1st_VNC_Single: 2280, // 上正二位数（单式）
-  LAST_2_STRAIGHT_1ST_VNC: 2102, // 上正二位数
   Last_2_Straight_2nd_VNC_Multi: 2281, // 下正二位数（复式）
   Last_2_Straight_2nd_VNC_Single: 2282, // 下正二位数（单式）
-  LAST_2_STRAIGHT_2ND_VNC: 2104, // 下正二位数
-
-  LAST_2_ANY_1ST_VNC: 2107, // 上跑两位数
-  LAST_2_ANY_2ND_VNC: 2109, // 下跑两位数
 
   Ten_Digit_1st_VNC: 2580, // 特等十位
   Unit_Digit_1st_VNC: 2581, // 特等个位
   Ten_Digit_2nd_VNC: 2582, // 一等十位
   Unit_Digit_2nd_VNC: 2583, // 一等个位
+
+  Fixed_Place_4D_VNC: 263700, // VNC 4D 一数, 後端沒有的playId
+  Fixed_Place_4D_Unit_VNC: 2637, // VNC 4D 一数 (個位)
+  Fixed_Place_4D_Ten_VNC: 2638, // VNC 4D 一数 (十位)
+  Fixed_Place_4D_hundred_VNC: 2639, // VNC 4D 一数 (百位)
+  Fixed_Place_4D_Thousand_VNC: 2640, // VNC 4D 一数 (千位)
 
   Hoo_Hey_How_Play_VNC: 2302, // 魚蝦蟹
   Fan_Tan_Fan_VNC: 2490, // 番攤 - 番
@@ -966,6 +979,9 @@ export const PlayMenu = {
   Fan_Tan_BSOE_VNC: 2496, // 番攤 - 大小單雙
 
   // LAO 老挝彩
+
+  // 一級選單
+
   '4_Num_LAO': 2127,
   '3_Num_LAO': 2132,
   '2_Num_LAO': 2137,
@@ -978,6 +994,9 @@ export const PlayMenu = {
   Fan_Tan_Nian_LAO: 2512,
   Fan_Tan_BSOE_LAO: 2514,
 
+  // 二級選單
+
+  // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
   LAST_4_STRAIGHT_LAO: 2129, // 上正四位数
   LAST_4_COMBINE_LAO: 2131, // 上反四位数
   LAST_3_STRAIGHT_LAO: 2134, // 上正三位数
@@ -986,6 +1005,14 @@ export const PlayMenu = {
   FIRST_2_STRAIGHT_LAO: 2141, // 下正二位数
   LAST_2_ANY_LAO: 2144, // 上跑两位数
   FIRST_2_ANY_LAO: 2146, // 下跑两位数
+  Fixed_Place_4D: 2632, // SEA 4D 一数
+
+  // 三級選單
+
+  Fixed_Place_4D_Unit: 2633, // SEA 4D 一数 (個位)
+  Fixed_Place_4D_Ten: 2634, // SEA 4D 一数 (十位)
+  Fixed_Place_4D_hundred: 2635, // SEA 4D 一数 (百位)
+  Fixed_Place_4D_Thousand: 2636, // SEA 4D 一数 (千位)
 
   Last_2_Straight_LAO_Multi: 2288, // 上正四位数（单式）
   Last_2_Straight_LAO_Single: 2289, // 上正二位数（单式）
@@ -1069,4 +1096,55 @@ export const PlayMenu = {
   Span_All_K3: 2266,
   Span_K3_Ent: 2267,
   Span_All_K3_Ent: 2268,
+  // 3D_LF
+  Last3Straight_LF: 1408,
+  Last3Straight_LF_Single: 111,
+  Last3Sum_LF: 1409,
+  Last3Com3_LF: 1410,
+  Last3Com6_LF: 1411,
+  Last3ComSum_LF: 1412,
+  Last3Com_LF: 1413,
+  First2Com_LF: 1417,
+  Last2Straight_LF: 1418,
+  Last2Straight_LF_Single: 113,
+  Last2Com_LF_3D: 1419,
+  Last3StraightAnyCode1_LF: 1414,
+  Last3StraightAnyCode2_LF: 1415,
+  FixedPlace_LF: 1422,
+  // P3P5
+  P3Sum_LF: 1431,
+  P3Com3_LF: 1432,
+  P3Com6_LF: 1433,
+  P3ComSum_LF: 1435,
+  P3StraightAnyCode1_LF: 1436,
+  P3StraightAnyCode2_LF: 1437,
+  P5First2Com_LF: 1439,
+  P5Last2Straight_LF: 1442,
+  P5Last2Straight_LF_Single: 166,
+  P3Last2Com_LF: 1441,
+  Last2Com_LF_P3P5: 1443,
+  // PK10_Single
+  First2_PK10_Single: 1732,
+  First3_PK10_Single: 1733,
+  First4_PK10_Single: 1734,
+  First5_PK10_Single: 1735,
+  // 11X5_Single
+  Any2_11X5_Single: 100,
+  Any3_11X5_Single: 101,
+  Any4_11X5_Single: 102,
+  Any5_11X5_Single: 103,
+  Any6_11X5_Single: 104,
+  Any7_11X5_Single: 105,
+  Any8_11X5_Single: 106,
+  First3Straight_11X5_Single: 107,
+  First3Com_11X5_Single: 108,
+  First2Straight_11X5_Single: 109,
+  First2Com_11X5_Single: 110,
+  // SSC_Single
+  All5Straight_Single: 80,
+  All5All_Single: 81,
+  All5Join_Single: 82,
+  Any2_Single: 97,
+  Any3_Single: 98,
+  Any4_Single: 99,
 };

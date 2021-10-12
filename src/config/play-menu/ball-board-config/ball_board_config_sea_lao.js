@@ -20,7 +20,7 @@ export default {
   // First_2_Straight_LAO_Multi 下正二位数（复式）
   2290: BallBoardConfigRecord({
     ...seaMultiBetProps,
-    betDigits: [betDigits.TENS, betDigits.ONES],
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS],
     formula: 'straight',
   }),
 
@@ -43,6 +43,13 @@ export default {
     ...seaMultiBetProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
+  }),
+
+  // Fixed_Place_4D 跑數 一數
+  2632: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'oneBallOneNum',
   }),
 
   // Hoo_Hey_How_Play_LAO 鱼虾蟹

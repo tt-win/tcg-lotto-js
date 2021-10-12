@@ -9,6 +9,9 @@
     "standalone": "cross-env NODE_ENV=production webpack --config webpack.config.standalone.js -p --progress --colors"
   },
   "license": "MIT",
+  "exports": {
+    ".": "./src/i18n/index.js"
+  },
   "devDependencies": {
     "babel-core": "^6.20.0",
     "babel-eslint": "^7.1.1",

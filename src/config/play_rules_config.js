@@ -7,11 +7,6 @@ const SSCPlayRuleConfig = {
     PlayMenu.Combine_Third_Straight_ENT,
     PlayMenu.Combine_Fourth_Straight_ENT,
     PlayMenu.Combine_Fifth_Straight_ENT,
-    PlayMenu.First_Straight_ENT,
-    PlayMenu.Second_Straight_ENT,
-    PlayMenu.Third_Straight_ENT,
-    PlayMenu.Fourth_Straight_ENT,
-    PlayMenu.Fifth_Straight_ENT,
   ],
   BSOE_SSC_ENT: [
     PlayMenu.Combine_First_BSOE_ENT,
@@ -19,51 +14,18 @@ const SSCPlayRuleConfig = {
     PlayMenu.Combine_Third_BSOE_ENT,
     PlayMenu.Combine_Fourth_BSOE_ENT,
     PlayMenu.Combine_Fifth_BSOE_ENT,
-
-    PlayMenu.Two_Side_First_BSOE_ENT,
-    PlayMenu.Two_Side_Second_BSOE_ENT,
-    PlayMenu.Two_Side_Third_BSOE_ENT,
-    PlayMenu.Two_Side_Fourth_BSOE_ENT,
-    PlayMenu.Two_Side_Fifth_BSOE_ENT,
-
-    PlayMenu.First_BSOE_ENT,
-    PlayMenu.Second_BSOE_ENT,
-    PlayMenu.Third_BSOE_ENT,
-    PlayMenu.Fourth_BSOE_ENT,
-    PlayMenu.Fifth_BSOE_ENT,
   ],
   Total_Sum_SSC_ENT: [
     PlayMenu.Combine_Total_Sum_ENT,
-    PlayMenu.Two_Side_Total_Sum_BSOE_ENT,
-    PlayMenu.First_Total_Sum_ENT,
-    PlayMenu.Second_Total_Sum_ENT,
-    PlayMenu.Third_Total_Sum_ENT,
-    PlayMenu.Fourth_Total_Sum_ENT,
-    PlayMenu.Fifth_Total_Sum_ENT,
   ],
   First3_SSC_ENT: [
     PlayMenu.Combine_First3_ENT,
-    PlayMenu.First_First3_ENT,
-    PlayMenu.Second_First3_ENT,
-    PlayMenu.Third_First3_ENT,
-    PlayMenu.Fourth_First3_ENT,
-    PlayMenu.Fifth_First3_ENT,
   ],
   Middle3_SSC_ENT: [
     PlayMenu.Combine_Middle3_ENT,
-    PlayMenu.First_Middle3_ENT,
-    PlayMenu.Second_Middle3_ENT,
-    PlayMenu.Third_Middle3_ENT,
-    PlayMenu.Fourth_Middle3_ENT,
-    PlayMenu.Fifth_Middle3_ENT,
   ],
   Last3_SSC_ENT: [
     PlayMenu.Combine_Last3_ENT,
-    PlayMenu.First_Last3_ENT,
-    PlayMenu.Second_Last3_ENT,
-    PlayMenu.Fourth_Last3_ENT,
-    PlayMenu.Third_Last3_ENT,
-    PlayMenu.Fifth_Last3_ENT,
   ],
   Dragon_Tiger_Tie_SSC_ENT: [
     PlayMenu.Dragon_Tiger_Tie_5_4_ENT,
@@ -113,11 +75,6 @@ const _11X5PlayRuleConfig = {
     PlayMenu.Two_Side_Third_BSOE_11X5_ENT,
     PlayMenu.Two_Side_Fourth_BSOE_11X5_ENT,
     PlayMenu.Two_Side_Fifth_BSOE_11X5_ENT,
-    PlayMenu.First_BSOE_11X5_ENT,
-    PlayMenu.Second_BSOE_11X5_ENT,
-    PlayMenu.Third_BSOE_11X5_ENT,
-    PlayMenu.Fourth_BSOE_11X5_ENT,
-    PlayMenu.Fifth_BSOE_11X5_ENT,
   ],
   Fixed_Place_11X5_ENT: [
     PlayMenu.First_11X5_ENT,
@@ -179,27 +136,23 @@ const LHCPlayRuleConfig = {
     PlayMenu.Special_LHC,
   ],
   Special_BSOE_LHC: [
-    PlayMenu.SpecialB_BSOE_LHC,
-    PlayMenu.Two_Sides_Special_BSOE_LHC,
+    PlayMenu.Special_BSOE_LHC,
     PlayMenu.Color_BSOE_LHC,
   ],
   Special_BS_OE_LHC: [
-    PlayMenu.SpecialB_BS_OE_LHC,
     PlayMenu.Color_BS_OE_LHC,
   ],
   Special_TOSum_BSOE_LHC: [
-    PlayMenu.SpecialB_TOSum_BSOE_LHC,
-    PlayMenu.Two_Sides_Special_TOSum_BSOE_LHC,
+    PlayMenu.Special_TOSum_BSOE_LHC,
   ],
   Special_Tail_BS_LHC: [
-    PlayMenu.SpecialB_Tail_BS_LHC,
-    PlayMenu.Two_Sides_Special_BS_LHC,
-  ],
-  Special_Total_Sum_BSOE_LHC: [
-    PlayMenu.Two_Sides_Total_Sum_BSOE_LHC,
+    PlayMenu.Special_Tail_BS_LHC,
   ],
   Normal_LHC: [
     PlayMenu.Normal_LHC,
+  ],
+  Two_Sides_Total_Sum_BSOE_LHC: [
+    PlayMenu.Two_Sides_Total_Sum_BSOE_LHC,
   ],
   Normal_Fixed_Place_LHC: [
     PlayMenu.Normal_Fixed_Place_LHC,
@@ -219,8 +172,7 @@ const LHCPlayRuleConfig = {
     PlayMenu.Color_BS_OE_LHC,
   ],
   Special_Zodiac_Straight_LHC: [
-    PlayMenu.SpecialB_Animal_LHC,
-    PlayMenu.Two_Sides_Special_Animal_LHC,
+    PlayMenu.Special_Animal_LHC,
     PlayMenu.Special_Zodiac_Straight_LHC,
   ],
   Head_Tail_Special_LHC: [

@@ -1061,126 +1061,7 @@ export default {
   1794: BallBoardConfigRecord({
     ballShowPosition: ballShowPosition.LAST_ONE,
   }),
-  // First_Straight_ENT
-  1756: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // First_BSOE_ENT
-  1758: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // First_Total_Sum_ENT
-  1759: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // First_First3_ENT
-  1761: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // First_Middle3_ENT
-  1762: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // First_Last3_ENT
-  1763: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Second_Straight_ENT
-  1766: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Second_BSOE_ENT
-  1768: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Second_Total_Sum_ENT
-  1769: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Second_First3_ENT
-  1771: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Second_Middle3_ENT
-  1772: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Second_Last3_ENT
-  1773: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Third_Straight_ENT
-  1776: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Third_BSOE_ENT
-  1778: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Third_Total_Sum_ENT
-  1779: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Third_First3_ENT
-  1781: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Third_Middle3_ENT
-  1782: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Third_Last3_ENT
-  1783: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fourth_Straight_ENT
-  1786: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fourth_BSOE_ENT
-  1788: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fourth_Total_Sum_ENT
-  1789: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fourth_First3_ENT
-  1791: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fourth_Middle3_ENT
-  1792: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fourth_Last3_ENT
-  1793: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fifth_Straight_ENT
-  1796: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fifth_BSOE_ENT
-  1798: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fifth_Total_Sum_ENT
-  1799: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fifth_First3_ENT
-  1801: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fifth_Middle3_ENT
-  1802: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Fifth_Last3_ENT
-  1803: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
+
   // Dragon_Tiger_Tie_5_4_ENT
   1843: BallBoardConfigRecord({
     ...baseSSCPropsENT,
@@ -1191,10 +1072,6 @@ export default {
   }),
   // Dragon_Tiger_Tie_5_2_ENT
   1845: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Dragon_Tiger_Tie_5_1_ENT
-  1846: BallBoardConfigRecord({
     ...baseSSCPropsENT,
   }),
   // Dragon_Tiger_Tie_4_3_ENT
@@ -1221,30 +1098,7 @@ export default {
   1852: BallBoardConfigRecord({
     ...baseSSCPropsENT,
   }),
-  // Five_Have_One_Straight_ENT
-  1855: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Two_Side_First_BSOE_ENT
-  1830: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Two_Side_Second_BSOE_ENT
-  1832: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Two_Side_Third_BSOE_ENT
-  1834: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Two_Side_Fourth_BSOE_ENT
-  1836: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Two_Side_Fifth_BSOE_ENT
-  1838: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
+
 
   // 整合
   // Combine_First_Straight_ENT
@@ -1305,10 +1159,6 @@ export default {
   }),
   // Combine_Dragon_Tiger_Tie_ENT
   1827: BallBoardConfigRecord({
-    ...baseSSCPropsENT,
-  }),
-  // Two_Side_Total_Sum_BSOE_ENT
-  1840: BallBoardConfigRecord({
     ...baseSSCPropsENT,
   }),
 

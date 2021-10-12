@@ -6,6 +6,11 @@ import {
   fanTanNianBallProps,
   fanTanBSOEProps,
   seaMultiBetProps,
+  vnPK10FirstTenthGuessRankProps,
+  vnPk10FirstTenthBSOEProps,
+  vnPk10FirstSecondSumMainProps,
+  vnPK10FirstSecondSumBSOEProps,
+  vnPK10DragonTigerProps,
 } from './ball_board_config_record';
 import { betDigits } from './bet_digits';
 
@@ -87,6 +92,34 @@ export default {
     formula: 'straight',
   }),
 
+  // Last_2_1st_7th_North_VNC_Multi 北部 二数头尾（复式)
+  2587: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
+  // Last_2_7th_North_VNC_Multi 北部 二数头（复式)
+  2590: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
+  // Last_2_1st_8th_South_VNC_Multi 中南部 二数头尾（复式)
+  2594: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
+  // Last_2_8th_South_VNC_Multi 中南部 二数头（复式)
+  2597: BallBoardConfigRecord({
+    ...seaMultiBetProps,
+    betDigits: [betDigits.TENS, betDigits.ONES],
+    formula: 'straight',
+  }),
+
   // Hoo_Hey_How_Play_VNC 鱼虾蟹
   2302: BallBoardConfigRecord({
     ...seaMultiBetProps,
@@ -121,5 +154,30 @@ export default {
   // fan tan BSOE
   2496: BallBoardConfigRecord({
     ...fanTanBSOEProps,
+  }),
+
+  // VN PK10 First_To_Tenth_Guess_Rank_VPK10
+  2625: BallBoardConfigRecord({
+    ...vnPK10FirstTenthGuessRankProps,
+  }),
+
+  // VN PK10 First_To_Tenth_BSOE
+  2626: BallBoardConfigRecord({
+    ...vnPk10FirstTenthBSOEProps,
+  }),
+
+  // VN PK10 First_Second_Sum_Main_VPK10
+  2628: BallBoardConfigRecord({
+    ...vnPk10FirstSecondSumMainProps,
+  }),
+
+  // First_Second_Sum_BSOE_VPK10
+  2629: BallBoardConfigRecord({
+    ...vnPK10FirstSecondSumBSOEProps,
+  }),
+
+  // Dragon_Tiger_Main_PK10
+  2631: BallBoardConfigRecord({
+    ...vnPK10DragonTigerProps,
   }),
 };

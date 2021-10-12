@@ -24,7 +24,11 @@ export const lang = {
 
 const defaultLang = 'ZH_CN';
 
-const getLang = () => {
+const getLang = (targetLangKey) => {
+  // Force to use specific lang if targetLangKey passed
+  const targetLang = lang[targetLangKey];
+  if (targetLangKey && targetLang) { return targetLang; }
+
   // no window obj
   if (!window || typeof window === 'undefined') return lang[defaultLang];
 
@@ -60,7 +64,11 @@ const getLang = () => {
  * @returns {*}
  */
 const findByI18nKey = (key, ...args) => {
-  const userLang = getLang();
+  return findByI18nKeyWithLang(undefined, key, ...args);
+};
+
+const findByI18nKeyWithLang = (langKey, key, ...args) => {
+  const userLang = getLang(langKey);
   const val = _property(key)(userLang);
   if (!val) {
     // console.warn(`Can\'t find i18n key ${key}`)
@@ -85,6 +93,6 @@ const findByI18nKey = (key, ...args) => {
   return val;
 };
 
-
 export const i18n = findByI18nKey;
+export const i18nWithLang = findByI18nKeyWithLang;
 export default {};

@@ -2,7 +2,7 @@ import _isNumber from 'lodash/isNumber';
 import _findIndex from 'lodash/findIndex';
 import _reverse from 'lodash/reverse';
 import _padStart from 'lodash/padStart';
-import { i18n, lang } from './lang/i18n-key-finder';
+import { i18n, lang, i18nWithLang } from './lang/i18n-key-finder';
 import { orderDigitsI18n, PlayMenu } from './configs/basic_play_menu';
 import OrderInfoTranslator from './lang/OrderInfoTranslator';
 
@@ -126,11 +126,14 @@ export const truncBallText = (ballText) => {
  * @param orderNumber 原始訂單編號
  * @param chasing 是否有追號
  * @param chasingOrder 追的第幾期
+ * 
  *
  * @returns {string} 投注記錄 / 訂單編號 欄位的顯示內容
  */
-export const genOrderNumberText = ({ orderNumber = '', chasing = false, chasingOrder = 0 }) => {
-  const orderNoText = orderNumber.slice(-6);
+export const genOrderNumberText = ({ orderNumber = '', chasing = false, chasingOrder = 0 }, merchant) => {
+  // 有取到merchant且為FUN88全系列(tlc557uats及tlc5577s)要顯示完整訂單編號，沒有取到merchant或取到其他品牌則顯示前六碼
+  const showAllOrderNoTextMerchant = ['tlc557uats', 'tlc5577s'];
+  const orderNoText = showAllOrderNoTextMerchant.includes(merchant) ? orderNumber : orderNumber.slice(-6);
   if (chasing) {
     const chaseOrdText = _padStart(chasingOrder, 3, '0');
     return `${orderNoText}-${chaseOrdText}`;
@@ -165,7 +168,7 @@ export const genChasingOrderText = ({ chasing, chasingOrder, chasingPhase }) => 
  *
  * @returns {string} 訂單詳情 / 投注內容 欄位的顯示內容
  */
-export const i18nOrderInfo = ({ playId, bettingContent }) => OrderInfoTranslator.getText(playId, bettingContent);
+export const i18nOrderInfo = ({ playId, bettingContent, lang }) => OrderInfoTranslator.getText(playId, bettingContent, lang);
 
 export { i18n } from './lang/i18n-key-finder';
 
@@ -179,5 +182,6 @@ export default {
   genChasingOrderText,
   genBallContentText: i18nOrderInfo,
   i18n,
+  i18nWithLang,
   lang,
 };

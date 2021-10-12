@@ -61,6 +61,18 @@ const LANG = {
     even: '偶',
     clear: '清',
   },
+  pk10Ranking: {
+    1: '第1名',
+    2: '第2名',
+    3: '第3名',
+    4: '第4名',
+    5: '第5名',
+    6: '第6名',
+    7: '第7名',
+    8: '第8名',
+    9: '第9名',
+    10: '第10名',
+  },
   ball: {
     fishPrawnCrab: {
       fish: '魚',
@@ -73,6 +85,22 @@ const LANG = {
       odd: '單',
       even: '雙',
       tie: '和', // pk10 冠亞和值
+    },
+    K3_BSOE: {
+      big: '大',
+      small: '小',
+      odd: '單',
+      even: '雙',
+    },
+    PK10_BSOE: {
+      big: '大',
+      small: '小',
+      odd: '單',
+      even: '雙',
+    },
+    VNC_PK10_DragonTiger: {
+      dragon: '龍',
+      tiger: '虎',
     },
     fanTanFan: {
       1: '1番',
@@ -99,10 +127,18 @@ const LANG = {
       '4_1': '4念1',
       '4_2': '4念2',
       '4_3': '4念3',
-    }
+    },
+    sicBoAllSurroundDice: {
+      1: '全圍',
+    },
+    sicBoDiceOdds: {
+      1: '單骰',
+      2: '雙骰',
+      3: '三骰',
+    },
   },
 
-    // TODO i18n
+  // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩種已關閉',
     LGS_BETTING_GAME_FESTIVAL_ERROR: '投注彩種已關閉',
@@ -115,6 +151,7 @@ const LANG = {
     LGS_BETTING_ILLEGAL_ERROR: '投注參數不符合規定，投注失敗！ ',
     LGS_BETTING_WITH_INVALID_TOKEN_ERROR: '帳號已登出，請重新登錄',
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: '追號參數錯誤',
+    LGS_BETTING_NUMBER_OVER_LIMITS: '投注號碼%@達到當前庫存允許銷售的最大投注數額。',
     ORDER_NOT_DRAWABLE: '訂單尚未開獎',
     LGS_CANCEL_ORDER_INACTIVITY: '當前系統不能進行會員撤單',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: '撤單手續費小於投注金額',
@@ -141,10 +178,45 @@ const LANG = {
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中獎即停不可使用',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此號碼已超出當前期購買額度，請與客服聯繫',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注數已超過允許的上限',
-// VN
+
+    // VN
+    ORDER_ALREADY_CANCELED: '該訂單已經撤單',
+    STAKES_IS_OVER_LIMIT_ERROR: '投注注數已超過允許的上限',
     BALANCE_NOT_ENOUGH_ERROR: '餘額不足',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注金額已超過允許的上限',
+    OBJECT_NOT_EXIST: '資料異常',
+    CALCULATE_BETTING_AMOUNT_ERROR: '投注失敗，請稍後再試或與客服聯繫！',
+    IILLEGAL_BALL_NUMBER_ERROR: '投注失敗，請稍後再試或與客服聯繫！',
+    ILLEGAL_BETTING_ARGUMENT_ERROR: '投注失敗，請稍後再試或與客服聯繫！',
+    SYSTEM_NOT_ALLOW_CHASE: '投注失敗，請稍後再試或與客服聯繫！',
+    NOT_ALLOWED_TO_HIT_DRAWBACK_ERROR: '投注失敗，請稍後再試或與客服聯繫！',
+    CALCULATE_STAKES_ERROR: '投注失敗，請稍後再試或與客服聯繫！',
+    PLAY_NOT_SUPPORTED_ERROR: '玩法維護中，請稍後再試!',
+    BOOK_FAILED_ERROR: '請確認所有錢包資金，稍候再試！',
+    WALLET_NOT_EXISTS_ERROR: '請確認所有錢包資金，稍候再試！',
+    B2B_TX_FAILED: '請確認所有錢包資金，稍候再試！',
+    DEMO_NOT_SUPPORTED_ERROR: '不支援試玩',
+    ORDER_PRIZE_NOT_FOUND_ERROR: '獎金讀取失敗，請稍後再試!',
+    order_saved_failed: '訂單讀取失敗，請稍後再試!',
+    PLATFORM_SETTING_NOT_FOUND_ERROR: '玩法維護中，請稍後再試!',
+    NOT_AVAILABLE_FOR_SALE_ERROR: '玩法維護中，請稍後再試!',
+    PLAY_NOT_FOUND_ERROR: '玩法維護中，請稍後再試!',
+    GAME_SETTING_NOT_FOUND: '玩法維護中，請稍後再試!',
+    GAME_DRWW_TIME_PARSE_ERROR: '開獎時間讀取失敗，請稍後再試!',
+    ACCOUNT_NOT_FOUND_ERROR: '帳號異常請重新登入!',
+    GAME_URL_NOT_FOUND: '帳號異常請重新登入!',
+    INVALID_TOKEN: '帳號異常請重新登入!',
+    USER_NOT_LOGIN: '帳號異常請重新登入!',
     CANCEL_ORDER_ERROR: '撤單失敗',
+    NOT_AVAILABLE_FOR_SALE_ERROR: '遊戲維護中，請稍後再試!',
+    INTERNAL_SERVER_ERROR: '系統錯誤',
+    OBJECT_NOT_EXIST: '系統錯誤',
+    ILLEGAL_PARAMS_VALUE: '系統錯誤',
+    BETTING_MULTIPLE_OVER_LIMITS_ERROR: '您的倍數超過允許的上限',
+    GAME_CLOSED_ERROR: '投注彩種已關閉',
+    STAKES_ABOVE_LIMIT: '您好，平台规则不能全包投注，即同期同玩法投注%@以上的号码，故该注单平台暂不能受理，请修改您的投注内容再来下注，给您带来不便，还请谅解；',
+    PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注號碼%@後二位相同數字每期允許銷售的最大投注數額%@元。',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注號碼%@達到當前庫存允許銷售的最大投注數額。',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',
@@ -172,7 +244,7 @@ const LANG = {
   gameContent: '玩法內容',
   odds1Time: '獎金/注',
   betAmount: '注數',
-  
+
   drawPrize: {
     specialPrize: '特等獎',
     firstPrize: '一等獎',
