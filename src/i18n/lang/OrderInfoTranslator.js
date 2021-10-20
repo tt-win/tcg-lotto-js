@@ -70,6 +70,31 @@ function getOrderInfoTranslatorList(lang) {
   const BALL_BSOE_KEY = ['big', 'small', 'odd', 'even'];
   const BALL_PC_KEY = ['prime', 'composite'];
   const SSC_DIGIT_KEY = ['tenThousands2', 'thousands2', 'hundreds2', 'tens2', 'ones2'];
+  const KENO_KEY = {
+    FUN:{
+      0: 'keno_big',
+      1: 'keno_small',
+      2: 'keno_sumOdd',
+      3: 'keno_sumEven',
+      4: 'keno_sum',
+      5: 'keno_bigSumOdd',
+      6: 'keno_bigSumEven',
+      7: 'keno_smallSumOdd',
+      8: 'keno_smallSumEven',
+      9: 'keno_up',
+      10: 'keno_down',
+      11: 'keno_mid',
+      12: 'keno_odd',
+      13: 'keno_even',
+      14: 'keno_equal',
+      15: 'keno_gold',
+      16: 'keno_wood',
+      17: 'keno_water',
+      18: 'keno_fire',
+      19: 'keno_earth',
+    }
+  }
+
   const LHC_KEY = {
     // 總大小單雙
     SUM_BSOE: ['totalBig', 'totalSmall', 'totalOdd', 'totalEven'],
@@ -1409,6 +1434,32 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
+  const KenoTranslator = {
+    KENO_FUN: {
+      items: [
+        PlayMenu.Total_Sum_BST_KENO,
+        PlayMenu.Total_Sum_OE_KENO,
+        PlayMenu.Total_Sum_PASS_KENO,
+        PlayMenu.UpDown_KENO,
+        PlayMenu.OddEven_KENO,
+        PlayMenu.WuXing_KENO,
+      ],
+      getText: (content) => i18n(`playKey.${KENO_KEY.FUN[content]}`),
+    },
+    KENO_ANY: {
+      items: [
+        PlayMenu.Any1_KENO,
+        PlayMenu.Any2_KENO,
+        PlayMenu.Any3_KENO,
+        PlayMenu.Any4_KENO,
+        PlayMenu.Any5_KENO,
+        PlayMenu.Any6_KENO,
+        PlayMenu.Any7_KENO,
+      ],
+      getText: (content) => content,
+    },
+  }
+
   // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
   const OrderInfoTranslatorList = {
     BSOE: {
@@ -1830,6 +1881,7 @@ function getOrderInfoTranslatorList(lang) {
     ...SSCBaccaratTranslator,
     ...THAITranslator,
     ...LFTranslator,
+    ...KenoTranslator,
   };
 
   return OrderInfoTranslatorList;
