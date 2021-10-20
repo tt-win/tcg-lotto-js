@@ -239,6 +239,21 @@ export const defaultActivePlayMenu = {
 };
 
 export const PlayMenu = {
+  // Keno
+  Any1_KENO: 2649,
+  Any2_KENO: 2650,
+  Any3_KENO: 2651,
+  Any4_KENO: 2652,
+  Any5_KENO: 2653,
+  Any6_KENO: 2654,
+  Any7_KENO: 2655,
+  Total_Sum_BST_KENO: 2657,
+  Total_Sum_OE_KENO: 2658,
+  Total_Sum_PASS_KENO: 2659,
+  UpDown_KENO: 2660,
+  OddEven_KENO: 2661,
+  WuXing_KENO: 2662,
+
   Last1Straight: 13,
   FixedPlace: 14,
   Last2Straight: 15,
