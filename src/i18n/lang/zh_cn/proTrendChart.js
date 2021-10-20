@@ -10,6 +10,9 @@ const trendChart = {
     dragonTiger: '龙虎',
     BSOETrend: '大小单双',
     fanTan: '番摊',
+    kenoSumTrend: '和值走势',
+    kenoUpDown: '上下盘',
+    kenoOddEven: '奇偶盘',
 
     // SSC 二級選單
     All_5: '五星',
@@ -59,6 +62,13 @@ const trendChart = {
     firstSecondSumBSOE: '冠亚和',
     first5BSOE: '前五',
     last5BSOE: '后五',
+
+    // KENO 二級選單
+    sumBigSma: '大小',
+    sumSinEve:'单双',
+    sumFivEle:'五行',
+    Up_Down:'上下',
+    Odd_Even:'奇偶',
 
     // 走勢圖
     numero: '期号',
@@ -205,6 +215,14 @@ const trendChart = {
     L4Com6: '后四组选 6',
     L4Com4: '后四组选 4',
     noType: '-',
+
+     //KENO
+     kenoUp: '上',
+     kenoMid:'中',
+     kenoDown: '下',
+     kenoOdd: '奇',
+     kenoEqual: '和',
+     kenoEven: '偶',
 
     // 統計數據欄位
     totalTimes: '出现总次数',
