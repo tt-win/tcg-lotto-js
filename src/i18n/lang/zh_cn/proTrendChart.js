@@ -64,9 +64,9 @@ const trendChart = {
     last5BSOE: '后五',
 
     // KENO 二級選單
-    sumBigSma: '大小',
-    sumSinEve:'单双',
-    sumFivEle:'五行',
+    kenoTotalBS: '大小',
+    kenoTotalOE:'单双',
+    kenoTotalFE:'五行',
     Up_Down:'上下',
     Odd_Even:'奇偶',
 
