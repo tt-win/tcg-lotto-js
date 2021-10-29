@@ -311,6 +311,7 @@ const LANG = {
       3: '三骰',
     },
     KENO:{
+      sum: '和值:%@',
       big: '大',
       small: '小',
       equal: '和',
