@@ -1894,6 +1894,9 @@ const LANG = {
   LimitOnlyBetMinOdds: '系列固定最小值',
   LimitOnlyBetBar: '系列值使用拉杆',
   NoData: '尚未设定预设玩法',
+  crowdfunding: '合买',
+  crowdfundingLobby: '合买大厅',
+  schemeDetail: '方案详情',
 
   drawPrize: {
     specialPrize: '特等奖',
