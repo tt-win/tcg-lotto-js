@@ -338,7 +338,7 @@ const LANG = {
     LHC: '六合彩',
     TC: '视频彩',
     PCB: 'PC蛋蛋',
-    KENO: '基诺',
+    KENO: '快乐8',
     K3: '快三',
     BTS: '区块链',
     THAI: '泰彩',
