@@ -1242,7 +1242,7 @@ const LANG = {
     P_KENO_ANY6_4: '选6中4',
     P_KENO_ANY6_5: '选6中5',
     P_KENO_ANY6_6: '选6中6',
-    P_KENO_ANY7_0: '选7中1',
+    P_KENO_ANY7_0: '选7中0',
     P_KENO_ANY7_4: '选7中4',
     P_KENO_ANY7_5: '选7中5',
     P_KENO_ANY7_6: '选7中6',
