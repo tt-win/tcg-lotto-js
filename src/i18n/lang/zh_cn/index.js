@@ -1918,6 +1918,12 @@ const LANG = {
   crowdfunding: '合买',
   crowdfundingLobby: '合买大厅',
   schemeDetail: '方案详情',
+  fundingTime: '认购时间',
+  fundingStock: '认购份数',
+  stock: '份',
+  resultAmount: '共%@条',
+  goTo: '前往',
+  page: '页',
 
   drawPrize: {
     specialPrize: '特等奖',
