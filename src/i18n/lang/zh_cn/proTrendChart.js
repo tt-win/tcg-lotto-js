@@ -13,6 +13,7 @@ const trendChart = {
     kenoSumTrend: '和值走势',
     kenoUpDown: '上下盘',
     kenoOddEven: '奇偶盘',
+    kenoTrend: '走勢',
 
     // SSC 二級選單
     All_5: '五星',
@@ -64,6 +65,7 @@ const trendChart = {
     last5BSOE: '后五',
 
     // KENO 二級選單
+    kenoSum: '和值',
     kenoTotalBS: '大小',
     kenoTotalOE:'单双',
     kenoTotalFE:'五行',
