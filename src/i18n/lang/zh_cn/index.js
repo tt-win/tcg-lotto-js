@@ -1962,6 +1962,9 @@ const LANG = {
     detail: '操作',
     search: '搜索',
     recoverDefault: '恢复默认',
+    percentage: '所占比例',
+    userName: '用户名',
+    crowdfundingSubtotal: '已有<span class="hl">%@</span>人参与，共认购<span class="hl">%@</span>份，共计<span class="hl">%@</span>元',
   },
   planStatus: {
     IN_PROGRESS: '进行中',
