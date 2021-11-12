@@ -1919,6 +1919,7 @@ const LANG = {
     crowdfunding: '合买',
     crowdfundingLobby: '合买大厅',
     planDetail: '方案详情',
+    crowdfundingDetail: '合买投注详情',
     fundingTime: '认购时间',
     fundingStock: '认购份数',
     stock: '份',
@@ -1964,7 +1965,7 @@ const LANG = {
     recoverDefault: '恢复默认',
     percentage: '所占比例',
     userName: '用户名',
-    crowdfundingSubtotal: '已有<span class="hl">%@</span>人参与，共认购<span class="hl">%@</span>份，共计<span class="hl">%@</span>元',
+    crowdfundingSubtotal: '已有<span class="hl">%@</span>人参与，共认购<span class="hl">%@</span>份',
   },
   planStatus: {
     IN_PROGRESS: '进行中',
