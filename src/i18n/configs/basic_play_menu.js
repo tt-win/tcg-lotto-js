@@ -240,19 +240,31 @@ export const defaultActivePlayMenu = {
 
 export const PlayMenu = {
   // Keno
-  Any1_KENO: 2649,
-  Any2_KENO: 2650,
-  Any3_KENO: 2651,
-  Any4_KENO: 2652,
-  Any5_KENO: 2653,
-  Any6_KENO: 2654,
-  Any7_KENO: 2655,
-  Total_Sum_BST_KENO: 2657,
-  Total_Sum_OE_KENO: 2658,
-  Total_Sum_PASS_KENO: 2659,
-  UpDown_KENO: 2660,
-  OddEven_KENO: 2661,
-  WuXing_KENO: 2662,
+
+  // 一級選單
+
+  Any_KENO: 2647, // 任选
+  Fun_KENO: 2656, // 趣味
+
+  // 二級選單
+
+  Any_L2_KENO: 2648, // 任选
+  Total_Sum_BST_KENO: 2657, // 总和大小
+  Total_Sum_OE_KENO: 2658, // 总和单双
+  Total_Sum_PASS_KENO: 2659, // 总和过关
+  UpDown_KENO: 2660, // 上下盘
+  OddEven_KENO: 2661, // 奇偶盘
+  WuXing_KENO: 2662, // 五行
+
+  // 三級選單
+
+  Any1_KENO: 2649, // 任选一
+  Any2_KENO: 2650, // 任选二
+  Any3_KENO: 2651, // 任选三
+  Any4_KENO: 2652, // 任选四
+  Any5_KENO: 2653, // 任选五
+  Any6_KENO: 2654, // 任选六
+  Any7_KENO: 2655, // 任选七
 
   Last1Straight: 13,
   FixedPlace: 14,
