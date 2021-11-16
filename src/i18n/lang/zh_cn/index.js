@@ -434,7 +434,8 @@ const LANG = {
     LGS_BETTING_GAME_PAUSED_ERROR: '该彩种暂停销售，请稍后再试',
     LGS_BETTING_PLAY_MENU_CLOSED_ERROR: '投注玩法已关闭',
     LGS_BETTING_AMOUNT_OVER_LIMITS: '您的投注金额已超过允许的上限',
-    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS: '提示：您好，平台规则同期同玩法号码累加投注 %@ 以上金额，故该注单平台暂不能受理，请修改您的投注内容再进行下注，给您带来不便，还请谅解。',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS:
+      '提示：您好，平台规则同期同玩法号码累加投注 %@ 以上金额，故该注单平台暂不能受理，请修改您的投注内容再进行下注，给您带来不便，还请谅解。',
     LGS_BETTING_MULTIPLE_OVER_LIMITS: '您的倍数超过允许的上限',
     LGS_BETTING_RETURN_VALUE_SMALLER_THAN_ZERO: '投注返点值小于0',
     LGS_BETTING_ILLEGAL_ERROR: '投注参数不符合规定，投注失败！',
@@ -464,7 +465,8 @@ const LANG = {
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '当前彩种暂时没有开始销售 请稍后再试',
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中奖即停不可使用',
-    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '提示：此号码%@已超出当前期购买额度，已修正可购买金额，请重新下注。',
+    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS:
+      '提示：此号码%@已超出当前期购买额度，已修正可购买金额，请重新下注。',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注数已超过允许的上限',
     NOT_SUPPORT_TRIAL_CUSTOMER: '该帐号尚未开放此彩种',
     // VN
@@ -1227,7 +1229,7 @@ const LANG = {
   Hundreds_Tens_Units_Sum_LF: '百十个和数',
   Hundreds_Tens_Units_Sum_Tail_LF: '百十个和数尾数',
 
-    // KENO ENT
+  // KENO ENT
   P_KENO_ANY1_1: '选1中1',
   P_KENO_ANY2_2: '选2中2',
   P_KENO_ANY3_2: '选3中2',
@@ -1247,26 +1249,26 @@ const LANG = {
   P_KENO_ANY7_5: '选7中5',
   P_KENO_ANY7_6: '选7中6',
   P_KENO_ANY7_7: '选7中7',
-  P_KENO_FUN_0:	'大',
-  P_KENO_FUN_1:	'小',
-  P_KENO_FUN_4:	'和',
-  P_KENO_FUN_2:	'单',
-  P_KENO_FUN_3:	'双',
-  P_KENO_FUN_5:	'总大单',
-  P_KENO_FUN_6:	'总大双',
-  P_KENO_FUN_7:	'总小单',
-  P_KENO_FUN_8:	'总小双',
-  P_KENO_FUN_9:	'上',
-  P_KENO_FUN_10:	'下',
-  P_KENO_FUN_11:	'中',
-  P_KENO_FUN_12:	'奇',
-  P_KENO_FUN_13:	'偶',
-  P_KENO_FUN_14:	'和',
-  P_KENO_FUN_15:	'金',
-  P_KENO_FUN_16:	'木',
-  P_KENO_FUN_17:	'水',
-  P_KENO_FUN_18:	'火',
-  P_KENO_FUN_19:	'土',
+  P_KENO_FUN_0: '大',
+  P_KENO_FUN_1: '小',
+  P_KENO_FUN_4: '和',
+  P_KENO_FUN_2: '单',
+  P_KENO_FUN_3: '双',
+  P_KENO_FUN_5: '总大单',
+  P_KENO_FUN_6: '总大双',
+  P_KENO_FUN_7: '总小单',
+  P_KENO_FUN_8: '总小双',
+  P_KENO_FUN_9: '上',
+  P_KENO_FUN_10: '下',
+  P_KENO_FUN_11: '中',
+  P_KENO_FUN_12: '奇',
+  P_KENO_FUN_13: '偶',
+  P_KENO_FUN_14: '和',
+  P_KENO_FUN_15: '金',
+  P_KENO_FUN_16: '木',
+  P_KENO_FUN_17: '水',
+  P_KENO_FUN_18: '火',
+  P_KENO_FUN_19: '土',
 
   // 全大小奇偶清
   pickRow: {
@@ -1916,6 +1918,7 @@ const LANG = {
   LimitOnlyBetBar: '系列值使用拉杆',
   NoData: '尚未设定预设玩法',
   crowdfunding: {
+    crowdfundingCart: '合买方案',
     crowdfunding: '合买',
     crowdfundingLobby: '合买大厅',
     planDetail: '方案详情',
@@ -1965,7 +1968,8 @@ const LANG = {
     recoverDefault: '恢复默认',
     percentage: '所占比例',
     userName: '用户名',
-    crowdfundingSubtotal: '已有<span class="hl">%@</span>人参与，共认购<span class="hl">%@</span>份',
+    crowdfundingSubtotal:
+      '已有<span class="hl">%@</span>人参与，共认购<span class="hl">%@</span>份',
   },
   planStatus: {
     IN_PROGRESS: '进行中',
