@@ -1008,22 +1008,31 @@ const PlayMenu = {
     2578: '任选八中五',
 
     // Keno
-    2647:	'任选',
-    2648:	'任选',
-    2649:	'任选一',
-    2650:	'任选二',
-    2651:	'任选三',
-    2652:	'任选四',
-    2653:	'任选五',
-    2654:	'任选六',
-    2655:	'任选七',
-    2656:	'趣味',
-    2657:	'总和大小',
-    2658:	'总和单双',
-    2659:	'总和过关',
-    2660:	'上下盘',
-    2661:	'奇偶盘',
-    2662:	'五行',
+
+    // 一級選單
+
+    2647: '任选', // Any_KENO
+    2656: '趣味', // Fun_KENO
+
+    // 二級選單
+
+    2648: '任选', // Any_L2_KENO
+    2657: '总和大小', // Total_Sum_BST_KENO
+    2658: '总和单双', // Total_Sum_OE_KENO
+    2659: '总和过关', // Total_Sum_PASS_KENO
+    2660: '上下盘', // UpDown_KENO
+    2661: '奇偶盘', // OddEven_KENO
+    2662: '五行', // WuXing_KENO
+
+    // 三級選單
+
+    2649: '任选一', // Any1_KENO
+    2650: '任选二', // Any2_KENO
+    2651: '任选三', // Any3_KENO
+    2652: '任选四', // Any4_KENO
+    2653: '任选五', // Any5_KENO
+    2654: '任选六', // Any6_KENO
+    2655: '任选七', // Any7_KENO
 
     null: ' ',
 
@@ -1315,9 +1324,9 @@ const PlayMenu = {
     keno_smallSumEven: '小双',
     keno_up: '上',
     keno_down: '下',
-    keno_mid: '中',
-    keno_odd: '奇',
-    keno_even: '偶',
+    keno_middle: '中',
+    keno_ballOdd: '奇',
+    keno_ballEven: '偶',
     keno_equal: '和',
     keno_gold: '金',
     keno_wood: '木',
