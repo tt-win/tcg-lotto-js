@@ -1955,6 +1955,7 @@ const LANG = {
     purchase: '我要认购',
     purchaseNow: '立即认购',
     outOfQuantity: '已额满',
+    alreadyEnded: '已结束',
     status: '中奖状态',
     guaranteed: '承诺保底',
     privicy: '是否公开',
