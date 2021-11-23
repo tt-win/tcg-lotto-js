@@ -1957,7 +1957,7 @@ const LANG = {
     outOfQuantity: '已额满',
     alreadyEnded: '已结束',
     status: '中奖状态',
-    guaranteed: '承诺保底',
+    guaranteed: '系统保底',
     privicy: '是否公开',
     quantity: '份',
     accountFor: '占',
