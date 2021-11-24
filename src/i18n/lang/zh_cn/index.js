@@ -1952,6 +1952,7 @@ const LANG = {
     totalBetAmount: '方案金额',
     availableQuantity: '剩余份数',
     singleBetAmount: '每份金额',
+    availableQuantityAndSingleBetAmount: '剩余份数 | 每份金额',
     purchase: '我要认购',
     purchaseNow: '立即认购',
     outOfQuantity: '已额满',
