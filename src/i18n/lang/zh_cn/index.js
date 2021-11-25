@@ -1934,7 +1934,7 @@ const LANG = {
     customerName: '发起人',
     bettingTime: '发起时间',
     crowdfundingNum: '方案编号',
-    cancelPlan: '撤销方案',
+    cancelPlan: '撤销',
     copy: '复制',
     planContent: '方案内容',
     participantUsers: '参与用户',
