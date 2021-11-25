@@ -443,6 +443,7 @@ const LANG = {
     LGS_CANCEL_ORDER_ARGUMENT_ERROR: '追号参数错误',
     LGS_BETTING_NUMBER_OVER_LIMITS: '投注号码%@达到当前庫存允许销售的最大投注数额。',
     ORDER_NOT_DRAWABLE: '订单尚未开奖',
+    DRAW_IS_DRAWABLE: '认购时间已截止',
     LGS_CANCEL_ORDER_INACTIVITY: '当前系统不能进行会员撤单',
     LGS_CANCEL_ORDER_SERIVCE_CHARGE_LIMIT: '撤单手续费小于投注金额',
     LGS_CANCEL_ORDER_SERVICE_LF_PRETTY_CHOOSE_ERROR: '低频彩撤单有直选靓号',
