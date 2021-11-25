@@ -1923,7 +1923,7 @@ const LANG = {
     crowdfundingLobby: '合买大厅',
     planDetail: '方案详情',
     crowdfundingDetail: '合买投注详情',
-    notIncludeSystemGuaranteed: '不包含系统保底奖金',
+    notIncludeSystemGuaranteed: '不含系统保底',
     fundingTime: '认购时间',
     purchaseAmount: '认购金额',
     fundingStock: '认购份数',
