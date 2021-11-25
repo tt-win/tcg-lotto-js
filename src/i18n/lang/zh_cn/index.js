@@ -1917,6 +1917,8 @@ const LANG = {
   LimitOnlyBetMinOdds: '系列固定最小值',
   LimitOnlyBetBar: '系列值使用拉杆',
   NoData: '尚未设定预设玩法',
+  pkModeRedWarning: '【单挑模式】说明：投注的中奖概率低于或等于 %@ 的均为单挑模式。',
+  pkModeRedWarningBracket: '（单挑每期订单奖金上限 %@ ，超出的奖金系统将予以扣除）',
   crowdfunding: {
     crowdfundingCart: '合买方案',
     crowdfunding: '合买',
@@ -1977,6 +1979,13 @@ const LANG = {
       '已有<span class="hl">%@</span>人参与，共认购<span class="hl">%@</span>份',
     crowdfundingSubtotalOfAmount:
       '已有<span class="hl">%@</span>人参与，共认购<span class="hl">%@</span>元',
+    confirmCancelPlan: '请确认撤销信息',
+    purchaseAmountTotal: '已认购金额',
+    cancelPlanWarning: '请注意！撤销方案将连同已参与人订单一起撤单！',
+    cancelPlanQuestion: '是否撤销方案？',
+    cancelPlanSuccess: '撤销方案成功',
+    confirmPurchasePlan: '请确认认购信息',
+    purchasePlanSuccess: '认购方案成功',
   },
   planStatus: {
     IN_PROGRESS: '进行中',
