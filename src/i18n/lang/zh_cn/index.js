@@ -1941,11 +1941,7 @@ const LANG = {
     crowdfundingNum: '方案编号',
     cancelPlan: '撤销',
     copy: '复制',
-<<<<<<< Updated upstream
     alreadyCopied: '方案编号已复制',
-=======
-    copySuccess: '复制成功',
->>>>>>> Stashed changes
     planContent: '方案内容',
     participantUsers: '参与用户',
     myInvolved: '我的参与',
