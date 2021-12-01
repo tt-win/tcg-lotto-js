@@ -954,6 +954,7 @@ const LANG = {
   isCompleted: '是否结束',
   choose: '选择',
   pkModeConfirmMsg: '订单含有单挑玩法，奖金上限额 %@ ，超出的奖金无效',
+  pkModeWarning: '此订单含有单挑模式，如中奖系统将自动扣除超出单挑奖金的金额',
   skipOneClickBetMsg: '本次后不再进行确认提示',
   manualBetPlaceHolder: `每注之间可以用回车丶空格[]丶逗号[,]或者分号[;]、["|"]隔开
 请导入TXT文件丶复制或者输入支持格式如下：`,
@@ -1940,7 +1941,11 @@ const LANG = {
     crowdfundingNum: '方案编号',
     cancelPlan: '撤销',
     copy: '复制',
+<<<<<<< Updated upstream
     alreadyCopied: '方案编号已复制',
+=======
+    copySuccess: '复制成功',
+>>>>>>> Stashed changes
     planContent: '方案内容',
     participantUsers: '参与用户',
     myInvolved: '我的参与',
