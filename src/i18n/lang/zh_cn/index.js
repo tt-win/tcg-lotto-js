@@ -1991,6 +1991,7 @@ const LANG = {
     cancelPlanSuccess: '撤销方案成功',
     confirmPurchasePlan: '请确认认购信息',
     purchasePlanSuccess: '认购方案成功',
+    system: '系统',
   },
   planStatus: {
     IN_PROGRESS: '进行中',
