@@ -1940,6 +1940,7 @@ const LANG = {
     crowdfundingNum: '方案编号',
     cancelPlan: '撤销',
     copy: '复制',
+    alreadyCopied: '方案编号已复制',
     planContent: '方案内容',
     participantUsers: '参与用户',
     myInvolved: '我的参与',
