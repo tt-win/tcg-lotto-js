@@ -794,6 +794,7 @@ const LANG = {
   newTag: '新',
   hotTag: '热',
   status: '状态',
+  system: '系统',
   drawDrawback: '撤单',
   gameHistoryCancel: '确定撤单？',
   gameHistoryCancel_failed: 'UNKNOWN_ERROR',
