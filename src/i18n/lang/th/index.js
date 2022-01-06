@@ -78,14 +78,14 @@ const LANG = {
       crab: 'ปูดำ',
     },
     BSOE: {
-      big: 'ใหญ่',
-      small: 'เล็ก',
+      big: 'สูง',
+      small: 'ต่ำ',
       odd: 'คี่',
       even: 'คู่',
     },
     K3_BSOE: {
-      big: 'ใหญ่',
-      small: 'เล็ก',
+      big: 'สูง',
+      small: 'ต่ำ',
       odd: 'คี่',
       even: 'คู่',
     },
