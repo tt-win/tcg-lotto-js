@@ -39,6 +39,7 @@ export const BallBoardConfigRecord = Record({
   ballShowPosition: '', // 組態球要顯示的位置
   ballConfigurationCategory: '', // 組態球要顯示的型態 ex:組數 和值 大小單雙 龍虎和...
   positionMapping: {}, // fan tan position mapping
+  warningTag: '',
 });
 
 export const baseBSOEProps = {

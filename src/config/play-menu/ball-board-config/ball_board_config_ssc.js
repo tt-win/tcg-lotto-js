@@ -70,6 +70,23 @@ const dragonTigerPropsSSC = {
   forceUseDelimiter: true,
 };
 
+const newDragonTigerPropsSSC = {
+  ...dragonTigerPropsPK10,
+  betDigits: [betDigits.NEW_DRAGON_TIGER],
+  boardClassNames: 'new-dragon-tiger',
+  warningTag: 'drawThanCancelOrder',
+  multi: true,    // 可否複選
+  formula: 'oneBallOneNum',   // 1球1注
+
+  displayBallBonus: true,  // 顯示各球的最高獎金
+  prizeTypeMapping: {      // 各球最高獎金的對應prize type
+    1: 'P_GENERAL',
+    0: 'P_GENERAL',
+  },
+  delimiter: ',',
+  forceUseDelimiter: true,
+};
+
 const baseSSCPropsENT = {
   // used to put some extra config
   ...baseSSCProps,
@@ -1017,6 +1034,68 @@ export default {
     ballShowPosition: ballShowPosition.LAST_TWO,
     ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
   }),
+
+  //  New_Dragon_Tiger_10T_T_SSC
+  2665: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_TWO,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Dragon_Tiger_10T_H_SSC
+  2666: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_ONE_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Tiger_10T_10_SSC
+  2667: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_ONE_FOUR,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Dragon_Tiger_10T_1_SSC
+  2668: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_ONE_FIVE,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Dragon_Tiger_T_H_SSC
+  2669: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_TWO_THREE,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Dragon_Tiger_T_10_SSC
+  2670: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_TWO_FOUR,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Dragon_Tiger_T_1_SSC
+  2671: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_TWO_FIVE,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Dragon_Tiger_H_10_SSC
+  2672: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_THREE_FOUR,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Dragon_Tiger_H_1_SSC
+  2673: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.FIRST_THREE_FIVE,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+  //  New_Dragon_Tiger_10_1_SSC
+  2674: BallBoardConfigRecord({
+    ...newDragonTigerPropsSSC,
+    ballShowPosition: ballShowPosition.LAST_TWO,
+    ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
+  }),
+
   // FixedPlace_ZY
   2014: BallBoardConfigRecord({
     ...baseSSCProps,
