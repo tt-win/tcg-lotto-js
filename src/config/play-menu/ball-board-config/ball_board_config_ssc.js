@@ -1047,7 +1047,7 @@ export default {
     ballShowPosition: ballShowPosition.FIRST_ONE_THREE,
     ballConfigurationCategory: ballConfigurationCategory.DRAGON_TIGER_TIE,
   }),
-  //  New_Tiger_10T_10_SSC
+  //  New_Dragon_Tiger_10T_10_SSC
   2667: BallBoardConfigRecord({
     ...newDragonTigerPropsSSC,
     ballShowPosition: ballShowPosition.FIRST_ONE_FOUR,

@@ -386,6 +386,18 @@ export const PlayMenu = {
   Dragon_Tiger_H_1_SSC: 1746,
   Dragon_Tiger_10_1_SSC: 1747,
 
+  // 2022 0110 added 新龍虎
+  New_Dragon_Tiger_10T_T_SSC: 2665,
+  New_Dragon_Tiger_10T_H_SSC: 2666,
+  New_Dragon_Tiger_10T_10_SSC: 2667,
+  New_Dragon_Tiger_10T_1_SSC: 2668,
+  New_Dragon_Tiger_T_H_SSC: 2669,
+  New_Dragon_Tiger_T_10_SSC: 2670,
+  New_Dragon_Tiger_T_1_SSC: 2671,
+  New_Dragon_Tiger_H_10_SSC: 2672,
+  New_Dragon_Tiger_H_1_SSC: 2673,
+  New_Dragon_Tiger_10_1_SSC: 2674,
+
   // 2017 0607 added by G 不定位新玩法
   First2ComAnyCode: 64,
   First2StraightAnyCode: 65,
