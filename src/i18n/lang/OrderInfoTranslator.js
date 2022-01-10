@@ -1625,6 +1625,16 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Dragon_Tiger_H_10_SSC,
         PlayMenu.Dragon_Tiger_H_1_SSC,
         PlayMenu.Dragon_Tiger_10_1_SSC,
+        // 時時彩新龍虎
+        PlayMenu.New_Dragon_Tiger_10T_T_SSC,
+        PlayMenu.New_Dragon_Tiger_10T_H_SSC,
+        PlayMenu.New_Dragon_Tiger_10T_10_SSC,
+        PlayMenu.New_Dragon_Tiger_10T_1_SSC,
+        PlayMenu.New_Dragon_Tiger_T_H_SSC,
+        PlayMenu.New_Dragon_Tiger_T_1_SSC,
+        PlayMenu.New_Dragon_Tiger_H_10_SSC,
+        PlayMenu.New_Dragon_Tiger_H_1_SSC,
+        PlayMenu.New_Dragon_Tiger_10_1_SSC,
       ],
       getText: (content) =>
         content.split('|').reduce((result, val) => (`${result}${result && val ? ' | ' : ''}${getDragonTigerTie(val)}`), ''),
