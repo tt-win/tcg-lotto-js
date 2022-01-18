@@ -815,6 +815,7 @@ const LANG = {
   random_one: '机选1注',
   random_five: '机选5注',
   one_key_all_clear: '一键清空',
+  clearShoppingCart: '清空号码',
   wouldLikeChasing: '我要追号',
   confirmBetting: '确认投注',
   youHaveChosen: '你选择了',
