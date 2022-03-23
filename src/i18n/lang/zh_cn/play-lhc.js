@@ -31,7 +31,7 @@ const bothSide = {
   1639: '特尾大小', // Special_Tail_BS_LHC 特尾大小
   1641: '特合大小单双', // Two_Sides_Special_TOSum_BSOE_LHC 特合大小單雙
   1714: '特天地前后家野肖', // Special_Animal_LHC 特天地前后家野肖
-  1648: '总大小单双', // Two_Sides_Total_Sum_BSOE_LHC 總大小單雙
+  1648: '总和大小单双', // Two_Sides_Total_Sum_BSOE_LHC 總大小單雙
 };
 
 // 色波
