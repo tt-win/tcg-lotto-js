@@ -290,28 +290,28 @@ const PlayMenu = {
 
     // 一級選單
 
-    2647: 'nhặt', // Any_KENO
-    2656: 'Kết hợp', // Fun_KENO
+    2647: 'Chọn', // 任選 - 一級選單 Any_KENO 
+    2656: 'Kết hợp', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單
 
-    2648: 'nhặt', // Any_L2_KENO
-    2657: 'Lớn, Điểm cũ, Nhỏ', // Total_Sum_BST_KENO
-    2658: 'Lẻ, Chẵn', // Total_Sum_OE_KENO
-    2659: 'xâu lại Lớn Nhỏ, Lẻ Chẵn', // Total_Sum_PASS_KENO
-    2660: 'Trên, Hòa, Dưới', // UpDown_KENO
-    2661: 'Lẻ, Hòa, Chẳn', // OddEven_KENO
-    2662: 'Năm yếu tố', // WuXing_KENO
+    2648: 'Chọn', // 任選 - 二級選單 Any_L2_KENO
+    2657: 'Lớn, Điểm cũ, Nhỏ', // 趣味 - 總和大小 Total_Sum_BST_KENO
+    2658: 'Lẻ, Chẵn', // 趣味 - 總和單雙 Total_Sum_OE_KENO
+    2659: 'Xiên Lớn Nhỏ, Lẻ Chẵn', // 趣味 - 總和過關 Total_Sum_PASS_KENO
+    2660: 'Trên, Hòa, Dưới', // 趣味 - 上下盤 UpDown_KENO
+    2661: 'Lẻ, Hòa, Chẳn', // 趣味 - 奇偶盤 OddEven_KENO
+    2662: 'Năm yếu tố', // 五行 WuXing_KENO
 
     // 三級選單
 
-    2649: 'nhặt 1', // Any1_KENO
-    2650: 'nhặt 2', // Any2_KENO
-    2651: 'nhặt 3', // Any3_KENO
-    2652: 'nhặt 4', // Any4_KENO
-    2653: 'nhặt 5', // Any5_KENO
-    2654: 'nhặt 6', // Any6_KENO
-    2655: 'nhặt 7', // Any7_KENO
+    2649: 'Chọn 1', // 任選一 Any1_KENO
+    2650: 'Chọn 2', // 任選二 Any2_KENO
+    2651: 'Chọn 3', // 任選三 Any3_KENO
+    2652: 'Chọn 4', // 任選四 Any4_KENO
+    2653: 'Chọn 5', // 任選五 Any5_KENO
+    2654: 'Chọn 6', // 任選六 Any6_KENO
+    2655: 'Chọn 7', // 任選七 Any7_KENO
   },
 };
 

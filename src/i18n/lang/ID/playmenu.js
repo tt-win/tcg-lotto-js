@@ -288,28 +288,28 @@ const PlayMenu = {
 
     // 一級選單
 
-    2647: 'Pick', // Any_KENO
-    2656: 'Combinations', // Fun_KENO
+    2647: 'Pick', // 任選 - 一級選單 Any_KENO 
+    2656: 'Combinations', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單
 
-    2648: 'Pick', // Any_L2_KENO
-    2657: 'Big, Exact Score, Small', // Total_Sum_BST_KENO
-    2658: 'Odd, Even', // Total_Sum_OE_KENO
-    2659: 'Parlay Big Small, Odd Even', // Total_Sum_PASS_KENO
-    2660: 'Top, Tie, Bottom', // UpDown_KENO
-    2661: 'Odds, Tie, Evens', // OddEven_KENO
-    2662: 'Five Element', // WuXing_KENO
+    2648: 'Pick', // 任選 - 二級選單 Any_L2_KENO
+    2657: 'Big, Exact Score, Small', // 趣味 - 總和大小 Total_Sum_BST_KENO
+    2658: 'Odd, Even', // 趣味 - 總和單雙 Total_Sum_OE_KENO
+    2659: 'Parlay Big Small, Odd Even', // 趣味 - 總和過關 Total_Sum_PASS_KENO
+    2660: 'Top, Tie, Bottom', // 趣味 - 上下盤 UpDown_KENO
+    2661: 'Odds, Tie, Evens', // 趣味 - 奇偶盤 OddEven_KENO
+    2662: 'Five Element', // 趣味 - 五行 WuXing_KENO
 
     // 三級選單
 
-    2649: 'Pick 1', // Any1_KENO
-    2650: 'Pick 2', // Any2_KENO
-    2651: 'Pick 3', // Any3_KENO
-    2652: 'Pick 4', // Any4_KENO
-    2653: 'Pick 5', // Any5_KENO
-    2654: 'Pick 6', // Any6_KENO
-    2655: 'Pick 7', // Any7_KENO
+    2649: 'Pick 1', // 任選一 Any1_KENO
+    2650: 'Pick 2', // 任選二 Any2_KENO
+    2651: 'Pick 3', // 任選三 Any3_KENO
+    2652: 'Pick 4', // 任選四 Any4_KENO
+    2653: 'Pick 5', // 任選五 Any5_KENO
+    2654: 'Pick 6', // 任選六 Any6_KENO
+    2655: 'Pick 7', // 任選七 Any7_KENO
   },
 };
 
