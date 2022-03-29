@@ -285,6 +285,33 @@ const PlayMenu = {
     2512: 'Nim',
     2513: 'TàiXỉuLẻChẵn',
     2514: 'TàiXỉuLẻChẵn',
+
+    // Keno
+
+    // 一級選單
+
+    2647: 'nhặt', // Any_KENO
+    2656: 'Kết hợp', // Fun_KENO
+
+    // 二級選單
+
+    2648: 'nhặt', // Any_L2_KENO
+    2657: 'Lớn, Điểm cũ, Nhỏ', // Total_Sum_BST_KENO
+    2658: 'Lẻ, Chẵn', // Total_Sum_OE_KENO
+    2659: 'xâu lại Lớn Nhỏ, Lẻ Chẵn', // Total_Sum_PASS_KENO
+    2660: 'Trên, Hòa, Dưới', // UpDown_KENO
+    2661: 'Lẻ, Hòa, Chẳn', // OddEven_KENO
+    2662: 'Năm yếu tố', // WuXing_KENO
+
+    // 三級選單
+
+    2649: 'nhặt 1', // Any1_KENO
+    2650: 'nhặt 2', // Any2_KENO
+    2651: 'nhặt 3', // Any3_KENO
+    2652: 'nhặt 4', // Any4_KENO
+    2653: 'nhặt 5', // Any5_KENO
+    2654: 'nhặt 6', // Any6_KENO
+    2655: 'nhặt 7', // Any7_KENO
   },
 };
 

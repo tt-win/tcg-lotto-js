@@ -46,6 +46,33 @@ const PlayMenu = {
     2141: '下２桁', // 下正二位数 First_2_Straight_LAO
     2144: 'ランダム上２桁', // 上跑两位数 Last_2_Any_LAO
     2146: 'ランダム下２桁', // 下跑两位数 First_2_Any_LAO
+
+    // Keno
+
+    // 一級選單
+
+    2647: 'Pick', // Any_KENO
+    2656: 'Combinations', // Fun_KENO
+
+    // 二級選單
+
+    2648: 'Pick', // Any_L2_KENO
+    2657: 'Big, Exact Score, Small', // Total_Sum_BST_KENO
+    2658: 'Odd, Even', // Total_Sum_OE_KENO
+    2659: 'Parlay Big Small, Odd Even', // Total_Sum_PASS_KENO
+    2660: 'Top, Tie, Bottom', // UpDown_KENO
+    2661: 'Odds, Tie, Evens', // OddEven_KENO
+    2662: 'Five Element', // WuXing_KENO
+
+    // 三級選單
+
+    2649: 'Pick 1', // Any1_KENO
+    2650: 'Pick 2', // Any2_KENO
+    2651: 'Pick 3', // Any3_KENO
+    2652: 'Pick 4', // Any4_KENO
+    2653: 'Pick 5', // Any5_KENO
+    2654: 'Pick 6', // Any6_KENO
+    2655: 'Pick 7', // Any7_KENO
   },
 };
 

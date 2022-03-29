@@ -285,6 +285,33 @@ const PlayMenu = {
     2512: '念',
     2513: '大小單雙',
     2514: '大小單雙',
+
+    // Keno
+
+    // 一級選單
+
+    2647: '任選', // Any_KENO
+    2656: '趣味', // Fun_KENO
+
+    // 二級選單
+
+    2648: '任選', // Any_L2_KENO
+    2657: '總和大小', // Total_Sum_BST_KENO
+    2658: '總和單雙', // Total_Sum_OE_KENO
+    2659: '總和過關', // Total_Sum_PASS_KENO
+    2660: '上下盤', // UpDown_KENO
+    2661: '奇偶盤', // OddEven_KENO
+    2662: '五行', // WuXing_KENO
+
+    // 三級選單
+
+    2649: '任選一', // Any1_KENO
+    2650: '任選二', // Any2_KENO
+    2651: '任選三', // Any3_KENO
+    2652: '任選四', // Any4_KENO
+    2653: '任選五', // Any5_KENO
+    2654: '任選六', // Any6_KENO
+    2655: '任選七', // Any7_KENO
   },
 };
 
