@@ -65,6 +65,11 @@ export const fishPrawnCrabBallProps = {
     1: 'ball.fishPrawnCrab.prawn',
     2: 'ball.fishPrawnCrab.crab',
   },
+  prizeTypeMapping: {
+    0: 'Hoo_Hey_How_0',
+    1: 'Hoo_Hey_How_1',
+    2: 'Hoo_Hey_How_2',
+  },
 };
 
 export const fanTanFanBallProps = {
