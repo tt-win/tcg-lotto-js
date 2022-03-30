@@ -268,8 +268,8 @@ const LANG = {
     STAKES_ABOVE_LIMIT: 'Chào bạn, Quy định đặt cược là không được bao toàn bộ số, nghĩa là cùng 1 kỳ cùng 1 kiểu chơi cược quá %@ tổng các số. Nên đơn cược này tạm thời không được chấp nhận. Xin vui lòng sửa lại nội dung đơn cược. Mọi bất tiện xin quý khách vui lòng bỏ qua.',
 
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Đặt cược tối đa %@2/ số %@1 đối với các số có 2 chữ số cuối giống nhau.',
-    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'số %@ đặt cược đã đạt mức tối đa trong kho, Bạn có thể đặt cược cho lượt sau.',
-
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'số %@ đặt cược đã đạt mức tối đa trong kho, Bạn có thể đặt cược cho lượt sau.',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'đặt cược đã đạt mức tối đa trong kho',
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',

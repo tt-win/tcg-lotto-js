@@ -307,8 +307,8 @@ const LANG = {
     STAKES_ABOVE_LIMIT: 'Bet Stakes is over limit stakes > %@',
     REQUEST_TIME_OUT: 'request time out, please check your internet',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Stakes is over limit stakes > %@2',
-    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'No. %@ is currently sold out and closed for betting, please try another number or come back later.',
-
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'No. %@ is currently sold out and closed for betting, please try another number or come back later.',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',
