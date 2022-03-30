@@ -142,6 +142,7 @@ const LANG = {
     clear: 'Clear',
   },
 
+  // '-' 換成圖
   kenoRoadmap: {
     big: 'B',
     small: 'S',
@@ -153,16 +154,16 @@ const LANG = {
     up: 'T',
     down: 'B',
     upDown: 'T/B',
-    middle: '',
+    middle: '-',
     ballOdd: 'O',
     ballEven: 'E',
     ballOddBallEven: 'O/T/E',
     equal: 'T',
-    gold: '',
-    wood: '',
-    water: '',
-    fire: '',
-    earth: '',
+    gold: '-',
+    wood: '-',
+    water: '-',
+    fire: '-',
+    earth: '-',
     WuXing: '5E',
   },
 
