@@ -137,7 +137,7 @@ const LANG = {
     sumEven: 'Even',
     upSumOdd: 'Top&Odd',
     upSumEven: 'Top&Even',
-    downSumOdd: 'Bottom下&Odd',
+    downSumOdd: 'Bottom&Odd',
     downSumEven: 'Bottom&Even',
     clear: 'Clear',
   },
