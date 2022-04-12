@@ -1532,6 +1532,9 @@ function getOrderInfoTranslatorList(lang) {
 
         // VN PK10
         PlayMenu.First_Second_Sum_BSOE_VPK10,
+
+        // VTX
+        PlayMenu.Dice_BS_Main_VTX,
       ],
       getText: (content) =>
         content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),

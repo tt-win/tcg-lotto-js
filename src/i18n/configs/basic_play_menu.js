@@ -650,9 +650,9 @@ export const PlayMenu = {
   Sum_PK10: 1884,
   // 猜和值 與 定位膽 playcode與傳統重複..
   // 現在只有娛樂城玩法使用playcode, 之後如果有要使用playMenu.[playCode] 指向傳統玩法的話需要特別留意
-  First2Sum_PK10: 1885,
-  First3Sum_PK10: 1886,
-  FirstLastSum_PK10: 1887,
+  // First2Sum_PK10: 1885,
+  // First3Sum_PK10: 1886,
+  // FirstLastSum_PK10: 1887,
   Fixed_Place_PK10: 1888,
   // =====================================
   Dragon_Tiger_PK10: 1899,
@@ -1186,4 +1186,7 @@ export const PlayMenu = {
   Any2_Single: 97,
   Any3_Single: 98,
   Any4_Single: 99,
+
+  // VTX 越式大小
+  Dice_BS_Main_VTX: 2644,
 };
