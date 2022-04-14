@@ -14,6 +14,9 @@ const PlayMenu = {
     2644: 'Giải Nhì Đặt Biệt', // 三数 二特
     2645: '3 Càng Giải Nhì', // 二等三位数
     2646: '3 Càng Giải Nhì Đặt Biệt', // 二特三位数
+    // VTX
+    2675: 'Tài Xỉu',
+    2676: 'Tài Xỉu',
 
     2060: '2 số', // 二数
     2062: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_THAI

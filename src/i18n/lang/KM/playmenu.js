@@ -14,6 +14,9 @@ const PlayMenu = {
     2644: 'Second Special', // 三数 二特
     2645: 'EXACT 3D-2nd', // 二等三位数
     2646: 'EXACT 3D-2nd Special', // 二特三位数
+    // VTX
+    2675: 'Tài Xỉu',
+    2676: 'Big Small',
 
     2060: '2D', // 二数
     2062: 'តួលេខពីខ្ទង់',

@@ -1188,5 +1188,6 @@ export const PlayMenu = {
   Any4_Single: 99,
 
   // VTX 越式大小
-  Dice_BS_Main_VTX: 2644,
+  Dice_BS_VTX: 2675,
+  Dice_BS_Main_VTX: 2676,
 };

@@ -14,6 +14,9 @@ const PlayMenu = {
     2644: 'Spesial Kedua', // 三数 二特
     2645: '3D yang tepat - 2nd', // 二等三位数
     2646: '3D yang tepat spesial -2nd', // 二特三位数
+    // VTX
+    2675: 'Tài Xỉu',
+    2676: 'Besar Kecil',
 
     2060: '2D',
     2062: '2D Yang tepat - 1st',
