@@ -194,6 +194,10 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+  prizeListPrizeType: {
+    VTX_BS_BIG: 'Tài',
+    VTX_BS_SMALL: 'Xỉu',
+  },
 
   // TODO i18n
   errorCode: {
@@ -215,7 +219,6 @@ const LANG = {
     LGS_BETTING_MODE_CLOSED_ERROR: 'mô thức đặt cược đã đóng không cho phép đặt cược',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'không cho phép sử dụng mô thức đặt cược',
     SYSTEM_NOT_ALLOW_BETTING: 'kì này đã khóa bàn, xin đợi kì sau bắt đầu',
-    SYSTEM_NOT_ALLOW_CHASE: 'trò chơi không được phép nuôi số',
     BETTING_ITEM_LIMIT: 'nội dung đơn đặt hàng vượt quá giới hạn hệ thống',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'đơn hàng đã bị khóa, không thể rút đơn',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'vé số của bạn số dư không đủ',
@@ -242,8 +245,6 @@ const LANG = {
     SYSTEM_NOT_ALLOW_CHASE: 'Chi tiết vé cược không được công nhận. Vui lòng thử lại.',
     NOT_ALLOWED_TO_HIT_DRAWBACK_ERROR: 'Chi tiết vé cược không được công nhận. Vui lòng thử lại.',
     CALCULATE_STAKES_ERROR: 'Chi tiết vé cược không được công nhận. Vui lòng thử lại.',
-    CANCEL_ORDER_ERROR: 'Cancel order failed',
-    OBJECT_NOT_EXIST: 'Chi tiết vé cược không được công nhận. Vui lòng thử lại.',
     PLAY_NOT_SUPPORTED_ERROR: 'Trò chơi đang được bảo trì, vui lòng thử lại sau!',
     BOOK_FAILED_ERROR: 'Đang thu hồi ngân sách tất cả các  ,Xin vui lòng chờ!',
     WALLET_NOT_EXISTS_ERROR: 'Đang thu hồi ngân sách tất cả các  ,Xin vui lòng chờ!',

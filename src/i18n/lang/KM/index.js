@@ -193,6 +193,10 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+  prizeListPrizeType: {
+    VTX_BS_BIG: 'Big',
+    VTX_BS_SMALL: 'Small',
+  },
 
   // TODO i18n
   errorCode: {
@@ -214,7 +218,6 @@ const LANG = {
     LGS_BETTING_MODE_CLOSED_ERROR: 'អិលជីអេស-ការភ្នាល់បិទ-បរាជ័យ',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'អិលជីអេស-ការភ្នាល់មិនអនុញ្ញាត-បរាជ័យ',
     SYSTEM_NOT_ALLOW_BETTING: 'ប្រព័ន្ធមិនអនុញ្ញតការភ្នាល់',
-    SYSTEM_NOT_ALLOW_CHASE: 'ហេ្គមមិនអនុញ្ញតអោយភ្នាល់ផ្ទួន',
     BETTING_ITEM_LIMIT: 'ការភ្នាល់លើសដែនកំនត់',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'អិលជីអេដ-បដិសេធ-បញ្ជា-មិន-មាន',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'សមតុល្យរបស់អ្នកមិនគ្រប់គ្រាន់',
@@ -234,7 +237,6 @@ const LANG = {
     STAKES_IS_OVER_LIMIT_ERROR: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ',
     BALANCE_NOT_ENOUGH_ERROR: 'ទឹកប្រាក់មិនគ្រប់គ្រាន់',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: 'ការភ្នាល់បរាជ័យចំនួនភ្នាល់លើសចំនួនអតិបរមា',
-    CANCEL_ORDER_ERROR: 'Cancel order failed',
     CALCULATE_BETTING_AMOUNT_ERROR: 'មិនអាចសន្និដ្ឋានទិន្នន័យភ្នាល់បាន សូមព្យាយាមម្តងទៀត',
     IILLEGAL_BALL_NUMBER_ERROR: 'មិនអាចសន្និដ្ឋានទិន្នន័យភ្នាល់បាន សូមព្យាយាមម្តងទៀត',
     ILLEGAL_BETTING_ARGUMENT_ERROR: 'មិនអាចសន្និដ្ឋានទិន្នន័យភ្នាល់បាន សូមព្យាយាមម្តងទៀត',

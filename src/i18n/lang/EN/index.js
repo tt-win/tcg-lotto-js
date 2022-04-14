@@ -206,6 +206,8 @@ const LANG = {
     P_SMALL: 'Small',
     P_ODD: 'Odd',
     P_EVEN: 'Even',
+    VTX_BS_BIG: 'Big',
+    VTX_BS_SMALL: 'Small',
     Hoo_Hey_How_0: 'Fish',
     Hoo_Hey_How_1: 'Prawn',
     Hoo_Hey_How_2: 'Crab',

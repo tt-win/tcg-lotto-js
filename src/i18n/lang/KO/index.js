@@ -106,6 +106,10 @@ const LANG = {
       3: 'THREE DICE',
     },
   },
+  prizeListPrizeType: {
+    VTX_BS_BIG: '빅',
+    VTX_BS_SMALL: '스몰',
+  },
 
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
@@ -126,7 +130,6 @@ const LANG = {
     LGS_BETTING_MODE_CLOSED_ERROR: 'Betting mode is closed.',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'Bet mode is not allowed.',
     SYSTEM_NOT_ALLOW_BETTING: 'Game closed, please wait until next time.',
-    SYSTEM_NOT_ALLOW_CHASE: 'Chasing Numbers is not allowed in the game',
     BETTING_ITEM_LIMIT: 'Bet exceeds the limit',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'Bet has been locked and cannot be cancelled.',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'Insufficient Balance',
@@ -146,7 +149,6 @@ const LANG = {
     STAKES_IS_OVER_LIMIT_ERROR: '베팅 말뚝이 한도 초과',
     BALANCE_NOT_ENOUGH_ERROR: '잔액 부족',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: '최대치를 초과하였습니다',
-    CANCEL_ORDER_ERROR: 'Cancel order failed',
     CALCULATE_BETTING_AMOUNT_ERROR: '베팅 내역이 확인되지 않습니다. 나중에 다시 시도해 주세요.',
     IILLEGAL_BALL_NUMBER_ERROR: '베팅 내역이 확인되지 않습니다. 나중에 다시 시도해 주세요.',
     ILLEGAL_BETTING_ARGUMENT_ERROR: '베팅 내역이 확인되지 않습니다. 나중에 다시 시도해 주세요.',

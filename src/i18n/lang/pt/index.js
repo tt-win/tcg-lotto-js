@@ -309,6 +309,10 @@ const LANG = {
     seventhPrize: '7º Prémio',
     eighthPrize: '8º Prémio',
   },
+  prizeListPrizeType: {
+    VTX_BS_BIG: 'Grande',
+    VTX_BS_SMALL: 'Pequeno',
+  },
 };
 
 export default LANG;

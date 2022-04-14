@@ -166,6 +166,10 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+  prizeListPrizeType: {
+    VTX_BS_BIG: 'Besar',
+    VTX_BS_SMALL: 'Kecil',
+  },
 
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',

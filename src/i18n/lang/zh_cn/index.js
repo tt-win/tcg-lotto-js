@@ -1534,6 +1534,8 @@ const LANG = {
     P_SEVENTH: '七等奖',
     P_EIGHTH: '八等奖',
     P_NINTH: '九等奖',
+    VTX_BS_BIG: '大',
+    VTX_BS_SMALL: '小',
 
     // PK10 冠亞 首尾和值
     P_PK10_3_4_18_19: '3, 4, 18, 19',
