@@ -129,6 +129,13 @@ const LANG = {
       earth: 'Earth',
     },
   },
+  // VXD
+  vxd: {
+    allRed: '4 Merah',
+    allWhite: '4 Putih ',
+    threeWoneR: '3 Putih + 1 Merah',
+    threeRoneW: '3 Merah + 1 Putih',
+  },
 
   kenoAnySelector: {
     up: 'Top',

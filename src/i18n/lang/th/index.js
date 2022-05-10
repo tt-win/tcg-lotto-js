@@ -156,6 +156,13 @@ const LANG = {
       earth: 'โลก',
     },
   },
+  // VXD
+  vxd: {
+    allRed: 'แดงทั้งหมด',
+    allWhite: 'เหรียญขาว',
+    threeWoneR: 'เหรียญขาว 3+เหรียญแดง 1',
+    threeRoneW: 'เหรียญแดง 3+เหรียญขาว 1',
+  },
 
   kenoAnySelector: {
     up: 'บน',

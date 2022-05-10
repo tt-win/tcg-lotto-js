@@ -157,6 +157,13 @@ const LANG = {
       earth: 'Thổ',
     },
   },
+  // VXD
+  vxd: {
+    allRed: '4 Đỏ',
+    allWhite: '4 Trắng',
+    threeWoneR: '3 Trắng+1 Đỏ',
+    threeRoneW: '3 Đỏ+1 Trắng',
+  },
 
   kenoAnySelector: {
     up: 'Trên',

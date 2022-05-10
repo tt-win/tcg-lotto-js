@@ -107,6 +107,14 @@ const LANG = {
     },
   },
 
+  // VXD
+  vxd: {
+    allRed: 'Tudo vermelho',
+    allWhite: 'Tudo branco',
+    threeWoneR: '3 branco+1 vermelho',
+    threeRoneW: '3 vermelho+1 branco',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',

@@ -354,6 +354,14 @@ const LANG = {
     },
   },
 
+  // VXD
+  vxd: {
+    allRed: '全红',
+    allWhite: '全白',
+    threeWoneR: '3白+1红',
+    threeRoneW: '3红+1白',
+  },
+
   kenoAnySelector: {
     up: '上',
     down: '下',

@@ -156,6 +156,13 @@ const LANG = {
       earth: 'Earth',
     },
   },
+  // VXD
+  vxd: {
+    allRed: '4 ក្រហម',
+    allWhite: '4 ពណ៌ស',
+    threeWoneR: '3 ពណ៌ស+1 ក្រហម',
+    threeRoneW: '3 ក្រហម+1 ពណ៌ស',
+  },
 
   kenoAnySelector: {
     up: 'Top',

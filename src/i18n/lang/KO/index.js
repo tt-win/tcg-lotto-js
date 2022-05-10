@@ -106,6 +106,13 @@ const LANG = {
       3: 'THREE DICE',
     },
   },
+  // VXD
+  vxd: {
+    allRed: '빨강',
+    allWhite: '모두 흰색',
+    threeWoneR: '흰색3+빨강1',
+    threeRoneW: '빨강3+흰색1',
+  },
   prizeListPrizeType: {
     VTX_BS_BIG: '빅',
     VTX_BS_SMALL: '스몰',

@@ -1190,4 +1190,12 @@ export const PlayMenu = {
   // VTX 越式大小
   Dice_BS_VTX: 2675,
   Dice_BS_Main_VTX: 2676,
+  // 色碟
+  XocDia_VXD: 2677,
+  XocDia_BS_Main_VXD: 2678,
+  XocDia_OD_Main_VXD: 2679,
+  XocDia_4R_Main_VXD: 2680, // 全红
+  XocDia_4W_Main_VXD: 2681, // 全白
+  XocDia_3W1R_Main_VXD: 2682, // 3白1紅
+  XocDia_3R1W_Main_VXD: 2683, // 3紅1白
 };

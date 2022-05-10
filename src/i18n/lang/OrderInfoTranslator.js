@@ -296,6 +296,21 @@ function getOrderInfoTranslatorList(lang) {
     2: 'crab',
   };
 
+  const VXD = {
+    '4R_Main_VXD': {
+      1: 'allRed',
+    },
+    '4W_Main_VXD': {
+      1: 'allWhite',
+    },
+    '3W1R_Main_VXD': {
+      1: 'threeWoneR',
+    },
+    '3R1W_Main_VXD': {
+      1: 'threeRoneW',
+    },
+  }
+
   // SSC 龍虎和
   const getDragonTigerTie = (val) => {
     switch (val) {
@@ -341,6 +356,33 @@ function getOrderInfoTranslatorList(lang) {
     return contentArr.join('|');
   };
 
+  // VXD
+  const VXDTranslator = {
+    '4R_Main_VXD': {
+      items: [
+        PlayMenu.XocDia_4R_Main_VXD
+      ],
+      getText: (content) => i18n(`vxd.${VXD['4R_Main_VXD'][content]}`),
+    },
+    '4W_Main_VXD': {
+      items: [
+        PlayMenu.XocDia_4W_Main_VXD
+      ],
+      getText: (content) => i18n(`vxd.${VXD['4W_Main_VXD'][content]}`),
+    },
+    '3W1R_Main_VXD': {
+      items: [
+        PlayMenu.XocDia_3W1R_Main_VXD
+      ],
+      getText: (content) => i18n(`vxd.${VXD['3W1R_Main_VXD'][content]}`),
+    },
+    '3R1W_Main_VXD': {
+      items: [
+        PlayMenu.XocDia_3R1W_Main_VXD
+      ],
+      getText: (content) => i18n(`vxd.${VXD['3R1W_Main_VXD'][content]}`),
+    },
+  };
 
   const LHCTranslator = {
     // 球號
@@ -1535,6 +1577,9 @@ function getOrderInfoTranslatorList(lang) {
 
         // VTX
         PlayMenu.Dice_BS_Main_VTX,
+        // 色碟
+        PlayMenu.XocDia_BS_Main_VXD,
+        PlayMenu.XocDia_OD_Main_VXD,
       ],
       getText: (content) =>
         content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -1883,6 +1928,7 @@ function getOrderInfoTranslatorList(lang) {
       getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
     },
 
+    ...VXDTranslator,
     ...PK10Translator,
     ...LHCTranslator,
     ...PCBTranslator,
