@@ -18,6 +18,15 @@ const PlayMenu = {
     2675: 'Tài Xỉu',
     2676: 'Grande Pequeno',
 
+    // VXD
+    2677: 'Xoc Dia',
+    2678: 'Grande Pequeno',
+    2679: 'Ímpar Mesmo',
+    2680: 'Tudo vermelho',
+    2681: 'Tudo branco',
+    2682: '3 branco + 1 vermelho',
+    2683: '3 vermelho + 1 branco',
+
     2060: '2D', // 二数
     2062: 'EXACT 2D-1o', // 上正二位数
     2064: 'QUALQUER 2D-1o', // 上反二位数

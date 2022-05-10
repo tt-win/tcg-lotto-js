@@ -17,6 +17,14 @@ const PlayMenu = {
     // VTX
     2675: 'Tài Xỉu',
     2676: 'Big Small',
+    // VXD
+    2677: 'Xoc Dia',
+    2678: 'Big Small',
+    2679: 'Odd Even',
+    2680: 'All Red',
+    2681: 'All White',
+    2682: '3 White+1 Red',
+    2683: '3 Red+1 White',
 
     2060: '2D', // 二数
     2062: 'EXACT 2D-1st', // 上正二位数

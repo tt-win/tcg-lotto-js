@@ -18,6 +18,15 @@ const PlayMenu = {
     2675: 'Tài Xỉu',
     2676: 'Tài Xỉu',
 
+    // VXD
+    2677: 'Xóc Đĩa',
+    2678: 'Tài Xỉu',
+    2679: 'Lẻ Chẵn',
+    2680: '4 Đỏ',
+    2681: '4 Trắng',
+    2682: '3 Trắng + 1 Đỏ',
+    2683: '3 Đỏ + 1 Trắng',
+
     2060: '2 số', // 二数
     2062: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_THAI
     2064: 'Xiên 2 Giải Nhất',

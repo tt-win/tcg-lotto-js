@@ -18,6 +18,15 @@ const PlayMenu = {
     2675: 'Tài Xỉu',
     2676: 'Besar Kecil',
 
+    // VXD
+    2677: 'Xoc Dia',
+    2678: 'Besar Kecil',
+    2679: 'Odd Even',
+    2680: '4 Merah',
+    2681: '4 Putih',
+    2682: '3 Putih + 1 Merah',
+    2683: '3 Merah + 1 Putih',
+
     2060: '2D',
     2062: '2D Yang tepat - 1st',
     2064: '2D Apa saja - 1st',
