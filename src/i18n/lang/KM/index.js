@@ -203,6 +203,14 @@ const LANG = {
   prizeListPrizeType: {
     VTX_BS_BIG: 'Big',
     VTX_BS_SMALL: 'Small',
+    VXD_BS_BIG: 'ធំ',
+    VXD_BS_SMALL: 'តូច',
+    VXD_OE_ODD: 'លេខសេស',
+    VXD_OE_EVEN: 'សូម្បីតែ',
+    VXD_4R_1: '4 ក្រហម',
+    VXD_4W_1: '4 ពណ៌ស',
+    VXD_3W1R_1: '3 ពណ៌ស + 1 ក្រហម',
+    VXD_3R1W_1: '3 ក្រហម + 1 ពណ៌ស',
   },
 
   // TODO i18n

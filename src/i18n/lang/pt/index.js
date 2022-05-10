@@ -320,6 +320,14 @@ const LANG = {
   prizeListPrizeType: {
     VTX_BS_BIG: 'Grande',
     VTX_BS_SMALL: 'Pequeno',
+    VXD_BS_BIG: 'Grande',
+    VXD_BS_SMALL: 'Pequeno',
+    VXD_OE_ODD: 'Ímpar',
+    VXD_OE_EVEN: 'Mesmo',
+    VXD_4R_1: 'Tudo vermelho',
+    VXD_4W_1: 'Tudo branco',
+    VXD_3W1R_1: '3 branco + 1 vermelho',
+    VXD_3R1W_1: '3 vermelho + 1 branco',
   },
 };
 

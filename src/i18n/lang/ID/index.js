@@ -176,6 +176,14 @@ const LANG = {
   prizeListPrizeType: {
     VTX_BS_BIG: 'Besar',
     VTX_BS_SMALL: 'Kecil',
+    VXD_BS_BIG: 'Besar',
+    VXD_BS_SMALL: 'Kecil',
+    VXD_OE_ODD: 'Odd',
+    VXD_OE_EVEN: 'Even',
+    VXD_4R_1: '4 Merah',
+    VXD_4W_1: '4 Putih',
+    VXD_3W1R_1: '3 Putih+1 Merah',
+    VXD_3R1W_1: '3 Merah+1 Putih',
   },
 
   errorCode: {

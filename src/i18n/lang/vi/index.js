@@ -204,6 +204,14 @@ const LANG = {
   prizeListPrizeType: {
     VTX_BS_BIG: 'Tài',
     VTX_BS_SMALL: 'Xỉu',
+    VXD_BS_BIG: 'Tài',
+    VXD_BS_SMALL: 'Xỉu',
+    VXD_OE_ODD: 'Lẻ',
+    VXD_OE_EVEN: 'Chẵn',
+    VXD_4R_1: '4 Đỏ',
+    VXD_4W_1: '4 Trắng',
+    VXD_3W1R_1: '3 Trắng + 1 Đỏ',
+    VXD_3R1W_1: '3 Đỏ + 1 Trắng',
   },
 
   // TODO i18n

@@ -116,6 +116,14 @@ const LANG = {
   prizeListPrizeType: {
     VTX_BS_BIG: '빅',
     VTX_BS_SMALL: '스몰',
+    VXD_BS_BIG: '빅',
+    VXD_BS_SMALL: '스몰',
+    VXD_OE_ODD: '홀',
+    VXD_OE_EVEN: '짝',
+    VXD_4R_1: '빨강',
+    VXD_4W_1: '모두 흰색',
+    VXD_3W1R_1: '흰색3+빨강1',
+    VXD_3R1W_1: '빨강3+흰색1',
   },
 
   errorCode: {

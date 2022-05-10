@@ -203,6 +203,14 @@ const LANG = {
   prizeListPrizeType: {
     VTX_BS_BIG: 'ใหญ่',
     VTX_BS_SMALL: 'เล็ก',
+    VXD_BS_BIG: 'ใหญ่',
+    VXD_BS_SMALL: 'เล็ก',
+    VXD_OE_ODD: 'คี่',
+    VXD_OE_EVEN: 'คู่',
+    VXD_4R_1: 'แดงทั้งหมด',
+    VXD_4W_1: 'เหรียญขาว',
+    VXD_3W1R_1: 'เหรียญขาว 3+ เหรียญแดง 1',
+    VXD_3R1W_1: 'เหรียญแดง 3+ เหรียญขาว 1',
   },
 
   // TODO i18n

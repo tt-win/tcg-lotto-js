@@ -239,6 +239,14 @@ const LANG = {
     P_4NIAN1: '4 Nim 1',
     P_4NIAN2: '4 Nim 2',
     P_4NIAN3: '4 Nim 3',
+    VXD_BS_BIG: 'Big',
+    VXD_BS_SMALL: 'Small',
+    VXD_OE_ODD: 'Odd',
+    VXD_OE_EVEN: 'Even',
+    VXD_4R_1: 'All Red',
+    VXD_4W_1: 'All White',
+    VXD_3W1R_1: '3 White + 1 Red',
+    VXD_3R1W_1: '3 Red + 1 White',
   },
 
   seriesControlMapping: {
