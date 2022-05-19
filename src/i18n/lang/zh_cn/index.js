@@ -966,6 +966,8 @@ const LANG = {
   numberScaleName: ['万', '亿', '兆'],
   query: '查找',
   bettingAmount: '投注金额',
+  betAmountMinLimit: '单笔最小投注上限',
+  betAmountMaxLimitByNumero: '单期最大投注上限',
   chasingNumeros: {
     sameMultiplesChasing: '普通追号',
     addMultiplesChasing: '翻倍追号',
