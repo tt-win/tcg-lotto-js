@@ -23,6 +23,7 @@ const LANG = {
   winningNumber: 'KẾT QUẢ',
   betNumber: 'mã đặt cược',
   openHistory: 'lịch sử mở giải',
+  pastDraw: 'KẾT QUẢ',
   drawHistory: 'lịch sử mở giải',
   drawResult: 'kết quả mở giải',
   processing: 'đang tiến hành',

@@ -202,6 +202,7 @@ const LANG = {
   clearBallText: '삭제',
   addToBetSlip: '슬립에 추가',
   filterRepeat: '중복 제거',
+  pastDraw: '결과',
   betsNTotalAmount: '<div class="font-bold">%@</div>내기，총 베팅<div class="font-bold">%@</div>，',
   predictionAmount: '보너스<div class="red-words">%@</div>',
   willWin: '보너스',

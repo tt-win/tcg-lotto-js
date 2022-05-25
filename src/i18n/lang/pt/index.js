@@ -271,6 +271,7 @@ const LANG = {
   filterRepeat: 'Remover duplicado ＆ nº inválido.',
   drawResult: 'Resultado',
   betNow: 'Bet Now',
+  pastDraw: 'Resultados',
   drawHistory: 'Resultados',
   betFail: 'Aposta incorreta, por favor tente novamente.',
   confirmBetInfos: 'Please Confirm the Betting Details',

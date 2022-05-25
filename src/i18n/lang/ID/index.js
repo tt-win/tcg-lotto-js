@@ -262,6 +262,7 @@ const LANG = {
   clearBallText: 'PASANG',
   addToBetSlip: 'Tambah Taruhan',
   filterRepeat: 'Hapus Nomor Gandakan',
+  pastDraw: 'Hasil',
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
   predictionAmount: 'akan menang<div class="red-words">%@</div>',
   willWin: 'akan menang',

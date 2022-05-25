@@ -23,6 +23,7 @@ const LANG = {
   winningNumber: 'លេខដែលឈ្នះ',
   betNumber: 'លេខដែលត្រូវភ្នាល់',
   drawHistory: 'បើកប្រវត្តិ',
+  pastDraw: 'លទ្ធផល',
   drawResult: 'លទ្ធផលស្មើ',
   processing: 'កំពុងដំណើរការ',
   betFail: 'ការភ្នាល់មិនជោគជ័យ',

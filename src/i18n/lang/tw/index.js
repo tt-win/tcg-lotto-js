@@ -23,6 +23,7 @@ const LANG = {
   bettingAmount: '投注金額',
   winningNumber: '開獎號碼',
   betNumber: '投注號碼',
+  pastDraw: '開獎紀錄',
   drawHistory: '開獎歷史',
   drawResult: '開獎結果',
   processing: '進行中',

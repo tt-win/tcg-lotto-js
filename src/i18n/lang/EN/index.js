@@ -22,6 +22,7 @@ const LANG = {
   bettingAmount: 'Betting Amount',
   winningNumber: 'Bonus Number',
   betNumber: 'Bet Number',
+  pastDraw: 'Past',
   drawHistory: 'Draw History',
   drawResult: 'Draw Result',
   processing: 'Processing',
