@@ -247,6 +247,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'អតិថិជន-ចាកចេញ!',
     DRAW_FAIL_ERROR_: 'ប្រព័ន្ធនេះរវល់គារភ្នាល់-បរាជ័យ',
     NOT_SUPPORT_LANDSCAPE: 'មិនអាច-កំណត់-ទេសភាព',
+    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ',
 //  VN
     ORDER_ALREADY_CANCELED: 'បញ្ជាទិញ-គី-បោះបង់',

@@ -536,8 +536,7 @@ const LANG = {
     NOT_SUPPORT_LANDSCAPE: '不支持横屏',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '当前彩种暂时没有开始销售 请稍后再试',
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中奖即停不可使用',
-    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS:
-      '提示：此号码%@已超出当前期购买额度，已修正可购买金额，请重新下注。',
+    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '以下号码已超出当前期购买额度，请重新下注，剩余可购买金额如下',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注数已超过允许的上限',
     NOT_SUPPORT_TRIAL_CUSTOMER: '该帐号尚未开放此彩种',
     // VN
@@ -579,7 +578,7 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR:
       '投注号码%@后二位相同数字每期允许销售的最大投注数额%@元。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '投注号码%@达到当前庫存允许销售的最大投注数额。',
-    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '以下号码已超出当前期购买额度，请重新下注，剩余可购买金额',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '以下号码已超出当前期购买额度，请重新下注，剩余可购买金额如下',
   },
   chasingStatus: {
     All: '全部',

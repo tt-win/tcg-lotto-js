@@ -204,6 +204,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'Por favor, faça login com sua conta oficial',
     DRAW_FAIL_ERROR_: 'Aposta incorreta, por favor tente novamente.',
     NOT_SUPPORT_LANDSCAPE: 'Use o modo retrato para obter a melhor experiência.',
+    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'Os seguintes números excederam o limite de compra atual, por favor aposte novamente, o valor restante pode ser comprado',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit stakes',
     // VN
     ORDER_ALREADY_CANCELED: 'The bet has been cancelled.',
