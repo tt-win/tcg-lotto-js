@@ -55,6 +55,7 @@ const trendChart = {
     Fixed_Place_Complex: '定位综合',
     BSOE: '大小单双',
     sumBSOE: '大小单双',
+    fullSpread: '完整分布',
 
     // PK10 二級選單
     First_To_Third: '第1-3名',
