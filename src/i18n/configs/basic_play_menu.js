@@ -832,6 +832,90 @@ export const PlayMenu = {
   Last3_Special_SSC: 2117,
   Last3_Special_3_SSC: 2118,
 
+  // SEA V2 TL(天龍)
+
+  // 一級選單
+
+  // TL3D
+
+  '2_Num_TL3D': 2684, // SEA TL3D 二數
+  '3_Num_TL3D': 2689, // SEA TL3D 三數
+  'Any_Place_TL3D': 2694, // SEA TL3D 跑數
+
+  // TL4D
+
+  '2_Num_TL4D': 2697, // SEA TL4D 二數
+  '3_Num_TL4D': 2702, // SEA TL4D 三數
+  '4_Num_TL4D': 2707, // SEA TL4D 四數
+  'Any_Place_TL4D': 2712, // SEA TL4D 跑數
+
+  // TL6D
+
+  '2_Num_TL6D': 2715, // SEA TL6D 二數
+  '3_Num_TL6D': 2720, // SEA TL6D 三數
+  '4_Num_TL6D': 2725, // SEA TL6D 四數
+  'Any_Place_TL6D': 2730, // SEA TL6D 跑數
+
+  // 二級選單
+
+  // TL3D
+
+  Last_2_Straight_Main_TL3D: 2685, // SEA TL3D 後二直選
+  Last_2_Combine_Main_TL3D: 2687, // SEA TL3D 後二組選
+  Last_3_Straight_Main_TL3D: 2690, // SEA TL3D 後三直選
+  Last_3_Combine_Main_TL3D: 2692, // SEA TL3D 後三組選
+  '1_At_Any_Last_2_Main_TL3D': 2695, // SEA TL3D 后二不定位
+
+  // TL4D
+
+  Last_2_Straight_Main_TL4D: 2698, // SEA TL4D 後二直選
+  Last_2_Combine_Main_TL4D: 2700, // SEA TL4D 後二組選
+  Last_3_Straight_Main_TL4D: 2703, // SEA TL4D 後三直選
+  Last_3_Combine_Main_TL4D: 2705, // SEA TL4D 後三組選
+  Last_4_Straight_Main_TL4D: 2708, // SEA TL4D 後四直選
+  Last_4_Combine_Main_TL4D: 2710, // SEA TL4D 後四組選
+  '1_At_Any_Last_2_Main_TL4D': 2713, // SEA TL4D 后二不定位
+
+  // TL6D
+
+  Last_2_Straight_Main_TL6D: 2716, // SEA TL6D 後二直選
+  Last_2_Combine_Main_TL6D: 2718, // SEA TL6D 後二組選
+  Last_3_Straight_Main_TL6D: 2721, // SEA TL6D 後三直選
+  Last_3_Combine_Main_TL6D: 2723, // SEA TL6D 後三組選
+  Last_4_Straight_Main_TL6D: 2726, // SEA TL6D 後四直選
+  Last_4_Combine_Main_TL6D: 2728, // SEA TL6D 後四組選
+  '1_At_Any_Last_2_Main_TL6D': 2731, // SEA TL6D 后二不定位
+
+  // 三級選單
+
+  // TL3D
+
+  Last_2_Straight_TL3D: 2686, // SEA TL3D 上正二位数
+  Last_2_Combine_TL3D: 2688, // SEA TL3D 上反二位数
+  Last_3_Straight_TL3D: 2691, // SEA TL3D 上正三位数
+  Last_3_Combine_TL3D: 2693, // SEA TL3D 上反三位数
+  '1_At_Any_Last_2_TL3D': 2696, // SEA TL3D 上跑两位数
+
+  // TL4D
+
+  Last_2_Straight_TL4D: 2699, // SEA TL4D 上正二位数
+  Last_2_Combine_TL4D: 2701, // SEA TL4D 上反二位数
+  Last_3_Straight_TL4D: 2704, // SEA TL4D 上正三位数
+  Last_3_Combine_TL4D: 2706, // SEA TL4D 上反三位数
+  Last_4_Straight_TL4D: 2709, // SEA TL4D 上正四位数
+  Last_4_Combine_TL4D: 2711, // SEA TL4D 上反四位数
+  '1_At_Any_Last_2_TL4D': 2714, // SEA TL4D 上跑两位数
+
+  // TL6D
+
+  Last_2_Straight_TL6D: 2717, // SEA TL6D 上正二位数
+  Last_2_Combine_TL6D: 2719, // SEA TL6D 上反二位数
+  Last_3_Straight_TL6D: 2722, // SEA TL6D 上正三位数
+  Last_3_Combine_TL6D: 2724, // SEA TL6D 上反三位数
+  Last_4_Straight_TL6D: 2727, // SEA TL6D 上正四位数
+  Last_4_Combine_TL6D: 2729, // SEA TL6D 上反四位数
+  '1_At_Any_Last_2_TL6D': 2732, // SEA TL6D 上跑两位数
+
   // THAI
 
   // 一級選單
