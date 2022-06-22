@@ -1,19 +1,5 @@
 const PlayMenu = {
   playId: {
-    // Thai
-    2056: 'EXACT', // 上正
-    2058: 'ANY', // 上反
-    2061: 'EXACT', // 上正
-    2063: 'ANY', // 上反
-    2065: 'Bonus digit', // 直选加开
-    2068: 'Random Back 3 Digits', // 后三不定位
-    2055: '3D', // 三数
-    2057: 'EXACT 3D-1st', // 上正三位数
-    2059: 'ANY 3D-1st', // 上反三位数
-    2643: 'Second Prize', // 二等
-    2644: 'Second Special', // 二特
-    2645: 'EXACT 3D-2nd', // 二等三位数
-    2646: 'EXACT 3D-2nd Special', // 二特三位数
     // VTX
     2675: 'Tài Xỉu',
     2676: 'Big Small',
@@ -26,33 +12,144 @@ const PlayMenu = {
     2682: '3 White+1 Red',
     2683: '3 Red+1 White',
 
+    // SEA SEA V2 TL(天龍)
+
+    // 一級選單
+
+    // TL3D
+
+    2684: '2D', // SEA TL3D 二數
+    2689: '3D', // SEA TL3D 三數
+    2694: '1D', // SEA TL3D 跑數
+
+    // TL4D
+
+    2697: '2D', // SEA TL4D 二數
+    2702: '3D', // SEA TL4D 三數
+    2707: '4D', // SEA TL4D 四數
+    2712: '1D', // SEA TL4D 跑數
+
+    // TL6D
+
+    2715: '2D', // SEA TL6D 二數
+    2720: '3D', // SEA TL6D 三數
+    2725: '4D', // SEA TL6D 四數
+    2730: '1D', // SEA TL6D 跑數
+
+    // 二級選單
+
+    // TL3D
+
+    2685: 'EXACT', // SEA TL3D 後二直選(上正 二數)
+    2687: 'ANY', // SEA TL3D 後二組選(下正 二數)
+    2690: 'EXACT', // SEA TL3D 後三直選(上正 三數)
+    2692: 'ANY', // SEA TL3D 後三組選(上反 三數)
+    2695: '一等二星不定位', // SEA TL3D 后二不定位
+
+    // TL4D
+
+    2698: 'EXACT', // SEA TL4D 後二直選(上正 二數)
+    2700: 'ANY', // SEA TL4D 後二組選(下正 二數)
+    2703: 'EXACT', // SEA TL4D 後三直選(上正 三數)
+    2705: 'ANY', // SEA TL4D 後三組選(上反 三數)
+    2708: 'EXACT', // SEA TL4D 後四直選(上正 四數)
+    2710: 'ANY', // SEA TL4D 後四組選(上反 四數)
+    2713: '一等二星不定位', // SEA TL4D 后二不定位
+
+    // TL6D
+
+    2716: 'EXACT', // SEA TL6D 後二直選(上正 二數)
+    2718: 'ANY', // SEA TL6D 後二組選(下正 二數)
+    2721: 'EXACT', // SEA TL6D 後三直選(上正 三數)
+    2723: 'ANY', // SEA TL6D 後三組選(上反 三數)
+    2726: 'EXACT', // SEA TL6D 後四直選(上正 四數)
+    2728: 'ANY', // SEA TL6D 後四組選(上反 四數)
+    2731: '一等二星不定位', // SEA TL6D 后二不定位
+
+    // 三級選單
+
+    // TL3D
+
+    2686: 'EXACT 2D-1o', // SEA TL3D 上正二位数
+    2688: 'EXACT 2D-1st', // SEA TL3D 下正二位数
+    2691: 'EXACT 3D-1st', // SEA TL3D 上正三位数
+    2693: 'ANY 3D-Special', // SEA TL3D 上反三位数
+    2696: 'ANY 1D-Special', // SEA TL3D 上跑两位数
+
+    // TL4D
+
+    2699: 'EXACT 2D-1o', // SEA TL4D 上正二位数
+    2701: 'EXACT 2D-1st', // SEA TL4D 下正二位数
+    2704: 'EXACT 3D-1st', // SEA TL4D 上正三位数
+    2706: 'ANY 3D-Special', // SEA TL4D 上反三位数
+    2709: 'EXACT 4D-Special', // SEA TL4D 上正四位数
+    2711: 'ANY 4D-Special', // SEA TL4D 上反四位数
+    2714: 'ANY 1D-Special', // SEA TL4D 上跑两位数
+
+    // TL6D
+
+    2717: 'EXACT 2D-1o', // SEA TL6D 上正二位数
+    2719: 'EXACT 2D-1st', // SEA TL6D 下正二位数
+    2722: 'EXACT 3D-1st', // SEA TL6D 上正三位数
+    2724: 'ANY 3D-Special', // SEA TL6D 上反三位数
+    2727: 'EXACT 4D-Special', // SEA TL6D 上正四位数
+    2729: 'ANY 4D-Special', // SEA TL6D 上反四位数
+    2732: 'ANY 1D-Special', // SEA TL6D 上跑两位数
+
+    // Thai
+
+    // 一級選單
+
     2060: '2D', // 二数
+    2055: '3D', // 三数
+    2067: '1D', // 跑数
+
+    2297: 'FishPrawnCrab', // 魚蝦蟹
+    2497: 'FanTan', // 番摊
+
+    // 二級選單
+
+    2056: 'EXACT', // 上正
+    2058: 'ANY', // 上反
+    2061: 'EXACT', // 上正
+    2063: 'ANY', // 上反
+    2643: 'Second Prize', // 二等
+    2644: 'Second Special', // 二特
+    2065: 'Bonus digit', // 直选加开
+    2068: 'Random Back 3 Digits', // 后三不定位
+
+    2298: 'FishPrawnCrab', // 魚蝦蟹
+
+    2498: 'Fan',
+    2500: 'Kwok',
+    2502: 'Nim',
+    2504: 'BSOE',
+
+    // 三級選單
+
     2062: 'EXACT 2D-1st', // 上正二位数
     2064: 'ANY 2D-1st', // 上反二位数
     2066: 'EXACT 2D-Special ', // 下正二位数
-    2067: '1D', // 跑数
-    2069: 'ANY 1D-1st', // 上跑三位数
-
     2480: 'Norm EXACT 2D-Special ',
     2481: 'Manual Enter EXACT 2D-Special ',
     2482: 'Norm ANY 2D-1st',
     2483: 'Norm EXACT 2D-1st',
     2484: 'Manual Enter  EXACT 2D-1st',
+
+    2057: 'EXACT 3D-1st', // 上正三位数
+    2059: 'ANY 3D-1st', // 上反三位数
+    2645: 'EXACT 3D-2nd', // 二等三位数
+    2646: 'EXACT 3D-2nd Special', // 二特三位数
+    2069: 'ANY 1D-1st', // 上跑三位数
     2485: 'Norm EXACT 3D-1st',
     2486: 'Manual Enter EXACT 3D-1st',
     2487: 'Norm ANY 3D-1st',
 
-    2297: 'FishPrawnCrab', // 魚蝦蟹
-    2298: 'FishPrawnCrab', // 魚蝦蟹
     2299: 'FishPrawnCrab', // 魚蝦蟹
-    2497: 'FanTan', // 番摊
-    2498: 'Fan',
+
     2499: 'Fan',
-    2500: 'Kwok',
     2501: 'Kwok',
-    2502: 'Nim',
     2503: 'Nim',
-    2504: 'BSOE',
     2505: 'BSOE',
 
     // vnc 越南彩
@@ -195,6 +292,8 @@ const PlayMenu = {
     2494: 'Nim', // 念
     2496: 'BSOE', // 大小单双
 
+    263700: 'Position', // VNC 4D 一数 Fixed_Place_4D_VNC
+
     // 三級選單
 
     // 北部
@@ -240,11 +339,26 @@ const PlayMenu = {
     2281: 'Norm EXACT 2D-1st', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Manual Enter EXACT 2D-1st', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
+    // 一數為特例(不算三級又像三級選單)
+    2637: 'Position (Ones)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
+    2638: 'Position (Tens)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
+    2639: 'Position (Hundreds)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
+    2640: 'Position (Thousands)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
+
     // LAO 老挝彩
+
+    // 一級選單
+
     2127: '4D', // 四数
     2132: '3D', // 三数
     2137: '2D', // 二数
     2142: '1D', // 跑数
+
+    2303: 'FishPrawnCrab', // 魚蝦蟹
+
+    2506: 'FanTan', // 番摊
+
+    // 二級選單
 
     2128: 'EXACT', // 上正
     2130: 'ANY', // 上反
@@ -252,7 +366,6 @@ const PlayMenu = {
     2135: 'ANY', // 上反
     2138: 'EXACT', // 上正
     2140: 'EXACT', // 下正
-
     2129: 'EXACT 4D', // 上正四位数 Last_4_Straight_LAO
     2131: 'ANY 4D', // 上反四位数 Last_4_Combine_LAO
     2134: 'EXACT 3D', // 上正三位数 Last_3_Straight_LAO
@@ -262,17 +375,22 @@ const PlayMenu = {
     2144: 'ANY 1D-last', // 上跑两位数 Last_2_Any_LAO
     2146: 'ANY 1D-first', // 下跑两位数 First_2_Any_LAO
 
+    2304: 'FishPrawnCrab', // 魚蝦蟹
+
+    2507: 'Fan',
+    2509: 'Kwok',
+    2511: 'Nim',
+    2513: 'BSOE',
+
     2632: 'Position', // SEA 4D 一数 Fixed_Place_4D
+
+    // 三級選單
+
+    // 一數為特例(不算三級又像三級選單)
     2633: 'Position (Ones)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
     2634: 'Position (Tens)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
     2635: 'Position (Hundreds)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'Position (Thousands)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
-
-    263700: 'Position', // VNC 4D 一数 Fixed_Place_4D_VNC
-    2637: 'Position (Ones)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
-    2638: 'Position (Tens)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
-    2639: 'Position (Hundreds)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
-    2640: 'Position (Thousands)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
 
     2288: 'Norm EXACT 2D-last', // Last_2_Straight_LAO_Multi
     2289: 'Manual Enter EXACT 2D-last', // Last_2_Straight_LAO_Single
@@ -284,17 +402,11 @@ const PlayMenu = {
     2295: 'Norm EXACT 4D', // Last_4_Straight_LAO_Multi
     2296: 'Manual Enter EXACT 4D', // Last_4_Straight_LAO_Single
 
-    2303: 'FishPrawnCrab', // 魚蝦蟹
-    2304: 'FishPrawnCrab', // 魚蝦蟹
     2305: 'FishPrawnCrab', // 魚蝦蟹
-    2506: 'FanTan', // 番摊
-    2507: 'Fan',
+
     2508: 'Fan',
-    2509: 'Kwok',
     2510: 'Kwok',
-    2511: 'Nim',
     2512: 'Nim',
-    2513: 'BSOE',
     2514: 'BSOE',
 
     // Keno

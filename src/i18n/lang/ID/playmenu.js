@@ -1,19 +1,5 @@
 const PlayMenu = {
   playId: {
-    // Thai
-    2056: 'TEPAT', // 上正
-    2058: 'ANY', // 上反
-    2061: 'TEPAT', // 上正
-    2063: 'ANY', // 上反
-    2065: '直选加开',
-    2068: '后三不定位',
-    2055: '3D',
-    2057: '3D yang tepat -1st',
-    2059: '3D Apa saja - 1st',
-    2643: 'Hadiah Kedua', // 三数 二等
-    2644: 'Spesial Kedua', // 三数 二特
-    2645: '3D yang tepat - 2nd', // 二等三位数
-    2646: '3D yang tepat spesial -2nd', // 二特三位数
     // VTX
     2675: 'Tài Xỉu',
     2676: 'Besar Kecil',
@@ -27,31 +13,142 @@ const PlayMenu = {
     2682: '3 Putih + 1 Merah',
     2683: '3 Merah + 1 Putih',
 
+    // SEA SEA V2 TL(天龍)
+
+    // 一級選單
+
+    // TL3D
+
+    2684: '2D', // SEA TL3D 二數
+    2689: '3D', // SEA TL3D 三數
+    2694: '1D', // SEA TL3D 跑數
+
+    // TL4D
+
+    2697: '2D', // SEA TL4D 二數
+    2702: '3D', // SEA TL4D 三數
+    2707: '4D', // SEA TL4D 四數
+    2712: '1D', // SEA TL4D 跑數
+
+    // TL6D
+
+    2715: '2D', // SEA TL6D 二數
+    2720: '3D', // SEA TL6D 三數
+    2725: '4D', // SEA TL6D 四數
+    2730: '1D', // SEA TL6D 跑數
+
+    // 二級選單
+
+    // TL3D
+
+    2685: 'TEPAT', // SEA TL3D 後二直選(上正 二數)
+    2687: 'ANY', // SEA TL3D 後二組選(下正 二數)
+    2690: 'TEPAT', // SEA TL3D 後三直選(上正 三數)
+    2692: 'ANY', // SEA TL3D 後三組選(上反 三數)
+    2695: '一等二星不定位', // SEA TL3D 后二不定位
+
+    // TL4D
+
+    2698: 'TEPAT', // SEA TL4D 後二直選(上正 二數)
+    2700: 'ANY', // SEA TL4D 後二組選(下正 二數)
+    2703: 'TEPAT', // SEA TL4D 後三直選(上正 三數)
+    2705: 'ANY', // SEA TL4D 後三組選(上反 三數)
+    2708: 'TEPAT', // SEA TL4D 後四直選(上正 四數)
+    2710: 'ANY', // SEA TL4D 後四組選(上反 四數)
+    2713: '一等二星不定位', // SEA TL4D 后二不定位
+
+    // TL6D
+
+    2716: 'TEPAT', // SEA TL6D 後二直選(上正 二數)
+    2718: 'ANY', // SEA TL6D 後二組選(下正 二數)
+    2721: 'TEPAT', // SEA TL6D 後三直選(上正 三數)
+    2723: 'ANY', // SEA TL6D 後三組選(上反 三數)
+    2726: 'TEPAT', // SEA TL6D 後四直選(上正 四數)
+    2728: 'ANY', // SEA TL6D 後四組選(上反 四數)
+    2731: '一等二星不定位', // SEA TL6D 后二不定位
+
+    // 三級選單
+
+    // TL3D
+
+    2686: 'Tepat 2D -spesial', // SEA TL3D 上正二位数
+    2688: 'Tepat 2D - 1st', // SEA TL3D 下正二位数
+    2691: 'Tepat 3D -spesial', // SEA TL3D 上正三位数
+    2693: 'Apa saja 3D -spesial', // SEA TL3D 上反三位数
+    2696: 'Apa saja 1D -spesial', // SEA TL3D 上跑两位数
+
+    // TL4D
+
+    2699: 'Tepat 2D -spesial', // SEA TL4D 上正二位数
+    2701: 'Tepat 2D - 1st', // SEA TL4D 下正二位数
+    2704: 'Tepat 3D -spesial', // SEA TL4D 上正三位数
+    2706: 'Apa saja 3D -spesial', // SEA TL4D 上反三位数
+    2709: 'Tepat 4D -spesial', // SEA TL4D 上正四位数
+    2711: 'Apa saja 4D - spesial', // SEA TL4D 上反四位数
+    2714: 'Apa saja 1D -spesial', // SEA TL4D 上跑两位数
+
+    // TL6D
+
+    2717: 'Tepat 2D -spesial', // SEA TL6D 上正二位数
+    2719: 'Tepat 2D - 1st', // SEA TL6D 下正二位数
+    2722: 'Tepat 3D -spesial', // SEA TL6D 上正三位数
+    2724: 'Apa saja 3D -spesial', // SEA TL6D 上反三位数
+    2727: 'Tepat 4D -spesial', // SEA TL6D 上正四位数
+    2729: 'Apa saja 4D - spesial', // SEA TL6D 上反四位数
+    2732: 'Apa saja 1D -spesial', // SEA TL6D 上跑两位数
+
+    // Thai
+
+    // 一級選單
+
     2060: '2D',
-    2062: '2D Yang tepat - 1st',
-    2064: '2D Apa saja - 1st',
-    2066: '2D tepat -Spesial',
+    2055: '3D',
     2067: '1D',
-    2069: '1D apa saja -1st',
+    2297: 'FPC', // 魚蝦蟹
+    2497: 'FanTan', // 番摊
+
+    // 二級選單
+
+    2056: 'TEPAT', // 上正
+    2058: 'ANY', // 上反
+    2061: 'TEPAT', // 上正
+    2063: 'ANY', // 上反
+    2643: 'Hadiah Kedua', // 三数 二等
+    2644: 'Spesial Kedua', // 三数 二特
+    2065: '直选加开', // 直选加开
+    2068: '后三不定位', // 后三不定位
+
+    2298: 'FPC', // 魚蝦蟹
+    2498: 'Fan',
+    2500: 'Kwok',
+    2502: 'Nim',
+    2504: 'BesarKecilAnehGenap',
+
+    // 三級選單
+
+    2062: '2D Yang tepat - 1st', // 上正二位数
+    2064: '2D Apa saja - 1st', // 上反二位数
+    2066: '2D tepat -Spesial', // 下正二位数
     2480: 'Norma Dua digit spesial berurutan',
     2481: 'Manual Dua digit spesial berurutan',
     2482: 'Norma Dua digit tanpa urutan - 1st',
     2483: 'Norma Dua digit berurutan - 1st',
     2484: 'Manual  Dua digit berurutan - 1st',
+
+    2057: '3D yang tepat -1st', // 上正三位数
+    2059: '3D Apa saja - 1st', // 上反三位数
+    2645: '3D yang tepat - 2nd', // 二等三位数
+    2646: '3D yang tepat spesial -2nd', // 二特三位数
+    2069: '1D apa saja -1st',
     2485: 'Norma Tiga digit berurutan - 1st',
     2486: 'Manual Tiga digit berurutan - 1st',
     2487: 'Norma Tiga digit tanpa urutan - 1st',
-    2297: 'FPC', // 魚蝦蟹
-    2298: 'FPC', // 魚蝦蟹
+
     2299: 'FPC', // 魚蝦蟹
-    2497: 'FanTan', // 番摊
-    2498: 'Fan',
+
     2499: 'Fan',
-    2500: 'Kwok',
     2501: 'Kwok',
-    2502: 'Nim',
     2503: 'Nim',
-    2504: 'BesarKecilAnehGenap',
     2505: 'BesarKecilAnehGenap',
 
     // vnc 越南彩
@@ -194,6 +291,8 @@ const PlayMenu = {
     2494: 'Nim', // 念
     2496: 'BesarKecilAnehGenap', // 大小单双
 
+    263700: 'Posisi', // VNC 4D 一数 Fixed_Place_4D_VNC
+
     // 三級選單
 
     // 北部
@@ -239,11 +338,26 @@ const PlayMenu = {
     2281: 'Norm EXACT 2D-1st', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Manual Enter EXACT 2D-1st', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
+    // 一數為特例(不算三級又像三級選單)
+    2637: 'Posisi (Satuan)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
+    2638: 'Posisi (Puluhan)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
+    2639: 'Posisi (Ratusan)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
+    2640: 'Posisi (Ribuan)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
+
     // LAO 老挝彩
+
+    // 一級選單
+
     2127: '4D',
     2132: '3D',
     2137: '2D',
     2142: '1D',
+
+    2303: 'Ikan udang kepiting', // 魚蝦蟹
+
+    2506: 'FanTan', // 番摊
+
+    // 二級選單
 
     2128: 'TEPAT', // 上正
     2130: 'ANY', // 上反
@@ -251,7 +365,6 @@ const PlayMenu = {
     2135: 'ANY', // 上反
     2138: 'TEPAT', // 上正
     2140: 'TEPAT', // 下正
-
     2129: 'Tepat 4D', // Last_4_Straight_LAO
     2131: 'Apa saja 4D', // Last_4_Combine_LAO
     2134: 'Tepat 3D', // Last_3_Straight_LAO
@@ -261,17 +374,22 @@ const PlayMenu = {
     2144: 'apa saja 1D -terakhir', // Last_2_Any_LAO
     2146: 'Apa saja 1D -pertama', // First_2_Any_LAO
 
+    2304: 'Ikan udang kepiting', // 魚蝦蟹
+
+    2507: 'Fan',
+    2509: 'Kwok',
+    2511: 'Nim',
+    2513: 'BesarKecilAnehGenap',
+
     2632: 'Posisi', // SEA 4D 一数 Fixed_Place_4D
+
+    // 三級選單
+
+    // 一數為特例(不算三級又像三級選單)
     2633: 'Posisi (Satuan)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
     2634: 'Posisi (Puluhan)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
     2635: 'Posisi (Ratusan)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
     2636: 'Posisi (Ribuan)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
-
-    263700: 'Posisi', // VNC 4D 一数 Fixed_Place_4D_VNC
-    2637: 'Posisi (Satuan)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
-    2638: 'Posisi (Puluhan)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
-    2639: 'Posisi (Ratusan)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
-    2640: 'Posisi (Ribuan)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
 
     2288: 'Norma Dua digit berurutan - Terakhir', // Last_2_Straight_LAO_Multi
     2289: 'Manual Dua digit berurutan - Terakhir', // Last_2_Straight_LAO_Single
@@ -283,17 +401,11 @@ const PlayMenu = {
     2295: 'Norma Empat digit berurutan', // Last_4_Straight_LAO_Multi
     2296: 'Manual Empat digit berurutan', // Last_4_Straight_LAO_Single
 
-    2303: 'Ikan udang kepiting', // 魚蝦蟹
-    2304: 'Ikan udang kepiting', // 魚蝦蟹
     2305: 'Ikan udang kepiting', // 魚蝦蟹
-    2506: 'FanTan', // 番摊
-    2507: 'Fan',
+
     2508: 'Fan',
-    2509: 'Kwok',
     2510: 'Kwok',
-    2511: 'Nim',
     2512: 'Nim',
-    2513: 'BesarKecilAnehGenap',
     2514: 'BesarKecilAnehGenap',
 
     // Keno
