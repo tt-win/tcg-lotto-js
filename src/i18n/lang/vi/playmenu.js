@@ -41,30 +41,30 @@ const PlayMenu = {
 
     // TL3D
 
-    2685: '2 Càng Đặc Biệt', // SEA TL3D 後二直選(上正 二數)
-    2687: 'Xiên 2 Đặc Biệt', // SEA TL3D 後二組選(下正 二數)
-    2690: '3 Càng Đặc Biệt', // SEA TL3D 後三直選(上正 三數)
-    2692: 'Xiên 3 Đặc Biệt', // SEA TL3D 後三組選(上反 三數)
+    2685: 'Chính Xác', // SEA TL3D 後二直選(上正 二數)
+    2687: 'Bất Kỳ', // SEA TL3D 後二組選(上反 二數)
+    2690: 'Chính Xác', // SEA TL3D 後三直選(上正 三數)
+    2692: 'Bất Kỳ', // SEA TL3D 後三組選(上反 三數)
     2695: '一等二星不定位', // SEA TL3D 后二不定位
 
     // TL4D
 
-    2698: '2 Càng Đặc Biệt', // SEA TL4D 後二直選(上正 二數)
-    2700: 'Xiên 2 Đặc Biệt', // SEA TL4D 後二組選(下正 二數)
-    2703: '3 Càng Đặc Biệt', // SEA TL4D 後三直選(上正 三數)
-    2705: 'Xiên 3 Đặc Biệt', // SEA TL4D 後三組選(上反 三數)
-    2708: '4 Càng Đặc Biệt', // SEA TL4D 後四直選(上正 四數)
-    2710: 'Xiên 4 Đặc Biệt', // SEA TL4D 後四組選(上反 四數)
+    2698: 'Chính Xác', // SEA TL4D 後二直選(上正 二數)
+    2700: 'Bất Kỳ', // SEA TL4D 後二組選(上反 二數)
+    2703: 'Chính Xác', // SEA TL4D 後三直選(上正 三數)
+    2705: 'Bất Kỳ', // SEA TL4D 後三組選(上反 三數)
+    2708: 'Chính Xác', // SEA TL4D 後四直選(上正 四數)
+    2710: 'Bất Kỳ', // SEA TL4D 後四組選(上反 四數)
     2713: '一等二星不定位', // SEA TL4D 后二不定位
 
     // TL6D
 
-    2716: '2 Càng Đặc Biệt', // SEA TL6D 後二直選(上正 二數)
-    2718: 'Xiên 2 Đặc Biệt', // SEA TL6D 後二組選(下正 二數)
-    2721: '3 Càng Đặc Biệt', // SEA TL6D 後三直選(上正 三數)
-    2723: 'Xiên 3 Đặc Biệt', // SEA TL6D 後三組選(上反 三數)
-    2726: '4 Càng Đặc Biệt', // SEA TL6D 後四直選(上正 四數)
-    2728: 'Xiên 4 Đặc Biệt', // SEA TL6D 後四組選(上反 四數)
+    2716: 'Chính Xác', // SEA TL6D 後二直選(上正 二數)
+    2718: 'Bất Kỳ', // SEA TL6D 後二組選(上反 二數)
+    2721: 'Chính Xác', // SEA TL6D 後三直選(上正 三數)
+    2723: 'Bất Kỳ', // SEA TL6D 後三組選(上反 三數)
+    2726: 'Chính Xác', // SEA TL6D 後四直選(上正 四數)
+    2728: 'Bất Kỳ', // SEA TL6D 後四組選(上反 四數)
     2731: '一等二星不定位', // SEA TL6D 后二不定位
 
     // 三級選單
@@ -72,7 +72,7 @@ const PlayMenu = {
     // TL3D
 
     2686: 'Đề Đặc Biệt', // SEA TL3D 上正二位数
-    2688: 'Đề Giải Nhất', // SEA TL3D 下正二位数
+    2688: 'Xiên 2 Giải Nhất', // SEA TL3D 上反二位数
     2691: '3 Càng Đặc Biệt', // SEA TL3D 上正三位数
     2693: 'Xiên 3 Đặc Biệt', // SEA TL3D 上反三位数
     2696: 'Xiên Đăc Biệt', // SEA TL3D 上跑两位数
@@ -80,7 +80,7 @@ const PlayMenu = {
     // TL4D
 
     2699: 'Đề Đặc Biệt', // SEA TL4D 上正二位数
-    2701: 'Đề Giải Nhất', // SEA TL4D 下正二位数
+    2701: 'Xiên 2 Giải Nhất', // SEA TL4D 上反二位数
     2704: '3 Càng Đặc Biệt', // SEA TL4D 上正三位数
     2706: 'Xiên 3 Đặc Biệt', // SEA TL4D 上反三位数
     2709: '4 Càng Đặc Biệt', // SEA TL4D 上正四位数
@@ -90,7 +90,7 @@ const PlayMenu = {
     // TL6D
 
     2717: 'Đề Đặc Biệt', // SEA TL6D 上正二位数
-    2719: 'Đề Giải Nhất', // SEA TL6D 下正二位数
+    2719: 'Xiên 2 Giải Nhất', // SEA TL6D 上反二位数
     2722: '3 Càng Đặc Biệt', // SEA TL6D 上正三位数
     2724: 'Xiên 3 Đặc Biệt', // SEA TL6D 上反三位数
     2727: '4 Càng Đặc Biệt', // SEA TL6D 上正四位数

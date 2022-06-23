@@ -42,7 +42,7 @@ const PlayMenu = {
     // TL3D
 
     2685: 'TEPAT', // SEA TL3D 後二直選(上正 二數)
-    2687: 'ANY', // SEA TL3D 後二組選(下正 二數)
+    2687: 'ANY', // SEA TL3D 後二組選(上反 二數)
     2690: 'TEPAT', // SEA TL3D 後三直選(上正 三數)
     2692: 'ANY', // SEA TL3D 後三組選(上反 三數)
     2695: '一等二星不定位', // SEA TL3D 后二不定位
@@ -50,7 +50,7 @@ const PlayMenu = {
     // TL4D
 
     2698: 'TEPAT', // SEA TL4D 後二直選(上正 二數)
-    2700: 'ANY', // SEA TL4D 後二組選(下正 二數)
+    2700: 'ANY', // SEA TL4D 後二組選(上反 二數)
     2703: 'TEPAT', // SEA TL4D 後三直選(上正 三數)
     2705: 'ANY', // SEA TL4D 後三組選(上反 三數)
     2708: 'TEPAT', // SEA TL4D 後四直選(上正 四數)
@@ -60,7 +60,7 @@ const PlayMenu = {
     // TL6D
 
     2716: 'TEPAT', // SEA TL6D 後二直選(上正 二數)
-    2718: 'ANY', // SEA TL6D 後二組選(下正 二數)
+    2718: 'ANY', // SEA TL6D 後二組選(上反 二數)
     2721: 'TEPAT', // SEA TL6D 後三直選(上正 三數)
     2723: 'ANY', // SEA TL6D 後三組選(上反 三數)
     2726: 'TEPAT', // SEA TL6D 後四直選(上正 四數)
@@ -72,7 +72,7 @@ const PlayMenu = {
     // TL3D
 
     2686: 'Tepat 2D -spesial', // SEA TL3D 上正二位数
-    2688: 'Tepat 2D - 1st', // SEA TL3D 下正二位数
+    2688: '2D Apa saja - 1st', // SEA TL3D 上反二位数
     2691: 'Tepat 3D -spesial', // SEA TL3D 上正三位数
     2693: 'Apa saja 3D -spesial', // SEA TL3D 上反三位数
     2696: 'Apa saja 1D -spesial', // SEA TL3D 上跑两位数
@@ -80,7 +80,7 @@ const PlayMenu = {
     // TL4D
 
     2699: 'Tepat 2D -spesial', // SEA TL4D 上正二位数
-    2701: 'Tepat 2D - 1st', // SEA TL4D 下正二位数
+    2701: '2D Apa saja - 1st', // SEA TL4D 上反二位数
     2704: 'Tepat 3D -spesial', // SEA TL4D 上正三位数
     2706: 'Apa saja 3D -spesial', // SEA TL4D 上反三位数
     2709: 'Tepat 4D -spesial', // SEA TL4D 上正四位数
@@ -90,7 +90,7 @@ const PlayMenu = {
     // TL6D
 
     2717: 'Tepat 2D -spesial', // SEA TL6D 上正二位数
-    2719: 'Tepat 2D - 1st', // SEA TL6D 下正二位数
+    2719: '2D Apa saja - 1st', // SEA TL6D 上反二位数
     2722: 'Tepat 3D -spesial', // SEA TL6D 上正三位数
     2724: 'Apa saja 3D -spesial', // SEA TL6D 上反三位数
     2727: 'Tepat 4D -spesial', // SEA TL6D 上正四位数

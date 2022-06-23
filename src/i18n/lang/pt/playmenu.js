@@ -42,7 +42,7 @@ const PlayMenu = {
     // TL3D
 
     2685: 'EXACT', // SEA TL3D 後二直選(上正 二數)
-    2687: 'QUALQUER', // SEA TL3D 後二組選(下正 二數)
+    2687: 'QUALQUER', // SEA TL3D 後二組選(上反 二數)
     2690: 'EXACT', // SEA TL3D 後三直選(上正 三數)
     2692: 'QUALQUER', // SEA TL3D 後三組選(上反 三數)
     2695: '一等二星不定位', // SEA TL3D 后二不定位
@@ -50,7 +50,7 @@ const PlayMenu = {
     // TL4D
 
     2698: 'EXACT', // SEA TL4D 後二直選(上正 二數)
-    2700: 'QUALQUER', // SEA TL4D 後二組選(下正 二數)
+    2700: 'QUALQUER', // SEA TL4D 後二組選(上反 二數)
     2703: 'EXACT', // SEA TL4D 後三直選(上正 三數)
     2705: 'QUALQUER', // SEA TL4D 後三組選(上反 三數)
     2708: 'EXACT', // SEA TL4D 後四直選(上正 四數)
@@ -60,7 +60,7 @@ const PlayMenu = {
     // TL6D
 
     2716: 'EXACT', // SEA TL6D 後二直選(上正 二數)
-    2718: 'QUALQUER', // SEA TL6D 後二組選(下正 二數)
+    2718: 'QUALQUER', // SEA TL6D 後二組選(上反 二數)
     2721: 'EXACT', // SEA TL6D 後三直選(上正 三數)
     2723: 'QUALQUER', // SEA TL6D 後三組選(上反 三數)
     2726: 'EXACT', // SEA TL6D 後四直選(上正 四數)
@@ -72,7 +72,7 @@ const PlayMenu = {
     // TL3D
 
     2686: 'EXACT 2D-Special', // SEA TL3D 上正二位数
-    2688: 'EXACT 2D-1o', // SEA TL3D 下正二位数
+    2688: 'QUALQUER 2D-1o', // SEA TL3D 上反二位数
     2691: 'EXACT 3D-Special', // SEA TL3D 上正三位数
     2693: 'QUALQUER 3D-Special', // SEA TL3D 上反三位数
     2696: 'QUALQUER 1D-Special', // SEA TL3D 上跑两位数
@@ -80,7 +80,7 @@ const PlayMenu = {
     // TL4D
 
     2699: 'EXACT 2D-Special', // SEA TL4D 上正二位数
-    2701: 'EXACT 2D-1o', // SEA TL4D 下正二位数
+    2701: 'QUALQUER 2D-1o', // SEA TL4D 上反二位数
     2704: 'EXACT 3D-Special', // SEA TL4D 上正三位数
     2706: 'QUALQUER 3D-Special', // SEA TL4D 上反三位数
     2709: 'EXACT 4D-Special', // SEA TL4D 上正四位数
@@ -90,7 +90,7 @@ const PlayMenu = {
     // TL6D
 
     2717: 'EXACT 2D-Special', // SEA TL6D 上正二位数
-    2719: 'EXACT 2D-1o', // SEA TL6D 下正二位数
+    2719: 'QUALQUER 2D-1o', // SEA TL6D 上反二位数
     2722: 'EXACT 3D-Special', // SEA TL6D 上正三位数
     2724: 'QUALQUER 3D-Special', // SEA TL6D 上反三位数
     2727: 'EXACT 4D-Special', // SEA TL6D 上正四位数
