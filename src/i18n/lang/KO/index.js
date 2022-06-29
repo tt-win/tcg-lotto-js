@@ -113,6 +113,17 @@ const LANG = {
     threeWoneR: '흰색3+빨강1',
     threeRoneW: '빨강3+흰색1',
   },
+
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: '물고기',
+    prawn: '새우',
+    gourd: '멜론',
+    stag: '사슴',
+    crab: '게',
+    rooster: '닭',
+  },
+
   prizeListPrizeType: {
     VTX_BS_BIG: '빅',
     VTX_BS_SMALL: '스몰',
@@ -124,6 +135,11 @@ const LANG = {
     VXD_4W_1: '모두 흰색',
     VXD_3W1R_1: '흰색3+빨강1',
     VXD_3R1W_1: '빨강3+흰색1',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: 'ONE DICE',
+    VBC_SINGLE_DICE_2: 'TWO DICE',
+    VBC_SINGLE_DICE_3: 'THREE DICE',
   },
 
   errorCode: {

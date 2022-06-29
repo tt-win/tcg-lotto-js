@@ -13,6 +13,9 @@ const PlayMenu = {
     2682: '3 Putih + 1 Merah',
     2683: '3 Merah + 1 Putih',
 
+    // VBC 魚蝦蟹
+    2733: 'Ikan udang kepiting',
+    2734: 'Ikan udang kepiting',
     // SEA SEA V2 TL(天龍)
 
     // 一級選單

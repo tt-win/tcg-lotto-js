@@ -362,6 +362,16 @@ const LANG = {
     threeRoneW: '3红+1白',
   },
 
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: '鱼',
+    prawn: '虾',
+    gourd: '葫卢',
+    stag: '鹿',
+    crab: '蟹',
+    rooster: '鸡',
+  },
+
   kenoAnySelector: {
     up: '上',
     down: '下',
@@ -1977,6 +1987,11 @@ const LANG = {
     VXD_4W_1: '全白',
     VXD_3W1R_1: '3白+1红',
     VXD_3R1W_1: '3红+1白',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: '单骰',
+    VBC_SINGLE_DICE_2: '双骰',
+    VBC_SINGLE_DICE_3: '三骰',
   },
   longDragon: '长龙投注',
   longDragonLott: '彩种类型',

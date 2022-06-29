@@ -165,6 +165,16 @@ const LANG = {
     threeRoneW: '3 ក្រហម+1 ពណ៌ស',
   },
 
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: 'ត្រី',
+    prawn: 'បង្គា',
+    gourd: 'ផ្លែ​ល្ហុង',
+    stag: 'សត្វក្តាន់',
+    crab: 'ក្តាម',
+    rooster: 'មាន់',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',
@@ -212,6 +222,11 @@ const LANG = {
     VXD_4W_1: '4 ពណ៌ស',
     VXD_3W1R_1: '3 ពណ៌ស + 1 ក្រហម',
     VXD_3R1W_1: '3 ក្រហម + 1 ពណ៌ស',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: 'ONE DICE',
+    VBC_SINGLE_DICE_2: 'TWO DICE',
+    VBC_SINGLE_DICE_3: 'THREE DICE',
   },
 
   // TODO i18n

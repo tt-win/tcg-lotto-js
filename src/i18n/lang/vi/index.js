@@ -166,6 +166,16 @@ const LANG = {
     threeRoneW: '3 Đỏ+1 Trắng',
   },
 
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: 'Cá',
+    prawn: 'Tôm',
+    gourd: 'Bầu',
+    stag: 'Nai',
+    crab: 'Cua',
+    rooster: 'Gà',
+  },
+
   kenoAnySelector: {
     up: 'Trên',
     down: 'Dưới',
@@ -213,6 +223,11 @@ const LANG = {
     VXD_4W_1: '4 Trắng',
     VXD_3W1R_1: '3 Trắng + 1 Đỏ',
     VXD_3R1W_1: '3 Đỏ + 1 Trắng',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: 'ONE DICE',
+    VBC_SINGLE_DICE_2: 'TWO DICE',
+    VBC_SINGLE_DICE_3: 'THREE DICE',
   },
 
   // TODO i18n

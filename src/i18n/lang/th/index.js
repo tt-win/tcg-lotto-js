@@ -165,6 +165,16 @@ const LANG = {
     threeRoneW: 'เหรียญแดง 3+เหรียญขาว 1',
   },
 
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: 'ปลา',
+    prawn: 'กุ้ง',
+    gourd: 'น้ำเต้า',
+    stag: 'กวาง',
+    crab: 'ปู',
+    rooster: 'ไก่',
+  },
+
   kenoAnySelector: {
     up: 'บน',
     down: 'ล่าง',
@@ -212,6 +222,11 @@ const LANG = {
     VXD_4W_1: 'เหรียญขาว',
     VXD_3W1R_1: 'เหรียญขาว 3+ เหรียญแดง 1',
     VXD_3R1W_1: 'เหรียญแดง 3+ เหรียญขาว 1',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: 'ONE DICE',
+    VBC_SINGLE_DICE_2: 'TWO DICE',
+    VBC_SINGLE_DICE_3: 'THREE DICE',
   },
 
   // TODO i18n

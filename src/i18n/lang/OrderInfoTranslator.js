@@ -296,6 +296,15 @@ function getOrderInfoTranslatorList(lang) {
     2: 'crab',
   };
 
+  const VBC = {
+    1: 'fish',
+    2: 'prawn',
+    3: 'gourd',
+    4: 'stag',
+    5: 'crab',
+    6: 'rooster',
+  }
+
   const VXD = {
     '4R_Main_VXD': {
       1: 'allRed',
@@ -381,6 +390,16 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.XocDia_3R1W_Main_VXD
       ],
       getText: (content) => i18n(`vxd.${VXD['3R1W_Main_VXD'][content]}`),
+    },
+  };
+
+  // VBC
+  const VBCTranslator = {
+    'Hoo_Hey_How_VBC': {
+      items: [
+        PlayMenu.Hoo_Hey_How_Main_VBC
+      ],
+      getText: (content) => i18n(`vbc.${VBC[content]}`),
     },
   };
 
@@ -1968,6 +1987,7 @@ function getOrderInfoTranslatorList(lang) {
       getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
     },
 
+    ...VBCTranslator,
     ...VXDTranslator,
     ...PK10Translator,
     ...LHCTranslator,

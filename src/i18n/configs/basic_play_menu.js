@@ -1282,4 +1282,8 @@ export const PlayMenu = {
   XocDia_4W_Main_VXD: 2681, // 全白
   XocDia_3W1R_Main_VXD: 2682, // 3白1紅
   XocDia_3R1W_Main_VXD: 2683, // 3紅1白
+
+  // 魚蝦蟹
+  Hoo_Hey_How_VBC: 2733,
+  Hoo_Hey_How_Main_VBC: 2734,
 };

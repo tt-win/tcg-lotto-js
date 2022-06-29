@@ -115,6 +115,16 @@ const LANG = {
     threeRoneW: '3 vermelho+1 branco',
   },
 
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: 'Peixe',
+    prawn: 'Camarão',
+    gourd: 'Cabaça',
+    stag: 'Veado',
+    crab: 'Caranguejo',
+    rooster: 'Galo',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',
@@ -330,6 +340,11 @@ const LANG = {
     VXD_4W_1: 'Tudo branco',
     VXD_3W1R_1: '3 branco + 1 vermelho',
     VXD_3R1W_1: '3 vermelho + 1 branco',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: 'UM DADO',
+    VBC_SINGLE_DICE_2: 'DOIS DADOS',
+    VBC_SINGLE_DICE_3: 'TRÊS DADOS',
   },
 };
 

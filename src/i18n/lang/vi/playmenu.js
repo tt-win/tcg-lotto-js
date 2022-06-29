@@ -13,6 +13,10 @@ const PlayMenu = {
     2682: '3 Trắng + 1 Đỏ',
     2683: '3 Đỏ + 1 Trắng',
 
+    // VBC 魚蝦蟹
+    2733: 'Bầu Cua',
+    2734: 'Bầu Cua',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單

@@ -171,6 +171,16 @@ const LANG = {
     threeRoneW: '3 Red+1 White',
   },
 
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: 'Fish',
+    prawn: 'Prawn',
+    gourd: 'Gourd',
+    stag: 'Stag',
+    crab: 'Crab',
+    rooster: 'Rooster',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',
@@ -248,6 +258,11 @@ const LANG = {
     VXD_4W_1: 'All White',
     VXD_3W1R_1: '3 White + 1 Red',
     VXD_3R1W_1: '3 Red + 1 White',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: 'ONE DICE',
+    VBC_SINGLE_DICE_2: 'TWO DICE',
+    VBC_SINGLE_DICE_3: 'THREE DICE',
   },
 
   seriesControlMapping: {

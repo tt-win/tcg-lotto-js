@@ -137,6 +137,16 @@ const LANG = {
     threeRoneW: '3 Merah + 1 Putih',
   },
 
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: 'Ikan',
+    prawn: 'Udang',
+    gourd: 'Kundur',
+    stag: 'Jantan',
+    crab: 'Kepiting',
+    rooster: 'Ayam',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',
@@ -184,6 +194,11 @@ const LANG = {
     VXD_4W_1: '4 Putih',
     VXD_3W1R_1: '3 Putih+1 Merah',
     VXD_3R1W_1: '3 Merah+1 Putih',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: 'Satu dadu',
+    VBC_SINGLE_DICE_2: 'Dua dadu',
+    VBC_SINGLE_DICE_3: 'Tiga dadu',
   },
 
   errorCode: {

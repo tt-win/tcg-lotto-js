@@ -13,6 +13,9 @@ const PlayMenu = {
     2682: '3 ពណ៌ស + 1 ក្រហម',
     2683: '3 ក្រហម + 1 ពណ៌ស',
 
+    // VBC 魚蝦蟹
+    2733: 'Caranguejo Camarão Peixe',
+    2734: 'Caranguejo Camarão Peixe',
     // SEA SEA V2 TL(天龍)
 
     // 一級選單

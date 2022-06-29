@@ -12,6 +12,10 @@ const PlayMenu = {
     2682: '3 White+1 Red',
     2683: '3 Red+1 White',
 
+    // VBC 魚蝦蟹
+    2733: 'Fish Prawn Crab',
+    2734: 'Fish Prawn Crab',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單

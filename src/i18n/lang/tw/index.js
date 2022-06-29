@@ -169,6 +169,16 @@ const LANG = {
     threeRoneW: '3红+1白',
   },
 
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: '魚',
+    prawn: '蝦',
+    gourd: '葫蘆',
+    stag: '鹿',
+    crab: '蟹',
+    rooster: '雞',
+  },
+
   kenoAnySelector: {
     up: '上',
     down: '下',
@@ -242,7 +252,6 @@ const LANG = {
     NOT_SUPPORT_LANDSCAPE: '不支持橫屏',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '當前彩種暫時沒有開始銷售 請稍後再試',
     LGS_HIT_DRAWBACK_NOT_AVAILABLE: '中獎即停不可使用',
-    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '此號碼已超出當前期購買額度，請與客服聯繫',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '以下號碼已超出當前期購買額度，請重新下注，剩餘可購買金額如下',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '投注注數已超過允許的上限',
 
