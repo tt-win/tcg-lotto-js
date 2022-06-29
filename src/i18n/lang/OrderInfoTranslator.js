@@ -1411,6 +1411,46 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
+  // sea特有的投注內容
+  const SeaTranslator = {
+    TL3D: {
+      items: [
+        PlayMenu.Last_2_Straight_TL3D, // SEA TL3D 上正二位数
+        PlayMenu.Last_2_Combine_TL3D, // SEA TL3D 上反二位数
+        PlayMenu.Last_3_Straight_TL3D, // SEA TL3D 上正三位数
+        PlayMenu.Last_3_Combine_TL3D, // SEA TL3D 上反三位数
+        PlayMenu['1_At_Any_Last_2_TL3D'], // SEA TL3D 上跑两位数
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+
+    TL4D: {
+      items: [
+        PlayMenu.Last_2_Straight_TL4D, // SEA TL4D 上正二位数
+        PlayMenu.Last_2_Combine_TL4D, // SEA TL4D 上反二位数
+        PlayMenu.Last_3_Straight_TL4D, // SEA TL4D 上正三位数
+        PlayMenu.Last_3_Combine_TL4D, // SEA TL4D 上反三位数
+        PlayMenu.Last_4_Straight_TL4D, // SEA TL4D 上正四位数
+        PlayMenu.Last_4_Combine_TL4D, // SEA TL4D 上反四位数
+        PlayMenu['1_At_Any_Last_2_TL4D'], // SEA TL4D 上跑两位数
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+
+    TL6D: {
+      items: [
+        PlayMenu.Last_2_Straight_TL6D, // SEA TL6D 上正二位数
+        PlayMenu.Last_2_Combine_TL6D, // SEA TL6D 上反二位数
+        PlayMenu.Last_3_Straight_TL6D, // SEA TL6D 上正三位数
+        PlayMenu.Last_3_Combine_TL6D, // SEA TL6D 上反三位数
+        PlayMenu.Last_4_Straight_TL6D, // SEA TL6D 上正四位数
+        PlayMenu.Last_4_Combine_TL6D, // SEA TL6D 上反四位数
+        PlayMenu['1_At_Any_Last_2_TL6D'] // SEA TL6D 上跑两位数
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+  };
+
   const LFTranslator = {
     NUMBER_LF: {
       items: [
@@ -1941,6 +1981,7 @@ function getOrderInfoTranslatorList(lang) {
     ...THAITranslator,
     ...LFTranslator,
     ...KenoTranslator,
+    ...SeaTranslator,
   };
 
   return OrderInfoTranslatorList;
@@ -1952,9 +1993,10 @@ const OrderInfoTranslator = {
     if (!playId || !bettingContent) {
       return '';
     }
-
+    console.log(playId, 'playId');
     const OrderInfoTranslatorList = getOrderInfoTranslatorList(lang);
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
+    console.log(translator, 'translator');
     const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
 
     if (translator) {
