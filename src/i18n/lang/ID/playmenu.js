@@ -19,53 +19,53 @@ const PlayMenu = {
 
     // TL3D
 
-    2684: '2D', // SEA TL3D 二數
-    2689: '3D', // SEA TL3D 三數
-    2694: '1D', // SEA TL3D 跑數
+    2684: '2 Digits', // SEA TL3D 二數
+    2689: '3 Digits', // SEA TL3D 三數
+    2694: '1 Digits', // SEA TL3D 跑數
 
     // TL4D
 
-    2697: '2D', // SEA TL4D 二數
-    2702: '3D', // SEA TL4D 三數
-    2707: '4D', // SEA TL4D 四數
-    2712: '1D', // SEA TL4D 跑數
+    2697: '2 Digits', // SEA TL4D 二數
+    2702: '3 Digits', // SEA TL4D 三數
+    2707: '4 Digits', // SEA TL4D 四數
+    2712: '1 Digits', // SEA TL4D 跑數
 
     // TL6D
 
-    2715: '2D', // SEA TL6D 二數
-    2720: '3D', // SEA TL6D 三數
-    2725: '4D', // SEA TL6D 四數
-    2730: '1D', // SEA TL6D 跑數
+    2715: '2 Digits', // SEA TL6D 二數
+    2720: '3 Digits', // SEA TL6D 三數
+    2725: '4 Digits', // SEA TL6D 四數
+    2730: '1 Digits', // SEA TL6D 跑數
 
     // 二級選單
 
     // TL3D
 
-    2685: 'TEPAT', // SEA TL3D 後二直選(上正 二數)
+    2685: 'EXACT', // SEA TL3D 後二直選(上正 二數)
     2687: 'ANY', // SEA TL3D 後二組選(上反 二數)
-    2690: 'TEPAT', // SEA TL3D 後三直選(上正 三數)
+    2690: 'EXACT', // SEA TL3D 後三直選(上正 三數)
     2692: 'ANY', // SEA TL3D 後三組選(上反 三數)
-    2695: 'Acak', // SEA TL3D 后二不定位
+    2695: 'Random', // SEA TL3D 后二不定位
 
     // TL4D
 
-    2698: 'TEPAT', // SEA TL4D 後二直選(上正 二數)
+    2698: 'EXACT', // SEA TL4D 後二直選(上正 二數)
     2700: 'ANY', // SEA TL4D 後二組選(上反 二數)
-    2703: 'TEPAT', // SEA TL4D 後三直選(上正 三數)
+    2703: 'EXACT', // SEA TL4D 後三直選(上正 三數)
     2705: 'ANY', // SEA TL4D 後三組選(上反 三數)
-    2708: 'TEPAT', // SEA TL4D 後四直選(上正 四數)
+    2708: 'EXACT', // SEA TL4D 後四直選(上正 四數)
     2710: 'ANY', // SEA TL4D 後四組選(上反 四數)
-    2713: 'Acak', // SEA TL4D 后二不定位
+    2713: 'Random', // SEA TL4D 后二不定位
 
     // TL6D
 
-    2716: 'TEPAT', // SEA TL6D 後二直選(上正 二數)
+    2716: 'EXACT', // SEA TL6D 後二直選(上正 二數)
     2718: 'ANY', // SEA TL6D 後二組選(上反 二數)
-    2721: 'TEPAT', // SEA TL6D 後三直選(上正 三數)
+    2721: 'EXACT', // SEA TL6D 後三直選(上正 三數)
     2723: 'ANY', // SEA TL6D 後三組選(上反 三數)
-    2726: 'TEPAT', // SEA TL6D 後四直選(上正 四數)
+    2726: 'EXACT', // SEA TL6D 後四直選(上正 四數)
     2728: 'ANY', // SEA TL6D 後四組選(上反 四數)
-    2731: 'Acak', // SEA TL6D 后二不定位
+    2731: 'Random', // SEA TL6D 后二不定位
 
     // 三級選單
 
