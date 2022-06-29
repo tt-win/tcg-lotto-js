@@ -128,17 +128,18 @@ const PlayMenu = {
 
     // 三級選單
 
-    2062: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_THAI
+    2062: 'Đề Giải Nhất', // 上正二位数 Last_2_Straight_1st_THAI
     2064: 'Xiên 2 Giải Nhất', // 上反二位数
-    2066: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_THAI
+    2066: 'Đề Đặc Biệt', // 下正二位数 Last_2_Straight_2nd_THAI
+
     2480: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_THAI_Multi
     2481: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_THAI_Single
     2482: 'Xiên 2 Giải Nhất - Chọn Số', // 上反二位數
     2483: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_THAI_Multi
     2484: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_THAI_Single
 
-    2057: '3 Càng Đặc Biệt', // 上正三位数
-    2059: 'Xiên 3 Đặc Biệt', // 上反三位数
+    2057: '3 Càng Giải Nhất', // 上正三位数
+    2059: 'Xiên 3  Giải Nhất', // 上反三位数
     2645: '3 Càng Giải Nhì', // 二等三位数
     2646: '3 Càng Giải Nhì Đặt Biệt', // 二特三位数
     2069: 'Xiên Số Giải Nhất', // 上跑三位数
