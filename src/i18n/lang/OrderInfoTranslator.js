@@ -2013,10 +2013,9 @@ const OrderInfoTranslator = {
     if (!playId || !bettingContent) {
       return '';
     }
-    console.log(playId, 'playId');
+
     const OrderInfoTranslatorList = getOrderInfoTranslatorList(lang);
     const translator = _find(OrderInfoTranslatorList, (type) => (type.items.indexOf(playId) > -1));
-    console.log(translator, 'translator');
     const noFilter = _find(commaConfig, (type) => (type.indexOf(playId) > -1));
 
     if (translator) {
