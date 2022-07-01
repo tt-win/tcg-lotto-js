@@ -24,21 +24,21 @@ const PlayMenu = {
 
     2684: '2 Digits', // SEA TL3D 二數
     2689: '3 Digits', // SEA TL3D 三數
-    2694: '1 Digits', // SEA TL3D 跑數
+    2694: '1 Digit', // SEA TL3D 跑數
 
     // TL4D
 
     2697: '2 Digits', // SEA TL4D 二數
     2702: '3 Digits', // SEA TL4D 三數
     2707: '4 Digits', // SEA TL4D 四數
-    2712: '1 Digits', // SEA TL4D 跑數
+    2712: '1 Digit', // SEA TL4D 跑數
 
     // TL6D
 
     2715: '2 Digits', // SEA TL6D 二數
     2720: '3 Digits', // SEA TL6D 三數
     2725: '4 Digits', // SEA TL6D 四數
-    2730: '1 Digits', // SEA TL6D 跑數
+    2730: '1 Digit', // SEA TL6D 跑數
 
     // 二級選單
 
