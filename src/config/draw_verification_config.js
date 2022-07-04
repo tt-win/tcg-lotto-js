@@ -6,6 +6,11 @@ const SSC = {
   type: 'SSC',
 };
 
+// 波场哈希验证
+const BCHS = {
+  type: 'BCHS',
+};
+
 export const VERIFICATION = {
   // PK10
   BCPK10: { ...PK10 },
@@ -24,6 +29,7 @@ export const VERIFICATION = {
   NZLSSC: { ...SSC },
   SKSSC: { ...SSC },
   GRSSC: { ...SSC },
+  BCHSFFC: { ...BCHS },
 };
 
 export default VERIFICATION;
