@@ -5,10 +5,13 @@ const PK10 = {
 const SSC = {
   type: 'SSC',
 };
-
 // 波场哈希验证
 const BCHS = {
   type: 'BCHS',
+};
+// 币安比特币验证
+const BABTB = {
+  type: 'BABTB',
 };
 
 export const VERIFICATION = {
@@ -30,6 +33,7 @@ export const VERIFICATION = {
   SKSSC: { ...SSC },
   GRSSC: { ...SSC },
   BCHSFFC: { ...BCHS },
+  BABTBFFC: { ...BABTB },
 };
 
 export default VERIFICATION;
