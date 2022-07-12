@@ -1,5 +1,4 @@
 import PlayMenu from './playmenu';
-เกมสรี้ปิดรับแทงแล้ว
 const LANG = {
   ...PlayMenu,
   shoppingBasket: 'รายการแทง',
