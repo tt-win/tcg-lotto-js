@@ -1,5 +1,5 @@
 import PlayMenu from './playmenu';
-
+เกมสรี้ปิดรับแทงแล้ว
 const LANG = {
   ...PlayMenu,
   shoppingBasket: 'รายการแทง',
@@ -248,7 +248,7 @@ const LANG = {
     LGS_CANCEL_ORDER_SERVICE_LF_PRETTY_CHOOSE_ERROR: 'LGS_CANCEL_ORDER_SERVICE_LF_PRETTY_CHOOSE_ERROR',
     LGS_BETTING_MODE_CLOSED_ERROR: 'ปิดรับแทงแล้ว ไม่สามารถแทงได้',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'ไม่สามารถแทงได้',
-    SYSTEM_NOT_ALLOW_BETTING: 'เกมล์นี้ปิดรับแทงแล้ว',
+    SYSTEM_NOT_ALLOW_BETTING: 'ปิดรับแทงเลขนี้',
     BETTING_ITEM_LIMIT: 'รายการสั่งซื้อเกินขีดจำกัด',
     BETTING_TIME_OUT: 'Betting time out',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'รับรายการเรียบร้อยแล้ว ไม่สามารถยกเลิกได้',
