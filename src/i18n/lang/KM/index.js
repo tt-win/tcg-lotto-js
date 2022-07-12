@@ -250,6 +250,7 @@ const LANG = {
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'អិលជីអេស-ការភ្នាល់មិនអនុញ្ញាត-បរាជ័យ',
     SYSTEM_NOT_ALLOW_BETTING: 'ប្រព័ន្ធមិនអនុញ្ញតការភ្នាល់',
     BETTING_ITEM_LIMIT: 'ការភ្នាល់លើសដែនកំនត់',
+    BETTING_TIME_OUT: 'Betting time out',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'អិលជីអេដ-បដិសេធ-បញ្ជា-មិន-មាន',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'សមតុល្យរបស់អ្នកមិនគ្រប់គ្រាន់',
     CANCEL_CHASE_ORDER_IS_NOT_LAST_START: 'លេខដែលត្រូវភ្នាល់ត្រូវដកចេញកំឡុងពេលចុងក្រោយ',

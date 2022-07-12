@@ -237,6 +237,7 @@ const LANG = {
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: '不允許使用此投注模式',
     SYSTEM_NOT_ALLOW_BETTING: '本期已封盤，請待下一期開始',
     BETTING_ITEM_LIMIT: '訂單內容超出系統限制',
+    BETTING_TIME_OUT: '投注超時',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: '訂單已經鎖定，無法撤單',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: '您的彩票餘額不足',
     CANCEL_CHASE_ORDER_IS_NOT_LAST_START: '追號單需從最後一期開始撤單',

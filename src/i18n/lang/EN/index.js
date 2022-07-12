@@ -311,6 +311,7 @@ const LANG = {
     STAKES_IS_OVER_LIMIT_ERROR: 'Bet Stakes is over limit stakes',
     BALANCE_NOT_ENOUGH_ERROR: 'Insufficient Balance',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Amount is over limit',
+    BETTING_TIME_OUT: 'Betting time out',
     CALCULATE_BETTING_AMOUNT_ERROR: 'Incorrect bet, please try again.',
     IILLEGAL_BALL_NUMBER_ERROR: 'Incorrect bet, please try again.',
     ILLEGAL_BETTING_ARGUMENT_ERROR: 'Incorrect bet, please try again.',

@@ -162,6 +162,7 @@ const LANG = {
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'Bet mode is not allowed.',
     SYSTEM_NOT_ALLOW_BETTING: 'Game closed, please wait until next time.',
     BETTING_ITEM_LIMIT: 'Bet exceeds the limit',
+    BETTING_TIME_OUT: 'Betting time out',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'Bet has been locked and cannot be cancelled.',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'Insufficient Balance',
     CANCEL_CHASE_ORDER_IS_NOT_LAST_START: 'Chasing number needs to be cancelled from last game.',

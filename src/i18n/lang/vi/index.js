@@ -251,6 +251,7 @@ const LANG = {
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'không cho phép sử dụng mô thức đặt cược',
     SYSTEM_NOT_ALLOW_BETTING: 'kì này đã khóa bàn, xin đợi kì sau bắt đầu',
     BETTING_ITEM_LIMIT: 'nội dung đơn đặt hàng vượt quá giới hạn hệ thống',
+    BETTING_TIME_OUT: 'Betting time out',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'đơn hàng đã bị khóa, không thể rút đơn',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'vé số của bạn số dư không đủ',
     CANCEL_CHASE_ORDER_IS_NOT_LAST_START: 'đơn nuôi số cần phải từ thời kì cuối cùng bắt đầu rút đơn',

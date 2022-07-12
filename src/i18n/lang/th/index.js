@@ -250,6 +250,7 @@ const LANG = {
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'ไม่สามารถแทงได้',
     SYSTEM_NOT_ALLOW_BETTING: 'เกมล์นี้ปิดรับแทงแล้ว',
     BETTING_ITEM_LIMIT: 'รายการสั่งซื้อเกินขีดจำกัด',
+    BETTING_TIME_OUT: 'Betting time out',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'รับรายการเรียบร้อยแล้ว ไม่สามารถยกเลิกได้',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'ยอดคงเหลือไม่พอ',
     CANCEL_CHASE_ORDER_IS_NOT_LAST_START: 'CANCEL_CHASE_ORDER_IS_NOT_LAST_START',
