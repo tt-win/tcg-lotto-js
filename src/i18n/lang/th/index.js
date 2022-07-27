@@ -301,6 +301,7 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'จำนวนเงินเดิมพันสูงสุดที่อนุญาตให้ขายได้ด้วยตัวเลขสองหลักเดียวกันหลังหมายเลขเดิมพัน %@ คือ %@',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '%@ เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้าคงคลังเป็นศูนย์',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้า',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'รายการเดิมพันเต็ม > %@',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',

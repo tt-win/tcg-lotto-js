@@ -590,6 +590,7 @@ const LANG = {
       '投注号码%@后二位相同数字每期允许销售的最大投注数额%@元。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '投注号码%@达到当前庫存允许销售的最大投注数额。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '以下号码已超出当前期购买额度，请重新下注，剩余可购买金额如下',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '投注金额已超过%@元允许的上限',
   },
   chasingStatus: {
     All: '全部',

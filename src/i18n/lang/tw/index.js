@@ -293,6 +293,7 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注號碼%@後二位相同數字每期允許銷售的最大投注數額%@元。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '投注號碼%@達到當前庫存允許銷售的最大投注數額。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '以下號碼已超出當前期購買額度，請重新下注，剩餘可購買金額如下',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '投注金額已超過%@元允許的上限',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',

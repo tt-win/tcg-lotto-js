@@ -255,6 +255,7 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Aposta de apostas é acima de limites de apostas> %@',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'Não. %@ está esgotado e fechado para apostas, tente outro número ou volte mais tarde.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Os seguintes números excederam o limite de compra atual, por favor aposte novamente, o valor restante pode ser comprado',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'O valor da aposta está acima do limite> %@',
   },
   recentlyGames: 'Jogos de Aposta',
   gameHistoryCancel: 'Tem certeza de que deseja cancelar este tíquete？',

@@ -305,6 +305,7 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Đặt cược tối đa %@2/ số %@1 đối với các số có 2 chữ số cuối giống nhau.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'số %@ đặt cược đã đạt mức tối đa trong kho, Bạn có thể đặt cược cho lượt sau.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'đặt cược đã đạt mức tối đa trong kho',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Vượt quá số lượng cược tối đa > %@',
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',
