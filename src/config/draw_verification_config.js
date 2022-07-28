@@ -32,8 +32,14 @@ export const VERIFICATION = {
   NZLSSC: { ...SSC },
   SKSSC: { ...SSC },
   GRSSC: { ...SSC },
-  BCHSFFC: { ...BCHS },
-  BABTBFFC: { ...BABTB },
+  // 波场哈希
+  BCHSFFC: { ...BCHS }, // 波场哈希分分彩
+  BCHS3FC: { ...BCHS }, // 波场哈希3分彩
+  BCHS5FC: { ...BCHS }, // 波场哈希5分彩
+  // 币安比特币
+  BABTBFFC: { ...BABTB }, // 币安比特币分分彩
+  BABTB3FC: { ...BABTB }, // 币安比特币3分彩
+  BABTB5FC: { ...BABTB }, // 币安比特币5分彩
 };
 
 export default VERIFICATION;
