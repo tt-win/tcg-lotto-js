@@ -836,6 +836,11 @@ export const PlayMenu = {
 
   // 一級選單
 
+  // TL2D
+  '1_Num_TL2D': 2735, // SEA TL2D 一星
+  '2_Num_TL2D': 2741, // SEA TL2D 二星
+  Fun_TL2D: 2746, // SEA TL2D 趣味
+
   // TL3D
 
   '2_Num_TL3D': 2684, // SEA TL3D 二數
@@ -857,6 +862,14 @@ export const PlayMenu = {
   'Any_Place_TL6D': 2730, // SEA TL6D 跑數
 
   // 二級選單
+
+  // TL2D
+  FixedPlace_TL2D: 2736, // SEA TL2D 定位胆
+  Any_TL2D: 2739, // SEA TL2D 任选
+  Last_2_Straight_Main_TL2D: 2742, // SEA TL2D 二星直选
+  Last_2_Combine_Main_TL2D: 2744,  // SEA TL2D 二星组选
+  BSOE_TL2D: 2747 ,// SEA TL2D 大小单双
+
 
   // TL3D
 
@@ -887,6 +900,17 @@ export const PlayMenu = {
   '1_At_Any_Last_2_Main_TL6D': 2731, // SEA TL6D 后二不定位
 
   // 三級選單
+
+  // TL2D
+  First_TL2D: 2737, // SEA TL2D 定位胆第一球
+  Second_TL2D: 2738,  // SEA TL2D 定位胆第二球
+  Any1_TL2D: 2740, // SEA TL2D 任选一
+
+  Last_2_Straight_TL2D: 2743, // SEA TL2D 二星组选
+  Last_2_Combine_TL2D: 2745,  // SEA TL2D 二星组选
+
+  First_BSOE_TL2D: 2748, // SEA TL2D BSOE第一球
+  Second_BSOE_TL2D: 2749, // SEA TL2D BSOE第二球
 
   // TL3D
 
