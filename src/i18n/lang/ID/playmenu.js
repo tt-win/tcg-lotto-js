@@ -373,8 +373,8 @@ const PlayMenu = {
     2136: 'Apa saja 3D', // Last_3_Combine_LAO
     2139: 'Tepat 2D -terakhir', // Last_2_Straight_LAO
     2141: 'Tepat 2D -pertama', // First_2_Straight_LAO
-    2144: 'apa saja 1D -terakhir', // Last_2_Any_LAO
-    2146: 'Apa saja 1D -pertama', // First_2_Any_LAO
+    2143: 'Acak', // 跑數二級選單
+    2145: 'Acak', // 跑數二級選單
 
     2304: 'Ikan udang kepiting', // 魚蝦蟹
 
@@ -402,6 +402,8 @@ const PlayMenu = {
     2294: 'Manual Tiga digit berurutan', // Last_3_Straight_LAO_Single
     2295: 'Norma Empat digit berurutan', // Last_4_Straight_LAO_Multi
     2296: 'Manual Empat digit berurutan', // Last_4_Straight_LAO_Single
+    2144: 'apa saja 1D -terakhir', // Last_2_Any_LAO
+    2146: 'Apa saja 1D -pertama', // First_2_Any_LAO
 
     2305: 'Ikan udang kepiting', // 魚蝦蟹
 

@@ -370,8 +370,8 @@ const PlayMenu = {
     2136: 'Xiên 3 Đặc Biệt', // 上反三位数 Last_3_Combine_1st_LAO
     2139: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_LAO
     2141: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_LAO
-    2144: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_LAO
-    2146: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_LAO
+    2143: 'Ngẫu Nhiên', // 跑數二級選單
+    2145: 'Ngẫu Nhiên', // 跑數二級選單
 
     2304: 'cược Bầu Cua', // 魚蝦蟹
 
@@ -391,6 +391,8 @@ const PlayMenu = {
     2294: '3 càng đặc biệt - nhập số', // 上正三位数（单式）last_3_straight_1st_lao_single
     2295: '4 Càng Đặc Biệt - Chọn Số', // 上正四位数（复式）Last_4_Straight_1st_LAO_Multi
     2296: '4 Càng Đặc Biệt - Nhập Số', // 上正四位数（单式）Last_4_Straight_1st_LAO_Single
+    2144: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_LAO
+    2146: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_LAO
 
     2305: 'cược Bầu Cua', // 魚蝦蟹
 

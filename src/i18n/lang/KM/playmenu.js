@@ -370,8 +370,8 @@ const PlayMenu = {
     2136: 'លេខបីខ្ទង់លើ', // 上反三位数 Last_3_Combine_LAO
     2139: 'តួលេខពីខ្ទង់', // 上正二位数 Last_2_Straight_LAO
     2141: 'លេខពីរខ្ទង់ក្រោម', // 下正二位数 First_2_Straight_LAO
-    2144: 'រត់ពីរខ្ទង់ខាងលើ', // 上跑两位数 Last_2_Any_LAO
-    2146: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 First_2_Any_LAO
+    2143: 'Random', // 跑數二級選單
+    2145: 'Random', // 跑數二級選單
 
     2304: 'ត្រីនិងក្តាម', // 魚蝦蟹,
 
@@ -399,6 +399,8 @@ const PlayMenu = {
     2294: 'Manual Enter EXACT 3D', // Last_3_Straight_LAO_Single
     2295: 'Norm EXACT 4D', // Last_4_Straight_LAO_Multi
     2296: 'Manual Enter EXACT 4D', // Last_4_Straight_LAO_Single
+    2144: 'រត់ពីរខ្ទង់ខាងលើ', // 上跑两位数 Last_2_Any_LAO
+    2146: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 First_2_Any_LAO
 
     2305: 'ត្រីនិងក្តាម', // 魚蝦蟹,
 

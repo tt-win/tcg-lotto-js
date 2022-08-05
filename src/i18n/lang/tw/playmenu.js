@@ -375,8 +375,8 @@ const PlayMenu = {
     2136: '上反三位數', // 上反三位数 Last_3_Combine_LAO
     2139: '上正二位數', // 上正二位数 Last_2_Straight_LAO
     2141: '下正二位數', // 下正二位数 First_2_Straight_LAO
-    2144: '上跑兩位數', // 上跑两位数 Last_2_Any_LAO
-    2146: '下跑兩位數', // 下跑两位数 First_2_Any_LAO
+    2143: '不定位', // 跑數二級選單
+    2145: '不定位', // 跑數二級選單
 
     2304: '魚蝦蟹', // 魚蝦蟹
 
@@ -404,6 +404,8 @@ const PlayMenu = {
     2294: '上正三位数（輸入）', // Last_3_Straight_LAO_Single
     2295: '上正四位数（包注）', // Last_4_Straight_LAO_Multi
     2296: '上正四位数（輸入）', // Last_4_Straight_LAO_Single
+    2144: '上跑兩位數', // 上跑两位数 Last_2_Any_LAO
+    2146: '下跑兩位數', // 下跑两位数 First_2_Any_LAO
 
     2305: '魚蝦蟹', // 魚蝦蟹
 

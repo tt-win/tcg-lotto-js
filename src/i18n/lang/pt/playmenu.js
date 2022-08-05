@@ -371,8 +371,8 @@ const PlayMenu = {
     2136: 'QUALQUER 3D', // 上反三位数 Last_3_Combine_LAO
     2139: 'EXACT 2D-último', // 上正二位数 Last_2_Straight_LAO
     2141: 'EXACT 2D-primeiro', // 下正二位数 First_2_Straight_LAO
-    2144: 'QUALQUER 1D-último', // 上跑两位数 Last_2_Any_LAO
-    2146: 'QUALQUER 1D-primeiro', // 下跑两位数 First_2_Any_LAO
+    2143: 'Random', // 跑數二級選單
+    2145: 'Random', // 跑數二級選單
 
     2304: 'FPC', // 魚蝦蟹
 
@@ -400,6 +400,8 @@ const PlayMenu = {
     2294: 'Manual Enter EXACT 3D', // Last_3_Straight_LAO_Single
     2295: 'Norm EXACT 4D', // Last_4_Straight_LAO_Multi
     2296: 'Manual Enter EXACT 4D', // Last_4_Straight_LAO_Single
+    2144: 'QUALQUER 1D-último', // 上跑两位数 Last_2_Any_LAO
+    2146: 'QUALQUER 1D-primeiro', // 下跑两位数 First_2_Any_LAO
 
     2305: 'FPC', // 魚蝦蟹
 
