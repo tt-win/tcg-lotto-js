@@ -68,10 +68,10 @@ const trendChart = {
     // KENO 二級選單
     kenoSum: '和值',
     kenoTotalBS: '大小',
-    kenoTotalOE:'单双',
-    kenoTotalFE:'五行',
-    Up_Down:'上下',
-    Odd_Even:'奇偶',
+    kenoTotalOE: '单双',
+    kenoTotalFE: '五行',
+    Up_Down: '上下',
+    Odd_Even: '奇偶',
 
     // 走勢圖
     numero: '期号',
@@ -117,9 +117,9 @@ const trendChart = {
     largeSmallRatio: '大小比',
     oddEvenRatio: '单双比',
     primCompRatio: '质合比',
-    BSType: '大小形态',
-    OEType: '单双形态',
-    PCType: '质合形态',
+    BSType: '大小',
+    OEType: '单双',
+    PCType: '质合',
     com3: '组三',
     com6: '组六',
     baozi: '豹子',
@@ -219,13 +219,13 @@ const trendChart = {
     L4Com4: '后四组选 4',
     noType: '-',
 
-     //KENO
-     kenoUp: '上',
-     kenoMid:'中',
-     kenoDown: '下',
-     kenoOdd: '奇',
-     kenoEqual: '和',
-     kenoEven: '偶',
+    //KENO
+    kenoUp: '上',
+    kenoMid: '中',
+    kenoDown: '下',
+    kenoOdd: '奇',
+    kenoEqual: '和',
+    kenoEven: '偶',
 
     // 統計數據欄位
     totalTimes: '出现总次数',
