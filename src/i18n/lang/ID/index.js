@@ -296,7 +296,7 @@ const LANG = {
   gameContent: 'Detil Bet',
   odds1Time: 'Menangkan / 1Time',
   betAmount: 'Hitungan',
-
+  clear: 'Clear',
   drawPrize: {
     specialPrize: 'Spesial',
     firstPrize: 'Hadiah Pertama',

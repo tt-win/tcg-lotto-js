@@ -30,6 +30,7 @@ const LANG = {
   betFailed: 'ការភ្នាល់មិនជោគជ័យ!',
   detail: 'ការចេញលេខ.',
   recentlyGames: 'ការភ្នាល់នៅ',
+  clear: 'លុប',
   orderStatus: {
     orderStatus_0: 'ពត៌មានលំអិត',
     orderStatus_2: 'កំពុងដំណើរការ',

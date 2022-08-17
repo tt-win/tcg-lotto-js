@@ -375,7 +375,7 @@ const LANG = {
   odds1Time: 'Tiền Thắng / 1 Lần',
   betAmount: 'Tổng Cược',
   query: 'Tìm Kiếm',
-
+  clear: 'Xóa',
   drawPrize: {
     specialPrize: 'Giải ĐB',
     firstPrize: 'Giải nhất',

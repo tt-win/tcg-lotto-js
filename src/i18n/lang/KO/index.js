@@ -239,7 +239,7 @@ const LANG = {
   gameContent: '베팅 정보',
   odds1Time: '보너스/조합',
   betAmount: '조합',
-
+  clear: '지우다',
   drawPrize: {
     specialPrize: '스페셜',
     firstPrize: '1등',

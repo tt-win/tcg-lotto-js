@@ -430,6 +430,11 @@ const LANG = {
     SSQ: '双色球',
     STOCK: '股票彩',
     TWC: '台湾彩',
+    TL3D: "天龙3D",
+    TL4D: "天龙4D",
+    TL6D: "天龙6D",
+    VXD: '色碟',
+    VBC: '鱼虾蟹',
   },
   gameCode: {
     T2KFFC: '2000分分彩',

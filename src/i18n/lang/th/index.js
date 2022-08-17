@@ -326,7 +326,7 @@ const LANG = {
   gameContent: 'เดิมพัน',
   odds1Time: 'จ่าย/ทีม 1',
   betAmount: 'การรวมกัน',
-
+  clear: 'ลบ',
   drawPrize: {
     specialPrize: 'รางวัลที่S',
     firstPrize: 'รางวัลที่1',
