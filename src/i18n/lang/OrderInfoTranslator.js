@@ -1432,6 +1432,17 @@ function getOrderInfoTranslatorList(lang) {
 
   // sea特有的投注內容
   const SeaTranslator = {
+    TL2D: {
+      items: [
+        PlayMenu.First_TL2D,
+        PlayMenu.Second_TL2D,
+        PlayMenu.Any1_TL2D,
+        PlayMenu.Last_2_Straight_TL2D,
+        PlayMenu.Last_2_Combine_TL2D,
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+
     TL3D: {
       items: [
         PlayMenu.Last_2_Straight_TL3D, // SEA TL3D 上正二位数
@@ -1468,6 +1479,26 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
     },
+    TLBSOE: {
+      items: [
+        PlayMenu.First_BSOE_TL2D, // SEA TL2D BSOE第一球
+        PlayMenu.Second_BSOE_TL2D, // SEA TL2D BSOE第二球
+        PlayMenu.First_BSOE_TL3D, // SEA TL3D BSOE第一球
+        PlayMenu.Second_BSOE_TL3D, // SEA TL3D BSOE第二球
+        PlayMenu.Third_BSOE_TL3D, // SEA TL3D BSOE第三球
+        PlayMenu.First_BSOE_TL4D, // SEA TL4D BSOE第一球
+        PlayMenu.Second_BSOE_TL4D, // SEA TL4D BSOE第二球
+        PlayMenu.Third_BSOE_TL4D, // SEA TL4D BSOE第三球
+        PlayMenu.Forth_BSOE_TL4D, // SEA TL4D BSOE第四球
+        PlayMenu.First_BSOE_TL6D, // SEA TL6D BSOE第一球
+        PlayMenu.Second_BSOE_TL6D, // SEA TL6D BSOE第二球
+        PlayMenu.Third_BSOE_TL6D, // SEA TL6D BSOE第三球
+        PlayMenu.Forth_BSOE_TL6D, // SEA TL6D BSOE第四球
+        PlayMenu.Fifth_BSOE_TL6D, // SEA TL6D BSOE第5球
+        PlayMenu.Sixth_BSOE_TL6D, // SEA TL6D BSOE第6球
+      ],
+      getText: (content) => i18n(`ball.BSOE.${BALL_BSOE_KEY[content]}`),
+    }
   };
 
   const LFTranslator = {

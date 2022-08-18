@@ -49,6 +49,13 @@ const LANG = {
     TENS: 'หลักสิบ',
     ONES: 'หลักหน่วย',
     COM: 'กลุ่ม',
+    FIRST_BALL: '1st',
+    SECOND_BALL: '2nd',
+    THIRD_BALL: '3rd',
+    FOURTH_BALL: '4th',
+    FIFTH_BALL: '5th',
+    SIXTH_BALL: '6th',
+    ANY: 'เลือก', 
   },
   // 全大小奇偶清
   pickRow: {

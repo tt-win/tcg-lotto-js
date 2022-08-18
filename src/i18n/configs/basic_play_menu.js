@@ -908,6 +908,7 @@ export const PlayMenu = {
   // 三級選單
 
   // TL2D
+
   First_TL2D: 2737, // SEA TL2D 定位胆第一球
   Second_TL2D: 2738,  // SEA TL2D 定位胆第二球
   Any1_TL2D: 2740, // SEA TL2D 任选一

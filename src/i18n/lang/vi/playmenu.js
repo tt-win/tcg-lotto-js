@@ -21,11 +21,17 @@ const PlayMenu = {
 
     // 一級選單
 
+    // TL2D
+    2735: 'Đầu Đuôi', // sea tl2d 一星
+    2741: 'Đánh Đề', // SEA TL2D 二星
+    2746: 'Kết hợp', // SEA TL2D 趣味
+
     // TL3D
 
     2684: 'Đánh Đề', // SEA TL3D 二數
     2689: '3 Càng', // SEA TL3D 三數
     2694: 'Đầu Đuôi', // SEA TL3D 跑數
+    2751: 'Kết hợp', // SEA TL3D 趣味
 
     // TL4D
 
@@ -33,6 +39,7 @@ const PlayMenu = {
     2702: '3 Càng', // SEA TL4D 三數
     2707: '4 Càng', // SEA TL4D 四數
     2712: 'Đầu Đuôi', // SEA TL4D 跑數
+    2755: 'Kết hợp', // SEA TL4D 趣味
 
     // TL6D
 
@@ -40,8 +47,17 @@ const PlayMenu = {
     2720: '3 Càng', // SEA TL6D 三數
     2725: '4 Càng', // SEA TL6D 四數
     2730: 'Đầu Đuôi', // SEA TL6D 跑數
+    2761: 'Kết hợp', // SEA TL6D 趣味
 
     // 二級選單
+
+    // TL2D
+
+    2736: 'VỊ TRÍ', // SEA TL2D 定位胆
+    2739: 'Bất kỳ', // SEA TL2D 任选
+    2742: '2 Cuối', // SEA TL2D 二星直选
+    2744: 'Xiên 2',  // SEA TL2D 二星组选
+    2747: 'BSOE' ,// SEA TL2D 大小单双
 
     // TL3D
 
@@ -50,6 +66,7 @@ const PlayMenu = {
     2690: 'Chính Xác', // SEA TL3D 後三直選(上正 三數)
     2692: 'Nhóm', // SEA TL3D 後三組選(上反 三數)
     2695: 'Ngẫu Nhiên', // SEA TL3D 后二不定位
+    2754: 'BSOE' ,// SEA TL3D 大小单双
 
     // TL4D
 
@@ -60,6 +77,7 @@ const PlayMenu = {
     2708: 'Chính Xác', // SEA TL4D 後四直選(上正 四數)
     2710: 'Nhóm', // SEA TL4D 後四組選(上反 四數)
     2713: 'Ngẫu Nhiên', // SEA TL4D 后二不定位
+    2756: 'BSOE' ,// SEA TL4D 大小单双
 
     // TL6D
 
@@ -70,8 +88,21 @@ const PlayMenu = {
     2726: 'Chính Xác', // SEA TL6D 後四直選(上正 四數)
     2728: 'Nhóm', // SEA TL6D 後四組選(上反 四數)
     2731: 'Ngẫu Nhiên', // SEA TL6D 后二不定位
+    2762: 'BSOE' ,// SEA TL6D 大小单双
 
     // 三級選單
+
+    // TL2D
+
+    2737: 'VỊ TRÍ 1st', // SEA TL2D 定位胆第一球
+    2738: 'VỊ TRÍ 2nd',  // SEA TL2D 定位胆第二球
+    2740: 'Bất kỳ', // SEA TL2D 任选
+
+    2743: '2 Cuối', // SEA TL2D 二星直选
+    2745: 'Xiên 2',  // SEA TL2D 二星组选
+
+    2748: 'BSOE 1st', // SEA TL2D BSOE第一球
+    2749: 'BSOE 2nd', // SEA TL2D BSOE第二球
 
     // TL3D
 
@@ -80,6 +111,10 @@ const PlayMenu = {
     2691: '3 Càng', // SEA TL3D 上正三位数
     2693: 'Xiên 3', // SEA TL3D 上反三位数
     2696: 'Xiên Số', // SEA TL3D 上跑两位数
+
+    2752: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2753: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2754: 'BSOE 3rd', // SEA TL3D BSOE第三球
 
     // TL4D
 
@@ -91,6 +126,11 @@ const PlayMenu = {
     2711: 'Xiên 4', // SEA TL4D 上反四位数
     2714: 'Xiên Số', // SEA TL4D 上跑两位数
 
+    2757: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2758: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2759: 'BSOE 3rd', // SEA TL3D BSOE第三球
+    2760: 'BSOE 4th', // SEA TL3D BSOE第4球
+
     // TL6D
 
     2717: '2 Cuối', // SEA TL6D 上正二位数
@@ -100,6 +140,13 @@ const PlayMenu = {
     2727: '4 Càng', // SEA TL6D 上正四位数
     2729: 'Xiên 4', // SEA TL6D 上反四位数
     2732: 'Xiên Số', // SEA TL6D 上跑两位数
+
+    2763: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2764: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2765: 'BSOE 3rd', // SEA TL3D BSOE第三球
+    2766: 'BSOE 4th', // SEA TL3D BSOE第4球
+    2767: 'BSOE 5th', // SEA TL3D BSOE第5球
+    2768: 'BSOE 6th', // SEA TL3D BSOE第6球
 
     // Thai
 

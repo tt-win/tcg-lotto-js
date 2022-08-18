@@ -21,11 +21,18 @@ const PlayMenu = {
 
     // 一級選單
 
+    // TL2D
+
+    2735: 'เลขวิ่ง', // sea tl2d 一星
+    2741: 'สองตัว', // SEA TL2D 二星
+    2746: 'การรวมกัน', // SEA TL2D 趣味
+
     // TL3D
 
     2684: 'สองตัว', // SEA TL3D 二數
     2689: 'สามตัว', // SEA TL3D 三數
     2694: 'เลขวิ่ง', // SEA TL3D 跑數
+    2751: 'การรวมกัน', // SEA TL3D 趣味
 
     // TL4D
 
@@ -33,6 +40,7 @@ const PlayMenu = {
     2702: 'สามตัว', // SEA TL4D 三數
     2707: 'สี่ตัว', // SEA TL4D 四數
     2712: 'เลขวิ่ง', // SEA TL4D 跑數
+    2755: 'การรวมกัน', // SEA TL4D 趣味
 
     // TL6D
 
@@ -40,8 +48,17 @@ const PlayMenu = {
     2720: 'สามตัว', // SEA TL6D 三數
     2725: 'สี่ตัว', // SEA TL6D 四數
     2730: 'เลขวิ่ง', // SEA TL6D 跑數
+    2761: 'การรวมกัน', // SEA TL6D 趣味
 
     // 二級選單
+
+    // TL2D
+
+    2736: 'เลขวิ่ง', // SEA TL2D 定位胆
+    2739: 'เลือก', // SEA TL2D 任选
+    2742: 'สองตัวบน', // SEA TL2D 二星直选
+    2744: 'สองตัวบนโต๊ด',  // SEA TL2D 二星组选
+    2747: 'BSOE' ,// SEA TL2D 大小单双
 
     // TL3D
 
@@ -50,6 +67,7 @@ const PlayMenu = {
     2690: 'ตัวบน', // SEA TL3D 後三直選(上正 三數)
     2692: 'ตัวบนโต๊ด', // SEA TL3D 後三組選(上反 三數)
     2695: 'สุ่ม', // SEA TL3D 后二不定位
+    2754: 'BSOE' ,// SEA TL3D 大小单双
 
     // TL4D
 
@@ -60,6 +78,7 @@ const PlayMenu = {
     2708: 'ตัวบน', // SEA TL4D 後四直選(上正 四數)
     2710: 'ตัวบนโต๊ด', // SEA TL4D 後四組選(上反 四數)
     2713: 'สุ่ม', // SEA TL4D 后二不定位
+    2756: 'BSOE' ,// SEA TL4D 大小单双
 
     // TL6D
 
@@ -70,8 +89,21 @@ const PlayMenu = {
     2726: 'ตัวบน', // SEA TL6D 後四直選(上正 四數)
     2728: 'ตัวบนโต๊ด', // SEA TL6D 後四組選(上反 四數)
     2731: 'สุ่ม', // SEA TL6D 后二不定位
+    2762: 'BSOE' ,// SEA TL6D 大小单双
 
     // 三級選單
+
+    // TL2D
+
+    2737: 'เลขวิ่ง 1st', // SEA TL2D 定位胆第一球
+    2738: 'เลขวิ่ง 2nd',  // SEA TL2D 定位胆第二球
+    2740: 'เลือก', // SEA TL2D 任选一
+
+    2743: 'สองตัวบน', // SEA TL2D 二星直选
+    2745: 'สองตัวบนโต๊ด',  // SEA TL2D 二星组选
+
+    2748: 'BSOE 1st', // SEA TL2D BSOE第一球
+    2749: 'BSOE 2nd', // SEA TL2D BSOE第二球
 
     // TL3D
 
@@ -80,6 +112,10 @@ const PlayMenu = {
     2691: 'สามตัวบน', // SEA TL3D 上正三位数
     2693: 'สามตัวโต๊ด', // SEA TL3D 上反三位数
     2696: 'วิ่งบน', // SEA TL3D 上跑两位数
+
+    2752: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2753: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2754: 'BSOE 3rd', // SEA TL3D BSOE第三球
 
     // TL4D
 
@@ -91,6 +127,11 @@ const PlayMenu = {
     2711: '4 ตัวบนโต๊ด', // SEA TL4D 上反四位数
     2714: 'วิ่งบน', // SEA TL4D 上跑两位数
 
+    2757: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2758: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2759: 'BSOE 3rd', // SEA TL3D BSOE第三球
+    2760: 'BSOE 4th', // SEA TL3D BSOE第4球
+
     // TL6D
 
     2717: 'สองตัวบน', // SEA TL6D 上正二位数
@@ -100,6 +141,13 @@ const PlayMenu = {
     2727: '4 ตัวบน', // SEA TL6D 上正四位数
     2729: '4 ตัวบนโต๊ด', // SEA TL6D 上反四位数
     2732: 'วิ่งบน', // SEA TL6D 上跑两位数
+
+    2763: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2764: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2765: 'BSOE 3rd', // SEA TL3D BSOE第三球
+    2766: 'BSOE 4th', // SEA TL3D BSOE第4球
+    2767: 'BSOE 5th', // SEA TL3D BSOE第5球
+    2768: 'BSOE 6th', // SEA TL3D BSOE第6球
 
     // Thai
 

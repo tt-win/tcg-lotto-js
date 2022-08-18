@@ -52,6 +52,14 @@ const LANG = {
     TENS: '十位',
     ONES: '個位',
     COM: '組選',
+
+    FIRST_BALL: '第一位',
+    SECOND_BALL: '第二位',
+    THIRD_BALL: '第三位',
+    FOURTH_BALL: '第四位',
+    FIFTH_BALL: '第五位',
+    SIXTH_BALL: '第六位',
+    ANY: '任選',
   },
   // 全大小奇偶清
   pickRow: {

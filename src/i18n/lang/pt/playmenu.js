@@ -17,11 +17,18 @@ const PlayMenu = {
 
     // 一級選單
 
+    // TL2D
+
+    2735: '1 Digit', // sea tl2d 一星
+    2741: '2 Digits', // SEA TL2D 二星
+    2746: 'Combinations', // SEA TL2D 趣味
+
     // TL3D
 
     2684: '2 Digits', // SEA TL3D 二數
     2689: '3 Digits', // SEA TL3D 三數
     2694: '1 Digit', // SEA TL3D 跑數
+    2751: 'Combinations', // SEA TL3D 趣味
 
     // TL4D
 
@@ -29,6 +36,7 @@ const PlayMenu = {
     2702: '3 Digits', // SEA TL4D 三數
     2707: '4 Digits', // SEA TL4D 四數
     2712: '1 Digit', // SEA TL4D 跑數
+    2755: 'Combinations', // SEA TL4D 趣味
 
     // TL6D
 
@@ -36,8 +44,18 @@ const PlayMenu = {
     2720: '3 Digits', // SEA TL6D 三數
     2725: '4 Digits', // SEA TL6D 四數
     2730: '1 Digit', // SEA TL6D 跑數
+    2761: 'Combinations', // SEA TL6D 趣味
 
     // 二級選單
+
+
+    // TL2D
+
+    2736: 'EXACT 1D', // SEA TL2D 定位胆
+    2739: 'Any One', // SEA TL2D 任选
+    2742: 'EXACT 2D', // SEA TL2D 二星直选
+    2744: 'ANY 2D',  // SEA TL2D 二星组选
+    2747: 'BSOE' ,// SEA TL2D 大小单双
 
     // TL3D
 
@@ -69,6 +87,26 @@ const PlayMenu = {
 
     // 三級選單
 
+    // TL2D
+
+    2737: 'EXACT 1D 1st', // SEA TL2D 定位胆第一球
+    2738: 'EXACT 1D 2nd',  // SEA TL2D 定位胆第二球
+    2740: 'Any One', // SEA TL2D 任选一
+
+    2743: 'EXACT 2D', // SEA TL2D 二星直选
+    2745: 'ANY 2D',  // SEA TL2D 二星组选
+
+    2748: 'BSOE 1st', // SEA TL2D BSOE第一球
+    2749: 'BSOE 2nd', // SEA TL2D BSOE第二球
+
+    // TL2D
+
+    2736: 'EXACT 1D', // SEA TL2D 定位胆
+    2739: 'Any One', // SEA TL2D 任选
+    2742: 'EXACT 2D', // SEA TL2D 二星直选
+    2744: 'ANY 2D',  // SEA TL2D 二星组选
+    2747: 'BSOE' ,// SEA TL2D 大小单双
+
     // TL3D
 
     2686: 'EXACT 2D', // SEA TL3D 上正二位数
@@ -76,6 +114,11 @@ const PlayMenu = {
     2691: 'EXACT 3D', // SEA TL3D 上正三位数
     2693: 'ANY 3D', // SEA TL3D 上反三位数
     2696: 'ANY 1 of last 2D', // SEA TL3D 上跑两位数
+    2754: 'BSOE' ,// SEA TL3D 大小单双
+
+    2752: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2753: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2754: 'BSOE 3rd', // SEA TL3D BSOE第三球
 
     // TL4D
 
@@ -86,6 +129,12 @@ const PlayMenu = {
     2709: 'EXACT 4D', // SEA TL4D 上正四位数
     2711: 'ANY 4D', // SEA TL4D 上反四位数
     2714: 'ANY 1 of last 2D', // SEA TL4D 上跑两位数
+    2756: 'BSOE' ,// SEA TL4D 大小单双
+
+    2757: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2758: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2759: 'BSOE 3rd', // SEA TL3D BSOE第三球
+    2760: 'BSOE 4th', // SEA TL3D BSOE第4球
 
     // TL6D
 
@@ -96,6 +145,14 @@ const PlayMenu = {
     2727: 'EXACT 4D', // SEA TL6D 上正四位数
     2729: 'ANY 4D', // SEA TL6D 上反四位数
     2732: 'ANY 1 of last 2D', // SEA TL6D 上跑两位数
+    2762: 'BSOE' ,// SEA TL6D 大小单双
+
+    2763: 'BSOE 1st', // SEA TL3D BSOE第一球
+    2764: 'BSOE 2nd', // SEA TL3D BSOE第二球
+    2765: 'BSOE 3rd', // SEA TL3D BSOE第三球
+    2766: 'BSOE 4th', // SEA TL3D BSOE第4球
+    2767: 'BSOE 5th', // SEA TL3D BSOE第5球
+    2768: 'BSOE 6th', // SEA TL3D BSOE第6球
 
     // Thai
 

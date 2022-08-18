@@ -102,6 +102,14 @@ const LANG = {
     Three_Num_Any_Code_4D: '三字现',
 
     TUO: '拖码',
+
+    FIRST_BALL: '第一位',
+    SECOND_BALL: '第二位',
+    THIRD_BALL: '第三位',
+    FOURTH_BALL: '第四位',
+    FIFTH_BALL: '第五位',
+    SIXTH_BALL: '第六位',
+    ANY: '任选',
   },
   startDigit: {
     ones: '（个）',

@@ -51,6 +51,13 @@ const LANG = {
     TENS: 'Chục',
     ONES: 'Đơn vị',
     COM: 'Nhóm',
+    FIRST_BALL: '1st',
+    SECOND_BALL: '2nd',
+    THIRD_BALL: '3rd',
+    FOURTH_BALL: '4th',
+    FIFTH_BALL: '5th',
+    SIXTH_BALL: '6th',
+    ANY: 'Bất kỳ',
   },
   // 全大小單雙清
   pickRow: {
