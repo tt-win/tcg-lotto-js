@@ -846,7 +846,7 @@ export const PlayMenu = {
   '2_Num_TL3D': 2684, // SEA TL3D 二數
   '3_Num_TL3D': 2689, // SEA TL3D 三數
   'Any_Place_TL3D': 2694, // SEA TL3D 跑數
-  Fun_TL3D: 2751, // SEA TL3D 趣味
+  Fun_TL3D: 2750, // SEA TL3D 趣味
 
   // TL4D
 
@@ -881,7 +881,7 @@ export const PlayMenu = {
   Last_3_Straight_Main_TL3D: 2690, // SEA TL3D 後三直選
   Last_3_Combine_Main_TL3D: 2692, // SEA TL3D 後三組選
   '1_At_Any_Last_2_Main_TL3D': 2695, // SEA TL3D 后二不定位
-  BSOE_TL3D: 2754 ,// SEA TL3D 大小单双
+  BSOE_TL3D: 2751 ,// SEA TL3D 大小单双
 
   // TL4D
 

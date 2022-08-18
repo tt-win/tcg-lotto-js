@@ -31,7 +31,7 @@ const PlayMenu = {
     2684: '2 Digits', // SEA TL3D 二數
     2689: '3 Digits', // SEA TL3D 三數
     2694: '1 Digit', // SEA TL3D 跑數
-    2751: 'Combinations', // SEA TL3D 趣味
+    2750: 'Combinations', // SEA TL3D 趣味
 
     // TL4D
 
@@ -66,7 +66,7 @@ const PlayMenu = {
     2690: 'EXACT', // SEA TL3D 後三直選(上正 三數)
     2692: 'ANY', // SEA TL3D 後三組選(上反 三數)
     2695: 'Random', // SEA TL3D 后二不定位
-    2754: 'BSOE' ,// SEA TL3D 大小单双
+    2751: 'BSOE' ,// SEA TL3D 大小单双
 
     // TL4D
 
