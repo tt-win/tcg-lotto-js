@@ -441,6 +441,7 @@ const LANG = {
     TL3D: "天龙3D",
     TL4D: "天龙4D",
     TL6D: "天龙6D",
+    TL2D: "天龙2D",
     VXD: '色碟',
     VBC: '鱼虾蟹',
   },
