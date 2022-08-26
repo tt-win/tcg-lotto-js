@@ -275,6 +275,37 @@ const LANG = {
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',
     VBC_SINGLE_DICE_3: 'THREE DICE',
+
+    // TL 天龍玩法
+    P_FIRST_0: 'Big',
+    P_FIRST_1: 'Small',
+    P_FIRST_2: 'Odd',
+    P_FIRST_3: 'Even',
+
+    P_SECOND_0: 'Big',
+    P_SECOND_1: 'Small',
+    P_SECOND_2: 'Odd',
+    P_SECOND_3: 'Even',
+
+    P_THIRD_0: 'Big',
+    P_THIRD_1: 'Small',
+    P_THIRD_2: 'Odd',
+    P_THIRD_3: 'Even',
+
+    P_FOURTH_0: 'Big',
+    P_FOURTH_1: 'Small',
+    P_FOURTH_2: 'Odd',
+    P_FOURTH_3: 'Even',
+
+    P_FIFTH_0: 'Big',
+    P_FIFTH_1: 'Small',
+    P_FIFTH_2: 'Odd',
+    P_FIFTH_3: 'Even',
+
+    P_SIXTH_0: 'Big',
+    P_SIXTH_1: 'Small',
+    P_SIXTH_2: 'Odd',
+    P_SIXTH_3: 'Even',
   },
 
   seriesControlMapping: {
