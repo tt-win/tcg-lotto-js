@@ -935,9 +935,9 @@ export const PlayMenu = {
   Third_BSOE_TL3D: 2754, // SEA TL3D BSOE第三球
 
 
-  First_TL3D: 2776, // SEA TL3D 定位胆第一球
-  Second_TL3D: 2777,  // SEA TL3D 定位胆第二球
-  Third_TL3D: 2778,  // SEA TL3D 定位胆第三球
+  First_TL3D: 2777, // SEA TL3D 定位胆第一球
+  Second_TL3D: 2778,  // SEA TL3D 定位胆第二球
+  Third_TL3D: 2779,  // SEA TL3D 定位胆第三球
 
   // TL4D
 
