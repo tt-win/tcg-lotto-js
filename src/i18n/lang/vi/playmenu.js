@@ -67,6 +67,7 @@ const PlayMenu = {
     2692: 'Nhóm', // SEA TL3D 後三組選(上反 三數)
     2695: 'Ngẫu Nhiên', // SEA TL3D 后二不定位
     2751: 'BSOE' ,// SEA TL3D 大小单双
+    2776: 'CHÍNH XÁC 1D', // SEA TL3D 定位胆
 
     // TL4D
 
@@ -78,6 +79,7 @@ const PlayMenu = {
     2710: 'Nhóm', // SEA TL4D 後四組選(上反 四數)
     2713: 'Ngẫu Nhiên', // SEA TL4D 后二不定位
     2756: 'BSOE' ,// SEA TL4D 大小单双
+    2780: 'CHÍNH XÁC 1D', // SEA TL4D 定位胆
 
     // TL6D
 
@@ -89,13 +91,14 @@ const PlayMenu = {
     2728: 'Nhóm', // SEA TL6D 後四組選(上反 四數)
     2731: 'Ngẫu Nhiên', // SEA TL6D 后二不定位
     2762: 'BSOE' ,// SEA TL6D 大小单双
+    2785: 'CHÍNH XÁC 1D', // SEA TL6D 定位胆
 
     // 三級選單
 
     // TL2D
 
-    2737: 'VỊ TRÍ 1st', // SEA TL2D 定位胆第一球
-    2738: 'VỊ TRÍ 2nd',  // SEA TL2D 定位胆第二球
+    2737: 'CHÍNH XÁC 1D 1st', // SEA TL2D 定位胆第一球
+    2738: 'CHÍNH XÁC 1D 2st',  // SEA TL2D 定位胆第二球
     2740: 'Bất kỳ', // SEA TL2D 任选
 
     2743: '2 Cuối', // SEA TL2D 二星直选
@@ -116,6 +119,10 @@ const PlayMenu = {
     2753: 'BSOE 2nd', // SEA TL3D BSOE第二球
     2754: 'BSOE 3rd', // SEA TL3D BSOE第三球
 
+    2776: 'CHÍNH XÁC 1D 1st', // SEA TL3D 定位胆第一球
+    2777: 'CHÍNH XÁC 1D 2nd',  // SEA TL3D 定位胆第二球
+    2778: 'CHÍNH XÁC 1D 2rd',  // SEA TL3D 定位胆第3球
+
     // TL4D
 
     2699: '2 Cuối', // SEA TL4D 上正二位数
@@ -130,6 +137,11 @@ const PlayMenu = {
     2758: 'BSOE 2nd', // SEA TL3D BSOE第二球
     2759: 'BSOE 3rd', // SEA TL3D BSOE第三球
     2760: 'BSOE 4th', // SEA TL3D BSOE第4球
+
+    2781: 'CHÍNH XÁC 1D 1st', // SEA TL4D 定位胆第一球
+    2782: 'CHÍNH XÁC 1D 2nd', // SEA TL4D 定位胆第二球
+    2783: 'CHÍNH XÁC 1D 3rd', // SEA TL4D 定位胆第三球
+    2784: 'CHÍNH XÁC 1D 4th', // SEA TL4D 定位胆第4球
 
     // TL6D
 
@@ -147,6 +159,13 @@ const PlayMenu = {
     2766: 'BSOE 4th', // SEA TL3D BSOE第4球
     2767: 'BSOE 5th', // SEA TL3D BSOE第5球
     2768: 'BSOE 6th', // SEA TL3D BSOE第6球
+
+    2786: 'CHÍNH XÁC 1st', // SEA TL6D 定位胆第一球
+    2787: 'CHÍNH XÁC 2nd', // SEA TL6D 定位胆第二球
+    2788: 'CHÍNH XÁC 3rd', // SEA TL6D 定位胆第三球
+    2789: 'CHÍNH XÁC 4th', // SEA TL6D 定位胆第4球
+    2790: 'CHÍNH XÁC 5th', // SEA TL6D 定位胆第5球
+    2791: 'CHÍNH XÁC 6th', // SEA TL6D 定位胆第6球
 
     // Thai
 

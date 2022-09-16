@@ -882,6 +882,7 @@ export const PlayMenu = {
   Last_3_Combine_Main_TL3D: 2692, // SEA TL3D 後三組選
   '1_At_Any_Last_2_Main_TL3D': 2695, // SEA TL3D 后二不定位
   BSOE_TL3D: 2751 ,// SEA TL3D 大小单双
+  FixedPlace_TL3D: 2776, // SEA TL3D 定位胆
 
   // TL4D
 
@@ -893,6 +894,7 @@ export const PlayMenu = {
   Last_4_Combine_Main_TL4D: 2710, // SEA TL4D 後四組選
   '1_At_Any_Last_2_Main_TL4D': 2713, // SEA TL4D 后二不定位
   BSOE_TL4D: 2756 ,// SEA TL4D 大小单双
+  FixedPlace_TL4D: 2780, // SEA TL4D 定位胆
 
   // TL6D
 
@@ -904,6 +906,7 @@ export const PlayMenu = {
   Last_4_Combine_Main_TL6D: 2728, // SEA TL6D 後四組選
   '1_At_Any_Last_2_Main_TL6D': 2731, // SEA TL6D 后二不定位
   BSOE_TL6D: 2762 ,// SEA TL6D 大小单双
+  FixedPlace_TL6D: 2785, // SEA TL6D 定位胆
 
   // 三級選單
 
@@ -931,6 +934,11 @@ export const PlayMenu = {
   Second_BSOE_TL3D: 2753, // SEA TL3D BSOE第二球
   Third_BSOE_TL3D: 2754, // SEA TL3D BSOE第三球
 
+
+  First_TL3D: 2776, // SEA TL3D 定位胆第一球
+  Second_TL3D: 2777,  // SEA TL3D 定位胆第二球
+  Third_TL3D: 2778,  // SEA TL3D 定位胆第三球
+
   // TL4D
 
   Last_2_Straight_TL4D: 2699, // SEA TL4D 上正二位数
@@ -945,6 +953,11 @@ export const PlayMenu = {
   Second_BSOE_TL4D: 2758, // SEA TL4D BSOE第二球
   Third_BSOE_TL4D: 2759, // SEA TL4D BSOE第三球
   Forth_BSOE_TL4D: 2760, // SEA TL4D BSOE第四球
+
+  First_TL4D: 2781, // SEA TL4D 定位胆第一球
+  Second_TL4D: 2782,  // SEA TL4D 定位胆第二球
+  Third_TL4D: 2783,  // SEA TL4D 定位胆第三球
+  Fourth_TL4D: 2784,  // SEA TL4D 定位胆第四球
 
   // TL6D
 
@@ -962,6 +975,13 @@ export const PlayMenu = {
   Forth_BSOE_TL6D: 2766, // SEA TL6D BSOE第四球
   Fifth_BSOE_TL6D: 2767, // SEA TL6D BSOE第5球
   Sixth_BSOE_TL6D: 2768, // SEA TL6D BSOE第6球
+
+  First_TL6D: 2786, // SEA TL6D 定位胆第一球
+  Second_TL6D: 2787,  // SEA TL6D 定位胆第二球
+  Third_TL6D: 2788,  // SEA TL6D 定位胆第三球
+  Fourth_TL6D: 2789,  // SEA TL6D 定位胆第四球
+  Fifth_TL6D: 2790,  // SEA TL6D 定位胆第五球
+  Sixth_TL6D: 2791,  // SEA TL6D 定位胆第六球
 
   // THAI
 
