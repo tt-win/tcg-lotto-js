@@ -121,7 +121,7 @@ const PlayMenu = {
 
     2777: 'EXACT 1D 1st', // SEA TL3D 定位胆第一球
     2778: 'EXACT 1D 2nd',  // SEA TL3D 定位胆第二球
-    2779: 'EXACT 1D 2rd',  // SEA TL3D 定位胆第3球
+    2779: 'EXACT 1D 3rd',  // SEA TL3D 定位胆第3球
 
     // TL4D
 
