@@ -98,7 +98,7 @@ const PlayMenu = {
     // TL2D
 
     2737: 'CHÍNH XÁC 1D 1st', // SEA TL2D 定位胆第一球
-    2738: 'CHÍNH XÁC 1D 2st',  // SEA TL2D 定位胆第二球
+    2738: 'CHÍNH XÁC 1D 2nd',  // SEA TL2D 定位胆第二球
     2740: 'Bất kỳ', // SEA TL2D 任选
 
     2743: '2 Cuối', // SEA TL2D 二星直选
