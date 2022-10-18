@@ -1354,7 +1354,7 @@ export const PlayMenu = {
   Hoo_Hey_How_VBC: 2733,
   Hoo_Hey_How_Main_VBC: 2734,
 
-  // PL
+  // PCSO
    Standard_2D_PLAY: 2858,
    Rambolito: 2860,
    Standard_3D_PLAY: 2852,
