@@ -509,9 +509,9 @@ const PlayMenu = {
     2655: 'Pick 7', // 任選七 Any7_KENO
 
     // PCSO play group
-    2858: 'Standard',
+    2858: 'Straight',
     2860: 'Rambolito',
-    2852: 'Standard',
+    2852: 'Straight',
     2854: 'Rambolito3',
     2856: 'Rambolito6',
     2844: 'Standard',
@@ -531,9 +531,9 @@ const PlayMenu = {
     2834: 'System',
 
     // PCSO play menu
-    2859: '2D Standard',
+    2859: '2D Straight',
     2861: '2D Rambolito',
-    2853: '3D Standard',
+    2853: '3D Straight',
     2855: '3D Rambolito3',
     2857: '3D Rambolito6',
     2845: '4D Standard',
