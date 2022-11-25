@@ -62,6 +62,13 @@ const commaConfig = {
     PlayMenu.Dragon_Tiger_Main_PK10,
     PlayMenu.First_To_Tenth_Guess_Rank_VPK10,
     PlayMenu.First_To_Tenth_BSOE_VPK10,
+
+    // PCSO
+    PlayMenu.LOTTO_SYSTEM_5,
+    PlayMenu.MEGA_SYSTEM_5,
+    PlayMenu.SUPER_SYSTEM_5,
+    PlayMenu.GRAND_SYSTEM_5,
+    PlayMenu.ULTRA_SYSTEM_5,
   ],
 };
 
@@ -2029,6 +2036,17 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Any4_Single,
       ],
       getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
+    },
+
+    fiveRoll: {
+      items: [
+        PlayMenu.LOTTO_SYSTEM_5,
+        PlayMenu.MEGA_SYSTEM_5,
+        PlayMenu.SUPER_SYSTEM_5,
+        PlayMenu.GRAND_SYSTEM_5,
+        PlayMenu.ULTRA_SYSTEM_5,
+      ],
+      getText: (content) => content.replace('*', 'SR'),
     },
 
     ...VBCTranslator,
