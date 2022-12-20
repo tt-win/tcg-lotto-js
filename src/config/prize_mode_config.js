@@ -3,6 +3,7 @@ const PRIZE_MODE = {
   ZY: 2,
   Elott: 3,
   WS: 4,
+  SEA: 5,
 };
 
 export { PRIZE_MODE as default };
