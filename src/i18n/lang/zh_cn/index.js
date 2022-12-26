@@ -2172,6 +2172,7 @@ const LANG = {
     purchasePlanSuccess: '认购方案成功',
     system: '系统',
     purchaseNotice: '当购买份额超出剩余份额，系统将自动买满剩下份额',
+    backToTop: '返回顶部',
   },
   planStatus: {
     IN_PROGRESS: '进行中',
