@@ -2070,6 +2070,7 @@ const LANG = {
   longDragon: '长龙投注',
   longDragonLott: '彩种类型',
   refresh: '刷新',
+  statusRefresh: '状态更新',
   longDragonContinuousDraw: '连%@期',
   voucherCenter: '充值',
   twoSidePlay: {
