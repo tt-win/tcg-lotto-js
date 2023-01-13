@@ -407,6 +407,7 @@ const LANG = {
   filterResultMsg: 'Remove Duplicate %@ Invalid no. %@',
   odds: 'Payouts',
   amount: 'Stake',
+  amountByStakes: 'Single Bet Price',
   manualBetPlaceHolderSEA: `Please type your bets here or upload a txt file. The format is per sample below :\n\nNOTE:  You can use "," or ";" or "<Space>" or new line to separate the numbers you are betting.`,
 
   defaultMode: 'Default Mode',
