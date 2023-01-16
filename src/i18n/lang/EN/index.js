@@ -42,7 +42,7 @@ const LANG = {
   },
   orderStatus: {
     orderStatus_0: 'All',
-    orderStatus_2: 'IN PROGRESS',
+    orderStatus_2: 'In Progress',
     orderStatus_4: 'Won',
     orderStatus_5: 'Lose',
     orderStatus_6: 'Cancelled',
