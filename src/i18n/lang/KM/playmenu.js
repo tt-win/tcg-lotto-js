@@ -413,6 +413,13 @@ const PlayMenu = {
     2639: 'ចំនាត់ថ្នាក់ (រយ)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
     2640: 'ចំនាត់ថ្នាក់ (ពាន់)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
 
+    2863: 'ANY 3D Rambolito3', // 三星組3
+    2864: 'ANY 3D Rambolito6', // 三星組6
+    2865: 'ANY 3D Rambolito3', // 三星組3
+    2866: 'ANY 3D Rambolito6', // 三星組6
+    2867: 'ANY 3D Rambolito3', // 三星組3
+    2868: 'ANY 3D Rambolito6', // 三星組6
+
     // LAO 老挝彩
     2127: '4D', // 四数
     2132: '3D', // 三数

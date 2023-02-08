@@ -409,6 +409,12 @@ const PlayMenu = {
     2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
+    2863: 'ANY 3D Rambolito3', // 三星組3
+    2864: 'ANY 3D Rambolito6', // 三星組6
+    2865: 'ANY 3D Rambolito3', // 三星組3
+    2866: 'ANY 3D Rambolito6', // 三星組6
+    2867: 'ANY 3D Rambolito3', // 三星組3
+    2868: 'ANY 3D Rambolito6', // 三星組6
     // LAO 老挝彩
 
     // 一級選單
