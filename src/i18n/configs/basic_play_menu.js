@@ -1168,6 +1168,13 @@ export const PlayMenu = {
   Fan_Tan_Nian_VNC: 2494, // 番攤 - 念
   Fan_Tan_BSOE_VNC: 2496, // 番攤 - 大小單雙
 
+  Comb3_TL3D: 2863, // 三星 後三組3
+  Comb6_TL3D: 2864, // 三星 後三組6
+  Comb3_TL4D: 2865, // 四星 後三組3
+  Comb6_TL4D: 2866, // 四星 後三組6
+  Comb3_TL6D: 2867, // 六星 後三組3
+  Comb6_TL6D: 2868, // 六星 後三組6
+
   // LAO 老挝彩
 
   // 一級選單
