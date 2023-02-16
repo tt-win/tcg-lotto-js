@@ -230,6 +230,8 @@ const LANG = {
   filterRepeat: '중복 제거',
   pastDraw: '결과',
   betsNTotalAmount: '<div class="font-bold">%@</div>내기，총 베팅<div class="font-bold">%@</div>，',
+  betsNTotalStakeB1: '<div class="font-bold">%@</div>내기',
+  betsNTotalAmountB1: '총 베팅<div class="font-bold">%@</div>',
   predictionAmount: '보너스<div class="red-words">%@</div>',
   willWin: '보너스',
   filterResultMsg: '%@ 중복제거 %@ 무효',
