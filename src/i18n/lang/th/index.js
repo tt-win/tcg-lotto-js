@@ -327,6 +327,8 @@ const LANG = {
   chooseFile: 'ที่อัพโหลด',
   filterRepeat: 'ลบหมายเลขซ้ำ',
   betsNTotalAmount: '<div class="font-bold">%@</div>รายการ，รวมยอดแทง<div class="font-bold">%@</div>，',
+  betsNTotalStakeB1: '<div class="font-bold">%@</div>รายการ',
+  betsNTotalAmountB1: 'รวมยอดแทง<div class="font-bold">%@</div>',
   predictionAmount: 'เรทชนะ<div class="red-words">%@</div>',
   willWin: 'อัตราการเดิมพัน',
   filterResultMsg: 'ลบหมายเลขซ้ำ %@ โมฆะ %@',

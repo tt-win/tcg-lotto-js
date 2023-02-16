@@ -374,6 +374,8 @@ const LANG = {
   chooseFile: 'tải lên',
   filterRepeat: 'Xóa số trùng lặp',
   betsNTotalAmount: 'Đã chọn<div class="font-bold">%@</div>số，Số Tiền Cược<div class="font-bold">%@</div>，',
+  betsNTotalStakeB1: 'Đã chọn<div class="font-bold">%@</div>số',
+  betsNTotalAmountB1: 'Số Tiền Cược<div class="font-bold">%@</div>',
   predictionAmount: 'Tiền thắng<div class="red-words">%@</div>',
   willWin: 'Tỷ Lệ Cược',
   filterResultMsg: 'trùng lặp %@ không hợp lệ %@',

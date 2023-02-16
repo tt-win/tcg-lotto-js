@@ -329,6 +329,8 @@ const LANG = {
   chooseFile: 'ផ្ទុកឡើង',
   filterRepeat: 'លុបស្ទួន',
   betsNTotalAmount: 'ភ្នាល់<div class="font-bold">%@</div>ប៉ុ，ភ្នាល់សរុប<div class="font-bold">%@</div>，',
+  betsNTotalStakeB1: 'ភ្នាល់<div class="font-bold">%@</div>ប៉ុ',
+  betsNTotalAmountB1: 'ភ្នាល់សរុប<div class="font-bold">%@</div>',
   predictionAmount: 'ហាងឆេង<div class="red-words">%@</div>',
   willWin: 'ហាងឆេង',
   filterResultMsg: '%@  រូវបានត្រង មលេខ %@ មិនត្រឹមត្រូវ',
