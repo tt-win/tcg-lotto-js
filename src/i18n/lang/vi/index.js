@@ -64,6 +64,10 @@ const LANG = {
     SECOND_BALL: '2nd',
     THIRD_BALL: '3rd',
     FOURTH_BALL: '4th',
+    0: '1st',
+    1: '2nd',
+    2: '3rd',
+    3: '4th',
   },
   // 全大小單雙清
   pickRow: {

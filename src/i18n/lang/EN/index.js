@@ -73,6 +73,10 @@ const LANG = {
     SECOND_BALL: '2nd',
     THIRD_BALL: '3rd',
     FOURTH_BALL: '4th',
+    0: '1st',
+    1: '2nd',
+    2: '3rd',
+    3: '4th',
   },
   // 全大小奇偶清
   pickRow: {
@@ -408,8 +412,6 @@ const LANG = {
   chooseFile: 'Upload File',
   filterRepeat: 'Remove Duplicate Number',
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
-  betsNTotalStakeB1: '<div class="font-bold">%@</div>Bet/s',
-  betsNTotalAmountB1: 'TOTAL BET<div class="font-bold">%@</div>',
   predictionAmount: 'will win<div class="red-words">%@</div>',
   willWin: 'will win',
   filterResultMsg: 'Remove Duplicate %@ Invalid no. %@',
