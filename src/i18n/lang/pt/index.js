@@ -16,6 +16,12 @@ const LANG = {
     SIXTH_BALL: '6th',
     ANY: 'Any One',
   },
+  normalBetDigit: {
+    FIRST_BALL: '1st',
+    SECOND_BALL: '2nd',
+    THIRD_BALL: '3rd',
+    FOURTH_BALL: '4th',
+  },
   pk10Ranking: {
     1: '1º',
     2: '2º',

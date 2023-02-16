@@ -111,6 +111,12 @@ const LANG = {
     SIXTH_BALL: '第六位',
     ANY: '任选',
   },
+  normalBetDigit: {
+    FIRST_BALL: '1st',
+    SECOND_BALL: '2nd',
+    THIRD_BALL: '3rd',
+    FOURTH_BALL: '4th',
+  },
   startDigit: {
     ones: '（个）',
     tens: '（十）',
