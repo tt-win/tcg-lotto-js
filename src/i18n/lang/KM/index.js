@@ -59,16 +59,6 @@ const LANG = {
     SIXTH_BALL: '6th',
     ANY: 'Any One',
   },
-  normalBetDigit: {
-    FIRST_BALL: '1st',
-    SECOND_BALL: '2nd',
-    THIRD_BALL: '3rd',
-    FOURTH_BALL: '4th',
-    0: '1st',
-    1: '2nd',
-    2: '3rd',
-    3: '4th',
-  },
   // 全大小奇偶清
   pickRow: {
     all: 'ទាំង',
