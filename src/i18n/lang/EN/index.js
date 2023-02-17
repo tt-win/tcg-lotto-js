@@ -412,7 +412,7 @@ const LANG = {
   chooseFile: 'Upload File',
   filterRepeat: 'Remove Duplicate Number',
   betsNTotalAmount: '<div class="font-bold">%@</div>Bet/s，TOTAL BET<div class="font-bold">%@</div>，',
-  etsNTotalStakeB1: '<div class="font-bold">%@</div>Bet/s',
+  betsNTotalStakeB1: '<div class="font-bold">%@</div>Bet/s',
   betsNTotalAmountB1: 'TOTAL BET<div class="font-bold">%@</div>',
   predictionAmount: 'will win<div class="red-words">%@</div>',
   willWin: 'will win',
