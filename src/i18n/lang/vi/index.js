@@ -10,7 +10,7 @@ const LANG = {
   betSuccess: 'chúc mừng, đặt cược thành công',
   confirmBetInfos: 'hãy xác nhận thông tin đặt cược',
   balance: 'số tiền dư',
-  betAmountOverMaxAmount: 'số tiền đặt cược trước mắt của bạn lớn hơn số tiền lớn nhất có thể đặt , mô thức trước đó số tiền đặt cược lớn nhất là',
+  betAmountOverMaxAmount: 'số tiền đặt cược trước mắt của bạn lớn hơn số tiền lớn nhất có thể đặt',
   totalAmount: 'tổng tiền',
   currency: 'tệ',
   currencyThb: '',
