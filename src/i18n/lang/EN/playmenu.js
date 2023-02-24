@@ -109,8 +109,8 @@ const PlayMenu = {
 
     // TL3D
 
-    2686: 'EXACT 2D', // SEA TL3D 上正二位数
-    2688: 'ANY 2D', // SEA TL3D 上反二位数
+    2686: 'EXACT Last 2D', // SEA TL3D 上正二位数
+    2688: 'ANY Last 2D', // SEA TL3D 上反二位数
     2691: 'EXACT 3D', // SEA TL3D 上正三位数
     2693: 'ANY 3D', // SEA TL3D 上反三位数
     2696: 'ANY 1 of last 2D', // SEA TL3D 上跑两位数
@@ -125,10 +125,10 @@ const PlayMenu = {
 
     // TL4D
 
-    2699: 'EXACT 2D', // SEA TL4D 上正二位数
-    2701: 'ANY 2D', // SEA TL4D 上反二位数
-    2704: 'EXACT 3D', // SEA TL4D 上正三位数
-    2706: 'ANY 3D', // SEA TL4D 上反三位数
+    2699: 'EXACT Last 2D', // SEA TL4D 上正二位数
+    2701: 'ANY Last 2D', // SEA TL4D 上反二位数
+    2704: 'EXACT Last 3D', // SEA TL4D 上正三位数
+    2706: 'ANY Last 3D', // SEA TL4D 上反三位数
     2709: 'EXACT 4D', // SEA TL4D 上正四位数
     2711: 'ANY 4D', // SEA TL4D 上反四位数
     2714: 'ANY 1 of last 2D', // SEA TL4D 上跑两位数
@@ -145,12 +145,12 @@ const PlayMenu = {
 
     // TL6D
 
-    2717: 'EXACT 2D', // SEA TL6D 上正二位数
-    2719: 'ANY 2D', // SEA TL6D 上反二位数
-    2722: 'EXACT 3D', // SEA TL6D 上正三位数
-    2724: 'ANY 3D', // SEA TL6D 上反三位数
-    2727: 'EXACT 4D', // SEA TL6D 上正四位数
-    2729: 'ANY 4D', // SEA TL6D 上反四位数
+    2717: 'EXACT Last 2D', // SEA TL6D 上正二位数
+    2719: 'ANY Last 2D', // SEA TL6D 上反二位数
+    2722: 'EXACT Last 3D', // SEA TL6D 上正三位数
+    2724: 'ANY Last 3D', // SEA TL6D 上反三位数
+    2727: 'EXACT Last 4D', // SEA TL6D 上正四位数
+    2729: 'ANY Last 4D', // SEA TL6D 上反四位数
     2732: 'ANY 1 of last 2D', // SEA TL6D 上跑两位数
 
     2763: 'BSOE 1st', // SEA TL6D BSOE第一球

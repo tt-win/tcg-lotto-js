@@ -101,18 +101,18 @@ const PlayMenu = {
     2738: 'CHÍNH XÁC 1D 2nd',  // SEA TL2D 定位胆第二球
     2740: 'Bất kỳ', // SEA TL2D 任选
 
-    2743: '2 Cuối', // SEA TL2D 二星直选
-    2745: 'Xiên 2',  // SEA TL2D 二星组选
+    2743: 'EXACT 2D', // SEA TL2D 二星直选
+    2745: 'ANY 2D',  // SEA TL2D 二星组选
 
     2748: 'BSOE 1st', // SEA TL2D BSOE第一球
     2749: 'BSOE 2nd', // SEA TL2D BSOE第二球
 
     // TL3D
 
-    2686: '2 Cuối', // SEA TL3D 上正二位数
-    2688: 'Xiên 2', // SEA TL3D 上反二位数
-    2691: '3 Càng', // SEA TL3D 上正三位数
-    2693: '3 Càng - bất kỳ', // SEA TL3D 上反三位数
+    2686: 'EXACT Last 2D', // SEA TL3D 上正二位数
+    2688: 'ANY Last 2D', // SEA TL3D 上反二位数
+    2691: 'EXACT 3D', // SEA TL3D 上正三位数
+    2693: 'ANY 3D', // SEA TL3D 上反三位数
     2696: 'Xiên Số', // SEA TL3D 上跑两位数
 
     2752: 'BSOE 1st', // SEA TL3D BSOE第一球
@@ -125,12 +125,12 @@ const PlayMenu = {
 
     // TL4D
 
-    2699: '2 Cuối', // SEA TL4D 上正二位数
-    2701: 'Xiên 2', // SEA TL4D 上反二位数
-    2704: '3 Càng', // SEA TL4D 上正三位数
-    2706: '3 Càng - bất kỳ', // SEA TL4D 上反三位数
-    2709: '4 Càng', // SEA TL4D 上正四位数
-    2711: '4 Càng - bất kỳ', // SEA TL4D 上反四位数
+    2699: 'EXACT Last 2D', // SEA TL4D 上正二位数
+    2701: 'ANY Last 2D', // SEA TL4D 上反二位数
+    2704: 'EXACT Last 3D', // SEA TL4D 上正三位数
+    2706: 'ANY Last 3D', // SEA TL4D 上反三位数
+    2709: 'EXACT 4D', // SEA TL4D 上正四位数
+    2711: 'ANY 4D', // SEA TL4D 上反四位数
     2714: 'Xiên Số', // SEA TL4D 上跑两位数
 
     2757: 'BSOE 1st', // SEA TL3D BSOE第一球
@@ -145,12 +145,12 @@ const PlayMenu = {
 
     // TL6D
 
-    2717: '2 Cuối', // SEA TL6D 上正二位数
-    2719: 'Xiên 2', // SEA TL6D 上反二位数
-    2722: '3 Càng', // SEA TL6D 上正三位数
-    2724: '3 Càng - bất kỳ', // SEA TL6D 上反三位数
-    2727: '4 Càng', // SEA TL6D 上正四位数
-    2729: '4 Càng - bất kỳ', // SEA TL6D 上反四位数
+    2717: 'EXACT Last 2D', // SEA TL6D 上正二位数
+    2719: 'ANY Last 2D', // SEA TL6D 上反二位数
+    2722: 'EXACT Last 3D', // SEA TL6D 上正三位数
+    2724: 'ANY Last 3D', // SEA TL6D 上反三位数
+    2727: 'EXACT Last 4D', // SEA TL6D 上正四位数
+    2729: 'ANY Last 4D', // SEA TL6D 上反四位数
     2732: 'Xiên Số', // SEA TL6D 上跑两位数
 
     2763: 'BSOE 1st', // SEA TL3D BSOE第一球

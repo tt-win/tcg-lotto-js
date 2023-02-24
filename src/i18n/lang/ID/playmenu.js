@@ -109,10 +109,10 @@ const PlayMenu = {
 
     // TL3D
 
-    2686: 'Tepat 2D -spesial', // SEA TL3D 上正二位数
-    2688: '2D Apa saja - 1st', // SEA TL3D 上反二位数
-    2691: 'Tepat 3D -spesial', // SEA TL3D 上正三位数
-    2693: 'Apa saja 3D -spesial', // SEA TL3D 上反三位数
+    2686: 'EXACT Last 2D', // SEA TL3D 上正二位数
+    2688: 'ANY Last 2D', // SEA TL3D 上反二位数
+    2691: 'EXACT 3D', // SEA TL3D 上正三位数
+    2693: 'ANY 3D', // SEA TL3D 上反三位数
     2696: 'Apa saja 1D -spesial', // SEA TL3D 上跑两位数
 
     2752: 'BSOE 1st', // SEA TL3D BSOE第一球
@@ -125,12 +125,12 @@ const PlayMenu = {
 
     // TL4D
 
-    2699: 'Tepat 2D -spesial', // SEA TL4D 上正二位数
-    2701: '2D Apa saja - 1st', // SEA TL4D 上反二位数
-    2704: 'Tepat 3D -spesial', // SEA TL4D 上正三位数
-    2706: 'Apa saja 3D -spesial', // SEA TL4D 上反三位数
-    2709: 'Tepat 4D -spesial', // SEA TL4D 上正四位数
-    2711: 'Apa saja 4D - spesial', // SEA TL4D 上反四位数
+    2699: 'EXACT Last 2D', // SEA TL4D 上正二位数
+    2701: 'ANY Last 2D', // SEA TL4D 上反二位数
+    2704: 'EXACT Last 3D', // SEA TL4D 上正三位数
+    2706: 'ANY Last 3D', // SEA TL4D 上反三位数
+    2709: 'EXACT 4D', // SEA TL4D 上正四位数
+    2711: 'ANY 4D', // SEA TL4D 上反四位数
     2714: 'Apa saja 1D -spesial', // SEA TL4D 上跑两位数
 
     2757: 'BSOE 1st', // SEA TL3D BSOE第一球
@@ -145,12 +145,12 @@ const PlayMenu = {
 
     // TL6D
 
-    2717: 'Tepat 2D -spesial', // SEA TL6D 上正二位数
-    2719: '2D Apa saja - 1st', // SEA TL6D 上反二位数
-    2722: 'Tepat 3D -spesial', // SEA TL6D 上正三位数
-    2724: 'Apa saja 3D -spesial', // SEA TL6D 上反三位数
-    2727: 'Tepat 4D -spesial', // SEA TL6D 上正四位数
-    2729: 'Apa saja 4D - spesial', // SEA TL6D 上反四位数
+    2717: 'EXACT Last 2D', // SEA TL6D 上正二位数
+    2719: 'ANY Last 2D', // SEA TL6D 上反二位数
+    2722: 'EXACT Last 3D', // SEA TL6D 上正三位数
+    2724: 'ANY Last 3D', // SEA TL6D 上反三位数
+    2727: 'EXACT Last 4D', // SEA TL6D 上正四位数
+    2729: 'ANY Last 4D', // SEA TL6D 上反四位数
     2732: 'Apa saja 1D -spesial', // SEA TL6D 上跑两位数
 
     2763: 'BSOE 1st', // SEA TL3D BSOE第一球
