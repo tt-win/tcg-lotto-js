@@ -1460,6 +1460,8 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.First_TL3D,
         PlayMenu.Second_TL3D,
         PlayMenu.Third_TL3D,
+        PlayMenu.Comb3_TL3D, // 三星 三星組三
+        PlayMenu.Comb6_TL3D, // 三星 三星組六
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
     },
@@ -1477,6 +1479,8 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Second_TL4D,
         PlayMenu.Third_TL4D,
         PlayMenu.Fourth_TL4D,
+        PlayMenu.Comb3_TL4D, // 三星 後三組三
+        PlayMenu.Comb6_TL4D, // 三星 後三組六
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
     },
@@ -1496,6 +1500,8 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fourth_TL6D,
         PlayMenu.Fifth_TL6D,
         PlayMenu.Sixth_TL6D,
+        PlayMenu.Comb3_TL6D, // 三星 後三組三
+        PlayMenu.Comb6_TL6D, // 三星 後三組六
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
     },
