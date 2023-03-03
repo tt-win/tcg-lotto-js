@@ -409,12 +409,12 @@ const PlayMenu = {
     2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
-    2863: 'Rambolito3-Normal', // 三星組3
-    2864: 'Rambolito6-Normal', // 三星組6
-    2865: 'Rambolito3 Last 3D-Normal', // 三星組3
-    2866: 'Rambolito6 Last 3D-Normal', // 三星組6
-    2867: 'Rambolito3 Last 3D-Normal', // 三星組3
-    2868: 'Rambolito6 Last 3D-Normal', // 三星組6
+    2863: 'Rambolito3', // 三星組3
+    2864: 'Rambolito6', // 三星組6
+    2865: 'Rambolito3 Last 3D', // 三星組3
+    2866: 'Rambolito6 Last 3D', // 三星組6
+    2867: 'Rambolito3 Last 3D', // 三星組3
+    2868: 'Rambolito6 Last 3D', // 三星組6
     // LAO 老挝彩
 
     // 一級選單

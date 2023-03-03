@@ -415,12 +415,12 @@ const PlayMenu = {
     2639: 'Posição (Centenas)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
     2640: 'Posição (Milhares)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
 
-    2863: 'Rambolito3-Normal', // 三星組3
-    2864: 'Rambolito6-Normal', // 三星組6
-    2865: 'Rambolito3 Last 3D-Normal', // 三星組3
-    2866: 'Rambolito6 Last 3D-Normal', // 三星組6
-    2867: 'Rambolito3 Last 3D-Normal', // 三星組3
-    2868: 'Rambolito6 Last 3D-Normal', // 三星組6
+    2863: 'Rambolito3', // 三星組3
+    2864: 'Rambolito6', // 三星組6
+    2865: 'Rambolito3 Last 3D', // 三星組3
+    2866: 'Rambolito6 Last 3D', // 三星組6
+    2867: 'Rambolito3 Last 3D', // 三星組3
+    2868: 'Rambolito6 Last 3D', // 三星組6
     // LAO 老挝彩
 
     // 一級選單
