@@ -296,6 +296,7 @@ const LANG = {
   betFail: 'Aposta incorreta, por favor tente novamente.',
   confirmBetInfos: 'Please Confirm the Betting Details',
   odds: 'Pagamentos',
+  prize: 'Pagamentos',
   amount: 'Estaca',
   balance: 'Balance',
   totalAmount: 'Aposta Total',

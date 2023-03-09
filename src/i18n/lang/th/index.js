@@ -327,6 +327,7 @@ const LANG = {
   willWin: 'อัตราการเดิมพัน',
   filterResultMsg: 'ลบหมายเลขซ้ำ %@ โมฆะ %@',
   odds: 'จ่าย',
+  prize: 'จ่าย',
   amount: 'ใส่ราคา',
   multiple: 'หลาย',
   syncMultipleBets: 'ความหลาย',

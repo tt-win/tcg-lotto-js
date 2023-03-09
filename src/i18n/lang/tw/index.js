@@ -323,6 +323,7 @@ const LANG = {
   willWin: '預計中獎金額',
   filterResultMsg: '已經過濾%@组重複號，%@組無效號',
   odds: '獎金',
+  prize: '獎金',
   amount: '金額',
   multiple: '倍數',
   syncMultipleBets: '批量修改倍數',

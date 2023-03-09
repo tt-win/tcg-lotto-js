@@ -374,6 +374,7 @@ const LANG = {
   willWin: 'Tỷ Lệ Cược',
   filterResultMsg: 'trùng lặp %@ không hợp lệ %@',
   odds: 'Tỉ lệ',
+  prize: 'giải thưởng',
   amount: 'Tiền cược',
   multiple: 'Số điểm cược',
   syncMultipleBets: 'Đồng bộ cược',
