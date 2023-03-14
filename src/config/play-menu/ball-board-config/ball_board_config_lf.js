@@ -313,21 +313,21 @@ export default {
     multi: true,
     canShowHotGap: false,
   }),
-  // P5后四直选 
+  // P5Last4Straight_LF P5后四直选 
   2880:  BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
     ballShowPosition: ballShowPosition.LAST_FOUR,
   }),
-  // P5前四直选
+  // P5First4Straight_LF P5前四直选
   2884: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS],
     formula: 'straight',
     ballShowPosition: ballShowPosition.FIRST_FOUR,
   }),
-  // 五星直选
+  // All5Straight_LF 五星直选
   2888: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
