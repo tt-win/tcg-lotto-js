@@ -351,8 +351,8 @@ const ManualBetConfigLF = {
     ballCount: 4,
     anyBallCount: 4,
   }),
-  // P5Last4Straight_LF_Single
-  2879: ManualBetConfigRecord({
+  // All5Straight_LF_Single
+  2887: ManualBetConfigRecord({
     ...baseSSCProps,
     ballCount: 5,
     bitCompression: true,
