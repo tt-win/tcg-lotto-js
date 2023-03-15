@@ -313,25 +313,25 @@ export default {
     multi: true,
     canShowHotGap: false,
   }),
-  // P5Last4Straight_LF P5后四直选 
-  2880:  BallBoardConfigRecord({
+  // All5Straight_LF 五星直选
+  2879: BallBoardConfigRecord({
     ...baseLFProps,
-    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
-    ballShowPosition: ballShowPosition.LAST_FOUR,
+    ballShowPosition: ballShowPosition.FIRST_FIVE,
   }),
   // P5First4Straight_LF P5前四直选
-  2884: BallBoardConfigRecord({
+  2883: BallBoardConfigRecord({
     ...baseLFProps,
     betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS],
     formula: 'straight',
     ballShowPosition: ballShowPosition.FIRST_FOUR,
   }),
-  // All5Straight_LF 五星直选
-  2888: BallBoardConfigRecord({
+  // P5Last4Straight_LF P5后四直选 
+  2887:  BallBoardConfigRecord({
     ...baseLFProps,
-    betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    betDigits: [betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
     formula: 'straight',
-    ballShowPosition: ballShowPosition.FIRST_FIVE,
+    ballShowPosition: ballShowPosition.LAST_FOUR,
   }),
 };

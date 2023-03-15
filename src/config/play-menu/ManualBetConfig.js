@@ -352,21 +352,21 @@ const ManualBetConfigLF = {
     anyBallCount: 4,
   }),
   // All5Straight_LF_Single
-  2887: ManualBetConfigRecord({
+  2880: ManualBetConfigRecord({
     ...baseSSCProps,
     ballCount: 5,
     bitCompression: true,
     bitCompressionSize: 50000,
   }),
   // P5First4Straight_LF_Single
-  2883: ManualBetConfigRecord({
+  2884: ManualBetConfigRecord({
     ...baseSSCProps,
     ballCount: 4,
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
   // P5Last4Straight_LF_Single
-  2879: ManualBetConfigRecord({
+  2888: ManualBetConfigRecord({
     ...baseSSCProps,
     ballCount: 4,
     bitCompression: true,
