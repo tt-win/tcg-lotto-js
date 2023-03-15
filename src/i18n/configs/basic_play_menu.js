@@ -1320,6 +1320,9 @@ export const PlayMenu = {
   P5Last2Straight_LF_Single: 166,
   P3Last2Com_LF: 1441,
   Last2Com_LF_P3P5: 1443,
+  P5First4Straight_LF: 2883,
+  P5First4Straight_LF_Single: 2884,
+
   // PK10_Single
   First2_PK10_Single: 1732,
   First3_PK10_Single: 1733,
