@@ -7,6 +7,7 @@ const LANG = {
   clearBallText: 'Clear',
   addToBetSlip: 'Add to the bets cart',
   betNow: 'Betting',
+  buyNow: 'buy now',
   betSuccess: 'Bet Success',
   confirmBetInfos: 'Please Confirm the Betting Details',
   entertainment: 'Entertainment',
@@ -34,6 +35,7 @@ const LANG = {
   betFail: 'Bet Failed',
   betFailed: 'Incorrect/Incomplete Playslip. Processing failed.',
   detail: 'Details',
+  moreDetails: 'More Details',
   recentlyGames: 'Bet Games',
   bettingApproach: {
     1: 'Straight',

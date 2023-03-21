@@ -7,6 +7,7 @@ const LANG = {
   clearBallText: '清除選號',
   addToBetSlip: '加入購物車',
   betNow: '立即投注',
+  buyNow: '立即購買',
   betSuccess: '恭喜, 下注成功',
   betPartialSuccess: '餘額不足，部份生成訂單成功',
   confirmBetInfos: '請確認投注訊息',
@@ -30,6 +31,7 @@ const LANG = {
   betFail: '下注失敗',
   betFailed: '生成訂單失敗',
   detail: '詳細',
+  moreDetails: '查看更多',
   status: '狀態',
   recentlyGames: '最近遊戲',
   orderStatus: {
