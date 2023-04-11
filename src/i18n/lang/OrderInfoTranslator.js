@@ -1980,6 +1980,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.P5First2Straight_LF,
         PlayMenu.P3Last2Straight_LF,
         PlayMenu.P5Last2Straight_LF,
+        PlayMenu.All5Straight_LF,
+        PlayMenu.P5First4Straight_LF,
+        PlayMenu.P5Last4Straight_LF,
       ],
       getText: (content, bettingContent) => 
       bettingContent.replace(/\|/g, ' ').split(',').filter((e) => e === 0 || e).join(' | ')
@@ -1994,6 +1997,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.P5First2Straight_LF_Single,
         PlayMenu.P3Last2Straight_LF_Single,
         PlayMenu.P5Last2Straight_LF_Single,
+        PlayMenu.All5Straight_LF_Single,
+        PlayMenu.P5First4Straight_LF_Single,
+        PlayMenu.P5Last4Straight_LF_Single,
       ],
       getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
     },
