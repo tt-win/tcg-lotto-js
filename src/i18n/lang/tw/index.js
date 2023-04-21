@@ -1,7 +1,11 @@
 import PlayMenu from './playmenu';
+import BaseGame from './base-game';
+import ProTrendChart from './proTrendChart';
 
 const LANG = {
+  ...BaseGame,
   ...PlayMenu,
+  ...ProTrendChart,
   shoppingBasket: '購彩籃',
   confirmBetting: '確認投注',
   clearBallText: '清除選號',
