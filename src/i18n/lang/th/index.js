@@ -348,6 +348,10 @@ const LANG = {
     seventhPrize: 'รางวัลที่7',
     eighthPrize: 'รางวัลที่8',
   },
+  drawLive: {
+    live: 'LIVE',
+    channelDescribe: 'Watch the PCSO lotto draw live streaming video from official People\'s Television (PTV 4) Channel of the Philippines.',
+  },
 };
 
 export default LANG;
