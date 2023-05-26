@@ -344,6 +344,7 @@ const LANG = {
   drawLive: {
     live: 'LIVE',
     channelDescribe: 'Watch the PCSO lotto draw live streaming video from official People\'s Television (PTV 4) Channel of the Philippines.',
+    drawVideo: 'Draw Video',
   },
   prizeListPrizeType: {
     VTX_BS_BIG: 'Grande',
