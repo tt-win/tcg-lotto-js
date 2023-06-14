@@ -308,6 +308,27 @@ const LANG = {
     P_SIXTH_1: 'Small',
     P_SIXTH_2: 'Odd',
     P_SIXTH_3: 'Even',
+
+    // KENO
+    P_KENO_ANY1_1: 'Matched 1 out of 1',
+    P_KENO_ANY2_2: 'Matched 2 out of 2',
+    P_KENO_ANY3_2: 'Second Prize',
+    P_KENO_ANY3_3: 'First Prize',
+    P_KENO_ANY4_2: 'Third Prize',
+    P_KENO_ANY4_3: 'Second Prize',
+    P_KENO_ANY4_4: 'First Prize',
+    P_KENO_ANY5_3: 'Third Prize',
+    P_KENO_ANY5_4: 'Second Prize',
+    P_KENO_ANY5_5: 'First Prize',
+    P_KENO_ANY6_3: 'Fourth Prize',
+    P_KENO_ANY6_4: 'Third Prize',
+    P_KENO_ANY6_5: 'Second Prize',
+    P_KENO_ANY6_6: 'First Prize',
+    P_KENO_ANY7_0: 'Fifth Prize',
+    P_KENO_ANY7_4: 'Fourth Prize',
+    P_KENO_ANY7_5: 'Third Prize',
+    P_KENO_ANY7_6: 'Second Prize',
+    P_KENO_ANY7_7: 'First Prize',
   },
 
   seriesControlMapping: {

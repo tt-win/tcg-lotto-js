@@ -235,6 +235,27 @@ const LANG = {
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',
     VBC_SINGLE_DICE_3: 'THREE DICE',
+
+    // KENO
+    P_KENO_ANY1_1: 'Trúng 1 trong 1',
+    P_KENO_ANY2_2: 'Trúng 2 trong 2',
+    P_KENO_ANY3_2: 'Giải nhì',
+    P_KENO_ANY3_3: 'Giải nhất',
+    P_KENO_ANY4_2: 'Giải ba',
+    P_KENO_ANY4_3: 'Giải nhì',
+    P_KENO_ANY4_4: 'Giải nhất',
+    P_KENO_ANY5_3: 'Giải ba',
+    P_KENO_ANY5_4: 'Giải nhì',
+    P_KENO_ANY5_5: 'Giải nhất',
+    P_KENO_ANY6_3: 'Giải tư',
+    P_KENO_ANY6_4: 'Giải ba',
+    P_KENO_ANY6_5: 'Giải nhì',
+    P_KENO_ANY6_6: 'Giải nhất',
+    P_KENO_ANY7_0: 'Giải năm',
+    P_KENO_ANY7_4: 'Giải tư',
+    P_KENO_ANY7_5: 'Giải ba',
+    P_KENO_ANY7_6: 'Giải nhì',
+    P_KENO_ANY7_7: 'Giải nhất',
   },
 
   // TODO i18n
