@@ -231,6 +231,16 @@ const LANG = {
     VXD_3W1R_1: '3 ពណ៌ស + 1 ក្រហម',
     VXD_3R1W_1: '3 ក្រហម + 1 ពណ៌ស',
 
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: 'ធនាគារិក(គ្មានគណៈកម្មការ)',
+    BCR_BANKER_PLAYER_TIE_1: 'ធនាគារិក(គណៈកម្មាការ)',
+    BCR_BANKER_PLAYER_TIE_2: 'អ្នកលេង',
+    BCR_BANKER_PLAYER_TIE_3: 'ចង',
+    BCR_BANKER_PAIR_1: 'គូធនាគារិក',
+    BCR_PLAYER_PAIR_1: 'គូអ្នកលេង',
+    BCR_SUPER_SIX_2: 'សន្លឹកបៀពីរសន្លឹករបស់ Banker ឈ្នះ 6 ពិន្ទុ។',
+    BCR_SUPER_SIX_3: 'សន្លឹកបៀបីសន្លឹករបស់ Banker ឈ្នះ 6 ពិន្ទុ។',
+
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',

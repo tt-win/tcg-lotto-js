@@ -509,6 +509,13 @@ const PlayMenu = {
     2653: 'Pick 5', // 任選五 Any5_KENO
     2654: 'Pick 6', // 任選六 Any6_KENO
     2655: 'Pick 7', // 任選七 Any7_KENO
+
+    // BCR
+    2889: 'បាការ៉ាត់',
+    2890: 'Banker & Player & Tie',
+    2891: 'គូធនាគារិក',
+    2892: 'គូអ្នកលេង',
+    2893: 'Super Six',
   },
 };
 

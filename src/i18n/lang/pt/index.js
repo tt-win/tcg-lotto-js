@@ -358,6 +358,16 @@ const LANG = {
     VXD_3W1R_1: '3 branco + 1 vermelho',
     VXD_3R1W_1: '3 vermelho + 1 branco',
 
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: 'Banqueira(Sem comissão)',
+    BCR_BANKER_PLAYER_TIE_1: 'Banqueira(Comissão)',
+    BCR_BANKER_PLAYER_TIE_2: 'Jogadora',
+    BCR_BANKER_PLAYER_TIE_3: 'Gravata',
+    BCR_BANKER_PAIR_1: 'Par de banqueiro',
+    BCR_PLAYER_PAIR_1: 'Par de jogadores',
+    BCR_SUPER_SIX_2: 'As duas cartas do banqueiro ganham por 6 pontos.',
+    BCR_SUPER_SIX_3: 'Três cartas do banqueiro, ganhe por 6 pontos.',
+
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'UM DADO',
     VBC_SINGLE_DICE_2: 'DOIS DADOS',

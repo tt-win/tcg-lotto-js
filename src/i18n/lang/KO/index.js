@@ -2,6 +2,14 @@ import PlayMenu from '../EN/playmenu';
 
 const LANG = {
   ...PlayMenu,
+  playId: {
+    // BCR
+    2889: '바카라',
+    2890: '뱅커 & 플레이어 & 타이',
+    2891: '뱅커 페어',
+    2892: '플레이어 페어',
+    2893: '슈퍼 식스',
+  },
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_2: '베팅수락',
@@ -142,6 +150,16 @@ const LANG = {
     VXD_4W_1: '모두 흰색',
     VXD_3W1R_1: '흰색3+빨강1',
     VXD_3R1W_1: '빨강3+흰색1',
+
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: '은행가(커미션 없음)',
+    BCR_BANKER_PLAYER_TIE_1: '은행가(커미션)',
+    BCR_BANKER_PLAYER_TIE_2: '플레이어',
+    BCR_BANKER_PLAYER_TIE_3: '묶다',
+    BCR_BANKER_PAIR_1: '뱅커 페어',
+    BCR_PLAYER_PAIR_1: '플레이어 페어',
+    BCR_SUPER_SIX_2: '뱅커의 투 카드, 6점 차로 승리',
+    BCR_SUPER_SIX_3: '뱅커의 쓰리 카드, 6점 차로 승리',
 
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',

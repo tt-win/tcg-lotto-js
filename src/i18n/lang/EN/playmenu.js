@@ -514,6 +514,13 @@ const PlayMenu = {
     2654: 'Pick 6', // 任選六 Any6_KENO
     2655: 'Pick 7', // 任選七 Any7_KENO
 
+    // BCR
+    2889: 'Baccarat',
+    2890: 'Banker & Player & Tie',
+    2891: 'Banker Pair',
+    2892: 'Player Pair',
+    2893: 'Super Six',
+
     // PCSO play group
     2858: 'Straight',
     2860: 'Rambolito',

@@ -229,6 +229,16 @@ const LANG = {
     VXD_3W1R_1: 'เหรียญขาว 3+ เหรียญแดง 1',
     VXD_3R1W_1: 'เหรียญแดง 3+ เหรียญขาว 1',
 
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: 'เจ้ามือ(ไม่มีค่าใช้จ่าย)',
+    BCR_BANKER_PLAYER_TIE_1: 'เจ้ามือ(ค่าใช้จ่าย)',
+    BCR_BANKER_PLAYER_TIE_2: 'ผู้เล่น ',
+    BCR_BANKER_PLAYER_TIE_3: 'เสมอ',
+    BCR_BANKER_PAIR_1: 'คู่เจ้ามือ',
+    BCR_PLAYER_PAIR_1: 'คู่ผู้เล่น',
+    BCR_SUPER_SIX_2: 'เจ้ามือชนะ 6 แต้มกับไพ่สองใบ',
+    BCR_SUPER_SIX_3: 'เจ้ามือชนะ 6 แต้มกับไพ่สามใบ',
+
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',

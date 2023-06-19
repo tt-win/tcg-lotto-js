@@ -202,6 +202,16 @@ const LANG = {
     VXD_3W1R_1: '3 Putih+1 Merah',
     VXD_3R1W_1: '3 Merah+1 Putih',
 
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: 'Bankir(Gratis)',
+    BCR_BANKER_PLAYER_TIE_1: 'Bankir(Komisi)',
+    BCR_BANKER_PLAYER_TIE_2: 'pemain',
+    BCR_BANKER_PLAYER_TIE_3: 'mengikat',
+    BCR_BANKER_PAIR_1: 'Pasangan Bankir',
+    BCR_PLAYER_PAIR_1: 'Pasangan Pemain',
+    BCR_SUPER_SIX_2: 'Dua kartu Banker, menang dengan 6 poin.',
+    BCR_SUPER_SIX_3: 'Tiga kartu Banker, menang dengan 6 poin.',
+
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'Satu dadu',
     VBC_SINGLE_DICE_2: 'Dua dadu',

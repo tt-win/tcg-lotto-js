@@ -511,6 +511,13 @@ const PlayMenu = {
     2653: 'Pick 5', // 任選五 Any5_KENO
     2654: 'Pick 6', // 任選六 Any6_KENO
     2655: 'Pick 7', // 任選七 Any7_KENO
+
+    // BCR
+    2889: 'Bakarat',
+    2890: 'Bankir & Pemain & Tie',
+    2891: 'Pasangan Bankir',
+    2892: 'Pasangan Pemain',
+    2893: 'Super Enam',
   },
 };
 

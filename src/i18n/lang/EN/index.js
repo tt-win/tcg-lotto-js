@@ -273,6 +273,16 @@ const LANG = {
     VXD_3W1R_1: '3 White + 1 Red',
     VXD_3R1W_1: '3 Red + 1 White',
 
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: 'Banker(No charge)',
+    BCR_BANKER_PLAYER_TIE_1: 'Banker(Charge)',
+    BCR_BANKER_PLAYER_TIE_2: 'Player ',
+    BCR_BANKER_PLAYER_TIE_3: 'Tie',
+    BCR_BANKER_PAIR_1: 'Banker Pair',
+    BCR_PLAYER_PAIR_1: 'Player Pair',
+    BCR_SUPER_SIX_2: "Banker's two card, win by 6 points.",
+    BCR_SUPER_SIX_3: "Banker's three card, win by 6 points.",
+
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',

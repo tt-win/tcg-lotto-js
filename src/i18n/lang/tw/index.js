@@ -1625,6 +1625,16 @@ const LANG = {
     VTX_BS_BIG: '大',
     VTX_BS_SMALL: '小',
 
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: '莊(免傭)',
+    BCR_BANKER_PLAYER_TIE_1: '莊(含傭)',
+    BCR_BANKER_PLAYER_TIE_2: '閑 ',
+    BCR_BANKER_PLAYER_TIE_3: '和',
+    BCR_BANKER_PAIR_1: '莊對',
+    BCR_PLAYER_PAIR_1: '閑對',
+    BCR_SUPER_SIX_2: '莊以兩張牌，6點勝出',
+    BCR_SUPER_SIX_3: '莊以三張牌，6點勝出',
+
     // PK10 冠亞 首尾和值
     P_PK10_3_4_18_19: '3, 4, 18, 19',
     P_PK10_5_6_16_17: '5, 6, 16, 17',

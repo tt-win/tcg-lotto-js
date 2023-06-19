@@ -231,6 +231,16 @@ const LANG = {
     VXD_3W1R_1: '3 Trắng + 1 Đỏ',
     VXD_3R1W_1: '3 Đỏ + 1 Trắng',
 
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: 'Nhà Cái(Miễn phí)',
+    BCR_BANKER_PLAYER_TIE_1: 'Nhà Cái(Thù lao)',
+    BCR_BANKER_PLAYER_TIE_2: 'Người Chơi',
+    BCR_BANKER_PLAYER_TIE_3: 'Hòa',
+    BCR_BANKER_PAIR_1: 'Nhà Cái đôi',
+    BCR_PLAYER_PAIR_1: 'Người Chơi đôi',
+    BCR_SUPER_SIX_2: 'Nhà Cái 2 lá bài, 6 điểm thắng',
+    BCR_SUPER_SIX_3: 'Nhà Cái 3 lá bài, 6 điểm thắng',
+
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',
