@@ -380,6 +380,17 @@ const LANG = {
     rooster: '鸡',
   },
 
+  // BCR
+  bcr: {
+    banker_charge: '庄(免佣)',
+    banker_no_charge: '庄(含佣)',
+    player: '闲',
+    tie: '和',
+    banker_pair: '庄对',
+    player_pair: '闲对',
+    super_six: '超级六',
+  },
+
   kenoAnySelector: {
     up: '上',
     down: '下',

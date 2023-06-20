@@ -132,6 +132,17 @@ const LANG = {
     rooster: 'Galo',
   },
 
+  // BCR
+  bcr: {
+    banker_charge: 'Banqueira(Sem comissão)',
+    banker_no_charge: 'Banqueira(Comissão)',
+    player: 'Jogadora',
+    tie: 'Gravata',
+    banker_pair: 'Par de banqueiro',
+    player_pair: 'Par de jogadores',
+    super_six: 'Super Seis',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',

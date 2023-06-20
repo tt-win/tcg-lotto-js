@@ -183,6 +183,17 @@ const LANG = {
     rooster: 'មាន់',
   },
 
+  // BCR
+  bcr: {
+    banker_charge: 'ធនាគារិក(គ្មានគណៈកម្មការ)',
+    banker_no_charge: 'ធនាគារិក(គណៈកម្មាការ)',
+    player: 'អ្នកលេង',
+    tie: 'ចង',
+    banker_pair: 'គូធនាគារិក',
+    player_pair: 'គូអ្នកលេង',
+    super_six: 'Super Six',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',

@@ -312,6 +312,24 @@ function getOrderInfoTranslatorList(lang) {
     6: 'rooster',
   }
 
+  const BCR = {
+    B_P_T: {
+      0: 'banker_charge',
+      1: 'banker_no_charge',
+      2: 'player',
+      3: 'tie',
+    },
+    B_Pair: {
+      1: 'banker_pair',
+    },
+    P_Pair: {
+      1: 'player_pair',
+    },
+    Super_Six: {
+      1: 'super_six',
+    }
+  }
+
   const VXD = {
     '4R_Main_VXD': {
       1: 'allRed',
@@ -407,6 +425,34 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Hoo_Hey_How_Main_VBC
       ],
       getText: (content) => i18n(`vbc.${VBC[content]}`),
+    },
+  };
+
+  // BCR
+  const BCRTranslator = {
+    'Banker_Player_Tie_Main_BCR': {
+      items: [
+        PlayMenu.Banker_Player_Tie_Main_BCR,
+      ],
+      getText: (content) => i18n(`bcr.${BCR.B_P_T[content]}`),
+    },
+    'Banker_Pair_Main_BCR': {
+      items: [
+        PlayMenu.Banker_Pair_Main_BCR,
+      ],
+      getText: (content) => i18n(`bcr.${BCR.B_Pair[content]}`),
+    },
+    'Player_Pair_Main_BCR': {
+      items: [
+        PlayMenu.Player_Pair_Main_BCR,
+      ],
+      getText: (content) => i18n(`bcr.${BCR.P_Pair[content]}`),
+    },
+    'Super_Six_Main_BCR': {
+      items: [
+        PlayMenu.Super_Six_Main_BCR,
+      ],
+      getText: (content) => i18n(`bcr.${BCR.Super_Six[content]}`),
     },
   };
 
@@ -2062,6 +2108,7 @@ function getOrderInfoTranslatorList(lang) {
     },
 
     ...VBCTranslator,
+    ...BCRTranslator,
     ...VXDTranslator,
     ...PK10Translator,
     ...LHCTranslator,

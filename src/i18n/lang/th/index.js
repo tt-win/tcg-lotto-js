@@ -181,6 +181,17 @@ const LANG = {
     rooster: 'ไก่',
   },
 
+  // BCR
+  bcr: {
+    banker_charge: 'เจ้ามือ(ไม่มีค่าใช้จ่าย)',
+    banker_no_charge: 'เจ้ามือ(ค่าใช้จ่าย)',
+    player: 'ผู้เล่น',
+    tie: 'เสมอ',
+    banker_pair: 'คู่เจ้ามือ',
+    player_pair: 'คู่ผู้เล่น',
+    super_six: 'ซุปเปอร์ 6',
+  },
+
   kenoAnySelector: {
     up: 'บน',
     down: 'ล่าง',

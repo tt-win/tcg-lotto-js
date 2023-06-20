@@ -195,6 +195,17 @@ const LANG = {
     rooster: 'Rooster',
   },
 
+  // BCR
+  bcr: {
+    banker_charge: 'Banker(No charge)',
+    banker_no_charge: 'Banker(Charge)',
+    player: 'Player',
+    tie: 'Tie',
+    banker_pair: 'Banker Pair',
+    player_pair: 'Player Pair',
+    super_six: 'Super Six',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',

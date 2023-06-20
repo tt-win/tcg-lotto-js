@@ -183,6 +183,17 @@ const LANG = {
     rooster: 'Gà',
   },
 
+  // BCR
+  bcr: {
+    banker_charge: 'Nhà Cái(Miễn phí)',
+    banker_no_charge: 'Nhà Cái(Thù lao)',
+    player: 'Người Chơi',
+    tie: 'Hòa',
+    banker_pair: 'Nhà Cái đôi',
+    player_pair: 'Người Chơi đôi',
+    super_six: 'Super 6',
+  },
+
   kenoAnySelector: {
     up: 'Trên',
     down: 'Dưới',

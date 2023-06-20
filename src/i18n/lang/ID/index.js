@@ -154,6 +154,17 @@ const LANG = {
     rooster: 'Ayam',
   },
 
+  // BCR
+  bcr: {
+    banker_charge: 'Bankir(Gratis)',
+    banker_no_charge: 'Bankir(Komisi)',
+    player: 'pemain',
+    tie: 'mengikat',
+    banker_pair: 'Pasangan Bankir',
+    player_pair: 'Pasangan Pemain',
+    super_six: 'Super Enam',
+  },
+
   kenoAnySelector: {
     up: 'Top',
     down: 'Bottom',

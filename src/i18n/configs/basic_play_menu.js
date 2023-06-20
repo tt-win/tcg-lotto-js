@@ -239,6 +239,13 @@ export const defaultActivePlayMenu = {
 };
 
 export const PlayMenu = {
+  // BCR
+
+  Banker_Player_Tie_Main_BCR: 2890,
+  Banker_Pair_Main_BCR: 2891,
+  Player_Pair_Main_BCR: 2892,
+  Super_Six_Main_BCR: 2893,
+
   // Keno
 
   // 一級選單
