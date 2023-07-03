@@ -616,6 +616,9 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '投注号码%@达到当前庫存允许销售的最大投注数额。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '以下号码已超出当前期购买额度，请重新下注，剩余可购买金额如下',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '投注金额已超过%@元允许的上限',
+    shlottocny: {
+      ACS_AVAILABLE_BALANCE_NOT_ENOUGH: '您的彩票余额不足，请前往充值！',
+    }
   },
   chasingStatus: {
     All: '全部',
@@ -1240,6 +1243,7 @@ const LANG = {
   clear: '清空',
   count: '组',
   confirm: '确认',
+  addValue: '立即充值',
   betOrderTotal: '总计',
   stakesNum: '注数',
   pleaseKeyAmount: '请输入金额',
