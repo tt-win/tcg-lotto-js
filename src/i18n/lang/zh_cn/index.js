@@ -578,7 +578,7 @@ const LANG = {
     // VN
     ORDER_ALREADY_CANCELED: '该订单已经撤单',
     STAKES_IS_OVER_LIMIT_ERROR: '投注注数已超过允许的上限',
-    BALANCE_NOT_ENOUGH_ERROR: '餘額不足',
+    BALANCE_NOT_ENOUGH_ERROR: '余额不足',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: '投注金额已超过允许的上限',
     CALCULATE_BETTING_AMOUNT_ERROR: '投注失败，请稍后再试或与客服联系！',
     IILLEGAL_BALL_NUMBER_ERROR: '投注失败，请稍后再试或与客服联系！',
