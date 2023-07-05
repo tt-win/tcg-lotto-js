@@ -1577,9 +1577,9 @@ const PlayMenu = {
     keno_water: '水',
     keno_fire: '火',
     keno_earth: '土',
-    keno_big_full: '大 (811-1410)',
-    keno_sum_full: '和 (810)',
-    keno_small_full: '小 (210-809)',
+    keno_big_full: '大(811-1410)',
+    keno_sum_full: '和(810)',
+    keno_small_full: '小(210-809)',
   },
   playRemark: {
     ...playRemark,
