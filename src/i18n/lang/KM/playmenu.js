@@ -49,6 +49,41 @@ const PlayMenu = {
     2730: '1 Digit', // SEA TL6D 跑數
     2761: 'Combinations', // SEA TL6D 趣味
 
+    // TL642
+
+    '2889': 'Lucky Pick',
+    '2894': '3 Digits',
+    '2901': '2 Digits',
+    '2908': '1 Digit',
+
+    // TL645
+
+    '2918': 'Lucky Pick',
+    '2923': '3 Digits',
+    '2930': '2 Digits',
+    '2937': '1 Digit',
+
+    // TL649
+
+    '2947': 'Lucky Pick',
+    '2952': '3 Digits',
+    '2959': '2 Digits',
+    '2966': '1 Digit',
+
+    // TL655
+
+    '2976': 'Lucky Pick',
+    '2981': '3 Digits',
+    '2988': '2 Digits',
+    '2995': '1 Digit',
+
+    // TL658
+
+    '3005': 'Lucky Pick',
+    '3010': '3 Digits',
+    '3017': '2 Digits',
+    '3024': '1 Digit',
+
     // 二級選單
 
     // TL2D
@@ -92,6 +127,61 @@ const PlayMenu = {
     2731: 'Random', // SEA TL6D 后二不定位
     2762: 'BSOE' ,// SEA TL6D 大小单双
     2785: 'EXACT 1D', // SEA TL6D 定位胆
+
+    // TL642
+
+    '2890': 'Lucky Pick 3',
+    '2892': 'Lucky Pick 12',
+    '2895': 'Straight',
+    '2898': 'Rambolito',
+    '2902': 'Straight',
+    '2905': 'Rambolito',
+    '2909': 'Position',
+    '2916': 'Any',
+
+    // TL645
+    
+    '2919': 'Lucky Pick 3',
+    '2921': 'Lucky Pick 12',
+    '2924': 'Straight',
+    '2927': 'Rambolito',
+    '2931': 'Straight',
+    '2934': 'Rambolito',
+    '2938': 'Position',
+    '2945': 'Any',
+
+    // TL649
+
+    '2948': 'Lucky Pick 3',
+    '2950': 'Lucky Pick 12',
+    '2953': 'Straight',
+    '2956': 'Rambolito',
+    '2960': 'Straight',
+    '2963': 'Rambolito',
+    '2967': 'Position',
+    '2974': 'Any',
+
+    // TL655
+
+    '2977': 'Lucky Pick 3',
+    '2979': 'Lucky Pick 12',
+    '2982': 'Straight',
+    '2985': 'Rambolito',
+    '2989': 'Straight',
+    '2992': 'Rambolito',
+    '2996': 'Position',
+    '3003': 'Any',
+
+    // TL658
+
+    '3006': 'Lucky Pick 3',
+    '3008': 'Lucky Pick 12',
+    '3011': 'Straight',
+    '3014': 'Rambolito',
+    '3018': 'Straight',
+    '3021': 'Rambolito',
+    '3025': 'Position',
+    '3032': 'Any',
 
     // 三級選單
 
@@ -166,6 +256,31 @@ const PlayMenu = {
     2789: 'EXACT 1D 4th', // SEA TL6D 定位胆第4球
     2790: 'EXACT 1D 5th', // SEA TL6D 定位胆第5球
     2791: 'EXACT 1D 6th', // SEA TL6D 定位胆第6球
+
+    // TL642
+
+    '2891': 'Lucky Pick 3',
+    '2893': 'Lucky Pick 12',
+
+    // TL645
+
+    '2920': 'Lucky Pick 3',
+    '2922': 'Lucky Pick 12',
+
+    // TL649
+
+    '2949': 'Lucky Pick 3',
+    '2951': 'Lucky Pick 12',
+
+    // TL655
+
+    '2978': 'Lucky Pick 3',
+    '2980': 'Lucky Pick 12',
+
+    // TL658
+
+    '3007': 'Lucky Pick 3',
+    '3009': 'Lucky Pick 12',
 
     // Thai
 

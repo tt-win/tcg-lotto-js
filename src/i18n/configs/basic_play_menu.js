@@ -877,6 +877,41 @@ export const PlayMenu = {
   'Any_Place_TL6D': 2730, // SEA TL6D 跑數
   Fun_TL6D: 2761, // SEA TL6D 趣味
 
+  // TL642
+
+  LuckyPick_TL642: 2889, // SEA TL Lucky Pick
+  '3_Num_TL642': 2894, // SEA TL 3D
+  '2_Num_TL642': 2901, // SEA 2D
+  '1_Num_TL642': 2908, // SEA 1D
+
+  // TL645
+
+  LuckyPick_TL645: 2918,
+  '3_Num_TL645': 2923,
+  '2_Num_TL645': 2930,
+  '1_Num_TL645': 2937,
+
+  // TL649
+
+  LuckyPick_TL649: 2947,
+  '3_Num_TL649': 2952,
+  '2_Num_TL649': 2959,
+  '1_Num_TL649': 2966,
+
+  // TL655
+
+  LuckyPick_TL655: 2976,
+  '3_Num_TL655': 2981,
+  '2_Num_TL655': 2988,
+  '1_Num_TL655': 2995,
+
+  // TL658
+
+  LuckyPick_TL658: 3005,
+  '3_Num_TL658': 3010,
+  '2_Num_TL658': 3017,
+  '1_Num_TL658': 3024,
+
   // 二級選單
 
   // TL2D
@@ -920,6 +955,61 @@ export const PlayMenu = {
   '1_At_Any_Last_2_Main_TL6D': 2731, // SEA TL6D 后二不定位
   BSOE_TL6D: 2762 ,// SEA TL6D 大小单双
   FixedPlace_TL6D: 2785, // SEA TL6D 定位胆
+
+  // TL642
+
+  LuckyPick_3_Main_TL642: 2890,
+  LuckyPick_12_Main_TL642: 2892,
+  '3_Num_Straight_TL642': 2895,
+  '3_Num_Any_TL642': 2898,
+  '2_Num_Straight_TL642': 2902,
+  '2_Num_Any_TL642': 2905,
+  FixedPlace_TL642: 2909,
+  Any1_Main_TL642: 2916,
+
+  // TL645
+  
+  LuckyPick_3_Main_TL645: 2919,
+  LuckyPick_12_Main_TL645: 2921,
+  '3_Num_Straight_TL645': 2924,
+  '3_Num_Any_TL645': 2927,
+  '2_Num_Straight_TL645': 2931,
+  '2_Num_Any_TL645': 2934,
+  FixedPlace_TL645: 2938,
+  Any1_Main_TL645: 2945,
+
+  // TL649
+
+  LuckyPick_3_Main_TL649: 2948,
+  LuckyPick_12_Main_TL649: 2950,
+  '3_Num_Straight_TL649': 2953,
+  '3_Num_Any_TL649': 2956,
+  '2_Num_Straight_TL649': 2960,
+  '2_Num_Any_TL649': 2963,
+  FixedPlace_TL649: 2967,
+  Any1_Main_TL649: 2974,
+
+  // TL655
+
+  LuckyPick_3_Main_TL655: 2977,
+  LuckyPick_12_Main_TL655: 2979,
+  '3_Num_Straight_TL655': 2982,
+  '3_Num_Any_TL655': 2985,
+  '2_Num_Straight_TL655': 2989,
+  '2_Num_Any_TL655': 2992,
+  FixedPlace_TL655: 2996,
+  Any1_Main_TL655: 3003,
+
+  // TL658
+
+  LuckyPick_3_Main_TL658: 3006,
+  LuckyPick_12_Main_TL658: 3008,
+  '3_Num_Straight_TL658': 3011,
+  '3_Num_Any_TL658': 3014,
+  '2_Num_Straight_TL658': 3018,
+  '2_Num_Any_TL658': 3021,
+  FixedPlace_TL658: 3025,
+  Any1_Main_TL658: 3032,
 
   // 三級選單
 
@@ -995,6 +1085,106 @@ export const PlayMenu = {
   Fourth_TL6D: 2789,  // SEA TL6D 定位胆第四球
   Fifth_TL6D: 2790,  // SEA TL6D 定位胆第五球
   Sixth_TL6D: 2791,  // SEA TL6D 定位胆第六球
+
+  // TL642
+
+  LuckyPick_3_TL642: 2891,
+  LuckyPick_12_TL642: 2893,
+  First_3_Straight_TL642: 2896,
+  Last_3_Straight_TL642: 2897,
+  First_3_Any_TL642: 2899,
+  Last_3_Any_TL642: 2900,
+  First_2_Straight_TL642: 2903,
+  Last_2_Straight_TL642: 2904,
+  First_2_Any_TL642: 2906,
+  Last_2_Any_TL642: 2907,
+  First_TL642: 2910,
+  Second_TL642: 2911,
+  Third_TL642: 2912,
+  Fourth_TL642: 2913,
+  Fifth_TL642: 2914,
+  Sixth_TL642: 2915,
+  Any1_TL642: 2917,
+
+  // TL645
+
+  LuckyPick_3_TL645: 2920,
+  LuckyPick_12_TL645: 2922,
+  First_3_Straight_TL645: 2925,
+  Last_3_Straight_TL645: 2926,
+  First_3_Any_TL645: 2928,
+  Last_3_Any_TL645: 2929,
+  First_2_Straight_TL645: 2932,
+  Last_2_Straight_TL645: 2933,
+  First_2_Any_TL645: 2935,
+  Last_2_Any_TL645: 2936,
+  First_TL645: 2939,
+  Second_TL645: 2940,
+  Third_TL645: 2941,
+  Fourth_TL645: 2942,
+  Fifth_TL645: 2943,
+  Sixth_TL645: 2944,
+  Any1_TL645: 2946,
+
+  // TL649
+
+  LuckyPick_3_TL649: 2949,
+  LuckyPick_12_TL649: 2951,
+  First_3_Straight_TL649: 2954,
+  Last_3_Straight_TL649: 2955,
+  First_3_Any_TL649: 2957,
+  Last_3_Any_TL649: 2958,
+  First_2_Straight_TL649: 2961,
+  Last_2_Straight_TL649: 2962,
+  First_2_Any_TL649: 2964,
+  Last_2_Any_TL649: 2965,
+  First_TL649: 2968,
+  Second_TL649: 2969,
+  Third_TL649: 2970,
+  Fourth_TL649: 2971,
+  Fifth_TL649: 2972,
+  Sixth_TL649: 2973,
+  Any1_TL649: 2975,
+
+  // TL655
+
+  LuckyPick_3_TL655: 2978,
+  LuckyPick_12_TL655: 2980,
+  First_3_Straight_TL655: 2983,
+  Last_3_Straight_TL655: 2984,
+  First_3_Any_TL655: 2986,
+  Last_3_Any_TL655: 2987,
+  First_2_Straight_TL655: 2990,
+  Last_2_Straight_TL655: 2991,
+  First_2_Any_TL655: 2993,
+  Last_2_Any_TL655: 2994,
+  First_TL655: 2997,
+  Second_TL655: 2998,
+  Third_TL655: 2999,
+  Fourth_TL655: 3000,
+  Fifth_TL655: 3001,
+  Sixth_TL655: 3002,
+  Any1_TL655: 3004,
+
+  // TL658
+
+  LuckyPick_3_TL658: 3007,
+  LuckyPick_12_TL658: 3009,
+  First_3_Straight_TL658: 3012,
+  Last_3_Straight_TL658: 3013,
+  First_3_Any_TL658: 3015,
+  Last_3_Any_TL658: 3016,
+  First_2_Straight_TL658: 3019,
+  Last_2_Straight_TL658: 3020,
+  First_2_Any_TL658: 3022,
+  Last_2_Any_TL658: 3023,
+  First_TL658: 3026,
+  Second_TL658: 3027,
+  Third_TL658: 3028,
+  Fourth_TL658: 3029,
+  Fifth_TL658: 3030,
+  Sixth_TL658: 3031,
+  Any1_TL658: 3033,
 
   // THAI
 

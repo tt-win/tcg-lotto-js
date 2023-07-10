@@ -49,6 +49,41 @@ const PlayMenu = {
     2730: 'Đầu Đuôi', // SEA TL6D 跑數
     2761: 'Kết hợp', // SEA TL6D 趣味
 
+    // TL642
+
+    '2889': 'Chọn may mắn',
+    '2894': '3 Digits',
+    '2901': '2 Digits',
+    '2908': '1 Digit',
+
+    // TL645
+
+    '2918': 'Chọn may mắn',
+    '2923': '3 Digits',
+    '2930': '2 Digits',
+    '2937': '1 Digit',
+
+    // TL649
+
+    '2947': 'Chọn may mắn',
+    '2952': '3 Digits',
+    '2959': '2 Digits',
+    '2966': '1 Digit',
+
+    // TL655
+
+    '2976': 'Chọn may mắn',
+    '2981': '3 Digits',
+    '2988': '2 Digits',
+    '2995': '1 Digit',
+
+    // TL658
+
+    '3005': 'Chọn may mắn',
+    '3010': '3 Digits',
+    '3017': '2 Digits',
+    '3024': '1 Digit',
+
     // 二級選單
 
     // TL2D
@@ -92,6 +127,61 @@ const PlayMenu = {
     2731: 'Ngẫu Nhiên', // SEA TL6D 后二不定位
     2762: 'BSOE' ,// SEA TL6D 大小单双
     2785: 'CHÍNH XÁC 1D', // SEA TL6D 定位胆
+
+    // TL642
+
+    '2890': 'Chọn may mắn 3 số',
+    '2892': 'Chọn may mắn 12 số',
+    '2895': 'Đúng',
+    '2898': 'Tổ hợp',
+    '2902': 'Đúng',
+    '2905': 'Tổ hợp',
+    '2909': 'Vị trí',
+    '2916': 'Bất kỳ',
+
+    // TL645
+
+    '2919': 'Chọn may mắn 3 số',
+    '2921': 'Chọn may mắn 12 số',
+    '2924': 'Đúng',
+    '2927': 'Tổ hợp',
+    '2931': 'Đúng',
+    '2934': 'Tổ hợp',
+    '2938': 'Vị trí',
+    '2945': 'Bất kỳ',
+
+    // TL649
+
+    '2948': 'Chọn may mắn 3 số',
+    '2950': 'Chọn may mắn 12 số',
+    '2953': 'Đúng',
+    '2956': 'Tổ hợp',
+    '2960': 'Đúng',
+    '2963': 'Tổ hợp',
+    '2967': 'Vị trí',
+    '2974': 'Bất kỳ',
+
+    // TL655
+
+    '2977': 'Chọn may mắn 3 số',
+    '2979': 'Chọn may mắn 12 số',
+    '2982': 'Đúng',
+    '2985': 'Tổ hợp',
+    '2989': 'Đúng',
+    '2992': 'Tổ hợp',
+    '2996': 'Vị trí',
+    '3003': 'Bất kỳ',
+
+    // TL658
+
+    '3006': 'Chọn may mắn 3 số',
+    '3008': 'Chọn may mắn 12 số',
+    '3011': 'Đúng',
+    '3014': 'Tổ hợp',
+    '3018': 'Đúng',
+    '3021': 'Tổ hợp',
+    '3025': 'Vị trí',
+    '3032': 'Bất kỳ',
 
     // 三級選單
 
@@ -166,6 +256,31 @@ const PlayMenu = {
     2789: 'CHÍNH XÁC 4th', // SEA TL6D 定位胆第4球
     2790: 'CHÍNH XÁC 5th', // SEA TL6D 定位胆第5球
     2791: 'CHÍNH XÁC 6th', // SEA TL6D 定位胆第6球
+
+    // TL642
+
+    '2891': 'Chọn may mắn 3 số',
+    '2893': 'Chọn may mắn 12 số',
+
+    // TL645
+
+    '2920': 'Chọn may mắn 3 số',
+    '2922': 'Chọn may mắn 12 số',
+
+    // TL649
+
+    '2949': 'Chọn may mắn 3 số',
+    '2951': 'Chọn may mắn 12 số',
+
+    // TL655
+
+    '2978': 'Chọn may mắn 3 số',
+    '2980': 'Chọn may mắn 12 số',
+
+    // TL658
+
+    '3007': 'Chọn may mắn 3 số',
+    '3009': 'Chọn may mắn 12 số',
 
     // Thai
 
