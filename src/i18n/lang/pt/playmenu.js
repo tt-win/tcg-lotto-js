@@ -262,26 +262,68 @@ const PlayMenu = {
 
     '2891': 'Lucky Pick 3',
     '2893': 'Lucky Pick 12',
+    '2891': 'Lucky Pick 3',
+    '2893': 'Lucky Pick 12',
+    '2896': 'First 3 Straight',
+    '2897': 'Last 3 Straight',
+    '2899': 'First 3 Rambolito',
+    '2900': 'Last 3 Rambolito',
+    '2903': 'First 2 Straight',
+    '2904': 'Last 2 Straight',
+    '2906': 'First 2 Rambolito',
+    '2907': 'Last 2 Rambolito',
 
     // TL645
 
     '2920': 'Lucky Pick 3',
     '2922': 'Lucky Pick 12',
+    '2925': 'First 3 Straight',
+    '2926': 'Last 3 Straight',
+    '2928': 'First 3 Rambolito',
+    '2929': 'Last 3 Rambolito',
+    '2932': 'First 2 Straight',
+    '2933': 'Last 2 Straight',
+    '2935': 'First 2 Rambolito',
+    '2936': 'Last 2 Rambolito',
 
     // TL649
 
     '2949': 'Lucky Pick 3',
     '2951': 'Lucky Pick 12',
+    '2954': 'First 3 Straight',
+    '2955': 'Last 3 Straight',
+    '2957': 'First 3 Rambolito',
+    '2958': 'Last 3 Rambolito',
+    '2961': 'First 2 Straight',
+    '2962': 'Last 2 Straight',
+    '2964': 'First 2 Rambolito',
+    '2965': 'Last 2 Rambolito',
 
     // TL655
 
     '2978': 'Lucky Pick 3',
     '2980': 'Lucky Pick 12',
+    '2983': 'First 3 Straight',
+    '2984': 'Last 3 Straight',
+    '2986': 'First 3 Rambolito',
+    '2987': 'Last 3 Rambolito',
+    '2990': 'First 2 Straight',
+    '2991': 'Last 2 Straight',
+    '2993': 'First 2 Rambolito',
+    '2994': 'Last 2 Rambolito',
 
     // TL658
 
     '3007': 'Lucky Pick 3',
     '3009': 'Lucky Pick 12',
+    '3012': 'First 3 Straight',
+    '3013': 'Last 3 Straight',
+    '3015': 'First 3 Rambolito',
+    '3016': 'Last 3 Rambolito',
+    '3019': 'First 2 Straight',
+    '3020': 'Last 2 Straight',
+    '3022': 'First 2 Rambolito',
+    '3023': 'Last 2 Rambolito',
 
     // Thai
 
