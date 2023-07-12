@@ -386,7 +386,7 @@ const LANG = {
   // BCR
   bcr: {
     banker_charge: '庄(免佣)',
-    banker_no_charge: '庄(含佣)',
+    banker_no_charge: '庄(非免佣)',
     player: '闲',
     tie: '和',
     banker_pair: '庄对',
@@ -1595,7 +1595,7 @@ const LANG = {
 
     // BCR
     BCR_BANKER_PLAYER_TIE_0: '庄(免佣)',
-    BCR_BANKER_PLAYER_TIE_1: '庄(含佣)',
+    BCR_BANKER_PLAYER_TIE_1: '庄(非免佣)',
     BCR_BANKER_PLAYER_TIE_2: '闲',
     BCR_BANKER_PLAYER_TIE_3: '和',
     BCR_BANKER_PAIR_1: '庄对',
