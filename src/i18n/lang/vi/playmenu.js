@@ -51,7 +51,7 @@ const PlayMenu = {
 
     // TL642
 
-    '2889': 'Chọn may mắn',
+    3034: 'Chọn may mắn',
     '2894': '3 Digits',
     '2901': '2 Digits',
     '2908': '1 Digit',
@@ -130,8 +130,8 @@ const PlayMenu = {
 
     // TL642
 
-    '2890': 'Chọn may mắn 3 số',
-    '2892': 'Chọn may mắn 12 số',
+    3035: 'Chọn may mắn 3 số',
+    3037: 'Chọn may mắn 12 số',
     '2895': 'Đúng',
     '2898': 'Tổ hợp',
     '2902': 'Đúng',
@@ -259,8 +259,8 @@ const PlayMenu = {
 
     // TL642
 
-    '2891': 'Chọn may mắn 3 số',
-    '2893': 'Chọn may mắn 12 số',
+    3036: 'Chọn may mắn 3 số',
+    3038: 'Chọn may mắn 12 số',
     '2896': '3 số đầu tiên',
     '2897': '3 số cuối',
     '2899': '3 số đầu tiên',

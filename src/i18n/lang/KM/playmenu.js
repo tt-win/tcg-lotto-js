@@ -51,7 +51,7 @@ const PlayMenu = {
 
     // TL642
 
-    '2889': 'Lucky Pick',
+    3034: 'Lucky Pick',
     '2894': '3 Digits',
     '2901': '2 Digits',
     '2908': '1 Digit',
@@ -130,8 +130,8 @@ const PlayMenu = {
 
     // TL642
 
-    '2890': 'Lucky Pick 3',
-    '2892': 'Lucky Pick 12',
+    3035: 'Lucky Pick 3',
+    3037: 'Lucky Pick 12',
     '2895': 'Straight',
     '2898': 'Rambolito',
     '2902': 'Straight',
@@ -259,10 +259,8 @@ const PlayMenu = {
 
     // TL642
 
-    '2891': 'Lucky Pick 3',
-    '2893': 'Lucky Pick 12',
-    '2891': 'Lucky Pick 3',
-    '2893': 'Lucky Pick 12',
+    3036: 'Lucky Pick 3',
+    3038: 'Lucky Pick 12',
     '2896': 'First 3 Straight',
     '2897': 'Last 3 Straight',
     '2899': 'First 3 Rambolito',
