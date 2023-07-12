@@ -879,7 +879,7 @@ export const PlayMenu = {
 
   // TL642
 
-  LuckyPick_TL642: 2889, // SEA TL Lucky Pick
+  LuckyPick_TL642: 3034, // SEA TL Lucky Pick
   '3_Num_TL642': 2894, // SEA TL 3D
   '2_Num_TL642': 2901, // SEA 2D
   '1_Num_TL642': 2908, // SEA 1D
@@ -958,8 +958,8 @@ export const PlayMenu = {
 
   // TL642
 
-  LuckyPick_3_Main_TL642: 2890,
-  LuckyPick_12_Main_TL642: 2892,
+  LuckyPick_3_Main_TL642: 3035,
+  LuckyPick_12_Main_TL642: 3037,
   '3_Num_Straight_TL642': 2895,
   '3_Num_Any_TL642': 2898,
   '2_Num_Straight_TL642': 2902,
@@ -1088,8 +1088,8 @@ export const PlayMenu = {
 
   // TL642
 
-  LuckyPick_3_TL642: 2891,
-  LuckyPick_12_TL642: 2893,
+  LuckyPick_3_TL642: 3036,
+  LuckyPick_12_TL642: 3038,
   First_3_Straight_TL642: 2896,
   Last_3_Straight_TL642: 2897,
   First_3_Any_TL642: 2899,
