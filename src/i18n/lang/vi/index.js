@@ -188,8 +188,8 @@ const LANG = {
 
   // BCR
   bcr: {
-    banker_charge: 'Nhà Cái(Miễn phí)',
-    banker_no_charge: 'Nhà Cái(Thù lao)',
+    banker_charge: 'Nhà Cái(Thù lao)',
+    banker_no_charge: 'Nhà Cái(Miễn phí)',
     player: 'Người Chơi',
     tie: 'Hòa',
     banker_pair: 'Nhà Cái đôi',

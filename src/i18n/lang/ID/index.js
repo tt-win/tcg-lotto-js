@@ -159,8 +159,8 @@ const LANG = {
 
   // BCR
   bcr: {
-    banker_charge: 'Bankir(Gratis)',
-    banker_no_charge: 'Bankir(Komisi)',
+    banker_charge: 'Bankir(Komisi)',
+    banker_no_charge: 'Bankir(Gratis)',
     player: 'pemain',
     tie: 'mengikat',
     banker_pair: 'Pasangan Bankir',

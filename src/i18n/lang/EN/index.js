@@ -200,8 +200,8 @@ const LANG = {
 
   // BCR
   bcr: {
-    banker_charge: 'Banker(No charge)',
-    banker_no_charge: 'Banker(Charge)',
+    banker_charge: 'Banker(Charge)',
+    banker_no_charge: 'Banker(No charge)',
     player: 'Player',
     tie: 'Tie',
     banker_pair: 'Banker Pair',

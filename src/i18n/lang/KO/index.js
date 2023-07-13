@@ -141,8 +141,8 @@ const LANG = {
 
   // BCR
   bcr: {
-    banker_charge: '은행가(커미션 없음)',
-    banker_no_charge: '은행가(커미션)',
+    banker_charge: '은행가(커미션)',
+    banker_no_charge: '은행가(커미션 없음)',
     player: '플레이어',
     tie: '묶다',
     banker_pair: '뱅커 페어',

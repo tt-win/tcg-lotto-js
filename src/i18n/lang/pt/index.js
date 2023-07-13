@@ -137,8 +137,8 @@ const LANG = {
 
   // BCR
   bcr: {
-    banker_charge: 'Banqueira(Sem comissão)',
-    banker_no_charge: 'Banqueira(Comissão)',
+    banker_charge: 'Banqueira(Comissão)',
+    banker_no_charge: 'Banqueira(Sem comissão)',
     player: 'Jogadora',
     tie: 'Gravata',
     banker_pair: 'Par de banqueiro',

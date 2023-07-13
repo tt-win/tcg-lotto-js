@@ -186,8 +186,8 @@ const LANG = {
 
   // BCR
   bcr: {
-    banker_charge: 'เจ้ามือ(ไม่มีค่าใช้จ่าย)',
-    banker_no_charge: 'เจ้ามือ(ค่าใช้จ่าย)',
+    banker_charge: 'เจ้ามือ(ค่าใช้จ่าย)',
+    banker_no_charge: 'เจ้ามือ(ไม่มีค่าใช้จ่าย)',
     player: 'ผู้เล่น',
     tie: 'เสมอ',
     banker_pair: 'คู่เจ้ามือ',

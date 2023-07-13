@@ -188,8 +188,8 @@ const LANG = {
 
   // BCR
   bcr: {
-    banker_charge: 'ធនាគារិក(គ្មានគណៈកម្មការ)',
-    banker_no_charge: 'ធនាគារិក(គណៈកម្មាការ)',
+    banker_charge: 'ធនាគារិក(គណៈកម្មាការ)',
+    banker_no_charge: 'ធនាគារិក(គ្មានគណៈកម្មការ)',
     player: 'អ្នកលេង',
     tie: 'ចង',
     banker_pair: 'គូធនាគារិក',
