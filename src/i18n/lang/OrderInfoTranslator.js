@@ -314,8 +314,8 @@ function getOrderInfoTranslatorList(lang) {
 
   const BCR = {
     B_P_T: {
-      0: 'banker_charge',
-      1: 'banker_no_charge',
+      0: 'banker_no_charge',
+      1: 'banker_charge',
       2: 'player',
       3: 'tie',
     },
