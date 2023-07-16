@@ -314,7 +314,7 @@ const LANG = {
   addToBetSlip: 'Adicionar ao boletim de apostas',
   filterRepeat: 'Remover duplicado ＆ nº inválido.',
   drawResult: 'Resultado',
-  betNow: 'Bet Now',
+  betNow: 'Aposte Agora',
   pastDraw: 'Resultados',
   drawHistory: 'Resultados',
   betFail: 'Aposta incorreta, por favor tente novamente.',
