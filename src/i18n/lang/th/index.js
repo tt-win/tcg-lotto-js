@@ -55,7 +55,7 @@ const LANG = {
     FOURTH_BALL: '4th',
     FIFTH_BALL: '5th',
     SIXTH_BALL: '6th',
-    ANY: 'เลือก', 
+    ANY: 'เลือก',
   },
   // 全大小奇偶清
   pickRow: {
@@ -161,14 +161,19 @@ const LANG = {
       equal: 'เสมอ',
       gold: 'ทอง',
       goldFull: 'ทอง(210-695)',
+      goldFullLineBreak: 'ทอง\n(210-695)',
       wood: 'ไม้',
       woodFull: 'ไม้(696-763)',
+      woodFullLineBreak: 'ไม้\n(696-763)',
       water: 'น้ำ',
       waterFull: 'น้ำ(764-855)',
+      waterFullLineBreak: 'น้ำ\n(764-855)',
       fire: 'ไฟ',
       fireFull: 'ไฟ(856-923)',
+      fireFullLineBreak: 'ไฟ\n(856-923)',
       earth: 'โลก',
       earthFull: 'โลก(924-1410)',
+      earthFullLineBreak: 'โลก\n(924-1410)',
     },
   },
   // VXD

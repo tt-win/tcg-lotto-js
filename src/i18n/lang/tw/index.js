@@ -95,7 +95,7 @@ const LANG = {
   // BCR
   bcr: {
     banker_charge: '莊(非免傭)',
-    banker_no_charge: '莊(免傭)', 
+    banker_no_charge: '莊(免傭)',
     player: '閑',
     tie: '和',
     banker_pair: '莊對',
@@ -132,15 +132,10 @@ const LANG = {
     ballOddBallEven: '奇偶',
     equal: '和',
     gold: '金',
-    goldFull: '金(210-695)',
     wood: '木',
-    woodFull: '木(696-763)',
     water: '水',
-    waterFull: '水(764-855)',
     fire: '火',
-    fireFull: '火(856-923)',
     earth: '土',
-    earthFull: '土(924-1410)',
     WuXing: '五行',
   },
 
@@ -249,7 +244,7 @@ const LANG = {
   gameContent: '玩法內容',
   odds1Time: '獎金/注',
   betAmount: '注數',
-  
+
   // new
   bettingApproach: {
     1: '標準選號',
@@ -574,10 +569,20 @@ const LANG = {
       ballEven: '偶',
       equal: '和',
       gold: '金',
+      goldFull: '金(210-695)',
+      goldFullLineBreak: '金\n(210-695)',
       wood: '木',
+      woodFull: '木(696-763)',
+      woodFullLineBreak: '木\n(696-763)',
       water: '水',
+      waterFull: '水(764-855)',
+      waterFullLineBreak: '水\n(764-855)',
       fire: '火',
+      fireFull: '火(856-923)',
+      fireFullLineBreak: '火\n(856-923)',
       earth: '土',
+      earthFull: '土(924-1410)',
+      earthFullLineBreak: '土\n(924-1410)',
     },
     KENO: {
       sum: '和值:%@',
