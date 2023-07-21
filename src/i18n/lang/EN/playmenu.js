@@ -261,66 +261,121 @@ const PlayMenu = {
 
     3036: 'Lucky Pick 3',
     3038: 'Lucky Pick 12',
+
     '2896': 'First 3 Straight',
     '2897': 'Last 3 Straight',
     '2899': 'First 3 Rambolito',
     '2900': 'Last 3 Rambolito',
+
     '2903': 'First 2 Straight',
     '2904': 'Last 2 Straight',
     '2906': 'First 2 Rambolito',
     '2907': 'Last 2 Rambolito',
 
+    2917: 'Any',
+
+    2910: 'Position 1st',
+    2911: 'Position 2nd',
+    2912: 'Position 3rd',
+    2913: 'Position 4th',
+    2914: 'Position 5th',
+    2915: 'Position 6th',
+
     // TL645
 
     '2920': 'Lucky Pick 3',
     '2922': 'Lucky Pick 12',
+
     '2925': 'First 3 Straight',
     '2926': 'Last 3 Straight',
     '2928': 'First 3 Rambolito',
     '2929': 'Last 3 Rambolito',
+
     '2932': 'First 2 Straight',
     '2933': 'Last 2 Straight',
     '2935': 'First 2 Rambolito',
     '2936': 'Last 2 Rambolito',
 
+    2946: 'Any',
+
+    2939: 'Position 1st',
+    2940: 'Position 2nd',
+    2941: 'Position 3rd',
+    2942: 'Position 4th',
+    2943: 'Position 5th',
+    2944: 'Position 6th',
+
     // TL649
 
     '2949': 'Lucky Pick 3',
     '2951': 'Lucky Pick 12',
+    
     '2954': 'First 3 Straight',
     '2955': 'Last 3 Straight',
     '2957': 'First 3 Rambolito',
     '2958': 'Last 3 Rambolito',
+
     '2961': 'First 2 Straight',
     '2962': 'Last 2 Straight',
     '2964': 'First 2 Rambolito',
     '2965': 'Last 2 Rambolito',
 
+    2975: 'Any',
+
+    2968: 'Position 1st',
+    2969: 'Position 2nd',
+    2970: 'Position 3rd',
+    2971: 'Position 4th',
+    2972: 'Position 5th',
+    2973: 'Position 6th',
+
     // TL655
 
     '2978': 'Lucky Pick 3',
     '2980': 'Lucky Pick 12',
+
     '2983': 'First 3 Straight',
     '2984': 'Last 3 Straight',
     '2986': 'First 3 Rambolito',
     '2987': 'Last 3 Rambolito',
+
     '2990': 'First 2 Straight',
     '2991': 'Last 2 Straight',
     '2993': 'First 2 Rambolito',
     '2994': 'Last 2 Rambolito',
 
+    3004: 'Any',
+
+    2997: 'Position 1st',
+    2998: 'Position 2nd',
+    2999: 'Position 3rd',
+    3000: 'Position 4th',
+    3001: 'Position 5th',
+    3002: 'Position 6th',
+
     // TL658
 
     '3007': 'Lucky Pick 3',
     '3009': 'Lucky Pick 12',
+
     '3012': 'First 3 Straight',
     '3013': 'Last 3 Straight',
     '3015': 'First 3 Rambolito',
     '3016': 'Last 3 Rambolito',
+
     '3019': 'First 2 Straight',
     '3020': 'Last 2 Straight',
     '3022': 'First 2 Rambolito',
     '3023': 'Last 2 Rambolito',
+
+    3033: 'Any',
+    
+    3026: 'Position 1st',
+    3027: 'Position 2nd',
+    3028: 'Position 3rd',
+    3029: 'Position 4th',
+    3030: 'Position 5th',
+    3031: 'Position 6th',
 
     // Thai
 
