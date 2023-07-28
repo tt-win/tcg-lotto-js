@@ -2259,6 +2259,13 @@ const LANG = {
     drawVideo: 'Draw Video',
   },
   betThenDraw: '即投即开',
+  setting: {
+    gameSetting: '游戏设置',
+    drawAlert: '开奖提示音',
+    winningPopup: '中奖弹框提示',
+    profitAndLossPopup: '盈亏弹框提示',
+    blockChainRules: '区块链游戏说明',
+  },
 
   ...BaseGame,
   ...ProTrendChart,
