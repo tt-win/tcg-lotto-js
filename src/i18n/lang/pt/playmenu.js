@@ -21,14 +21,14 @@ const PlayMenu = {
 
     2735: '1 Digit', // sea tl2d 一星
     2741: '2 Digits', // SEA TL2D 二星
-    2746: 'Combinations', // SEA TL2D 趣味
+    2746: 'Combinações', // SEA TL2D 趣味
 
     // TL3D
 
     2684: '2 Digits', // SEA TL3D 二數
     2689: '3 Digits', // SEA TL3D 三數
     2694: '1 Digit', // SEA TL3D 跑數
-    2750: 'Combinations', // SEA TL3D 趣味
+    2750: 'Combinações', // SEA TL3D 趣味
 
     // TL4D
 
@@ -36,7 +36,7 @@ const PlayMenu = {
     2702: '3 Digits', // SEA TL4D 三數
     2707: '4 Digits', // SEA TL4D 四數
     2712: '1 Digit', // SEA TL4D 跑數
-    2755: 'Combinations', // SEA TL4D 趣味
+    2755: 'Combinações', // SEA TL4D 趣味
 
     // TL6D
 
@@ -44,7 +44,7 @@ const PlayMenu = {
     2720: '3 Digits', // SEA TL6D 三數
     2725: '4 Digits', // SEA TL6D 四數
     2730: '1 Digit', // SEA TL6D 跑數
-    2761: 'Combinations', // SEA TL6D 趣味
+    2761: 'Combinações', // SEA TL6D 趣味
 
     // TL642
 
@@ -90,7 +90,7 @@ const PlayMenu = {
     2739: 'Any One', // SEA TL2D 任选
     2742: 'EXACT 2D', // SEA TL2D 二星直选
     2744: 'ANY 2D',  // SEA TL2D 二星组选
-    2747: 'BSOE' ,// SEA TL2D 大小单双
+    2747: 'GPÍM' ,// SEA TL2D 大小单双
 
     // TL3D
 
@@ -99,7 +99,7 @@ const PlayMenu = {
     2690: 'EXACT', // SEA TL3D 後三直選(上正 三數)
     2692: 'ANY', // SEA TL3D 後三組選(上反 三數)
     2695: 'Random', // SEA TL3D 后二不定位
-    2751: 'BSOE' ,// SEA TL3D 大小单双
+    2751: 'GPÍM' ,// SEA TL3D 大小单双
     2776: 'EXACT 1D', // SEA TL3D 定位胆
 
     // TL4D
@@ -111,7 +111,7 @@ const PlayMenu = {
     2708: 'EXACT', // SEA TL4D 後四直選(上正 四數)
     2710: 'ANY', // SEA TL4D 後四組選(上反 四數)
     2713: 'Random', // SEA TL4D 后二不定位
-    2756: 'BSOE' ,// SEA TL4D 大小单双
+    2756: 'GPÍM' ,// SEA TL4D 大小单双
     2780: 'EXACT 1D', // SEA TL4D 定位胆
 
     // TL6D
@@ -123,7 +123,7 @@ const PlayMenu = {
     2726: 'EXACT', // SEA TL6D 後四直選(上正 四數)
     2728: 'ANY', // SEA TL6D 後四組選(上反 四數)
     2731: 'Random', // SEA TL6D 后二不定位
-    2762: 'BSOE' ,// SEA TL6D 大小单双
+    2762: 'GPÍM' ,// SEA TL6D 大小单双
     2785: 'EXACT 1D', // SEA TL6D 定位胆
 
     // TL642
