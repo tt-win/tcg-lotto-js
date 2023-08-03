@@ -192,8 +192,8 @@ const PlayMenu = {
     2743: 'EXACT 2D', // SEA TL2D 二星直选
     2745: 'ANY 2D',  // SEA TL2D 二星组选
 
-    2748: 'BSOE 1st', // SEA TL2D BSOE第一球
-    2749: 'BSOE 2nd', // SEA TL2D BSOE第二球
+    2748: 'GPÍM 1st', // SEA TL2D BSOE第一球
+    2749: 'GPÍM 2nd', // SEA TL2D BSOE第二球
 
     // TL3D
 
@@ -202,11 +202,11 @@ const PlayMenu = {
     2691: 'EXACT 3D', // SEA TL3D 上正三位数
     2693: 'ANY 3D', // SEA TL3D 上反三位数
     2696: 'ANY 1 of last 2D', // SEA TL3D 上跑两位数
-    2754: 'BSOE' ,// SEA TL3D 大小单双
+    2754: 'GPÍM' ,// SEA TL3D 大小单双
 
-    2752: 'BSOE 1st', // SEA TL3D BSOE第一球
-    2753: 'BSOE 2nd', // SEA TL3D BSOE第二球
-    2754: 'BSOE 3rd', // SEA TL3D BSOE第三球
+    2752: 'GPÍM 1st', // SEA TL3D BSOE第一球
+    2753: 'GPÍM 2nd', // SEA TL3D BSOE第二球
+    2754: 'GPÍM 3rd', // SEA TL3D BSOE第三球
 
     2777: 'EXACT 1D 1st', // SEA TL3D 定位胆第一球
     2778: 'EXACT 1D 2nd',  // SEA TL3D 定位胆第二球
@@ -221,12 +221,12 @@ const PlayMenu = {
     2709: 'EXACT 4D', // SEA TL4D 上正四位数
     2711: 'ANY 4D', // SEA TL4D 上反四位数
     2714: 'ANY 1 of last 2D', // SEA TL4D 上跑两位数
-    2756: 'BSOE' ,// SEA TL4D 大小单双
+    2756: 'GPÍM' ,// SEA TL4D 大小单双
 
-    2757: 'BSOE 1st', // SEA TL3D BSOE第一球
-    2758: 'BSOE 2nd', // SEA TL3D BSOE第二球
-    2759: 'BSOE 3rd', // SEA TL3D BSOE第三球
-    2760: 'BSOE 4th', // SEA TL3D BSOE第4球
+    2757: 'GPÍM 1st', // SEA TL3D BSOE第一球
+    2758: 'GPÍM 2nd', // SEA TL3D BSOE第二球
+    2759: 'GPÍM 3rd', // SEA TL3D BSOE第三球
+    2760: 'GPÍM 4th', // SEA TL3D BSOE第4球
 
     2781: 'EXACT 1D 1st', // SEA TL4D 定位胆第一球
     2782: 'EXACT 1D 2nd', // SEA TL4D 定位胆第二球
@@ -242,14 +242,14 @@ const PlayMenu = {
     2727: 'EXACT Last 4D', // SEA TL6D 上正四位数
     2729: 'ANY Last 4D', // SEA TL6D 上反四位数
     2732: 'ANY 1 of last 2D', // SEA TL6D 上跑两位数
-    2762: 'BSOE' ,// SEA TL6D 大小单双
+    2762: 'GPÍM' ,// SEA TL6D 大小单双
 
-    2763: 'BSOE 1st', // SEA TL3D BSOE第一球
-    2764: 'BSOE 2nd', // SEA TL3D BSOE第二球
-    2765: 'BSOE 3rd', // SEA TL3D BSOE第三球
-    2766: 'BSOE 4th', // SEA TL3D BSOE第4球
-    2767: 'BSOE 5th', // SEA TL3D BSOE第5球
-    2768: 'BSOE 6th', // SEA TL3D BSOE第6球
+    2763: 'GPÍM 1st', // SEA TL3D BSOE第一球
+    2764: 'GPÍM 2nd', // SEA TL3D BSOE第二球
+    2765: 'GPÍM 3rd', // SEA TL3D BSOE第三球
+    2766: 'GPÍM 4th', // SEA TL3D BSOE第4球
+    2767: 'GPÍM 5th', // SEA TL3D BSOE第5球
+    2768: 'GPÍM 6th', // SEA TL3D BSOE第6球
 
     2786: 'EXACT 1D 1st', // SEA TL6D 定位胆第一球
     2787: 'EXACT 1D 2nd', // SEA TL6D 定位胆第二球
