@@ -473,6 +473,8 @@ const LANG = {
     TL658:	"天龙6/58",
     VXD: '色碟',
     VBC: '鱼虾蟹',
+    NNP: "百人牛牛",
+    BCR: "百家乐",
   },
   gameCode: {
     T2KFFC: '2000分分彩',
