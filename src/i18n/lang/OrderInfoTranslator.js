@@ -1571,7 +1571,7 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content) => i18n(`ball.BSOE.${BALL_BSOE_KEY[content]}`),
     },
-    TL6XX: {
+    TL6XX1D: {
       items: [
         PlayMenu.Any1_TL642,
         PlayMenu.First_TL642,
@@ -1610,7 +1610,47 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Sixth_TL658,
       ],
       getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
-    }
+    },
+    TL6XX2D: {
+      items: [
+        PlayMenu.First_2_Straight_TL642,
+        PlayMenu.Last_2_Straight_TL642,
+        PlayMenu.First_2_Straight_TL645,
+        PlayMenu.Last_2_Straight_TL645,
+        PlayMenu.First_2_Straight_TL649,
+        PlayMenu.Last_2_Straight_TL649,
+        PlayMenu.First_2_Straight_TL655,
+        PlayMenu.Last_2_Straight_TL655,
+        PlayMenu.First_2_Straight_TL658,
+        PlayMenu.Last_2_Straight_TL658,
+      ],
+      getText: (content) => {
+        const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
+
+        return trimed.match(ballRegex).join(',');
+      },
+    },
+    TL6XX3D: {
+      items: [
+        PlayMenu.First_3_Straight_TL642,
+        PlayMenu.Last_3_Straight_TL642,
+        PlayMenu.First_3_Straight_TL645,
+        PlayMenu.Last_3_Straight_TL645,
+        PlayMenu.First_3_Straight_TL649,
+        PlayMenu.Last_3_Straight_TL649,
+        PlayMenu.First_3_Straight_TL655,
+        PlayMenu.Last_3_Straight_TL655,
+        PlayMenu.First_3_Straight_TL658,
+        PlayMenu.Last_3_Straight_TL658,
+      ],
+      getText: (content) => {
+        const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
+
+        return trimed.match(ballRegex).join(',');
+      },
+    },
   };
 
   const LFTranslator = {
