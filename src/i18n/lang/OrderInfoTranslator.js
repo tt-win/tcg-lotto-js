@@ -1623,12 +1623,22 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Last_2_Straight_TL655,
         PlayMenu.First_2_Straight_TL658,
         PlayMenu.Last_2_Straight_TL658,
+        PlayMenu.First_2_Any_TL642,
+        PlayMenu.Last_2_Any_TL642,
+        PlayMenu.First_2_Any_TL645,
+        PlayMenu.Last_2_Any_TL645,
+        PlayMenu.First_2_Any_TL649,
+        PlayMenu.Last_2_Any_TL649,
+        PlayMenu.First_2_Any_TL655,
+        PlayMenu.Last_2_Any_TL655,
+        PlayMenu.First_2_Any_TL658,
+        PlayMenu.Last_2_Any_TL658,
       ],
       getText: (content) => {
         const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
         const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
 
-        return trimed.match(ballRegex).join(',');
+        return trimed.match(ballRegex).join('-');
       },
     },
     TL6XX3D: {
@@ -1643,12 +1653,42 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Last_3_Straight_TL655,
         PlayMenu.First_3_Straight_TL658,
         PlayMenu.Last_3_Straight_TL658,
+        PlayMenu.First_3_Any_TL642,
+        PlayMenu.Last_3_Any_TL642,
+        PlayMenu.First_3_Any_TL645,
+        PlayMenu.Last_3_Any_TL645,
+        PlayMenu.First_3_Any_TL649,
+        PlayMenu.Last_3_Any_TL649,
+        PlayMenu.First_3_Any_TL655,
+        PlayMenu.Last_3_Any_TL655,
+        PlayMenu.First_3_Any_TL658,
+        PlayMenu.Last_3_Any_TL658,
       ],
       getText: (content) => {
         const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
         const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
 
-        return trimed.match(ballRegex).join(',');
+        return trimed.match(ballRegex).join('-');
+      },
+    },
+    TL6XX_LUCKY_PICK: {
+      items: [
+        PlayMenu.LuckyPick_3_TL642,
+        PlayMenu.LuckyPick_12_TL642,
+        PlayMenu.LuckyPick_3_TL645,
+        PlayMenu.LuckyPick_12_TL645,
+        PlayMenu.LuckyPick_3_TL649,
+        PlayMenu.LuckyPick_12_TL649,
+        PlayMenu.LuckyPick_3_TL655,
+        PlayMenu.LuckyPick_12_TL655,
+        PlayMenu.LuckyPick_3_TL658,
+        PlayMenu.LuckyPick_12_TL658,
+      ],
+      getText: (content) => {
+        const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
+
+        return trimed.match(ballRegex).join('-');
       },
     },
   };
