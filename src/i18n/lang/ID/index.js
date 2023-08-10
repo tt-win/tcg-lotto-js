@@ -367,7 +367,7 @@ const LANG = {
   odds: 'Peluang',
   prize: 'Peluang',
   amount: 'Stake',
-  manualBetPlaceHolderSEA: `Please type your bets here or upload a txt file. The format is per sample below :\n\nNOTE:  You can use "," or ";" or "<Space>" or new line to separate the numbers you are betting.`,
+  manualBetPlaceHolderSEA: `Silakan ketikkan taruhan Anda di sini atau unggah file txt. Formatnya seperti contoh di bawah ini:\n\n CATATAN: Anda dapat menggunakan "," atau ";" atau "<Spasi>" atau baris baru untuk memisahkan angka-angka yang Anda pertaruhkan.`,
   detail: 'Detil Bet',
   multiple: 'Banyak',
   syncMultipleBets: 'Sync Multiple Bets',

@@ -140,7 +140,7 @@ const PlayMenu = {
     '2916': 'Any',
 
     // TL645
-    
+
     '2919': 'Lucky Pick 3',
     '2921': 'Lucky Pick 12',
     '2924': 'Straight',
@@ -203,7 +203,7 @@ const PlayMenu = {
     2688: 'ANY Last 2D', // SEA TL3D 上反二位数
     2691: 'EXACT 3D', // SEA TL3D 上正三位数
     2693: 'ANY 3D', // SEA TL3D 上反三位数
-    2696: 'Apa saja 1D -spesial', // SEA TL3D 上跑两位数
+    2696: 'Acak 1D -spesial', // SEA TL3D 上跑两位数
 
     2752: 'BSOE 1st', // SEA TL3D BSOE第一球
     2753: 'BSOE 2nd', // SEA TL3D BSOE第二球
@@ -221,7 +221,7 @@ const PlayMenu = {
     2706: 'ANY Last 3D', // SEA TL4D 上反三位数
     2709: 'EXACT 4D', // SEA TL4D 上正四位数
     2711: 'ANY 4D', // SEA TL4D 上反四位数
-    2714: 'Apa saja 1D -spesial', // SEA TL4D 上跑两位数
+    2714: 'Acak 1D -spesial', // SEA TL4D 上跑两位数
 
     2757: 'BSOE 1st', // SEA TL3D BSOE第一球
     2758: 'BSOE 2nd', // SEA TL3D BSOE第二球
@@ -241,7 +241,7 @@ const PlayMenu = {
     2724: 'ANY Last 3D', // SEA TL6D 上反三位数
     2727: 'EXACT Last 4D', // SEA TL6D 上正四位数
     2729: 'ANY Last 4D', // SEA TL6D 上反四位数
-    2732: 'Apa saja 1D -spesial', // SEA TL6D 上跑两位数
+    2732: 'Acak 1D -spesial', // SEA TL6D 上跑两位数
 
     2763: 'BSOE 1st', // SEA TL3D BSOE第一球
     2764: 'BSOE 2nd', // SEA TL3D BSOE第二球
@@ -402,12 +402,12 @@ const PlayMenu = {
     2498: 'Fan',
     2500: 'Kwok',
     2502: 'Nim',
-    2504: 'BesarKecilAnehGenap',
+    2504: 'BesarKecilGanjilGenap',
 
     // 三級選單
 
     2062: '2D Yang tepat - 1st', // 上正二位数
-    2064: '2D Apa saja - 1st', // 上反二位数
+    2064: '2D Acak - 1st', // 上反二位数
     2066: '2D tepat -Spesial', // 下正二位数
     2480: 'Norma Dua digit spesial berurutan',
     2481: 'Manual Dua digit spesial berurutan',
@@ -416,10 +416,10 @@ const PlayMenu = {
     2484: 'Manual  Dua digit berurutan - 1st',
 
     2057: '3D yang tepat -1st', // 上正三位数
-    2059: '3D Apa saja - 1st', // 上反三位数
+    2059: '3D Acak - 1st', // 上反三位数
     2645: '3D yang tepat - 2nd', // 二等三位数
     2646: '3D yang tepat spesial -2nd', // 二特三位数
-    2069: '1D apa saja -1st',
+    2069: '1D acak -1st',
     2485: 'Norma Tiga digit berurutan - 1st',
     2486: 'Manual Tiga digit berurutan - 1st',
     2487: 'Norma Tiga digit tanpa urutan - 1st',
@@ -429,7 +429,7 @@ const PlayMenu = {
     2499: 'Fan',
     2501: 'Kwok',
     2503: 'Nim',
-    2505: 'BesarKecilAnehGenap',
+    2505: 'BesarKecilGanjilGenap',
 
     // vnc 越南彩
 
@@ -472,13 +472,13 @@ const PlayMenu = {
     2489: 'Fan', // 番
     2491: 'Kwok', // 角
     2493: 'Nim', // 念
-    2495: 'BesarKecilAnehGenap', // 大小单双
+    2495: 'BesarKecilGanjilGenap', // 大小单双
 
     2619: 'Taruhan satu dua', // 骰寶快三 - 单骰
     2620: 'Total tiga dadu', // 骰寶快三 - 和值
     2621: 'Tiga lipat', // 骰寶快三 - 围骰
-    2622: 'Tiga lipat apa saja', // 骰寶快三 - 全围
-    2623: 'BesarKecilAnehGenap', // 骰寶快三 - 大小单双
+    2622: 'Tiga lipat acak', // 骰寶快三 - 全围
+    2623: 'BesarKecilGanjilGenap', // 骰寶快三 - 大小单双
 
     2625: '1 - 10 Peringkat', // 极速PK10 - 第1-10名排名-二級選單
     2626: '1-10 BSOE', // 极速PK10 - 第1-10名-大小单双
@@ -521,13 +521,13 @@ const PlayMenu = {
 
     // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
     2092: 'Tepat 4D -spesial', // 上正四位数 Last_4_Straight_1st_VNC
-    2094: 'Apa saja 4D - spesial', // 上反四位数 Last_4_Combine_1st_VNC
+    2094: 'Acak 4D - spesial', // 上反四位数 Last_4_Combine_1st_VNC
     2097: 'Tepat 3D -spesial', // 上正三位数 Last_3_Straight_1st_VNC
-    2099: 'Apa saja 3D -spesial', // 上反三位数 Last_3_Combine_1st_VNC
+    2099: 'Acak 3D -spesial', // 上反三位数 Last_3_Combine_1st_VNC
     2102: 'Tepat 2D -spesial', // 上正二位数 Last_2_Straight_1st_VNC
     2104: 'Tepat 2D - 1st', // 下正二位数 Last_2_Straight_2nd_VNC
-    2107: 'Apa saja 1D -spesial', // 上跑两位数 Last_2_Any_1st_VNC
-    2109: 'Apa saja 1D-1st', // 下跑两位数 Last_2_Any_2nd_VNC
+    2107: 'Acak 1D -spesial', // 上跑两位数 Last_2_Any_1st_VNC
+    2109: 'Acak 1D-1st', // 下跑两位数 Last_2_Any_2nd_VNC
 
     2601: 'Parlay 2', // 北部 串2组 Bunch_2_North_VNC
     2604: 'Parlay 3', // 北部 串3组 Bunch_3_North_VNC
@@ -568,7 +568,7 @@ const PlayMenu = {
     2490: 'Fan', // 番
     2492: 'Kwok', // 角
     2494: 'Nim', // 念
-    2496: 'BesarKecilAnehGenap', // 大小单双
+    2496: 'BesarKecilGanjilGenap', // 大小单双
 
     263700: 'Posisi', // VNC 4D 一数 Fixed_Place_4D_VNC
 
@@ -651,9 +651,9 @@ const PlayMenu = {
     2138: 'TEPAT', // 上正
     2140: 'TEPAT', // 下正
     2129: 'Tepat 4D', // Last_4_Straight_LAO
-    2131: 'Apa saja 4D', // Last_4_Combine_LAO
+    2131: 'Acak 4D', // Last_4_Combine_LAO
     2134: 'Tepat 3D', // Last_3_Straight_LAO
-    2136: 'Apa saja 3D', // Last_3_Combine_LAO
+    2136: 'Acak 3D', // Last_3_Combine_LAO
     2139: 'Tepat 2D -terakhir', // Last_2_Straight_LAO
     2141: 'Tepat 2D -pertama', // First_2_Straight_LAO
     2143: 'Acak', // 跑數二級選單
@@ -664,7 +664,7 @@ const PlayMenu = {
     2507: 'Fan',
     2509: 'Kwok',
     2511: 'Nim',
-    2513: 'BesarKecilAnehGenap',
+    2513: 'BesarKecilGanjilGenap',
 
     2632: 'Posisi', // SEA 4D 一数 Fixed_Place_4D
 
@@ -685,21 +685,21 @@ const PlayMenu = {
     2294: 'Manual Tiga digit berurutan', // Last_3_Straight_LAO_Single
     2295: 'Norma Empat digit berurutan', // Last_4_Straight_LAO_Multi
     2296: 'Manual Empat digit berurutan', // Last_4_Straight_LAO_Single
-    2144: 'apa saja 1D -terakhir', // Last_2_Any_LAO
-    2146: 'Apa saja 1D -pertama', // First_2_Any_LAO
+    2144: 'acak 1D -terakhir', // Last_2_Any_LAO
+    2146: 'Acak 1D -pertama', // First_2_Any_LAO
 
     2305: 'Ikan udang kepiting', // 魚蝦蟹
 
     2508: 'Fan',
     2510: 'Kwok',
     2512: 'Nim',
-    2514: 'BesarKecilAnehGenap',
+    2514: 'BesarKecilGanjilGenap',
 
     // Keno
 
     // 一級選單
 
-    2647: 'Pick', // 任選 - 一級選單 Any_KENO 
+    2647: 'Pick', // 任選 - 一級選單 Any_KENO
     2656: 'Combinations', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單
