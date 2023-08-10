@@ -60,19 +60,19 @@ const LANG = {
     BSOE: {
       big: 'Besar',
       small: 'Kecil',
-      odd: 'Aneh',
+      odd: 'Ganjil',
       even: 'Genap',
     },
     K3_BSOE: {
       big: 'Besar',
       small: 'Kecil',
-      odd: 'Aneh',
+      odd: 'Ganjil',
       even: 'Genap',
     },
     PK10_BSOE: {
       big: 'Besar',
       small: 'Kecil',
-      odd: 'Aneh',
+      odd: 'Ganjil',
       even: 'Genap',
     },
     VNC_PK10_DragonTiger: {
