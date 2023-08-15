@@ -35,6 +35,7 @@ const trendChart = {
     P5_Last_2: 'P5後二',
     All_4: '四星',
     All_3: '三星',
+    All_2: '二星',
     '3D_Sum': '和數',
     Complex: '綜合',
     Complex_LHC: '綜合',
