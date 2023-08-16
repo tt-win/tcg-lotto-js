@@ -1333,7 +1333,7 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
-  // 泰彩 & 越南彩的投注內容 
+  // 泰彩 & 越南彩的投注內容
   const THAITranslator = {
     Thai: {
       items: [
@@ -1444,8 +1444,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fan_Tan_Fan_VNC,
         PlayMenu.Fan_Tan_Fan_LAO,
       ],
-      getText: (content) => i18n(`ball.fanTanFan.${content.replace('0', '4')}`),
-
+      getText: (content) => (content || '').split('|')
+        .map((betNumber) => i18n(`ball.fanTanFan.${betNumber.trim().replace('0', '4')}`))
+        .join(',')
     },
 
     JIAO: {
@@ -1454,7 +1455,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fan_Tan_Jiao_VNC,
         PlayMenu.Fan_Tan_Jiao_LAO,
       ],
-      getText: (content) => i18n(`ball.fanTanJiao.${content.replace('0', '4').split('').join('_')}`),
+      getText: (content) => (content || '').split('|')
+        .map((betNumber) => i18n(`ball.fanTanJiao.${betNumber.trim().replace('0', '4').split('').join('_')}`))
+        .join(',')
     },
 
     NIAN: {
@@ -1463,9 +1466,11 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fan_Tan_Nian_VNC,
         PlayMenu.Fan_Tan_Nian_LAO,
       ],
-      getText: (content) => i18n(`ball.fanTanNian.${content.replace('0', '4').split('').join('_')}`),
+      getText: (content) => (content || '').split('|')
+        .map((betNumber) => i18n(`ball.fanTanNian.${betNumber.trim().replace('0', '4').split('').join('_')}`))
+        .join(',')
     },
-    
+
     SICBO_ALL_SURROUND: {
       items: [
         PlayMenu.All_Surround_Dice_Main_VK3,
@@ -2095,7 +2100,7 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content) => {
         const data = content.split(',');
-        const ranking = data[0].split('-');        
+        const ranking = data[0].split('-');
         return `${i18n(`pk10Ranking.${ranking[0]}`)} VS ${i18n(`pk10Ranking.${ranking[1]}`)} @ ${ranking[data[1]]}`;
       }
     },
@@ -2150,10 +2155,10 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.P5First4Straight_LF,
         PlayMenu.P5Last4Straight_LF,
       ],
-      getText: (content, bettingContent) => 
+      getText: (content, bettingContent) =>
       bettingContent.replace(/\|/g, ' ').split(',').filter((e) => e === 0 || e).join(' | ')
     },
-    
+
     STRAIGHT_LF_SINGLE: {
       items: [
         PlayMenu.Last3Straight_LF_Single,
