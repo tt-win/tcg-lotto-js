@@ -2457,9 +2457,6 @@ const LANG = {
     betContent_2: '重庆时时彩-万位大，重庆时时彩开奖号码万位为5、6、7、8、9，即为中奖。',
     autoOdd: '投注若发生赔率浮动，将自动采用最新赔率',
   },
-  play_rule: {
-
-  },
   resultContinuousOpen: '本次连续开奖',
   stackWinAmount: '累积中奖金额',
   allBetAmount: '总投注',
