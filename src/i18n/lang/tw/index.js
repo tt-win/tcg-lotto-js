@@ -218,6 +218,9 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '投注號碼%@達到當前庫存允許銷售的最大投注數額。',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '以下號碼已超出當前期購買額度，請重新下注，剩餘可購買金額如下',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '投注金額已超過%@元允許的上限',
+    // Other
+    DATA_SYNC_LOADING: '数据资料同步中，请稍后再试',
+    BET_OVER_CURRENT_STOCK: '投注內容已超過本期庫存總量，請等待下期更新後在試。 ',
   },
   gameHistoryCancel: '確定撤單？',
   gameHistoryCancel_success: '撤單成功',
@@ -2278,6 +2281,11 @@ const LANG = {
     purchaseNotice: '當購買份額超出剩餘份額，系統將自動買滿剩下份額',
     backToTop: '返回頂部',
     initGroupBuySuccess: '發起合買方案成功',
+    betLogwinRate: '勝率：統計發起人近100期內發起合買的訂單中獎率，分為5個中獎勝率範圍顯示不同的圖示',
+    purchaseWanted: '認購',
+    gameList: '彩種列表',
+    unlimitAmount: '不限金額',
+    confirmGroupBuy: '請確認合買信息',
   },
   planStatus: {
     IN_PROGRESS: '進行中',
@@ -2376,6 +2384,7 @@ const LANG = {
   openInfo: '開獎時間：首期開獎時間不固定，依官方開出時間為主',
   secToClose: '%@秒後自動關閉',
   watchRecord: '查看記錄',
+  
 };
 
 export default LANG;
