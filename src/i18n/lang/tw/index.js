@@ -1153,7 +1153,7 @@ const LANG = {
   betNowElott: '盤口玩法',
   betNowEnt: '娛樂城玩法',
   betNowEnterGame: '進入玩法',
-  addToCart: '添加至購彩籃',
+  addToCart: '添加至購物車',
   betDirect: '直接投注',
   lastDraw: '上期開獎',
   numeroFormat: '第%@期',
