@@ -912,6 +912,12 @@ export const PlayMenu = {
   '2_Num_TL658': 3017,
   '1_Num_TL658': 3024,
 
+  // TL2D37
+
+  '1_Num_TL2D37': 3039, // SEA TL2D37 一星
+  '2_Num_TL2D37': 3045, // SEA TL2D37 二星
+  'Fun_TL2D37': 3050, // SEA TL2D37 趣味
+
   // 二級選單
 
   // TL2D
@@ -1010,6 +1016,14 @@ export const PlayMenu = {
   '2_Num_Any_TL658': 3021,
   FixedPlace_TL658: 3025,
   Any1_Main_TL658: 3032,
+
+  // TL2D37
+
+  'FixedPlace_TL2D37': 3040, // SEA TL2D37 定位胆
+  'Any_TL2D37': 3043, // SEA TL2D37 任选
+  'Last_2_Straight_Main_TL2D37': 3046, // SEA TL2D37 二星直选
+  'Last_2_Combine_Main_TL2D37': 3048, // SEA TL2D37 二星组选
+  'BSOE_TL2D37': 3051, // SEA TL2D37 大小单双
 
   // 三級選單
 
@@ -1185,6 +1199,16 @@ export const PlayMenu = {
   Fifth_TL658: 3030,
   Sixth_TL658: 3031,
   Any1_TL658: 3033,
+
+  // TL2D37
+
+  'First_TL2D37': 3041, // SEA TL2D37 第一球
+  'Second_TL2D37': 3042, // SEA TL2D37 第二球
+  'Any1_TL2D37': 3044, // SEA TL2D37 任选一
+  'Last_2_Straight_TL2D37': 3047, // SEA TL2D37 二星直选
+  'Last_2_Combine_TL2D37': 3049, // SEA TL2D37 二星组选
+  'First_BSOE_TL2D37': 3052, // SEA TL2D37 第一球
+  'Second_BSOE_TL2D37': 3053, // SEA TL2D37 第二球
 
   // THAI
 

@@ -22,67 +22,73 @@ const PlayMenu = {
 
     // TL2D
 
-    2735: '1 Digit', // sea tl2d 一星
+    2735: '1 Digit', // SEA TL2D 一星
     2741: '2 Digits', // SEA TL2D 二星
     2746: 'Combinations', // SEA TL2D 趣味
 
     // TL3D
 
-    2684: '2 Digits', // SEA TL3D 二數
-    2689: '3 Digits', // SEA TL3D 三數
-    2694: '1 Digit', // SEA TL3D 跑數
+    2684: '2 Digits', // SEA TL3D 二数
+    2689: '3 Digits', // SEA TL3D 三数
+    2694: '1 Digit', // SEA TL3D 跑数
     2750: 'Combinations', // SEA TL3D 趣味
 
     // TL4D
 
-    2697: '2 Digits', // SEA TL4D 二數
-    2702: '3 Digits', // SEA TL4D 三數
-    2707: '4 Digits', // SEA TL4D 四數
-    2712: '1 Digit', // SEA TL4D 跑數
+    2697: '2 Digits', // SEA TL4D 二数
+    2702: '3 Digits', // SEA TL4D 三数
+    2707: '4 Digits', // SEA TL4D 四数
+    2712: '1 Digit', // SEA TL4D 跑数
     2755: 'Combinations', // SEA TL4D 趣味
 
     // TL6D
 
-    2715: '2 Digits', // SEA TL6D 二數
-    2720: '3 Digits', // SEA TL6D 三數
-    2725: '4 Digits', // SEA TL6D 四數
-    2730: '1 Digit', // SEA TL6D 跑數
+    2715: '2 Digits', // SEA TL6D 二数
+    2720: '3 Digits', // SEA TL6D 三数
+    2725: '4 Digits', // SEA TL6D 四数
+    2730: '1 Digit', // SEA TL6D 跑数
     2761: 'Combinations', // SEA TL6D 趣味
 
     // TL642
 
-    3034: 'Lucky Pick',
-    '2894': '3 Digits',
-    '2901': '2 Digits',
-    '2908': '1 Digit',
+    2894: '3 Digits', // SEA TL642 Lucky Pick
+    2901: '2 Digits', // SEA TL642 3D
+    2908: '1 Digit', // SEA TL642 2D
+    3034: 'Lucky Pick', // SEA TL642 1D
 
     // TL645
 
-    '2918': 'Lucky Pick',
-    '2923': '3 Digits',
-    '2930': '2 Digits',
-    '2937': '1 Digit',
+    2918: 'Lucky Pick', // SEA TL645 Lucky Pick
+    2923: '3 Digits', // SEA TL645 3D
+    2930: '2 Digits', // SEA TL645 2D
+    2937: '1 Digit', // SEA TL645 1D
 
     // TL649
 
-    '2947': 'Lucky Pick',
-    '2952': '3 Digits',
-    '2959': '2 Digits',
-    '2966': '1 Digit',
+    2947: 'Lucky Pick', // SEA TL649 Lucky Pick
+    2952: '3 Digits', // SEA TL649 3D
+    2959: '2 Digits', // SEA TL649 2D
+    2966: '1 Digit', // SEA TL649 1D
 
     // TL655
 
-    '2976': 'Lucky Pick',
-    '2981': '3 Digits',
-    '2988': '2 Digits',
-    '2995': '1 Digit',
+    2976: 'Lucky Pick', // SEA TL655 Lucky Pick
+    2981: '3 Digits', // SEA TL655 3D
+    2988: '2 Digits', // SEA TL655 2D
+    2995: '1 Digit', // SEA TL655 1D
 
     // TL658
 
-    '3005': 'Lucky Pick',
-    '3010': '3 Digits',
-    '3017': '2 Digits',
-    '3024': '1 Digit',
+    3005: 'Lucky Pick', // SEA TL658 Lucky Pick
+    3010: '3 Digits', // SEA TL658 3D
+    3017: '2 Digits', // SEA TL658 2D
+    3024: '1 Digit', // SEA TL658 1D
+
+    // TL2D37
+
+    3039: '1 Digit', // SEA TL2D37 一星
+    3045: '2 Digits', // SEA TL2D37 二星
+    3050: 'Combinations', // SEA TL2D37 趣味
 
     // 二級選單
 
@@ -90,112 +96,118 @@ const PlayMenu = {
 
     2736: 'EXACT 1D', // SEA TL2D 定位胆
     2739: 'Any One', // SEA TL2D 任选
-    2742: 'EXACT 2D', // SEA TL2D 二星直选
-    2744: 'ANY 2D',  // SEA TL2D 二星组选
-    2747: 'BSOE' ,// SEA TL2D 大小单双
+    2742: 'EXACT', // SEA TL2D 二星直选
+    2744: 'ANY', // SEA TL2D 二星组选
+    2747: 'BSOE', // SEA TL2D 大小单双
 
     // TL3D
 
-    2685: 'EXACT', // SEA TL3D 後二直選(上正 二數)
-    2687: 'ANY', // SEA TL3D 後二組選(上反 二數)
-    2690: 'EXACT', // SEA TL3D 後三直選(上正 三數)
-    2692: 'ANY', // SEA TL3D 後三組選(上反 三數)
-    2695: 'Random', // SEA TL3D 后二不定位
-    2751: 'BSOE' ,// SEA TL3D 大小单双
+    2685: 'EXACT', // SEA TL3D 后二直选
+    2687: 'ANY', // SEA TL3D 后二组选
+    2690: 'EXACT', // SEA TL3D 后三直选
+    2692: 'ANY', // SEA TL3D 后三组选
+    2695: 'ANY', // SEA TL3D 后二不定位
+    2751: 'BSOE', // SEA TL3D 大小单双
     2776: 'EXACT 1D', // SEA TL3D 定位胆
 
     // TL4D
 
-    2698: 'EXACT', // SEA TL4D 後二直選(上正 二數)
-    2700: 'ANY', // SEA TL4D 後二組選(上反 二數)
-    2703: 'EXACT', // SEA TL4D 後三直選(上正 三數)
-    2705: 'ANY', // SEA TL4D 後三組選(上反 三數)
-    2708: 'EXACT', // SEA TL4D 後四直選(上正 四數)
-    2710: 'ANY', // SEA TL4D 後四組選(上反 四數)
-    2713: 'Random', // SEA TL4D 后二不定位
-    2756: 'BSOE' ,// SEA TL4D 大小单双
+    2698: 'EXACT', // SEA TL4D 后二直选
+    2700: 'ANY', // SEA TL4D 后二组选
+    2703: 'EXACT', // SEA TL4D 后三直选
+    2705: 'ANY', // SEA TL4D 后三组选
+    2708: 'EXACT', // SEA TL4D 后四直选
+    2710: 'ANY', // SEA TL4D 后四组选
+    2713: 'ANY', // SEA TL4D 后二不定位
+    2756: 'BSOE', // SEA TL4D 大小单双
     2780: 'EXACT 1D', // SEA TL4D 定位胆
 
     // TL6D
 
-    2716: 'EXACT', // SEA TL6D 後二直選(上正 二數)
-    2718: 'ANY', // SEA TL6D 後二組選(上反 二數)
-    2721: 'EXACT', // SEA TL6D 後三直選(上正 三數)
-    2723: 'ANY', // SEA TL6D 後三組選(上反 三數)
-    2726: 'EXACT', // SEA TL6D 後四直選(上正 四數)
-    2728: 'ANY', // SEA TL6D 後四組選(上反 四數)
-    2731: 'Random', // SEA TL6D 后二不定位
-    2762: 'BSOE' ,// SEA TL6D 大小单双
+    2716: 'EXACT', // SEA TL6D 后二直选
+    2718: 'ANY', // SEA TL6D 后二组选
+    2721: 'EXACT', // SEA TL6D 后三直选
+    2723: 'ANY', // SEA TL6D 后三组选
+    2726: 'EXACT', // SEA TL6D 后四直选
+    2728: 'ANY', // SEA TL6D 后四组选
+    2731: 'ANY', // SEA TL6D 后二不定位
+    2762: 'BSOE', // SEA TL6D 大小单双
     2785: 'EXACT 1D', // SEA TL6D 定位胆
 
     // TL642
 
-    3035: 'Lucky Pick 3',
-    3037: 'Lucky Pick 12',
-    '2895': 'Straight',
-    '2898': 'Rambolito',
-    '2902': 'Straight',
-    '2905': 'Rambolito',
-    '2909': 'Position',
-    '2916': 'Any',
+    2895: 'Straight', // SEA TL642 Lucky Pick 3
+    2898: 'Rambolito', // SEA TL642 Lucky Pick 12
+    2902: 'Straight', // SEA TL642 Straight
+    2905: 'Rambolito', // SEA TL642 Any
+    2909: 'Straight', // SEA TL642 Straight
+    2916: 'Rambolito', // SEA TL642 Any
+    3035: 'Lucky Pick 3', // SEA TL642 Fixed Position
+    3037: 'Lucky Pick 12', // SEA TL642 Any
 
     // TL645
-
-    '2919': 'Lucky Pick 3',
-    '2921': 'Lucky Pick 12',
-    '2924': 'Straight',
-    '2927': 'Rambolito',
-    '2931': 'Straight',
-    '2934': 'Rambolito',
-    '2938': 'Position',
-    '2945': 'Any',
+    
+    2919: 'Lucky Pick 3', // SEA TL645 Lucky Pick 3
+    2921: 'Lucky Pick 12', // SEA TL645 Lucky Pick 12
+    2924: 'Straight', // SEA TL645 Straight
+    2927: 'Rambolito', // SEA TL645 Any
+    2931: 'Straight', // SEA TL645 Straight
+    2934: 'Rambolito', // SEA TL645 Any
+    2938: 'Straight', // SEA TL645 Fixed Position
+    2945: 'Rambolito', // SEA TL645 Any
 
     // TL649
 
-    '2948': 'Lucky Pick 3',
-    '2950': 'Lucky Pick 12',
-    '2953': 'Straight',
-    '2956': 'Rambolito',
-    '2960': 'Straight',
-    '2963': 'Rambolito',
-    '2967': 'Position',
-    '2974': 'Any',
+    2948: 'Lucky Pick 3', // SEA TL649 Lucky Pick 3
+    2950: 'Lucky Pick 12', // SEA TL649 Lucky Pick 12
+    2953: 'Straight', // SEA TL649 Straight
+    2956: 'Rambolito', // SEA TL649 Any
+    2960: 'Straight', // SEA TL649 Straight
+    2963: 'Rambolito', // SEA TL649 Any
+    2967: 'Straight', // SEA TL649 Fixed Position
+    2974: 'Rambolito', // SEA TL649 Any
 
     // TL655
 
-    '2977': 'Lucky Pick 3',
-    '2979': 'Lucky Pick 12',
-    '2982': 'Straight',
-    '2985': 'Rambolito',
-    '2989': 'Straight',
-    '2992': 'Rambolito',
-    '2996': 'Position',
-    '3003': 'Any',
+    2977: 'Lucky Pick 3', // SEA TL655 Lucky Pick 3
+    2979: 'Lucky Pick 12', // SEA TL655 Lucky Pick 12
+    2982: 'Straight', // SEA TL655 Straight
+    2985: 'Rambolito', // SEA TL655 Any
+    2989: 'Straight', // SEA TL655 Straight
+    2992: 'Rambolito', // SEA TL655 Any
+    2996: 'Straight', // SEA TL655 Fixed Position
+    3003: 'Rambolito', // SEA TL655 Any
 
     // TL658
 
-    '3006': 'Lucky Pick 3',
-    '3008': 'Lucky Pick 12',
-    '3011': 'Straight',
-    '3014': 'Rambolito',
-    '3018': 'Straight',
-    '3021': 'Rambolito',
-    '3025': 'Position',
-    '3032': 'Any',
+    3006: 'Lucky Pick 3', // SEA TL658 Lucky Pick 3
+    3008: 'Lucky Pick 12', // SEA TL658 Lucky Pick 12
+    3011: 'Straight', // SEA TL658 Straight
+    3014: 'Rambolito', // SEA TL658 Any
+    3018: 'Straight', // SEA TL658 Straight
+    3021: 'Rambolito', // SEA TL658 Any
+    3025: 'Straight', // SEA TL658 Fixed Position
+    3032: 'Rambolito', // SEA TL658 Any
+
+    // TL2D37
+
+    3040: 'EXACT 1D', // SEA TL2D37 定位胆
+    3043: 'Any One', // SEA TL2D37 任选
+    3046: 'EXACT 2D', // SEA TL2D37 二星直选
+    3048: 'ANY', // SEA TL2D37 二星组选
+    3051: 'BSOE', // SEA TL2D37 大小单双
 
     // 三級選單
 
     // TL2D
 
-    2737: 'EXACT 1D 1st', // SEA TL2D 定位胆第一球
-    2738: 'EXACT 1D 2nd',  // SEA TL2D 定位胆第二球
+    2737: 'EXACT 1D 1st', // SEA TL2D 第一球
+    2738: 'EXACT 1D 2nd', // SEA TL2D 第二球
     2740: 'Any One', // SEA TL2D 任选一
-
     2743: 'EXACT 2D', // SEA TL2D 二星直选
-    2745: 'ANY 2D',  // SEA TL2D 二星组选
-
-    2748: 'BSOE 1st', // SEA TL2D BSOE第一球
-    2749: 'BSOE 2nd', // SEA TL2D BSOE第二球
+    2745: 'ANY 2D', // SEA TL2D 二星组选
+    2748: 'BSOE 1st', // SEA TL2D 第一球
+    2749: 'BSOE 2nd', // SEA TL2D 第二球
 
     // TL3D
 
@@ -203,15 +215,15 @@ const PlayMenu = {
     2688: 'ANY Last 2D', // SEA TL3D 上反二位数
     2691: 'EXACT 3D', // SEA TL3D 上正三位数
     2693: 'ANY 3D', // SEA TL3D 上反三位数
-    2696: 'Acak 1D -spesial', // SEA TL3D 上跑两位数
-
-    2752: 'BSOE 1st', // SEA TL3D BSOE第一球
-    2753: 'BSOE 2nd', // SEA TL3D BSOE第二球
-    2754: 'BSOE 3rd', // SEA TL3D BSOE第三球
-
-    2777: 'EXACT 1D 1st', // SEA TL3D 定位胆第一球
-    2778: 'EXACT 1D 2nd',  // SEA TL3D 定位胆第二球
-    2779: 'EXACT 1D 3rd',  // SEA TL3D 定位胆第3球
+    2696: 'ANY 1 of last 2D', // SEA TL3D 上跑两位数
+    2752: 'BSOE 1st', // SEA TL3D 第一球
+    2753: 'BSOE 2nd', // SEA TL3D 第二球
+    2754: 'BSOE 3rd', // SEA TL3D 第三球
+    2777: 'EXACT 1D 1st', // SEA TL3D 第一位
+    2778: 'EXACT 1D 2nd', // SEA TL3D 第二位
+    2779: 'EXACT 1D 3rd', // SEA TL3D 第三位
+    2863: 'Rambolito3', // SEA TL3D 三星組3
+    2864: 'Rambolito6', // SEA TL3D 三星組6
 
     // TL4D
 
@@ -221,17 +233,21 @@ const PlayMenu = {
     2706: 'ANY Last 3D', // SEA TL4D 上反三位数
     2709: 'EXACT 4D', // SEA TL4D 上正四位数
     2711: 'ANY 4D', // SEA TL4D 上反四位数
-    2714: 'Acak 1D -spesial', // SEA TL4D 上跑两位数
-
-    2757: 'BSOE 1st', // SEA TL3D BSOE第一球
-    2758: 'BSOE 2nd', // SEA TL3D BSOE第二球
-    2759: 'BSOE 3rd', // SEA TL3D BSOE第三球
-    2760: 'BSOE 4th', // SEA TL3D BSOE第4球
-
-    2781: 'EXACT 1D 1st', // SEA TL4D 定位胆第一球
-    2782: 'EXACT 1D 2nd', // SEA TL4D 定位胆第二球
-    2783: 'EXACT 1D 3rd', // SEA TL4D 定位胆第三球
-    2784: 'EXACT 1D 4th', // SEA TL4D 定位胆第4球
+    2714: 'ANY 1 of last 2D', // SEA TL4D 上跑两位数
+    2757: 'BSOE 1st', // SEA TL4D 第一球
+    2758: 'BSOE 2nd', // SEA TL4D 第二球
+    2759: 'BSOE 3rd', // SEA TL4D 第三球
+    2760: 'BSOE 4th', // SEA TL4D 第四球
+    2781: 'EXACT 1D 1st', // SEA TL4D 第一位
+    2782: 'EXACT 1D 2nd', // SEA TL4D 第二位
+    2783: 'EXACT 1D 3rd', // SEA TL4D 第三位
+    2784: 'EXACT 1D 4th', // SEA TL4D 第四位
+    2865: 'Rambolito3 Last 3D', // SEA TL4D 三星組3
+    2866: 'Rambolito6 Last 3D', // SEA TL4D 三星組6
+    2869: 'PERM4 4D', // SEA TL4D 四星組選4
+    2870: 'PERM6 4D', // SEA TL4D 四星組選6
+    2871: 'PERM12 4D', // SEA TL4D 四星組選12
+    2872: 'PERM24 4D', // SEA TL4D 四星組選24
 
     // TL6D
 
@@ -241,141 +257,135 @@ const PlayMenu = {
     2724: 'ANY Last 3D', // SEA TL6D 上反三位数
     2727: 'EXACT Last 4D', // SEA TL6D 上正四位数
     2729: 'ANY Last 4D', // SEA TL6D 上反四位数
-    2732: 'Acak 1D -spesial', // SEA TL6D 上跑两位数
-
-    2763: 'BSOE 1st', // SEA TL3D BSOE第一球
-    2764: 'BSOE 2nd', // SEA TL3D BSOE第二球
-    2765: 'BSOE 3rd', // SEA TL3D BSOE第三球
-    2766: 'BSOE 4th', // SEA TL3D BSOE第4球
-    2767: 'BSOE 5th', // SEA TL3D BSOE第5球
-    2768: 'BSOE 6th', // SEA TL3D BSOE第6球
-
-    2786: 'EXACT 1D 1st', // SEA TL6D 定位胆第一球
-    2787: 'EXACT 1D 2nd', // SEA TL6D 定位胆第二球
-    2788: 'EXACT 1D 3rd', // SEA TL6D 定位胆第三球
-    2789: 'EXACT 1D 4th', // SEA TL6D 定位胆第4球
-    2790: 'EXACT 1D 5th', // SEA TL6D 定位胆第5球
-    2791: 'EXACT 1D 6th', // SEA TL6D 定位胆第6球
+    2732: 'ANY 1 of last 2D', // SEA TL6D 上跑两位数
+    2763: 'BSOE 1st', // SEA TL6D 第一球
+    2764: 'BSOE 2nd', // SEA TL6D 第二球
+    2765: 'BSOE 3rd', // SEA TL6D 第三球
+    2766: 'BSOE 4th', // SEA TL6D 第四球
+    2767: 'BSOE 5th', // SEA TL6D 第五球
+    2768: 'BSOE 6th', // SEA TL6D 第六球
+    2786: 'EXACT 1D 1st', // SEA TL6D 第一位
+    2787: 'EXACT 1D 2nd', // SEA TL6D 第二位
+    2788: 'EXACT 1D 3rd', // SEA TL6D 第三位
+    2789: 'EXACT 1D 4th', // SEA TL6D 第四位
+    2790: 'EXACT 1D 5th', // SEA TL6D 第五位
+    2791: 'EXACT 1D 6th', // SEA TL6D 第六位
+    2867: 'Rambolito3 Last 3D', // SEA TL6D 三星組3
+    2868: 'Rambolito6 Last 3D', // SEA TL6D 三星組6
+    2873: 'PERM4 Last 4D', // SEA TL6D 四星組選4
+    2874: 'PERM6 Last 4D', // SEA TL6D 四星組選6
+    2875: 'PERM12 Last 4D', // SEA TL6D 四星組選12
+    2876: 'PERM24 Last 4D', // SEA TL6D 四星組選24
 
     // TL642
 
-    3036: 'Lucky Pick 3',
-    3038: 'Lucky Pick 12',
-
-    '2896': 'First 3 Straight',
-    '2897': 'Last 3 Straight',
-    '2899': 'First 3 Rambolito',
-    '2900': 'Last 3 Rambolito',
-
-    '2903': 'First 2 Straight',
-    '2904': 'Last 2 Straight',
-    '2906': 'First 2 Rambolito',
-    '2907': 'Last 2 Rambolito',
-
-    2917: 'Any',
-
-    2910: 'Position 1st',
-    2911: 'Position 2nd',
-    2912: 'Position 3rd',
-    2913: 'Position 4th',
-    2914: 'Position 5th',
-    2915: 'Position 6th',
+    2896: 'First 3 Straight', // SEA TL642 Lucky Pick 3
+    2897: 'Last 3 Straight', // SEA TL642 Lucky Pick 12
+    2899: 'First 3 Rambolito', // SEA TL642 First 3 Straight
+    2900: 'Last 3 Rambolito', // SEA TL642 Last 3 Straight
+    2903: 'First 2 Straight', // SEA TL642 First 3 Any
+    2904: 'Last 2 Straight', // SEA TL642 Last 3 Any
+    2906: 'First 2 Rambolito', // SEA TL642 First 2 Straight
+    2907: 'Last 2 Rambolito', // SEA TL642 Last 2 Straight
+    2910: 'Position 1st', // SEA TL642 First 2 Any
+    2911: 'Position 2nd', // SEA TL642 Last 2 Any
+    2912: 'Position 3rd', // SEA TL642 1st
+    2913: 'Position 4th', // SEA TL642 2nd
+    2914: 'Position 5th', // SEA TL642 3rd
+    2915: 'Position 6th', // SEA TL642 4th
+    2917: 'Any', // SEA TL642 5th
+    3036: 'Lucky Pick 3', // SEA TL642 6th
+    3038: 'Lucky Pick 12', // SEA TL642 Any
 
     // TL645
 
-    '2920': 'Lucky Pick 3',
-    '2922': 'Lucky Pick 12',
-
-    '2925': 'First 3 Straight',
-    '2926': 'Last 3 Straight',
-    '2928': 'First 3 Rambolito',
-    '2929': 'Last 3 Rambolito',
-
-    '2932': 'First 2 Straight',
-    '2933': 'Last 2 Straight',
-    '2935': 'First 2 Rambolito',
-    '2936': 'Last 2 Rambolito',
-
-    2946: 'Any',
-
-    2939: 'Position 1st',
-    2940: 'Position 2nd',
-    2941: 'Position 3rd',
-    2942: 'Position 4th',
-    2943: 'Position 5th',
-    2944: 'Position 6th',
+    2920: 'Lucky Pick 3', // SEA TL645 Lucky Pick 3
+    2922: 'Lucky Pick 12', // SEA TL645 Lucky Pick 12
+    2925: 'First 3 Straight', // SEA TL645 First 3 Straight
+    2926: 'Last 3 Straight', // SEA TL645 Last 3 Straight
+    2928: 'First 3 Rambolito', // SEA TL645 First 3 Any
+    2929: 'Last 3 Rambolito', // SEA TL645 Last 3 Any
+    2932: 'First 2 Straight', // SEA TL645 First 2 Straight
+    2933: 'Last 2 Straight', // SEA TL645 Last 2 Straight
+    2935: 'First 2 Rambolito', // SEA TL645 First 2 Any
+    2936: 'Last 2 Rambolito', // SEA TL645 Last 2 Any
+    2939: 'Position 1st', // SEA TL645 1st
+    2940: 'Position 2nd', // SEA TL645 2nd
+    2941: 'Position 3rd', // SEA TL645 3rd
+    2942: 'Position 4th', // SEA TL645 4th
+    2943: 'Position 5th', // SEA TL645 5th
+    2944: 'Position 6th', // SEA TL645 6th
+    2946: 'Any', // SEA TL645 Any
 
     // TL649
 
-    '2949': 'Lucky Pick 3',
-    '2951': 'Lucky Pick 12',
-
-    '2954': 'First 3 Straight',
-    '2955': 'Last 3 Straight',
-    '2957': 'First 3 Rambolito',
-    '2958': 'Last 3 Rambolito',
-
-    '2961': 'First 2 Straight',
-    '2962': 'Last 2 Straight',
-    '2964': 'First 2 Rambolito',
-    '2965': 'Last 2 Rambolito',
-
-    2975: 'Any',
-
-    2968: 'Position 1st',
-    2969: 'Position 2nd',
-    2970: 'Position 3rd',
-    2971: 'Position 4th',
-    2972: 'Position 5th',
-    2973: 'Position 6th',
+    2949: 'Lucky Pick 3', // SEA TL649 Lucky Pick 3
+    2951: 'Lucky Pick 12', // SEA TL649 Lucky Pick 12
+    2954: 'First 3 Straight', // SEA TL649 First 3 Straight
+    2955: 'Last 3 Straight', // SEA TL649 Last 3 Straight
+    2957: 'First 3 Rambolito', // SEA TL649 First 3 Any
+    2958: 'Last 3 Rambolito', // SEA TL649 Last 3 Any
+    2961: 'First 2 Straight', // SEA TL649 First 2 Straight
+    2962: 'Last 2 Straight', // SEA TL649 Last 2 Straight
+    2964: 'First 2 Rambolito', // SEA TL649 First 2 Any
+    2965: 'Last 2 Rambolito', // SEA TL649 Last 2 Any
+    2968: 'Position 1st', // SEA TL649 1st
+    2969: 'Position 2nd', // SEA TL649 2nd
+    2970: 'Position 3rd', // SEA TL649 3rd
+    2971: 'Position 4th', // SEA TL649 4th
+    2972: 'Position 5th', // SEA TL649 5th
+    2973: 'Position 6th', // SEA TL649 6th
+    2975: 'Any', // SEA TL649 Any
 
     // TL655
 
-    '2978': 'Lucky Pick 3',
-    '2980': 'Lucky Pick 12',
-
-    '2983': 'First 3 Straight',
-    '2984': 'Last 3 Straight',
-    '2986': 'First 3 Rambolito',
-    '2987': 'Last 3 Rambolito',
-
-    '2990': 'First 2 Straight',
-    '2991': 'Last 2 Straight',
-    '2993': 'First 2 Rambolito',
-    '2994': 'Last 2 Rambolito',
-
-    3004: 'Any',
-
-    2997: 'Position 1st',
-    2998: 'Position 2nd',
-    2999: 'Position 3rd',
-    3000: 'Position 4th',
-    3001: 'Position 5th',
-    3002: 'Position 6th',
+    2978: 'Lucky Pick 3', // SEA TL655 Lucky Pick 3
+    2980: 'Lucky Pick 12', // SEA TL655 Lucky Pick 12
+    2983: 'First 3 Straight', // SEA TL655 First 3 Straight
+    2984: 'Last 3 Straight', // SEA TL655 Last 3 Straight
+    2986: 'First 3 Rambolito', // SEA TL655 First 3 Any
+    2987: 'Last 3 Rambolito', // SEA TL655 Last 3 Any
+    2990: 'First 2 Straight', // SEA TL655 First 2 Straight
+    2991: 'Last 2 Straight', // SEA TL655 Last 2 Straight
+    2993: 'First 2 Rambolito', // SEA TL655 First 2 Any
+    2994: 'Last 2 Rambolito', // SEA TL655 Last 2 Any
+    2997: 'Position 1st', // SEA TL655 1st
+    2998: 'Position 2nd', // SEA TL655 2nd
+    2999: 'Position 3rd', // SEA TL655 3rd
+    3000: 'Position 4th', // SEA TL655 4th
+    3001: 'Position 5th', // SEA TL655 5th
+    3002: 'Position 6th', // SEA TL655 6th
+    3004: 'Any', // SEA TL655 Any
 
     // TL658
 
-    '3007': 'Lucky Pick 3',
-    '3009': 'Lucky Pick 12',
+    3007: 'Lucky Pick 3', // SEA TL658 Lucky Pick 3
+    3009: 'Lucky Pick 12', // SEA TL658 Lucky Pick 12
+    3012: 'First 3 Straight', // SEA TL658 First 3 Straight
+    3013: 'Last 3 Straight', // SEA TL658 Last 3 Straight
+    3015: 'First 3 Rambolito', // SEA TL658 First 3 Any
+    3016: 'Last 3 Rambolito', // SEA TL658 Last 3 Any
+    3019: 'First 2 Straight', // SEA TL658 First 2 Straight
+    3020: 'Last 2 Straight', // SEA TL658 Last 2 Straight
+    3022: 'First 2 Rambolito', // SEA TL658 First 2 Any
+    3023: 'Last 2 Rambolito', // SEA TL658 Last 2 Any
+    3026: 'Position 1st', // SEA TL658 1st
+    3027: 'Position 2nd', // SEA TL658 2nd
+    3028: 'Position 3rd', // SEA TL658 3rd
+    3029: 'Position 4th', // SEA TL658 4th
+    3030: 'Position 5th', // SEA TL658 5th
+    3031: 'Position 6th', // SEA TL658 6th
+    3033: 'Any', // SEA TL658 Any
 
-    '3012': 'First 3 Straight',
-    '3013': 'Last 3 Straight',
-    '3015': 'First 3 Rambolito',
-    '3016': 'Last 3 Rambolito',
+    // TL2D37
 
-    '3019': 'First 2 Straight',
-    '3020': 'Last 2 Straight',
-    '3022': 'First 2 Rambolito',
-    '3023': 'Last 2 Rambolito',
-
-    3033: 'Any',
-    
-    3026: 'Position 1st',
-    3027: 'Position 2nd',
-    3028: 'Position 3rd',
-    3029: 'Position 4th',
-    3030: 'Position 5th',
-    3031: 'Position 6th',
+    3041: 'EXACT 1D 1st', // SEA TL2D37 第一球
+    3042: 'EXACT 1D 2nd', // SEA TL2D37 第二球
+    3044: 'Any One', // SEA TL2D37 任选一
+    3047: 'EXACT', // SEA TL2D37 二星直选
+    3049: 'ANY 2D', // SEA TL2D37 二星组选
+    3052: 'BSOE 1st', // SEA TL2D37 第一球
+    3053: 'BSOE 2nd', // SEA TL2D37 第二球
 
     // Thai
 
