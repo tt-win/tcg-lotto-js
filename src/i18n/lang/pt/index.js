@@ -218,6 +218,7 @@ const LANG = {
     TL4D: "TL4D",
     TL6D: "TL6D",
     TL2D: "TL2D",
+    TL2D37: 'TL2D37',
     TL642:  "TL642",
     TL645:	"TL645",
     TL649:	"TL649",
