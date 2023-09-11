@@ -1573,6 +1573,8 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Forth_BSOE_TL6D, // SEA TL6D BSOE第四球
         PlayMenu.Fifth_BSOE_TL6D, // SEA TL6D BSOE第5球
         PlayMenu.Sixth_BSOE_TL6D, // SEA TL6D BSOE第6球
+        PlayMenu.First_BSOE_TL2D37, // SEA TL2D37 第一球
+        PlayMenu.Second_BSOE_TL2D37, // SEA TL2D37 第二球
       ],
       getText: (content) => i18n(`ball.BSOE.${BALL_BSOE_KEY[content]}`),
     },
@@ -1696,6 +1698,30 @@ function getOrderInfoTranslatorList(lang) {
         return trimed.match(ballRegex).join('-');
       },
     },
+
+    TL2D37_NO_Comma: {
+      items: [
+        PlayMenu.First_TL2D37,
+        PlayMenu.Second_TL2D37,
+      ],
+      getText: (content) => content,
+    },
+
+    TL2D37: {
+      items: [
+        PlayMenu.Any1_TL2D37,
+        PlayMenu.Last_2_Straight_TL2D37,
+        PlayMenu.Last_2_Combine_TL2D37,
+        PlayMenu.First_BSOE_TL2D37,
+        PlayMenu.Second_BSOE_TL2D37,
+      ],
+      getText: (content) => {
+        const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
+
+        return trimed.match(ballRegex).join('-');
+      },
+    }
   };
 
   const LFTranslator = {
