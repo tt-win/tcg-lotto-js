@@ -193,7 +193,7 @@ const PlayMenu = {
 
     3040: 'EXACT 1D', // SEA TL2D37 定位胆
     3043: 'Any One', // SEA TL2D37 任选
-    3046: 'EXACT 2D', // SEA TL2D37 二星直选
+    3046: 'EXACT', // SEA TL2D37 二星直选
     3048: 'ANY', // SEA TL2D37 二星组选
     3051: 'BSOE', // SEA TL2D37 大小单双
 
@@ -382,7 +382,7 @@ const PlayMenu = {
     3041: 'EXACT 1D 1st', // SEA TL2D37 第一球
     3042: 'EXACT 1D 2nd', // SEA TL2D37 第二球
     3044: 'Any One', // SEA TL2D37 任选一
-    3047: 'EXACT', // SEA TL2D37 二星直选
+    3047: 'EXACT 2D', // SEA TL2D37 二星直选
     3049: 'ANY 2D', // SEA TL2D37 二星组选
     3052: 'BSOE 1st', // SEA TL2D37 第一球
     3053: 'BSOE 2nd', // SEA TL2D37 第二球
