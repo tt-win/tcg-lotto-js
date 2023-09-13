@@ -188,6 +188,8 @@ const LANG = {
   },
 
   prizeListPrizeType: {
+    P_BANKER: 'Banker',
+    P_PLAYER: 'Player',
     VTX_BS_BIG: '빅',
     VTX_BS_SMALL: '스몰',
     VXD_BS_BIG: '빅',

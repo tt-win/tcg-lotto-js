@@ -1795,6 +1795,30 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content) => content,
     },
+  };
+
+  const NNPTranslator = {
+    NNP: {
+      items: [
+        PlayMenu.EQUALIZE_MAIN_NNP,
+        PlayMenu.DOUBLE_MAIN_NNP,
+      ],
+      getText: (content) => {
+        const format = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        let text = format;
+        switch (format[0]) {
+          case 'Z':
+            text = `${i18n('prizeListPrizeType.P_BANKER')}${format[1]}`;
+            break;
+          case 'X':
+            text = `${i18n('prizeListPrizeType.P_PLAYER')}${format[1]}`;
+            break;
+          default:
+            break;
+        }
+        return text;
+      },
+    },
   }
 
   // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
@@ -2256,6 +2280,7 @@ function getOrderInfoTranslatorList(lang) {
     ...LFTranslator,
     ...KenoTranslator,
     ...SeaTranslator,
+    ...NNPTranslator,
   };
 
   return OrderInfoTranslatorList;

@@ -295,6 +295,8 @@ const LANG = {
   },
 
   prizeListPrizeType: {
+    P_BANKER: 'Banker',
+    P_PLAYER: 'Player',
     P_FIRST: 'First Prize',
     P_SECOND: 'Second Prize',
     P_BIG: 'Big',

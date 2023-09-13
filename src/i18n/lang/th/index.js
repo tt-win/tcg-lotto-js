@@ -279,6 +279,8 @@ const LANG = {
     BCR: "BCR",
   },
   prizeListPrizeType: {
+    P_BANKER: 'Banker',
+    P_PLAYER: 'Player',
     VTX_BS_BIG: 'ใหญ่',
     VTX_BS_SMALL: 'เล็ก',
     VXD_BS_BIG: 'ใหญ่',

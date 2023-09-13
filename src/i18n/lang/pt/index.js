@@ -408,6 +408,8 @@ const LANG = {
     drawVideo: 'Draw Video',
   },
   prizeListPrizeType: {
+    P_BANKER: 'Banker',
+    P_PLAYER: 'Player',
     VTX_BS_BIG: 'Grande',
     VTX_BS_SMALL: 'Pequeno',
     VXD_BS_BIG: 'Grande',

@@ -252,6 +252,8 @@ const LANG = {
     BCR: "BCR",
   },
   prizeListPrizeType: {
+    P_BANKER: 'Banker',
+    P_PLAYER: 'Player',
     VTX_BS_BIG: 'Besar',
     VTX_BS_SMALL: 'Kecil',
     VXD_BS_BIG: 'Besar',
