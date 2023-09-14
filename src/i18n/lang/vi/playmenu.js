@@ -141,8 +141,8 @@ const PlayMenu = {
     2898: 'Tổ hợp', // SEA TL642 Lucky Pick 12
     2902: 'Đúng', // SEA TL642 Straight
     2905: 'Tổ hợp', // SEA TL642 Any
-    2909: 'Đúng', // SEA TL642 Straight
-    2916: 'Tổ hợp', // SEA TL642 Any
+    2909: 'Vị trí', // SEA TL642 Straight
+    2916: 'Bất kỳ', // SEA TL642 Any
     3035: 'Chọn may mắn 3 số', // SEA TL642 Fixed Position
     3037: 'Chọn may mắn 12 số', // SEA TL642 Any
 
@@ -154,8 +154,8 @@ const PlayMenu = {
     2927: 'Tổ hợp', // SEA TL645 Any
     2931: 'Đúng', // SEA TL645 Straight
     2934: 'Tổ hợp', // SEA TL645 Any
-    2938: 'Đúng', // SEA TL645 Fixed Position
-    2945: 'Tổ hợp', // SEA TL645 Any
+    2938: 'Vị trí', // SEA TL645 Fixed Position
+    2945: 'Bất kỳ', // SEA TL645 Any
 
     // TL649
 
@@ -165,8 +165,8 @@ const PlayMenu = {
     2956: 'Tổ hợp', // SEA TL649 Any
     2960: 'Đúng', // SEA TL649 Straight
     2963: 'Tổ hợp', // SEA TL649 Any
-    2967: 'Đúng', // SEA TL649 Fixed Position
-    2974: 'Tổ hợp', // SEA TL649 Any
+    2967: 'Vị trí', // SEA TL649 Fixed Position
+    2974: 'Bất kỳ', // SEA TL649 Any
 
     // TL655
 
@@ -176,8 +176,8 @@ const PlayMenu = {
     2985: 'Tổ hợp', // SEA TL655 Any
     2989: 'Đúng', // SEA TL655 Straight
     2992: 'Tổ hợp', // SEA TL655 Any
-    2996: 'Đúng', // SEA TL655 Fixed Position
-    3003: 'Tổ hợp', // SEA TL655 Any
+    2996: 'Vị trí', // SEA TL655 Fixed Position
+    3003: 'Bất kỳ', // SEA TL655 Any
 
     // TL658
 
@@ -187,8 +187,8 @@ const PlayMenu = {
     3014: 'Tổ hợp', // SEA TL658 Any
     3018: 'Đúng', // SEA TL658 Straight
     3021: 'Tổ hợp', // SEA TL658 Any
-    3025: 'Đúng', // SEA TL658 Fixed Position
-    3032: 'Tổ hợp', // SEA TL658 Any
+    3025: 'Vị trí', // SEA TL658 Fixed Position
+    3032: 'Bất kỳ', // SEA TL658 Any
 
     // TL2D37
 

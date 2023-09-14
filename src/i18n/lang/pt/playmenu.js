@@ -133,8 +133,8 @@ const PlayMenu = {
     2898: 'Rambolito', // SEA TL642 Lucky Pick 12
     2902: 'Straight', // SEA TL642 Straight
     2905: 'Rambolito', // SEA TL642 Any
-    2909: 'Straight', // SEA TL642 Straight
-    2916: 'Rambolito', // SEA TL642 Any
+    2909: 'Position', // SEA TL642 Straight
+    2916: 'Any', // SEA TL642 Any
     3035: 'Lucky Pick 3', // SEA TL642 Fixed Position
     3037: 'Lucky Pick 12', // SEA TL642 Any
 
@@ -146,8 +146,8 @@ const PlayMenu = {
     2927: 'Rambolito', // SEA TL645 Any
     2931: 'Straight', // SEA TL645 Straight
     2934: 'Rambolito', // SEA TL645 Any
-    2938: 'Straight', // SEA TL645 Fixed Position
-    2945: 'Rambolito', // SEA TL645 Any
+    2938: 'Position', // SEA TL645 Fixed Position
+    2945: 'Any', // SEA TL645 Any
 
     // TL649
 
@@ -157,8 +157,8 @@ const PlayMenu = {
     2956: 'Rambolito', // SEA TL649 Any
     2960: 'Straight', // SEA TL649 Straight
     2963: 'Rambolito', // SEA TL649 Any
-    2967: 'Straight', // SEA TL649 Fixed Position
-    2974: 'Rambolito', // SEA TL649 Any
+    2967: 'Position', // SEA TL649 Fixed Position
+    2974: 'Any', // SEA TL649 Any
 
     // TL655
 
@@ -168,8 +168,8 @@ const PlayMenu = {
     2985: 'Rambolito', // SEA TL655 Any
     2989: 'Straight', // SEA TL655 Straight
     2992: 'Rambolito', // SEA TL655 Any
-    2996: 'Straight', // SEA TL655 Fixed Position
-    3003: 'Rambolito', // SEA TL655 Any
+    2996: 'Position', // SEA TL655 Fixed Position
+    3003: 'Any', // SEA TL655 Any
 
     // TL658
 
@@ -179,10 +179,18 @@ const PlayMenu = {
     3014: 'Rambolito', // SEA TL658 Any
     3018: 'Straight', // SEA TL658 Straight
     3021: 'Rambolito', // SEA TL658 Any
-    3025: 'Straight', // SEA TL658 Fixed Position
-    3032: 'Rambolito', // SEA TL658 Any
+    3025: 'Position', // SEA TL658 Fixed Position
+    3032: 'Any', // SEA TL658 Any
 
     // TL2D37
+
+    3041: 'EXACT 1D 1st', // SEA TL2D37 第一球
+    3042: 'EXACT 1D 2nd', // SEA TL2D37 第二球
+    3044: 'Any One 1st', // SEA TL2D37 任选一
+    3047: 'EXACT 2D', // SEA TL2D37 二星直选
+    3049: 'ANY 2D', // SEA TL2D37 二星组选
+    3052: 'BSOE 1st', // SEA TL2D37 第一球
+    3053: 'BSOE 2nd', // SEA TL2D37 第二球
 
     // 三級選單
 

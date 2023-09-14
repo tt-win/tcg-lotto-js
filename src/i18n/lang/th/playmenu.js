@@ -141,8 +141,8 @@ const PlayMenu = {
     2898: 'ความผสม 3 ตัวท้าย ', // SEA TL642 Lucky Pick 12
     2902: 'ตรง', // SEA TL642 Straight
     2905: 'ความผสม 3 ตัวท้าย ', // SEA TL642 Any
-    2909: 'ตรง', // SEA TL642 Straight
-    2916: 'ความผสม 3 ตัวท้าย ', // SEA TL642 Any
+    2909: 'ตำแหน่ง', // SEA TL642 Straight
+    2916: 'ใดๆ', // SEA TL642 Any
     3035: 'ลัคกี้ปิ๊ก 3 ตัว', // SEA TL642 Fixed Position
     3037: 'ลัคกี้ปิ๊ก 12 ตัว', // SEA TL642 Any
 
@@ -154,8 +154,8 @@ const PlayMenu = {
     2927: 'ความผสม 3 ตัวท้าย ', // SEA TL645 Any
     2931: 'ตรง', // SEA TL645 Straight
     2934: 'ความผสม 3 ตัวท้าย ', // SEA TL645 Any
-    2938: 'ตรง', // SEA TL645 Fixed Position
-    2945: 'ความผสม 3 ตัวท้าย ', // SEA TL645 Any
+    2938: 'ตำแหน่ง', // SEA TL645 Fixed Position
+    2945: 'ใดๆ', // SEA TL645 Any
 
     // TL649
 
@@ -165,8 +165,8 @@ const PlayMenu = {
     2956: 'ความผสม 3 ตัวท้าย ', // SEA TL649 Any
     2960: 'ตรง', // SEA TL649 Straight
     2963: 'ความผสม 3 ตัวท้าย ', // SEA TL649 Any
-    2967: 'ตรง', // SEA TL649 Fixed Position
-    2974: 'ความผสม 3 ตัวท้าย ', // SEA TL649 Any
+    2967: 'ตำแหน่ง', // SEA TL649 Fixed Position
+    2974: 'ใดๆ', // SEA TL649 Any
 
     // TL655
 
@@ -176,8 +176,8 @@ const PlayMenu = {
     2985: 'ความผสม 3 ตัวท้าย ', // SEA TL655 Any
     2989: 'ตรง', // SEA TL655 Straight
     2992: 'ความผสม 3 ตัวท้าย ', // SEA TL655 Any
-    2996: 'ตรง', // SEA TL655 Fixed Position
-    3003: 'ความผสม 3 ตัวท้าย ', // SEA TL655 Any
+    2996: 'ตำแหน่ง', // SEA TL655 Fixed Position
+    3003: 'ใดๆ', // SEA TL655 Any
 
     // TL658
 
@@ -187,8 +187,8 @@ const PlayMenu = {
     3014: 'ความผสม 3 ตัวท้าย ', // SEA TL658 Any
     3018: 'ตรง', // SEA TL658 Straight
     3021: 'ความผสม 3 ตัวท้าย ', // SEA TL658 Any
-    3025: 'ตรง', // SEA TL658 Fixed Position
-    3032: 'ความผสม 3 ตัวท้าย ', // SEA TL658 Any
+    3025: 'ตำแหน่ง', // SEA TL658 Fixed Position
+    3032: 'ใดๆ', // SEA TL658 Any
 
     // TL2D37
 

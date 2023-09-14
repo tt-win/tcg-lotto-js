@@ -726,8 +726,8 @@ const PlayMenu = {
     2898: '組選', // SEA TL642 Lucky Pick 12
     2902: '直選', // SEA TL642 Straight
     2905: '組選', // SEA TL642 Any
-    2909: '直選', // SEA TL642 Straight
-    2916: '組選', // SEA TL642 Any
+    2909: '定位膽', // SEA TL642 Straight
+    2916: '任選', // SEA TL642 Any
     3035: '幸運3', // SEA TL642 Fixed Position
     3037: '幸運12', // SEA TL642 Any
 
@@ -739,8 +739,8 @@ const PlayMenu = {
     2927: '組選', // SEA TL645 Any
     2931: '直選', // SEA TL645 Straight
     2934: '組選', // SEA TL645 Any
-    2938: '直選', // SEA TL645 Fixed Position
-    2945: '組選', // SEA TL645 Any
+    2938: '定位膽', // SEA TL645 Fixed Position
+    2945: '任選', // SEA TL645 Any
 
     // TL649
 
@@ -750,8 +750,8 @@ const PlayMenu = {
     2956: '組選', // SEA TL649 Any
     2960: '直選', // SEA TL649 Straight
     2963: '組選', // SEA TL649 Any
-    2967: '直選', // SEA TL649 Fixed Position
-    2974: '組選', // SEA TL649 Any
+    2967: '定位膽', // SEA TL649 Fixed Position
+    2974: '任選', // SEA TL649 Any
 
     // TL655
 
@@ -761,8 +761,8 @@ const PlayMenu = {
     2985: '組選', // SEA TL655 Any
     2989: '直選', // SEA TL655 Straight
     2992: '組選', // SEA TL655 Any
-    2996: '直選', // SEA TL655 Fixed Position
-    3003: '組選', // SEA TL655 Any
+    2996: '定位膽', // SEA TL655 Fixed Position
+    3003: '任選', // SEA TL655 Any
 
     // TL658
 
@@ -772,8 +772,8 @@ const PlayMenu = {
     3014: '組選', // SEA TL658 Any
     3018: '直選', // SEA TL658 Straight
     3021: '組選', // SEA TL658 Any
-    3025: '直選', // SEA TL658 Fixed Position
-    3032: '組選', // SEA TL658 Any
+    3025: '定位膽', // SEA TL658 Fixed Position
+    3032: '任選', // SEA TL658 Any
 
     // TL2D37
 
