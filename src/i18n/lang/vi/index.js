@@ -364,11 +364,11 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'hệ thống bận, đặt cược thất bại!',
     NOT_SUPPORT_LANDSCAPE: 'không hỗ trợ để ngang màn hình',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'đặt cược đã đạt mức tối đa trong kho',
-    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Cược đặt cược vượt quá giới hạn',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Số lượng đơn cược vượt quá giới hạn',
 
     // VN
     ORDER_ALREADY_CANCELED: 'đơn hàng này đã rút đơn',
-    STAKES_IS_OVER_LIMIT_ERROR: 'Cược đặt cược vượt quá giới hạn',
+    STAKES_IS_OVER_LIMIT_ERROR: 'Số lượng đơn cược vượt quá giới hạn',
     BALANCE_NOT_ENOUGH_ERROR: 'Không Đủ Số Dư Để Đặt Cược',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Vượt quá số lượng cược tối đa',
     CALCULATE_BETTING_AMOUNT_ERROR: 'Chi tiết vé cược không được công nhận. Vui lòng thử lại.',
