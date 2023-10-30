@@ -1370,6 +1370,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu['4_Not_Winning_Numbers_North_VNC'],
         PlayMenu['8_Not_Winning_Numbers_North_VNC'],
         PlayMenu['10_Not_Winning_Numbers_North_VNC'],
+        PlayMenu['4_Not_Winning_Numbers_South_VNC'],
+        PlayMenu['8_Not_Winning_Numbers_South_VNC'],
+        PlayMenu['10_Not_Winning_Numbers_South_VNC'],
 
         PlayMenu.Bunch_2_North_VNC, // 北部 串2组
         PlayMenu.Bunch_3_North_VNC, // 北部 串3组
