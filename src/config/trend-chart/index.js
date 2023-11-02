@@ -8,6 +8,7 @@ import trendChartConfig3D from './trend_chart_config_3d';
 import trendChartConfigLHC from './trend_chart_config_lhc';
 import trendChartConfigPCB28 from './trend_chart_config_pcb';
 import trendChartConfigK3 from './trend_chart_config_k3';
+import trendChartConfigKENO from './trend_chart_config_KENO';
 
 export const trendChartConfig = {
   SSC: trendChartConfigSSC,
@@ -20,6 +21,7 @@ export const trendChartConfig = {
   LHC: trendChartConfigLHC,
   PCB: trendChartConfigPCB28,
   K3: trendChartConfigK3,
+  KENO: trendChartConfigKENO,
 };
 
 export default {}

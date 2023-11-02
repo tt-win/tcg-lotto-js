@@ -4,8 +4,8 @@ module.exports = {
   translatePlayName(playId, playCode, bettingContent = '') {
     return getPlayName({ playId, playCode, bettingContent });
   },
-  translateBallContentText(playId, bettingContent) {
-    return i18nOrderInfo({ playId, bettingContent });
+  translateBallContentText(playId, bettingContent, lang) {
+    return i18nOrderInfo({ playId, bettingContent, lang });
   },
   translatePrizeType(key) {
     if (!key || key.length === 0) {

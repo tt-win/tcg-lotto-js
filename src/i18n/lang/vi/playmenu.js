@@ -1,46 +1,448 @@
 const PlayMenu = {
   playId: {
+    // VTX
+    2675: 'Tài Xỉu',
+    2676: 'Tài Xỉu',
+
+    // VXD
+    2677: 'Xóc Đĩa',
+    2678: 'Tài Xỉu',
+    2679: 'Lẻ Chẵn',
+    2680: '4 Đỏ',
+    2681: '4 Trắng',
+    2682: '3 Trắng + 1 Đỏ',
+    2683: '3 Đỏ + 1 Trắng',
+
+    // VBC 魚蝦蟹
+    2733: 'Bầu Cua',
+    2734: 'Bầu Cua',
+
+    // SEA SEA V2 TL(天龍)
+
+    // 一級選單
+
+    // TL2D
+
+    2735: 'Đầu Đuôi', // SEA TL2D 一星
+    2741: 'Đánh Đề', // SEA TL2D 二星
+    2746: 'Kết hợp', // SEA TL2D 趣味
+
+    // TL3D
+
+    2684: 'Đánh Đề', // SEA TL3D 二数
+    2689: '3 Càng', // SEA TL3D 三数
+    2694: 'Đầu Đuôi', // SEA TL3D 跑数
+    2750: 'Kết hợp', // SEA TL3D 趣味
+
+    // TL4D
+
+    2697: 'Đánh Đề', // SEA TL4D 二数
+    2702: '3 Càng', // SEA TL4D 三数
+    2707: '4 Càng', // SEA TL4D 四数
+    2712: 'Đầu Đuôi', // SEA TL4D 跑数
+    2755: 'Kết hợp', // SEA TL4D 趣味
+
+    // TL6D
+
+    2715: 'Đánh Đề', // SEA TL6D 二数
+    2720: '3 Càng', // SEA TL6D 三数
+    2725: '4 Càng', // SEA TL6D 四数
+    2730: 'Đầu Đuôi', // SEA TL6D 跑数
+    2761: 'Kết hợp', // SEA TL6D 趣味
+
+    // TL642
+
+    2894: '3 Digits', // SEA TL642 Lucky Pick
+    2901: '2 Digits', // SEA TL642 3D
+    2908: '1 Digit', // SEA TL642 2D
+    3034: 'May mắn', // SEA TL642 1D
+
+    // TL645
+
+    2918: 'May mắn', // SEA TL645 Lucky Pick
+    2923: '3 Digits', // SEA TL645 3D
+    2930: '2 Digits', // SEA TL645 2D
+    2937: '1 Digit', // SEA TL645 1D
+
+    // TL649
+
+    2947: 'May mắn', // SEA TL649 Lucky Pick
+    2952: '3 Digits', // SEA TL649 3D
+    2959: '2 Digits', // SEA TL649 2D
+    2966: '1 Digit', // SEA TL649 1D
+
+    // TL655
+
+    2976: 'May mắn', // SEA TL655 Lucky Pick
+    2981: '3 Digits', // SEA TL655 3D
+    2988: '2 Digits', // SEA TL655 2D
+    2995: '1 Digit', // SEA TL655 1D
+
+    // TL658
+
+    3005: 'May mắn', // SEA TL658 Lucky Pick
+    3010: '3 Digits', // SEA TL658 3D
+    3017: '2 Digits', // SEA TL658 2D
+    3024: '1 Digit', // SEA TL658 1D
+
+    // TL2D37
+
+    3039: 'Đầu Đuôi', // SEA TL2D37 一星
+    3045: 'Đánh Đề', // SEA TL2D37 二星
+    3050: 'Kết hợp', // SEA TL2D37 趣味
+
+    // 二級選單
+
+    // TL2D
+
+    2736: 'EXACT 1D', // SEA TL2D 定位胆
+    2739: 'Bất kỳ', // SEA TL2D 任选
+    2742: 'Chính Xác', // SEA TL2D 二星直选
+    2744: 'Nhóm', // SEA TL2D 二星组选
+    2747: 'BSOE', // SEA TL2D 大小单双
+
+    // TL3D
+
+    2685: 'Chính Xác', // SEA TL3D 后二直选
+    2687: 'Nhóm', // SEA TL3D 后二组选
+    2690: 'Chính Xác', // SEA TL3D 后三直选
+    2692: 'Nhóm', // SEA TL3D 后三组选
+    2695: 'Nhóm', // SEA TL3D 后二不定位
+    2751: 'BSOE', // SEA TL3D 大小单双
+    2776: 'EXACT 1D', // SEA TL3D 定位胆
+
+    // TL4D
+
+    2698: 'Chính Xác', // SEA TL4D 后二直选
+    2700: 'Nhóm', // SEA TL4D 后二组选
+    2703: 'Chính Xác', // SEA TL4D 后三直选
+    2705: 'Nhóm', // SEA TL4D 后三组选
+    2708: 'Chính Xác', // SEA TL4D 后四直选
+    2710: 'Nhóm', // SEA TL4D 后四组选
+    2713: 'Nhóm', // SEA TL4D 后二不定位
+    2756: 'BSOE', // SEA TL4D 大小单双
+    2780: 'EXACT 1D', // SEA TL4D 定位胆
+
+    // TL6D
+
+    2716: 'Chính Xác', // SEA TL6D 后二直选
+    2718: 'Nhóm', // SEA TL6D 后二组选
+    2721: 'Chính Xác', // SEA TL6D 后三直选
+    2723: 'Nhóm', // SEA TL6D 后三组选
+    2726: 'Chính Xác', // SEA TL6D 后四直选
+    2728: 'Nhóm', // SEA TL6D 后四组选
+    2731: 'Nhóm', // SEA TL6D 后二不定位
+    2762: 'BSOE', // SEA TL6D 大小单双
+    2785: 'EXACT 1D', // SEA TL6D 定位胆
+
+    // TL642
+
+    2895: 'Đúng', // SEA TL642 Lucky Pick 3
+    2898: 'Tổ hợp', // SEA TL642 Lucky Pick 12
+    2902: 'Đúng', // SEA TL642 Straight
+    2905: 'Tổ hợp', // SEA TL642 Any
+    2909: 'Vị trí', // SEA TL642 Straight
+    2916: 'Bất kỳ', // SEA TL642 Any
+    3035: 'Chọn may mắn 3 số', // SEA TL642 Fixed Position
+    3037: 'Chọn may mắn 12 số', // SEA TL642 Any
+
+    // TL645
+
+    2919: 'Chọn may mắn 3 số', // SEA TL645 Lucky Pick 3
+    2921: 'Chọn may mắn 12 số', // SEA TL645 Lucky Pick 12
+    2924: 'Đúng', // SEA TL645 Straight
+    2927: 'Tổ hợp', // SEA TL645 Any
+    2931: 'Đúng', // SEA TL645 Straight
+    2934: 'Tổ hợp', // SEA TL645 Any
+    2938: 'Vị trí', // SEA TL645 Fixed Position
+    2945: 'Bất kỳ', // SEA TL645 Any
+
+    // TL649
+
+    2948: 'Chọn may mắn 3 số', // SEA TL649 Lucky Pick 3
+    2950: 'Chọn may mắn 12 số', // SEA TL649 Lucky Pick 12
+    2953: 'Đúng', // SEA TL649 Straight
+    2956: 'Tổ hợp', // SEA TL649 Any
+    2960: 'Đúng', // SEA TL649 Straight
+    2963: 'Tổ hợp', // SEA TL649 Any
+    2967: 'Vị trí', // SEA TL649 Fixed Position
+    2974: 'Bất kỳ', // SEA TL649 Any
+
+    // TL655
+
+    2977: 'Chọn may mắn 3 số', // SEA TL655 Lucky Pick 3
+    2979: 'Chọn may mắn 12 số', // SEA TL655 Lucky Pick 12
+    2982: 'Đúng', // SEA TL655 Straight
+    2985: 'Tổ hợp', // SEA TL655 Any
+    2989: 'Đúng', // SEA TL655 Straight
+    2992: 'Tổ hợp', // SEA TL655 Any
+    2996: 'Vị trí', // SEA TL655 Fixed Position
+    3003: 'Bất kỳ', // SEA TL655 Any
+
+    // TL658
+
+    3006: 'Chọn may mắn 3 số', // SEA TL658 Lucky Pick 3
+    3008: 'Chọn may mắn 12 số', // SEA TL658 Lucky Pick 12
+    3011: 'Đúng', // SEA TL658 Straight
+    3014: 'Tổ hợp', // SEA TL658 Any
+    3018: 'Đúng', // SEA TL658 Straight
+    3021: 'Tổ hợp', // SEA TL658 Any
+    3025: 'Vị trí', // SEA TL658 Fixed Position
+    3032: 'Bất kỳ', // SEA TL658 Any
+
+    // TL2D37
+
+    3040: 'EXACT 1D', // SEA TL2D37 定位胆
+    3043: 'Bất kỳ', // SEA TL2D37 任选
+    3046: 'Chính Xác', // SEA TL2D37 二星直选
+    3048: 'Nhóm', // SEA TL2D37 二星组选
+    3051: 'BSOE', // SEA TL2D37 大小单双
+
+    // 三級選單
+
+    // TL2D
+
+    2737: 'EXACT 1D 1st', // SEA TL2D 第一球
+    2738: 'EXACT 1D 2nd', // SEA TL2D 第二球
+    2740: 'Bất kỳ', // SEA TL2D 任选一
+    2743: 'EXACT 2D', // SEA TL2D 二星直选
+    2745: 'ANY 2D', // SEA TL2D 二星组选
+    2748: 'BSOE 1st', // SEA TL2D 第一球
+    2749: 'BSOE 2nd', // SEA TL2D 第二球
+
+    // TL3D
+
+    2686: 'EXACT Last 2D', // SEA TL3D 上正二位数
+    2688: 'ANY Last 2D', // SEA TL3D 上反二位数
+    2691: 'EXACT 3D', // SEA TL3D 上正三位数
+    2693: 'ANY 3D', // SEA TL3D 上反三位数
+    2696: 'Xiên Số', // SEA TL3D 上跑两位数
+    2752: 'BSOE 1st', // SEA TL3D 第一球
+    2753: 'BSOE 2nd', // SEA TL3D 第二球
+    2754: 'BSOE 3rd', // SEA TL3D 第三球
+    2777: 'EXACT 1D 1st', // SEA TL3D 第一位
+    2778: 'EXACT 1D 2nd', // SEA TL3D 第二位
+    2779: 'EXACT 1D 3rd', // SEA TL3D 第三位
+    2863: 'Rambolito3', // SEA TL3D 三星組3
+    2864: 'Rambolito6', // SEA TL3D 三星組6
+
+    // TL4D
+
+    2699: 'EXACT Last 2D', // SEA TL4D 上正二位数
+    2701: 'ANY Last 2D', // SEA TL4D 上反二位数
+    2704: 'EXACT Last 3D', // SEA TL4D 上正三位数
+    2706: 'ANY Last 3D', // SEA TL4D 上反三位数
+    2709: 'EXACT 4D', // SEA TL4D 上正四位数
+    2711: 'ANY 4D', // SEA TL4D 上反四位数
+    2714: 'Xiên Số', // SEA TL4D 上跑两位数
+    2757: 'BSOE 1st', // SEA TL4D 第一球
+    2758: 'BSOE 2nd', // SEA TL4D 第二球
+    2759: 'BSOE 3rd', // SEA TL4D 第三球
+    2760: 'BSOE 4th', // SEA TL4D 第四球
+    2781: 'EXACT 1D 1st', // SEA TL4D 第一位
+    2782: 'EXACT 1D 2nd', // SEA TL4D 第二位
+    2783: 'EXACT 1D 3rd', // SEA TL4D 第三位
+    2784: 'EXACT 1D 4th', // SEA TL4D 第四位
+    2865: 'Rambolito3 Last 3D', // SEA TL4D 三星組3
+    2866: 'Rambolito6 Last 3D', // SEA TL4D 三星組6
+    2869: 'PERM4 4D', // SEA TL4D 四星組選4
+    2870: 'PERM6 4D', // SEA TL4D 四星組選6
+    2871: 'PERM12 4D', // SEA TL4D 四星組選12
+    2872: 'PERM24 4D', // SEA TL4D 四星組選24
+
+    // TL6D
+
+    2717: 'EXACT Last 2D', // SEA TL6D 上正二位数
+    2719: 'ANY Last 2D', // SEA TL6D 上反二位数
+    2722: 'EXACT Last 3D', // SEA TL6D 上正三位数
+    2724: 'ANY Last 3D', // SEA TL6D 上反三位数
+    2727: 'EXACT Last 4D', // SEA TL6D 上正四位数
+    2729: 'ANY Last 4D', // SEA TL6D 上反四位数
+    2732: 'Xiên Số', // SEA TL6D 上跑两位数
+    2763: 'BSOE 1st', // SEA TL6D 第一球
+    2764: 'BSOE 2nd', // SEA TL6D 第二球
+    2765: 'BSOE 3rd', // SEA TL6D 第三球
+    2766: 'BSOE 4th', // SEA TL6D 第四球
+    2767: 'BSOE 5th', // SEA TL6D 第五球
+    2768: 'BSOE 6th', // SEA TL6D 第六球
+    2786: 'EXACT 1D 1st', // SEA TL6D 第一位
+    2787: 'EXACT 1D 2nd', // SEA TL6D 第二位
+    2788: 'EXACT 1D 3rd', // SEA TL6D 第三位
+    2789: 'EXACT 1D 4th', // SEA TL6D 第四位
+    2790: 'EXACT 1D 5th', // SEA TL6D 第五位
+    2791: 'EXACT 1D 6th', // SEA TL6D 第六位
+    2867: 'Rambolito3 Last 3D', // SEA TL6D 三星組3
+    2868: 'Rambolito6 Last 3D', // SEA TL6D 三星組6
+    2873: 'PERM4 Last 4D', // SEA TL6D 四星組選4
+    2874: 'PERM6 Last 4D', // SEA TL6D 四星組選6
+    2875: 'PERM12 Last 4D', // SEA TL6D 四星組選12
+    2876: 'PERM24 Last 4D', // SEA TL6D 四星組選24
+
+    // TL642
+
+    2896: '3 số đầu tiên ', // SEA TL642 Lucky Pick 3
+    2897: '3 số cuối ', // SEA TL642 Lucky Pick 12
+    2899: '3 số đầu tiên ', // SEA TL642 First 3 Straight
+    2900: '3 số cuối ', // SEA TL642 Last 3 Straight
+    2903: '2 số đầu tiên ', // SEA TL642 First 3 Any
+    2904: '2 số cuối ', // SEA TL642 Last 3 Any
+    2906: '2 số đầu tiên ', // SEA TL642 First 2 Straight
+    2907: '2 số cuối ', // SEA TL642 Last 2 Straight
+    2910: 'Vị trí 1st', // SEA TL642 First 2 Any
+    2911: 'Vị trí 2nd', // SEA TL642 Last 2 Any
+    2912: 'Vị trí 3rd', // SEA TL642 1st
+    2913: 'Vị trí 4th', // SEA TL642 2nd
+    2914: 'Vị trí 5th', // SEA TL642 3rd
+    2915: 'Vị trí 6th', // SEA TL642 4th
+    2917: 'Bất kỳ', // SEA TL642 5th
+    3036: 'Chọn may mắn 3 số', // SEA TL642 6th
+    3038: 'Chọn may mắn 12 số', // SEA TL642 Any
+
+    // TL645
+
+    2920: 'Chọn may mắn 3 số', // SEA TL645 Lucky Pick 3
+    2922: 'Chọn may mắn 12 số', // SEA TL645 Lucky Pick 12
+    2925: '3 số đầu tiên ', // SEA TL645 First 3 Straight
+    2926: '3 số cuối ', // SEA TL645 Last 3 Straight
+    2928: '3 số đầu tiên ', // SEA TL645 First 3 Any
+    2929: '3 số cuối ', // SEA TL645 Last 3 Any
+    2932: '2 số đầu tiên ', // SEA TL645 First 2 Straight
+    2933: '2 số cuối ', // SEA TL645 Last 2 Straight
+    2935: '2 số đầu tiên ', // SEA TL645 First 2 Any
+    2936: '2 số cuối ', // SEA TL645 Last 2 Any
+    2939: 'Vị trí 1st', // SEA TL645 1st
+    2940: 'Vị trí 2nd', // SEA TL645 2nd
+    2941: 'Vị trí 3rd', // SEA TL645 3rd
+    2942: 'Vị trí 4th', // SEA TL645 4th
+    2943: 'Vị trí 5th', // SEA TL645 5th
+    2944: 'Vị trí 6th', // SEA TL645 6th
+    2946: 'Bất kỳ', // SEA TL645 Any
+
+    // TL649
+
+    2949: 'Chọn may mắn 3 số', // SEA TL649 Lucky Pick 3
+    2951: 'Chọn may mắn 12 số', // SEA TL649 Lucky Pick 12
+    2954: '3 số đầu tiên ', // SEA TL649 First 3 Straight
+    2955: '3 số cuối ', // SEA TL649 Last 3 Straight
+    2957: '3 số đầu tiên ', // SEA TL649 First 3 Any
+    2958: '3 số cuối ', // SEA TL649 Last 3 Any
+    2961: '2 số đầu tiên ', // SEA TL649 First 2 Straight
+    2962: '2 số cuối ', // SEA TL649 Last 2 Straight
+    2964: '2 số đầu tiên ', // SEA TL649 First 2 Any
+    2965: '2 số cuối ', // SEA TL649 Last 2 Any
+    2968: 'Vị trí 1st', // SEA TL649 1st
+    2969: 'Vị trí 2nd', // SEA TL649 2nd
+    2970: 'Vị trí 3rd', // SEA TL649 3rd
+    2971: 'Vị trí 4th', // SEA TL649 4th
+    2972: 'Vị trí 5th', // SEA TL649 5th
+    2973: 'Vị trí 6th', // SEA TL649 6th
+    2975: 'Bất kỳ', // SEA TL649 Any
+
+    // TL655
+
+    2978: 'Chọn may mắn 3 số', // SEA TL655 Lucky Pick 3
+    2980: 'Chọn may mắn 12 số', // SEA TL655 Lucky Pick 12
+    2983: '3 số đầu tiên ', // SEA TL655 First 3 Straight
+    2984: '3 số cuối ', // SEA TL655 Last 3 Straight
+    2986: '3 số đầu tiên ', // SEA TL655 First 3 Any
+    2987: '3 số cuối ', // SEA TL655 Last 3 Any
+    2990: '2 số đầu tiên ', // SEA TL655 First 2 Straight
+    2991: '2 số cuối ', // SEA TL655 Last 2 Straight
+    2993: '2 số đầu tiên ', // SEA TL655 First 2 Any
+    2994: '2 số cuối ', // SEA TL655 Last 2 Any
+    2997: 'Vị trí 1st', // SEA TL655 1st
+    2998: 'Vị trí 2nd', // SEA TL655 2nd
+    2999: 'Vị trí 3rd', // SEA TL655 3rd
+    3000: 'Vị trí 4th', // SEA TL655 4th
+    3001: 'Vị trí 5th', // SEA TL655 5th
+    3002: 'Vị trí 6th', // SEA TL655 6th
+    3004: 'Bất kỳ', // SEA TL655 Any
+
+    // TL658
+
+    3007: 'Chọn may mắn 3 số', // SEA TL658 Lucky Pick 3
+    3009: 'Chọn may mắn 12 số', // SEA TL658 Lucky Pick 12
+    3012: '3 số đầu tiên ', // SEA TL658 First 3 Straight
+    3013: '3 số cuối ', // SEA TL658 Last 3 Straight
+    3015: '3 số đầu tiên ', // SEA TL658 First 3 Any
+    3016: '3 số cuối ', // SEA TL658 Last 3 Any
+    3019: '2 số đầu tiên ', // SEA TL658 First 2 Straight
+    3020: '2 số cuối ', // SEA TL658 Last 2 Straight
+    3022: '2 số đầu tiên ', // SEA TL658 First 2 Any
+    3023: '2 số cuối ', // SEA TL658 Last 2 Any
+    3026: 'Vị trí 1st', // SEA TL658 1st
+    3027: 'Vị trí 2nd', // SEA TL658 2nd
+    3028: 'Vị trí 3rd', // SEA TL658 3rd
+    3029: 'Vị trí 4th', // SEA TL658 4th
+    3030: 'Vị trí 5th', // SEA TL658 5th
+    3031: 'Vị trí 6th', // SEA TL658 6th
+    3033: 'Bất kỳ', // SEA TL658 Any
+
+    // TL2D37
+
+    3041: 'EXACT 1D 1st', // SEA TL2D37 第一球
+    3042: 'EXACT 1D 2nd', // SEA TL2D37 第二球
+    3044: 'Bất kỳ', // SEA TL2D37 任选一
+    3047: 'EXACT 2D', // SEA TL2D37 二星直选
+    3049: 'ANY 2D', // SEA TL2D37 二星组选
+    3052: 'BSOE 1st', // SEA TL2D37 第一球
+    3053: 'BSOE 2nd', // SEA TL2D37 第二球
+
     // Thai
+
+    // 一級選單
+
+    2060: '2 số', // 二数
+    2055: '3 số', // 三数
+    2067: 'chạy số', // 跑数
+
+    2297: 'cược Bầu Cua', // 魚蝦蟹
+    2497: 'FanTan', // 番摊
+
+    // 二級選單
+
     2056: 'Chính Xác', // 上正
     2058: 'Bất Kỳ', // 上反
     2061: 'Chính Xác', // 上正
     2063: 'Bất Kỳ', // 上反
-    2065: 'chọn ngay thêm mở',
-    2068: 'sau 3 không định vị',
-    2055: '3 số', // 三数
-    2057: '3 Càng Đặc Biệt', // 上正三位数
-    2059: 'Xiên 3 Đặc Biệt', // 上反三位数
     2643: 'Giải Nhì', // 三数 二等
     2644: 'Giải Nhì Đặt Biệt', // 三数 二特
-    2645: '3 Càng Giải Nhì', // 二等三位数
-    2646: '3 Càng Giải Nhì Đặt Biệt', // 二特三位数
+    2065: 'chọn ngay thêm mở', // 直选加开
+    2068: 'sau 3 không định vị', // 后三不定位
 
-    2060: '2 số', // 二数
-    2062: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_THAI
-    2064: 'Xiên 2 Giải Nhất',
-    2066: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_THAI
-    2067: 'chạy số', // 跑数
-    2069: 'Xiên Số Giải Nhất',
+    2298: 'cược Bầu Cua', // 魚蝦蟹
+
+    2498: 'Fan',
+    2500: 'Kwok',
+    2502: 'Nim',
+    2504: 'TàiXỉuLẻChẵn',
+
+    // 三級選單
+
+    2062: 'Đề Giải Nhất', // 上正二位数 Last_2_Straight_1st_THAI
+    2064: 'Xiên 2 Giải Nhất', // 上反二位数
+    2066: 'Đề Đặc Biệt', // 下正二位数 Last_2_Straight_2nd_THAI
+
     2480: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_THAI_Multi
     2481: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_THAI_Single
-    2482: 'Xiên 2 Giải Nhất - Chọn Số',
+    2482: 'Xiên 2 Giải Nhất - Chọn Số', // 上反二位數
     2483: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_THAI_Multi
     2484: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_THAI_Single
+
+    2057: '3 Càng Giải Nhất', // 上正三位数
+    2059: 'Xiên 3  Giải Nhất', // 上反三位数
+    2645: '3 Càng Giải Nhì', // 二等三位数
+    2646: '3 Càng Giải Nhì Đặt Biệt', // 二特三位数
+    2069: 'Xiên Số Giải Nhất', // 上跑三位数
     2485: '3 Càng Đặc Biệt - Chọn Số', // 上正三位数（复式）
     2486: '3 Càng Đặc Biệt - Nhập Số', // 上正三位数（单式）
     2487: 'Xiên 3 Đặc Biệt - Chọn Số', // 上反三位数（复式）Last_3_Combine_1st_TAHI_Multi
 
-    2297: 'cược Bầu Cua', // 魚蝦蟹
-    2298: 'cược Bầu Cua', // 魚蝦蟹
     2299: 'cược Bầu Cua', // 魚蝦蟹
-    2497: 'FanTan', // 番摊
-    2498: 'Fan',
+
     2499: 'Fan',
-    2500: 'Kwok',
     2501: 'Kwok',
-    2502: 'Nim',
     2503: 'Nim',
-    2504: 'TàiXỉuLẻChẵn',
     2505: 'TàiXỉuLẻChẵn',
 
     // vnc 越南彩
@@ -127,11 +529,10 @@ const PlayMenu = {
 
     2591: 'Đề Đầu Đuôi-Nhanh', // 中南部 - 二数头尾 - 二級選單
 
-    // 跑數二級選單目前不會使用到
-    2106: '一等二星不定位', // 跑數二級選單
-    2108: '二等二星不定位', // 跑數二級選單
+    2106: 'Ngẫu Nhiên', // 跑數二級選單
+    2108: 'Ngẫu Nhiên', // 跑數二級選單
 
-    2579: '特等二星不定位', // 特等一等 - 十位個位 - 跑數 - 二級選單
+    2579: 'Ngẫu Nhiên', // 特等一等 - 十位個位 - 跑數 - 二級選單
 
     // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
     2092: '4 Càng Đặc Biệt', // 上正四位数 Last_4_Straight_1st_VNC
@@ -229,11 +630,26 @@ const PlayMenu = {
     2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
+    2863: 'Rambolito3', // 三星組3
+    2864: 'Rambolito6', // 三星組6
+    2865: 'Rambolito3 Last 3D', // 三星組3
+    2866: 'Rambolito6 Last 3D', // 三星組6
+    2867: 'Rambolito3 Last 3D', // 三星組3
+    2868: 'Rambolito6 Last 3D', // 三星組6
     // LAO 老挝彩
+
+    // 一級選單
+
     2127: '4 số', // 四数
     2132: '3 số', // 三数
     2137: '2 số', // 二数
     2142: 'chạy số', // 跑数
+
+    2303: 'cược Bầu Cua', // 魚蝦蟹
+
+    2506: 'FanTan', // 番摊
+
+    // 二級選單
 
     2128: 'Chính Xác', // 上正
     2130: 'Bất Kỳ', // 上反
@@ -241,27 +657,23 @@ const PlayMenu = {
     2135: 'Bất Kỳ', // 上反
     2138: 'Chính Xác', // 上正
     2140: 'Chính Xác', // 下正
-
     2129: '4 Càng Đặc Biệt', // 上正四位数 Last_4_Straight_1st_LAO
     2131: 'Xiên 4 Đặc Biệt', // 上反四位数 Last_4_Combine_1st_LAO
     2134: '3 Càng Đặc Biệt', // 上正三位数
     2136: 'Xiên 3 Đặc Biệt', // 上反三位数 Last_3_Combine_1st_LAO
     2139: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_LAO
     2141: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_LAO
-    2144: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_LAO
-    2146: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_LAO
+    2143: 'Ngẫu Nhiên', // 跑數二級選單
+    2145: 'Ngẫu Nhiên', // 跑數二級選單
 
-    2632: 'VỊ TRÍ', // SEA 4D 一数 Fixed_Place_4D
-    2633: 'VỊ TRÍ (Đơn vị)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
-    2634: 'VỊ TRÍ (Chục)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
-    2635: 'VỊ TRÍ (Trăm)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
-    2636: 'VỊ TRÍ (Nghìn)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
+    2304: 'cược Bầu Cua', // 魚蝦蟹
 
-    263700: 'VỊ TRÍ', // VNC 4D 一数 Fixed_Place_4D_VNC
-    2637: 'VỊ TRÍ (Đơn vị)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
-    2638: 'VỊ TRÍ (Chục)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
-    2639: 'VỊ TRÍ (Trăm)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
-    2640: 'VỊ TRÍ (Nghìn)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
+    2507: 'Fan',
+    2509: 'Kwok',
+    2511: 'Nim',
+    2513: 'TàiXỉuLẻChẵn',
+
+    // 三級選單
 
     2288: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_LAO_Multi
     2289: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_LAO_Single
@@ -272,19 +684,49 @@ const PlayMenu = {
     2294: '3 càng đặc biệt - nhập số', // 上正三位数（单式）last_3_straight_1st_lao_single
     2295: '4 Càng Đặc Biệt - Chọn Số', // 上正四位数（复式）Last_4_Straight_1st_LAO_Multi
     2296: '4 Càng Đặc Biệt - Nhập Số', // 上正四位数（单式）Last_4_Straight_1st_LAO_Single
+    2144: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_LAO
+    2146: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_LAO
 
-    2303: 'cược Bầu Cua', // 魚蝦蟹
-    2304: 'cược Bầu Cua', // 魚蝦蟹
     2305: 'cược Bầu Cua', // 魚蝦蟹
-    2506: 'FanTan', // 番摊
-    2507: 'Fan',
+
     2508: 'Fan',
-    2509: 'Kwok',
     2510: 'Kwok',
-    2511: 'Nim',
     2512: 'Nim',
-    2513: 'TàiXỉuLẻChẵn',
     2514: 'TàiXỉuLẻChẵn',
+
+    // Keno
+
+    // 一級選單
+
+    2647: 'Chọn', // 任選 - 一級選單 Any_KENO 
+    2656: 'Kết hợp', // 趣味 - 一級選單 Fun_KENO
+
+    // 二級選單
+
+    2648: 'Chọn', // 任選 - 二級選單 Any_L2_KENO
+    2657: 'Lớn, Điểm cũ, Nhỏ', // 趣味 - 總和大小 Total_Sum_BST_KENO
+    2658: 'Lẻ, Chẵn', // 趣味 - 總和單雙 Total_Sum_OE_KENO
+    2659: 'Xiên Lớn Nhỏ, Lẻ Chẵn', // 趣味 - 總和過關 Total_Sum_PASS_KENO
+    2660: 'Trên, Hòa, Dưới', // 趣味 - 上下盤 UpDown_KENO
+    2661: 'Lẻ, Hòa, Chẳn', // 趣味 - 奇偶盤 OddEven_KENO
+    2662: 'Năm yếu tố', // 五行 WuXing_KENO
+
+    // 三級選單
+
+    2649: 'Chọn 1', // 任選一 Any1_KENO
+    2650: 'Chọn 2', // 任選二 Any2_KENO
+    2651: 'Chọn 3', // 任選三 Any3_KENO
+    2652: 'Chọn 4', // 任選四 Any4_KENO
+    2653: 'Chọn 5', // 任選五 Any5_KENO
+    2654: 'Chọn 6', // 任選六 Any6_KENO
+    2655: 'Chọn 7', // 任選七 Any7_KENO
+
+    // BCR
+    2889: 'Baccarat',
+    2890: 'Nhà Cái & Người Chơi & Hòa',
+    2891: 'Nhà Cái đôi',
+    2892: 'Người Chơi đôi',
+    2893: 'Super 6',
   },
 };
 

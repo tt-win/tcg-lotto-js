@@ -10,6 +10,8 @@ import ballBoardConfigSeaTHAI from './ball_board_config_sea_thai';
 import ballBoardConfigSeaVNC from './ball_board_config_sea_vnc';
 import ballBoardConfigSeaLAO from './ball_board_config_sea_lao';
 
+import { BallBoardConfigRecord } from './ball_board_config_record';
+import { ballShowPosition, ballConfigurationCategory } from './ball_configuration_config';
 
 // merge all games ball board config
 export const ballBoardConfig = {
@@ -24,3 +26,22 @@ export const ballBoardConfig = {
   ...ballBoardConfigSeaLAO,
 };
 export { betDigits } from './bet_digits';
+
+// 中國彩 開獎頁組態
+export const BZHConfig = {
+  'K3': BallBoardConfigRecord({
+      ballConfigurationCategory: ballConfigurationCategory.K3_BALL_SUM_BSOE,
+    }),
+  '11X5': BallBoardConfigRecord({
+      ballShowPosition: ballShowPosition.ALL,
+      ballConfigurationCategory: ballConfigurationCategory.OE_COUNT,
+    }),
+  'SSC': BallBoardConfigRecord({
+      ballShowPosition: ballShowPosition.LAST_THREE,
+      ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
+    }),
+  'LF': BallBoardConfigRecord({
+      ballShowPosition: ballShowPosition.LAST_THREE,
+      ballConfigurationCategory: ballConfigurationCategory.CONFIGURATION_NUMBER,
+    }),
+};

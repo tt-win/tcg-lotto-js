@@ -239,6 +239,40 @@ export const defaultActivePlayMenu = {
 };
 
 export const PlayMenu = {
+  // BCR
+
+  Banker_Player_Tie_Main_BCR: 2890,
+  Banker_Pair_Main_BCR: 2891,
+  Player_Pair_Main_BCR: 2892,
+  Super_Six_Main_BCR: 2893,
+
+  // Keno
+
+  // 一級選單
+
+  Any_KENO: 2647, // 任选
+  Fun_KENO: 2656, // 趣味
+
+  // 二級選單
+
+  Any_L2_KENO: 2648, // 任选
+  Total_Sum_BST_KENO: 2657, // 总和大小
+  Total_Sum_OE_KENO: 2658, // 总和单双
+  Total_Sum_PASS_KENO: 2659, // 总和过关
+  UpDown_KENO: 2660, // 上下盘
+  OddEven_KENO: 2661, // 奇偶盘
+  WuXing_KENO: 2662, // 五行
+
+  // 三級選單
+
+  Any1_KENO: 2649, // 任选一
+  Any2_KENO: 2650, // 任选二
+  Any3_KENO: 2651, // 任选三
+  Any4_KENO: 2652, // 任选四
+  Any5_KENO: 2653, // 任选五
+  Any6_KENO: 2654, // 任选六
+  Any7_KENO: 2655, // 任选七
+
   Last1Straight: 13,
   FixedPlace: 14,
   Last2Straight: 15,
@@ -304,6 +338,12 @@ export const PlayMenu = {
   P3Com_LF: 1434,
   P5First2Straight_LF: 1438,
   P5First2Straight_LF_Single: 115,
+  All5Straight_LF: 2879,
+  All5Straight_LF_Single: 2880,
+  P5First4Straight_LF: 2883,
+  P5First4Straight_LF_Single: 2884,
+  P5Last4Straight_LF: 2887,
+  P5Last4Straight_LF_Single: 2888,
 
   FixedPlace_LF_FC3D: 1422,
   FixedPlace_LF_P3P5: 1447,
@@ -358,6 +398,18 @@ export const PlayMenu = {
   Dragon_Tiger_H_10_SSC: 1745,
   Dragon_Tiger_H_1_SSC: 1746,
   Dragon_Tiger_10_1_SSC: 1747,
+
+  // 2022 0110 added 新龍虎
+  New_Dragon_Tiger_10T_T_SSC: 2665,
+  New_Dragon_Tiger_10T_H_SSC: 2666,
+  New_Dragon_Tiger_10T_10_SSC: 2667,
+  New_Dragon_Tiger_10T_1_SSC: 2668,
+  New_Dragon_Tiger_T_H_SSC: 2669,
+  New_Dragon_Tiger_T_10_SSC: 2670,
+  New_Dragon_Tiger_T_1_SSC: 2671,
+  New_Dragon_Tiger_H_10_SSC: 2672,
+  New_Dragon_Tiger_H_1_SSC: 2673,
+  New_Dragon_Tiger_10_1_SSC: 2674,
 
   // 2017 0607 added by G 不定位新玩法
   First2ComAnyCode: 64,
@@ -611,9 +663,9 @@ export const PlayMenu = {
   Sum_PK10: 1884,
   // 猜和值 與 定位膽 playcode與傳統重複..
   // 現在只有娛樂城玩法使用playcode, 之後如果有要使用playMenu.[playCode] 指向傳統玩法的話需要特別留意
-  First2Sum_PK10: 1885,
-  First3Sum_PK10: 1886,
-  FirstLastSum_PK10: 1887,
+  // First2Sum_PK10: 1885,
+  // First3Sum_PK10: 1886,
+  // FirstLastSum_PK10: 1887,
   Fixed_Place_PK10: 1888,
   // =====================================
   Dragon_Tiger_PK10: 1899,
@@ -792,6 +844,371 @@ export const PlayMenu = {
   Middle3_Special_3_SSC: 2116,
   Last3_Special_SSC: 2117,
   Last3_Special_3_SSC: 2118,
+
+  // SEA V2 TL(天龍)
+
+  // 一級選單
+
+  // TL2D
+  '1_Num_TL2D': 2735, // SEA TL2D 一星
+  '2_Num_TL2D': 2741, // SEA TL2D 二星
+  Fun_TL2D: 2746, // SEA TL2D 趣味
+
+  // TL3D
+
+  '2_Num_TL3D': 2684, // SEA TL3D 二數
+  '3_Num_TL3D': 2689, // SEA TL3D 三數
+  'Any_Place_TL3D': 2694, // SEA TL3D 跑數
+  Fun_TL3D: 2750, // SEA TL3D 趣味
+
+  // TL4D
+
+  '2_Num_TL4D': 2697, // SEA TL4D 二數
+  '3_Num_TL4D': 2702, // SEA TL4D 三數
+  '4_Num_TL4D': 2707, // SEA TL4D 四數
+  'Any_Place_TL4D': 2712, // SEA TL4D 跑數
+  Fun_TL4D: 2755, // SEA TL4D 趣味
+
+  // TL6D
+
+  '2_Num_TL6D': 2715, // SEA TL6D 二數
+  '3_Num_TL6D': 2720, // SEA TL6D 三數
+  '4_Num_TL6D': 2725, // SEA TL6D 四數
+  'Any_Place_TL6D': 2730, // SEA TL6D 跑數
+  Fun_TL6D: 2761, // SEA TL6D 趣味
+
+  // TL642
+
+  LuckyPick_TL642: 3034, // SEA TL Lucky Pick
+  '3_Num_TL642': 2894, // SEA TL 3D
+  '2_Num_TL642': 2901, // SEA 2D
+  '1_Num_TL642': 2908, // SEA 1D
+
+  // TL645
+
+  LuckyPick_TL645: 2918,
+  '3_Num_TL645': 2923,
+  '2_Num_TL645': 2930,
+  '1_Num_TL645': 2937,
+
+  // TL649
+
+  LuckyPick_TL649: 2947,
+  '3_Num_TL649': 2952,
+  '2_Num_TL649': 2959,
+  '1_Num_TL649': 2966,
+
+  // TL655
+
+  LuckyPick_TL655: 2976,
+  '3_Num_TL655': 2981,
+  '2_Num_TL655': 2988,
+  '1_Num_TL655': 2995,
+
+  // TL658
+
+  LuckyPick_TL658: 3005,
+  '3_Num_TL658': 3010,
+  '2_Num_TL658': 3017,
+  '1_Num_TL658': 3024,
+
+  // TL2D37
+
+  '1_Num_TL2D37': 3039, // SEA TL2D37 一星
+  '2_Num_TL2D37': 3045, // SEA TL2D37 二星
+  'Fun_TL2D37': 3050, // SEA TL2D37 趣味
+
+  // 二級選單
+
+  // TL2D
+  FixedPlace_TL2D: 2736, // SEA TL2D 定位胆
+  Any_TL2D: 2739, // SEA TL2D 任选
+  Last_2_Straight_Main_TL2D: 2742, // SEA TL2D 二星直选
+  Last_2_Combine_Main_TL2D: 2744,  // SEA TL2D 二星组选
+  BSOE_TL2D: 2747 ,// SEA TL2D 大小单双
+
+
+  // TL3D
+
+  Last_2_Straight_Main_TL3D: 2685, // SEA TL3D 後二直選
+  Last_2_Combine_Main_TL3D: 2687, // SEA TL3D 後二組選
+  Last_3_Straight_Main_TL3D: 2690, // SEA TL3D 後三直選
+  Last_3_Combine_Main_TL3D: 2692, // SEA TL3D 後三組選
+  '1_At_Any_Last_2_Main_TL3D': 2695, // SEA TL3D 后二不定位
+  BSOE_TL3D: 2751 ,// SEA TL3D 大小单双
+  FixedPlace_TL3D: 2776, // SEA TL3D 定位胆
+
+  // TL4D
+
+  Last_2_Straight_Main_TL4D: 2698, // SEA TL4D 後二直選
+  Last_2_Combine_Main_TL4D: 2700, // SEA TL4D 後二組選
+  Last_3_Straight_Main_TL4D: 2703, // SEA TL4D 後三直選
+  Last_3_Combine_Main_TL4D: 2705, // SEA TL4D 後三組選
+  Last_4_Straight_Main_TL4D: 2708, // SEA TL4D 後四直選
+  Last_4_Combine_Main_TL4D: 2710, // SEA TL4D 後四組選
+  '1_At_Any_Last_2_Main_TL4D': 2713, // SEA TL4D 后二不定位
+  BSOE_TL4D: 2756 ,// SEA TL4D 大小单双
+  FixedPlace_TL4D: 2780, // SEA TL4D 定位胆
+
+  // TL6D
+
+  Last_2_Straight_Main_TL6D: 2716, // SEA TL6D 後二直選
+  Last_2_Combine_Main_TL6D: 2718, // SEA TL6D 後二組選
+  Last_3_Straight_Main_TL6D: 2721, // SEA TL6D 後三直選
+  Last_3_Combine_Main_TL6D: 2723, // SEA TL6D 後三組選
+  Last_4_Straight_Main_TL6D: 2726, // SEA TL6D 後四直選
+  Last_4_Combine_Main_TL6D: 2728, // SEA TL6D 後四組選
+  '1_At_Any_Last_2_Main_TL6D': 2731, // SEA TL6D 后二不定位
+  BSOE_TL6D: 2762 ,// SEA TL6D 大小单双
+  FixedPlace_TL6D: 2785, // SEA TL6D 定位胆
+
+  // TL642
+
+  LuckyPick_3_Main_TL642: 3035,
+  LuckyPick_12_Main_TL642: 3037,
+  '3_Num_Straight_TL642': 2895,
+  '3_Num_Any_TL642': 2898,
+  '2_Num_Straight_TL642': 2902,
+  '2_Num_Any_TL642': 2905,
+  FixedPlace_TL642: 2909,
+  Any1_Main_TL642: 2916,
+
+  // TL645
+  
+  LuckyPick_3_Main_TL645: 2919,
+  LuckyPick_12_Main_TL645: 2921,
+  '3_Num_Straight_TL645': 2924,
+  '3_Num_Any_TL645': 2927,
+  '2_Num_Straight_TL645': 2931,
+  '2_Num_Any_TL645': 2934,
+  FixedPlace_TL645: 2938,
+  Any1_Main_TL645: 2945,
+
+  // TL649
+
+  LuckyPick_3_Main_TL649: 2948,
+  LuckyPick_12_Main_TL649: 2950,
+  '3_Num_Straight_TL649': 2953,
+  '3_Num_Any_TL649': 2956,
+  '2_Num_Straight_TL649': 2960,
+  '2_Num_Any_TL649': 2963,
+  FixedPlace_TL649: 2967,
+  Any1_Main_TL649: 2974,
+
+  // TL655
+
+  LuckyPick_3_Main_TL655: 2977,
+  LuckyPick_12_Main_TL655: 2979,
+  '3_Num_Straight_TL655': 2982,
+  '3_Num_Any_TL655': 2985,
+  '2_Num_Straight_TL655': 2989,
+  '2_Num_Any_TL655': 2992,
+  FixedPlace_TL655: 2996,
+  Any1_Main_TL655: 3003,
+
+  // TL658
+
+  LuckyPick_3_Main_TL658: 3006,
+  LuckyPick_12_Main_TL658: 3008,
+  '3_Num_Straight_TL658': 3011,
+  '3_Num_Any_TL658': 3014,
+  '2_Num_Straight_TL658': 3018,
+  '2_Num_Any_TL658': 3021,
+  FixedPlace_TL658: 3025,
+  Any1_Main_TL658: 3032,
+
+  // TL2D37
+
+  'FixedPlace_TL2D37': 3040, // SEA TL2D37 定位胆
+  'Any_TL2D37': 3043, // SEA TL2D37 任选
+  'Last_2_Straight_Main_TL2D37': 3046, // SEA TL2D37 二星直选
+  'Last_2_Combine_Main_TL2D37': 3048, // SEA TL2D37 二星组选
+  'BSOE_TL2D37': 3051, // SEA TL2D37 大小单双
+
+  // 三級選單
+
+  // TL2D
+
+  First_TL2D: 2737, // SEA TL2D 定位胆第一球
+  Second_TL2D: 2738,  // SEA TL2D 定位胆第二球
+  Any1_TL2D: 2740, // SEA TL2D 任选一
+
+  Last_2_Straight_TL2D: 2743, // SEA TL2D 二星直选
+  Last_2_Combine_TL2D: 2745,  // SEA TL2D 二星组选
+
+  First_BSOE_TL2D: 2748, // SEA TL2D BSOE第一球
+  Second_BSOE_TL2D: 2749, // SEA TL2D BSOE第二球
+
+  // TL3D
+
+  Last_2_Straight_TL3D: 2686, // SEA TL3D 上正二位数
+  Last_2_Combine_TL3D: 2688, // SEA TL3D 上反二位数
+  Last_3_Straight_TL3D: 2691, // SEA TL3D 上正三位数
+  Last_3_Combine_TL3D: 2693, // SEA TL3D 上反三位数
+  '1_At_Any_Last_2_TL3D': 2696, // SEA TL3D 上跑两位数
+
+  First_BSOE_TL3D: 2752, // SEA TL3D BSOE第一球
+  Second_BSOE_TL3D: 2753, // SEA TL3D BSOE第二球
+  Third_BSOE_TL3D: 2754, // SEA TL3D BSOE第三球
+
+
+  First_TL3D: 2777, // SEA TL3D 定位胆第一球
+  Second_TL3D: 2778,  // SEA TL3D 定位胆第二球
+  Third_TL3D: 2779,  // SEA TL3D 定位胆第三球
+
+  // TL4D
+
+  Last_2_Straight_TL4D: 2699, // SEA TL4D 上正二位数
+  Last_2_Combine_TL4D: 2701, // SEA TL4D 上反二位数
+  Last_3_Straight_TL4D: 2704, // SEA TL4D 上正三位数
+  Last_3_Combine_TL4D: 2706, // SEA TL4D 上反三位数
+  Last_4_Straight_TL4D: 2709, // SEA TL4D 上正四位数
+  Last_4_Combine_TL4D: 2711, // SEA TL4D 上反四位数
+  '1_At_Any_Last_2_TL4D': 2714, // SEA TL4D 上跑两位数
+
+  First_BSOE_TL4D: 2757, // SEA TL4D BSOE第一球
+  Second_BSOE_TL4D: 2758, // SEA TL4D BSOE第二球
+  Third_BSOE_TL4D: 2759, // SEA TL4D BSOE第三球
+  Forth_BSOE_TL4D: 2760, // SEA TL4D BSOE第四球
+
+  First_TL4D: 2781, // SEA TL4D 定位胆第一球
+  Second_TL4D: 2782,  // SEA TL4D 定位胆第二球
+  Third_TL4D: 2783,  // SEA TL4D 定位胆第三球
+  Fourth_TL4D: 2784,  // SEA TL4D 定位胆第四球
+
+  // TL6D
+
+  Last_2_Straight_TL6D: 2717, // SEA TL6D 上正二位数
+  Last_2_Combine_TL6D: 2719, // SEA TL6D 上反二位数
+  Last_3_Straight_TL6D: 2722, // SEA TL6D 上正三位数
+  Last_3_Combine_TL6D: 2724, // SEA TL6D 上反三位数
+  Last_4_Straight_TL6D: 2727, // SEA TL6D 上正四位数
+  Last_4_Combine_TL6D: 2729, // SEA TL6D 上反四位数
+  '1_At_Any_Last_2_TL6D': 2732, // SEA TL6D 上跑两位数
+
+  First_BSOE_TL6D: 2763, // SEA TL6D BSOE第一球
+  Second_BSOE_TL6D: 2764, // SEA TL6D BSOE第二球
+  Third_BSOE_TL6D: 2765, // SEA TL6D BSOE第三球
+  Forth_BSOE_TL6D: 2766, // SEA TL6D BSOE第四球
+  Fifth_BSOE_TL6D: 2767, // SEA TL6D BSOE第5球
+  Sixth_BSOE_TL6D: 2768, // SEA TL6D BSOE第6球
+
+  First_TL6D: 2786, // SEA TL6D 定位胆第一球
+  Second_TL6D: 2787,  // SEA TL6D 定位胆第二球
+  Third_TL6D: 2788,  // SEA TL6D 定位胆第三球
+  Fourth_TL6D: 2789,  // SEA TL6D 定位胆第四球
+  Fifth_TL6D: 2790,  // SEA TL6D 定位胆第五球
+  Sixth_TL6D: 2791,  // SEA TL6D 定位胆第六球
+
+  // TL642
+
+  LuckyPick_3_TL642: 3036,
+  LuckyPick_12_TL642: 3038,
+  First_3_Straight_TL642: 2896,
+  Last_3_Straight_TL642: 2897,
+  First_3_Any_TL642: 2899,
+  Last_3_Any_TL642: 2900,
+  First_2_Straight_TL642: 2903,
+  Last_2_Straight_TL642: 2904,
+  First_2_Any_TL642: 2906,
+  Last_2_Any_TL642: 2907,
+  First_TL642: 2910,
+  Second_TL642: 2911,
+  Third_TL642: 2912,
+  Fourth_TL642: 2913,
+  Fifth_TL642: 2914,
+  Sixth_TL642: 2915,
+  Any1_TL642: 2917,
+
+  // TL645
+
+  LuckyPick_3_TL645: 2920,
+  LuckyPick_12_TL645: 2922,
+  First_3_Straight_TL645: 2925,
+  Last_3_Straight_TL645: 2926,
+  First_3_Any_TL645: 2928,
+  Last_3_Any_TL645: 2929,
+  First_2_Straight_TL645: 2932,
+  Last_2_Straight_TL645: 2933,
+  First_2_Any_TL645: 2935,
+  Last_2_Any_TL645: 2936,
+  First_TL645: 2939,
+  Second_TL645: 2940,
+  Third_TL645: 2941,
+  Fourth_TL645: 2942,
+  Fifth_TL645: 2943,
+  Sixth_TL645: 2944,
+  Any1_TL645: 2946,
+
+  // TL649
+
+  LuckyPick_3_TL649: 2949,
+  LuckyPick_12_TL649: 2951,
+  First_3_Straight_TL649: 2954,
+  Last_3_Straight_TL649: 2955,
+  First_3_Any_TL649: 2957,
+  Last_3_Any_TL649: 2958,
+  First_2_Straight_TL649: 2961,
+  Last_2_Straight_TL649: 2962,
+  First_2_Any_TL649: 2964,
+  Last_2_Any_TL649: 2965,
+  First_TL649: 2968,
+  Second_TL649: 2969,
+  Third_TL649: 2970,
+  Fourth_TL649: 2971,
+  Fifth_TL649: 2972,
+  Sixth_TL649: 2973,
+  Any1_TL649: 2975,
+
+  // TL655
+
+  LuckyPick_3_TL655: 2978,
+  LuckyPick_12_TL655: 2980,
+  First_3_Straight_TL655: 2983,
+  Last_3_Straight_TL655: 2984,
+  First_3_Any_TL655: 2986,
+  Last_3_Any_TL655: 2987,
+  First_2_Straight_TL655: 2990,
+  Last_2_Straight_TL655: 2991,
+  First_2_Any_TL655: 2993,
+  Last_2_Any_TL655: 2994,
+  First_TL655: 2997,
+  Second_TL655: 2998,
+  Third_TL655: 2999,
+  Fourth_TL655: 3000,
+  Fifth_TL655: 3001,
+  Sixth_TL655: 3002,
+  Any1_TL655: 3004,
+
+  // TL658
+
+  LuckyPick_3_TL658: 3007,
+  LuckyPick_12_TL658: 3009,
+  First_3_Straight_TL658: 3012,
+  Last_3_Straight_TL658: 3013,
+  First_3_Any_TL658: 3015,
+  Last_3_Any_TL658: 3016,
+  First_2_Straight_TL658: 3019,
+  Last_2_Straight_TL658: 3020,
+  First_2_Any_TL658: 3022,
+  Last_2_Any_TL658: 3023,
+  First_TL658: 3026,
+  Second_TL658: 3027,
+  Third_TL658: 3028,
+  Fourth_TL658: 3029,
+  Fifth_TL658: 3030,
+  Sixth_TL658: 3031,
+  Any1_TL658: 3033,
+
+  // TL2D37
+
+  'First_TL2D37': 3041, // SEA TL2D37 第一球
+  'Second_TL2D37': 3042, // SEA TL2D37 第二球
+  'Any1_TL2D37': 3044, // SEA TL2D37 任选一
+  'Last_2_Straight_TL2D37': 3047, // SEA TL2D37 二星直选
+  'Last_2_Combine_TL2D37': 3049, // SEA TL2D37 二星组选
+  'First_BSOE_TL2D37': 3052, // SEA TL2D37 第一球
+  'Second_BSOE_TL2D37': 3053, // SEA TL2D37 第二球
 
   // THAI
 
@@ -978,6 +1395,13 @@ export const PlayMenu = {
   Fan_Tan_Nian_VNC: 2494, // 番攤 - 念
   Fan_Tan_BSOE_VNC: 2496, // 番攤 - 大小單雙
 
+  Comb3_TL3D: 2863, // 三星 後三組3
+  Comb6_TL3D: 2864, // 三星 後三組6
+  Comb3_TL4D: 2865, // 四星 後三組3
+  Comb6_TL4D: 2866, // 四星 後三組6
+  Comb3_TL6D: 2867, // 六星 後三組3
+  Comb6_TL6D: 2868, // 六星 後三組6
+
   // LAO 老挝彩
 
   // 一級選單
@@ -1123,6 +1547,9 @@ export const PlayMenu = {
   P5Last2Straight_LF_Single: 166,
   P3Last2Com_LF: 1441,
   Last2Com_LF_P3P5: 1443,
+  P5First4Straight_LF: 2883,
+  P5First4Straight_LF_Single: 2884,
+
   // PK10_Single
   First2_PK10_Single: 1732,
   First3_PK10_Single: 1733,
@@ -1147,4 +1574,96 @@ export const PlayMenu = {
   Any2_Single: 97,
   Any3_Single: 98,
   Any4_Single: 99,
+
+  // VTX 越式大小
+  Dice_BS_VTX: 2675,
+  Dice_BS_Main_VTX: 2676,
+  // 色碟
+  XocDia_VXD: 2677,
+  XocDia_BS_Main_VXD: 2678,
+  XocDia_OD_Main_VXD: 2679,
+  XocDia_4R_Main_VXD: 2680, // 全红
+  XocDia_4W_Main_VXD: 2681, // 全白
+  XocDia_3W1R_Main_VXD: 2682, // 3白1紅
+  XocDia_3R1W_Main_VXD: 2683, // 3紅1白
+
+  // 魚蝦蟹
+  Hoo_Hey_How_VBC: 2733,
+  Hoo_Hey_How_Main_VBC: 2734,
+
+  // PCSO
+  Straight_2D_PLAY: 2858,
+  Rambolito: 2860,
+  Straight_3D_PLAY: 2852,
+  Rambolito3: 2854,
+  Rambolito6: 2856,
+  Standard_4D_PLAY: 2844,
+  Perm: 2846,
+  Roll1: 2848,
+  Roll4: 2850,
+  Standard_6D_PLAY: 2842,
+  LOTTO_STANDARD_PLAY: 2792,
+  LOTTO_SYSTEM_PLAY: 2794,
+  MEGA_STANDARD_PLAY: 2802,
+  MEGA_SYSTEM_PLAY: 2804,
+  SUPER_STANDARD_PLAY: 2812,
+  SUPER_SYSTEM_PLAY: 2814,
+  GRAND_STANDARD_PLAY: 2822,
+  GRAND_SYSTEM_PLAY: 2824,
+  ULTRA_STANDARD_PLAY: 2832,
+  ULTRA_SYSTEM_PLAY: 2834,
+  Straight_2D: 2859,
+  Rambolito_2D: 2861,
+  Straight_3D: 2853,
+  Rambolito3_3D: 2855,
+  Rambolito6_3D: 2857,
+  Standard_4D: 2845,
+  Perm_4D: 2847,
+  Roll1_4D: 2849,
+  Roll4_4D: 2851,
+  Standard_6D: 2843,
+  LOTTO_STANDARD: 2793,
+  LOTTO_SYSTEM_5: 2795,
+  LOTTO_SYSTEM_7: 2796,
+  LOTTO_SYSTEM_8: 2797,
+  LOTTO_SYSTEM_9: 2798,
+  LOTTO_SYSTEM_10: 2799,
+  LOTTO_SYSTEM_11: 2800,
+  LOTTO_SYSTEM_12: 2801,
+  MEGA_STANDARD: 2803,
+  MEGA_SYSTEM_5: 2805,
+  MEGA_SYSTEM_7: 2806,
+  MEGA_SYSTEM_8: 2807,
+  MEGA_SYSTEM_9: 2808,
+  MEGA_SYSTEM_10: 2809,
+  MEGA_SYSTEM_11: 2810,
+  MEGA_SYSTEM_12: 2811,
+  SUPER_STANDARD: 2813,
+  SUPER_SYSTEM_5: 2815,
+  SUPER_SYSTEM_7: 2816,
+  SUPER_SYSTEM_8: 2817,
+  SUPER_SYSTEM_9: 2818,
+  SUPER_SYSTEM_10: 2819,
+  SUPER_SYSTEM_11: 2820,
+  SUPER_SYSTEM_12: 2821,
+  GRAND_STANDARD: 2823,
+  GRAND_SYSTEM_5: 2825,
+  GRAND_SYSTEM_7: 2826,
+  GRAND_SYSTEM_8: 2827,
+  GRAND_SYSTEM_9: 2828,
+  GRAND_SYSTEM_10: 2829,
+  GRAND_SYSTEM_11: 2830,
+  GRAND_SYSTEM_12: 2831,
+  ULTRA_STANDARD: 2833,
+  ULTRA_SYSTEM_5: 2835,
+  ULTRA_SYSTEM_7: 2836,
+  ULTRA_SYSTEM_8: 2837,
+  ULTRA_SYSTEM_9: 2838,
+  ULTRA_SYSTEM_10: 2839,
+  ULTRA_SYSTEM_11: 2840,
+  ULTRA_SYSTEM_12: 2841,
+
+  // 百人牛牛 NNP
+  EQUALIZE_MAIN_NNP: 2770,
+  DOUBLE_MAIN_NNP: 2772,
 };

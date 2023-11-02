@@ -9,6 +9,8 @@ import JA from './JA';
 import ID from './ID';
 import KO from './KO';
 import TW from './tw';
+import PT from './pt';
+import PH from './ph';
 
 export const lang = {
   ZH_CN,
@@ -20,6 +22,8 @@ export const lang = {
   ID,
   KO,
   TW,
+  PT,
+  PH,
 };
 
 const defaultLang = 'ZH_CN';
@@ -34,11 +38,19 @@ const getLang = (targetLangKey) => {
 
   // force cn
   const { location: { pathname } } = window;
-  /*eslint camelcase: ["error", {allow: ["forceZH_CN"]}]*/
-  const forceZH_CN = pathname.indexOf('/lotto/') !== -1 || pathname.indexOf('/lotto-h5/') !== -1;
-  if (forceZH_CN) return lang['ZH_CN'];
 
   let langKey = window.localStorage.lang;
+  /*eslint camelcase: ["error", {allow: ["forceZH_CN"]}]*/
+  const isCNLott = pathname.indexOf('/lotto/') !== -1 || pathname.indexOf('/lotto-h5/') !== -1;
+  if (isCNLott) {
+    switch (langKey) {
+      case 'TW':
+        return lang[langKey];
+      default:
+        return lang[defaultLang];
+    }
+  };
+
   if (!langKey) {
     return lang[defaultLang];
   }

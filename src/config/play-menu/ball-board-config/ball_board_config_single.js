@@ -127,6 +127,12 @@ const groupLFConfig = {
   116: ballBoardConfigLF[1440],
   // P5Last2Straight_LF_Single
   166: ballBoardConfigLF[1442],
+  // All5Straight_LF_Single 五星直选(单式)
+  2880: ballBoardConfigLF[2879],
+  // P5First4Straight_LF_Single P5前四直选(单式)
+  2884: ballBoardConfigLF[2883],
+  // P5Last4Straight_LF_Single P5后四直选(单式)
+  2888: ballBoardConfigLF[2887],
 
   // 混合組選
   // Last3Com_LF

@@ -8,8 +8,8 @@
 const special = {
   // Menu
   1615: '特码',
-  1618: '特码',  // SpecialB_Straight_LHC 球號1-49
-  1633: '特码',  // SpecialB_BS_OE_LHC 特(大小)(單雙)
+  1618: '特码', // SpecialB_Straight_LHC 球號1-49
+  1633: '特码', // SpecialB_BS_OE_LHC 特(大小)(單雙)
   // TP-335移除特碼A
   // Sub menu & ball bet common
   // 1617: '特码A',  // SpecialA_Straight_LHC 球號1-49
@@ -27,11 +27,11 @@ const bothSide = {
   1642: '两面',
 
   // play type
-  1631: '两面',  // Special_BSOE_LHC 特大小單雙
-  1639: '特尾大小',  // Special_Tail_BS_LHC 特尾大小
-  1641: '特合大小单双',  // Two_Sides_Special_TOSum_BSOE_LHC 特合大小單雙
-  1714: '特天地前后家野肖',  // Special_Animal_LHC 特天地前后家野肖
-  1648: '总大小单双',  // Two_Sides_Total_Sum_BSOE_LHC 總大小單雙
+  1631: '两面', // Special_BSOE_LHC 特大小單雙
+  1639: '特尾大小', // Special_Tail_BS_LHC 特尾大小
+  1641: '特合大小单双', // Two_Sides_Special_TOSum_BSOE_LHC 特合大小單雙
+  1714: '特天地前后家野肖', // Special_Animal_LHC 特天地前后家野肖
+  1648: '总和大小单双', // Two_Sides_Total_Sum_BSOE_LHC 總大小單雙
 };
 
 // 色波
@@ -40,14 +40,14 @@ const color = {
   1634: '色波',
 
   // play type
-  1635: '色波',   // Color_Straight_LHC 藍綠紅波
-  1636: '半波',   // Color_BSOE_LHC 藍綠紅波大小單雙
+  1635: '色波', // Color_Straight_LHC 藍綠紅波
+  1636: '半波', // Color_BSOE_LHC 藍綠紅波大小單雙
   1637: '半半波', // Color_BS_OE_LHC 藍綠紅波(大小)(單雙)
 };
 
 const specialZodiac = {
   // menu
-  1691: '特肖',  // Special_Zodiac_Straight_LHC 鼠牛虎兔龍蛇馬羊猴雞狗豬
+  1691: '特肖', // Special_Zodiac_Straight_LHC 鼠牛虎兔龍蛇馬羊猴雞狗豬
 
   // title
   1693: '特肖',
@@ -59,7 +59,7 @@ const headTail = {
   1649: '头尾数',
 
   // play type
-  1651: '头尾数',  // Head_Tail_Special_LHC 01234头 1234567890尾
+  1651: '头尾数', // Head_Tail_Special_LHC 01234头 1234567890尾
 };
 
 // 合肖
@@ -90,12 +90,19 @@ const fixed = {
   1627: '正五特', // Fifth_Fixed_LHC 球號1-49
   1628: '正六特', // Sixth_Fixed_LHC 球號1-49
 
-  1696: '正一特',  // Fixed_First_TOSum_OE_LHC 合單雙
-  1699: '正二特',  // Fixed_Second_TOSum_OE_LHC 合單雙
-  1702: '正三特',  // Fixed_Third_TOSum_OE_LHC 合單雙
-  1705: '正四特',  // Fixed_Fourth_TOSum_OE_LHC 合單雙
-  1708: '正五特',  // Fixed_Fifth_TOSum_OE_LHC 合單雙
-  1711: '正六特',  // Fixed_Sixth_TOSum_OE_LHC 合單雙
+  1696: '正一特', // Fixed_First_TOSum_OE_LHC 合單雙
+  1699: '正二特', // Fixed_Second_TOSum_OE_LHC 合單雙
+  1702: '正三特', // Fixed_Third_TOSum_OE_LHC 合單雙
+  1705: '正四特', // Fixed_Fourth_TOSum_OE_LHC 合單雙
+  1708: '正五特', // Fixed_Fifth_TOSum_OE_LHC 合單雙
+  1711: '正六特', // Fixed_Sixth_TOSum_OE_LHC 合單雙
+
+  1722: '正一特', // 二級選單
+  1723: '正二特', // 二級選單
+  1724: '正三特', // 二級選單
+  1725: '正四特', // 二級選單
+  1726: '正五特', // 二級選單
+  1727: '正六特', // 二級選單
 };
 
 // 正碼1-6
@@ -153,8 +160,8 @@ const normalSpecialOneZodiac = {
   1655: '平特尾数',
 
   // play type
-  1694: '平特一肖',  // Normal_Special_One_Zodiac_LHC 鼠牛虎兔龍蛇馬羊猴雞狗豬
-  1656: '平特尾数',  // Normal_Special_Tail_No_LHC 0123456789尾
+  1694: '平特一肖', // Normal_Special_One_Zodiac_LHC 鼠牛虎兔龍蛇馬羊猴雞狗豬
+  1656: '平特尾数', // Normal_Special_Tail_No_LHC 0123456789尾
 };
 
 // 自選不中
@@ -174,7 +181,7 @@ const chooseNotInWinningNumbers = {
   2161: '十二不中',
 
   // play type
-  1690: '自选不中',  // Choose_Not_in_Winning_Numbers_LHC 球號1-49(特)
+  1690: '自选不中', // Choose_Not_in_Winning_Numbers_LHC 球號1-49(特)
   2148: '五不中', // 5_Not_in_Winning_Numbers_LHC 球號1-49
   2150: '六不中', // 6_Not_in_Winning_Numbers_LHC 球號1-49
   2152: '七不中', // 7_Not_in_Winning_Numbers_LHC 球號1-49
@@ -183,7 +190,6 @@ const chooseNotInWinningNumbers = {
   2158: '十不中', // 10_Not_in_Winning_Numbers_LHC 球號1-49
   2160: '十一不中', // 11_Not_in_Winning_Numbers_LHC 球號1-49
   2162: '十二不中', // 12_Not_in_Winning_Numbers_LHC 球號1-49
-
 };
 
 const joinZodiac = {
@@ -223,9 +229,9 @@ export const lhcPlayId = {
   ...specialZodiac, // 特肖
   ...headTail, // 头尾数
   ...combineZodiac, // 合肖
-  ...normal,  // 正碼
-  ...fixed,   // 正碼特
-  ...normalFirstToSix,  // 正碼1-6
+  ...normal, // 正碼
+  ...fixed, // 正碼特
+  ...normalFirstToSix, // 正碼1-6
   ...normalSpecialOneZodiac, // 平特一肖尾數
   ...chooseNotInWinningNumbers, // 自選不中
   ...joinZodiac, // 連肖
@@ -408,13 +414,13 @@ export const lhcPlayKey = {
   specialEven: '特双',
   specialWildAnimal: '特野肖',
   specialTOSumBig: '特合大',
-  specialSumBig: '特总大',
+  specialSumBig: '总和大',
   specialTOSumSmall: '特合小',
-  specialSumSmall: '特总小',
+  specialSumSmall: '总和小',
   specialTOSumOdd: '特合单',
-  specialSumOdd: '特总单',
+  specialSumOdd: '总和单',
   specialTOSumEven: '特合双',
-  specialSumEven: '特总双',
+  specialSumEven: '总和双',
   specialSmallOdd: '特小单',
   specialSmallEven: '特小双',
   specialBigOdd: '特大单',
@@ -446,10 +452,10 @@ export const lhcPlayKey = {
   redSmallEven: '红小双',
   blueSmallEven: '蓝小双',
   greenSmallEven: '绿小双',
-  totalBig: '总大',
-  totalSmall: '总小',
-  totalOdd: '总单',
-  totalEven: '总双',
+  totalBig: '总和大',
+  totalSmall: '总和小',
+  totalOdd: '总和单',
+  totalEven: '总和双',
   firstSumOdd: '正一合单',
   firstSumEven: '正一合双',
   secondSumOdd: '正二合单',

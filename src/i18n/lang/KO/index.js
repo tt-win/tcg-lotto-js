@@ -2,6 +2,14 @@ import PlayMenu from '../EN/playmenu';
 
 const LANG = {
   ...PlayMenu,
+  playId: {
+    // BCR
+    2889: '바카라',
+    2890: '뱅커 & 플레이어 & 타이',
+    2891: '뱅커 페어',
+    2892: '플레이어 페어',
+    2893: '슈퍼 식스',
+  },
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_2: '베팅수락',
@@ -22,6 +30,13 @@ const LANG = {
     TENS: '열',
     ONES: '단위',
     COM: '그룹',
+    FIRST_BALL: '1st',
+    SECOND_BALL: '2nd',
+    THIRD_BALL: '3rd',
+    FOURTH_BALL: '4th',
+    FIFTH_BALL: '5th',
+    SIXTH_BALL: '6th',
+    ANY: 'Any One',
   },
   // 全大小奇偶清
   pickRow: {
@@ -106,6 +121,101 @@ const LANG = {
       3: 'THREE DICE',
     },
   },
+  // VXD
+  vxd: {
+    allRed: '빨강',
+    allWhite: '모두 흰색',
+    threeWoneR: '흰색3+빨강1',
+    threeRoneW: '빨강3+흰색1',
+  },
+
+  // vbc 魚蝦蟹
+  vbc: {
+    fish: '물고기',
+    prawn: '새우',
+    gourd: '멜론',
+    stag: '사슴',
+    crab: '게',
+    rooster: '닭',
+  },
+
+  // BCR
+  bcr: {
+    banker_charge: '은행가(커미션)',
+    banker_no_charge: '은행가(커미션 없음)',
+    player: '플레이어',
+    tie: '묶다',
+    banker_pair: '뱅커 페어',
+    player_pair: '플레이어 페어',
+    super_six: '슈퍼 식스',
+  },
+  gameGroupCode: {
+    SSC: 'SSC',
+    '11X5': '11X5',
+    LF: 'LF',
+    PK10: 'PK10',
+    LHC: 'LHC',
+    TC: 'TC',
+    PCB: 'PCB',
+    KENO: 'KENO',
+    K3: 'K3',
+    BTS: 'BTS',
+    THAI: 'THAI',
+    VNC: 'VNC',
+    LAO: 'LAO',
+    VTX: 'VTX',
+    ST: 'ST',
+    DLT: 'DLT',
+    MAS: 'MAS',
+    SGC: 'SGC',
+    SSQ: 'SSQ',
+    STOCK: 'STOCK',
+    TWC: 'TWC',
+    TL3D: "TL3D",
+    TL4D: "TL4D",
+    TL6D: "TL6D",
+    TL2D: "TL2D",
+    TL2D37: 'TL2D37',
+    TL642:  "TL642",
+    TL645:	"TL645",
+    TL649:	"TL649",
+    TL655:	"TL655",
+    TL658:	"TL658",
+    VXD: 'VXD',
+    VBC: 'VBC',
+    NNP: "NNP",
+    BCR: "BCR",
+  },
+
+  prizeListPrizeType: {
+    P_BANKER: 'Banker',
+    P_PLAYER: 'Player',
+    VTX_BS_BIG: '빅',
+    VTX_BS_SMALL: '스몰',
+    VXD_BS_BIG: '빅',
+    VXD_BS_SMALL: '스몰',
+    VXD_OE_ODD: '홀',
+    VXD_OE_EVEN: '짝',
+    VXD_4R_1: '빨강',
+    VXD_4W_1: '모두 흰색',
+    VXD_3W1R_1: '흰색3+빨강1',
+    VXD_3R1W_1: '빨강3+흰색1',
+
+    // BCR
+    BCR_BANKER_PLAYER_TIE_0: '은행가(커미션 없음)',
+    BCR_BANKER_PLAYER_TIE_1: '은행가(커미션)',
+    BCR_BANKER_PLAYER_TIE_2: '플레이어',
+    BCR_BANKER_PLAYER_TIE_3: '묶다',
+    BCR_BANKER_PAIR_1: '뱅커 페어',
+    BCR_PLAYER_PAIR_1: '플레이어 페어',
+    BCR_SUPER_SIX_2: '뱅커의 투 카드, 6점 차로 승리',
+    BCR_SUPER_SIX_3: '뱅커의 쓰리 카드, 6점 차로 승리',
+
+    // 魚蝦蟹
+    VBC_SINGLE_DICE_1: 'ONE DICE',
+    VBC_SINGLE_DICE_2: 'TWO DICE',
+    VBC_SINGLE_DICE_3: 'THREE DICE',
+  },
 
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
@@ -126,8 +236,8 @@ const LANG = {
     LGS_BETTING_MODE_CLOSED_ERROR: 'Betting mode is closed.',
     LGS_BETTING_MODE_NOT_ALLOW_ERROR: 'Bet mode is not allowed.',
     SYSTEM_NOT_ALLOW_BETTING: 'Game closed, please wait until next time.',
-    SYSTEM_NOT_ALLOW_CHASE: 'Chasing Numbers is not allowed in the game',
     BETTING_ITEM_LIMIT: 'Bet exceeds the limit',
+    BETTING_TIME_OUT: 'Betting time out',
     LGS_CANCEL_ORDER_NOT_AVAILABLE: 'Bet has been locked and cannot be cancelled.',
     ACS_AVAILABLE_BALANCE_NOT_ENOUGH: 'Insufficient Balance',
     CANCEL_CHASE_ORDER_IS_NOT_LAST_START: 'Chasing number needs to be cancelled from last game.',
@@ -140,13 +250,13 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'You are not logged in yet, please login first!',
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
+    LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '이미 베팅 한도 금액이 재고를 초과했습니다.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '베팅 말뚝이 한도 초과',
 //  VN
     ORDER_ALREADY_CANCELED: 'The bet has been cancelled.',
     STAKES_IS_OVER_LIMIT_ERROR: '베팅 말뚝이 한도 초과',
     BALANCE_NOT_ENOUGH_ERROR: '잔액 부족',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: '최대치를 초과하였습니다',
-    CANCEL_ORDER_ERROR: 'Cancel order failed',
     CALCULATE_BETTING_AMOUNT_ERROR: '베팅 내역이 확인되지 않습니다. 나중에 다시 시도해 주세요.',
     IILLEGAL_BALL_NUMBER_ERROR: '베팅 내역이 확인되지 않습니다. 나중에 다시 시도해 주세요.',
     ILLEGAL_BETTING_ARGUMENT_ERROR: '베팅 내역이 확인되지 않습니다. 나중에 다시 시도해 주세요.',
@@ -177,18 +287,24 @@ const LANG = {
     GAME_CLOSED_ERROR: 'Lottery Closed',
     STAKES_ABOVE_LIMIT: '베팅 말뚝이 한도 초과 > %@',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '%@ 베팅 번호 이후 동일한 두 자리로 판매가 허용되는 최대 판돈은 %@입니다',
-    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '%@. 이미 베팅 한도 금액이 재고를 초과했습니다.',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '%@. 이미 베팅 한도 금액이 재고를 초과했습니다.',
+    BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '이미 베팅 한도 금액이 재고를 초과했습니다.',
+    LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '최대치를 초과하였습니다 > %@',
   },
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',
   clearBallText: '삭제',
   addToBetSlip: '슬립에 추가',
   filterRepeat: '중복 제거',
+  pastDraw: '결과',
   betsNTotalAmount: '<div class="font-bold">%@</div>내기，총 베팅<div class="font-bold">%@</div>，',
+  betsNTotalStakeB1: '<div class="font-bold">%@</div>내기',
+  betsNTotalAmountB1: '총 베팅<div class="font-bold">%@</div>',
   predictionAmount: '보너스<div class="red-words">%@</div>',
   willWin: '보너스',
   filterResultMsg: '%@ 중복제거 %@ 무효',
   odds: '배당',
+  prize: '배당',
   amount: '금액',
   manualBetPlaceHolderSEA: `텍스트 파일을 가져오려면 파일을 열거나 외부 데이터 범위로 텍스트 파일을 가져올 수 있습니다.\n` +
       `갈라진사용 되는 가지 텍스트 파일 형식은 다음과 같습니다 TXT 파일.  참고:   차별 " , "  및 " ; "   및   "<우주 >" 열을 가져오거나 있습니다.\n` +
@@ -201,7 +317,7 @@ const LANG = {
   gameContent: '베팅 정보',
   odds1Time: '보너스/조합',
   betAmount: '조합',
-
+  clear: '지우다',
   drawPrize: {
     specialPrize: '스페셜',
     firstPrize: '1등',
@@ -212,6 +328,11 @@ const LANG = {
     sixthPrize: '6등',
     seventhPrize: '7등',
     eighthPrize: '8등',
+  },
+  drawLive: {
+    live: 'LIVE',
+    channelDescribe: 'Watch the PCSO lotto draw live streaming video from official People\'s Television (PTV 4) Channel of the Philippines.',
+    drawVideo: 'Draw Video',
   },
 };
 

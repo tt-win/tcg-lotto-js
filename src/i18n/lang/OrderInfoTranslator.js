@@ -62,6 +62,13 @@ const commaConfig = {
     PlayMenu.Dragon_Tiger_Main_PK10,
     PlayMenu.First_To_Tenth_Guess_Rank_VPK10,
     PlayMenu.First_To_Tenth_BSOE_VPK10,
+
+    // PCSO
+    PlayMenu.LOTTO_SYSTEM_5,
+    PlayMenu.MEGA_SYSTEM_5,
+    PlayMenu.SUPER_SYSTEM_5,
+    PlayMenu.GRAND_SYSTEM_5,
+    PlayMenu.ULTRA_SYSTEM_5,
   ],
 };
 
@@ -70,6 +77,31 @@ function getOrderInfoTranslatorList(lang) {
   const BALL_BSOE_KEY = ['big', 'small', 'odd', 'even'];
   const BALL_PC_KEY = ['prime', 'composite'];
   const SSC_DIGIT_KEY = ['tenThousands2', 'thousands2', 'hundreds2', 'tens2', 'ones2'];
+  const KENO_KEY = {
+    FUN:{
+      0: 'big',
+      1: 'small',
+      2: 'sumOdd',
+      3: 'sumEven',
+      4: 'sum',
+      5: 'bigSumOdd',
+      6: 'bigSumEven',
+      7: 'smallSumOdd',
+      8: 'smallSumEven',
+      9: 'up',
+      10: 'down',
+      11: 'middle',
+      12: 'ballOdd',
+      13: 'ballEven',
+      14: 'equal',
+      15: 'gold',
+      16: 'wood',
+      17: 'water',
+      18: 'fire',
+      19: 'earth',
+    }
+  }
+
   const LHC_KEY = {
     // 總大小單雙
     SUM_BSOE: ['totalBig', 'totalSmall', 'totalOdd', 'totalEven'],
@@ -271,6 +303,48 @@ function getOrderInfoTranslatorList(lang) {
     2: 'crab',
   };
 
+  const VBC = {
+    1: 'fish',
+    2: 'prawn',
+    3: 'gourd',
+    4: 'stag',
+    5: 'crab',
+    6: 'rooster',
+  }
+
+  const BCR = {
+    B_P_T: {
+      0: 'banker_no_charge',
+      1: 'banker_charge',
+      2: 'player',
+      3: 'tie',
+    },
+    B_Pair: {
+      1: 'banker_pair',
+    },
+    P_Pair: {
+      1: 'player_pair',
+    },
+    Super_Six: {
+      1: 'super_six',
+    }
+  }
+
+  const VXD = {
+    '4R_Main_VXD': {
+      1: 'allRed',
+    },
+    '4W_Main_VXD': {
+      1: 'allWhite',
+    },
+    '3W1R_Main_VXD': {
+      1: 'threeWoneR',
+    },
+    '3R1W_Main_VXD': {
+      1: 'threeRoneW',
+    },
+  }
+
   // SSC 龍虎和
   const getDragonTigerTie = (val) => {
     switch (val) {
@@ -316,6 +390,71 @@ function getOrderInfoTranslatorList(lang) {
     return contentArr.join('|');
   };
 
+  // VXD
+  const VXDTranslator = {
+    '4R_Main_VXD': {
+      items: [
+        PlayMenu.XocDia_4R_Main_VXD
+      ],
+      getText: (content) => i18n(`vxd.${VXD['4R_Main_VXD'][content]}`),
+    },
+    '4W_Main_VXD': {
+      items: [
+        PlayMenu.XocDia_4W_Main_VXD
+      ],
+      getText: (content) => i18n(`vxd.${VXD['4W_Main_VXD'][content]}`),
+    },
+    '3W1R_Main_VXD': {
+      items: [
+        PlayMenu.XocDia_3W1R_Main_VXD
+      ],
+      getText: (content) => i18n(`vxd.${VXD['3W1R_Main_VXD'][content]}`),
+    },
+    '3R1W_Main_VXD': {
+      items: [
+        PlayMenu.XocDia_3R1W_Main_VXD
+      ],
+      getText: (content) => i18n(`vxd.${VXD['3R1W_Main_VXD'][content]}`),
+    },
+  };
+
+  // VBC
+  const VBCTranslator = {
+    'Hoo_Hey_How_VBC': {
+      items: [
+        PlayMenu.Hoo_Hey_How_Main_VBC
+      ],
+      getText: (content) => i18n(`vbc.${VBC[content]}`),
+    },
+  };
+
+  // BCR
+  const BCRTranslator = {
+    'Banker_Player_Tie_Main_BCR': {
+      items: [
+        PlayMenu.Banker_Player_Tie_Main_BCR,
+      ],
+      getText: (content) => i18n(`bcr.${BCR.B_P_T[content]}`),
+    },
+    'Banker_Pair_Main_BCR': {
+      items: [
+        PlayMenu.Banker_Pair_Main_BCR,
+      ],
+      getText: (content) => i18n(`bcr.${BCR.B_Pair[content]}`),
+    },
+    'Player_Pair_Main_BCR': {
+      items: [
+        PlayMenu.Player_Pair_Main_BCR,
+      ],
+      getText: (content) => i18n(`bcr.${BCR.P_Pair[content]}`),
+    },
+    'Super_Six_Main_BCR': {
+      items: [
+        PlayMenu.Super_Six_Main_BCR,
+      ],
+      getText: (content) => i18n(`bcr.${BCR.Super_Six[content]}`),
+    },
+  };
 
   const LHCTranslator = {
     // 球號
@@ -1194,7 +1333,7 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
-  // 泰彩 & 越南彩的投注內容 
+  // 泰彩 & 越南彩的投注內容
   const THAITranslator = {
     Thai: {
       items: [
@@ -1231,6 +1370,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu['4_Not_Winning_Numbers_North_VNC'],
         PlayMenu['8_Not_Winning_Numbers_North_VNC'],
         PlayMenu['10_Not_Winning_Numbers_North_VNC'],
+        PlayMenu['4_Not_Winning_Numbers_South_VNC'],
+        PlayMenu['8_Not_Winning_Numbers_South_VNC'],
+        PlayMenu['10_Not_Winning_Numbers_South_VNC'],
 
         PlayMenu.Bunch_2_North_VNC, // 北部 串2组
         PlayMenu.Bunch_3_North_VNC, // 北部 串3组
@@ -1296,7 +1438,7 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Hoo_Hey_How_Play_VNC,
         PlayMenu.Hoo_Hey_How_Play_LAO,
       ],
-      getText: (content) => i18n(`ball.fishPrawnCrab.${FISH_PRAWN_CRAB_KEY[content]}`),
+      getText: (content = '') => content.replace(/,/g, '').split('|').map((b) => i18n(`ball.fishPrawnCrab.${FISH_PRAWN_CRAB_KEY[b]}`)).join(','),
     },
 
     FAN: {
@@ -1305,8 +1447,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fan_Tan_Fan_VNC,
         PlayMenu.Fan_Tan_Fan_LAO,
       ],
-      getText: (content) => i18n(`ball.fanTanFan.${content.replace('0', '4')}`),
-
+      getText: (content) => (content || '').split('|')
+        .map((betNumber) => i18n(`ball.fanTanFan.${betNumber.trim().replace('0', '4')}`))
+        .join(',')
     },
 
     JIAO: {
@@ -1315,7 +1458,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fan_Tan_Jiao_VNC,
         PlayMenu.Fan_Tan_Jiao_LAO,
       ],
-      getText: (content) => i18n(`ball.fanTanJiao.${content.replace('0', '4').split('').join('_')}`),
+      getText: (content) => (content || '').split('|')
+        .map((betNumber) => i18n(`ball.fanTanJiao.${betNumber.trim().replace('0', '4').split('').join('_')}`))
+        .join(',')
     },
 
     NIAN: {
@@ -1324,9 +1469,11 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Fan_Tan_Nian_VNC,
         PlayMenu.Fan_Tan_Nian_LAO,
       ],
-      getText: (content) => i18n(`ball.fanTanNian.${content.replace('0', '4').split('').join('_')}`),
+      getText: (content) => (content || '').split('|')
+        .map((betNumber) => i18n(`ball.fanTanNian.${betNumber.trim().replace('0', '4').split('').join('_')}`))
+        .join(',')
     },
-    
+
     SICBO_ALL_SURROUND: {
       items: [
         PlayMenu.All_Surround_Dice_Main_VK3,
@@ -1341,6 +1488,224 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Surround_Dice_Main_VK3,
       ],
       getText: (content) => content,
+    },
+  };
+
+  // sea特有的投注內容
+  const SeaTranslator = {
+    TL2D: {
+      items: [
+        PlayMenu.First_TL2D,
+        PlayMenu.Second_TL2D,
+        PlayMenu.Any1_TL2D,
+        PlayMenu.Last_2_Straight_TL2D,
+        PlayMenu.Last_2_Combine_TL2D,
+
+        PlayMenu.First_TL2D37,
+        PlayMenu.Second_TL2D37,
+        PlayMenu.Any1_TL2D37,
+        PlayMenu.Last_2_Straight_TL2D37,
+        PlayMenu.Last_2_Combine_TL2D37,
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+
+    TL3D: {
+      items: [
+        PlayMenu.Last_2_Straight_TL3D, // SEA TL3D 上正二位数
+        PlayMenu.Last_2_Combine_TL3D, // SEA TL3D 上反二位数
+        PlayMenu.Last_3_Straight_TL3D, // SEA TL3D 上正三位数
+        PlayMenu.Last_3_Combine_TL3D, // SEA TL3D 上反三位数
+        PlayMenu['1_At_Any_Last_2_TL3D'], // SEA TL3D 上跑两位数
+        PlayMenu.First_TL3D,
+        PlayMenu.Second_TL3D,
+        PlayMenu.Third_TL3D,
+        PlayMenu.Comb3_TL3D, // 三星 三星組三
+        PlayMenu.Comb6_TL3D, // 三星 三星組六
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+
+    TL4D: {
+      items: [
+        PlayMenu.Last_2_Straight_TL4D, // SEA TL4D 上正二位数
+        PlayMenu.Last_2_Combine_TL4D, // SEA TL4D 上反二位数
+        PlayMenu.Last_3_Straight_TL4D, // SEA TL4D 上正三位数
+        PlayMenu.Last_3_Combine_TL4D, // SEA TL4D 上反三位数
+        PlayMenu.Last_4_Straight_TL4D, // SEA TL4D 上正四位数
+        PlayMenu.Last_4_Combine_TL4D, // SEA TL4D 上反四位数
+        PlayMenu['1_At_Any_Last_2_TL4D'], // SEA TL4D 上跑两位数
+        PlayMenu.First_TL4D,
+        PlayMenu.Second_TL4D,
+        PlayMenu.Third_TL4D,
+        PlayMenu.Fourth_TL4D,
+        PlayMenu.Comb3_TL4D, // 三星 後三組三
+        PlayMenu.Comb6_TL4D, // 三星 後三組六
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+
+    TL6D: {
+      items: [
+        PlayMenu.Last_2_Straight_TL6D, // SEA TL6D 上正二位数
+        PlayMenu.Last_2_Combine_TL6D, // SEA TL6D 上反二位数
+        PlayMenu.Last_3_Straight_TL6D, // SEA TL6D 上正三位数
+        PlayMenu.Last_3_Combine_TL6D, // SEA TL6D 上反三位数
+        PlayMenu.Last_4_Straight_TL6D, // SEA TL6D 上正四位数
+        PlayMenu.Last_4_Combine_TL6D, // SEA TL6D 上反四位数
+        PlayMenu['1_At_Any_Last_2_TL6D'], // SEA TL6D 上跑两位数
+        PlayMenu.First_TL6D,
+        PlayMenu.Second_TL6D,
+        PlayMenu.Third_TL6D,
+        PlayMenu.Fourth_TL6D,
+        PlayMenu.Fifth_TL6D,
+        PlayMenu.Sixth_TL6D,
+        PlayMenu.Comb3_TL6D, // 三星 後三組三
+        PlayMenu.Comb6_TL6D, // 三星 後三組六
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+    TLBSOE: {
+      items: [
+        PlayMenu.First_BSOE_TL2D, // SEA TL2D BSOE第一球
+        PlayMenu.Second_BSOE_TL2D, // SEA TL2D BSOE第二球
+        PlayMenu.First_BSOE_TL3D, // SEA TL3D BSOE第一球
+        PlayMenu.Second_BSOE_TL3D, // SEA TL3D BSOE第二球
+        PlayMenu.Third_BSOE_TL3D, // SEA TL3D BSOE第三球
+        PlayMenu.First_BSOE_TL4D, // SEA TL4D BSOE第一球
+        PlayMenu.Second_BSOE_TL4D, // SEA TL4D BSOE第二球
+        PlayMenu.Third_BSOE_TL4D, // SEA TL4D BSOE第三球
+        PlayMenu.Forth_BSOE_TL4D, // SEA TL4D BSOE第四球
+        PlayMenu.First_BSOE_TL6D, // SEA TL6D BSOE第一球
+        PlayMenu.Second_BSOE_TL6D, // SEA TL6D BSOE第二球
+        PlayMenu.Third_BSOE_TL6D, // SEA TL6D BSOE第三球
+        PlayMenu.Forth_BSOE_TL6D, // SEA TL6D BSOE第四球
+        PlayMenu.Fifth_BSOE_TL6D, // SEA TL6D BSOE第5球
+        PlayMenu.Sixth_BSOE_TL6D, // SEA TL6D BSOE第6球
+        PlayMenu.First_BSOE_TL2D37, // SEA TL2D37 第一球
+        PlayMenu.Second_BSOE_TL2D37, // SEA TL2D37 第二球
+      ],
+      getText: (content) => i18n(`ball.BSOE.${BALL_BSOE_KEY[content]}`),
+    },
+    TL6XX1D: {
+      items: [
+        PlayMenu.Any1_TL642,
+        PlayMenu.First_TL642,
+        PlayMenu.Second_TL642,
+        PlayMenu.Third_TL642,
+        PlayMenu.Fourth_TL642,
+        PlayMenu.Fifth_TL642,
+        PlayMenu.Sixth_TL642,
+        PlayMenu.Any1_TL645,
+        PlayMenu.First_TL645,
+        PlayMenu.Second_TL645,
+        PlayMenu.Third_TL645,
+        PlayMenu.Fourth_TL645,
+        PlayMenu.Fifth_TL645,
+        PlayMenu.Sixth_TL645,
+        PlayMenu.Any1_TL649,
+        PlayMenu.First_TL649,
+        PlayMenu.Second_TL649,
+        PlayMenu.Third_TL649,
+        PlayMenu.Fourth_TL649,
+        PlayMenu.Fifth_TL649,
+        PlayMenu.Sixth_TL649,
+        PlayMenu.Any1_TL655,
+        PlayMenu.First_TL655,
+        PlayMenu.Second_TL655,
+        PlayMenu.Third_TL655,
+        PlayMenu.Fourth_TL655,
+        PlayMenu.Fifth_TL655,
+        PlayMenu.Sixth_TL655,
+        PlayMenu.Any1_TL658,
+        PlayMenu.First_TL658,
+        PlayMenu.Second_TL658,
+        PlayMenu.Third_TL658,
+        PlayMenu.Fourth_TL658,
+        PlayMenu.Fifth_TL658,
+        PlayMenu.Sixth_TL658,
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ','),
+    },
+    TL6XX2D: {
+      items: [
+        PlayMenu.First_2_Straight_TL642,
+        PlayMenu.Last_2_Straight_TL642,
+        PlayMenu.First_2_Straight_TL645,
+        PlayMenu.Last_2_Straight_TL645,
+        PlayMenu.First_2_Straight_TL649,
+        PlayMenu.Last_2_Straight_TL649,
+        PlayMenu.First_2_Straight_TL655,
+        PlayMenu.Last_2_Straight_TL655,
+        PlayMenu.First_2_Straight_TL658,
+        PlayMenu.Last_2_Straight_TL658,
+        PlayMenu.First_2_Any_TL642,
+        PlayMenu.Last_2_Any_TL642,
+        PlayMenu.First_2_Any_TL645,
+        PlayMenu.Last_2_Any_TL645,
+        PlayMenu.First_2_Any_TL649,
+        PlayMenu.Last_2_Any_TL649,
+        PlayMenu.First_2_Any_TL655,
+        PlayMenu.Last_2_Any_TL655,
+        PlayMenu.First_2_Any_TL658,
+        PlayMenu.Last_2_Any_TL658,
+      ],
+      getText: (content) => {
+        const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
+
+        return trimed.match(ballRegex).join('-');
+      },
+    },
+    TL6XX3D: {
+      items: [
+        PlayMenu.First_3_Straight_TL642,
+        PlayMenu.Last_3_Straight_TL642,
+        PlayMenu.First_3_Straight_TL645,
+        PlayMenu.Last_3_Straight_TL645,
+        PlayMenu.First_3_Straight_TL649,
+        PlayMenu.Last_3_Straight_TL649,
+        PlayMenu.First_3_Straight_TL655,
+        PlayMenu.Last_3_Straight_TL655,
+        PlayMenu.First_3_Straight_TL658,
+        PlayMenu.Last_3_Straight_TL658,
+        PlayMenu.First_3_Any_TL642,
+        PlayMenu.Last_3_Any_TL642,
+        PlayMenu.First_3_Any_TL645,
+        PlayMenu.Last_3_Any_TL645,
+        PlayMenu.First_3_Any_TL649,
+        PlayMenu.Last_3_Any_TL649,
+        PlayMenu.First_3_Any_TL655,
+        PlayMenu.Last_3_Any_TL655,
+        PlayMenu.First_3_Any_TL658,
+        PlayMenu.Last_3_Any_TL658,
+      ],
+      getText: (content) => {
+        const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
+
+        return trimed.match(ballRegex).join('-');
+      },
+    },
+    TL6XX_LUCKY_PICK: {
+      items: [
+        PlayMenu.LuckyPick_3_TL642,
+        PlayMenu.LuckyPick_12_TL642,
+        PlayMenu.LuckyPick_3_TL645,
+        PlayMenu.LuckyPick_12_TL645,
+        PlayMenu.LuckyPick_3_TL649,
+        PlayMenu.LuckyPick_12_TL649,
+        PlayMenu.LuckyPick_3_TL655,
+        PlayMenu.LuckyPick_12_TL655,
+        PlayMenu.LuckyPick_3_TL658,
+        PlayMenu.LuckyPick_12_TL658,
+      ],
+      getText: (content) => {
+        const trimed = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        const ballRegex = new RegExp(`\\d{1,${2}}`, 'g');
+
+        return trimed.match(ballRegex).join('-');
+      },
     },
   };
 
@@ -1408,6 +1773,56 @@ function getOrderInfoTranslatorList(lang) {
     (`${result}${result && val ? ' | ' : ''}${val}`), ''),
     },
   };
+
+  const KenoTranslator = {
+    KENO_FUN: {
+      items: [
+        PlayMenu.Total_Sum_BST_KENO,
+        PlayMenu.Total_Sum_OE_KENO,
+        PlayMenu.Total_Sum_PASS_KENO,
+        PlayMenu.UpDown_KENO,
+        PlayMenu.OddEven_KENO,
+        PlayMenu.WuXing_KENO,
+      ],
+      getText: (content) => i18n(`ball.kenoFunBall.${KENO_KEY.FUN[content]}`),
+    },
+    KENO_ANY: {
+      items: [
+        PlayMenu.Any1_KENO,
+        PlayMenu.Any2_KENO,
+        PlayMenu.Any3_KENO,
+        PlayMenu.Any4_KENO,
+        PlayMenu.Any5_KENO,
+        PlayMenu.Any6_KENO,
+        PlayMenu.Any7_KENO,
+      ],
+      getText: (content) => content,
+    },
+  };
+
+  const NNPTranslator = {
+    NNP: {
+      items: [
+        PlayMenu.EQUALIZE_MAIN_NNP,
+        PlayMenu.DOUBLE_MAIN_NNP,
+      ],
+      getText: (content) => {
+        const format = (content || '').replace(/,/g, '').replace(/\|/g, ',');
+        let text = format;
+        switch (format[0]) {
+          case 'Z':
+            text = `${i18n('prizeListPrizeType.P_BANKER')}${format[1]}`;
+            break;
+          case 'X':
+            text = `${i18n('prizeListPrizeType.P_PLAYER')}${format[1]}`;
+            break;
+          default:
+            break;
+        }
+        return text;
+      },
+    },
+  }
 
   // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
   const OrderInfoTranslatorList = {
@@ -1481,6 +1896,12 @@ function getOrderInfoTranslatorList(lang) {
 
         // VN PK10
         PlayMenu.First_Second_Sum_BSOE_VPK10,
+
+        // VTX
+        PlayMenu.Dice_BS_Main_VTX,
+        // 色碟
+        PlayMenu.XocDia_BS_Main_VXD,
+        PlayMenu.XocDia_OD_Main_VXD,
       ],
       getText: (content) =>
         content.split('_').reduce((result, val) => (`${result}${result ? ' | ' : ''}${i18n(`ball.BSOE.${BALL_BSOE_KEY[parseInt(val)]}`)}`), ''),
@@ -1574,6 +1995,16 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Dragon_Tiger_H_10_SSC,
         PlayMenu.Dragon_Tiger_H_1_SSC,
         PlayMenu.Dragon_Tiger_10_1_SSC,
+        // 時時彩新龍虎
+        PlayMenu.New_Dragon_Tiger_10T_T_SSC,
+        PlayMenu.New_Dragon_Tiger_10T_H_SSC,
+        PlayMenu.New_Dragon_Tiger_10T_10_SSC,
+        PlayMenu.New_Dragon_Tiger_10T_1_SSC,
+        PlayMenu.New_Dragon_Tiger_T_H_SSC,
+        PlayMenu.New_Dragon_Tiger_T_1_SSC,
+        PlayMenu.New_Dragon_Tiger_H_10_SSC,
+        PlayMenu.New_Dragon_Tiger_H_1_SSC,
+        PlayMenu.New_Dragon_Tiger_10_1_SSC,
       ],
       getText: (content) =>
         content.split('|').reduce((result, val) => (`${result}${result && val ? ' | ' : ''}${getDragonTigerTie(val)}`), ''),
@@ -1704,7 +2135,7 @@ function getOrderInfoTranslatorList(lang) {
       ],
       getText: (content) => {
         const data = content.split(',');
-        const ranking = data[0].split('-');        
+        const ranking = data[0].split('-');
         return `${i18n(`pk10Ranking.${ranking[0]}`)} VS ${i18n(`pk10Ranking.${ranking[1]}`)} @ ${ranking[data[1]]}`;
       }
     },
@@ -1755,11 +2186,14 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.P5First2Straight_LF,
         PlayMenu.P3Last2Straight_LF,
         PlayMenu.P5Last2Straight_LF,
+        PlayMenu.All5Straight_LF,
+        PlayMenu.P5First4Straight_LF,
+        PlayMenu.P5Last4Straight_LF,
       ],
-      getText: (content, bettingContent) => 
+      getText: (content, bettingContent) =>
       bettingContent.replace(/\|/g, ' ').split(',').filter((e) => e === 0 || e).join(' | ')
     },
-    
+
     STRAIGHT_LF_SINGLE: {
       items: [
         PlayMenu.Last3Straight_LF_Single,
@@ -1769,6 +2203,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.P5First2Straight_LF_Single,
         PlayMenu.P3Last2Straight_LF_Single,
         PlayMenu.P5Last2Straight_LF_Single,
+        PlayMenu.All5Straight_LF_Single,
+        PlayMenu.P5First4Straight_LF_Single,
+        PlayMenu.P5Last4Straight_LF_Single,
       ],
       getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
     },
@@ -1819,6 +2256,20 @@ function getOrderInfoTranslatorList(lang) {
       getText: (content, bettingContent) => bettingContent.split('|').map((e) =>e.split(',').filter((e) => e === 0 || e).join(' | ')).join('; '),
     },
 
+    fiveRoll: {
+      items: [
+        PlayMenu.LOTTO_SYSTEM_5,
+        PlayMenu.MEGA_SYSTEM_5,
+        PlayMenu.SUPER_SYSTEM_5,
+        PlayMenu.GRAND_SYSTEM_5,
+        PlayMenu.ULTRA_SYSTEM_5,
+      ],
+      getText: (content) => content.replace('*', 'SR'),
+    },
+
+    ...VBCTranslator,
+    ...BCRTranslator,
+    ...VXDTranslator,
     ...PK10Translator,
     ...LHCTranslator,
     ...PCBTranslator,
@@ -1830,6 +2281,9 @@ function getOrderInfoTranslatorList(lang) {
     ...SSCBaccaratTranslator,
     ...THAITranslator,
     ...LFTranslator,
+    ...KenoTranslator,
+    ...SeaTranslator,
+    ...NNPTranslator,
   };
 
   return OrderInfoTranslatorList;

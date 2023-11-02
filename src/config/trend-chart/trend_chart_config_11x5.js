@@ -27,10 +27,17 @@ const _11X5 = {
     fourthBall: 3,
     fifthBall: 4,
   },
+  // H5號碼分佈位數
+  h5NumberSpreadDigit: {
+    fullSpread: [0, 10],
+    First_3: [0, 2],
+    First_2: [0, 1],
+  },
   h5FilterConfig: {
     singleTrend: ['firstBall', 'secondBall', 'thirdBall', 'fourthBall', 'fifthBall'],
     multipleTrend: ['Fixed_Place_Complex', 'First_3', 'First_2'],
     dragonTiger: ['Dragon_Tiger'],
+    numberSpread: ['fullSpread', 'First_3', 'First_2'],
   },
   list: {
     Fixed_Place: {
