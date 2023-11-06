@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "immutable": "^4.0.0-rc.12",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "pako": "^1.0.4"
   }
 }
