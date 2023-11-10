@@ -486,6 +486,8 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'No. %@ is currently sold out and closed for betting, please try another number or come back later.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Bet Amount is over limit > %@',
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',

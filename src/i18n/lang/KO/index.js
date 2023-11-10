@@ -290,6 +290,8 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '%@. 이미 베팅 한도 금액이 재고를 초과했습니다.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '이미 베팅 한도 금액이 재고를 초과했습니다.',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '최대치를 초과하였습니다 > %@',
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
   },
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',

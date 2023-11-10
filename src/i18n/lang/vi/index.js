@@ -405,6 +405,8 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'số %@ đặt cược đã đạt mức tối đa trong kho, Bạn có thể đặt cược cho lượt sau.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'đặt cược đã đạt mức tối đa trong kho',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Vượt quá số lượng cược tối đa > %@',
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',

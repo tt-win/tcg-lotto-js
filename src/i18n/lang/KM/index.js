@@ -384,6 +384,8 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'លេខភ្នាល់លេខ %@ ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'ការភ្នាល់បរាជ័យចំនួនភ្នាល់លើសចំនួនអតិបរមា > %@',
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
   },
   gameHistoryCancel: 'ប្រវត្តិល្បែងត្រូវបានលុប',
   gameHistoryCancel_success: 'ប្រវត្តិល្បែងត្រូវបានលុបដោយ-ជោគជ័យ',
