@@ -645,7 +645,7 @@ const LANG = {
     DATA_SYNC_LOADING: '数据资料同步中，请稍后再试',
     BET_OVER_CURRENT_STOCK: '投注内容已超过本期库存总量，请等待下期更新后在试。',
     // TL swertejtf2
-    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
   },
   chasingStatus: {
     All: '全部',

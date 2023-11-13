@@ -325,7 +325,7 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Os seguintes números excederam o limite de compra atual, por favor aposte novamente, o valor restante pode ser comprado',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'O valor da aposta está acima do limite> %@',
     // TL swertejtf2
-    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
   },
   recentlyGames: 'Jogos de Aposta',
   gameHistoryCancel: 'Tem certeza de que deseja cancelar este tíquete？',

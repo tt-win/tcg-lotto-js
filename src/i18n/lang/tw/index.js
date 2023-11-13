@@ -199,7 +199,7 @@ const LANG = {
     DATA_SYNC_LOADING: '數據資料同步中，請稍後再試',
     BET_OVER_CURRENT_STOCK: '投注內容已超過本期庫存總量，請等待下期更新後在試。 ',
     // TL swertejtf2
-    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
   },
   // new
   bettingApproach: {

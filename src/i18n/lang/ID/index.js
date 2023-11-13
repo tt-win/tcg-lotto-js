@@ -355,7 +355,7 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Jumlah batas taruhan sudah melebihi dari stok.',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Slip taruhan penuh > %@',
     // TL swertejtf2
-    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
   },
   drawFrequency: 'Frekuensi the draw',
   chooseFile: 'unggah data',

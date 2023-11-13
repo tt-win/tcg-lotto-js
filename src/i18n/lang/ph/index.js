@@ -487,7 +487,7 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Bet Amount is over limit > %@',
     // TL swertejtf2
-    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Sold out',
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',
