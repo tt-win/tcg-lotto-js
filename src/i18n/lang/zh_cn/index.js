@@ -2604,7 +2604,8 @@ const LANG = {
   betIncludeCapital: '以下所有投注皆含本金',
   zhihuicai: '智慧彩开奖网',
   gamSaleExplain: '彩种销售说明',
-  
+  buyAgain: '再来一注',
+  buyAgainRemark: '以相同玩法内容及倍数再次下注',
 
   ...BaseGame,
   ...ProTrendChart,

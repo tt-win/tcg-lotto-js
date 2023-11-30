@@ -2598,7 +2598,8 @@ const LANG = {
   betIncludeCapital: '以下所有投注皆含本金',
   zhihuicai: '智慧彩開獎網',
   gamSaleExplain: '彩種銷售說明',
-
+  buyAgain: '再來一注',
+  buyAgainRemark: '以相同玩法內容及倍數再次下注',
 };
 
 export default LANG;
