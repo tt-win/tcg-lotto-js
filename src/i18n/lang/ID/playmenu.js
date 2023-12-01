@@ -146,7 +146,7 @@ const PlayMenu = {
     3037: 'Lucky Pick 12', // SEA TL642 Any
 
     // TL645
-    
+
     2919: 'Lucky Pick 3', // SEA TL645 Lucky Pick 3
     2921: 'Lucky Pick 12', // SEA TL645 Lucky Pick 12
     2924: 'Straight', // SEA TL645 Straight
@@ -500,6 +500,9 @@ const PlayMenu = {
     2520: '3D terakhir dari hasil apa pun', // 北部 后三包胆
     2524: '4D terakhir dari hasil apa pun', // 北部 后四包胆
 
+    3054: '2D Pertama dari Hasil Apapun', // 北部 - 前二包胆
+    3055: '2D Pertama 1K dari Hasil Apapun', // 北部 - 前二包胆1K
+
     2551: 'Gagal parlay 4', // 北部 - 四不中 - 二級選單
     2554: 'Gagal parlay 8', // 北部 - 八不中 - 二級選單
     2557: 'Gagal parlay 10', // 北部 - 十不中 - 二級選單
@@ -513,6 +516,9 @@ const PlayMenu = {
     2529: '2D terakhir dari hasil apa pun', // 中南部 后二包胆
     2533: '3D terakhir dari hasil apa pun', // 中南部 后三包胆
     2537: '4D terakhir dari hasil apa pun', // 中南部 后四包胆
+
+    3056: '2D Pertama dari Hasil Apapun', // 中南部 - 前二包胆
+    3057: '2D Pertama 1K dari Hasil Apapun', // 中南部 - 前二包胆1K
 
     2561: 'Gagal parlay 4', // 中南部 - 四不中 - 二級選單
     2564: 'Gagal parlay 8', // 中南部 - 八不中 - 二級選單

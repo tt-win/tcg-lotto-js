@@ -146,7 +146,7 @@ const PlayMenu = {
     3037: 'Lucky Pick 12', // SEA TL642 Any
 
     // TL645
-    
+
     2919: 'Lucky Pick 3', // SEA TL645 Lucky Pick 3
     2921: 'Lucky Pick 12', // SEA TL645 Lucky Pick 12
     2924: 'Straight', // SEA TL645 Straight
@@ -562,6 +562,11 @@ const PlayMenu = {
     2534: 'Last 3D of AnyResult', // 中南部 后三包胆
     2538: 'Last 4D of AnyResult', // 中南部 后四包胆
 
+    3054: 'First 2D of AnyResult', // 北部 - 前二包胆
+    3055: 'First 2D 1K of AnyResult', // 北部 - 前二包胆1K
+    3056: 'First 2D of AnyResult', // 中南部 - 前二包胆
+    3057: 'First 2D 1K of AnyResult', // 中南部 - 前二包胆1K
+
     2641: 'Last 2D 1K of AnyResult', // 北部 后二包胆 1K
     2642: 'Last 2D 1K of AnyResult', // 中南部 后二包胆 1K
 
@@ -711,7 +716,7 @@ const PlayMenu = {
 
     // 一級選單
 
-    2647: 'Pick', // 任選 - 一級選單 Any_KENO 
+    2647: 'Pick', // 任選 - 一級選單 Any_KENO
     2656: 'Combinations', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單

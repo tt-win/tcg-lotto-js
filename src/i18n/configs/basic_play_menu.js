@@ -974,7 +974,7 @@ export const PlayMenu = {
   Any1_Main_TL642: 2916,
 
   // TL645
-  
+
   LuckyPick_3_Main_TL645: 2919,
   LuckyPick_12_Main_TL645: 2921,
   '3_Num_Straight_TL645': 2924,
@@ -1247,6 +1247,11 @@ export const PlayMenu = {
 
   Any_Roll_Last_2_1K_North_VNC: 2641, // 北部 - 后二包胆1K
   Any_Roll_Last_2_1K_South_VNC: 2642, // 中南部 - 后二包胆1K
+
+  Any_Roll_First_2_North_VNC: 3054, // 北部 - 前二包胆
+  Any_Roll_First_2_1K_North_VNC: 3055, // 北部 - 前二包胆1K
+  Any_Roll_First_2_South_VNC: 3056, // 中南部 - 前二包胆
+  Any_Roll_First_2_1K_South_VNC: 3057, // 中南部 - 前二包胆1K
 
   // 三級選單
 

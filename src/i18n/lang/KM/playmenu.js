@@ -146,7 +146,7 @@ const PlayMenu = {
     3037: 'Lucky Pick 12', // SEA TL642 Any
 
     // TL645
-    
+
     2919: 'Lucky Pick 3', // SEA TL645 Lucky Pick 3
     2921: 'Lucky Pick 12', // SEA TL645 Lucky Pick 12
     2924: 'Straight', // SEA TL645 Straight
@@ -500,6 +500,9 @@ const PlayMenu = {
     2520: 'Last 3D of AnyResult', // 北部 后三包胆
     2524: 'Last 4D of AnyResult', // 北部 后四包胆
 
+    3054: 'លេខក្រុមដើមរបស់លទ្ធផលណាមួយ', // 北部 - 前二包胆
+    3055: 'លេខក្រុម 2D 1K របស់លទ្ធផលណាមួយ', // 北部 - 前二包胆1K
+
     2551: 'FailParlay 4', // 北部 - 四不中 - 二級選單
     2554: 'FailParlay 8', // 北部 - 八不中 - 二級選單
     2557: 'FailParlay 10', // 北部 - 十不中 - 二級選單
@@ -513,6 +516,9 @@ const PlayMenu = {
     2529: 'Last 2D of AnyResult', // 中南部 后二包胆
     2533: 'Last 3D of AnyResult', // 中南部 后三包胆
     2537: 'Last 4D of AnyResult', // 中南部 后四包胆
+
+    3056: 'លេខក្រុមដើមរបស់លទ្ធផលណាមួយ', // 中南部 - 前二包胆
+    3057: 'លេខក្រុម 2D 1K របស់លទ្ធផលណាមួយ', // 中南部 - 前二包胆1K
 
     2561: 'FailParlay 4 ', // 中南部 - 四不中 - 二級選單
     2564: 'FailParlay 8', // 中南部 - 八不中 - 二級選單
@@ -707,7 +713,7 @@ const PlayMenu = {
 
     // 一級選單
 
-    2647: 'Pick', // 任選 - 一級選單 Any_KENO 
+    2647: 'Pick', // 任選 - 一級選單 Any_KENO
     2656: 'Combinations', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單
