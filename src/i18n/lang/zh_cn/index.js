@@ -1037,7 +1037,10 @@ const LANG = {
   query: '查找',
   bettingAmount: '投注金额',
   betAmountMinLimit: '单笔最小投注上限',
-  betAmountMaxLimitByNumero: '单期最大投注上限',
+  betAmountMaxLimitByNumero: '单期投注金额上限',
+  betAmountMaxLimit: '单笔投注金额上限',
+  betAmountMaxLimitByNumero_info: '玩家在单期订单投注上最大可投注金额，输入0则为无限制。',
+  betAmountMaxLimit_info: '玩家在单笔订单投注上最大可投注金额，输入0则为无限制。',
   chasingNumeros: {
     sameMultiplesChasing: '普通追号',
     addMultiplesChasing: '翻倍追号',

@@ -543,6 +543,10 @@ const LANG = {
   gameContent: 'Bet Details',
   odds1Time: 'Payouts/1Time',
   betAmount: 'Bet Count',
+  betAmountMaxLimitByNumero: 'Max Bet Per Draw',
+  betAmountMaxLimit: 'Max Bet Amount',
+  betAmountMaxLimitByNumero_info: 'The maximum allowable betting amount for a single draw by the player; input 0 for unlimited.',
+  betAmountMaxLimit_info: 'The maximum allowable betting amount for a single order by the player; input 0 for unlimited.',
 
   drawPrize: {
     specialPrize: 'Special',

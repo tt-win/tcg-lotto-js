@@ -432,6 +432,10 @@ const LANG = {
   gameContent: 'เดิมพัน',
   odds1Time: 'จ่าย/ทีม 1',
   betAmount: 'การรวมกัน',
+  betAmountMaxLimitByNumero: 'เดิมพันสูงสุดต่อรอบ',
+  betAmountMaxLimit: 'จำนวนเงินเดิมพันสูงสุด',
+  betAmountMaxLimitByNumero_info: 'ผู้เล่นสามารถวางเดิมพันได้สูงสุดในการสั่งซื้อเดียว ป้อน 0 เพื่อไม่จำกัด',
+  betAmountMaxLimit_info: 'ผู้เล่นสามารถวางเดิมพันได้สูงสุดในการสั่งซื้อเดียว ป้อน 0 เพื่อไม่จำกัด',
   clear: 'ลบ',
   drawPrize: {
     specialPrize: 'รางวัลที่S',

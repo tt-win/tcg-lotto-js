@@ -479,6 +479,10 @@ const LANG = {
   odds1Time: 'Tiền Thắng/1 lần',
   betAmount: 'Đơn vị',
   query: 'Tìm Kiếm',
+  betAmountMaxLimitByNumero: 'Số tiền cược tối đa của mỗi phiếu',
+  betAmountMaxLimit: 'Số tiền cược tối đa của mỗi đơn',
+  betAmountMaxLimitByNumero_info: 'Nếu muốn hội viên mỗi lần có thể cược mức tối đa ( đơn vị: một phiếu ) , thì nhập vào số 0 ( tương đương không hạn chế )',
+  betAmountMaxLimit_info: 'Nếu muốn hội viên mỗi lần có thể cược mức tối đa ( đơn vị: một đơn ) , thì nhập vào số 0 ( tương đương không hạn chế )',
   clear: 'Xóa',
   drawPrize: {
     specialPrize: 'Giải ĐB',
