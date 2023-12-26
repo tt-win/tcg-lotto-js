@@ -12,6 +12,7 @@ const LANG = {
   },
   orderStatus: {
     orderStatus_0: 'All',
+    orderStatus_1: '',
     orderStatus_2: '베팅수락',
     orderStatus_4: '승리',
     orderStatus_5: '돈을 잃다',
@@ -22,6 +23,7 @@ const LANG = {
     orderStatus_14: 'Incomlpete',
     orderStatus_16: '무승부',
     orderStatus_17: '취소',
+    orderStatus_20: '',
     orderStatus_99: 'Invalid Order',
   },
   betDigit: {

@@ -44,6 +44,7 @@ const LANG = {
   },
   orderStatus: {
     orderStatus_0: 'All',
+    orderStatus_1: 'Confirm',
     orderStatus_2: 'In Progress',
     orderStatus_4: 'Won',
     orderStatus_5: 'Lose',
@@ -54,6 +55,7 @@ const LANG = {
     orderStatus_14: 'Incomlpete',
     orderStatus_16: 'Tie',
     orderStatus_17: 'Cancelled',
+    orderStatus_20: 'Reject',
     orderStatus_99: 'Invalid Order',
   },
   betDigit: {

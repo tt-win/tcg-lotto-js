@@ -31,6 +31,7 @@ const LANG = {
   recentlyGames: 'เปิดการเดิมพัน',
   orderStatus: {
     orderStatus_0: 'รายละเอียด',
+    orderStatus_1: 'ยืนยัน',
     orderStatus_2: 'สำเร็จ',
     orderStatus_4: 'ชนะเงินรางวัล',
     orderStatus_5: 'เสียเงิน',
@@ -41,6 +42,7 @@ const LANG = {
     orderStatus_14: 'ไม่มีการจับรางวัล',
     orderStatus_16: 'วาด',
     orderStatus_17: 'ยกเลิก',
+    orderStatus_20: 'ปฏิเสธ',
     orderStatus_99: 'โมฆะ',
   },
   betDigit: {

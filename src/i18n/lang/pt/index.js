@@ -236,6 +236,7 @@ const LANG = {
   },
   orderStatus: {
     orderStatus_0: 'TUDO',
+    orderStatus_1: '',
     orderStatus_2: 'EM PROGRESSO',
     orderStatus_4: 'Ganhou',
     orderStatus_5: 'Sem Prémio',
@@ -246,6 +247,7 @@ const LANG = {
     orderStatus_14: 'Incomlpete',
     orderStatus_16: 'Laço',
     orderStatus_17: 'Cancelado',
+    orderStatus_20: '',
     orderStatus_99: 'Invalid Order',
   },
   errorCode: {

@@ -33,6 +33,7 @@ const LANG = {
   recentlyGames: 'CƯỢC MỞ',
   orderStatus: {
     orderStatus_0: 'toàn bộ',
+    orderStatus_1: 'Xác nhận	',
     orderStatus_2: 'Thành Công',
     orderStatus_4: 'Cược Thắng',
     orderStatus_5: 'Cược Thua',
@@ -43,6 +44,7 @@ const LANG = {
     orderStatus_14: 'chưa mở giải',
     orderStatus_16: 'Hoà',
     orderStatus_17: 'Hủy bỏ',
+    orderStatus_20: 'Từ chối',
     orderStatus_99: 'đơn hàng vô hiệu',
   },
   betDigit: {

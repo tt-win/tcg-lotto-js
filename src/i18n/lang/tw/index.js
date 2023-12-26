@@ -8,6 +8,7 @@ const LANG = {
   ...ProTrendChart,
   orderStatus: {
     orderStatus_0: '全部',
+    orderStatus_1: '確認',
     orderStatus_2: '進行中',
     orderStatus_4: '已中獎',
     orderStatus_5: '未中獎',
@@ -18,6 +19,7 @@ const LANG = {
     orderStatus_14: '未開獎',
     orderStatus_16: '和局',
     orderStatus_17: '個人撤單',
+    orderStatus_20: '拒絕',
     orderStatus_99: '無效訂單',
   },
   // 全大小奇偶清

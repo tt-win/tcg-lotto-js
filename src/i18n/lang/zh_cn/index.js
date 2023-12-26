@@ -542,6 +542,7 @@ const LANG = {
   },
   orderStatus: {
     orderStatus_0: '全部',
+    orderStatus_1: '确认',
     orderStatus_2: '进行中',
     orderStatus_4: '已中奖',
     orderStatus_5: '未中奖',
@@ -552,6 +553,7 @@ const LANG = {
     orderStatus_14: '未开奖',
     orderStatus_16: '和局',
     orderStatus_17: '个人撤单',
+    orderStatus_20: '拒绝',
     orderStatus_99: '无效订单',
   },
   errorCode: {
