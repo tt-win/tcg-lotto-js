@@ -33,7 +33,7 @@ const LANG = {
   clear: 'លុប',
   orderStatus: {
     orderStatus_0: 'ពត៌មានលំអិត',
-    orderStatus_1: '',
+    orderStatus_1: 'រងចាំការអះអាង',
     orderStatus_2: 'កំពុងដំណើរការ',
     orderStatus_4: 'បានឈ្នះ',
     orderStatus_5: 'មិនឈ្នះ',
@@ -44,7 +44,7 @@ const LANG = {
     orderStatus_14: 'មិនបានបើក',
     orderStatus_16: 'ចង',
     orderStatus_17: 'លុបចោល',
-    orderStatus_20: '',
+    orderStatus_20: 'បដិសេធ',
     orderStatus_99: 'លំដាប់មិនត្រឹមត្រូវ',
   },
   betDigit: {

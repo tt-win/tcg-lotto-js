@@ -4,7 +4,7 @@ const LANG = {
   ...PlayMenu,
   orderStatus: {
     orderStatus_0: 'All',
-    orderStatus_1: '',
+    orderStatus_1: 'Tunggu Konfirmasi',
     orderStatus_2: 'Sukses',
     orderStatus_4: 'Menang',
     orderStatus_5: 'Kalah',
@@ -15,7 +15,7 @@ const LANG = {
     orderStatus_14: 'Incomlpete',
     orderStatus_16: 'Tie',
     orderStatus_17: 'Batal',
-    orderStatus_20: '',
+    orderStatus_20: 'Tolak',
     orderStatus_99: 'Invalid Order',
   },
   betDigit: {
