@@ -405,6 +405,7 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '%@ เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้าคงคลังเป็นศูนย์',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้า',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'รายการเดิมพันเต็ม > %@',
+    PRICE_BETTING_NOT_VALID_ERROR: "การตั้งค่าพารามิเตอร์ล็อตเตอร์ผิด",
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
   },

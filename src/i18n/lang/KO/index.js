@@ -292,6 +292,7 @@ const LANG = {
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '%@. 이미 베팅 한도 금액이 재고를 초과했습니다.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '이미 베팅 한도 금액이 재고를 초과했습니다.',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '최대치를 초과하였습니다 > %@',
+    PRICE_BETTING_NOT_VALID_ERROR: "플레이어 로또 설정 매개변수 오류",
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
   },
