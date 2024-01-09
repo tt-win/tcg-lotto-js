@@ -366,10 +366,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'ระบบไม่ว่าง กรุณาลองไหม่อีกครั้ง',
     NOT_SUPPORT_LANDSCAPE: 'หน้าจอไม่สามารถตั้งเป็นแนวนอน',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้า',
-    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เกินยอดรวมหมายเลขเดิมพันที่อนุญาต',
 //  VN
     ORDER_ALREADY_CANCELED: 'ยกเลิกคำสั่งซื้อ',
-    STAKES_IS_OVER_LIMIT_ERROR: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด',
+    STAKES_IS_OVER_LIMIT_ERROR: 'เกินยอดรวมหมายเลขเดิมพันที่อนุญาต',
     BALANCE_NOT_ENOUGH_ERROR: 'ยอดคงเหลือไม่พอ',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: 'รายการเดิมพันเต็ม',
     CALCULATE_BETTING_AMOUNT_ERROR: 'ไม่พบรายละเอียดการเดิมพัน โปรดลองใหม่อีกครั้ง',
