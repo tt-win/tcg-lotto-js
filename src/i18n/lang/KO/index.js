@@ -2,6 +2,8 @@ import PlayMenu from '../EN/playmenu';
 
 const LANG = {
   ...PlayMenu,
+  confirmBetting: '확인',
+  confirmBetInfos: '베팅 세부 정보를 확인하세요',
   playId: {
     // BCR
     2889: '바카라',
