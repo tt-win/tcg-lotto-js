@@ -392,8 +392,8 @@ const PlayMenu = {
     2063: 'QUALQUER', // 上反
     2643: 'Segundo prêmio', // 二等
     2644: 'Segundo especial', // 二特
-    2065: 'Bonus digit', // 直选加开
-    2068: 'Random Back 3 Digits', // 后三不定位
+    2065: 'Dígito de Bônus', // 直选加开
+    2068: 'Três Últimos Dígitos Não Fixos', // 后三不定位
 
     2298: 'FPC', // 魚蝦蟹
     2498: 'Ventilador',

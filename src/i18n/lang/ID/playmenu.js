@@ -405,8 +405,8 @@ const PlayMenu = {
     2063: 'ANY', // 上反
     2643: 'Hadiah Kedua', // 三数 二等
     2644: 'Spesial Kedua', // 三数 二特
-    2065: '直选加开', // 直选加开
-    2068: '后三不定位', // 后三不定位
+    2065: 'Digit Bonus', // 直选加开
+    2068: 'Tiga Belakang Tidak Tetap', // 后三不定位
 
     2298: 'FPC', // 魚蝦蟹
     2498: 'Fan',
