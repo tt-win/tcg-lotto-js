@@ -115,7 +115,8 @@ export const videoType = [
   'CAR', // PK10 賽車
   'PLANE', // PK10 飛艇
   'HORSE', // PK10 賽馬
-  'DICE_CUP', //K3 骰盅
+  'DICE_CUP', // K3 骰盅
+  'LIVE_STREAM', // 新加坡六合彩
 ];
 
 // 開獎補償(秒)
