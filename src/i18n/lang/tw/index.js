@@ -601,6 +601,7 @@ const LANG = {
     NNP: "百人牛牛",
     BCR: "百家樂",
     GINO: '基諾',
+    '4D': '4D',
   },
   gameCode: {
     T2KFFC: '2000分分彩',

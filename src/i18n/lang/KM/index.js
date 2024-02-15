@@ -281,6 +281,7 @@ const LANG = {
     VBC: 'VBC',
     NNP: "NNP",
     BCR: "BCR",
+    '4D': '4D',
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',
