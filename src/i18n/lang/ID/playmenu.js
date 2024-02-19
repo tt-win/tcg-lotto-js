@@ -16,6 +16,11 @@ const PlayMenu = {
     // VBC 魚蝦蟹
     2733: 'Ikan udang kepiting',
     2734: 'Ikan udang kepiting',
+
+    // CLR
+    3058: 'Color',
+    3059: 'Color',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單

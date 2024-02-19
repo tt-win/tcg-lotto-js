@@ -2078,6 +2078,11 @@ const LANG = {
     VBC_SINGLE_DICE_2: '双骰',
     VBC_SINGLE_DICE_3: '三骰',
 
+    // CLR
+    CLR_SINGLE_DICE_1: '单骰',
+    CLR_SINGLE_DICE_2: '双骰',
+    CLR_SINGLE_DICE_3: '三骰',
+
     // TL 天龍玩法
     P_FIRST_0: '大',
     P_FIRST_1: '小',

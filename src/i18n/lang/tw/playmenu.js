@@ -603,6 +603,10 @@ const PlayMenu = {
     2733: '魚蝦蟹',
     2734: '魚蝦蟹',
 
+    // CLR
+    3058: 'Color',
+    3059: 'Color',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單

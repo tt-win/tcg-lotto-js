@@ -310,6 +310,11 @@ const LANG = {
     VBC_SINGLE_DICE_2: 'TWO DICE',
     VBC_SINGLE_DICE_3: 'THREE DICE',
 
+    // CLR
+    CLR_SINGLE_DICE_1: 'ONE DICE',
+    CLR_SINGLE_DICE_2: 'TWO DICE',
+    CLR_SINGLE_DICE_3: 'THREE DICE',
+
     // KENO
     P_KENO_ANY1_1: 'ตรงกับ 1 ตัวจาก 1 ตัว',
     P_KENO_ANY2_2: 'ตรงกับ 2 ตัวจาก 2 ตัว',

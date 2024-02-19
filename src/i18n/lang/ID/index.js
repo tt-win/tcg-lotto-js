@@ -282,6 +282,11 @@ const LANG = {
     VBC_SINGLE_DICE_1: 'Satu dadu',
     VBC_SINGLE_DICE_2: 'Dua dadu',
     VBC_SINGLE_DICE_3: 'Tiga dadu',
+
+    // CLR
+    CLR_SINGLE_DICE_1: 'Satu dadu',
+    CLR_SINGLE_DICE_2: 'Dua dadu',
+    CLR_SINGLE_DICE_3: 'Tiga dadu',
   },
 
   errorCode: {

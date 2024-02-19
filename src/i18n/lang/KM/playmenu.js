@@ -16,6 +16,11 @@ const PlayMenu = {
     // VBC 魚蝦蟹
     2733: 'Caranguejo Camarão Peixe',
     2734: 'Caranguejo Camarão Peixe',
+
+    // CLR
+    3058: 'Color',
+    3059: 'Color',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單

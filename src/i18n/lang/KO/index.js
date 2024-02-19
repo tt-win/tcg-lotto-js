@@ -220,6 +220,11 @@ const LANG = {
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',
     VBC_SINGLE_DICE_3: 'THREE DICE',
+
+    // CLR
+    CLR_SINGLE_DICE_1: 'ONE DICE',
+    CLR_SINGLE_DICE_2: 'TWO DICE',
+    CLR_SINGLE_DICE_3: 'THREE DICE',
   },
 
   errorCode: {

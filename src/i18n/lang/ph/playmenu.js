@@ -16,6 +16,10 @@ const PlayMenu = {
     2733: 'Fish Prawn Crab',
     2734: 'Fish Prawn Crab',
 
+    // CLR
+    3058: 'Color',
+    3059: 'Color',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單

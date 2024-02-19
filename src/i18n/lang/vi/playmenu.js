@@ -17,6 +17,10 @@ const PlayMenu = {
     2733: 'Bầu Cua',
     2734: 'Bầu Cua',
 
+    // CLR
+    3058: 'Color',
+    3059: 'Color',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單
