@@ -28,7 +28,7 @@ export const lang = {
 
 const defaultLang = 'ZH_CN';
 
-const getLang = (targetLangKey) => {
+export const getLang = (targetLangKey) => {
   // Force to use specific lang if targetLangKey passed
   const targetLang = lang[targetLangKey];
   if (targetLangKey && targetLang) { return targetLang; }
