@@ -281,6 +281,7 @@ const LANG = {
     VBC: 'VBC',
     NNP: "NNP",
     BCR: "BCR",
+    CLR: 'Color Game',
     '4D': '4D',
   },
   prizeListPrizeType: {

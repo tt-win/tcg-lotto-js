@@ -477,6 +477,7 @@ const LANG = {
     NNP: "百人牛牛",
     BCR: "百家乐",
     GINO: '基诺',
+    CLR: 'Color Game',
     '4D': '4D',
   },
   gameCode: {
