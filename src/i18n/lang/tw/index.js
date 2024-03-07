@@ -1054,7 +1054,7 @@ const LANG = {
   numberScaleName: ['萬', '億', '兆'],
   query: '查找',
   bettingAmount: '投注金額',
-  betAmountMinLimit: '單筆最小投注上限',
+  betAmountMinLimit: '單筆最小投注下限',
   betAmountMaxLimitByNumero: '單期最大投注上限',
   chasingNumeros: {
     sameMultiplesChasing: '普通追號',
