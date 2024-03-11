@@ -237,7 +237,7 @@ const LANG = {
     ballOdd: 'L',
     ballEven: 'C',
     ballOddBallEven: 'L/C/H',
-    equal: 'T',
+    equal: 'H',
     gold: '-',
     wood: '-',
     water: '-',
