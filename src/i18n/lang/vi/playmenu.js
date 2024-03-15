@@ -718,7 +718,7 @@ const PlayMenu = {
     2658: 'Lẻ, Chẵn', // 趣味 - 總和單雙 Total_Sum_OE_KENO
     2659: 'Xiên Lớn Nhỏ, Lẻ Chẵn', // 趣味 - 總和過關 Total_Sum_PASS_KENO
     2660: 'Trên, Hòa, Dưới', // 趣味 - 上下盤 UpDown_KENO
-    2661: 'Lẻ, Hòa, Chẳn', // 趣味 - 奇偶盤 OddEven_KENO
+    2661: 'Các Số Lẻ, Hòa, Các Số Chẵn', // 趣味 - 奇偶盤 OddEven_KENO
     2662: 'Năm yếu tố', // 五行 WuXing_KENO
 
     // 三級選單
