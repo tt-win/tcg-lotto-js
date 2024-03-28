@@ -397,6 +397,7 @@ const LANG = {
   betsNTotalAmountB1: 'TOTAL BET<div class="font-bold">%@</div>',
   predictionAmount: 'will win<div class="red-words">%@</div>',
   willWin: 'irá vencer',
+  emptyDrawHistory: 'sem dados',
 
   drawPrize: {
     specialPrize: 'Especial',

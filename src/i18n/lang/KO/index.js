@@ -332,6 +332,7 @@ const LANG = {
   odds1Time: '보너스/조합',
   betAmount: '조합',
   clear: '지우다',
+  emptyDrawHistory: '데이터가 없습니다',
   drawPrize: {
     specialPrize: '스페셜',
     firstPrize: '1등',

@@ -2619,7 +2619,7 @@ const LANG = {
   gamSaleExplain: '彩种销售说明',
   buyAgain: '再来一注',
   buyAgainRemark: '以相同玩法内容及倍数再次下注',
-
+  emptyDrawHistory: '没有结果',
   ...BaseGame,
   ...ProTrendChart,
 };

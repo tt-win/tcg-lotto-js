@@ -553,7 +553,7 @@ const LANG = {
   gameContent: 'Bet Details',
   odds1Time: 'Payouts/1Time',
   betAmount: 'Bet Count',
-
+  emptyDrawHistory: 'No Data',
   drawPrize: {
     specialPrize: 'Special',
     firstPrize: '1st Prize',

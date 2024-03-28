@@ -2610,6 +2610,7 @@ const LANG = {
   gamSaleExplain: '彩種銷售說明',
   buyAgain: '再來一注',
   buyAgainRemark: '以相同玩法內容及倍數再次下注',
+  emptyDrawHistory: '沒有結果',
 };
 
 export default LANG;

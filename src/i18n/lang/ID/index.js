@@ -392,6 +392,7 @@ const LANG = {
   odds1Time: 'Menangkan / 1Time',
   betAmount: 'Hitungan',
   clear: 'Clear',
+  emptyDrawHistory: 'tidak ada data',
   drawPrize: {
     specialPrize: 'Spesial',
     firstPrize: 'Hadiah Pertama',

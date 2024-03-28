@@ -424,6 +424,7 @@ const LANG = {
   gameContent: 'មាតិកា',
   odds1Time: 'ប្រាក់រង្វា/បរិមា',
   betAmount: 'បរិមាណ',
+  emptyDrawHistory: 'No data',
 
   drawPrize: {
     specialPrize: 'ពិសេស',

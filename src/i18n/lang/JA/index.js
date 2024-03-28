@@ -86,6 +86,7 @@ const LANG = {
   },
   drawInterval: '宝くじ開時間',
   drawFrequency: '宝くじ頻度',
+  emptyDrawHistory: 'データがありません',
 };
 
 export default LANG;

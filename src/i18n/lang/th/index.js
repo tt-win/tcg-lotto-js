@@ -447,6 +447,7 @@ const LANG = {
   betAmountMaxLimitByNumero_info: 'ผู้เล่นสามารถวางเดิมพันได้สูงสุดในการสั่งซื้อเดียว ป้อน 0 เพื่อไม่จำกัด',
   betAmountMaxLimit_info: 'ผู้เล่นสามารถวางเดิมพันได้สูงสุดในการสั่งซื้อเดียว ป้อน 0 เพื่อไม่จำกัด',
   clear: 'ลบ',
+  emptyDrawHistory: 'ไม่มีข้อมูล',
   drawPrize: {
     specialPrize: 'รางวัลที่S',
     firstPrize: 'รางวัลที่1',
