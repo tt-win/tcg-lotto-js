@@ -494,6 +494,7 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Stakes is over limit stakes > %@2',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'No. %@ is currently sold out and closed for betting, please try another number or come back later.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Bet Amount is over limit > %@',
     PRICE_BETTING_NOT_VALID_ERROR: "Lottery setting has error.",
     // TL swertejtf2

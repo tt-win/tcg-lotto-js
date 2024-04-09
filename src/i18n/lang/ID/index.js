@@ -362,6 +362,7 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Taruhan maksimum yang diizinkan untuk dijual dengan dua digit yang sama setelah nomor taruhan %@ adalah %@.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'No.%@. Jumlah batas taruhan sudah melebihi dari stok.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Jumlah batas taruhan sudah melebihi dari stok.',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Jumlah batas taruhan sudah melebihi dari stok.',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Slip taruhan penuh > %@',
     PRICE_BETTING_NOT_VALID_ERROR: "Kesalahan Parameter Pengaturan Lotere Pemain",
     // TL swertejtf2
