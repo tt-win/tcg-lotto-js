@@ -1132,7 +1132,7 @@ const PlayMenu = {
     2097: '上正三位数', // 上正三位数 Last_3_Straight_1st_VNC
     2099: '上反三位数', // 上反三位数 Last_3_Combine_1st_VNC
     2102: '上正二位数', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: '下正二位数', // 下正二位数 Last_2_Straight_2nd_VNC
+    2104: '一等奖后二位', // 下正二位数 Last_2_Straight_2nd_VNC
     2107: '上跑两位数', // 上跑两位数 Last_2_Any_1st_VNC
     2109: '下跑两位数', // 下跑两位数 Last_2_Any_2nd_VNC
 
@@ -1221,8 +1221,8 @@ const PlayMenu = {
 
     2279: '上正二位数（复式）', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: '上正二位数（单式）', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2281: '下正二位数（复式）', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
-    2282: '下正二位数（单式）', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
+    2281: '一等奖后二位（复式）', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2282: '一等奖后二位（单式）', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
     // 一數為特例(不算三級又像三級選單)
     2637: '一数 (个位)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC

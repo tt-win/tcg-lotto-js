@@ -550,7 +550,7 @@ const PlayMenu = {
     2097: '3 Càng Đặc Biệt', // 上正三位数 Last_3_Straight_1st_VNC
     2099: 'Xiên 3 Đặc Biệt', // 上反三位数 Last_3_Combine_1st_VNC
     2102: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_VNC
+    2104: 'ĐỀ ĐUÔI GIẢI NHẤT', // 下正二位数 Last_2_Straight_2nd_VNC
     2107: 'Xiên Đặc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
 
@@ -637,8 +637,8 @@ const PlayMenu = {
 
     2279: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
-    2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
+    2281: 'ĐỀ ĐUÔI GIẢI NHẤT- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2282: 'ĐỀ ĐUÔI GIẢI NHẤT - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
     2863: 'Rambolito3', // 三星組3
     2864: 'Rambolito6', // 三星組6
