@@ -397,6 +397,7 @@ const LANG = {
     PRICE_BETTING_NOT_VALID_ERROR: "កំហុស​ការ​កំណត់​ទំនិញ​ឆ្លើយ​បញ្",
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   gameHistoryCancel: 'ប្រវត្តិល្បែងត្រូវបានលុប',
   gameHistoryCancel_success: 'ប្រវត្តិល្បែងត្រូវបានលុបដោយ-ជោគជ័យ',

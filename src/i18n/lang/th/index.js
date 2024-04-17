@@ -416,6 +416,7 @@ const LANG = {
     PRICE_BETTING_NOT_VALID_ERROR: "การตั้งค่าพารามิเตอร์ล็อตเตอร์ผิด",
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',

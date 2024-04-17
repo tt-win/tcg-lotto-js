@@ -204,6 +204,7 @@ const LANG = {
     BET_OVER_CURRENT_STOCK: '投注內容已超過本期庫存總量，請等待下期更新後在試。 ',
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   // new
   bettingApproach: {

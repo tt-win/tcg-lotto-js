@@ -332,6 +332,7 @@ const LANG = {
     PRICE_BETTING_NOT_VALID_ERROR: "Erro nos Parâmetros de Configuração da Lotaria do Jogador",
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   recentlyGames: 'Jogos de Aposta',
   gameHistoryCancel: 'Tem certeza de que deseja cancelar este tíquete？',

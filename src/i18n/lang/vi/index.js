@@ -418,6 +418,7 @@ const LANG = {
     PRICE_BETTING_NOT_VALID_ERROR: "Lỗi cài đặt giá bán đại lý",
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   gameHistoryCancel: 'xác nhận bỏ đơn',
   gameHistoryCancel_success: 'bỏ đơn thành công',
