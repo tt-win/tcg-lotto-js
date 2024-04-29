@@ -3,14 +3,15 @@ import _replace from 'lodash/replace';
 import ZH_CN from './zh_cn';
 import TH from './th';
 import VI from './vi';
-import KM from './KM';
+import KM from './km';
 import EN from './EN';
-import JA from './JA';
-import ID from './ID';
-import KO from './KO';
+import JA from './ja';
+import ID from './id';
+import KO from './ko';
 import TW from './tw';
 import PT from './pt';
 import PH from './ph';
+import HI from './hi';
 
 export const lang = {
   ZH_CN,
@@ -24,6 +25,7 @@ export const lang = {
   TW,
   PT,
   PH,
+  HI,
 };
 
 const defaultLang = 'ZH_CN';

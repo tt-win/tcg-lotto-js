@@ -73,6 +73,22 @@ const PlayMenu = {
     2653: 'Pick 5', // 任選五 Any5_KENO
     2654: 'Pick 6', // 任選六 Any6_KENO
     2655: 'Pick 7', // 任選七 Any7_KENO
+
+    // Wingo-Level:1
+
+    3060: '実行回数', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: '大きいか小さいかを予想する', // SEA Wingo 大小
+    3063: '数字を予想する', // SEA Wingo 数字
+    3065: '色を当てる', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: '大きいか小さいかを予想する', // SEA Wingo 大小
+    3064: '数字を予想する', // SEA Wingo 猜数字
+    3066: '色を当てる', // SEA Wingo 猜顔色
   },
 };
 

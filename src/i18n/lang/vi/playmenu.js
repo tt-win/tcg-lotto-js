@@ -737,6 +737,22 @@ const PlayMenu = {
     2891: 'Nhà Cái đôi',
     2892: 'Người Chơi đôi',
     2893: 'Super 6',
+
+    // Wingo-Level:1
+
+    3060: 'Số lần chạy', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: 'ĐOÁN TÀI XỈU', // SEA Wingo 大小
+    3063: 'ĐOÁN SỐ', // SEA Wingo 数字
+    3065: 'ĐOÁN MÀU', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: 'ĐOÁN TÀI XỈU', // SEA Wingo 大小
+    3064: 'ĐOÁN SỐ', // SEA Wingo 猜数字
+    3066: 'ĐOÁN MÀU', // SEA Wingo 猜顔色
   },
 };
 

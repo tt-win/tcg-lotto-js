@@ -826,19 +826,19 @@ const PlayMenu = {
 
     // Wingo-Level:1
 
-    3060: 'Run numbers', // SEA Wingo 跑数
+    3060: '번호 달리기', // SEA Wingo 跑数
 
     // Wingo-Level:2
 
-    3061: 'Guess the size', // SEA Wingo 大小
-    3063: 'Guess the number', // SEA Wingo 数字
-    3065: 'Guess the color', // SEA Wingo 顔色
+    3061: '크거나 작은 것을 추측하다', // SEA Wingo 大小
+    3063: '숫자 추측', // SEA Wingo 数字
+    3065: '색깔 추측', // SEA Wingo 顔色
 
     // Wingo-Level:3
 
-    3062: 'Guess the size', // SEA Wingo 大小
-    3064: 'Guess the number', // SEA Wingo 猜数字
-    3066: 'Guess the color', // SEA Wingo 猜顔色
+    3062: '크거나 작은 것을 추측하다', // SEA Wingo 大小
+    3064: '숫자 추측', // SEA Wingo 猜数字
+    3066: '색깔 추측', // SEA Wingo 猜顔色
   },
 };
 

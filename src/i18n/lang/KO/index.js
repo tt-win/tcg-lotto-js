@@ -1,4 +1,4 @@
-import PlayMenu from '../EN/playmenu';
+import PlayMenu from './playmenu';
 
 const LANG = {
   ...PlayMenu,

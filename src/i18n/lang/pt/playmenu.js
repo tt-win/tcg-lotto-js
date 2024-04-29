@@ -732,6 +732,22 @@ const PlayMenu = {
     2891: 'Par de banqueiro',
     2892: 'Par de jogadores',
     2893: 'Super Seis',
+
+    // Wingo-Level:1
+
+    3060: 'Contagem de corridas', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: 'Adivinhar grande ou pequeno', // SEA Wingo 大小
+    3063: 'Adivinhe o número', // SEA Wingo 数字
+    3065: 'Adivinhar a cor', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: 'Adivinhar grande ou pequeno', // SEA Wingo 大小
+    3064: 'Adivinhe o número', // SEA Wingo 猜数字
+    3066: 'Adivinhar a cor', // SEA Wingo 猜顔色
   },
 };
 
