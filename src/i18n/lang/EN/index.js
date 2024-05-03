@@ -258,6 +258,14 @@ const LANG = {
     WuXing: '5E',
   },
 
+  wingo: {
+    red: 'red',
+    green: 'green',
+    purple: 'purple',
+    big: 'Big',
+    small: 'Small',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',

@@ -179,6 +179,14 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'ក្រហម',
+      green: 'បៃតង',
+      purple: 'ពណ៌ស្វាយ',
+      big: 'ធំ',
+      small: 'តូច',
+    },
   },
   // VXD
   vxd: {
@@ -245,6 +253,7 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',

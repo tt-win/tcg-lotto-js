@@ -150,6 +150,14 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'merah',
+      green: 'hijau',
+      purple: 'ungu',
+      big: 'Big',
+      small: 'Small',
+    },
   },
   // VXD
   vxd: {
@@ -216,6 +224,7 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',

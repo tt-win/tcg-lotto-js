@@ -190,6 +190,14 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'red',
+      green: 'green',
+      purple: 'purple',
+      big: 'Big',
+      small: 'Small',
+    },
   },
 
   // VXD

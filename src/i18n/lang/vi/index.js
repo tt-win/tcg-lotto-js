@@ -179,6 +179,14 @@ const LANG = {
       earthFull: 'Thổ(924-1410)',
       earthFullLineBreak: 'Thổ\n(924-1410)',
     },
+
+    wingo: {
+      red: 'màu đỏ',
+      green: 'màu xanh lá',
+      purple: 'màu tím',
+      big: 'Tài',
+      small: 'Xỉu',
+    },
   },
   // VXD
   vxd: {
@@ -245,6 +253,7 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',

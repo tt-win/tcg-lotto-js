@@ -545,6 +545,15 @@ const LANG = {
       earthFull: '土(924-1410)',
       earthFullLineBreak: '土\n(924-1410)',
     },
+
+    wingo: {
+      red: '紅',
+      green: '綠',
+      purple: '紫',
+      big: '大',
+      small: '小',
+    },
+
     KENO: {
       sum: '和值:%@',
       big: '大',
