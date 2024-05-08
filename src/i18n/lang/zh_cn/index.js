@@ -2152,6 +2152,11 @@ const LANG = {
     NNP_DOUBLE_N1: '牛1',
     NNP_DOUBLE_N0: '无牛',
 
+    P_WGG_COLOR_0: '红',
+    P_WGG_COLOR_1: '绿',
+    P_WGG_COLOR_2: '紫',
+    P_WGG_COLOR_3: '双色球红绿',
+
   },
   longDragon: '长龙投注',
   longDragonLott: '彩种类型',

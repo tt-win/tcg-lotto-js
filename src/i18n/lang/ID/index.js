@@ -297,6 +297,11 @@ const LANG = {
     CLR_SINGLE_DICE_1: 'Satu dadu',
     CLR_SINGLE_DICE_2: 'Dua dadu',
     CLR_SINGLE_DICE_3: 'Tiga dadu',
+
+    P_WGG_COLOR_0: 'लाल',
+    P_WGG_COLOR_1: 'हरा',
+    P_WGG_COLOR_2: 'बैंगनी',
+    P_WGG_COLOR_3: 'डबल कलर बॉल लाल हरा',
   },
 
   errorCode: {
