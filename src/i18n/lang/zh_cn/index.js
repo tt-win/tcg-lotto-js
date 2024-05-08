@@ -449,6 +449,11 @@ const LANG = {
     WuXing: '五行',
   },
 
+  wingoRoadmap: {
+    bigSmall: '大/小',
+    greenPurpleRed: '绿/紫/紅',
+  },
+
   gameGroupCode: {
     SSC: '时时彩',
     '11X5': '十一选五',

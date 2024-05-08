@@ -109,6 +109,11 @@ const LANG = {
     WuXing: '五行',
   },
 
+  wingoRoadmap: {
+    bigSmall: '大/小',
+    greenPurpleRed: '綠/紫/紅',
+  },
+
   // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩種已關閉',

@@ -201,6 +201,11 @@ const LANG = {
     WuXing: '5E',
   },
 
+  wingoRoadmap: {
+    bigSmall: 'B/S',
+    greenPurpleRed: 'G/P/R',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
