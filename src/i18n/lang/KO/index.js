@@ -124,6 +124,14 @@ const LANG = {
       2: 'TWO DICE',
       3: 'THREE DICE',
     },
+
+    wingo: {
+      red: '빨간색',
+      green: '녹색',
+      purple: '보라색',
+      big: '빅',
+      small: '스몰',
+    },
   },
   // VXD
   vxd: {
