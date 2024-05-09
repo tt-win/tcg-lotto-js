@@ -255,8 +255,8 @@ const LANG = {
   },
 
   wingoRoadmap: {
-    bigSmall: 'B/S',
-    greenPurpleRed: 'G/P/R',
+    bigSmall: 'T/X',
+    redGreenPurple: 'R/G/P',
   },
 
   gameGroupCode: {

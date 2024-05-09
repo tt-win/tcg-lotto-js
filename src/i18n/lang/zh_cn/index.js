@@ -451,7 +451,7 @@ const LANG = {
 
   wingoRoadmap: {
     bigSmall: '大/小',
-    greenPurpleRed: '绿/紫/紅',
+    redGreenPurple: '顏色',
   },
 
   gameGroupCode: {

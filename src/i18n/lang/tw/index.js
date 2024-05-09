@@ -111,7 +111,7 @@ const LANG = {
 
   wingoRoadmap: {
     bigSmall: '大/小',
-    greenPurpleRed: '綠/紫/紅',
+    redGreenPurple: '顏色',
   },
 
   // TODO i18n
