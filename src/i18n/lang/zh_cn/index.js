@@ -354,6 +354,15 @@ const LANG = {
       earthFull: '土(924-1410)',
       earthFullLineBreak: '土\n(924-1410)',
     },
+
+    wingo: {
+      red: '紅',
+      green: '绿',
+      purple: '紫',
+      big: '大',
+      small: '小',
+    },
+
     KENO: {
       sum: '和值:%@',
       big: '大',
@@ -438,6 +447,11 @@ const LANG = {
     fire: '火',
     earth: '土',
     WuXing: '五行',
+  },
+
+  wingoRoadmap: {
+    bigSmall: '大/小',
+    redGreenPurple: '顏色',
   },
 
   gameGroupCode: {
@@ -2142,6 +2156,11 @@ const LANG = {
     NNP_DOUBLE_N2: '牛2',
     NNP_DOUBLE_N1: '牛1',
     NNP_DOUBLE_N0: '无牛',
+
+    P_WGG_COLOR_0: '红',
+    P_WGG_COLOR_1: '绿',
+    P_WGG_COLOR_2: '紫',
+    P_WGG_COLOR_3: '双色球红绿',
 
   },
   longDragon: '长龙投注',

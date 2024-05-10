@@ -150,6 +150,14 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'merah',
+      green: 'hijau',
+      purple: 'ungu',
+      big: 'Big',
+      small: 'Small',
+    },
   },
   // VXD
   vxd: {
@@ -216,6 +224,12 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
+  wingoRoadmap: {
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -288,6 +302,11 @@ const LANG = {
     CLR_SINGLE_DICE_1: 'Satu dadu',
     CLR_SINGLE_DICE_2: 'Dua dadu',
     CLR_SINGLE_DICE_3: 'Tiga dadu',
+
+    P_WGG_COLOR_0: 'लाल',
+    P_WGG_COLOR_1: 'हरा',
+    P_WGG_COLOR_2: 'बैंगनी',
+    P_WGG_COLOR_3: 'डबल कलर बॉल लाल हरा',
   },
 
   errorCode: {

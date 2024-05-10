@@ -1671,4 +1671,22 @@ export const PlayMenu = {
   // 百人牛牛 NNP
   EQUALIZE_MAIN_NNP: 2770,
   DOUBLE_MAIN_NNP: 2772,
+
+  // 印度彩 wingo
+
+  // Wingo-Level:1
+
+  'Any_Place_WGG': 3060, // SEA Wingo 跑数
+
+  // Wingo-Level:2
+
+  'BS_Main_WGG': 3061, // SEA Wingo 大小
+  'Num_Main_WGG': 3063, // SEA Wingo 数字
+  'Color_Main_WGG': 3065, // SEA Wingo 顔色
+
+  // Wingo-Level:3
+
+  'BS_WGG': 3062, // SEA Wingo 大小
+  'Num_WGG': 3064, // SEA Wingo 猜数字
+  'Color_WGG': 3066, // SEA Wingo 猜顔色
 };

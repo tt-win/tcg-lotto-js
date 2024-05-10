@@ -177,6 +177,14 @@ const LANG = {
       earthFull: 'โลก(924-1410)',
       earthFullLineBreak: 'โลก\n(924-1410)',
     },
+
+    wingo: {
+      red: 'สีแดง',
+      green: 'สีเขียว',
+      purple: 'สีม่วง',
+      big: 'สูง',
+      small: 'ต่ำ',
+    },
   },
   // VXD
   vxd: {
@@ -243,6 +251,12 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
+  wingoRoadmap: {
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -336,6 +350,11 @@ const LANG = {
     P_KENO_ANY7_5: 'รางวัลรองชนะเลิศที่สาม',
     P_KENO_ANY7_6: 'รางวัลรองชนะเลิศที่สอง',
     P_KENO_ANY7_7: 'รางวัลชนะเลิศ',
+
+    P_WGG_COLOR_0: 'สีแดง',
+    P_WGG_COLOR_1: 'สีเขียว',
+    P_WGG_COLOR_2: 'สีม่วง',
+    P_WGG_COLOR_3: 'ลูกบอลสีสองสีสีแดงเขียว',
   },
 
   // TODO i18n

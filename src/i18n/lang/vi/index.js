@@ -179,6 +179,14 @@ const LANG = {
       earthFull: 'Thổ(924-1410)',
       earthFullLineBreak: 'Thổ\n(924-1410)',
     },
+
+    wingo: {
+      red: 'màu đỏ',
+      green: 'màu xanh lá',
+      purple: 'màu tím',
+      big: 'Tài',
+      small: 'Xỉu',
+    },
   },
   // VXD
   vxd: {
@@ -245,6 +253,12 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
+  wingoRoadmap: {
+    bigSmall: 'T/X',
+    redGreenPurple: 'R/G/P',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -336,6 +350,11 @@ const LANG = {
     P_KENO_ANY7_5: 'Giải ba',
     P_KENO_ANY7_6: 'Giải nhì',
     P_KENO_ANY7_7: 'Giải nhất',
+
+    P_WGG_COLOR_0: 'màu đỏ',
+    P_WGG_COLOR_1: 'màu xanh lá',
+    P_WGG_COLOR_2: 'màu tím',
+    P_WGG_COLOR_3: 'Quả bóng hai màu đỏ xanh',
   },
 
   // TODO i18n

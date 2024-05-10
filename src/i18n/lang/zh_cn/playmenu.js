@@ -1506,6 +1506,22 @@ const PlayMenu = {
     2892: '闲对',
     2893: '超级六',
 
+    // Wingo-Level:1
+
+    3060: '跑数', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: '猜大小', // SEA Wingo 大小
+    3063: '猜数字', // SEA Wingo 数字
+    3065: '猜颜色', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: '猜大小', // SEA Wingo 大小
+    3064: '猜数字', // SEA Wingo 猜数字
+    3066: '猜颜色', // SEA Wingo 猜顔色
+
     null: ' ',
 
   },

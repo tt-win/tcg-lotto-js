@@ -818,6 +818,22 @@ const PlayMenu = {
     2839: 'SYS10',
     2840: 'SYS11',
     2841: 'SYS12',
+
+    // Wingo-Level:1
+
+    3060: 'Run numbers', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: 'Guess the size', // SEA Wingo 大小
+    3063: 'Guess the number', // SEA Wingo 数字
+    3065: 'Guess the color', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: 'Guess the size', // SEA Wingo 大小
+    3064: 'Guess the number', // SEA Wingo 猜数字
+    3066: 'Guess the color', // SEA Wingo 猜顔色
   },
 };
 

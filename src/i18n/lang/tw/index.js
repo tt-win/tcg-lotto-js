@@ -109,6 +109,11 @@ const LANG = {
     WuXing: '五行',
   },
 
+  wingoRoadmap: {
+    bigSmall: '大/小',
+    redGreenPurple: '顏色',
+  },
+
   // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩種已關閉',
@@ -545,6 +550,15 @@ const LANG = {
       earthFull: '土(924-1410)',
       earthFullLineBreak: '土\n(924-1410)',
     },
+
+    wingo: {
+      red: '紅',
+      green: '綠',
+      purple: '紫',
+      big: '大',
+      small: '小',
+    },
+
     KENO: {
       sum: '和值:%@',
       big: '大',
@@ -2135,7 +2149,12 @@ const LANG = {
     NNP_DOUBLE_N3:	'牛3',
     NNP_DOUBLE_N2:	'牛2',
     NNP_DOUBLE_N1:	'牛1',
-    NNP_DOUBLE_N0:	'無牛',
+    NNP_DOUBLE_N0: '無牛',
+    
+    P_WGG_COLOR_0: '紅',
+    P_WGG_COLOR_1: '綠',
+    P_WGG_COLOR_2: '紫',
+    P_WGG_COLOR_3: '雙色球紅綠',
 
   },
   longDragon: '長龍投注',

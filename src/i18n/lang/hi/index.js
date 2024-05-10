@@ -192,11 +192,11 @@ const LANG = {
     },
 
     wingo: {
-      red: 'red',
-      green: 'green',
-      purple: 'purple',
-      big: 'Big',
-      small: 'Small',
+      red: 'merah',
+      green: 'hijau',
+      purple: 'ungu',
+      big: 'besar',
+      small: 'Kecil',
     },
   },
 
@@ -507,12 +507,10 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Stakes is over limit stakes > %@2',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'No. %@ is currently sold out and closed for betting, please try another number or come back later.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
-    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Bet Amount is over limit > %@',
     PRICE_BETTING_NOT_VALID_ERROR: "Lottery setting has error.",
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
-    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',
@@ -568,7 +566,11 @@ const LANG = {
   gameContent: 'Bet Details',
   odds1Time: 'Payouts/1Time',
   betAmount: 'Bet Count',
-  emptyDrawHistory: 'No Data',
+  betAmountMaxLimitByNumero: 'Max Bet Per Draw',
+  betAmountMaxLimit: 'Max Bet Amount',
+  betAmountMaxLimitByNumero_info: 'The maximum allowable betting amount for a single draw by the player; input 0 for unlimited.',
+  betAmountMaxLimit_info: 'The maximum allowable betting amount for a single order by the player; input 0 for unlimited.',
+
   drawPrize: {
     specialPrize: 'Special',
     firstPrize: '1st Prize',
@@ -585,6 +587,7 @@ const LANG = {
     channelDescribe: 'Watch the PCSO lotto draw live streaming video from official People\'s Television (PTV 4) Channel of the Philippines.',
     drawVideo: 'Draw Video',
   },
+  emptyDrawHistory: 'No Data',
 };
 
 export default LANG;

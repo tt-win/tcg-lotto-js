@@ -190,6 +190,14 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'red',
+      green: 'green',
+      purple: 'purple',
+      big: 'Big',
+      small: 'Small',
+    },
   },
 
   // VXD
@@ -256,6 +264,11 @@ const LANG = {
     fire: '-',
     earth: '-',
     WuXing: '5E',
+  },
+
+  wingoRoadmap: {
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
   },
 
   gameGroupCode: {
@@ -412,6 +425,11 @@ const LANG = {
     P_KENO_ANY7_5: 'Third Prize',
     P_KENO_ANY7_6: 'Second Prize',
     P_KENO_ANY7_7: 'First Prize',
+
+    P_WGG_COLOR_0: 'red',
+    P_WGG_COLOR_1: 'green',
+    P_WGG_COLOR_2: 'purple',
+    P_WGG_COLOR_3: 'Double Color Ball Red Green',
   },
 
   seriesControlMapping: {

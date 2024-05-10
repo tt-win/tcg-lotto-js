@@ -749,6 +749,22 @@ const PlayMenu = {
     2891: 'Pasangan Bankir',
     2892: 'Pasangan Pemain',
     2893: 'Super Enam',
+
+    // Wingo-Level:1
+
+    3060: 'Jalankan angka', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: 'Tebak ukuran', // SEA Wingo 大小
+    3063: 'Tebak angka', // SEA Wingo 数字
+    3065: 'Tebak warna', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: 'Tebak ukuran', // SEA Wingo 大小
+    3064: 'Tebak angka', // SEA Wingo 猜数字
+    3066: 'Tebak warna', // SEA Wingo 猜顔色
   },
 };
 

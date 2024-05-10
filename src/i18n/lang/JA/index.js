@@ -42,6 +42,13 @@ const LANG = {
     orderStatus_99: '注文無効',
   },
 
+  prizeListPrizeType: {
+    P_WGG_COLOR_0: '赤',
+    P_WGG_COLOR_1: '緑',
+    P_WGG_COLOR_2: '紫',
+    P_WGG_COLOR_3: 'ダブルカラーボール レッド グリーン',
+  },
+
   // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '宝くじ終了。',

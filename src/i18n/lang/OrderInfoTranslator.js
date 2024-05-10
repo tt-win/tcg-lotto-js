@@ -101,6 +101,18 @@ function getOrderInfoTranslatorList(lang) {
       19: 'earth',
     }
   }
+  const WINGO_KEY = {
+    COLOR: {
+      0: 'red',
+      1: 'green',
+      2: 'purple',
+      3: 'binaryColor',
+    },
+    BS: {
+      0: 'big',
+      1: 'small',
+    }
+  }
 
   const LHC_KEY = {
     // 總大小單雙
@@ -1805,6 +1817,27 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
+  const WingoTranslator = {
+    WIN_GO_COLOR: {
+      items: [
+        PlayMenu.Color_WGG,
+      ],
+      getText: (content) => i18n(`ball.wingo.${WINGO_KEY.COLOR[content]}`),
+    },
+    WIN_GO_BS: {
+      items: [
+        PlayMenu.BS_WGG,
+      ],
+      getText: (content) => i18n(`ball.wingo.${WINGO_KEY.BS[content]}`),
+    },
+    WIN_GO_NUMBER: {
+      items: [
+        PlayMenu.Num_WGG,
+      ],
+      getText: (content) => content,
+    },
+  };
+
   const NNPTranslator = {
     NNP: {
       items: [
@@ -2287,6 +2320,7 @@ function getOrderInfoTranslatorList(lang) {
     ...THAITranslator,
     ...LFTranslator,
     ...KenoTranslator,
+    ...WingoTranslator,
     ...SeaTranslator,
     ...NNPTranslator,
   };
