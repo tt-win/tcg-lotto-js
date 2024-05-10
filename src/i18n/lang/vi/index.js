@@ -297,6 +297,9 @@ const LANG = {
     BCR: "BCR",
     CLR: 'CLR',
     '4D': '4D',
+    WGG: 'Win Go',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
   prizeListPrizeType: {
     VTX_BS_BIG: 'Tài',

@@ -493,6 +493,9 @@ const LANG = {
     GINO: '基诺',
     CLR: 'CLR',
     '4D': '4D',
+    WGG: 'Win Go',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
