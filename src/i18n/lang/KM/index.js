@@ -297,7 +297,7 @@ const LANG = {
     BCR: "BCR",
     CLR: 'CLR',
     '4D': '4D',
-    WGG: 'Win Go',
+    WGG: 'WGG',
     '5D': '5D',
     SEAK3: 'SEAK3',
   },
