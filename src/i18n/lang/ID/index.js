@@ -226,6 +226,11 @@ const LANG = {
   },
 
   wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
     bigSmall: 'B/S',
     redGreenPurple: 'R/G/P',
   },

@@ -161,6 +161,17 @@ const LANG = {
     player_pair: '플레이어 페어',
     super_six: '슈퍼 식스',
   },
+
+  wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',

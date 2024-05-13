@@ -255,6 +255,11 @@ const LANG = {
   },
 
   wingoRoadmap: {
+    big: 'T',
+    small: 'X',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
     bigSmall: 'T/X',
     redGreenPurple: 'R/G/P',
   },
