@@ -192,9 +192,9 @@ const LANG = {
     },
 
     wingo: {
-      red: 'red',
-      green: 'green',
-      purple: 'purple',
+      red: 'Red',
+      green: 'Green',
+      purple: 'Purple',
       big: 'Big',
       small: 'Small',
     },

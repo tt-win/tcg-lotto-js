@@ -181,9 +181,9 @@ const LANG = {
     },
 
     wingo: {
-      red: 'màu đỏ',
-      green: 'màu xanh lá',
-      purple: 'màu tím',
+      red: 'Màu đỏ',
+      green: 'Màu xanh lá',
+      purple: 'Màu tím',
       big: 'Tài',
       small: 'Xỉu',
     },

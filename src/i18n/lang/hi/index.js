@@ -192,10 +192,10 @@ const LANG = {
     },
 
     wingo: {
-      red: 'merah',
-      green: 'hijau',
-      purple: 'ungu',
-      big: 'besar',
+      red: 'Merah',
+      green: 'Hijau',
+      purple: 'Ungu',
+      big: 'Besar',
       small: 'Kecil',
     },
   },
