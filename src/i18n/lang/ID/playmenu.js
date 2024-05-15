@@ -765,6 +765,30 @@ const PlayMenu = {
     3062: 'Tebak ukuran', // SEA Wingo 大小
     3064: 'Tebak angka', // SEA Wingo 猜数字
     3066: 'Tebak warna', // SEA Wingo 猜顔色
+
+    // 5D-Level:1
+
+    3069: 'Integrasi', // SEA 5D 整合
+    3077: 'Jalankan angka', // SEA 5D 跑數
+
+    // 5D-Level:2
+
+    3070: 'Besar/Kecil,Ganjil/Genap', // SEA 5D 大小单双
+    3078: 'Pemilihan Nomor', // SEA 5D 直选
+
+    // 5D-Level:3
+
+    3071: 'Jumlah Total', // SEA 5D 和值
+    3072: 'A', // SEA 5D 第一球
+    3073: 'B', // SEA 5D 第二球
+    3074: 'C', // SEA 5D 第三球
+    3075: 'D', // SEA 5D 第四球
+    3076: 'E', // SEA 5D 第五球
+    3079: 'A', // SEA 5D 第一球
+    3080: 'B', // SEA 5D 第二球
+    3081: 'C', // SEA 5D 第三球
+    3082: 'D', // SEA 5D 第四球
+    3083: 'E', // SEA 5D 第五球
   },
 };
 

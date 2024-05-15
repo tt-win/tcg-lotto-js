@@ -1689,4 +1689,28 @@ export const PlayMenu = {
   'BS_WGG': 3062, // SEA Wingo 大小
   'Num_WGG': 3064, // SEA Wingo 猜数字
   'Color_WGG': 3066, // SEA Wingo 猜顔色
+
+  // 5D-Level:1
+
+  'Combined_5D': 3069, // SEA 5D 整合
+  '1Num_5D': 3077, // SEA 5D 跑數
+
+  // 5D-Level:2
+
+  'BSOE_Main_5D': 3070, // SEA 5D 大小单双
+  'Straight_1Num_Main_5D': 3078, // SEA 5D 直选
+
+  // 5D-Level:3
+
+  'Sum_BSOE_5D': 3071, // SEA 5D 和值
+  'First_BSOE_5D': 3072, // SEA 5D 第一球
+  'Second_BSOE_5D': 3073, // SEA 5D 第二球
+  'Third_BSOE_5D': 3074, // SEA 5D 第三球
+  'Fourth_BSOE_5D': 3075, // SEA 5D 第四球
+  'Fifth_BSOE_5D': 3076, // SEA 5D 第五球
+  'First_Straight_5D': 3079, // SEA 5D 第一球
+  'Second_Straight_5D': 3080, // SEA 5D 第二球
+  'Third_Straight_5D': 3081, // SEA 5D 第三球
+  'Fourth_Straight_5D': 3082, // SEA 5D 第四球
+  'Fifth_Straight_5D': 3083, // SEA 5D 第五球
 };
