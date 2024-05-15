@@ -863,6 +863,29 @@ const PlayMenu = {
     3081: 'C', // SEA 5D 第三球
     3082: 'D', // SEA 5D 第四球
     3083: 'E', // SEA 5D 第五球
+
+    // SEAK3-Level:1
+
+    3084: '통합', // SEA SEAK3 整合
+
+    // SEAK3-Level:2
+
+    3085: 'SUM', // SEA SEAK3 和值
+    3088: '2 Same', // SEA SEAK3 2骰子
+    3091: '3 Same', // SEA SEAK3 3骰子
+    3094: 'Different', // SEA SEAK3 不同骰
+
+    // SEAK3-Level:3
+
+    3086: 'Total', // SEA SEAK3 和值
+    3087: '총합 크기 작은 홀수 짝수', // SEA SEAK3 大小單雙
+    3089: '2동호 단일 선택', // SEA SEAK3 2同号单选
+    3090: '2동호복선택', // SEA SEAK3 2同号复选
+    3092: '3동호 단일 선택', // SEA SEAK3 3同号单选
+    3093: '3동호통선', // SEA SEAK3 3同号通选
+    3095: '연속', // SEA SEAK3 全順
+    3096: '3 다른', // SEA SEAK3 3不同
+    3097: '2 다름', // SEA SEAK3 2不同
   },
 };
 

@@ -777,6 +777,30 @@ const PlayMenu = {
     3081: 'C', // SEA 5D 第三球
     3082: 'D', // SEA 5D 第四球
     3083: 'E', // SEA 5D 第五球
+
+    // SEAK3-Level:1
+
+    3084: 'Tích hợp', // SEA SEAK3 整合
+
+    // SEAK3-Level:2
+
+    3085: 'SUM', // SEA SEAK3 和值
+    3088: '2 Same', // SEA SEAK3 2骰子
+    3091: '3 Same', // SEA SEAK3 3骰子
+    3094: 'Different', // SEA SEAK3 不同骰
+
+    // SEAK3-Level:3
+
+    3086: 'Total', // SEA SEAK3 和值
+    3087: 'Tổng kích thước lớn nhỏ lẻ chẵn', // SEA SEAK3 大小單雙
+    3089: '2 lựa chọn đơn có cùng số', // SEA SEAK3 2同号单选
+    3090: '2 số giống nhau được chọn lại', // SEA SEAK3 2同号复选
+    3092: '3 lựa chọn đơn số giống nhau', // SEA SEAK3 3同号单选
+    3093: '3 cùng số tổng quát', // SEA SEAK3 3同号通选
+    3095: 'liên tục', // SEA SEAK3 全順
+    3096: '3 khác nhau', // SEA SEAK3 3不同
+    3097: '2 khác nhau', // SEA SEAK3 2不同
+
   },
 };
 

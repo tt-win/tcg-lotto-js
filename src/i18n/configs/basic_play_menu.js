@@ -1713,4 +1713,27 @@ export const PlayMenu = {
   'Third_Straight_5D': 3081, // SEA 5D 第三球
   'Fourth_Straight_5D': 3082, // SEA 5D 第四球
   'Fifth_Straight_5D': 3083, // SEA 5D 第五球
+
+  // SEAK3-Level:1
+
+  'Combined_SEAK3': 3084, // SEA SEAK3 整合
+
+  // SEAK3-Level:2
+
+  'Sum_BSOE_SEAK3': 3085, // SEA SEAK3 和值
+  'Dice_2_SEAK3': 3088, // SEA SEAK3 2骰子
+  'Dice_3_SEAK3': 3091, // SEA SEAK3 3骰子
+  'Different_Dice_SEAK3': 3094, // SEA SEAK3 不同骰
+
+  // SEAK3-Level:3
+
+  'Sum_SEAK3': 3086, // SEA SEAK3 和值
+  'BSOE_SEAK3': 3087, // SEA SEAK3 大小單雙
+  'Single_Same_2_SEAK3': 3089, // SEA SEAK3 2同号单选
+  'Multi_Same_2_SEAK3': 3090, // SEA SEAK3 2同号复选
+  'Single_Same_3_SEAK3': 3092, // SEA SEAK3 3同号单选
+  'All_Same_3_SEAK3': 3093, // SEA SEAK3 3同号通选
+  'All_Sequence_SEAK3': 3095, // SEA SEAK3 全順
+  'Different_3_SEAK3': 3096, // SEA SEAK3 3不同
+  'Different_2_SEAK3': 3097, // SEA SEAK3 2不同
 };
