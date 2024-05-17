@@ -437,7 +437,7 @@ const LANG = {
     P_WGG_COLOR_0: 'red',
     P_WGG_COLOR_1: 'green',
     P_WGG_COLOR_2: 'purple',
-    P_WGG_COLOR_3: 'Double Color Ball Red Green',
+    P_WGG_COLOR_3: 'Double Color Ball',
   },
 
   seriesControlMapping: {

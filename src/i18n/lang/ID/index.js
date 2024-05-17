@@ -314,7 +314,7 @@ const LANG = {
     P_WGG_COLOR_0: 'लाल',
     P_WGG_COLOR_1: 'हरा',
     P_WGG_COLOR_2: 'बैंगनी',
-    P_WGG_COLOR_3: 'डबल कलर बॉल लाल हरा',
+    P_WGG_COLOR_3: 'डबल कलर बॉल',
   },
 
   errorCode: {

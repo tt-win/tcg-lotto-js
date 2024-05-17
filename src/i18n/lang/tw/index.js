@@ -2162,7 +2162,7 @@ const LANG = {
     P_WGG_COLOR_0: '紅',
     P_WGG_COLOR_1: '綠',
     P_WGG_COLOR_2: '紫',
-    P_WGG_COLOR_3: '雙色球紅綠',
+    P_WGG_COLOR_3: '雙色球',
 
   },
   longDragon: '長龍投注',

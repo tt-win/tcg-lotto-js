@@ -2168,7 +2168,7 @@ const LANG = {
     P_WGG_COLOR_0: '红',
     P_WGG_COLOR_1: '绿',
     P_WGG_COLOR_2: '紫',
-    P_WGG_COLOR_3: '双色球红绿',
+    P_WGG_COLOR_3: '双色球',
 
   },
   longDragon: '长龙投注',

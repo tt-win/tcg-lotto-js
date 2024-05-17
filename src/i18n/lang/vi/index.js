@@ -362,7 +362,7 @@ const LANG = {
     P_WGG_COLOR_0: 'màu đỏ',
     P_WGG_COLOR_1: 'màu xanh lá',
     P_WGG_COLOR_2: 'màu tím',
-    P_WGG_COLOR_3: 'Quả bóng hai màu đỏ xanh',
+    P_WGG_COLOR_3: 'Xổ số Hai màu',
   },
 
   // TODO i18n

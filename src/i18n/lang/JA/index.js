@@ -46,7 +46,7 @@ const LANG = {
     P_WGG_COLOR_0: '赤',
     P_WGG_COLOR_1: '緑',
     P_WGG_COLOR_2: '紫',
-    P_WGG_COLOR_3: 'ダブルカラーボール レッド グリーン',
+    P_WGG_COLOR_3: 'ダブルカラー・ボール',
   },
 
   // TODO i18n

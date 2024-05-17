@@ -362,7 +362,7 @@ const LANG = {
     P_WGG_COLOR_0: 'สีแดง',
     P_WGG_COLOR_1: 'สีเขียว',
     P_WGG_COLOR_2: 'สีม่วง',
-    P_WGG_COLOR_3: 'ลูกบอลสีสองสีสีแดงเขียว',
+    P_WGG_COLOR_3: 'ดับเบิ้ลคัลเลอร์บอล',
   },
 
   // TODO i18n
