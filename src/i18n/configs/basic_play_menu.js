@@ -1688,5 +1688,54 @@ export const PlayMenu = {
 
   'BS_WGG': 3062, // SEA Wingo 大小
   'Num_WGG': 3064, // SEA Wingo 猜数字
-  'Color_WGG': 3066, // SEA Wingo 猜顔色
+  'Color_Red_WGG': 3066, // SEA Wingo 猜紅色
+  'Color_Green_WGG': 3067, // SEA Wingo 猜綠色
+  'Color_Purple_WGG': 3068, // SEA Wingo 猜紫色
+
+  // 5D-Level:1
+
+  'Combined_5D': 3069, // SEA 5D 整合
+  '1Num_5D': 3077, // SEA 5D 跑數
+
+  // 5D-Level:2
+
+  'BSOE_Main_5D': 3070, // SEA 5D 大小单双
+  'Straight_1Num_Main_5D': 3078, // SEA 5D 直选
+
+  // 5D-Level:3
+
+  'Sum_BSOE_5D': 3071, // SEA 5D 和值
+  'First_BSOE_5D': 3072, // SEA 5D 第一球
+  'Second_BSOE_5D': 3073, // SEA 5D 第二球
+  'Third_BSOE_5D': 3074, // SEA 5D 第三球
+  'Fourth_BSOE_5D': 3075, // SEA 5D 第四球
+  'Fifth_BSOE_5D': 3076, // SEA 5D 第五球
+  'First_Straight_5D': 3079, // SEA 5D 第一球
+  'Second_Straight_5D': 3080, // SEA 5D 第二球
+  'Third_Straight_5D': 3081, // SEA 5D 第三球
+  'Fourth_Straight_5D': 3082, // SEA 5D 第四球
+  'Fifth_Straight_5D': 3083, // SEA 5D 第五球
+
+  // SEAK3-Level:1
+
+  'Combined_SEAK3': 3084, // SEA SEAK3 整合
+
+  // SEAK3-Level:2
+
+  'Sum_BSOE_SEAK3': 3085, // SEA SEAK3 和值
+  'Dice_2_SEAK3': 3088, // SEA SEAK3 2骰子
+  'Dice_3_SEAK3': 3091, // SEA SEAK3 3骰子
+  'Different_Dice_SEAK3': 3094, // SEA SEAK3 不同骰
+
+  // SEAK3-Level:3
+
+  'Sum_SEAK3': 3086, // SEA SEAK3 和值
+  'BSOE_SEAK3': 3087, // SEA SEAK3 大小單雙
+  'Single_Same_2_SEAK3': 3089, // SEA SEAK3 2同号单选
+  'Multi_Same_2_SEAK3': 3090, // SEA SEAK3 2同号复选
+  'Single_Same_3_SEAK3': 3092, // SEA SEAK3 3同号单选
+  'All_Same_3_SEAK3': 3093, // SEA SEAK3 3同号通选
+  'All_Sequence_SEAK3': 3095, // SEA SEAK3 全順
+  'Different_3_SEAK3': 3096, // SEA SEAK3 3不同
+  'Different_2_SEAK3': 3097, // SEA SEAK3 2不同
 };

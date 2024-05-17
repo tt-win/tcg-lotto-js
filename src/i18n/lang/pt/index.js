@@ -127,9 +127,9 @@ const LANG = {
     },
 
     wingo: {
-      red: 'vermelho',
-      green: 'verde',
-      purple: 'roxo',
+      red: 'Vermelho',
+      green: 'Verde',
+      purple: 'Roxo',
       big: 'Grande',
       small: 'Pequena',
     },
@@ -202,6 +202,11 @@ const LANG = {
   },
 
   wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
     bigSmall: 'B/S',
     redGreenPurple: 'R/G/P',
   },

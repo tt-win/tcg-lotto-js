@@ -744,11 +744,11 @@ const PlayMenu = {
     2655: 'Pick 7', // 任選七 Any7_KENO
 
     // BCR
-    2889: 'Baccarat',
-    2890: 'Banker & Player & Tie',
-    2891: 'Banker Pair',
-    2892: 'Player Pair',
-    2893: 'Super Six',
+    2889: '바카라',
+    2890: '뱅커 & 플레이어 & 타이',
+    2891: '뱅커 페어',
+    2892: '플레이어 페어',
+    2893: '슈퍼 식스',
 
     // PCSO play group
     2858: 'Straight',
@@ -838,7 +838,56 @@ const PlayMenu = {
 
     3062: '크거나 작은 것을 추측하다', // SEA Wingo 大小
     3064: '숫자 추측', // SEA Wingo 猜数字
-    3066: '색깔 추측', // SEA Wingo 猜顔色
+    3066: '색깔 추측', // SEA Wingo 猜紅色
+    3067: '색깔 추측', // SEA Wingo 猜綠色
+    3068: '색깔 추측', // SEA Wingo 猜紫色
+
+    // 5D-Level:1
+
+    3069: '통합', // SEA 5D 整合
+    3077: '번호 달리기', // SEA 5D 跑數
+
+    // 5D-Level:2
+
+    3070: '크기,홀/짝', // SEA 5D 大小单双
+    3078: '번호 선택', // SEA 5D 直选
+
+    // 5D-Level:3
+
+    3071: '총합', // SEA 5D 和值
+    3072: 'A', // SEA 5D 第一球
+    3073: 'B', // SEA 5D 第二球
+    3074: 'C', // SEA 5D 第三球
+    3075: 'D', // SEA 5D 第四球
+    3076: 'E', // SEA 5D 第五球
+    3079: 'A', // SEA 5D 第一球
+    3080: 'B', // SEA 5D 第二球
+    3081: 'C', // SEA 5D 第三球
+    3082: 'D', // SEA 5D 第四球
+    3083: 'E', // SEA 5D 第五球
+
+    // SEAK3-Level:1
+
+    3084: '통합', // SEA SEAK3 整合
+
+    // SEAK3-Level:2
+
+    3085: 'SUM', // SEA SEAK3 和值
+    3088: '2 Same', // SEA SEAK3 2骰子
+    3091: '3 Same', // SEA SEAK3 3骰子
+    3094: 'Different', // SEA SEAK3 不同骰
+
+    // SEAK3-Level:3
+
+    3086: 'Total', // SEA SEAK3 和值
+    3087: '총합 크기 작은 홀수 짝수', // SEA SEAK3 大小單雙
+    3089: '2동호 단일 선택', // SEA SEAK3 2同号单选
+    3090: '2동호복선택', // SEA SEAK3 2同号复选
+    3092: '3동호 단일 선택', // SEA SEAK3 3同号单选
+    3093: '3동호통선', // SEA SEAK3 3同号通选
+    3095: '연속', // SEA SEAK3 全順
+    3096: '3 다른', // SEA SEAK3 3不同
+    3097: '2 다름', // SEA SEAK3 2不同
   },
 };
 

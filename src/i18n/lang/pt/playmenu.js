@@ -747,7 +747,57 @@ const PlayMenu = {
 
     3062: 'Adivinhar grande ou pequeno', // SEA Wingo 大小
     3064: 'Adivinhe o número', // SEA Wingo 猜数字
-    3066: 'Adivinhar a cor', // SEA Wingo 猜顔色
+    3066: 'Adivinhar a cor', // SEA Wingo 猜紅色
+    3067: 'Adivinhar a cor', // SEA Wingo 猜綠色
+    3068: 'Adivinhar a cor', // SEA Wingo 猜紫色
+
+    // 5D-Level:1
+
+    3069: 'Integração', // SEA 5D 整合
+    3077: 'Corre', // SEA 5D 跑數
+
+    // 5D-Level:2
+
+    3070: 'Grande/Pequeno,Ímpar/Par', // SEA 5D 大小单双
+    3078: 'Seleção de Números', // SEA 5D 直选
+
+    // 5D-Level:3
+
+    3071: 'Soma', // SEA 5D 和值
+    3072: 'A', // SEA 5D 第一球
+    3073: 'B', // SEA 5D 第二球
+    3074: 'C', // SEA 5D 第三球
+    3075: 'D', // SEA 5D 第四球
+    3076: 'E', // SEA 5D 第五球
+    3079: 'A', // SEA 5D 第一球
+    3080: 'B', // SEA 5D 第二球
+    3081: 'C', // SEA 5D 第三球
+    3082: 'D', // SEA 5D 第四球
+    3083: 'E', // SEA 5D 第五球
+
+    // SEAK3-Level:1
+
+    3084: 'Integração', // SEA SEAK3 整合
+
+    // SEAK3-Level:2
+
+    3085: 'SUM', // SEA SEAK3 和值
+    3088: '2 Same', // SEA SEAK3 2骰子
+    3091: '3 Same', // SEA SEAK3 3骰子
+    3094: 'Different', // SEA SEAK3 不同骰
+
+    // SEAK3-Level:3
+
+    3086: 'Total', // SEA SEAK3 和值
+    3087: 'Soma Grande Pequeno Ímpar Par', // SEA SEAK3 大小單雙
+    3089: '2 escolhas únicas com o mesmo número', // SEA SEAK3 2同号单选
+    3090: '2 seleções com o mesmo número', // SEA SEAK3 2同号复选
+    3092: '3同号单选 ', // SEA SEAK3 3同号单选
+    3093: '3 números iguais selecionados', // SEA SEAK3 3同号通选
+    3095: 'Contínuo', // SEA SEAK3 全順
+    3096: '3 diferentes', // SEA SEAK3 3不同
+    3097: '2 diferentes', // SEA SEAK3 2不同
+
   },
 };
 

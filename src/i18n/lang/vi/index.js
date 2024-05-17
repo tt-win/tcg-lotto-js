@@ -181,9 +181,9 @@ const LANG = {
     },
 
     wingo: {
-      red: 'màu đỏ',
-      green: 'màu xanh lá',
-      purple: 'màu tím',
+      red: 'Màu đỏ',
+      green: 'Màu xanh lá',
+      purple: 'Màu tím',
       big: 'Tài',
       small: 'Xỉu',
     },
@@ -255,6 +255,11 @@ const LANG = {
   },
 
   wingoRoadmap: {
+    big: 'T',
+    small: 'X',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
     bigSmall: 'T/X',
     redGreenPurple: 'R/G/P',
   },

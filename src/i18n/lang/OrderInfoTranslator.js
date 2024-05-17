@@ -1820,7 +1820,9 @@ function getOrderInfoTranslatorList(lang) {
   const WingoTranslator = {
     WIN_GO_COLOR: {
       items: [
-        PlayMenu.Color_WGG,
+        PlayMenu.Color_Red_WGG,
+        PlayMenu.Color_Green_WGG,
+        PlayMenu.Color_Purple_WGG,
       ],
       getText: (content) => i18n(`ball.wingo.${WINGO_KEY.COLOR[content]}`),
     },

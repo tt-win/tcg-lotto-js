@@ -110,6 +110,11 @@ const LANG = {
   },
 
   wingoRoadmap: {
+    big: '大',
+    small: '小',
+    red: '紅',
+    green: '綠',
+    purple: '紫',
     bigSmall: '大/小',
     redGreenPurple: '顏色',
   },

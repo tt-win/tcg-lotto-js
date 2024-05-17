@@ -4,14 +4,6 @@ const LANG = {
   ...PlayMenu,
   confirmBetting: '확인',
   confirmBetInfos: '베팅 세부 정보를 확인하세요',
-  playId: {
-    // BCR
-    2889: '바카라',
-    2890: '뱅커 & 플레이어 & 타이',
-    2891: '뱅커 페어',
-    2892: '플레이어 페어',
-    2893: '슈퍼 식스',
-  },
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_1: '확인 대기',
@@ -161,6 +153,17 @@ const LANG = {
     player_pair: '플레이어 페어',
     super_six: '슈퍼 식스',
   },
+
+  wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
