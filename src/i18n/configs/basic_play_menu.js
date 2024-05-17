@@ -1688,7 +1688,9 @@ export const PlayMenu = {
 
   'BS_WGG': 3062, // SEA Wingo 大小
   'Num_WGG': 3064, // SEA Wingo 猜数字
-  'Color_WGG': 3066, // SEA Wingo 猜顔色
+  'Color_Red_WGG': 3066, // SEA Wingo 猜紅色
+  'Color_Green_WGG': 3067, // SEA Wingo 猜綠色
+  'Color_Purple_WGG': 3068, // SEA Wingo 猜紫色
 
   // 5D-Level:1
 

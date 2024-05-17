@@ -88,7 +88,9 @@ const PlayMenu = {
 
     3062: '大きいか小さいかを予想する', // SEA Wingo 大小
     3064: '数字を予想する', // SEA Wingo 猜数字
-    3066: '色を当てる', // SEA Wingo 猜顔色
+    3066: '色を当てる', // SEA Wingo 猜紅色
+    3067: '色を当てる', // SEA Wingo 猜綠色
+    3068: '色を当てる', // SEA Wingo 猜紫色
 
     // 5D-Level:1
 

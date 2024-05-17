@@ -763,7 +763,9 @@ const PlayMenu = {
 
     3062: 'เดาขนาด', // SEA Wingo 大小
     3064: 'เดาตัวเลข', // SEA Wingo 猜数字
-    3066: 'เดาสี', // SEA Wingo 猜顔色
+    3066: 'เดาสี', // SEA Wingo 猜紅色
+    3067: 'เดาสี', // SEA Wingo 猜綠色
+    3068: 'เดาสี', // SEA Wingo 猜紫色
 
     // 5D-Level:1
 

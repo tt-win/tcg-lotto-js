@@ -764,7 +764,9 @@ const PlayMenu = {
 
     3062: 'Tebak ukuran', // SEA Wingo 大小
     3064: 'Tebak angka', // SEA Wingo 猜数字
-    3066: 'Tebak warna', // SEA Wingo 猜顔色
+    3066: 'Tebak warna', // SEA Wingo 猜紅色
+    3067: 'Tebak warna', // SEA Wingo 猜綠色
+    3068: 'Tebak warna', // SEA Wingo 猜紫色
 
     // 5D-Level:1
 

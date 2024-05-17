@@ -752,7 +752,9 @@ const PlayMenu = {
 
     3062: 'ĐOÁN TÀI XỈU', // SEA Wingo 大小
     3064: 'ĐOÁN SỐ', // SEA Wingo 猜数字
-    3066: 'ĐOÁN MÀU', // SEA Wingo 猜顔色
+    3066: 'ĐOÁN MÀU', // SEA Wingo 猜紅色
+    3067: 'ĐOÁN MÀU', // SEA Wingo 猜綠色
+    3068: 'ĐOÁN MÀU', // SEA Wingo 猜紫色
 
     // 5D-Level:1
 

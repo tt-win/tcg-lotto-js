@@ -838,7 +838,9 @@ const PlayMenu = {
 
     3062: '크거나 작은 것을 추측하다', // SEA Wingo 大小
     3064: '숫자 추측', // SEA Wingo 猜数字
-    3066: '색깔 추측', // SEA Wingo 猜顔色
+    3066: '색깔 추측', // SEA Wingo 猜紅色
+    3067: '색깔 추측', // SEA Wingo 猜綠色
+    3068: '색깔 추측', // SEA Wingo 猜紫色
 
     // 5D-Level:1
 

@@ -833,7 +833,9 @@ const PlayMenu = {
 
     3062: 'Guess the size', // SEA Wingo 大小
     3064: 'Guess the number', // SEA Wingo 猜数字
-    3066: 'Guess the color', // SEA Wingo 猜顔色
+    3066: 'Guess the color', // SEA Wingo 猜紅色
+    3067: 'Guess the color', // SEA Wingo 猜綠色
+    3068: 'Guess the color', // SEA Wingo 猜紫色
 
     // 5D-Level:1
 

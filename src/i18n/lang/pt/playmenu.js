@@ -747,7 +747,9 @@ const PlayMenu = {
 
     3062: 'Adivinhar grande ou pequeno', // SEA Wingo 大小
     3064: 'Adivinhe o número', // SEA Wingo 猜数字
-    3066: 'Adivinhar a cor', // SEA Wingo 猜顔色
+    3066: 'Adivinhar a cor', // SEA Wingo 猜紅色
+    3067: 'Adivinhar a cor', // SEA Wingo 猜綠色
+    3068: 'Adivinhar a cor', // SEA Wingo 猜紫色
 
     // 5D-Level:1
 
