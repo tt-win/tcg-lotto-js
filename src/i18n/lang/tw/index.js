@@ -119,6 +119,14 @@ const LANG = {
     redGreenPurple: '顏色',
   },
 
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+  },
+
   // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩種已關閉',

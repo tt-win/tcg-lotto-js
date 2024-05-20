@@ -459,6 +459,14 @@ const LANG = {
     redGreenPurple: '顏色',
   },
 
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+  },
+
   gameGroupCode: {
     SSC: '时时彩',
     '11X5': '十一选五',

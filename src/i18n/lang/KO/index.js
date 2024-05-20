@@ -164,6 +164,14 @@ const LANG = {
     redGreenPurple: 'R/G/P',
   },
 
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
