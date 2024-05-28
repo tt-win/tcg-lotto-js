@@ -2147,6 +2147,12 @@ const LANG = {
     P_SIXTH_2: '单',
     P_SIXTH_3: '双',
 
+    // 5D
+    P_SUM_0: '大',
+    P_SUM_1: '小',
+    P_SUM_2: '单',
+    P_SUM_3: '双',
+
     // 牛牛百人
     NNP_EQUAL_GN: '5公',
     NNP_EQUAL_NN: '牛牛',

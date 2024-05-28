@@ -421,6 +421,12 @@ const LANG = {
     P_SIXTH_2: 'Odd',
     P_SIXTH_3: 'Even',
 
+    // 5D
+    P_SUM_0: 'Big',
+    P_SUM_1: 'Small',
+    P_SUM_2: 'Odd',
+    P_SUM_3: 'Even',
+
     // KENO
     P_KENO_ANY1_1: 'Matched 1 out of 1',
     P_KENO_ANY2_2: 'Matched 2 out of 2',
