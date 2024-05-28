@@ -187,6 +187,12 @@ const LANG = {
       big: 'ធំ',
       small: 'តូច',
     },
+    lotto5D: {
+      big: 'ធំ',
+      small: 'តូច',
+      odd: 'សេស',
+      even: 'លេខគូ',
+    },
   },
   // VXD
   vxd: {

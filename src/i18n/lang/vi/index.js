@@ -187,6 +187,12 @@ const LANG = {
       big: 'Tài',
       small: 'Xỉu',
     },
+    lotto5D: {
+      big: 'Tài',
+      small: 'Xỉu',
+      odd: 'Lẻ',
+      even: 'Chẵn',
+    },
   },
   // VXD
   vxd: {

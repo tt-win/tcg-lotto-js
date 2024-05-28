@@ -185,6 +185,12 @@ const LANG = {
       big: 'สูง',
       small: 'ต่ำ',
     },
+    lotto5D: {
+      big: 'สูง',
+      small: 'ต่ำ',
+      odd: 'คี่	',
+      even: 'คู่',
+    },
   },
   // VXD
   vxd: {

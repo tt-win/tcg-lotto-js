@@ -158,6 +158,12 @@ const LANG = {
       big: 'Big',
       small: 'Small',
     },
+    lotto5D: {
+      big: 'Big',
+      small: 'Small',
+      odd: 'Odd',
+      even: 'Even',
+    },
   },
   // VXD
   vxd: {

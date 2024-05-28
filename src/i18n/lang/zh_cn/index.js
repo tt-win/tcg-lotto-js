@@ -362,6 +362,12 @@ const LANG = {
       big: '大',
       small: '小',
     },
+    lotto5D: {
+      big: '大',
+      small: '小',
+      odd: '单',
+      even: '双',
+    },
 
     KENO: {
       sum: '和值:%@',

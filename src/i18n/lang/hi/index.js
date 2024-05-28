@@ -198,6 +198,12 @@ const LANG = {
       big: 'Besar',
       small: 'Kecil',
     },
+    lotto5D: {
+      big: 'बड़ा',
+      small: 'छोटा',
+      odd: 'विषम',
+      even: 'सम',
+    },
   },
 
   // VXD

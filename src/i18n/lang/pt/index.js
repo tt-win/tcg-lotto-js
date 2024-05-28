@@ -133,6 +133,12 @@ const LANG = {
       big: 'Grande',
       small: 'Pequena',
     },
+    lotto5D: {
+      big: 'Grande',
+      small: 'Pequena',
+      odd: 'Ímpar',
+      even: 'Até',
+    },
   },
 
   // VXD

@@ -124,6 +124,12 @@ const LANG = {
       big: '빅',
       small: '스몰',
     },
+    lotto5D: {
+      big: '빅',
+      small: '스몰',
+      odd: '홀수',
+      even: '짝수',
+    },
   },
   // VXD
   vxd: {
