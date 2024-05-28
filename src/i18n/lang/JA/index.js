@@ -50,6 +50,11 @@ const LANG = {
 
     P_SEAK3_ALL_SEQUENCE: '3つの連続した数字',
     P_SEAK3_ALL_SAME: '任意の3つの同じ数字',
+    P_SEAK3_SINGLE_SAME_2: '2同号単選',
+    P_SEAK3_MULTI_SAME_2: '2同号複選',
+    P_SEAK3_SINGLE_SAME_3: '3同号単選',
+    P_SEAK3_DIFFERENT_2: '2つの異なるもの',
+    P_SEAK3_DIFFERENT_3: '3つの異なるもの',
   },
 
   // TODO i18n

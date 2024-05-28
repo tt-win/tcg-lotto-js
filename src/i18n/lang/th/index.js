@@ -374,6 +374,11 @@ const LANG = {
 
     P_SEAK3_ALL_SEQUENCE: '3 ตัวเลขติดกัน',
     P_SEAK3_ALL_SAME: 'สามตัวเลขที่เหมือนกันใดๆ',
+    P_SEAK3_SINGLE_SAME_2: '2 เลือกเลขเดียว',
+    P_SEAK3_MULTI_SAME_2: '2 การเลือกซ้ำที่มีตัวเลขเดียวกัน',
+    P_SEAK3_SINGLE_SAME_3: '3 เลือกตัวเลือกเลขเดียวกัน',
+    P_SEAK3_DIFFERENT_2: '2 ที่แตกต่างกัน',
+    P_SEAK3_DIFFERENT_3: '3 ไม่เหมือนกัน',
   },
 
   // TODO i18n
