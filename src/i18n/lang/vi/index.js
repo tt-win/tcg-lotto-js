@@ -371,6 +371,9 @@ const LANG = {
     P_WGG_COLOR_1: 'màu xanh lá',
     P_WGG_COLOR_2: 'màu tím',
     P_WGG_COLOR_3: 'Xổ số Hai màu',
+
+    P_SEAK3_ALL_SEQUENCE: '3 số liên tiếp',
+    P_SEAK3_ALL_SAME: 'Ba số giống nhau bất kỳ',
   },
 
   // TODO i18n

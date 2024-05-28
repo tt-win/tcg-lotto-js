@@ -47,6 +47,9 @@ const LANG = {
     P_WGG_COLOR_1: '緑',
     P_WGG_COLOR_2: '紫',
     P_WGG_COLOR_3: 'ダブルカラー・ボール',
+
+    P_SEAK3_ALL_SEQUENCE: '3つの連続した数字',
+    P_SEAK3_ALL_SAME: '任意の3つの同じ数字',
   },
 
   // TODO i18n

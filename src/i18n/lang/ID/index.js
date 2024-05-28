@@ -323,6 +323,9 @@ const LANG = {
     P_WGG_COLOR_1: 'हरा',
     P_WGG_COLOR_2: 'बैंगनी',
     P_WGG_COLOR_3: 'डबल कलर बॉल',
+
+    P_SEAK3_ALL_SEQUENCE: '3 consecutive numbers',
+    P_SEAK3_ALL_SAME: 'Any 3 identical numbers',
   },
 
   errorCode: {

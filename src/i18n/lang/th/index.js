@@ -371,6 +371,9 @@ const LANG = {
     P_WGG_COLOR_1: 'สีเขียว',
     P_WGG_COLOR_2: 'สีม่วง',
     P_WGG_COLOR_3: 'ดับเบิ้ลคัลเลอร์บอล',
+
+    P_SEAK3_ALL_SEQUENCE: '3 ตัวเลขติดกัน',
+    P_SEAK3_ALL_SAME: 'สามตัวเลขที่เหมือนกันใดๆ',
   },
 
   // TODO i18n

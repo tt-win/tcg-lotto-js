@@ -452,6 +452,32 @@ const LANG = {
     P_WGG_COLOR_1: 'green',
     P_WGG_COLOR_2: 'purple',
     P_WGG_COLOR_3: 'Double Color Ball',
+
+    // SEAK3
+    P_SEAK3_SUM_3: 'Sum 3',
+    P_SEAK3_SUM_4: 'Sum 4',
+    P_SEAK3_SUM_5: 'Sum 5',
+    P_SEAK3_SUM_6: 'Sum 6',
+    P_SEAK3_SUM_7: 'Sum 7',
+    P_SEAK3_SUM_8: 'Sum 8',
+    P_SEAK3_SUM_9: 'Sum 9',
+    P_SEAK3_SUM_10: 'Sum 10',
+    P_SEAK3_SUM_11: 'Sum 11',
+    P_SEAK3_SUM_12: 'Sum 12',
+    P_SEAK3_SUM_13: 'Sum 13',
+    P_SEAK3_SUM_14: 'Sum 14',
+    P_SEAK3_SUM_15: 'Sum 15',
+    P_SEAK3_SUM_16: 'Sum 16',
+    P_SEAK3_SUM_17: 'Sum 17',
+    P_SEAK3_SUM_18: 'Sum 18',
+    
+    P_SEAK3_BSOE_0: 'Big',
+    P_SEAK3_BSOE_1: 'Small',
+    P_SEAK3_BSOE_2: 'Odd',
+    P_SEAK3_BSOE_3: 'Even',
+
+    P_SEAK3_ALL_SAME: 'Any 3 identical numbers',
+    P_SEAK3_ALL_SEQUENCE: '3 consecutive numbers',
   },
 
   seriesControlMapping: {
