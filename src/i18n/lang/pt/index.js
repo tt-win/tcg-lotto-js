@@ -225,6 +225,13 @@ const LANG = {
     even: 'E',
   },
 
+  lotto5DRoadMap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',

@@ -465,6 +465,13 @@ const LANG = {
     redGreenPurple: '顏色',
   },
 
+  lotto5DRoadMap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
   seak3Roadmap: {
     big: 'B',
     small: 'S',

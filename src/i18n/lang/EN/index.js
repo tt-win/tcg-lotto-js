@@ -282,6 +282,13 @@ const LANG = {
     redGreenPurple: 'R/G/P',
   },
 
+  lotto5DRoadMap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
   seak3RoadMap: {
     big: 'B',
     small: 'S',
