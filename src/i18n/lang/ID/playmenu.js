@@ -781,16 +781,16 @@ const PlayMenu = {
     // 5D-Level:3
 
     3071: 'Jumlah Total', // SEA 5D 和值
-    3072: 'A', // SEA 5D 第一球
-    3073: 'B', // SEA 5D 第二球
-    3074: 'C', // SEA 5D 第三球
-    3075: 'D', // SEA 5D 第四球
-    3076: 'E', // SEA 5D 第五球
-    3079: 'A', // SEA 5D 第一球
-    3080: 'B', // SEA 5D 第二球
-    3081: 'C', // SEA 5D 第三球
-    3082: 'D', // SEA 5D 第四球
-    3083: 'E', // SEA 5D 第五球
+    3072: 'Pemilihan Nomor Posisi A', // SEA 5D 第一球
+    3073: 'Pemilihan Nomor Posisi B', // SEA 5D 第二球
+    3074: 'Pemilihan Nomor Posisi C', // SEA 5D 第三球
+    3075: 'Pemilihan Nomor Posisi D', // SEA 5D 第四球
+    3076: 'Pemilihan Nomor Posisi E', // SEA 5D 第五球
+    3079: 'Pemilihan Nomor Posisi A', // SEA 5D 第一球
+    3080: 'Pemilihan Nomor Posisi B', // SEA 5D 第二球
+    3081: 'Pemilihan Nomor Posisi C', // SEA 5D 第三球
+    3082: 'Pemilihan Nomor Posisi D', // SEA 5D 第四球
+    3083: 'Pemilihan Nomor Posisi E', // SEA 5D 第五球
 
     // SEAK3-Level:1
 
