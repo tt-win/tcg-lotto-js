@@ -114,6 +114,15 @@ function getOrderInfoTranslatorList(lang) {
     }
   }
 
+  const LOTTO_5D_KEY = {
+    BSOE: {
+      0: 'big',
+      1: 'small',
+      2: 'odd',
+      3: 'even',
+    }
+  }
+
   const LHC_KEY = {
     // 總大小單雙
     SUM_BSOE: ['totalBig', 'totalSmall', 'totalOdd', 'totalEven'],
@@ -1840,6 +1849,30 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
+  const Lotto5DTranslator = {
+    LOTTO_5D_NUMBER: {
+      items: [
+        PlayMenu.Sum_BSOE_5D,
+        PlayMenu.First_Straight_5D,
+        PlayMenu.Second_Straight_5D,
+        PlayMenu.Third_Straight_5D,
+        PlayMenu.Fourth_Straight_5D,
+        PlayMenu.Fifth_Straight_5D,
+      ],
+      getText: (content) => content,
+    },
+    LOTTO_5D_BS: {
+      items: [
+        PlayMenu.First_BSOE_5D,
+        PlayMenu.Second_BSOE_5D,
+        PlayMenu.Third_BSOE_5D,
+        PlayMenu.Fourth_BSOE_5D,
+        PlayMenu.Fifth_BSOE_5D,
+      ],
+      getText: (content) => i18n(`ball.lotto5D.${LOTTO_5D_KEY.BSOE[content]}`),
+    },
+  };
+
   const NNPTranslator = {
     NNP: {
       items: [
@@ -2323,6 +2356,7 @@ function getOrderInfoTranslatorList(lang) {
     ...LFTranslator,
     ...KenoTranslator,
     ...WingoTranslator,
+    ...Lotto5DTranslator,
     ...SeaTranslator,
     ...NNPTranslator,
   };
