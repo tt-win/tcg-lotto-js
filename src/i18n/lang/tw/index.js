@@ -115,6 +115,7 @@ const LANG = {
     red: '紅',
     green: '綠',
     purple: '紫',
+    gray: 'X',
     bigSmall: '大/小',
     redGreenPurple: '顏色',
   },

@@ -266,6 +266,7 @@ const LANG = {
     red: 'R',
     green: 'G',
     purple: 'P',
+    gray: 'X',
     bigSmall: 'T/X',
     redGreenPurple: 'R/G/P',
   },
