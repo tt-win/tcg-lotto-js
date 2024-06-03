@@ -1722,7 +1722,7 @@ export const PlayMenu = {
 
   // SEAK3-Level:2
 
-  'Sum_BSOE_SEAK3': 3085, // SEA SEAK3 和值
+  'Sum_BSOE_SEAK3': 3087, // SEA SEAK3 和值
   'Dice_2_SEAK3': 3088, // SEA SEAK3 2骰子
   'Dice_3_SEAK3': 3091, // SEA SEAK3 3骰子
   'Different_Dice_SEAK3': 3094, // SEA SEAK3 不同骰
