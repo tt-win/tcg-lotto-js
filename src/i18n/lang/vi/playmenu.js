@@ -769,11 +769,11 @@ const PlayMenu = {
     // 5D-Level:3
 
     3071: 'Tổng cộng', // SEA 5D 和值
-    3072: 'Lựa chọn số vị trí A', // SEA 5D 第一球
-    3073: 'Lựa chọn số vị trí B', // SEA 5D 第二球
-    3074: 'Lựa chọn số vị trí C', // SEA 5D 第三球
-    3075: 'Lựa chọn số vị trí D', // SEA 5D 第四球
-    3076: 'Lựa chọn số vị trí E', // SEA 5D 第五球
+    3072: 'Vị trí A ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第一球
+    3073: 'Vị trí B ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第二球
+    3074: 'Vị trí C ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第三球
+    3075: 'Vị trí D ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第四球
+    3076: 'Vị trí E ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第五球
     3079: 'Lựa chọn số vị trí A', // SEA 5D 第一球
     3080: 'Lựa chọn số vị trí B', // SEA 5D 第二球
     3081: 'Lựa chọn số vị trí C', // SEA 5D 第三球

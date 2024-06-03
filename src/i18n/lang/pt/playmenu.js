@@ -764,11 +764,11 @@ const PlayMenu = {
     // 5D-Level:3
 
     3071: 'Soma', // SEA 5D 和值
-    3072: 'Seleção de Número da Posição A', // SEA 5D 第一球
-    3073: 'Seleção de Número da Posição B', // SEA 5D 第二球
-    3074: 'Seleção de Número da Posição C', // SEA 5D 第三球
-    3075: 'Seleção de Número da Posição D', // SEA 5D 第四球
-    3076: 'Seleção de Número da Posição E', // SEA 5D 第五球
+    3072: 'Tamanho da Posição A Ímpar Par', // SEA 5D 第一球
+    3073: 'Tamanho da Posição B Ímpar Par', // SEA 5D 第二球
+    3074: 'Tamanho da Posição C Ímpar Par', // SEA 5D 第三球
+    3075: 'Tamanho da Posição A Ímpar Par', // SEA 5D 第四球
+    3076: 'Tamanho da Posição A Ímpar Par', // SEA 5D 第五球
     3079: 'Seleção de Número da Posição A', // SEA 5D 第一球
     3080: 'Seleção de Número da Posição B', // SEA 5D 第二球
     3081: 'Seleção de Número da Posição C', // SEA 5D 第三球

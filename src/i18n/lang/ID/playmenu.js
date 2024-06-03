@@ -781,11 +781,11 @@ const PlayMenu = {
     // 5D-Level:3
 
     3071: 'Jumlah Total', // SEA 5D 和值
-    3072: 'Pemilihan Nomor Posisi A', // SEA 5D 第一球
-    3073: 'Pemilihan Nomor Posisi B', // SEA 5D 第二球
-    3074: 'Pemilihan Nomor Posisi C', // SEA 5D 第三球
-    3075: 'Pemilihan Nomor Posisi D', // SEA 5D 第四球
-    3076: 'Pemilihan Nomor Posisi E', // SEA 5D 第五球
+    3072: 'Ukuran Posisi A Ganjil Genap', // SEA 5D 第一球
+    3073: 'Ukuran Posisi B Ganjil Genap', // SEA 5D 第二球
+    3074: 'Ukuran Posisi C Ganjil Genap', // SEA 5D 第三球
+    3075: 'Ukuran Posisi D Ganjil Genap', // SEA 5D 第四球
+    3076: 'Ukuran Posisi E Ganjil Genap', // SEA 5D 第五球
     3079: 'Pemilihan Nomor Posisi A', // SEA 5D 第一球
     3080: 'Pemilihan Nomor Posisi B', // SEA 5D 第二球
     3081: 'Pemilihan Nomor Posisi C', // SEA 5D 第三球
