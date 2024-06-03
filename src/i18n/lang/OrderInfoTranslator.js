@@ -1873,6 +1873,39 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
+  const SEAK3Translator = {
+    SEAK3_COMMON: {
+      items: [
+        PlayMenu.Sum_SEAK3,
+        PlayMenu.Single_Same_2_SEAK3,
+        PlayMenu.Multi_Same_2_SEAK3,
+        PlayMenu.Single_Same_3_SEAK3,
+        PlayMenu.Different_3_SEAK3,
+        PlayMenu.Different_2_SEAK3,
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ',')
+    },
+    SEAK3_ALL_SAME: {
+      items: [
+        PlayMenu.All_Same_3_SEAK3,
+        PlayMenu.All_Sequence_SEAK3,
+      ],
+      getText: (content) => i18n(`playId.${PlayMenu.All_Same_3_SEAK3}`),
+    },
+    SEAK3_ALL_SEQUENCE: {
+      items: [
+        PlayMenu.All_Sequence_SEAK3,
+      ],
+      getText: (content) => i18n(`playId.${PlayMenu.All_Sequence_SEAK3}`),
+    },
+    SEAK3_BSOE: {
+      items: [
+        PlayMenu.BSOE_SEAK3,
+      ],
+      getText: (content) => i18n(`ball.lotto5D.${LOTTO_5D_KEY.BSOE[content]}`),
+    },
+  };
+
   const NNPTranslator = {
     NNP: {
       items: [
@@ -2357,6 +2390,7 @@ function getOrderInfoTranslatorList(lang) {
     ...KenoTranslator,
     ...WingoTranslator,
     ...Lotto5DTranslator,
+    ...SEAK3Translator,
     ...SeaTranslator,
     ...NNPTranslator,
   };
