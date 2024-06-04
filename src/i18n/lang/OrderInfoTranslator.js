@@ -1852,7 +1852,6 @@ function getOrderInfoTranslatorList(lang) {
   const Lotto5DTranslator = {
     LOTTO_5D_NUMBER: {
       items: [
-        PlayMenu.Sum_BSOE_5D,
         PlayMenu.First_Straight_5D,
         PlayMenu.Second_Straight_5D,
         PlayMenu.Third_Straight_5D,
@@ -1863,6 +1862,7 @@ function getOrderInfoTranslatorList(lang) {
     },
     LOTTO_5D_BS: {
       items: [
+        PlayMenu.Sum_BSOE_5D,
         PlayMenu.First_BSOE_5D,
         PlayMenu.Second_BSOE_5D,
         PlayMenu.Third_BSOE_5D,
