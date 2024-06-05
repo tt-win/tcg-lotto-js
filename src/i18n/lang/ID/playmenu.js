@@ -775,12 +775,12 @@ const PlayMenu = {
 
     // 5D-Level:2
 
-    3070: 'Besar/Kecil,Ganjil/Genap', // SEA 5D 大小单双
+    3070: 'Pemilihan Langsung Besar Kecil Ganjil Genap', // SEA 5D 大小单双
     3078: 'Pemilihan Nomor', // SEA 5D 直选
-
+    
     // 5D-Level:3
-
-    3071: 'Jumlah Total', // SEA 5D 和值
+    
+    3071: 'Jumlah Besar Kecil Ganjil Genap', // SEA 5D 和值
     3072: 'Ukuran Posisi A Ganjil Genap', // SEA 5D 第一球
     3073: 'Ukuran Posisi B Ganjil Genap', // SEA 5D 第二球
     3074: 'Ukuran Posisi C Ganjil Genap', // SEA 5D 第三球

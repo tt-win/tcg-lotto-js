@@ -758,12 +758,12 @@ const PlayMenu = {
 
     // 5D-Level:2
 
-    3070: 'Grande/Pequeno,Ímpar/Par', // SEA 5D 大小单双
+    3070: 'Seleção Direta Grande Pequeno Ímpar Par', // SEA 5D 大小单双
     3078: 'Seleção de Números', // SEA 5D 直选
-
+    
     // 5D-Level:3
-
-    3071: 'Soma', // SEA 5D 和值
+    
+    3071: 'Soma Grande Pequeno Ímpar Par', // SEA 5D 和值
     3072: 'Tamanho da Posição A Ímpar Par', // SEA 5D 第一球
     3073: 'Tamanho da Posição B Ímpar Par', // SEA 5D 第二球
     3074: 'Tamanho da Posição C Ímpar Par', // SEA 5D 第三球

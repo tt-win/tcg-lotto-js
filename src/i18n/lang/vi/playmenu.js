@@ -763,12 +763,12 @@ const PlayMenu = {
 
     // 5D-Level:2
 
-    3070: 'Lớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 大小单双
+    3070: 'Chọn Trực Tiếp Lớn Nhỏ Lẻ Chẵn', // SEA 5D 大小单双
     3078: 'ĐOÁN MÀU', // SEA 5D 直选
-
+    
     // 5D-Level:3
-
-    3071: 'Tổng cộng', // SEA 5D 和值
+    
+    3071: 'Tổng của lớn/nhỏ lẻ/chẵn', // SEA 5D 和值
     3072: 'Vị trí A ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第一球
     3073: 'Vị trí B ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第二球
     3074: 'Vị trí C ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第三球

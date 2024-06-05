@@ -849,12 +849,12 @@ const PlayMenu = {
 
     // 5D-Level:2
 
-    3070: 'Big/Small,Odd/Even', // SEA 5D 大小单双
+    3070: 'Direct Selection Big Small Odd Even', // SEA 5D 大小单双
     3078: 'Number Selection', // SEA 5D 直选
 
     // 5D-Level:3
 
-    3071: 'SUM', // SEA 5D 和值
+    3071: 'Sum Big/Small Odd/Even', // SEA 5D 和值
     3072: 'Position A ,Big/Small,Odd/Even', // SEA 5D 第一球
     3073: 'Position B ,Big/Small,Odd/Even', // SEA 5D 第二球
     3074: 'Position C ,Big/Small,Odd/Even', // SEA 5D 第三球
