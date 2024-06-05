@@ -388,11 +388,11 @@ const LANG = {
 
     P_SEAK3_ALL_SEQUENCE: '3 số liên tiếp',
     P_SEAK3_ALL_SAME: 'Ba số giống nhau bất kỳ',
-    P_SEAK3_SINGLE_SAME_2: '2 lựa chọn đơn có cùng số',
-    P_SEAK3_MULTI_SAME_2: '2 số giống nhau được chọn lại',
-    P_SEAK3_SINGLE_SAME_3: '3 lựa chọn đơn số giống nhau',
-    P_SEAK3_DIFFERENT_2: '2 khác nhau',
-    P_SEAK3_DIFFERENT_3: '3 khác nhau',
+    P_SEAK3_SINGLE_SAME_TWO: '2 lựa chọn đơn có cùng số',
+    P_SEAK3_MULTI_SAME_TWO: '2 số giống nhau được chọn lại',
+    P_SEAK3_SINGLE_SAME_THREE: '3 lựa chọn đơn số giống nhau',
+    P_SEAK3_DIFFERENT_TWO: '2 khác nhau',
+    P_SEAK3_DIFFERENT_THREE: '3 khác nhau',
   },
 
   // TODO i18n

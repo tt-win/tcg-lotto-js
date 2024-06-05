@@ -492,11 +492,11 @@ const LANG = {
 
     P_SEAK3_ALL_SAME: 'Any 3 identical numbers',
     P_SEAK3_ALL_SEQUENCE: '3 consecutive numbers',
-    P_SEAK3_SINGLE_SAME_2: '2 same number single selection',
-    P_SEAK3_MULTI_SAME_2: '2 same number multiple selection',
-    P_SEAK3_SINGLE_SAME_3: '3 same number single selection',
-    P_SEAK3_DIFFERENT_2: '2 different',
-    P_SEAK3_DIFFERENT_3: '3 different',
+    P_SEAK3_SINGLE_SAME_TWO: '2 same number single selection',
+    P_SEAK3_MULTI_SAME_TWO: '2 same number multiple selection',
+    P_SEAK3_SINGLE_SAME_THREE: '3 same number single selection',
+    P_SEAK3_DIFFERENT_TWO: '2 different',
+    P_SEAK3_DIFFERENT_THREE: '3 different',
   },
 
   seriesControlMapping: {
