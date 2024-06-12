@@ -226,11 +226,19 @@ const LANG = {
     even: 'E',
   },
 
-  lotto5DRoadMap: {
+  lotto5DRoadmap: {
     big: 'B',
     small: 'S',
     odd: 'O',
     even: 'E',
+  },
+
+  seak3RoadmapFull: {
+    big: 'Grande',
+    small: 'Pequena',
+    triple: 'Triple',
+    odd: 'Ímpar',
+    even: 'Até',
   },
 
   gameGroupCode: {

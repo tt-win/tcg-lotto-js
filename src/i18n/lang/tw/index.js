@@ -120,7 +120,7 @@ const LANG = {
     redGreenPurple: '顏色',
   },
 
-  lotto5DRoadMap: {
+  lotto5DRoadmap: {
     big: 'B',
     small: 'S',
     odd: 'O',
@@ -133,6 +133,14 @@ const LANG = {
     triple: 'T',
     odd: 'O',
     even: 'E',
+  },
+
+  seak3RoadmapFull: {
+    big: '大',
+    small: '小',
+    triple: '豹子',
+    odd: '單',
+    even: '雙',
   },
 
   // TODO i18n

@@ -283,19 +283,27 @@ const LANG = {
     redGreenPurple: 'R/G/P',
   },
 
-  lotto5DRoadMap: {
+  lotto5DRoadmap: {
     big: 'B',
     small: 'S',
     odd: 'O',
     even: 'E',
   },
 
-  seak3RoadMap: {
+  seak3Roadmap: {
     big: 'B',
     small: 'S',
     triple: 'T',
     odd: 'O',
     even: 'E',
+  },
+
+  seak3RoadmapFull: {
+    big: 'Big',
+    small: 'Small',
+    triple: 'Triple',
+    odd: 'Odd',
+    even: 'Even',
   },
 
   gameGroupCode: {

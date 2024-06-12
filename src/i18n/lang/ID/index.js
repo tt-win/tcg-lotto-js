@@ -242,7 +242,7 @@ const LANG = {
     redGreenPurple: 'R/G/P',
   },
 
-  lotto5DRoadMap: {
+  lotto5DRoadmap: {
     big: 'B',
     small: 'S',
     odd: 'O',
@@ -255,6 +255,14 @@ const LANG = {
     triple: 'T',
     odd: 'O',
     even: 'E',
+  },
+
+  seak3RoadmapFull: {
+    big: 'बड़ा',
+    small: 'छोटा',
+    triple: 'Triple',
+    odd: 'विषम',
+    even: 'सम',
   },
 
   gameGroupCode: {

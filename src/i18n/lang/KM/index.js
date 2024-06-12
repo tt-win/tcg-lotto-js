@@ -271,7 +271,7 @@ const LANG = {
     redGreenPurple: 'R/G/P',
   },
 
-  lotto5DRoadMap: {
+  lotto5DRoadmap: {
     big: 'B',
     small: 'S',
     odd: 'O',
@@ -285,6 +285,15 @@ const LANG = {
     odd: 'O',
     even: 'E',
   },
+
+  seak3RoadmapFull: {
+    big: 'ធំ',
+    small: 'តូច',
+    triple: 'Triple',
+    odd: 'សេស',
+    even: 'លេខគូ',
+  },
+
 
   gameGroupCode: {
     SSC: 'SSC',

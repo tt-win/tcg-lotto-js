@@ -171,7 +171,7 @@ const LANG = {
     redGreenPurple: 'R/G/P',
   },
 
-  lotto5DRoadMap: {
+  lotto5DRoadmap: {
     big: 'B',
     small: 'S',
     odd: 'O',
@@ -184,6 +184,14 @@ const LANG = {
     triple: 'T',
     odd: 'O',
     even: 'E',
+  },
+
+  seak3RoadmapFull: {
+    big: '빅',
+    small: '스몰',
+    triple: 'Triple',
+    odd: '홀수',
+    even: '짝수',
   },
 
   gameGroupCode: {
