@@ -296,6 +296,11 @@ const LANG = {
     triple: 'T',
     odd: 'O',
     even: 'E',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
   },
 
   gameGroupCode: {

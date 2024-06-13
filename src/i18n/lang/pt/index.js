@@ -218,14 +218,6 @@ const LANG = {
     redGreenPurple: 'R/G/P',
   },
 
-  seak3Roadmap: {
-    big: 'B',
-    small: 'S',
-    triple: 'T',
-    odd: 'O',
-    even: 'E',
-  },
-
   lotto5DRoadmap: {
     big: 'B',
     small: 'S',
@@ -233,12 +225,17 @@ const LANG = {
     even: 'E',
   },
 
-  seak3RoadmapFull: {
-    big: 'Grande',
-    small: 'Pequena',
-    triple: 'Triple',
-    odd: 'Ímpar',
-    even: 'Até',
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
   },
 
   gameGroupCode: {

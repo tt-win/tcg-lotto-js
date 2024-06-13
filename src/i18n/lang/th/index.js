@@ -282,14 +282,11 @@ const LANG = {
     triple: 'T',
     odd: 'O',
     even: 'E',
-  },
-
-  seak3RoadmapFull: {
-    big: 'สูง',
-    small: 'ต่ำ',
-    triple: 'Triple',
-    odd: 'คี่',
-    even: 'คู่',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
   },
 
   gameGroupCode: {

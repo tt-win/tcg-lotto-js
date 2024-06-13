@@ -474,19 +474,16 @@ const LANG = {
   },
 
   seak3Roadmap: {
-    big: 'B',
-    small: 'S',
-    triple: 'T',
-    odd: 'O',
-    even: 'E',
-  },
-
-  seak3RoadmapFull: {
     big: '大',
     small: '小',
-    triple: '豹子',
+    triple: '和',
     odd: '单',
     even: '双',
+    bigFull: '大',
+    smallFull: '小',
+    tripleFull: '豹子',
+    oddFull: '单',
+    evenFull: '双',
   },
 
   gameGroupCode: {

@@ -128,14 +128,11 @@ const LANG = {
   },
 
   seak3Roadmap: {
-    big: 'B',
-    small: 'S',
-    triple: 'T',
-    odd: 'O',
-    even: 'E',
-  },
-
-  seak3RoadmapFull: {
+    big: '大',
+    small: '小',
+    triple: '和',
+    odd: '單',
+    even: '雙',
     big: '大',
     small: '小',
     triple: '豹子',

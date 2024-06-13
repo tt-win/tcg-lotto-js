@@ -281,19 +281,15 @@ const LANG = {
   seak3Roadmap: {
     big: 'T',
     small: 'X',
-    triple: 'T',
-    odd: 'O',
-    even: 'E',
+    triple: 'H',
+    odd: 'L',
+    even: 'C',
+    bigFull: 'Tài',
+    smallFull: 'Xỉu',
+    tripleFull: 'Triple',
+    oddFull: 'Lẻ',
+    evenFull: 'Chẵn',
   },
-
-  seak3RoadmapFull: {
-    big: 'Tài',
-    small: 'Xỉu',
-    triple: 'Triple',
-    odd: 'Lẻ',
-    even: 'Chẵn',
-  },
-
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
