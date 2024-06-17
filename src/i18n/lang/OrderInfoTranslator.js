@@ -1888,7 +1888,6 @@ function getOrderInfoTranslatorList(lang) {
     SEAK3_ALL_SAME: {
       items: [
         PlayMenu.All_Same_3_SEAK3,
-        PlayMenu.All_Sequence_SEAK3,
       ],
       getText: (content) => i18n(`playId.${PlayMenu.All_Same_3_SEAK3}`),
     },
