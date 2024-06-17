@@ -3,19 +3,18 @@ const PlayMenu = {
     // VTX
     2675: 'Tài Xỉu',
     2676: 'Big Small',
-
     // VXD
     2677: 'Xoc Dia',
-    2678: 'ធំ តូច',
-    2679: 'លេខសេស សូម្បីតែ',
-    2680: '4 ក្រហម',
-    2681: '4 ពណ៌ស',
-    2682: '3 ពណ៌ស + 1 ក្រហម',
-    2683: '3 ក្រហម + 1 ពណ៌ស',
+    2678: 'Big Small',
+    2679: 'Odd Even',
+    2680: 'All Red',
+    2681: 'All White',
+    2682: '3 White+1 Red',
+    2683: '3 Red+1 White',
 
     // VBC 魚蝦蟹
-    2733: 'Caranguejo Camarão Peixe',
-    2734: 'Caranguejo Camarão Peixe',
+    2733: 'Fish Prawn Crab',
+    2734: 'Fish Prawn Crab',
 
     // CLR
     3058: 'Color',
@@ -384,13 +383,13 @@ const PlayMenu = {
 
     // TL2D37
 
-    3041: 'EXACT 1D', // SEA TL2D37 第一球
-    3042: 'EXACT 1D', // SEA TL2D37 第二球
+    3041: 'EXACT 1D 1st', // SEA TL2D37 第一球
+    3042: 'EXACT 1D 2nd', // SEA TL2D37 第二球
     3044: 'Any One', // SEA TL2D37 任选一
     3047: 'EXACT 2D', // SEA TL2D37 二星直选
     3049: 'ANY 2D', // SEA TL2D37 二星组选
-    3052: 'BSOE', // SEA TL2D37 第一球
-    3053: 'BSOE', // SEA TL2D37 第二球
+    3052: 'BSOE 1st', // SEA TL2D37 第一球
+    3053: 'BSOE 2nd', // SEA TL2D37 第二球
 
     // Thai
 
@@ -400,56 +399,58 @@ const PlayMenu = {
     2055: '3D', // 三数
     2067: '1D', // 跑数
 
-    2297: 'ត្រីនិងក្តាម', // 魚蝦蟹,
-    2497: 'ហ្វានតាន់', // 番摊
+    2297: 'FishPrawnCrab', // 魚蝦蟹
+    2497: 'FanTan', // 番摊
 
     // 二級選單
 
-    2056: 'ជាក់ស្តែង', // 上正
-    2058: 'ក្រុម', // 上反
-    2061: 'ជាក់ស្តែង', // 上正
-    2063: 'ក្រុម', // 上反
-    2643: 'Second Prize', // 三数 二等
-    2644: 'Second Special', // 三数 二特
-    2065: 'ការបោះឆ្នោតដោយផ្ទាល់', // 直选加开
-    2068: 'បីចុងក្រោយមិនត្រូវបានដាក់', // 后三不定位
+    2056: 'EXACT', // 上正
+    2058: 'ANY', // 上反
+    2061: 'EXACT', // 上正
+    2063: 'ANY', // 上反
+    2643: 'Second Prize', // 二等
+    2644: 'Second Special', // 二特
+    2065: 'Bonus digit', // 直选加开
+    2068: 'Random Back 3 Digits', // 后三不定位
 
-    2298: 'ត្រីនិងក្តាម', // 魚蝦蟹,
+    2298: 'FishPrawnCrab', // 魚蝦蟹
 
     2498: 'Fan',
-    2500: 'Nim',
-    2502: 'Kwok',
-    2504: 'ធំតូចសេសគូ',
+    2500: 'Kwok',
+    2502: 'Nim',
+    2504: 'BSOE',
 
     // 三級選單
 
-    2062: 'តួលេខពីខ្ទង់', // 上正二位数
-    2064: 'លេខពីរខ្ទង់លើ', // 上反二位数
-    2066: 'អវិជ្ជមានលេខពីរខ្ទង់', // 下正二位数
-    2480: 'Norm EXACT 2D-Special ', // 下正二位数（复式）
-    2481: 'Manual Enter EXACT 2D-Special ', // 下正二位数（单式）
-    2482: 'Norm ANY 2D-1st', // 上反二位數
-    2483: 'Norm EXACT 2D-1st', // 上正二位数(复式)
-    2484: 'Manual Enter  EXACT 2D-1st', // 上正二位数（单式）
+    2062: 'EXACT 2D-1st', // 上正二位数
+    2064: 'ANY 2D-1st', // 上反二位数
+    2066: 'EXACT 2D-Special ', // 下正二位数
+    2480: 'Norm EXACT 2D-Special ',
+    2481: 'Manual Enter EXACT 2D-Special ',
+    2482: 'Norm ANY 2D-1st',
+    2483: 'Norm EXACT 2D-1st',
+    2484: 'Manual Enter  EXACT 2D-1st',
 
-    2057: 'តួលេខបីខ្ទង់', // 上正三位数
-    2059: 'លេខបីខ្ទង់លើ', // 上反三位数
+    2057: 'EXACT 3D-1st', // 上正三位数
+    2059: 'ANY 3D-1st', // 上反三位数
     2645: 'EXACT 3D-2nd', // 二等三位数
     2646: 'EXACT 3D-2nd Special', // 二特三位数
-    2069: 'រត់បីខ្ទង់', // 上跑三位数
+    2069: 'ANY 1D-1st', // 上跑三位数
+    2485: 'Norm EXACT 3D-1st',
+    2486: 'Manual Enter EXACT 3D-1st',
+    2487: 'Norm ANY 3D-1st',
 
-    2485: 'Norm EXACT 3D-1st', // 上正三位数（复式）
-    2486: 'Manual Enter EXACT 3D-1st', // 上正三位数（单式）
-    2487: 'Norm ANY 3D-1st', // 上反三位数（复式）
-
-    2299: 'ត្រីនិងក្តាម', // 魚蝦蟹,
+    2299: 'FishPrawnCrab', // 魚蝦蟹
 
     2499: 'Fan',
-    2501: 'Nim',
-    2503: 'Kwok',
-    2505: 'ធំតូចសេសគូ',
+    2501: 'Kwok',
+    2503: 'Nim',
+    2505: 'BSOE',
 
     // vnc 越南彩
+
+    // 一級選單
+
     2090: '4D', // 四数
     2095: '3D', // 三数
     2100: '2D', // 二数
@@ -459,13 +460,13 @@ const PlayMenu = {
     2528: 'AnyRoll', // 包膽 中南部
 
     2550: 'FailParlay', // 北部 逆向 - 一級選單
-    2560: 'FailParlay', // 中南部 逆向 - 一級選單
+    2560: 'FailParlay', // 南部 逆向 - 一級選單
 
     2598: 'Parlay', // 北部 串组 - 一級選單
     2608: 'Parlay', // 中南部 串组 - 一級選單
 
-    2300: 'ត្រីនិងក្តាម', // 魚蝦蟹
-    2488: 'ហ្វានតាន់', // 番摊
+    2300: 'FishPrawnCrab', // 魚蝦蟹
+    2488: 'FanTan', // 番摊
 
     2618: 'Sic Bo Fast3', // 骰寶快三
 
@@ -475,38 +476,35 @@ const PlayMenu = {
 
     // 二級選單
 
-    2091: 'ជាក់ស្តែង', // 四数 上正
-    2093: 'ក្រុម', // 四数 上反
-    2096: 'ជាក់ស្តែង', // 三数 上正
-    2098: 'ក្រុម', // 三数 上反
-    2101: 'ជាក់ស្តែង', // 二数 上正
-    2103: 'ជាក់ស្តែង', // 二数 下正
+    2091: 'EXACT', // 四数 上正
+    2093: 'ANY', // 四数 上反
+    2096: 'EXACT', // 三数 上正
+    2098: 'ANY', // 三数 上反
+    2101: 'EXACT', // 二数 上正
+    2103: 'EXACT', // 二数 下正
 
-    2301: 'ត្រីនិងក្តាម', // 魚蝦蟹
+    2301: 'FishPrawnCrab', // 魚蝦蟹
 
     2489: 'Fan', // 番
-    2491: 'Nim', // 角
-    2493: 'Kwok', // 念
-    2495: 'ធំតូចសេសគូ', // 大小单双
+    2491: 'Kwok', // 角
+    2493: 'Nim', // 念
+    2495: 'BSOE', // 大小单双
 
     2619: 'Single Dice Bet', // 骰寶快三 - 单骰
     2620: 'Three Dice Total', // 骰寶快三 - 和值
-    2621: 'Specific Triples', // 骰寶快三 - 围骰
+    2621: 'Triple', // 骰寶快三 - 围骰
     2622: 'Any Triple ', // 骰寶快三 - 全围
-    2623: 'ធំតូចសេសគូ', // 骰寶快三 - 大小单双
+    2623: 'BSOE', // 骰寶快三 - 大小单双
 
-    2625: 'Ranking', // 极速PK10 - 第1-10名排名 - 二級選單
-    2626: '1-10 BSOE', // 极速PK10 - 第1-10名 - 大小单双
-    2628: 'Sum of 1st & 2nd', // 极速PK10 - 冠亚和值 - 二級選單
-    2629: 'BSOE1&2 of Sum', // 极速PK10 - 冠亚和值 - 大小单双
-    2631: 'Dragon&Tiger', // 极速PK10 - 龙虎斗 - 二級選單
+    2625: 'Ranking', // 极速PK10 - 第1-10名排名-二級選單
+    2626: '1-10 BSOE', // 极速PK10 - 第1-10名-大小单双
+    2628: 'Sum of 1st & 2nd', // 极速PK10 - 冠亚和值-二級選單
+    2629: 'BSOE1&2 of Sum', // 极速PK10 - 冠亚和值-大小单双
+    2631: 'Dragon&Tiger', // 极速PK10 - 龙虎斗-二級選單
 
     2516: 'Last 2D of AnyResult', // 北部 后二包胆
     2520: 'Last 3D of AnyResult', // 北部 后三包胆
     2524: 'Last 4D of AnyResult', // 北部 后四包胆
-
-    3054: 'លេខក្រុមដើមរបស់លទ្ធផលណាមួយ', // 北部 - 前二包胆
-    3055: 'លេខក្រុម 2D 1K របស់លទ្ធផលណាមួយ', // 北部 - 前二包胆1K
 
     2551: 'FailParlay 4', // 北部 - 四不中 - 二級選單
     2554: 'FailParlay 8', // 北部 - 八不中 - 二級選單
@@ -521,9 +519,6 @@ const PlayMenu = {
     2529: 'Last 2D of AnyResult', // 中南部 后二包胆
     2533: 'Last 3D of AnyResult', // 中南部 后三包胆
     2537: 'Last 4D of AnyResult', // 中南部 后四包胆
-
-    3056: 'លេខក្រុមដើមរបស់លទ្ធផលណាមួយ', // 中南部 - 前二包胆
-    3057: 'លេខក្រុម 2D 1K របស់លទ្ធផលណាមួយ', // 中南部 - 前二包胆1K
 
     2561: 'FailParlay 4 ', // 中南部 - 四不中 - 二級選單
     2564: 'FailParlay 8', // 中南部 - 八不中 - 二級選單
@@ -541,14 +536,14 @@ const PlayMenu = {
     2579: 'Random', // 特等一等 - 十位個位 - 跑數 - 二級選單
 
     // 以下在東南亞彩是屬於三級選單直選，在越南彩才是屬於二級選單
-    2092: 'តួលេខពបួនខ្ទង់', // 上正四位数 Last_4_Straight_1st_VNC
-    2094: 'លេខបួនខ្ទង់លើ', // 上反四位数 Last_4_Combine_1st_VNC
-    2097: 'តួលេខបីខ្ទង់', // 上正三位数 Last_3_Straight_1st_VNC
-    2099: 'លេខបីខ្ទង់លើ', // 上反三位数 Last_3_Combine_1st_VNC
-    2102: 'តួលេខពីរខ្ទង់', // 上正二位数 Last_2_Straight_1st_VNC
+    2092: 'EXACT 4D-Special', // 上正四位数 Last_4_Straight_1st_VNC
+    2094: 'ANY 4D-Special', // 上反四位数 Last_4_Combine_1st_VNC
+    2097: 'EXACT 3D-Special', // 上正三位数 Last_3_Straight_1st_VNC
+    2099: 'ANY 3D-Special', // 上反三位数 Last_3_Combine_1st_VNC
+    2102: 'EXACT 2D-Special', // 上正二位数 Last_2_Straight_1st_VNC
     2104: 'EXACT 2D-1st', // 下正二位数 Last_2_Straight_2nd_VNC
-    2107: 'រត់ពីរខ្ទង់', // 上跑两位数 Last_2_Any_1st_VNC
-    2109: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 Last_2_Any_2nd_VNC
+    2107: 'ANY 1D-Special', // 上跑两位数 Last_2_Any_1st_VNC
+    2109: 'ANY 1D-1st', // 下跑两位数 Last_2_Any_2nd_VNC
 
     2601: 'Parlay 2', // 北部 串2组 Bunch_2_North_VNC
     2604: 'Parlay 3', // 北部 串3组 Bunch_3_North_VNC
@@ -571,6 +566,11 @@ const PlayMenu = {
     2534: 'Last 3D of AnyResult', // 中南部 后三包胆
     2538: 'Last 4D of AnyResult', // 中南部 后四包胆
 
+    3054: 'First 2D of AnyResult', // 北部 - 前二包胆
+    3055: 'First 2D 1K of AnyResult', // 北部 - 前二包胆1K
+    3056: 'First 2D of AnyResult', // 中南部 - 前二包胆
+    3057: 'First 2D 1K of AnyResult', // 中南部 - 前二包胆1K
+
     2641: 'Last 2D 1K of AnyResult', // 北部 后二包胆 1K
     2642: 'Last 2D 1K of AnyResult', // 中南部 后二包胆 1K
 
@@ -581,17 +581,17 @@ const PlayMenu = {
 
     2580: 'Tens-Special', // 特等十位 Ten_Digit_1st_VNC
     2581: 'Ones-Special', // 特等个位 Unit_Digit_1st_VNC
-    2582: 'Tens-Special', // 一等十位 Ten_Digit_2nd_VNC
-    2583: 'Ones-Special', // 一等个位 Unit_Digit_2nd_VNC
+    2582: 'Tens-1st', // 一等十位 Ten_Digit_2nd_VNC
+    2583: 'Ones-1st', // 一等个位 Unit_Digit_2nd_VNC
 
-    2302: 'ត្រីនិងក្តាម', // 魚蝦蟹
+    2302: 'FishPrawnCrab', // 魚蝦蟹
 
     2490: 'Fan', // 番
-    2492: 'Nim', // 角
-    2494: 'Kwok', // 念
-    2496: 'ធំតូចសេសគូ', // 大小单双
+    2492: 'Kwok', // 角
+    2494: 'Nim', // 念
+    2496: 'BSOE', // 大小单双
 
-    263700: 'ចំនាត់ថ្នាក់', // VNC 4D 一数 Fixed_Place_4D_VNC
+    263700: 'Position', // VNC 4D 一数 Fixed_Place_4D_VNC
 
     // 三級選單
 
@@ -626,23 +626,23 @@ const PlayMenu = {
     2597: 'Norm Head 2D', // 中南部 二数头(复式) Last_2_8th_South_VNC_Multi
 
     // 以下不分南北部
-    2286: 'Norm EXACT 4D-1st', // 上正四位数（复式）Last_4_Straight_1st_VNC_Multi
-    2287: 'Manual Enter EXACT 4D-1st', // 上正四位数（单式）Last_4_Straight_1st_VNC_Single
+    2286: 'Norm EXACT 4D-Special', // 上正四位数（复式）Last_4_Straight_1st_VNC_Multi
+    2287: 'Manual EXACT 4D-Special', // 上正四位数（单式）Last_4_Straight_1st_VNC_Single
 
-    2284: 'Norm EXACT 3D-1st', // 上正三位数（复式）Last_3_Straight_1st_VNC_Multi
-    2285: 'Manual Enter EXACT 3D-1st', // 上正三位数（单式）Last_3_Straight_1st_VNC_Single
-    2283: 'Norm ANY 3D-1st', // 上反三位数（复式）Last_3_Combine_1st_VNC_Multi
+    2284: 'Norm EXACT 3D-Special', // 上正三位数（复式）Last_3_Straight_1st_VNC_Multi
+    2285: 'Manual EXACT 3D-Special', // 上正三位数（单式）Last_3_Straight_1st_VNC_Single
+    2283: 'Norm ANY 3D-Special', // 上反三位数（复式）Last_3_Combine_1st_VNC_Multi
 
-    2279: 'Norm EXACT 2D-1st', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
-    2280: 'Manual Enter EXACT 2D-1st', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
+    2279: 'Norm EXACT 2D-Special', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
+    2280: 'Manual Enter EXACT 2D-Special', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
     2281: 'Norm EXACT 2D-1st', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
     2282: 'Manual Enter EXACT 2D-1st', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
     // 一數為特例(不算三級又像三級選單)
-    2637: 'ចំនាត់ថ្នាក់ (ឯក)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
-    2638: 'ចំនាត់ថ្នាក់ (ដប់)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
-    2639: 'ចំនាត់ថ្នាក់ (រយ)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
-    2640: 'ចំនាត់ថ្នាក់ (ពាន់)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
+    2637: 'Position (Ones)', // VNC 4D 一数 (個位) Fixed_Place_4D_Unit_VNC
+    2638: 'Position (Tens)', // VNC 4D 一数 (十位) Fixed_Place_4D_Ten_VNC
+    2639: 'Position (Hundreds)', // VNC 4D 一数 (百位) Fixed_Place_4D_hundred_VNC
+    2640: 'Position (Thousands)', // VNC 4D 一数 (千位) Fixed_Place_4D_Thousand_VNC
 
     2863: 'Rambolito3', // 三星組3
     2864: 'Rambolito6', // 三星組6
@@ -650,50 +650,52 @@ const PlayMenu = {
     2866: 'Rambolito6 Last 3D', // 三星組6
     2867: 'Rambolito3 Last 3D', // 三星組3
     2868: 'Rambolito6 Last 3D', // 三星組6
-
     // LAO 老挝彩
+
+    // 一級選單
+
     2127: '4D', // 四数
     2132: '3D', // 三数
     2137: '2D', // 二数
     2142: '1D', // 跑数
 
-    2303: 'ត្រីនិងក្តាម', // 魚蝦蟹,
+    2303: 'FishPrawnCrab', // 魚蝦蟹
 
-    2506: 'ហ្វានតាន់', // 番摊
+    2506: 'FanTan', // 番摊
 
     // 二級選單
 
-    2128: 'ជាក់ស្តែង', // 上正
-    2130: 'ក្រុម', // 上反
-    2133: 'ជាក់ស្តែង', // 上正
-    2135: 'ក្រុម', // 上反
-    2138: 'ជាក់ស្តែង', // 上正
-    2140: 'ជាក់ស្តែង', // 下正
-    2129: 'តួលេខពបួនខ្ទង់', // 上正四位数 Last_4_Straight_LAO
-    2131: 'លេខបួនខ្ទង់លើ', // 上反四位数 Last_4_Combine_LAO
-    2134: 'តួលេខបីខ្ទង់', // 上正三位数 Last_3_Straight_LAO
-    2136: 'លេខបីខ្ទង់លើ', // 上反三位数 Last_3_Combine_LAO
-    2139: 'តួលេខពីខ្ទង់', // 上正二位数 Last_2_Straight_LAO
-    2141: 'លេខពីរខ្ទង់ក្រោម', // 下正二位数 First_2_Straight_LAO
+    2128: 'EXACT', // 上正
+    2130: 'ANY', // 上反
+    2133: 'EXACT', // 上正
+    2135: 'ANY', // 上反
+    2138: 'EXACT', // 上正
+    2140: 'EXACT', // 下正
+    2129: 'EXACT 4D', // 上正四位数 Last_4_Straight_LAO
+    2131: 'ANY 4D', // 上反四位数 Last_4_Combine_LAO
+    2134: 'EXACT 3D', // 上正三位数 Last_3_Straight_LAO
+    2136: 'ANY 3D', // 上反三位数 Last_3_Combine_LAO
+    2139: 'EXACT 2D-last', // 上正二位数 Last_2_Straight_LAO
+    2141: 'EXACT 2D-first', // 下正二位数 First_2_Straight_LAO
     2143: 'Random', // 跑數二級選單
     2145: 'Random', // 跑數二級選單
 
-    2304: 'ត្រីនិងក្តាម', // 魚蝦蟹,
+    2304: 'FishPrawnCrab', // 魚蝦蟹
 
     2507: 'Fan',
-    2509: 'Nim',
-    2511: 'Kwok',
-    2513: 'ធំតូចសេសគូ',
+    2509: 'Kwok',
+    2511: 'Nim',
+    2513: 'BSOE',
 
-    2632: 'ចំនាត់ថ្នាក់', // SEA 4D 一数 Fixed_Place_4D
+    2632: 'Position', // SEA 4D 一数 Fixed_Place_4D
 
     // 三級選單
 
     // 一數為特例(不算三級又像三級選單)
-    2633: 'ចំនាត់ថ្នាក់ (ឯក)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
-    2634: 'ចំនាត់ថ្នាក់ (ដប់)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
-    2635: 'ចំនាត់ថ្នាក់ (រយ)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
-    2636: 'ចំនាត់ថ្នាក់ (ពាន់)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
+    2633: 'Position (Ones)', // SEA 4D 一数 (個位) Fixed_Place_4D_Unit
+    2634: 'Position (Tens)', // SEA 4D 一数 (十位) Fixed_Place_4D_Ten
+    2635: 'Position (Hundreds)', // SEA 4D 一数 (百位) Fixed_Place_4D_hundred
+    2636: 'Position (Thousands)', // SEA 4D 一数 (千位) Fixed_Place_4D_Thousand
 
     2288: 'Norm EXACT 2D-last', // Last_2_Straight_LAO_Multi
     2289: 'Manual Enter EXACT 2D-last', // Last_2_Straight_LAO_Single
@@ -704,15 +706,15 @@ const PlayMenu = {
     2294: 'Manual Enter EXACT 3D', // Last_3_Straight_LAO_Single
     2295: 'Norm EXACT 4D', // Last_4_Straight_LAO_Multi
     2296: 'Manual Enter EXACT 4D', // Last_4_Straight_LAO_Single
-    2144: 'រត់ពីរខ្ទង់ខាងលើ', // 上跑两位数 Last_2_Any_LAO
-    2146: 'រត់ពីរខ្ទង់ខាងក្រោម', // 下跑两位数 First_2_Any_LAO
+    2144: 'ANY 1D-last', // 上跑两位数 Last_2_Any_LAO
+    2146: 'ANY 1D-first', // 下跑两位数 First_2_Any_LAO
 
-    2305: 'ត្រីនិងក្តាម', // 魚蝦蟹,
+    2305: 'FishPrawnCrab', // 魚蝦蟹
 
     2508: 'Fan',
-    2510: 'Nim',
-    2512: 'Kwok',
-    2514: 'ធំតូចសេសគូ',
+    2510: 'Kwok',
+    2512: 'Nim',
+    2514: 'BSOE',
 
     // Keno
 
@@ -742,57 +744,131 @@ const PlayMenu = {
     2655: 'Pick 7', // 任選七 Any7_KENO
 
     // BCR
-    2889: 'បាការ៉ាត់',
-    2890: 'Banker & Player & Tie',
-    2891: 'គូធនាគារិក',
-    2892: 'គូអ្នកលេង',
-    2893: 'Super Six',
+    2889: '바카라',
+    2890: '뱅커 & 플레이어 & 타이',
+    2891: '뱅커 페어',
+    2892: '플레이어 페어',
+    2893: '슈퍼 식스',
+
+    // PCSO play group
+    2858: 'Straight',
+    2860: 'Rambolito',
+    2852: 'Straight',
+    2854: 'Rambolito3',
+    2856: 'Rambolito6',
+    2844: 'Standard',
+    2846: 'PERM',
+    2848: 'ROLL1',
+    2850: 'ROLL4',
+    2842: 'Standard',
+    2792: 'Standard',
+    2794: 'System',
+    2802: 'Standard',
+    2804: 'System',
+    2812: 'Standard',
+    2814: 'System',
+    2822: 'Standard',
+    2824: 'System',
+    2832: 'Standard',
+    2834: 'System',
+
+    // PCSO play menu
+    2859: 'Straight',
+    2861: 'Rambolito',
+    2853: 'Straight',
+    2855: 'Rambolito3',
+    2857: 'Rambolito6',
+    2845: 'Standard',
+    2847: 'PERM',
+    2849: 'ROLL1',
+    2851: 'ROLL4',
+    2843: 'Standard',
+    2793: 'Standard',
+    2795: '5-Roll',
+    2796: 'SYS7',
+    2797: 'SYS8',
+    2798: 'SYS9',
+    2799: 'SYS10',
+    2800: 'SYS11',
+    2801: 'SYS12',
+    2803: 'Standard',
+    2805: '5-Roll',
+    2806: 'SYS7',
+    2807: 'SYS8',
+    2808: 'SYS9',
+    2809: 'SYS10',
+    2810: 'SYS11',
+    2811: 'SYS12',
+    2813: 'Standard',
+    2815: '5-Roll',
+    2816: 'SYS7',
+    2817: 'SYS8',
+    2818: 'SYS9',
+    2819: 'SYS10',
+    2820: 'SYS11',
+    2821: 'SYS12',
+    2823: 'Standard',
+    2825: '5-Roll',
+    2826: 'SYS7',
+    2827: 'SYS8',
+    2828: 'SYS9',
+    2829: 'SYS10',
+    2830: 'SYS11',
+    2831: 'SYS12',
+    2833: 'Standard',
+    2835: '5-Roll',
+    2836: 'SYS7',
+    2837: 'SYS8',
+    2838: 'SYS9',
+    2839: 'SYS10',
+    2840: 'SYS11',
+    2841: 'SYS12',
 
     // Wingo-Level:1
 
-    3060: 'លេខរត់', // SEA Wingo 跑数
+    3060: '번호 달리기', // SEA Wingo 跑数
 
     // Wingo-Level:2
 
-    3061: 'គន្លឹះធំឬតូច', // SEA Wingo 大小
-    3063: 'គន្លឹះលេខ', // SEA Wingo 数字
-    3065: 'គន្លឹះពណ៌', // SEA Wingo 顔色
+    3061: '크거나 작은 것을 추측하다', // SEA Wingo 大小
+    3063: '숫자 추측', // SEA Wingo 数字
+    3065: '색깔 추측', // SEA Wingo 顔色
 
     // Wingo-Level:3
 
-    3062: 'គន្លឹះធំឬតូច', // SEA Wingo 大小
-    3064: 'គន្លឹះលេខ', // SEA Wingo 猜数字
-    3066: 'គន្លឹះពណ៌', // SEA Wingo 猜紅色
-    3067: 'គន្លឹះពណ៌', // SEA Wingo 猜綠色
-    3068: 'គន្លឹះពណ៌', // SEA Wingo 猜紫色
+    3062: '크거나 작은 것을 추측하다', // SEA Wingo 大小
+    3064: '숫자 추측', // SEA Wingo 猜数字
+    3066: '색깔 추측', // SEA Wingo 猜紅色
+    3067: '색깔 추측', // SEA Wingo 猜綠色
+    3068: '색깔 추측', // SEA Wingo 猜紫色
 
     // 5D-Level:1
 
-    3069: 'បញ្ចូល', // SEA 5D 整合
-    3077: 'លេខរត់', // SEA 5D 跑數
+    3069: '통합', // SEA 5D 整合
+    3077: '번호 달리기', // SEA 5D 跑數
 
     // 5D-Level:2
 
-    3070: 'ជ្រើសរើសផ្ទាល់ ធំ តូច គូ សេស', // SEA 5D 大小单双
-    3078: 'ជ្រើសលេខ', // SEA 5D 直选
+    3070: '직선 선택 대 소 홀 짝', // SEA 5D 大小单双
+    3078: '번호 선택', // SEA 5D 直选
     
     // 5D-Level:3
     
-    3071: 'សរុបទំហំធំតូចជានិមួយ', // SEA 5D 和值
-    3072: 'ទំហំចំណាត់ទី A គូសេស', // SEA 5D 第一球
-    3073: 'ទំហំចំណាត់ទី B គូសេស', // SEA 5D 第二球
-    3074: 'ទំហំចំណាត់ទី C គូសេស', // SEA 5D 第三球
-    3075: 'ទំហំចំណាត់ទី D គូសេស', // SEA 5D 第四球
-    3076: 'ទំហំចំណាត់ទី E គូសេស', // SEA 5D 第五球
-    3079: 'ជ្រើសរើសលេខចំណាត់ A', // SEA 5D 第一球
-    3080: 'ជ្រើសរើសលេខចំណាត់ B', // SEA 5D 第二球
-    3081: 'ជ្រើសរើសលេខចំណាត់ C', // SEA 5D 第三球
-    3082: 'ជ្រើសរើសលេខចំណាត់ D', // SEA 5D 第四球
-    3083: 'ជ្រើសរើសលេខចំណាត់ E', // SEA 5D 第五球
+    3071: '총합 크기 작은 홀수 짝수', // SEA 5D 和值
+    3072: '위치 A 크기 홀짝', // SEA 5D 第一球
+    3073: '위치 B 크기 홀짝', // SEA 5D 第二球
+    3074: '위치 C 크기 홀짝', // SEA 5D 第三球
+    3075: '위치 D 크기 홀짝', // SEA 5D 第四球
+    3076: '위치 E 크기 홀짝', // SEA 5D 第五球
+    3079: '위치 A 번호 선택', // SEA 5D 第一球
+    3080: '위치 B 번호 선택', // SEA 5D 第二球
+    3081: '위치 C 번호 선택', // SEA 5D 第三球
+    3082: '위치 D 번호 선택', // SEA 5D 第四球
+    3083: '위치 E 번호 선택', // SEA 5D 第五球
 
     // SEAK3-Level:1
 
-    3084: 'បញ្ចូល', // SEA SEAK3 整合
+    3084: '통합', // SEA SEAK3 整合
 
     // SEAK3-Level:2
 
@@ -804,14 +880,14 @@ const PlayMenu = {
     // SEAK3-Level:3
 
     3086: 'Total', // SEA SEAK3 和值
-    3087: 'សរុបទំហំធំតូចជានិមួយ', // SEA SEAK3 大小單雙
-    3089: '2ជ្រើសរើសមួយតែដោយការប្រើលេខតំបន់ដែលដូចគ្នា', // SEA SEAK3 2同号单选
-    3090: '2ជ្រើសរើសដោយការប្រើលេខសម្គាល់ដែលមានតម្លៃដូចគ្នា', // SEA SEAK3 2同号复选
-    3092: '3ជ្រើសរើសមួយដំបូងដោយការប្រើលេខតំបន់ដែលដូចគ្នា', // SEA SEAK3 3同号单选
-    3093: '3ជាមួយលេខតូចតាមរយៈការជ្រើសរើសទាំងអស់គ្នា', // SEA SEAK3 3同号通选
-    3095: 'បញ្ជាក់', // SEA SEAK3 全順
-    3096: '3ខុសគ្នា', // SEA SEAK3 3不同
-    3097: '2ខុសគ្នា', // SEA SEAK3 2不同
+    3087: '총합 크기 작은 홀수 짝수', // SEA SEAK3 大小單雙
+    3089: '2동호 단일 선택', // SEA SEAK3 2同号单选
+    3090: '2동호복선택', // SEA SEAK3 2同号复选
+    3092: '3동호 단일 선택', // SEA SEAK3 3同号单选
+    3093: '3동호통선', // SEA SEAK3 3同号通选
+    3095: '연속', // SEA SEAK3 全順
+    3096: '3 다른', // SEA SEAK3 3不同
+    3097: '2 다름', // SEA SEAK3 2不同
   },
 };
 

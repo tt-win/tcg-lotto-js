@@ -101,6 +101,27 @@ function getOrderInfoTranslatorList(lang) {
       19: 'earth',
     }
   }
+  const WINGO_KEY = {
+    COLOR: {
+      0: 'red',
+      1: 'green',
+      2: 'purple',
+      3: 'binaryColor',
+    },
+    BS: {
+      0: 'big',
+      1: 'small',
+    }
+  }
+
+  const LOTTO_5D_KEY = {
+    BSOE: {
+      0: 'big',
+      1: 'small',
+      2: 'odd',
+      3: 'even',
+    }
+  }
 
   const LHC_KEY = {
     // 總大小單雙
@@ -1374,6 +1395,11 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu['8_Not_Winning_Numbers_South_VNC'],
         PlayMenu['10_Not_Winning_Numbers_South_VNC'],
 
+        PlayMenu.Any_Roll_First_2_North_VNC,
+        PlayMenu.Any_Roll_First_2_1K_North_VNC,
+        PlayMenu.Any_Roll_First_2_South_VNC,
+        PlayMenu.Any_Roll_First_2_1K_South_VNC,
+
         PlayMenu.Bunch_2_North_VNC, // 北部 串2组
         PlayMenu.Bunch_3_North_VNC, // 北部 串3组
         PlayMenu.Bunch_4_North_VNC, // 北部 串4组
@@ -1797,6 +1823,85 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Any7_KENO,
       ],
       getText: (content) => content,
+    },
+  };
+
+  const WingoTranslator = {
+    WIN_GO_COLOR: {
+      items: [
+        PlayMenu.Color_Red_WGG,
+        PlayMenu.Color_Green_WGG,
+        PlayMenu.Color_Purple_WGG,
+      ],
+      getText: (content) => i18n(`ball.wingo.${WINGO_KEY.COLOR[content]}`),
+    },
+    WIN_GO_BS: {
+      items: [
+        PlayMenu.BS_WGG,
+      ],
+      getText: (content) => i18n(`ball.wingo.${WINGO_KEY.BS[content]}`),
+    },
+    WIN_GO_NUMBER: {
+      items: [
+        PlayMenu.Num_WGG,
+      ],
+      getText: (content) => content,
+    },
+  };
+
+  const Lotto5DTranslator = {
+    LOTTO_5D_NUMBER: {
+      items: [
+        PlayMenu.First_Straight_5D,
+        PlayMenu.Second_Straight_5D,
+        PlayMenu.Third_Straight_5D,
+        PlayMenu.Fourth_Straight_5D,
+        PlayMenu.Fifth_Straight_5D,
+      ],
+      getText: (content) => content,
+    },
+    LOTTO_5D_BS: {
+      items: [
+        PlayMenu.Sum_BSOE_5D,
+        PlayMenu.First_BSOE_5D,
+        PlayMenu.Second_BSOE_5D,
+        PlayMenu.Third_BSOE_5D,
+        PlayMenu.Fourth_BSOE_5D,
+        PlayMenu.Fifth_BSOE_5D,
+      ],
+      getText: (content) => i18n(`ball.lotto5D.${LOTTO_5D_KEY.BSOE[content]}`),
+    },
+  };
+
+  const SEAK3Translator = {
+    SEAK3_COMMON: {
+      items: [
+        PlayMenu.Sum_SEAK3,
+        PlayMenu.Single_Same_2_SEAK3,
+        PlayMenu.Multi_Same_2_SEAK3,
+        PlayMenu.Single_Same_3_SEAK3,
+        PlayMenu.Different_3_SEAK3,
+        PlayMenu.Different_2_SEAK3,
+      ],
+      getText: (content) => (content || '').replace(/,/g, '').replace(/\|/g, ',')
+    },
+    SEAK3_ALL_SAME: {
+      items: [
+        PlayMenu.All_Same_3_SEAK3,
+      ],
+      getText: (content) => i18n(`playId.${PlayMenu.All_Same_3_SEAK3}`),
+    },
+    SEAK3_ALL_SEQUENCE: {
+      items: [
+        PlayMenu.All_Sequence_SEAK3,
+      ],
+      getText: (content) => i18n(`playId.${PlayMenu.All_Sequence_SEAK3}`),
+    },
+    SEAK3_BSOE: {
+      items: [
+        PlayMenu.BSOE_SEAK3,
+      ],
+      getText: (content) => i18n(`ball.lotto5D.${LOTTO_5D_KEY.BSOE[content]}`),
     },
   };
 
@@ -2282,6 +2387,9 @@ function getOrderInfoTranslatorList(lang) {
     ...THAITranslator,
     ...LFTranslator,
     ...KenoTranslator,
+    ...WingoTranslator,
+    ...Lotto5DTranslator,
+    ...SEAK3Translator,
     ...SeaTranslator,
     ...NNPTranslator,
   };

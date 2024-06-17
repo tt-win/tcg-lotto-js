@@ -16,6 +16,10 @@ const PlayMenu = {
     2733: 'Fish Prawn Crab',
     2734: 'Fish Prawn Crab',
 
+    // CLR
+    3058: 'Color',
+    3059: 'Color',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單
@@ -814,6 +818,71 @@ const PlayMenu = {
     2839: 'SYS10',
     2840: 'SYS11',
     2841: 'SYS12',
+
+    // Wingo-Level:1
+
+    3060: 'Run numbers', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: 'Guess the size', // SEA Wingo 大小
+    3063: 'Guess the number', // SEA Wingo 数字
+    3065: 'Guess the color', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: 'Guess the size', // SEA Wingo 大小
+    3064: 'Guess the number', // SEA Wingo 猜数字
+    3066: 'Guess the color', // SEA Wingo 猜紅色
+    3067: 'Guess the color', // SEA Wingo 猜綠色
+    3068: 'Guess the color', // SEA Wingo 猜紫色
+
+    // 5D-Level:1
+
+    3069: 'Integration', // SEA 5D 整合
+    3077: 'Run numbers', // SEA 5D 跑數
+
+    // 5D-Level:2
+
+    3070: 'Direct Selection Big Small Odd Even', // SEA 5D 大小单双
+    3078: 'Number Selection', // SEA 5D 直选
+
+    // 5D-Level:3
+
+    3071: 'Sum Big/Small Odd/Even', // SEA 5D 和值
+    3072: 'Position A ,Big/Small,Odd/Even', // SEA 5D 第一球
+    3073: 'Position B ,Big/Small,Odd/Even', // SEA 5D 第二球
+    3074: 'Position C ,Big/Small,Odd/Even', // SEA 5D 第三球
+    3075: 'Position D ,Big/Small,Odd/Even', // SEA 5D 第四球
+    3076: 'Position E ,Big/Small,Odd/Even', // SEA 5D 第五球
+    3079: 'Position A Number Selection', // SEA 5D 第一球
+    3080: 'Position B Number Selection', // SEA 5D 第二球
+    3081: 'Position C Number Selection', // SEA 5D 第三球
+    3082: 'Position D Number Selection', // SEA 5D 第四球
+    3083: 'Position E Number Selection', // SEA 5D 第五球
+
+    // SEAK3-Level:1
+
+    3084: 'Integration', // SEA SEAK3 整合
+
+    // SEAK3-Level:2
+
+    3085: 'SUM', // SEA SEAK3 和值
+    3088: '2 Same', // SEA SEAK3 2骰子
+    3091: '3 Same', // SEA SEAK3 3骰子
+    3094: 'Different', // SEA SEAK3 不同骰
+
+    // SEAK3-Level:3
+
+    3086: 'Total', // SEA SEAK3 和值
+    3087: 'Sum Big/Small Odd/Even', // SEA SEAK3 大小單雙
+    3089: '2 same number single selection', // SEA SEAK3 2同号单选
+    3090: '2 same number multiple selection', // SEA SEAK3 2同号复选
+    3092: '3 same number single selection', // SEA SEAK3 3同号单选
+    3093: '3 same number all selected', // SEA SEAK3 3同号通选
+    3095: 'Continuous', // SEA SEAK3 全順
+    3096: '3 different', // SEA SEAK3 3不同
+    3097: '2 different', // SEA SEAK3 2不同
   },
 };
 

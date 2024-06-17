@@ -31,6 +31,7 @@ const LANG = {
   recentlyGames: 'เปิดการเดิมพัน',
   orderStatus: {
     orderStatus_0: 'รายละเอียด',
+    orderStatus_1: 'ยืนยัน',
     orderStatus_2: 'สำเร็จ',
     orderStatus_4: 'ชนะเงินรางวัล',
     orderStatus_5: 'เสียเงิน',
@@ -41,6 +42,7 @@ const LANG = {
     orderStatus_14: 'ไม่มีการจับรางวัล',
     orderStatus_16: 'วาด',
     orderStatus_17: 'ยกเลิก',
+    orderStatus_20: 'ปฏิเสธ',
     orderStatus_99: 'โมฆะ',
   },
   betDigit: {
@@ -175,6 +177,20 @@ const LANG = {
       earthFull: 'โลก(924-1410)',
       earthFullLineBreak: 'โลก\n(924-1410)',
     },
+
+    wingo: {
+      red: 'สีแดง',
+      green: 'สีเขียว',
+      purple: 'สีม่วง',
+      big: 'สูง',
+      small: 'ต่ำ',
+    },
+    lotto5D: {
+      big: 'สูง',
+      small: 'ต่ำ',
+      odd: 'คี่	',
+      even: 'คู่',
+    },
   },
   // VXD
   vxd: {
@@ -241,6 +257,38 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
+  wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
+    gray: 'X',
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
+  lotto5DRoadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -277,6 +325,11 @@ const LANG = {
     VBC: 'VBC',
     NNP: "NNP",
     BCR: "BCR",
+    CLR: 'CLR',
+    '4D': '4D',
+    WGG: 'WGG',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',
@@ -307,6 +360,11 @@ const LANG = {
     VBC_SINGLE_DICE_2: 'TWO DICE',
     VBC_SINGLE_DICE_3: 'THREE DICE',
 
+    // CLR
+    CLR_SINGLE_DICE_1: 'ONE DICE',
+    CLR_SINGLE_DICE_2: 'TWO DICE',
+    CLR_SINGLE_DICE_3: 'THREE DICE',
+
     // KENO
     P_KENO_ANY1_1: 'ตรงกับ 1 ตัวจาก 1 ตัว',
     P_KENO_ANY2_2: 'ตรงกับ 2 ตัวจาก 2 ตัว',
@@ -327,6 +385,19 @@ const LANG = {
     P_KENO_ANY7_5: 'รางวัลรองชนะเลิศที่สาม',
     P_KENO_ANY7_6: 'รางวัลรองชนะเลิศที่สอง',
     P_KENO_ANY7_7: 'รางวัลชนะเลิศ',
+
+    P_WGG_COLOR_0: 'สีแดง',
+    P_WGG_COLOR_1: 'สีเขียว',
+    P_WGG_COLOR_2: 'สีม่วง',
+    P_WGG_COLOR_3: 'ดับเบิ้ลคัลเลอร์บอล',
+
+    P_SEAK3_ALL_SEQUENCE: '3 ตัวเลขติดกัน',
+    P_SEAK3_ALL_SAME: 'สามตัวเลขที่เหมือนกันใดๆ',
+    P_SEAK3_SINGLE_SAME_TWO: '2 เลือกเลขเดียว',
+    P_SEAK3_MULTI_SAME_TWO: '2 การเลือกซ้ำที่มีตัวเลขเดียวกัน',
+    P_SEAK3_SINGLE_SAME_THREE: '3 เลือกตัวเลือกเลขเดียวกัน',
+    P_SEAK3_DIFFERENT_TWO: '2 ที่แตกต่างกัน',
+    P_SEAK3_DIFFERENT_THREE: '3 ไม่เหมือนกัน',
   },
 
   // TODO i18n
@@ -364,10 +435,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'ระบบไม่ว่าง กรุณาลองไหม่อีกครั้ง',
     NOT_SUPPORT_LANDSCAPE: 'หน้าจอไม่สามารถตั้งเป็นแนวนอน',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้า',
-    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เกินยอดรวมหมายเลขเดิมพันที่อนุญาต',
 //  VN
     ORDER_ALREADY_CANCELED: 'ยกเลิกคำสั่งซื้อ',
-    STAKES_IS_OVER_LIMIT_ERROR: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด',
+    STAKES_IS_OVER_LIMIT_ERROR: 'เกินยอดรวมหมายเลขเดิมพันที่อนุญาต',
     BALANCE_NOT_ENOUGH_ERROR: 'ยอดคงเหลือไม่พอ',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: 'รายการเดิมพันเต็ม',
     CALCULATE_BETTING_AMOUNT_ERROR: 'ไม่พบรายละเอียดการเดิมพัน โปรดลองใหม่อีกครั้ง',
@@ -402,7 +473,12 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'จำนวนเงินเดิมพันสูงสุดที่อนุญาตให้ขายได้ด้วยตัวเลขสองหลักเดียวกันหลังหมายเลขเดิมพัน %@ คือ %@',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '%@ เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้าคงคลังเป็นศูนย์',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้า',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้า',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'รายการเดิมพันเต็ม > %@',
+    PRICE_BETTING_NOT_VALID_ERROR: "การตั้งค่าพารามิเตอร์ล็อตเตอร์ผิด",
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   gameHistoryCancel: 'ยกเลิกคำสั่งซื้อหรือไม่',
   gameHistoryCancel_success: 'สำเร็จ',
@@ -430,7 +506,12 @@ const LANG = {
   gameContent: 'เดิมพัน',
   odds1Time: 'จ่าย/ทีม 1',
   betAmount: 'การรวมกัน',
+  betAmountMaxLimitByNumero: 'เดิมพันสูงสุดต่อรอบ',
+  betAmountMaxLimit: 'จำนวนเงินเดิมพันสูงสุด',
+  betAmountMaxLimitByNumero_info: 'ผู้เล่นสามารถวางเดิมพันได้สูงสุดในการสั่งซื้อเดียว ป้อน 0 เพื่อไม่จำกัด',
+  betAmountMaxLimit_info: 'ผู้เล่นสามารถวางเดิมพันได้สูงสุดในการสั่งซื้อเดียว ป้อน 0 เพื่อไม่จำกัด',
   clear: 'ลบ',
+  emptyDrawHistory: 'ไม่มีข้อมูล',
   drawPrize: {
     specialPrize: 'รางวัลที่S',
     firstPrize: 'รางวัลที่1',

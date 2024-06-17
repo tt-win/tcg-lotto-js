@@ -16,6 +16,11 @@ const PlayMenu = {
     // VBC 魚蝦蟹
     2733: 'Ikan udang kepiting',
     2734: 'Ikan udang kepiting',
+
+    // CLR
+    3058: 'Color',
+    3059: 'Color',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單
@@ -146,7 +151,7 @@ const PlayMenu = {
     3037: 'Lucky Pick 12', // SEA TL642 Any
 
     // TL645
-    
+
     2919: 'Lucky Pick 3', // SEA TL645 Lucky Pick 3
     2921: 'Lucky Pick 12', // SEA TL645 Lucky Pick 12
     2924: 'Straight', // SEA TL645 Straight
@@ -405,8 +410,8 @@ const PlayMenu = {
     2063: 'ANY', // 上反
     2643: 'Hadiah Kedua', // 三数 二等
     2644: 'Spesial Kedua', // 三数 二特
-    2065: '直选加开', // 直选加开
-    2068: '后三不定位', // 后三不定位
+    2065: 'Digit Bonus', // 直选加开
+    2068: 'Tiga Belakang Tidak Tetap', // 后三不定位
 
     2298: 'FPC', // 魚蝦蟹
     2498: 'Fan',
@@ -500,6 +505,9 @@ const PlayMenu = {
     2520: '3D terakhir dari hasil apa pun', // 北部 后三包胆
     2524: '4D terakhir dari hasil apa pun', // 北部 后四包胆
 
+    3054: '2D Pertama dari Hasil Apapun', // 北部 - 前二包胆
+    3055: '2D Pertama 1K dari Hasil Apapun', // 北部 - 前二包胆1K
+
     2551: 'Gagal parlay 4', // 北部 - 四不中 - 二級選單
     2554: 'Gagal parlay 8', // 北部 - 八不中 - 二級選單
     2557: 'Gagal parlay 10', // 北部 - 十不中 - 二級選單
@@ -513,6 +521,9 @@ const PlayMenu = {
     2529: '2D terakhir dari hasil apa pun', // 中南部 后二包胆
     2533: '3D terakhir dari hasil apa pun', // 中南部 后三包胆
     2537: '4D terakhir dari hasil apa pun', // 中南部 后四包胆
+
+    3056: '2D Pertama dari Hasil Apapun', // 中南部 - 前二包胆
+    3057: '2D Pertama 1K dari Hasil Apapun', // 中南部 - 前二包胆1K
 
     2561: 'Gagal parlay 4', // 中南部 - 四不中 - 二級選單
     2564: 'Gagal parlay 8', // 中南部 - 八不中 - 二級選單
@@ -738,6 +749,71 @@ const PlayMenu = {
     2891: 'Pasangan Bankir',
     2892: 'Pasangan Pemain',
     2893: 'Super Enam',
+
+    // Wingo-Level:1
+
+    3060: 'Jalankan angka', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: 'Tebak ukuran', // SEA Wingo 大小
+    3063: 'Tebak angka', // SEA Wingo 数字
+    3065: 'Tebak warna', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: 'Tebak ukuran', // SEA Wingo 大小
+    3064: 'Tebak angka', // SEA Wingo 猜数字
+    3066: 'Tebak warna', // SEA Wingo 猜紅色
+    3067: 'Tebak warna', // SEA Wingo 猜綠色
+    3068: 'Tebak warna', // SEA Wingo 猜紫色
+
+    // 5D-Level:1
+
+    3069: 'Integrasi', // SEA 5D 整合
+    3077: 'Jalankan angka', // SEA 5D 跑數
+
+    // 5D-Level:2
+
+    3070: 'Pemilihan Langsung Besar Kecil Ganjil Genap', // SEA 5D 大小单双
+    3078: 'Pemilihan Nomor', // SEA 5D 直选
+    
+    // 5D-Level:3
+    
+    3071: 'Jumlah Besar Kecil Ganjil Genap', // SEA 5D 和值
+    3072: 'Ukuran Posisi A Ganjil Genap', // SEA 5D 第一球
+    3073: 'Ukuran Posisi B Ganjil Genap', // SEA 5D 第二球
+    3074: 'Ukuran Posisi C Ganjil Genap', // SEA 5D 第三球
+    3075: 'Ukuran Posisi D Ganjil Genap', // SEA 5D 第四球
+    3076: 'Ukuran Posisi E Ganjil Genap', // SEA 5D 第五球
+    3079: 'Pemilihan Nomor Posisi A', // SEA 5D 第一球
+    3080: 'Pemilihan Nomor Posisi B', // SEA 5D 第二球
+    3081: 'Pemilihan Nomor Posisi C', // SEA 5D 第三球
+    3082: 'Pemilihan Nomor Posisi D', // SEA 5D 第四球
+    3083: 'Pemilihan Nomor Posisi E', // SEA 5D 第五球
+
+    // SEAK3-Level:1
+
+    3084: 'Integrasi', // SEA SEAK3 整合
+
+    // SEAK3-Level:2
+
+    3085: 'SUM', // SEA SEAK3 和值
+    3088: '2 Same', // SEA SEAK3 2骰子
+    3091: '3 Same', // SEA SEAK3 3骰子
+    3094: 'Different', // SEA SEAK3 不同骰
+
+    // SEAK3-Level:3
+
+    3086: 'Total', // SEA SEAK3 和值
+    3087: 'Jumlah Besar Kecil Ganjil Genap', // SEA SEAK3 大小單雙
+    3089: '2 same number single selection', // SEA SEAK3 2同号单选
+    3090: '2 same number multiple selection', // SEA SEAK3 2同号复选
+    3092: '3 same number single selection', // SEA SEAK3 3同号单选
+    3093: '3 same number all selected', // SEA SEAK3 3同号通选
+    3095: 'Berkesinambungan', // SEA SEAK3 全順
+    3096: '3 different', // SEA SEAK3 3不同
+    3097: '2 different', // SEA SEAK3 2不同
   },
 };
 

@@ -33,6 +33,7 @@ const LANG = {
   clear: 'លុប',
   orderStatus: {
     orderStatus_0: 'ពត៌មានលំអិត',
+    orderStatus_1: 'រងចាំការអះអាង',
     orderStatus_2: 'កំពុងដំណើរការ',
     orderStatus_4: 'បានឈ្នះ',
     orderStatus_5: 'មិនឈ្នះ',
@@ -43,6 +44,7 @@ const LANG = {
     orderStatus_14: 'មិនបានបើក',
     orderStatus_16: 'ចង',
     orderStatus_17: 'លុបចោល',
+    orderStatus_20: 'បដិសេធ',
     orderStatus_99: 'លំដាប់មិនត្រឹមត្រូវ',
   },
   betDigit: {
@@ -177,6 +179,20 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'ក្រហម',
+      green: 'បៃតង',
+      purple: 'ពណ៌ស្វាយ',
+      big: 'ធំ',
+      small: 'តូច',
+    },
+    lotto5D: {
+      big: 'ធំ',
+      small: 'តូច',
+      odd: 'សេស',
+      even: 'លេខគូ',
+    },
   },
   // VXD
   vxd: {
@@ -243,6 +259,39 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
+  wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
+    gray: 'X',
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
+  lotto5DRoadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
+  },
+
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -279,6 +328,11 @@ const LANG = {
     VBC: 'VBC',
     NNP: "NNP",
     BCR: "BCR",
+    CLR: 'CLR',
+    '4D': '4D',
+    WGG: 'WGG',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',
@@ -308,6 +362,11 @@ const LANG = {
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',
     VBC_SINGLE_DICE_3: 'THREE DICE',
+
+    // CLR
+    CLR_SINGLE_DICE_1: 'ONE DICE',
+    CLR_SINGLE_DICE_2: 'TWO DICE',
+    CLR_SINGLE_DICE_3: 'THREE DICE',
   },
 
   // TODO i18n
@@ -383,7 +442,12 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'จำนวนเงินเดิมพันสูงสุดที่อนุญาตให้ขายได้ด้วยตัวเลขสองหลักเดียวกันหลังหมายเลขเดิมพัน %@ คือ  %@',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'លេខភ្នាល់លេខ %@ ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'ការភ្នាល់បរាជ័យចំនួនភ្នាល់លើសចំនួនអតិបរមា > %@',
+    PRICE_BETTING_NOT_VALID_ERROR: "កំហុស​ការ​កំណត់​ទំនិញ​ឆ្លើយ​បញ្",
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   gameHistoryCancel: 'ប្រវត្តិល្បែងត្រូវបានលុប',
   gameHistoryCancel_success: 'ប្រវត្តិល្បែងត្រូវបានលុបដោយ-ជោគជ័យ',
@@ -412,6 +476,7 @@ const LANG = {
   gameContent: 'មាតិកា',
   odds1Time: 'ប្រាក់រង្វា/បរិមា',
   betAmount: 'បរិមាណ',
+  emptyDrawHistory: 'No data',
 
   drawPrize: {
     specialPrize: 'ពិសេស',

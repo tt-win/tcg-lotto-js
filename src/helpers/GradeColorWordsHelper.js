@@ -130,6 +130,11 @@ export const getGradeNumberOfColorWords = (playId) => {
     case PlayMenu.Last_2_8th_South_VNC_Single:
     case PlayMenu.Last_2_8th_South_VNC_Multi:
       return { grade: [8], unitColorWords: '11' }; // 八等獎 後二
+    case PlayMenu.Any_Roll_First_2_North_VNC:
+    case PlayMenu.Any_Roll_First_2_1K_North_VNC:
+    case PlayMenu.Any_Roll_First_2_South_VNC:
+    case PlayMenu.Any_Roll_First_2_1K_South_VNC:
+      return { ...baseProps, unitColorWords: '11', startDigit: 0 };
     default:
       return baseProps;
   }

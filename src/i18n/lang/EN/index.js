@@ -44,6 +44,7 @@ const LANG = {
   },
   orderStatus: {
     orderStatus_0: 'All',
+    orderStatus_1: 'Confirm',
     orderStatus_2: 'In Progress',
     orderStatus_4: 'Won',
     orderStatus_5: 'Lose',
@@ -54,6 +55,7 @@ const LANG = {
     orderStatus_14: 'Incomlpete',
     orderStatus_16: 'Tie',
     orderStatus_17: 'Cancelled',
+    orderStatus_20: 'Reject',
     orderStatus_99: 'Invalid Order',
   },
   betDigit: {
@@ -188,6 +190,20 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'Red',
+      green: 'Green',
+      purple: 'Purple',
+      big: 'Big',
+      small: 'Small',
+    },
+    lotto5D: {
+      big: 'Big',
+      small: 'Small',
+      odd: 'Odd',
+      even: 'Even',
+    },
   },
 
   // VXD
@@ -256,6 +272,37 @@ const LANG = {
     WuXing: '5E',
   },
 
+  wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
+    gray: 'X',
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
+  lotto5DRoadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -292,6 +339,11 @@ const LANG = {
     VBC: 'VBC',
     NNP: "NNP",
     BCR: "BCR",
+    CLR: 'CLR',
+    '4D': '4D',
+    WGG: 'WGG',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
 
   prizeListPrizeType: {
@@ -352,6 +404,11 @@ const LANG = {
     VBC_SINGLE_DICE_2: 'TWO DICE',
     VBC_SINGLE_DICE_3: 'THREE DICE',
 
+    // CLR
+    CLR_SINGLE_DICE_1: 'ONE DICE',
+    CLR_SINGLE_DICE_2: 'TWO DICE',
+    CLR_SINGLE_DICE_3: 'THREE DICE',
+
     // TL 天龍玩法
     P_FIRST_0: 'Big',
     P_FIRST_1: 'Small',
@@ -383,6 +440,12 @@ const LANG = {
     P_SIXTH_2: 'Odd',
     P_SIXTH_3: 'Even',
 
+    // 5D
+    P_SUM_0: 'Big',
+    P_SUM_1: 'Small',
+    P_SUM_2: 'Odd',
+    P_SUM_3: 'Even',
+
     // KENO
     P_KENO_ANY1_1: 'Matched 1 out of 1',
     P_KENO_ANY2_2: 'Matched 2 out of 2',
@@ -403,6 +466,42 @@ const LANG = {
     P_KENO_ANY7_5: 'Third Prize',
     P_KENO_ANY7_6: 'Second Prize',
     P_KENO_ANY7_7: 'First Prize',
+
+    P_WGG_COLOR_0: 'red',
+    P_WGG_COLOR_1: 'green',
+    P_WGG_COLOR_2: 'purple',
+    P_WGG_COLOR_3: 'Double Color Ball',
+
+    // SEAK3
+    P_SEAK3_SUM_3: 'Sum 3',
+    P_SEAK3_SUM_4: 'Sum 4',
+    P_SEAK3_SUM_5: 'Sum 5',
+    P_SEAK3_SUM_6: 'Sum 6',
+    P_SEAK3_SUM_7: 'Sum 7',
+    P_SEAK3_SUM_8: 'Sum 8',
+    P_SEAK3_SUM_9: 'Sum 9',
+    P_SEAK3_SUM_10: 'Sum 10',
+    P_SEAK3_SUM_11: 'Sum 11',
+    P_SEAK3_SUM_12: 'Sum 12',
+    P_SEAK3_SUM_13: 'Sum 13',
+    P_SEAK3_SUM_14: 'Sum 14',
+    P_SEAK3_SUM_15: 'Sum 15',
+    P_SEAK3_SUM_16: 'Sum 16',
+    P_SEAK3_SUM_17: 'Sum 17',
+    P_SEAK3_SUM_18: 'Sum 18',
+    
+    P_SEAK3_BSOE_0: 'Big',
+    P_SEAK3_BSOE_1: 'Small',
+    P_SEAK3_BSOE_2: 'Odd',
+    P_SEAK3_BSOE_3: 'Even',
+
+    P_SEAK3_ALL_SAME: 'Any 3 identical numbers',
+    P_SEAK3_ALL_SEQUENCE: '3 consecutive numbers',
+    P_SEAK3_SINGLE_SAME_TWO: '2 same number single selection',
+    P_SEAK3_MULTI_SAME_TWO: '2 same number multiple selection',
+    P_SEAK3_SINGLE_SAME_THREE: '3 same number single selection',
+    P_SEAK3_DIFFERENT_TWO: '2 different',
+    P_SEAK3_DIFFERENT_THREE: '3 different',
   },
 
   seriesControlMapping: {
@@ -445,10 +544,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'Following Bet Stakes is over limit stakes',
-    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit stakes',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit of stakes',
     //  VN
     ORDER_ALREADY_CANCELED: 'The bet has been cancelled.',
-    STAKES_IS_OVER_LIMIT_ERROR: 'Bet Stakes is over limit stakes',
+    STAKES_IS_OVER_LIMIT_ERROR: 'Bet Stakes is over limit of stakes',
     BALANCE_NOT_ENOUGH_ERROR: 'Insufficient Balance',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Amount is over limit',
     BETTING_TIME_OUT: 'Betting time out',
@@ -485,7 +584,12 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Stakes is over limit stakes > %@2',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'No. %@ is currently sold out and closed for betting, please try another number or come back later.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Following Bet Stakes is over limit stakes',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Bet Amount is over limit > %@',
+    PRICE_BETTING_NOT_VALID_ERROR: "Lottery setting has error.",
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@ Vui lòng kiểm tra phiếu cược',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',
@@ -541,6 +645,10 @@ const LANG = {
   gameContent: 'Bet Details',
   odds1Time: 'Payouts/1Time',
   betAmount: 'Bet Count',
+  betAmountMaxLimitByNumero: 'Max Bet Per Draw',
+  betAmountMaxLimit: 'Max Bet Amount',
+  betAmountMaxLimitByNumero_info: 'The maximum allowable betting amount for a single draw by the player; input 0 for unlimited.',
+  betAmountMaxLimit_info: 'The maximum allowable betting amount for a single order by the player; input 0 for unlimited.',
 
   drawPrize: {
     specialPrize: 'Special',
@@ -558,6 +666,7 @@ const LANG = {
     channelDescribe: 'Watch the PCSO lotto draw live streaming video from official People\'s Television (PTV 4) Channel of the Philippines.',
     drawVideo: 'Draw Video',
   },
+  emptyDrawHistory: 'No Data',
 };
 
 export default LANG;

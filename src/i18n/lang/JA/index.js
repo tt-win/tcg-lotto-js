@@ -42,6 +42,21 @@ const LANG = {
     orderStatus_99: '注文無効',
   },
 
+  prizeListPrizeType: {
+    P_WGG_COLOR_0: '赤',
+    P_WGG_COLOR_1: '緑',
+    P_WGG_COLOR_2: '紫',
+    P_WGG_COLOR_3: 'ダブルカラー・ボール',
+
+    P_SEAK3_ALL_SEQUENCE: '3つの連続した数字',
+    P_SEAK3_ALL_SAME: '任意の3つの同じ数字',
+    P_SEAK3_SINGLE_SAME_TWO: '2同号単選',
+    P_SEAK3_MULTI_SAME_TWO: '2同号複選',
+    P_SEAK3_SINGLE_SAME_THREE: '3同号単選',
+    P_SEAK3_DIFFERENT_TWO: '2つの異なるもの',
+    P_SEAK3_DIFFERENT_THREE: '3つの異なるもの',
+  },
+
   // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '宝くじ終了。',
@@ -86,6 +101,7 @@ const LANG = {
   },
   drawInterval: '宝くじ開時間',
   drawFrequency: '宝くじ頻度',
+  emptyDrawHistory: 'データがありません',
 };
 
 export default LANG;

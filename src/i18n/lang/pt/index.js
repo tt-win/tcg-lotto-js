@@ -125,6 +125,20 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'Vermelho',
+      green: 'Verde',
+      purple: 'Roxo',
+      big: 'Grande',
+      small: 'Pequena',
+    },
+    lotto5D: {
+      big: 'Grande',
+      small: 'Pequena',
+      odd: 'Ímpar',
+      even: 'Até',
+    },
   },
 
   // VXD
@@ -192,6 +206,38 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
+  wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
+    gray: 'X',
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
+  lotto5DRoadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -228,6 +274,11 @@ const LANG = {
     VBC: 'VBC',
     NNP: "NNP",
     BCR: "BCR",
+    CLR: 'CLR',
+    '4D': '4D',
+    WGG: 'WGG',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
 
   gameCode: {
@@ -236,6 +287,7 @@ const LANG = {
   },
   orderStatus: {
     orderStatus_0: 'TUDO',
+    orderStatus_1: 'Aguardar Confirmação',
     orderStatus_2: 'EM PROGRESSO',
     orderStatus_4: 'Ganhou',
     orderStatus_5: 'Sem Prémio',
@@ -246,6 +298,7 @@ const LANG = {
     orderStatus_14: 'Incomlpete',
     orderStatus_16: 'Laço',
     orderStatus_17: 'Cancelado',
+    orderStatus_20: 'Rejeitar',
     orderStatus_99: 'Invalid Order',
   },
   errorCode: {
@@ -284,10 +337,10 @@ const LANG = {
     DRAW_FAIL_ERROR_: 'Aposta incorreta, por favor tente novamente.',
     NOT_SUPPORT_LANDSCAPE: 'Use o modo retrato para obter a melhor experiência.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'Os seguintes números excederam o limite de compra atual, por favor aposte novamente, o valor restante pode ser comprado',
-    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit stakes',
+    BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit of stakes',
     // VN
     ORDER_ALREADY_CANCELED: 'The bet has been cancelled.',
-    STAKES_IS_OVER_LIMIT_ERROR: 'Bet Stakes is over limit stakes',
+    STAKES_IS_OVER_LIMIT_ERROR: 'Bet Stakes is over limit of stakes',
     BALANCE_NOT_ENOUGH_ERROR: 'Saldo insuficiente',
     BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Bet Amount is over limit',
     CALCULATE_BETTING_AMOUNT_ERROR: 'Aposta incorreta, por favor tente novamente.',
@@ -323,7 +376,12 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Aposta de apostas é acima de limites de apostas> %@',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'Não. %@ está esgotado e fechado para apostas, tente outro número ou volte mais tarde.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Os seguintes números excederam o limite de compra atual, por favor aposte novamente, o valor restante pode ser comprado',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Os seguintes números excederam o limite de compra atual, por favor aposte novamente, o valor restante pode ser comprado',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'O valor da aposta está acima do limite> %@',
+    PRICE_BETTING_NOT_VALID_ERROR: "Erro nos Parâmetros de Configuração da Lotaria do Jogador",
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   recentlyGames: 'Jogos de Aposta',
   gameHistoryCancel: 'Tem certeza de que deseja cancelar este tíquete？',
@@ -390,6 +448,7 @@ const LANG = {
   betsNTotalAmountB1: 'TOTAL BET<div class="font-bold">%@</div>',
   predictionAmount: 'will win<div class="red-words">%@</div>',
   willWin: 'irá vencer',
+  emptyDrawHistory: 'sem dados',
 
   drawPrize: {
     specialPrize: 'Especial',
@@ -435,6 +494,11 @@ const LANG = {
     VBC_SINGLE_DICE_1: 'UM DADO',
     VBC_SINGLE_DICE_2: 'DOIS DADOS',
     VBC_SINGLE_DICE_3: 'TRÊS DADOS',
+
+    // CLR
+    CLR_SINGLE_DICE_1: 'UM DADO',
+    CLR_SINGLE_DICE_2: 'DOIS DADOS',
+    CLR_SINGLE_DICE_3: 'TRÊS DADOS',
   },
 };
 

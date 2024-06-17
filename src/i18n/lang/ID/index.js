@@ -4,6 +4,7 @@ const LANG = {
   ...PlayMenu,
   orderStatus: {
     orderStatus_0: 'All',
+    orderStatus_1: 'Tunggu Konfirmasi',
     orderStatus_2: 'Sukses',
     orderStatus_4: 'Menang',
     orderStatus_5: 'Kalah',
@@ -14,6 +15,7 @@ const LANG = {
     orderStatus_14: 'Incomlpete',
     orderStatus_16: 'Tie',
     orderStatus_17: 'Batal',
+    orderStatus_20: 'Tolak',
     orderStatus_99: 'Invalid Order',
   },
   betDigit: {
@@ -148,6 +150,20 @@ const LANG = {
       earthFull: 'Earth(924-1410)',
       earthFullLineBreak: 'Earth\n(924-1410)',
     },
+
+    wingo: {
+      red: 'Merah',
+      green: 'Hijau',
+      purple: 'Ungu',
+      big: 'Big',
+      small: 'Small',
+    },
+    lotto5D: {
+      big: 'Big',
+      small: 'Small',
+      odd: 'Odd',
+      even: 'Even',
+    },
   },
   // VXD
   vxd: {
@@ -214,6 +230,38 @@ const LANG = {
     earth: '-',
     WuXing: '5E',
   },
+
+  wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
+    gray: 'X',
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
+  lotto5DRoadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -250,6 +298,11 @@ const LANG = {
     VBC: 'VBC',
     NNP: "NNP",
     BCR: "BCR",
+    CLR: 'CLR',
+    '4D': '4D',
+    WGG: 'WGG',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',
@@ -279,6 +332,24 @@ const LANG = {
     VBC_SINGLE_DICE_1: 'Satu dadu',
     VBC_SINGLE_DICE_2: 'Dua dadu',
     VBC_SINGLE_DICE_3: 'Tiga dadu',
+
+    // CLR
+    CLR_SINGLE_DICE_1: 'Satu dadu',
+    CLR_SINGLE_DICE_2: 'Dua dadu',
+    CLR_SINGLE_DICE_3: 'Tiga dadu',
+
+    P_WGG_COLOR_0: 'लाल',
+    P_WGG_COLOR_1: 'हरा',
+    P_WGG_COLOR_2: 'बैंगनी',
+    P_WGG_COLOR_3: 'डबल कलर बॉल',
+
+    P_SEAK3_ALL_SEQUENCE: '3 consecutive numbers',
+    P_SEAK3_ALL_SAME: 'Any 3 identical numbers',
+    P_SEAK3_SINGLE_SAME_TWO: '2 same number single selection',
+    P_SEAK3_MULTI_SAME_TWO: '2 same number multiple selection',
+    P_SEAK3_SINGLE_SAME_THREE: '3 same number single selection',
+    P_SEAK3_DIFFERENT_TWO: '2 different',
+    P_SEAK3_DIFFERENT_THREE: '3 different',
   },
 
   errorCode: {
@@ -353,7 +424,12 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Taruhan maksimum yang diizinkan untuk dijual dengan dua digit yang sama setelah nomor taruhan %@ adalah %@.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: 'No.%@. Jumlah batas taruhan sudah melebihi dari stok.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Jumlah batas taruhan sudah melebihi dari stok.',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'Jumlah batas taruhan sudah melebihi dari stok.',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'Slip taruhan penuh > %@',
+    PRICE_BETTING_NOT_VALID_ERROR: "Kesalahan Parameter Pengaturan Lotere Pemain",
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   drawFrequency: 'Frekuensi the draw',
   chooseFile: 'unggah data',
@@ -380,6 +456,7 @@ const LANG = {
   odds1Time: 'Menangkan / 1Time',
   betAmount: 'Hitungan',
   clear: 'Clear',
+  emptyDrawHistory: 'tidak ada data',
   drawPrize: {
     specialPrize: 'Spesial',
     firstPrize: 'Hadiah Pertama',

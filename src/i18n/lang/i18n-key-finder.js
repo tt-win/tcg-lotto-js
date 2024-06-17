@@ -11,6 +11,7 @@ import KO from './KO';
 import TW from './tw';
 import PT from './pt';
 import PH from './ph';
+import HI from './hi';
 
 export const lang = {
   ZH_CN,
@@ -24,11 +25,12 @@ export const lang = {
   TW,
   PT,
   PH,
+  HI,
 };
 
 const defaultLang = 'ZH_CN';
 
-const getLang = (targetLangKey) => {
+export const getLang = (targetLangKey) => {
   // Force to use specific lang if targetLangKey passed
   const targetLang = lang[targetLangKey];
   if (targetLangKey && targetLang) { return targetLang; }

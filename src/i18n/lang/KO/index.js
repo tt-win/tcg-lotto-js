@@ -1,17 +1,12 @@
-import PlayMenu from '../EN/playmenu';
+import PlayMenu from './playmenu';
 
 const LANG = {
   ...PlayMenu,
-  playId: {
-    // BCR
-    2889: '바카라',
-    2890: '뱅커 & 플레이어 & 타이',
-    2891: '뱅커 페어',
-    2892: '플레이어 페어',
-    2893: '슈퍼 식스',
-  },
+  confirmBetting: '확인',
+  confirmBetInfos: '베팅 세부 정보를 확인하세요',
   orderStatus: {
     orderStatus_0: 'All',
+    orderStatus_1: '확인 대기',
     orderStatus_2: '베팅수락',
     orderStatus_4: '승리',
     orderStatus_5: '돈을 잃다',
@@ -22,6 +17,7 @@ const LANG = {
     orderStatus_14: 'Incomlpete',
     orderStatus_16: '무승부',
     orderStatus_17: '취소',
+    orderStatus_20: '거부',
     orderStatus_99: 'Invalid Order',
   },
   betDigit: {
@@ -120,6 +116,20 @@ const LANG = {
       2: 'TWO DICE',
       3: 'THREE DICE',
     },
+
+    wingo: {
+      red: '빨간색',
+      green: '녹색',
+      purple: '보라색',
+      big: '빅',
+      small: '스몰',
+    },
+    lotto5D: {
+      big: '빅',
+      small: '스몰',
+      odd: '홀수',
+      even: '짝수',
+    },
   },
   // VXD
   vxd: {
@@ -149,6 +159,38 @@ const LANG = {
     player_pair: '플레이어 페어',
     super_six: '슈퍼 식스',
   },
+
+  wingoRoadmap: {
+    big: 'B',
+    small: 'S',
+    red: 'R',
+    green: 'G',
+    purple: 'P',
+    gray: 'X',
+    bigSmall: 'B/S',
+    redGreenPurple: 'R/G/P',
+  },
+
+  lotto5DRoadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
+  seak3Roadmap: {
+    big: 'B',
+    small: 'S',
+    triple: 'T',
+    odd: 'O',
+    even: 'E',
+    bigFull: 'Big',
+    smallFull: 'Small',
+    tripleFull: 'Triple',
+    oddFull: 'Odd',
+    evenFull: 'Even',
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -185,6 +227,11 @@ const LANG = {
     VBC: 'VBC',
     NNP: "NNP",
     BCR: "BCR",
+    CLR: 'CLR',
+    '4D': '4D',
+    WGG: 'WGG',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
 
   prizeListPrizeType: {
@@ -215,6 +262,11 @@ const LANG = {
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',
     VBC_SINGLE_DICE_3: 'THREE DICE',
+
+    // CLR
+    CLR_SINGLE_DICE_1: 'ONE DICE',
+    CLR_SINGLE_DICE_2: 'TWO DICE',
+    CLR_SINGLE_DICE_3: 'THREE DICE',
   },
 
   errorCode: {
@@ -289,7 +341,12 @@ const LANG = {
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: '%@ 베팅 번호 이후 동일한 두 자리로 판매가 허용되는 최대 판돈은 %@입니다',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '%@. 이미 베팅 한도 금액이 재고를 초과했습니다.',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '이미 베팅 한도 금액이 재고를 초과했습니다.',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '이미 베팅 한도 금액이 재고를 초과했습니다.',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '최대치를 초과하였습니다 > %@',
+    PRICE_BETTING_NOT_VALID_ERROR: "플레이어 로또 설정 매개변수 오류",
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',
@@ -318,6 +375,7 @@ const LANG = {
   odds1Time: '보너스/조합',
   betAmount: '조합',
   clear: '지우다',
+  emptyDrawHistory: '데이터가 없습니다',
   drawPrize: {
     specialPrize: '스페셜',
     firstPrize: '1등',

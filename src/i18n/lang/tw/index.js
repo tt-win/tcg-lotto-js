@@ -8,6 +8,7 @@ const LANG = {
   ...ProTrendChart,
   orderStatus: {
     orderStatus_0: '全部',
+    orderStatus_1: '確認',
     orderStatus_2: '進行中',
     orderStatus_4: '已中獎',
     orderStatus_5: '未中獎',
@@ -18,6 +19,7 @@ const LANG = {
     orderStatus_14: '未開獎',
     orderStatus_16: '和局',
     orderStatus_17: '個人撤單',
+    orderStatus_20: '拒絕',
     orderStatus_99: '無效訂單',
   },
   // 全大小奇偶清
@@ -107,6 +109,37 @@ const LANG = {
     WuXing: '五行',
   },
 
+  wingoRoadmap: {
+    big: '大',
+    small: '小',
+    red: '紅',
+    green: '綠',
+    purple: '紫',
+    gray: 'X',
+    bigSmall: '大/小',
+    redGreenPurple: '顏色',
+  },
+
+  lotto5DRoadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+  },
+
+  seak3Roadmap: {
+    big: '大',
+    small: '小',
+    triple: '和',
+    odd: '單',
+    even: '雙',
+    big: '大',
+    small: '小',
+    triple: '豹子',
+    odd: '單',
+    even: '雙',
+  },
+
   // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩種已關閉',
@@ -191,13 +224,18 @@ const LANG = {
       '投注號碼%@後二位相同數字每期允許銷售的最大投注數額%@元。 ',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '投注號碼%@達到當前庫存允許銷售的最大投注數額。 ',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '以下號碼已超出當前期購買額度，請重新下注，剩餘可購買金額如下',
+    CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '以下號碼已超出當前期購買額度，請重新下注，剩餘可購買金額如下',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '投注金額已超過%@元允許的上限',
+    PRICE_BETTING_NOT_VALID_ERROR: "玩家彩票設置參數錯誤",
     shlottocny: {
       ACS_AVAILABLE_BALANCE_NOT_ENOUGH: '您的彩票餘額不足，請前往充值！ ',
     },
     // Other
     DATA_SYNC_LOADING: '數據資料同步中，請稍後再試',
     BET_OVER_CURRENT_STOCK: '投注內容已超過本期庫存總量，請等待下期更新後在試。 ',
+    // TL swertejtf2
+    SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
+    BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
   },
   // new
   bettingApproach: {
@@ -538,6 +576,21 @@ const LANG = {
       earthFull: '土(924-1410)',
       earthFullLineBreak: '土\n(924-1410)',
     },
+
+    wingo: {
+      red: '紅',
+      green: '綠',
+      purple: '紫',
+      big: '大',
+      small: '小',
+    },
+    lotto5D: {
+      big: '大',
+      small: '小',
+      odd: '單',
+      even: '雙',
+    },
+
     KENO: {
       sum: '和值:%@',
       big: '大',
@@ -596,6 +649,11 @@ const LANG = {
     NNP: "百人牛牛",
     BCR: "百家樂",
     GINO: '基諾',
+    CLR: 'CLR',
+    '4D': '4D',
+    WGG: 'WGG',
+    '5D': '5D',
+    SEAK3: 'SEAK3',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
@@ -1047,7 +1105,7 @@ const LANG = {
   numberScaleName: ['萬', '億', '兆'],
   query: '查找',
   bettingAmount: '投注金額',
-  betAmountMinLimit: '單筆最小投注上限',
+  betAmountMinLimit: '單筆最小投注下限',
   betAmountMaxLimitByNumero: '單期最大投注上限',
   chasingNumeros: {
     sameMultiplesChasing: '普通追號',
@@ -2066,6 +2124,11 @@ const LANG = {
     VBC_SINGLE_DICE_2: '雙骰',
     VBC_SINGLE_DICE_3: '三骰',
 
+    // CLR
+    CLR_SINGLE_DICE_1: '單骰',
+    CLR_SINGLE_DICE_2: '雙骰',
+    CLR_SINGLE_DICE_3: '三骰',
+
     // TL 天龍玩法
     P_FIRST_0: '大',
     P_FIRST_1: '小',
@@ -2097,6 +2160,12 @@ const LANG = {
     P_SIXTH_2: '單',
     P_SIXTH_3: '雙',
 
+    // 5D
+    P_SUM_0: '大',
+    P_SUM_1: '小',
+    P_SUM_2: '單',
+    P_SUM_3: '雙',
+
     // 牛牛百人
     NNP_EQUAL_GN:	'5公',
     NNP_EQUAL_NN: '牛牛',
@@ -2121,8 +2190,43 @@ const LANG = {
     NNP_DOUBLE_N3:	'牛3',
     NNP_DOUBLE_N2:	'牛2',
     NNP_DOUBLE_N1:	'牛1',
-    NNP_DOUBLE_N0:	'無牛',
+    NNP_DOUBLE_N0: '無牛',
+    
+    P_WGG_COLOR_0: '紅',
+    P_WGG_COLOR_1: '綠',
+    P_WGG_COLOR_2: '紫',
+    P_WGG_COLOR_3: '雙色球',
 
+    // SEAK3
+    P_SEAK3_SUM_3: '和值3',
+    P_SEAK3_SUM_4: '和值4',
+    P_SEAK3_SUM_5: '和值5',
+    P_SEAK3_SUM_6: '和值6',
+    P_SEAK3_SUM_7: '和值7',
+    P_SEAK3_SUM_8: '和值8',
+    P_SEAK3_SUM_9: '和值9',
+    P_SEAK3_SUM_10: '和值10',
+    P_SEAK3_SUM_11: '和值11',
+    P_SEAK3_SUM_12: '和值12',
+    P_SEAK3_SUM_13: '和值13',
+    P_SEAK3_SUM_14: '和值14',
+    P_SEAK3_SUM_15: '和值15',
+    P_SEAK3_SUM_16: '和值16',
+    P_SEAK3_SUM_17: '和值17',
+    P_SEAK3_SUM_18: '和值18',
+    
+    P_SEAK3_BSOE_0: '大',
+    P_SEAK3_BSOE_1: '小',
+    P_SEAK3_BSOE_2: '單',
+    P_SEAK3_BSOE_3: '雙',
+
+    P_SEAK3_ALL_SAME: '任意豹子',
+    P_SEAK3_ALL_SEQUENCE: '3個連續數字',
+    P_SEAK3_SINGLE_SAME_TWO: '2同號單選',
+    P_SEAK3_MULTI_SAME_TWO: '2同號複選',
+    P_SEAK3_SINGLE_SAME_THREE: '3同號單選',
+    P_SEAK3_DIFFERENT_TWO: '2不同',
+    P_SEAK3_DIFFERENT_THREE: '3不同',
   },
   longDragon: '長龍投注',
   longDragonLott: '彩種類型',
@@ -2596,7 +2700,9 @@ const LANG = {
   betIncludeCapital: '以下所有投注皆含本金',
   zhihuicai: '智慧彩開獎網',
   gamSaleExplain: '彩種銷售說明',
-
+  buyAgain: '再來一注',
+  buyAgainRemark: '以相同玩法內容及倍數再次下注',
+  emptyDrawHistory: '沒有結果',
 };
 
 export default LANG;

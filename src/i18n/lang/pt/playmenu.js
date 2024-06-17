@@ -139,7 +139,7 @@ const PlayMenu = {
     3037: 'Lucky Pick 12', // SEA TL642 Any
 
     // TL645
-    
+
     2919: 'Lucky Pick 3', // SEA TL645 Lucky Pick 3
     2921: 'Lucky Pick 12', // SEA TL645 Lucky Pick 12
     2924: 'Straight', // SEA TL645 Straight
@@ -392,8 +392,8 @@ const PlayMenu = {
     2063: 'QUALQUER', // 上反
     2643: 'Segundo prêmio', // 二等
     2644: 'Segundo especial', // 二特
-    2065: 'Bonus digit', // 直选加开
-    2068: 'Random Back 3 Digits', // 后三不定位
+    2065: 'Dígito de Bônus', // 直选加开
+    2068: 'Três Últimos Dígitos Não Fixos', // 后三不定位
 
     2298: 'FPC', // 魚蝦蟹
     2498: 'Ventilador',
@@ -423,7 +423,7 @@ const PlayMenu = {
     2487: 'Norm ANY 3D-1o',
 
     2299: 'FPC', // 魚蝦蟹
-    
+
     2499: 'Ventilador',
     2501: 'Kwok',
     2503: 'Nim',
@@ -488,6 +488,9 @@ const PlayMenu = {
     2520: 'Último 3D of AnyResult', // 北部 后三包胆
     2524: 'Último 4D of AnyResult', // 北部 后四包胆
 
+    3054: 'Primeiros 2 dígitos de Qualquer Resultado', // 北部 - 前二包胆
+    3055: 'Primeiros 2 dígitos 1K de Qualquer Resultado', // 北部 - 前二包胆1K
+
     2551: 'FailParlay 4', // 北部 - 四不中 - 二級選單
     2554: 'FailParlay 8', // 北部 - 八不中 - 二級選單
     2557: 'FailParlay 10', // 北部 - 十不中 - 二級選單
@@ -501,6 +504,9 @@ const PlayMenu = {
     2529: 'Último 2D of AnyResult', // 中南部 后二包胆
     2533: 'Último 3D of AnyResult', // 中南部 后三包胆
     2537: 'Último 4D of AnyResult', // 中南部 后四包胆
+
+    3056: 'Primeiros 2 dígitos de Qualquer Resultado', // 中南部 - 前二包胆
+    3057: 'Primeiros 2 dígitos 1K de Qualquer Resultado', // 中南部 - 前二包胆1K
 
     2561: 'FailParlay 4 ', // 中南部 - 四不中 - 二級選單
     2564: 'FailParlay 8', // 中南部 - 八不中 - 二級選單
@@ -697,7 +703,7 @@ const PlayMenu = {
 
     // 一級選單
 
-    2647: 'Pick', // 任選 - 一級選單 Any_KENO 
+    2647: 'Pick', // 任選 - 一級選單 Any_KENO
     2656: 'Combinations', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單
@@ -726,6 +732,72 @@ const PlayMenu = {
     2891: 'Par de banqueiro',
     2892: 'Par de jogadores',
     2893: 'Super Seis',
+
+    // Wingo-Level:1
+
+    3060: 'Contagem de corridas', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: 'Adivinhar grande ou pequeno', // SEA Wingo 大小
+    3063: 'Adivinhe o número', // SEA Wingo 数字
+    3065: 'Adivinhar a cor', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: 'Adivinhar grande ou pequeno', // SEA Wingo 大小
+    3064: 'Adivinhe o número', // SEA Wingo 猜数字
+    3066: 'Adivinhar a cor', // SEA Wingo 猜紅色
+    3067: 'Adivinhar a cor', // SEA Wingo 猜綠色
+    3068: 'Adivinhar a cor', // SEA Wingo 猜紫色
+
+    // 5D-Level:1
+
+    3069: 'Integração', // SEA 5D 整合
+    3077: 'Corre', // SEA 5D 跑數
+
+    // 5D-Level:2
+
+    3070: 'Seleção Direta Grande Pequeno Ímpar Par', // SEA 5D 大小单双
+    3078: 'Seleção de Números', // SEA 5D 直选
+    
+    // 5D-Level:3
+    
+    3071: 'Soma Grande Pequeno Ímpar Par', // SEA 5D 和值
+    3072: 'Tamanho da Posição A Ímpar Par', // SEA 5D 第一球
+    3073: 'Tamanho da Posição B Ímpar Par', // SEA 5D 第二球
+    3074: 'Tamanho da Posição C Ímpar Par', // SEA 5D 第三球
+    3075: 'Tamanho da Posição A Ímpar Par', // SEA 5D 第四球
+    3076: 'Tamanho da Posição A Ímpar Par', // SEA 5D 第五球
+    3079: 'Seleção de Número da Posição A', // SEA 5D 第一球
+    3080: 'Seleção de Número da Posição B', // SEA 5D 第二球
+    3081: 'Seleção de Número da Posição C', // SEA 5D 第三球
+    3082: 'Seleção de Número da Posição D', // SEA 5D 第四球
+    3083: 'Seleção de Número da Posição E', // SEA 5D 第五球
+
+    // SEAK3-Level:1
+
+    3084: 'Integração', // SEA SEAK3 整合
+
+    // SEAK3-Level:2
+
+    3085: 'SUM', // SEA SEAK3 和值
+    3088: '2 Same', // SEA SEAK3 2骰子
+    3091: '3 Same', // SEA SEAK3 3骰子
+    3094: 'Different', // SEA SEAK3 不同骰
+
+    // SEAK3-Level:3
+
+    3086: 'Total', // SEA SEAK3 和值
+    3087: 'Soma Grande Pequeno Ímpar Par', // SEA SEAK3 大小單雙
+    3089: '2 escolhas únicas com o mesmo número', // SEA SEAK3 2同号单选
+    3090: '2 seleções com o mesmo número', // SEA SEAK3 2同号复选
+    3092: '3同号单选 ', // SEA SEAK3 3同号单选
+    3093: '3 números iguais selecionados', // SEA SEAK3 3同号通选
+    3095: 'Contínuo', // SEA SEAK3 全順
+    3096: '3 diferentes', // SEA SEAK3 3不同
+    3097: '2 diferentes', // SEA SEAK3 2不同
+
   },
 };
 

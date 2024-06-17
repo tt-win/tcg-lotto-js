@@ -17,6 +17,10 @@ const PlayMenu = {
     2733: 'Bầu Cua',
     2734: 'Bầu Cua',
 
+    // CLR
+    3058: 'Color',
+    3059: 'Color',
+
     // SEA SEA V2 TL(天龍)
 
     // 一級選單
@@ -501,9 +505,12 @@ const PlayMenu = {
     2629: 'Tổng lớn nhỏ', // 极速PK10 - 冠亚和值-大小单双
     2631: 'Rồng vs Hổ', // 极速PK10 - 龙虎斗-二級選單
 
-    2516: 'Lô 2 Số', // 北部 后二包胆
-    2520: 'Lô 3 Số', // 北部 后三包胆
-    2524: 'Lô 4 Số', // 北部 后四包胆
+    2516: 'Lô 2 Số Đuôi', // 北部 后二包胆
+    2520: 'Lô 3 Số Đuôi', // 北部 后三包胆
+    2524: 'Lô 4 Số Đuôi', // 北部 后四包胆
+
+    3054: 'Lô 2 Số Đầu', // 北部 - 前二包胆
+    3055: 'Lô 2 Số Đầu 1K', // 北部 - 前二包胆1K
 
     2551: 'Trượt Xiên 4', // 北部 - 四不中 - 二級選單
     2554: 'Trượt Xiên 8', // 北部 - 八不中 - 二級選單
@@ -515,9 +522,12 @@ const PlayMenu = {
 
     2584: 'Đề Đầu Đuôi-Nhanh', // 北部 - 二数头尾 - 二級選單
 
-    2529: 'Lô 2 Số', // 中南部 后二包胆
-    2533: 'Lô 3 Số', // 中南部 后三包胆
-    2537: 'Lô 4 Số', // 中南部 后四包胆
+    2529: 'Lô 2 Số Đuôi', // 中南部 后二包胆
+    2533: 'Lô 3 Số Đuôi', // 中南部 后三包胆
+    2537: 'Lô 4 Số Đuôi', // 中南部 后四包胆
+
+    3056: 'Lô 2 Số Đầu', // 中南部 - 前二包胆
+    3057: 'Lô 2 Số Đầu 1K', // 中南部 - 前二包胆1K
 
     2561: 'Trượt Xiên 4', // 中南部 - 四不中 - 二級選單
     2564: 'Trượt Xiên 8', // 中南部 - 八不中 - 二級選單
@@ -540,8 +550,8 @@ const PlayMenu = {
     2097: '3 Càng Đặc Biệt', // 上正三位数 Last_3_Straight_1st_VNC
     2099: 'Xiên 3 Đặc Biệt', // 上反三位数 Last_3_Combine_1st_VNC
     2102: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_VNC
-    2107: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
+    2104: 'ĐỀ ĐUÔI GIẢI NHẤT', // 下正二位数 Last_2_Straight_2nd_VNC
+    2107: 'Xiên Đặc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
 
     2601: 'Xiên 2', // 北部 串2组 Bunch_2_North_VNC
@@ -558,15 +568,15 @@ const PlayMenu = {
     2565: 'Trượt Xiên 8', // 中南部 - 八不中
     2568: 'Trượt Xiên 10', // 中南部 - 十不中
 
-    2517: 'Lô 2 Số', // 北部 后二包胆
-    2521: 'Lô 3 Số', // 北部 后三包胆
-    2525: 'Lô 4 Số', // 北部 后四包胆
-    2530: 'Lô 2 Số', // 中南部 后二包胆
-    2534: 'Lô 3 Số', // 中南部 后三包胆
-    2538: 'Lô 4 Số', // 中南部 后四包胆
+    2517: 'Lô 2 Số Đuôi', // 北部 后二包胆
+    2521: 'Lô 3 Số Đuôi', // 北部 后三包胆
+    2525: 'Lô 4 Số Đuôi', // 北部 后四包胆
+    2530: 'Lô 2 Số Đuôi', // 中南部 后二包胆
+    2534: 'Lô 3 Số Đuôi', // 中南部 后三包胆
+    2538: 'Lô 4 Số Đuôi', // 中南部 后四包胆
 
-    2641: 'Lô 2 Số 1K', // 北部 后二包胆 1K
-    2642: 'Lô 2 Số 1K', // 中南部 后二包胆 1K
+    2641: 'Lô 2 Số Đuôi 1K', // 北部 后二包胆 1K
+    2642: 'Lô 2 Số Đuôi 1K', // 中南部 后二包胆 1K
 
     2586: 'Đề Đầu Đuôi', // 北部 二数头尾 Last_2_1st_7th_North_VNC
     2589: 'Đề Giải 7', // 北部 二数头 Last_2_7th_North_VNC
@@ -588,12 +598,12 @@ const PlayMenu = {
     // 三級選單
 
     // 北部
-    2518: 'Lô 2 Số - Chọn Số', // 北部 后二包胆(复式)
-    2519: 'Lô 2 Số - Nhập Số', // 北部 后二包胆(单式)
-    2522: 'Lô 3 Số - Chọn Số', // 北部 后三包胆（复式）
-    2523: 'Lô 3 Số - Nhập Số', // 北部 后三包胆（单式）
-    2526: 'Lô 4 Số - Chọn Số', // 北部 后四包胆（复式）
-    2527: 'Lô 4 Số - Nhập Số', // 北部 后四包胆（单式）
+    2518: 'Lô 2 Số Đuôi - Chọn Số', // 北部 后二包胆(复式)
+    2519: 'Lô 2 Số Đuôi - Nhập Số', // 北部 后二包胆(单式)
+    2522: 'Lô 3 Số Đuôi - Chọn Số', // 北部 后三包胆（复式）
+    2523: 'Lô 3 Số Đuôi - Nhập Số', // 北部 后三包胆（单式）
+    2526: 'Lô 4 Số Đuôi - Chọn Số', // 北部 后四包胆（复式）
+    2527: 'Lô 4 Số Đuôi - Nhập Số', // 北部 后四包胆（单式）
 
     2553: 'Trượt Xiên 4 - Nhập Số', // 北部 - 四不中(单式) - 三級選單
     2556: 'Trượt Xiên 8 - Nhập Số', // 北部 - 八不中(单式) - 三級選單
@@ -603,12 +613,12 @@ const PlayMenu = {
     2590: 'Đề Giải 7-Chọn Số', // 北部 二数头（复式) Last_2_7th_North_VNC_Multi
 
     // 中南部
-    2531: 'Lô 2 Số - Chọn Số', // 中南部 后二包胆(复式)
-    2532: 'Lô 2 Số - Nhập Số', // 中南部 后二包胆(单式)
-    2535: 'Lô 3 Số - Chọn Số', // 中南部 后三包胆（复式）
-    2536: 'Lô 3 Số - Nhập Số', // 中南部 后三包胆（单式）
-    2539: 'Lô 4 Số - Chọn Số', // 中南部 后四包胆（复式）
-    2540: 'Lô 4 Số - Nhập Số', // 中南部 后四包胆（单式）
+    2531: 'Lô 2 Số Đuôi - Chọn Số', // 中南部 后二包胆(复式)
+    2532: 'Lô 2 Số Đuôi - Nhập Số', // 中南部 后二包胆(单式)
+    2535: 'Lô 3 Số Đuôi - Chọn Số', // 中南部 后三包胆（复式）
+    2536: 'Lô 3 Số Đuôi - Nhập Số', // 中南部 后三包胆（单式）
+    2539: 'Lô 4 Số Đuôi - Chọn Số', // 中南部 后四包胆（复式）
+    2540: 'Lô 4 Số Đuôi - Nhập Số', // 中南部 后四包胆（单式）
 
     2563: 'Trượt Xiên 4 - Nhập Số', // 中南部 - 四不中(单式) - 三級選單
     2566: 'Trượt Xiên 8 - Nhập Số', // 中南部 - 八不中(单式) - 三級選單
@@ -627,8 +637,8 @@ const PlayMenu = {
 
     2279: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
-    2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
+    2281: 'ĐỀ ĐUÔI GIẢI NHẤT- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2282: 'ĐỀ ĐUÔI GIẢI NHẤT - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
     2863: 'Rambolito3', // 三星組3
     2864: 'Rambolito6', // 三星組6
@@ -684,7 +694,7 @@ const PlayMenu = {
     2294: '3 càng đặc biệt - nhập số', // 上正三位数（单式）last_3_straight_1st_lao_single
     2295: '4 Càng Đặc Biệt - Chọn Số', // 上正四位数（复式）Last_4_Straight_1st_LAO_Multi
     2296: '4 Càng Đặc Biệt - Nhập Số', // 上正四位数（单式）Last_4_Straight_1st_LAO_Single
-    2144: 'Xiên Đăc Biệt', // 上跑两位数 Last_2_Any_1st_LAO
+    2144: 'Xiên Đặc Biệt', // 上跑两位数 Last_2_Any_1st_LAO
     2146: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_LAO
 
     2305: 'cược Bầu Cua', // 魚蝦蟹
@@ -698,7 +708,7 @@ const PlayMenu = {
 
     // 一級選單
 
-    2647: 'Chọn', // 任選 - 一級選單 Any_KENO 
+    2647: 'Chọn', // 任選 - 一級選單 Any_KENO
     2656: 'Kết hợp', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單
@@ -708,7 +718,7 @@ const PlayMenu = {
     2658: 'Lẻ, Chẵn', // 趣味 - 總和單雙 Total_Sum_OE_KENO
     2659: 'Xiên Lớn Nhỏ, Lẻ Chẵn', // 趣味 - 總和過關 Total_Sum_PASS_KENO
     2660: 'Trên, Hòa, Dưới', // 趣味 - 上下盤 UpDown_KENO
-    2661: 'Lẻ, Hòa, Chẳn', // 趣味 - 奇偶盤 OddEven_KENO
+    2661: 'Các Số Lẻ, Hòa, Các Số Chẵn', // 趣味 - 奇偶盤 OddEven_KENO
     2662: 'Năm yếu tố', // 五行 WuXing_KENO
 
     // 三級選單
@@ -727,6 +737,72 @@ const PlayMenu = {
     2891: 'Nhà Cái đôi',
     2892: 'Người Chơi đôi',
     2893: 'Super 6',
+
+    // Wingo-Level:1
+
+    3060: 'Số lần chạy', // SEA Wingo 跑数
+
+    // Wingo-Level:2
+
+    3061: 'ĐOÁN TÀI XỈU', // SEA Wingo 大小
+    3063: 'ĐOÁN SỐ', // SEA Wingo 数字
+    3065: 'ĐOÁN MÀU', // SEA Wingo 顔色
+
+    // Wingo-Level:3
+
+    3062: 'ĐOÁN TÀI XỈU', // SEA Wingo 大小
+    3064: 'ĐOÁN SỐ', // SEA Wingo 猜数字
+    3066: 'ĐOÁN MÀU', // SEA Wingo 猜紅色
+    3067: 'ĐOÁN MÀU', // SEA Wingo 猜綠色
+    3068: 'ĐOÁN MÀU', // SEA Wingo 猜紫色
+
+    // 5D-Level:1
+
+    3069: 'Tích hợp', // SEA 5D 整合
+    3077: 'Chạy', // SEA 5D 跑數
+
+    // 5D-Level:2
+
+    3070: 'Chọn Trực Tiếp Lớn Nhỏ Lẻ Chẵn', // SEA 5D 大小单双
+    3078: 'ĐOÁN MÀU', // SEA 5D 直选
+    
+    // 5D-Level:3
+    
+    3071: 'Tổng của lớn/nhỏ lẻ/chẵn', // SEA 5D 和值
+    3072: 'Vị trí A ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第一球
+    3073: 'Vị trí B ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第二球
+    3074: 'Vị trí C ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第三球
+    3075: 'Vị trí D ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第四球
+    3076: 'Vị trí E ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第五球
+    3079: 'Lựa chọn số vị trí A', // SEA 5D 第一球
+    3080: 'Lựa chọn số vị trí B', // SEA 5D 第二球
+    3081: 'Lựa chọn số vị trí C', // SEA 5D 第三球
+    3082: 'Lựa chọn số vị trí D', // SEA 5D 第四球
+    3083: 'Lựa chọn số vị trí E', // SEA 5D 第五球
+
+    // SEAK3-Level:1
+
+    3084: 'Tích hợp', // SEA SEAK3 整合
+
+    // SEAK3-Level:2
+
+    3085: 'SUM', // SEA SEAK3 和值
+    3088: '2 Same', // SEA SEAK3 2骰子
+    3091: '3 Same', // SEA SEAK3 3骰子
+    3094: 'Different', // SEA SEAK3 不同骰
+
+    // SEAK3-Level:3
+
+    3086: 'Tích hợp', // SEA SEAK3 和值
+    3087: 'Tổng của lớn/nhỏ lẻ/chẵn', // SEA SEAK3 大小單雙
+    3089: 'Chọn một cặp số giống nhau', // SEA SEAK3 2同号单选
+    3090: 'Chọn lại một cặp số giống nhau', // SEA SEAK3 2同号复选
+    3092: 'Chọn ba số giống nhau', // SEA SEAK3 3同号单选
+    3093: 'Tổng của ba số', // SEA SEAK3 3同号通选
+    3095: 'liên tục', // SEA SEAK3 全順
+    3096: 'Ba số khác nhau', // SEA SEAK3 3不同
+    3097: 'Hai số khác nhau', // SEA SEAK3 2不同
+
   },
 };
 
