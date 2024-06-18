@@ -125,6 +125,8 @@ const LANG = {
     small: 'S',
     odd: 'O',
     even: 'E',
+    bigSmall: '大/小',
+    oddEven: '單/雙'
   },
 
   seak3Roadmap: {

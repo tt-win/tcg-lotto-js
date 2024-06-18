@@ -274,6 +274,8 @@ const LANG = {
     small: 'S',
     odd: 'O',
     even: 'E',
+    bigSmall: 'B/S',
+    oddEven: 'O/E'
   },
 
   seak3Roadmap: {
