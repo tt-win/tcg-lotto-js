@@ -126,7 +126,6 @@ export const truncBallText = (ballText) => {
  * @param orderNumber 原始訂單編號
  * @param chasing 是否有追號
  * @param chasingOrder 追的第幾期
- * 
  *
  * @returns {string} 投注記錄 / 訂單編號 欄位的顯示內容
  */
@@ -171,6 +170,7 @@ export const genChasingOrderText = ({ chasing, chasingOrder, chasingPhase }) => 
 export const i18nOrderInfo = ({ playId, bettingContent, lang }) => OrderInfoTranslator.getText(playId, bettingContent, lang);
 
 export { i18n } from './lang/i18n-key-finder';
+export { i18nWithLang } from './lang/i18n-key-finder';
 
 /** genBallContentText , old name used by ods console */
 export default {
