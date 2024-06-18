@@ -25,10 +25,12 @@ module.exports = {
     }
     return i18n(`gameGroupCode.${key}`);
   },
-  translateLottJsi18n(...args) {
-    return i18n(...args);
+  // key: i18nkey, args[]: option insert value
+  translateLottJsi18n(key, ...args) {
+    return i18n(key, ...args);
   },
-  translateLottJsi18nWithLang(...args) {
-    return i18nWithLang(...args);
+  // lang: lotto language key ,key: i18nkey, args[]: option insert value
+  translateLottJsi18nWithLang(lang, key, ...args) {
+    return i18nWithLang(lang, key, ...args);
   },
 };

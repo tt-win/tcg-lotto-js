@@ -14,7 +14,9 @@ import PH from './ph';
 import HI from './hi';
 
 export const lang = {
+  // for compatibility, both ZH_CN and CN are CN
   ZH_CN,
+  CN: ZH_CN,
   TH,
   VI,
   KM,
@@ -51,7 +53,7 @@ export const getLang = (targetLangKey) => {
       default:
         return lang[defaultLang];
     }
-  };
+  }
 
   if (!langKey) {
     return lang[defaultLang];
