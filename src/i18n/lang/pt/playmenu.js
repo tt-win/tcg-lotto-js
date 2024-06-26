@@ -792,7 +792,7 @@ const PlayMenu = {
     3087: 'Soma Grande Pequeno Ímpar Par', // SEA SEAK3 大小單雙
     3089: '2 escolhas únicas com o mesmo número', // SEA SEAK3 2同号单选
     3090: '2 seleções com o mesmo número', // SEA SEAK3 2同号复选
-    3092: '3同号单选 ', // SEA SEAK3 3同号单选
+    3092: 'Seleção única de 3 números iguais ', // SEA SEAK3 3同号单选
     3093: '3 números iguais selecionados', // SEA SEAK3 3同号通选
     3095: 'Contínuo', // SEA SEAK3 全順
     3096: '3 diferentes', // SEA SEAK3 3不同
