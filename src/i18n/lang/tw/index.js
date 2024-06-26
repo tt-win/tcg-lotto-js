@@ -135,11 +135,11 @@ const LANG = {
     triple: '和',
     odd: '單',
     even: '雙',
-    big: '大',
-    small: '小',
-    triple: '豹子',
-    odd: '單',
-    even: '雙',
+    bigFull: '大',
+    smallFull: '小',
+    tripleFull: '豹子',
+    oddFull: '單',
+    evenFull: '雙',
   },
 
   // TODO i18n
