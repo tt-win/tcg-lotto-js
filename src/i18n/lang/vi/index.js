@@ -274,8 +274,8 @@ const LANG = {
   lotto5DRoadmap: {
     big: 'T',
     small: 'X',
-    odd: 'O',
-    even: 'E',
+    odd: 'L',
+    even: 'C',
     bigSmall: 'T/X',
     oddEven: 'L/C'
   },
