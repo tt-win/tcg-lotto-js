@@ -91,6 +91,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'ログインしてください。',
     DRAW_FAIL_ERROR_: 'ベット失敗。システムが混雑してます。',
     NOT_SUPPORT_LANDSCAPE: '横向きをサポートしません。',
+    B2B_TX_FAILED: 'ベットに失敗しました。後でもう一度お試しください',
   },
   gameHistoryCancel: 'ベットをキャンセルしますか？',
   gameHistoryCancel_success: 'ベットをキャンセルしました。',

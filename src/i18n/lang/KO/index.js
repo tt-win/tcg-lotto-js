@@ -320,7 +320,7 @@ const LANG = {
     PLAY_NOT_SUPPORTED_ERROR: '게임이 존재하지 않습니다',
     BOOK_FAILED_ERROR: '모든 결제가 진행되는 동안 기다려주세요!',
     WALLET_NOT_EXISTS_ERROR: '모든 결제가 진행되는 동안 기다려주세요!',
-    B2B_TX_FAILED: '모든 결제가 진행되는 동안 기다려주세요!',
+    B2B_TX_FAILED: '베팅 실패, 나중에 다시 시도하십시오!',
     DEMO_NOT_SUPPORTED_ERROR: '공식 계정으로 로그인하세요',
     ORDER_PRIZE_NOT_FOUND_ERROR: '관련 기록이 없습니다',
     ORDER_SAVED_FAILED: '주문을 읽지 못했습니다. 나중에 다시 시도하십시오!',

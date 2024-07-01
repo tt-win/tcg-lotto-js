@@ -354,7 +354,7 @@ const LANG = {
     PLAY_NOT_SUPPORTED_ERROR: 'Nenhuma recreação relacionada encontrada, por favor, tente novamente.',
     BOOK_FAILED_ERROR: 'Aguarde enquanto todos os fundos estão sendo recuperados！',
     WALLET_NOT_EXISTS_ERROR: 'Aposta incorreta, por favor tente novamente.',
-    B2B_TX_FAILED: 'Aguarde enquanto todos os fundos estão sendo recuperados！',
+    B2B_TX_FAILED: 'Aposta falhou, por favor tente novamente mais tarde',
     DEMO_NOT_SUPPORTED_ERROR: 'Por favor, faça login com sua conta oficial',
     ORDER_PRIZE_NOT_FOUND_ERROR: 'Nenhum prêmio relacionado encontrado, por favor, tente novamente.',
     ORDER_SAVED_FAILED: 'Nenhum prêmio relacionado encontrado, por favor, tente novamente.',

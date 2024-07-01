@@ -403,7 +403,7 @@ const LANG = {
     PLAY_NOT_SUPPORTED_ERROR: 'Game sedang dalam perbaikan, coba lagi nanti!',
     BOOK_FAILED_ERROR: 'Harap tunggu sementara semua pembayaran sedang dilakukan！',
     WALLET_NOT_EXISTS_ERROR: 'Harap tunggu sementara semua pembayaran sedang dilakukan！',
-    B2B_TX_FAILED: 'Harap tunggu sementara semua pembayaran sedang dilakukan！',
+    B2B_TX_FAILED: 'Taruhan gagal, silakan coba lagi nanti！',
     DEMO_NOT_SUPPORTED_ERROR: 'Silakan masuk dengan akun resmi Anda',
     ORDER_PRIZE_NOT_FOUND_ERROR: 'Tidak ada catatan terkait yang ditemukan',
     ORDER_SAVED_FAILED: 'Gagal membaca pesanan, coba lagi nanti!',

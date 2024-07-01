@@ -452,7 +452,7 @@ const LANG = {
     PLAY_NOT_SUPPORTED_ERROR: 'Trò chơi đang được bảo trì, vui lòng thử lại sau!',
     BOOK_FAILED_ERROR: 'Đang thu hồi ngân sách tất cả các  ,Xin vui lòng chờ!',
     WALLET_NOT_EXISTS_ERROR: 'Đang thu hồi ngân sách tất cả các  ,Xin vui lòng chờ!',
-    B2B_TX_FAILED: 'Đang thu hồi ngân sách tất cả các  ,Xin vui lòng chờ!',
+    B2B_TX_FAILED: 'Đặt cược thất bại, vui lòng thử lại sau',
     DEMO_NOT_SUPPORTED_ERROR: 'Vui lòng đăng nhập bằng tài khoản chính thức của bạn',
     ORDER_PRIZE_NOT_FOUND_ERROR: 'Không có tiền cược!',
     ORDER_SAVED_FAILED: 'Không đọc được đơn đặt hàng, vui lòng thử lại sau!',

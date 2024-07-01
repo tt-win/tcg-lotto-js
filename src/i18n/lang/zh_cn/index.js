@@ -666,7 +666,7 @@ const LANG = {
     PLAY_NOT_SUPPORTED_ERROR: '玩法维护中，请稍后再试!',
     BOOK_FAILED_ERROR: '请确认所有钱包资金，稍候再试！',
     WALLET_NOT_EXISTS_ERROR: '请确认所有钱包资金，稍候再试！',
-    B2B_TX_FAILED: '请确认所有钱包资金，稍候再试！',
+    B2B_TX_FAILED: '投注失败,请稍后再试',
     DEMO_NOT_SUPPORTED_ERROR: '不支援試玩',
     ORDER_PRIZE_NOT_FOUND_ERROR: '奖金读取失败，请稍后再试!',
     ORDER_SAVED_FAILED: '订单读取失败，请稍后再试!',

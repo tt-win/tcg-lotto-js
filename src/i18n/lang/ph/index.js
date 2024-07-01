@@ -526,7 +526,7 @@ const LANG = {
     PLAY_NOT_SUPPORTED_ERROR: 'Gameplay is under maintenance, please try again.',
     BOOK_FAILED_ERROR: 'Insufficient Balance',
     WALLET_NOT_EXISTS_ERROR: 'Insufficient Balance',
-    B2B_TX_FAILED: 'Insufficient Balance',
+    B2B_TX_FAILED: 'Nabigo ang pagtaya, pakisubukan muli mamaya',
     DEMO_NOT_SUPPORTED_ERROR: 'Please log in with your official account',
     ORDER_PRIZE_NOT_FOUND_ERROR: 'Game is under maintenance, please try again.',
     ORDER_SAVED_FAILED: 'Game is under maintenance, please try again.',

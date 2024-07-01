@@ -200,7 +200,7 @@ const LANG = {
     PLAY_NOT_SUPPORTED_ERROR: '玩法維護中，請稍後再試!',
     BOOK_FAILED_ERROR: '請確認所有錢包資金，稍候再試！ ',
     WALLET_NOT_EXISTS_ERROR: '請確認所有錢包資金，稍候再試！ ',
-    B2B_TX_FAILED: '請確認所有錢包資金，稍候再試！ ',
+    B2B_TX_FAILED: '投注失敗，請稍後再試',
     DEMO_NOT_SUPPORTED_ERROR: '不支援試玩',
     ORDER_PRIZE_NOT_FOUND_ERROR: '獎金讀取失敗，請稍後再試!',
     ORDER_SAVED_FAILED: '訂單讀取失敗，請稍後再試!',
