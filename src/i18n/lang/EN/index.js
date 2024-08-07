@@ -9,7 +9,7 @@ const LANG = {
   betNow: 'Betting',
   buyNow: 'buy now',
   betSuccess: 'Bet Success',
-  confirmBetInfos: 'Please Confirm the Betting Details',
+  confirmBetInfos: 'कृपया बेटिंग जानकारी की पुष्टि करें',
   entertainment: 'Entertainment',
   tradition: 'Tradition',
   newCategory: 'New label',
