@@ -82,15 +82,15 @@ const PlayMenu = {
 
     // SEAK3-Level:3
 
-    3086: 'Total', // SEA SEAK3 和值
+    3086: 'समग्र मान', // SEA SEAK3 和值
     3087: 'संयोजन आकार बड़ा छोटा विषम सम', // SEA SEAK3 大小單雙
-    3089: '2 same number single choice', // SEA SEAK3 2同号单选
-    3090: '2 same number multiple selection', // SEA SEAK3 2同号复选
-    3092: '3 same number single selection', // SEA SEAK3 3同号单选
-    3093: '3 same number all selected', // SEA SEAK3 3同号通选
-    3095: 'सतत', // SEA SEAK3 全順
-    3096: '3 different', // SEA SEAK3 3不同
-    3097: '2 different', // SEA SEAK3 2不同
+    3089: 'अद्वितीय संख्याओं की एक जोड़ी', // SEA SEAK3 2同号单选
+    3090: '2 मिलान संख्या', // SEA SEAK3 2同号复选
+    3092: 'एक ही संख्या के 3', // SEA SEAK3 3同号单选
+    3093: 'एक ही संख्या में से कोई भी', // SEA SEAK3 3同号通选
+    3095: '3 निरंतर संख्या', // SEA SEAK3 全順
+    3096: '3 अलग -अलग संख्या', // SEA SEAK3 3不同
+    3097: '2 अलग -अलग संख्या', // SEA SEAK3 2不同
   },
 };
 
