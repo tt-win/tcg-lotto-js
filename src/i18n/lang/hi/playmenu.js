@@ -26,7 +26,7 @@ const PlayMenu = {
     // 5D-Level:2
 
     3070: 'सीधा चयन बड़ा छोटा विषम सम', // SEA 5D 大小单双
-    3078: 'नंबर चयन (Nanbar chayan)', // SEA 5D 直选
+    3078: 'नंबर चयन', // SEA 5D 直选
     
     // 5D-Level:3
     
