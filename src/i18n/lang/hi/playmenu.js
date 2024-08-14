@@ -75,10 +75,10 @@ const PlayMenu = {
 
     // SEAK3-Level:2
 
-    3085: 'SUM', // SEA SEAK3 和值
-    3088: '2 Same', // SEA SEAK3 2骰子
-    3091: '3 Same', // SEA SEAK3 3骰子
-    3094: 'Different', // SEA SEAK3 不同骰
+    3085: 'कुल शर्त', // SEA SEAK3 和值
+    3088: 'समान संख्या के 2', // SEA SEAK3 2骰子
+    3091: '3 नंबर मैच', // SEA SEAK3 3骰子
+    3094: 'अलग संख्या', // SEA SEAK3 不同骰
 
     // SEAK3-Level:3
 
