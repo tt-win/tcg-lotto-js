@@ -564,7 +564,7 @@ const LANG = {
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
-  gameHistoryCancel_success: 'cancelled',
+  gameHistoryCancel_success: 'रद्द कर दिया',
   gameHistoryCancel_failed: 'Error occured when cancelling bet.',
   gameCode: {
     THAIGOV: 'Thailand Government Lottery',
