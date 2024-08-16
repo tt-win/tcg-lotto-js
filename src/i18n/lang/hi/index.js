@@ -453,8 +453,8 @@ const LANG = {
     P_SUM_3: 'Even',
 
     // KENO
-    P_KENO_ANY1_1: 'Matched 1 out of 1',
-    P_KENO_ANY2_2: 'Matched 2 out of 2',
+    P_KENO_ANY1_1: '1 में से 1 मिला',
+    P_KENO_ANY2_2: '2 में से 2 मिला',
     P_KENO_ANY3_2: 'द्वितीय पुरस्कार',
     P_KENO_ANY3_3: 'प्रथम पुरस्कार',
     P_KENO_ANY4_2: 'तृतीय पुरस्कार',
