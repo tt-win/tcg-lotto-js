@@ -487,7 +487,7 @@ const LANG = {
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: 'Lottery Closed',
     LGS_BETTING_GAME_FESTIVAL_ERROR: 'Lottery Closed',
-    LGS_BETTING_GAME_PAUSED_ERROR: 'Lottery Closed',
+    LGS_BETTING_GAME_PAUSED_ERROR: 'इस लॉटरी की बिक्री अस्थायी रूप से बंद कर दी गई है',
     LGS_BETTING_PLAY_MENU_CLOSED_ERROR: 'लॉटरी बंद हो गई है',
     LGS_BETTING_AMOUNT_OVER_LIMITS: 'शर्त राशि सीमा से अधिक है',
     LGS_BETTING_MULTIPLE_OVER_LIMITS: 'Multiple bets exceeded the maximum limit.',
