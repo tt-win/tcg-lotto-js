@@ -750,6 +750,10 @@ const PlayMenu = {
     2892: '플레이어 페어',
     2893: '슈퍼 식스',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // PCSO play group
     2858: 'Straight',
     2860: 'Rambolito',

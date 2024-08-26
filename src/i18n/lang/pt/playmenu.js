@@ -733,6 +733,10 @@ const PlayMenu = {
     2892: 'Par de jogadores',
     2893: 'Super Seis',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // Wingo-Level:1
 
     3060: 'Contagem de corridas', // SEA Wingo 跑数

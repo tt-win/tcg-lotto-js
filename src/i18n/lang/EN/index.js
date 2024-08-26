@@ -406,6 +406,21 @@ const LANG = {
     BCR_SUPER_SIX_2: "Banker's two card, win by 6 points.",
     BCR_SUPER_SIX_3: "Banker's three card, win by 6 points.",
 
+    // BCB
+    P_BCB_BANKER: 'Banker',
+    P_BCB_PLAYER: 'Player',
+    P_BCB_TIE_2: 'Tie 2',
+    P_BCB_TIE_3: 'Tie 3',
+    P_BCB_TIE_4: 'Tie 4',
+    P_BCB_TIE_5: 'Tie 5',
+    P_BCB_TIE_6: 'Tie 6',
+    P_BCB_TIE_7: 'Tie 7',
+    P_BCB_TIE_8: 'Tie 8',
+    P_BCB_TIE_9: 'Tie 9',
+    P_BCB_TIE_10: 'Tie 10',
+    P_BCB_TIE_11: 'Tie 11',
+    P_BCB_TIE_12: 'Tie 12',
+
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',
     VBC_SINGLE_DICE_2: 'TWO DICE',

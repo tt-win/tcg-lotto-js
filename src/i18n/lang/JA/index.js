@@ -55,6 +55,21 @@ const LANG = {
     P_SEAK3_SINGLE_SAME_THREE: '3同号単選',
     P_SEAK3_DIFFERENT_TWO: '2つの異なるもの',
     P_SEAK3_DIFFERENT_THREE: '3つの異なるもの',
+
+     // BCB
+     P_BCB_BANKER: 'Banker',
+     P_BCB_PLAYER: 'Player',
+     P_BCB_TIE_2: 'Tie 2',
+     P_BCB_TIE_3: 'Tie 3',
+     P_BCB_TIE_4: 'Tie 4',
+     P_BCB_TIE_5: 'Tie 5',
+     P_BCB_TIE_6: 'Tie 6',
+     P_BCB_TIE_7: 'Tie 7',
+     P_BCB_TIE_8: 'Tie 8',
+     P_BCB_TIE_9: 'Tie 9',
+     P_BCB_TIE_10: 'Tie 10',
+     P_BCB_TIE_11: 'Tie 11',
+     P_BCB_TIE_12: 'Tie 12',
   },
 
   // TODO i18n

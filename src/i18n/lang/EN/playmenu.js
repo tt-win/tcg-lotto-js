@@ -750,6 +750,10 @@ const PlayMenu = {
     2892: 'Player Pair',
     2893: 'Super Six',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // PCSO play group
     2858: 'Straight',
     2860: 'Rambolito',

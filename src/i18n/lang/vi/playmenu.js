@@ -738,6 +738,10 @@ const PlayMenu = {
     2892: 'Người Chơi đôi',
     2893: 'Super 6',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // Wingo-Level:1
 
     3060: 'Số lần chạy', // SEA Wingo 跑数

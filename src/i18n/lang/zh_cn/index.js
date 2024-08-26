@@ -1701,6 +1701,21 @@ const LANG = {
     BCR_SUPER_SIX_2: '庄以两张牌，6点胜出',
     BCR_SUPER_SIX_3: '庄以三张牌，6点胜出',
 
+    // BCB
+    P_BCB_BANKER: '庄',
+    P_BCB_PLAYER: '闲',
+    P_BCB_TIE_2: '和2',
+    P_BCB_TIE_3: '和3',
+    P_BCB_TIE_4: '和4',
+    P_BCB_TIE_5: '和5',
+    P_BCB_TIE_6: '和6',
+    P_BCB_TIE_7: '和7',
+    P_BCB_TIE_8: '和8',
+    P_BCB_TIE_9: '和9',
+    P_BCB_TIE_10: '和10',
+    P_BCB_TIE_11: '和11',
+    P_BCB_TIE_12: '和12',
+
     // PK10 冠亞 首尾和值
     P_PK10_3_4_18_19: '3, 4, 18, 19',
     P_PK10_5_6_16_17: '5, 6, 16, 17',

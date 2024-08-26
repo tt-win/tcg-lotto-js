@@ -1506,6 +1506,10 @@ const PlayMenu = {
     2892: '闲对',
     2893: '超级六',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // Wingo-Level:1
 
     3060: '跑数', // SEA Wingo 跑数
