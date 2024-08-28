@@ -7,6 +7,7 @@ const LANG = {
   clearBallText: 'クリアー',
   addToBetSlip: 'Add To Bet Slip',
   betNow: 'べットする',
+  buyNow: '即購入',
   betSuccess: 'ベット完了',
   confirmBetInfos: 'ベット内容の確認',
   balance: '残高',

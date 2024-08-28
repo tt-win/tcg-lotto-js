@@ -2,6 +2,7 @@ import PlayMenu from './playmenu';
 
 const LANG = {
   ...PlayMenu,
+  buyNow: '확인',
   confirmBetting: '확인',
   confirmBetInfos: '베팅 세부 정보를 확인하세요',
   orderStatus: {

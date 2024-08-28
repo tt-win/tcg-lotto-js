@@ -7,6 +7,7 @@ const LANG = {
   clearBallText: 'លុបលេខបាល់',
   addToBetSlip: 'កើនឡើង',
   betNow: 'ចាក់ឥឡូវ',
+  buyNow: 'បញ្ជាក់',
   betSuccess: 'ការចាក់ជោគជ័យ',
   confirmBetInfos: 'បញ្ជាក់ទិន័្ទយកាចាក់',
   balance: 'តុល្យភាព',

@@ -7,6 +7,7 @@ const LANG = {
   clearBallText: 'Xóa Tất Cả',
   addToBetSlip: 'Thêm vé cược',
   betNow: 'Cược Ngay',
+  buyNow: 'Cược Ngay',
   betSuccess: 'chúc mừng, đặt cược thành công',
   confirmBetInfos: 'hãy xác nhận thông tin đặt cược',
   balance: 'số tiền dư',

@@ -6,6 +6,7 @@ const LANG = {
   clearBallText: 'ลบข้อมูล',
   addToBetSlip: 'เพิ่มบิลการเดิมพัน',
   betNow: 'แทงหวย',
+  buyNow: 'ยืนยัน',
   betSuccess: 'ส่งโพยสำเร็จ',
   confirmBetInfos: 'ตรวจโพยอีกครั้งก่อนส่งโพย',
   balance: 'ยอดเงินคงเหลือ',

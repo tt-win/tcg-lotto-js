@@ -7,7 +7,7 @@ const LANG = {
   clearBallText: 'Clear',
   addToBetSlip: 'कार्ट में जोड़ें',
   betNow: 'Betting',
-  buyNow: 'buy now',
+  buyNow: 'अभी खरीदें',
   betSuccess: 'Bet Success',
   confirmBetInfos: 'कृपया बेटिंग जानकारी की पुष्टि करें',
   entertainment: 'Entertainment',
