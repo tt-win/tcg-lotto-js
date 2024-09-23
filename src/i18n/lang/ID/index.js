@@ -165,6 +165,16 @@ const LANG = {
       odd: 'Odd',
       even: 'Even',
     },
+
+    // color game
+    clr: {
+      1: 'Merah',
+      2: 'Biru',
+      3: 'Merah Muda',
+      4: 'Putih',
+      5: 'Hijau',
+      6: 'Kuning',
+    },
   },
   // VXD
   vxd: {

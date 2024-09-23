@@ -204,6 +204,16 @@ const LANG = {
       odd: 'Odd',
       even: 'Even',
     },
+
+    // color game
+    clr: {
+      1: 'Red',
+      2: 'Blue',
+      3: 'Pink',
+      4: 'White',
+      5: 'Green',
+      6: 'Yellow',
+    },
   },
 
   // VXD
@@ -511,7 +521,7 @@ const LANG = {
     P_SEAK3_SUM_16: 'Sum 16',
     P_SEAK3_SUM_17: 'Sum 17',
     P_SEAK3_SUM_18: 'Sum 18',
-    
+
     P_SEAK3_BSOE_0: 'Big',
     P_SEAK3_BSOE_1: 'Small',
     P_SEAK3_BSOE_2: 'Odd',

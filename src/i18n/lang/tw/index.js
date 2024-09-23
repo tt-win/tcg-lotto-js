@@ -617,6 +617,16 @@ const LANG = {
       earth: '土',
       none: '-',
     },
+
+    // color game
+    clr: {
+      1: '紅',
+      2: '藍',
+      3: '粉',
+      4: '白',
+      5: '綠',
+      6: '黃',
+    },
   },
 
   gameGroupCode: {
@@ -2213,7 +2223,7 @@ const LANG = {
     NNP_DOUBLE_N2:	'牛2',
     NNP_DOUBLE_N1:	'牛1',
     NNP_DOUBLE_N0: '無牛',
-    
+
     P_WGG_COLOR_0: '紅',
     P_WGG_COLOR_1: '綠',
     P_WGG_COLOR_2: '紫',
@@ -2236,7 +2246,7 @@ const LANG = {
     P_SEAK3_SUM_16: '和值16',
     P_SEAK3_SUM_17: '和值17',
     P_SEAK3_SUM_18: '和值18',
-    
+
     P_SEAK3_BSOE_0: '大',
     P_SEAK3_BSOE_1: '小',
     P_SEAK3_BSOE_2: '單',

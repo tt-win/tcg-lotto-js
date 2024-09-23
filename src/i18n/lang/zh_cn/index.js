@@ -388,6 +388,16 @@ const LANG = {
       earth: '土',
       none: '-',
     },
+
+    // color game
+    clr: {
+      1: '红',
+      2: '蓝',
+      3: '粉',
+      4: '白',
+      5: '绿',
+      6: '黄',
+    },
   },
 
   // VXD
@@ -2242,7 +2252,7 @@ const LANG = {
     P_SEAK3_SUM_16: '和值16',
     P_SEAK3_SUM_17: '和值17',
     P_SEAK3_SUM_18: '和值18',
-    
+
     P_SEAK3_BSOE_0: '大',
     P_SEAK3_BSOE_1: '小',
     P_SEAK3_BSOE_2: '单',

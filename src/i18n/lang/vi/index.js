@@ -194,6 +194,16 @@ const LANG = {
       odd: 'Lẻ',
       even: 'Chẵn',
     },
+
+    // color game
+    clr: {
+      1: 'Đỏ',
+      2: 'Xanh lam',
+      3: 'Hồng',
+      4: 'Trắng',
+      5: 'Xanh lá cây',
+      6: 'Vàng',
+    },
   },
   // VXD
   vxd: {

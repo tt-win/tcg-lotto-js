@@ -43,6 +43,18 @@ const LANG = {
     orderStatus_99: '注文無効',
   },
 
+  ball: {
+    // color game
+    clr: {
+      1: '赤',
+      2: '青',
+      3: 'ピンク',
+      4: '白',
+      5: '緑',
+      6: '黄色',
+    },
+  },
+
   prizeListPrizeType: {
     P_WGG_COLOR_0: '赤',
     P_WGG_COLOR_1: '緑',

@@ -140,6 +140,16 @@ const LANG = {
       odd: 'Ímpar',
       even: 'Até',
     },
+
+    // color game
+    clr: {
+      1: 'Vermelho',
+      2: 'Azul',
+      3: 'Rosa',
+      4: 'Branco',
+      5: 'Verde',
+      6: 'Amarelo',
+    },
   },
 
   // VXD

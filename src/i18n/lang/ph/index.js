@@ -204,6 +204,16 @@ const LANG = {
       odd: 'Odd',
       even: 'Even',
     },
+
+    // color game
+    clr: {
+      1: 'Red',
+      2: 'Blue',
+      3: 'Pink',
+      4: 'White',
+      5: 'Green',
+      6: 'Yellow',
+    },
   },
 
   // VXD

@@ -340,8 +340,6 @@ export const PlayMenu = {
   P5First2Straight_LF_Single: 115,
   All5Straight_LF: 2879,
   All5Straight_LF_Single: 2880,
-  P5First4Straight_LF: 2883,
-  P5First4Straight_LF_Single: 2884,
   P5Last4Straight_LF: 2887,
   P5Last4Straight_LF_Single: 2888,
 
@@ -1595,6 +1593,9 @@ export const PlayMenu = {
   // 魚蝦蟹
   Hoo_Hey_How_VBC: 2733,
   Hoo_Hey_How_Main_VBC: 2734,
+
+  // Color Game
+  CLR_Main: 3059,
 
   // PCSO
   Straight_2D_PLAY: 2858,

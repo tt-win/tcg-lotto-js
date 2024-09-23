@@ -2,7 +2,7 @@ import _find from 'lodash/find';
 import _sortBy from 'lodash/sortBy';
 import _compact from 'lodash/compact';
 import { PlayMenu } from '../configs/basic_play_menu';
-import { i18nWithLang, getLang } from './i18n-key-finder';
+import { i18nWithLang } from './i18n-key-finder';
 
 const commaConfig = {
   items: [
@@ -446,6 +446,16 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Hoo_Hey_How_Main_VBC
       ],
       getText: (content) => i18n(`vbc.${VBC[content]}`),
+    },
+  };
+
+  // CLR color game
+  const CLRTranslator = {
+    'CLR_Main': {
+      items: [
+        PlayMenu.CLR_Main
+      ],
+      getText: (content) => i18n(`ball.clr.${content}`),
     },
   };
 
@@ -1889,13 +1899,13 @@ function getOrderInfoTranslatorList(lang) {
       items: [
         PlayMenu.All_Same_3_SEAK3,
       ],
-      getText: (content) => i18n(`playId.${PlayMenu.All_Same_3_SEAK3}`),
+      getText: () => i18n(`playId.${PlayMenu.All_Same_3_SEAK3}`),
     },
     SEAK3_ALL_SEQUENCE: {
       items: [
         PlayMenu.All_Sequence_SEAK3,
       ],
-      getText: (content) => i18n(`playId.${PlayMenu.All_Sequence_SEAK3}`),
+      getText: () => i18n(`playId.${PlayMenu.All_Sequence_SEAK3}`),
     },
     SEAK3_BSOE: {
       items: [
@@ -2373,6 +2383,8 @@ function getOrderInfoTranslatorList(lang) {
     },
 
     ...VBCTranslator,
+    // color game, mini-game
+    ...CLRTranslator,
     ...BCRTranslator,
     ...VXDTranslator,
     ...PK10Translator,
