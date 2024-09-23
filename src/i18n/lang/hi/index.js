@@ -100,10 +100,10 @@ const LANG = {
       crab: 'Crab',
     },
     BSOE: {
-      big: 'Big',
-      small: 'Small',
-      odd: 'Odd',
-      even: 'Even',
+      big: 'बड़ा',
+      small: 'छोटा',
+      odd: 'विषम',
+      even: 'सम',
     },
     K3_BSOE: {
       big: 'Big',
@@ -207,30 +207,30 @@ const LANG = {
 
   // VXD
   vxd: {
-    allRed: 'All Red',
-    allWhite: 'All White',
-    threeWoneR: '3 White+1 Red',
-    threeRoneW: '3 Red+1 White',
+    allRed: 'सभी लाल',
+    allWhite: 'सभी सफेद',
+    threeWoneR: '3 सफेद + 1 लाल',
+    threeRoneW: '3 लाल + 1 सफेद',
   },
 
   // vbc 魚蝦蟹
   vbc: {
-    fish: 'Fish',
-    prawn: 'Prawn',
-    gourd: 'Gourd',
-    stag: 'Stag',
-    crab: 'Crab',
-    rooster: 'Rooster',
+    fish: 'मछली',
+    prawn: 'झींगा',
+    gourd: 'कद्दू',
+    stag: 'हिरन',
+    crab: 'केकड़ा',
+    rooster: 'मुर्गा',
   },
 
   // BCR
   bcr: {
-    banker_charge: 'Banker(Charge)',
-    banker_no_charge: 'Banker(No charge)',
-    player: 'Player',
-    tie: 'Tie',
-    banker_pair: 'Banker Pair',
-    player_pair: 'Player Pair',
+    banker_charge: 'बैंकर (शुल्क)',
+    banker_no_charge: 'बैंकर बिना शुल्क)',
+    player: 'प्लेयर',
+    tie: 'टाई',
+    banker_pair: 'बैंकर जोड़ी',
+    player_pair: 'प्लेयर जोड़ी',
     super_six: 'Super Six',
   },
 
