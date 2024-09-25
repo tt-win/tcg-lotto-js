@@ -236,7 +236,7 @@ const LANG = {
   // BCR
   bcr: {
     banker_charge: 'बैंकर (शुल्क)',
-    banker_no_charge: 'बैंकर बिना शुल्क)',
+    banker_no_charge: 'बैंकर (बिना शुल्क)',
     player: 'प्लेयर',
     tie: 'टाई',
     banker_pair: 'बैंकर जोड़ी',
