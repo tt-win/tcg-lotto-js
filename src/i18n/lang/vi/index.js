@@ -198,10 +198,10 @@ const LANG = {
     // color game
     clr: {
       1: 'Đỏ',
-      2: 'Xanh lam',
+      2: 'Xanh dương',
       3: 'Hồng',
       4: 'Trắng',
-      5: 'Xanh lá cây',
+      5: 'Xanh lá',
       6: 'Vàng',
     },
   },
