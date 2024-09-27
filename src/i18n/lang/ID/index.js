@@ -2,7 +2,7 @@ import PlayMenu from './playmenu';
 
 const LANG = {
   ...PlayMenu,
-  buyNow: 'konfirmasi',
+  buyNow: 'Konfirmasi',
   orderStatus: {
     orderStatus_0: 'All',
     orderStatus_1: 'Tunggu Konfirmasi',

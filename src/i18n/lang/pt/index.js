@@ -2,7 +2,7 @@ import PlayMenu from './playmenu';
 
 const LANG = {
   ...PlayMenu,
-  buyNow: 'confirmar',
+  buyNow: 'Confirmar',
   betDigit: {
     THOUSANDS: 'Milhares',
     HUNDREDS: 'Centenas',
