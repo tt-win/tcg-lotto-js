@@ -645,6 +645,7 @@ const LANG = {
   amount: 'Stake',
   amountByStakes: 'Single Bet Price',
   manualBetPlaceHolderSEA: `Please type your bets here or upload a txt file. The format is per sample below :\n\nNOTE:  You can use "," or ";" or "<Space>" or new line to separate the numbers you are betting.`,
+  manualBetAmountIntegerPlaceHolderSEA: 'Single bet format: Number@Amount (Please input the amount as an integer)',
 
   defaultMode: 'Default Mode',
   defaultBetting: 'Default Play',

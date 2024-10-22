@@ -421,6 +421,8 @@ const LANG = {
   winningAmount: 'Vencer',
   bettingAmount: 'Custo',
   manualBetPlaceHolderSEA: 'Por favor, digite suas apostas aqui ou envie um arquivo txt. O formato é por exemplo abaixo:\n\nNOTA: Você pode usar "," ou ";" ou "<Espaço>" ou uma nova linha para separar os números que você está apostando.',
+  manualBetAmountIntegerPlaceHolderSEA: 'Formato de aposta única: Número@Quantia (Por favor, insira a quantia como um número inteiro)',
+
   filterResultMsg: 'Remover Duplicado %@ Nº inválido. %@',
   chooseFile: 'Upload File',
   clearBallText: 'Excluir',

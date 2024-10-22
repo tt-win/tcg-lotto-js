@@ -610,6 +610,7 @@ const LANG = {
   amount: 'Stake',
   amountByStakes: 'Single Bet Price',
   manualBetPlaceHolderSEA: `हर संख्या के बीच एंटर, स्पेस, कोष्ठक [], अल्पविराम [,] या अर्द्धविराम [;] का उपयोग करके विभाजित कर सकते हैं। कृपया TXT फाइल आयात करें, कॉपी करें या निम्नलिखित फॉर्मेट को समर्थित इनपुट करें:`,
+  manualBetAmountIntegerPlaceHolderSEA: `एकल बेट प्रारूप: संख्या@राशि (कृपया राशि को पूर्णांक में दर्ज करें)`,
 
   defaultMode: 'Default Mode',
   defaultBetting: 'Default Play',

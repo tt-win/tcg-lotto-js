@@ -480,6 +480,8 @@ const LANG = {
   prize: 'Peluang',
   amount: 'Stake',
   manualBetPlaceHolderSEA: `Silakan ketikkan taruhan Anda di sini atau unggah file txt. Formatnya seperti contoh di bawah ini:\n\n CATATAN: Anda dapat menggunakan "," atau ";" atau "<Spasi>" atau baris baru untuk memisahkan angka-angka yang Anda pertaruhkan.`,
+  manualBetAmountIntegerPlaceHolderSEA: `Format taruhan tunggal: Nomor@Jumlah (Silakan masukkan jumlah sebagai bilangan bulat)`,
+
   detail: 'Detil Bet',
   multiple: 'Banyak',
   syncMultipleBets: 'Sync Multiple Bets',

@@ -580,6 +580,8 @@ const LANG = {
   syncMultipleBets: 'Đồng bộ cược',
   // eslint-disable-next-line quotes
   manualBetPlaceHolderSEA: `Giữa mỗi cược cần phân cách bởi dấu chấm phẩy ";" hoặc dấu phẩy\n"," hoặc khoảng trắng " "\nSử dụng tệp TXT hoặc dán Ví dụ:`,
+  manualBetAmountIntegerPlaceHolderSEA: 'Định dạng cược đơn: Số@Số tiền (Vui lòng nhập số tiền là số nguyên)',
+
   gameName: 'Loại hình cược',
   gameContent: 'Vé cược',
   odds1Time: 'Tiền Thắng/1 lần',

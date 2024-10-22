@@ -1194,6 +1194,8 @@ const LANG = {
   manualBetPlaceHolder_h5: '每注之間可以用回車丶空格[]丶逗號[,]或者分號[;]、["|"]隔開，請導入TXT文件丶複製或者輸入支持格式如下：',
   manualBetPlaceHolder_2Digit_h5: '每注之間可以用回車丶逗號[,]或者分號[;]、["|"]，請導入TXT文件丶隔開復製或者輸入支持格式如下：',
   manualBetPlaceHolderSEA: '每注之間可以用回車丶空格[]丶逗號[,]或者分號[;]隔開\n請導入TXT文件丶複製或者輸入支持格式如下：',
+  manualBetAmountIntegerPlaceHolderSEA: '單注格式為：號碼@金額（請輸入整數）',
+
   manualBetFormatError: '您的投注內容不符合要求<br />裡面還有字母或者中文！ ',
   multipleFormatError: '您輸入的投注倍數格式不正確<br />只能輸入大於或等於1的數字！ ',
   multipleMaxError: '您的最大投注倍數不能超過 %@ 倍',
