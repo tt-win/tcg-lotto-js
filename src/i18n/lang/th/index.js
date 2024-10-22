@@ -502,7 +502,7 @@ const LANG = {
     ILLEGAL_PARAMS_VALUE: 'ระบบผิดพลาค',
     BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'LGS_BETTING_MULTIPLE_OVER_LIMITS',
     GAME_CLOSED_ERROR: 'หวยปิดรับแทง',
-    STAKES_ABOVE_LIMIT: 'เดิมพันเดิมพันสูงกว่าวงเงินเดิมพันสูงสุด > %@',
+    STAKES_ABOVE_LIMIT: 'เกินยอดรวมหมายเลขเดิมพันที่อนุญาต > %@',
     PAIR_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'จำนวนเงินเดิมพันสูงสุดที่อนุญาตให้ขายได้ด้วยตัวเลขสองหลักเดียวกันหลังหมายเลขเดิมพัน %@ คือ %@',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS: '%@ เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้าคงคลังเป็นศูนย์',
     BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้า',
