@@ -535,7 +535,7 @@ const LANG = {
   multiple: 'หลาย',
   syncMultipleBets: 'ความหลาย',
   manualBetPlaceHolderSEA: `ซึ่งเป็น TXT File ที่เป็นตัวคั่น หรือ\nซึ่งไฟล์ประเภท delimited นี้ คุณสามารถใช้คอมม่า (,) หรือ เครื่องหมายเซมิคอลอน (;) หรือเว้นวรรค：`,
-  manualBetAmountIntegerPlaceHolderSEA: 'รูปแบบการเดิมพันเดี่ยว: หมายเลข@จำนวนเงิน (โปรดใส่จำนวนเงินเป็นจำนวนเต็ม)）',
+  manualBetAmountIntegerPlaceHolderSEA: 'รูปแบบการเดิมพันเดี่ยว: หมายเลข@จำนวนเงิน (โปรดใส่จำนวนเงินเป็นจำนวนเต็ม)',
 
   gameName: 'เดิมพัน',
   gameContent: 'เดิมพัน',
