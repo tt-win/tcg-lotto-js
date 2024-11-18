@@ -74,9 +74,9 @@ const LANG = {
   },
   // 全大小奇偶清
   pickRow: {
-    all: 'All',
-    big: 'Big',
-    small: 'Small',
+    all: 'सब',
+    big: 'बड़ा',
+    small: 'छोटा',
     odd: 'विषम',
     even: 'सम',
     clear: 'साफ़ करें',
