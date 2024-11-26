@@ -429,7 +429,7 @@ const PlayMenu = {
     2481: 'Manual Enter EXACT 2D-Special ',
     2482: 'Norm ANY 2D-1st',
     2483: 'Norm EXACT 2D-1st',
-    2484: 'Manual Enter  EXACT 2D-1st',
+    2484: 'Manual Enter EXACT 2D-1st',
 
     2057: 'EXACT 3D-1st', // 上正三位数
     2059: 'ANY 3D-1st', // 上反三位数
