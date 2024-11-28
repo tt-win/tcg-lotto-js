@@ -818,6 +818,24 @@ const PlayMenu = {
     3095: 'Berkesinambungan', // SEA SEAK3 全順
     3096: '3 different', // SEA SEAK3 3不同
     3097: '2 different', // SEA SEAK3 2不同
+
+    // SEAPK10-Level:1
+
+    3100: '1 - 10 Peringkat', // SEA SEAPK10 第1-10名排名
+    3101: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3102: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:2
+
+    3103: '1 - 10 Peringkat', // SEA SEAPK10 第1-10名排名
+    3104: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3105: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:3
+
+    3106: '1 - 10 Peringkat', // SEA SEAPK10 排名
+    3107: 'Besar/Small', // SEA SEAPK10 大小
+    3108: 'Ganjil/Genap', // SEA SEAPK10 單雙
   },
 };
 
