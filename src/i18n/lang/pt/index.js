@@ -29,6 +29,18 @@ const LANG = {
     9: '9º',
     10: '10º',
   },
+  marble_pk10Ranking: {
+    1: '1º',
+    2: '2º',
+    3: '3º',
+    4: '4º',
+    5: '5º',
+    6: '6º',
+    7: '7º',
+    8: '8º',
+    9: '9º',
+    10: '10º',
+  },
   ball: {
     BSOE: {
       big: 'Grande',
@@ -51,6 +63,12 @@ const LANG = {
     VNC_PK10_DragonTiger: {
       dragon: 'Dragão',
       tiger: 'Tigre',
+    },
+    marble_PK10_BSOE: {
+      big: 'Grande',
+      small: 'Pequeno',
+      odd: 'Ímpar',
+      even: 'Mesmo',
     },
     fishPrawnCrab: {
       fish: ' Peixe',

@@ -56,6 +56,18 @@ const LANG = {
     9: '9 번',
     10: '10 번',
   },
+  marble_pk10Ranking: {
+    1: '1st',
+    2: '2nd',
+    3: '3rd',
+    4: '4th',
+    5: '5th',
+    6: '6th',
+    7: '7th',
+    8: '8th',
+    9: '9th',
+    10: '10th',
+  },
   ball: {
     fishPrawnCrab: {
       fish: '물고기',
@@ -82,6 +94,12 @@ const LANG = {
     },
     VNC_PK10_DragonTiger: {
       dragonTiger: 'Dragon&Tiger',
+    },
+    marble_PK10_BSOE: {
+      big: '빅',
+      small: '스몰',
+      odd: '홀수',
+      even: '짝수',
     },
     fanTanFan: {
       1: '1 Fan',

@@ -83,6 +83,18 @@ const LANG = {
     9: 'Thứ 9',
     10: 'Thứ 10',
   },
+  marble_pk10Ranking: {
+    1: '1st',
+    2: '2nd',
+    3: '3rd',
+    4: '4th',
+    5: '5th',
+    6: '6th',
+    7: '7th',
+    8: '8th',
+    9: '9th',
+    10: '10th',
+  },
   ball: {
     fishPrawnCrab: {
       fish: 'cá',
@@ -110,6 +122,12 @@ const LANG = {
     VNC_PK10_DragonTiger: {
       dragon: 'Rồng',
       tiger: 'Hổ',
+    },
+    marble_PK10_BSOE: {
+      big: 'Tài',
+      small: 'Xỉu',
+      odd: 'Lẻ',
+      even: 'Chẵn',
     },
     fanTanFan: {
       1: '1 Fan',

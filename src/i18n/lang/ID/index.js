@@ -54,6 +54,18 @@ const LANG = {
     9: 'kesembilan',
     10: 'kesepuluh',
   },
+  marble_pk10Ranking: {
+    1: 'Pertama',
+    2: 'Kedua',
+    3: 'ketiga',
+    4: 'keempat',
+    5: 'kelima',
+    6: 'keenam',
+    7: 'ketujuh',
+    8: 'kedelapan',
+    9: 'kesembilan',
+    10: 'kesepuluh',
+  },
   ball: {
     fishPrawnCrab: {
       fish: 'Ikan',
@@ -81,6 +93,12 @@ const LANG = {
     VNC_PK10_DragonTiger: {
       dragon: 'Dragon',
       tiger: 'Tiger',
+    },
+    marble_PK10_BSOE: {
+      big: 'Besar',
+      small: 'Kecil',
+      odd: 'Ganjil',
+      even: 'Genap',
     },
     fanTanFan: {
       1: '1 Fan',
