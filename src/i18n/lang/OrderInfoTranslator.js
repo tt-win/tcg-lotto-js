@@ -69,6 +69,11 @@ const commaConfig = {
     PlayMenu.SUPER_SYSTEM_5,
     PlayMenu.GRAND_SYSTEM_5,
     PlayMenu.ULTRA_SYSTEM_5,
+
+    // Marble SEA PK10 
+    PlayMenu.SEA_PK10_RANK,
+    PlayMenu.SEA_PK10_BS,
+    PlayMenu.SEA_PK10_OE,
   ],
 };
 
@@ -1915,6 +1920,35 @@ function getOrderInfoTranslatorList(lang) {
     },
   };
 
+  const SEAPK10Translator = {
+    SEAPK10_RANK: {
+      items: [
+        PlayMenu.SEA_PK10_RANK,
+      ],
+      getText: (content) => {
+        const data = content.split(',');
+        return `${i18n(`marble_pk10Ranking.${data[0]}`)} @ ${data[1]}`;
+      }
+    },
+    SEAPK10_BSOE: {
+      items: [
+        PlayMenu.SEA_PK10_BS,
+        PlayMenu.SEA_PK10_OE,
+      ],
+      getText: (content) => {
+        const data = content.split(',');
+
+        const ballI18n = {
+          0: 'ball.marble_PK10_BSOE.big',
+          1: 'ball.marble_PK10_BSOE.small',
+          2: 'ball.marble_PK10_BSOE.odd',
+          3: 'ball.marble_PK10_BSOE.even',
+        }[data[1]];
+        return `${i18n(`marble_pk10Ranking.${data[0]}`)} @ ${i18n(ballI18n)}`;
+      },
+    },
+  }
+
   const NNPTranslator = {
     NNP: {
       items: [
@@ -2404,6 +2438,7 @@ function getOrderInfoTranslatorList(lang) {
     ...SEAK3Translator,
     ...SeaTranslator,
     ...NNPTranslator,
+    ...SEAPK10Translator
   };
 
   return OrderInfoTranslatorList;
