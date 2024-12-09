@@ -769,15 +769,15 @@ const PlayMenu = {
 
     3070: 'Chọn Trực Tiếp Lớn Nhỏ Lẻ Chẵn', // SEA 5D 大小单双
     3078: 'ĐOÁN MÀU', // SEA 5D 直选
-    
+
     // 5D-Level:3
-    
-    3071: 'Tổng của lớn/nhỏ lẻ/chẵn', // SEA 5D 和值
-    3072: 'Vị trí A ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第一球
-    3073: 'Vị trí B ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第二球
-    3074: 'Vị trí C ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第三球
-    3075: 'Vị trí D ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第四球
-    3076: 'Vị trí E ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第五球
+
+    3071: 'Tổng của TÀI/XỈU,LẺ/CHẴN', // SEA 5D 和值
+    3072: 'Vị trí A ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第一球
+    3073: 'Vị trí B ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第二球
+    3074: 'Vị trí C ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第三球
+    3075: 'Vị trí D ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第四球
+    3076: 'Vị trí E ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第五球
     3079: 'Lựa chọn số vị trí A', // SEA 5D 第一球
     3080: 'Lựa chọn số vị trí B', // SEA 5D 第二球
     3081: 'Lựa chọn số vị trí C', // SEA 5D 第三球
@@ -798,7 +798,7 @@ const PlayMenu = {
     // SEAK3-Level:3
 
     3086: 'Tích hợp', // SEA SEAK3 和值
-    3087: 'Tổng của lớn/nhỏ lẻ/chẵn', // SEA SEAK3 大小單雙
+    3087: 'Tổng của TÀI/XỈU,LẺ/CHẴN', // SEA SEAK3 大小單雙
     3089: 'Chọn một cặp số giống nhau', // SEA SEAK3 2同号单选
     3090: 'Chọn lại một cặp số giống nhau', // SEA SEAK3 2同号复选
     3092: 'Chọn ba số giống nhau', // SEA SEAK3 3同号单选
