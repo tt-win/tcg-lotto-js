@@ -770,8 +770,7 @@ const PlayMenu = {
     3070: 'Chọn Trực Tiếp Lớn Nhỏ Lẻ Chẵn', // SEA 5D 大小单双
     3078: 'ĐOÁN MÀU', // SEA 5D 直选
 
-    // 5D-Level:3
-
+    // 5D-Level:3    
     3071: 'Tổng của TÀI/XỈU,LẺ/CHẴN', // SEA 5D 和值
     3072: 'Vị trí A ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第一球
     3073: 'Vị trí B ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第二球
