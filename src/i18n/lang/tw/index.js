@@ -904,7 +904,7 @@ const LANG = {
     tailBig: '尾大',
     tailSmall: '尾小',
     time: '開獎時間',
-    normalOne: '正码碼一',
+    normalOne: '正碼一',
     normalTwo: '正碼二',
     normalThree: '正碼三',
     normalFour: '正碼四',
