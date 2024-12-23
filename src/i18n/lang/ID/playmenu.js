@@ -834,7 +834,7 @@ const PlayMenu = {
     // SEAPK10-Level:3
 
     3106: 'Peringkat', // SEA SEAPK10 排名
-    3107: 'Besar/Small', // SEA SEAPK10 大小
+    3107: 'Besar/Kecil', // SEA SEAPK10 大小
     3108: 'Ganjil/Genap', // SEA SEAPK10 單雙
   },
 };
