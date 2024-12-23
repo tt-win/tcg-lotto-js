@@ -804,19 +804,19 @@ const PlayMenu = {
 
     // SEAPK10-Level:1
 
-    3100: 'Classificação 1-10', // SEA SEAPK10 第1-10名排名
+    3100: 'Classificação', // SEA SEAPK10 第1-10名排名
     3101: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
     3102: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
 
     // SEAPK10-Level:2
 
-    3103: 'Classificação 1-10', // SEA SEAPK10 第1-10名排名
+    3103: 'Classificação', // SEA SEAPK10 第1-10名排名
     3104: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
     3105: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
 
     // SEAPK10-Level:3
 
-    3106: 'Classificação 1-10', // SEA SEAPK10 排名
+    3106: 'Classificação', // SEA SEAPK10 排名
     3107: 'Grande/Pequeno', // SEA SEAPK10 大小
     3108: 'Ímpar/Mesmo', // SEA SEAPK10 單雙
   },

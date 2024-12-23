@@ -808,19 +808,19 @@ const PlayMenu = {
 
     // SEAPK10-Level:1
 
-    3100: 'Vị trí xếp hạng', // SEA SEAPK10 第1-10名排名
+    3100: 'xếp hạng', // SEA SEAPK10 第1-10名排名
     3101: '1-10 TàiXỉu', // SEA SEAPK10 第1-10名大小
     3102: '1-10 LẻChẵn', // SEA SEAPK10 第1-10名單雙
 
     // SEAPK10-Level:2
 
-    3103: 'Vị trí xếp hạng', // SEA SEAPK10 第1-10名排名
+    3103: 'xếp hạng', // SEA SEAPK10 第1-10名排名
     3104: '1-10 TàiXỉu', // SEA SEAPK10 第1-10名大小
     3105: '1-10 LẻChẵn', // SEA SEAPK10 第1-10名單雙
 
     // SEAPK10-Level:3
 
-    3106: 'Vị trí xếp hạng', // SEA SEAPK10 排名
+    3106: 'xếp hạng', // SEA SEAPK10 排名
     3107: 'Tài/Xỉu', // SEA SEAPK10 大小
     3108: 'Lẻ/Chẵn', // SEA SEAPK10 單雙
   },
