@@ -342,6 +342,7 @@ const LANG = {
     '11X5': '11 में से 5 चुनें',
     LF: 'LF',
     PK10: 'पीके10',
+    SEAPK10: 'SEAPK10',
     LHC: 'लिउहेकै',
     TC: 'TC',
     PCB: 'PCB',

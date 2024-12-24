@@ -652,6 +652,7 @@ const LANG = {
     '11X5': '十一選五',
     LF: '低頻彩',
     PK10: 'PK10',
+    SEAPK10: 'SEAPK10',
     LHC: '六合彩',
     TC: '視頻彩',
     PCB: 'PC蛋蛋',

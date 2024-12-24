@@ -303,6 +303,7 @@ const LANG = {
     '11X5': '11X5',
     LF: 'LF',
     PK10: 'PK10',
+    SEAPK10: 'SEAPK10',
     LHC: 'LHC',
     TC: 'TC',
     PCB: 'PCB',
