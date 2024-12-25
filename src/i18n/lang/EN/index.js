@@ -555,6 +555,16 @@ const LANG = {
     P_SEAK3_DIFFERENT_THREE: '3 different',
 
     // SEAPK10
+    RANK_1: 'Guess the Ranking - No. 1',
+    RANK_2: 'Guess the Ranking - No. 2',
+    RANK_3: 'Guess the Ranking - No. 3',
+    RANK_4: 'Guess the Ranking - No. 4',
+    RANK_5: 'Guess the Ranking - No. 5',
+    RANK_6: 'Guess the Ranking - No. 6',
+    RANK_7: 'Guess the Ranking - No. 7',
+    RANK_8: 'Guess the Ranking - No. 8',
+    RANK_9: 'Guess the Ranking - No. 9',
+    RANK_10: 'Guess the Ranking - No. 10',
     SEAPK10_Rank: {
       '1_1': '1st - No.1',
       '1_2': '1st - No.2',

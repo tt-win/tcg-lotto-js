@@ -596,6 +596,17 @@ const LANG = {
     OE_10_2: '10º Lugar - Ímpar',
     OE_10_3: '10º Lugar - Mesmo',
 
+    RANK_1: 'Adivinhe o Ranking - Número 1',
+    RANK_2: 'Adivinhe o Ranking - Número 2',
+    RANK_3: 'Adivinhe o Ranking - Número 3',
+    RANK_4: 'Adivinhe o Ranking - Número 4',
+    RANK_5: 'Adivinhe o Ranking - Número 5',
+    RANK_6: 'Adivinhe o Ranking - Número 6',
+    RANK_7: 'Adivinhe o Ranking - Número 7',
+    RANK_8: 'Adivinhe o Ranking - Número 8',
+    RANK_9: 'Adivinhe o Ranking - Número 9',
+    RANK_10: 'Adivinhe o Ranking - Número 10',
+
     SEAPK10_Rank: {
       '1_1': '1º Lugar - Número 1',
       '1_2': '1º Lugar - Número 2',

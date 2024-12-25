@@ -445,6 +445,17 @@ const LANG = {
     OE_10_2: 'Peringkat 10 - Ganjil',
     OE_10_3: 'Peringkat 10 - Genap',
 
+    RANK_1: 'Tebak Peringkat - Nomor 1',
+    RANK_2: 'Tebak Peringkat - Nomor 2',
+    RANK_3: 'Tebak Peringkat - Nomor 3',
+    RANK_4: 'Tebak Peringkat - Nomor 4',
+    RANK_5: 'Tebak Peringkat - Nomor 5',
+    RANK_6: 'Tebak Peringkat - Nomor 6',
+    RANK_7: 'Tebak Peringkat - Nomor 7',
+    RANK_8: 'Tebak Peringkat - Nomor 8',
+    RANK_9: 'Tebak Peringkat - Nomor 9',
+    RANK_10: 'Tebak Peringkat - Nomor 10',
+
     SEAPK10_Rank: {
       '1_1': 'Peringkat 1 - Nomor 1',
       '1_2': 'Peringkat 1 - Nomor 2',
