@@ -750,6 +750,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'You are not logged in yet, please login first!',
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'The current lottery is not available for sale at the moment. Please try again later.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'Following Bet Stakes is over limit stakes',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit of stakes',
     //  VN

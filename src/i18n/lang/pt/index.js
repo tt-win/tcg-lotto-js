@@ -373,6 +373,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'Por favor, faça login com sua conta oficial',
     DRAW_FAIL_ERROR_: 'Aposta incorreta, por favor tente novamente.',
     NOT_SUPPORT_LANDSCAPE: 'Use o modo retrato para obter a melhor experiência.',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'O tipo de loteria atual não está disponível para venda no momento. Por favor, tente novamente mais tarde.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'Os seguintes números excederam o limite de compra atual, por favor aposte novamente, o valor restante pode ser comprado',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit of stakes',
     // VN

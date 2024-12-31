@@ -641,6 +641,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'bạn chưa đăng nhập, vui lòng đăng nhập !',
     DRAW_FAIL_ERROR_: 'hệ thống bận, đặt cược thất bại!',
     NOT_SUPPORT_LANDSCAPE: 'không hỗ trợ để ngang màn hình',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'Loại xổ số hiện tại chưa được mở bán. Vui lòng thử lại sau.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'đặt cược đã đạt mức tối đa trong kho',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Số lượng đơn cược vượt quá giới hạn',
 

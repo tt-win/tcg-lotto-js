@@ -611,6 +611,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'អតិថិជន-ចាកចេញ!',
     DRAW_FAIL_ERROR_: 'ប្រព័ន្ធនេះរវល់គារភ្នាល់-បរាជ័យ',
     NOT_SUPPORT_LANDSCAPE: 'មិនអាច-កំណត់-ទេសភាព',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'ឆ្នោតបច្ចុប្បន្នមិនទាន់មានលក់នៅឡើយទេ សូមសាកល្បងម្ដងទៀតបន្ទាប់មក។',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ',
 //  VN

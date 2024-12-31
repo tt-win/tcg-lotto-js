@@ -593,6 +593,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'You are not logged in yet, please login first!',
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'Jenis lotre saat ini belum tersedia untuk dijual. Silakan coba lagi nanti.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'Jumlah batas taruhan sudah melebihi dari stok.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Taruhan Taruhan lebih dari batas taruhannya',
 //  VN

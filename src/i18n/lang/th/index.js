@@ -683,6 +683,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'คุณยังไม่ได้เข้าสู่ระบบ กรุณาเข้าสู่ระบบก่อน',
     DRAW_FAIL_ERROR_: 'ระบบไม่ว่าง กรุณาลองไหม่อีกครั้ง',
     NOT_SUPPORT_LANDSCAPE: 'หน้าจอไม่สามารถตั้งเป็นแนวนอน',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'หวยในขณะนี้ยังไม่เปิดขาย กรุณาลองใหม่อีกครั้งในภายหลัง',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'เกินขีด จำกัด การเดิมพันแล้วจำนวนที่อนุญาต สินค้า',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'เกินยอดรวมหมายเลขเดิมพันที่อนุญาต',
 //  VN

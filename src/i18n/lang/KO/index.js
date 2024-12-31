@@ -510,6 +510,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'You are not logged in yet, please login first!',
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: '현재 복권은 판매되지 않습니다. 나중에 다시 시도해주세요.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '이미 베팅 한도 금액이 재고를 초과했습니다.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '베팅 말뚝이 한도 초과',
 //  VN

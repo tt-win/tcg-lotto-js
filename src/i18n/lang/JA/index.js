@@ -276,6 +276,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'ログインしてください。',
     DRAW_FAIL_ERROR_: 'ベット失敗。システムが混雑してます。',
     NOT_SUPPORT_LANDSCAPE: '横向きをサポートしません。',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: '現在、この宝くじは販売されていません。しばらくしてから再試行してください。',
     B2B_TX_FAILED: 'ベットに失敗しました。後でもう一度お試しください',
   },
   gameHistoryCancel: 'ベットをキャンセルしますか？',
