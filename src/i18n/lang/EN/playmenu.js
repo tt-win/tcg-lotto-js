@@ -429,7 +429,7 @@ const PlayMenu = {
     2481: 'Manual Enter EXACT 2D-Special ',
     2482: 'Norm ANY 2D-1st',
     2483: 'Norm EXACT 2D-1st',
-    2484: 'Manual Enter  EXACT 2D-1st',
+    2484: 'Manual Enter EXACT 2D-1st',
 
     2057: 'EXACT 3D-1st', // 上正三位数
     2059: 'ANY 3D-1st', // 上反三位数
@@ -750,6 +750,10 @@ const PlayMenu = {
     2892: 'Player Pair',
     2893: 'Super Six',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // PCSO play group
     2858: 'Straight',
     2860: 'Rambolito',
@@ -888,6 +892,25 @@ const PlayMenu = {
     3095: 'Continuous', // SEA SEAK3 全順
     3096: '3 different', // SEA SEAK3 3不同
     3097: '2 different', // SEA SEAK3 2不同
+
+    // SEAPK10-Level:1
+
+    3100: 'Ranking', // SEA SEAPK10 第1-10名排名
+    3101: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3102: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:2
+
+    3103: 'Ranking', // SEA SEAPK10 第1-10名排名
+    3104: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3105: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:3
+
+    3106: 'Ranking', // SEA SEAPK10 排名
+    3107: 'Big/Small', // SEA SEAPK10 大小
+    3108: 'Odd/Even', // SEA SEAPK10 單雙
+
   },
 };
 

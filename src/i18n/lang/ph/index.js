@@ -93,6 +93,18 @@ const LANG = {
     9: '9th',
     10: '10th',
   },
+  marble_pk10Ranking: {
+    1: '1st',
+    2: '2nd',
+    3: '3rd',
+    4: '4th',
+    5: '5th',
+    6: '6th',
+    7: '7th',
+    8: '8th',
+    9: '9th',
+    10: '10th',
+  },
   ball: {
     fishPrawnCrab: {
       fish: 'Fish',
@@ -120,6 +132,12 @@ const LANG = {
     VNC_PK10_DragonTiger: {
       dragon: 'Dragon',
       tiger: 'Tiger',
+    },
+    marble_PK10_BSOE: {
+      big: 'Big',
+      small: 'Small',
+      odd: 'Odd',
+      even: 'Even',
     },
     fanTanFan: {
       1: '1 Fan',
@@ -203,6 +221,16 @@ const LANG = {
       small: 'Small',
       odd: 'Odd',
       even: 'Even',
+    },
+
+    // color game
+    clr: {
+      1: 'Red',
+      2: 'Blue',
+      3: 'Pink',
+      4: 'White',
+      5: 'Green',
+      6: 'Yellow',
     },
   },
 
@@ -288,6 +316,8 @@ const LANG = {
     small: 'S',
     odd: 'O',
     even: 'E',
+    bigSmall: 'B/S',
+    oddEven: 'O/E'
   },
 
   seak3Roadmap: {
@@ -296,6 +326,11 @@ const LANG = {
     triple: 'T',
     odd: 'O',
     even: 'E',
+    bigTranslated: 'Big',
+    smallTranslated: 'Small',
+    tripleTranslated: 'Triple',
+    oddTranslated: 'Odd',
+    evenTranslated: 'Even',
     bigFull: 'Big',
     smallFull: 'Small',
     tripleFull: 'Triple',
@@ -308,6 +343,7 @@ const LANG = {
     '11X5': '11X5',
     LF: 'LF',
     PK10: 'PK10',
+    SEAPK10: 'SEAPK10',
     LHC: 'LHC',
     TC: 'TC',
     PCB: 'PCB',
@@ -398,6 +434,21 @@ const LANG = {
     BCR_PLAYER_PAIR_1: 'Player Pair',
     BCR_SUPER_SIX_2: "Banker's two card, win by 6 points.",
     BCR_SUPER_SIX_3: "Banker's three card, win by 6 points.",
+
+     // BCB
+     P_BCB_BANKER: 'Banker',
+     P_BCB_PLAYER: 'Player',
+     P_BCB_TIE_2: 'Tie 2',
+     P_BCB_TIE_3: 'Tie 3',
+     P_BCB_TIE_4: 'Tie 4',
+     P_BCB_TIE_5: 'Tie 5',
+     P_BCB_TIE_6: 'Tie 6',
+     P_BCB_TIE_7: 'Tie 7',
+     P_BCB_TIE_8: 'Tie 8',
+     P_BCB_TIE_9: 'Tie 9',
+     P_BCB_TIE_10: 'Tie 10',
+     P_BCB_TIE_11: 'Tie 11',
+     P_BCB_TIE_12: 'Tie 12',
 
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',
@@ -507,6 +558,7 @@ const LANG = {
     CUSTOMER_LOGOUT_: 'You are not logged in yet, please login first!',
     DRAW_FAIL_ERROR_: 'System is busy. Bet failed.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
+    CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'The current lottery is not available for sale at the moment. Please try again later.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'Following Bet Stakes is over limit stakes',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'Bet Stakes is over limit of stakes',
     //  VN
@@ -524,7 +576,7 @@ const LANG = {
     PLAY_NOT_SUPPORTED_ERROR: 'Gameplay is under maintenance, please try again.',
     BOOK_FAILED_ERROR: 'Insufficient Balance',
     WALLET_NOT_EXISTS_ERROR: 'Insufficient Balance',
-    B2B_TX_FAILED: 'Insufficient Balance',
+    B2B_TX_FAILED: 'Nabigo ang pagtaya, pakisubukan muli mamaya',
     DEMO_NOT_SUPPORTED_ERROR: 'Please log in with your official account',
     ORDER_PRIZE_NOT_FOUND_ERROR: 'Game is under maintenance, please try again.',
     ORDER_SAVED_FAILED: 'Game is under maintenance, please try again.',
@@ -577,6 +629,7 @@ const LANG = {
   amount: 'Stake',
   amountByStakes: 'Single Bet Price',
   manualBetPlaceHolderSEA: `Please type your bets here or upload a txt file. The format is per sample below :\n\nNOTE:  You can use "," or ";" or "<Space>" or new line to separate the numbers you are betting.`,
+  manualBetAmountIntegerPlaceHolderSEA: 'Single bet format: Number@Amount (Please input the amount as an integer)',
 
   defaultMode: 'Default Mode',
   defaultBetting: 'Default Play',

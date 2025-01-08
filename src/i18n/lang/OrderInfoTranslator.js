@@ -2,7 +2,7 @@ import _find from 'lodash/find';
 import _sortBy from 'lodash/sortBy';
 import _compact from 'lodash/compact';
 import { PlayMenu } from '../configs/basic_play_menu';
-import { i18nWithLang, getLang } from './i18n-key-finder';
+import { i18nWithLang } from './i18n-key-finder';
 
 const commaConfig = {
   items: [
@@ -69,6 +69,11 @@ const commaConfig = {
     PlayMenu.SUPER_SYSTEM_5,
     PlayMenu.GRAND_SYSTEM_5,
     PlayMenu.ULTRA_SYSTEM_5,
+
+    // Marble SEA PK10 
+    PlayMenu.SEA_PK10_RANK,
+    PlayMenu.SEA_PK10_BS,
+    PlayMenu.SEA_PK10_OE,
   ],
 };
 
@@ -446,6 +451,16 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.Hoo_Hey_How_Main_VBC
       ],
       getText: (content) => i18n(`vbc.${VBC[content]}`),
+    },
+  };
+
+  // CLR color game
+  const CLRTranslator = {
+    'CLR_Main': {
+      items: [
+        PlayMenu.CLR_Main
+      ],
+      getText: (content) => i18n(`ball.clr.${content}`),
     },
   };
 
@@ -1889,13 +1904,13 @@ function getOrderInfoTranslatorList(lang) {
       items: [
         PlayMenu.All_Same_3_SEAK3,
       ],
-      getText: (content) => i18n(`playId.${PlayMenu.All_Same_3_SEAK3}`),
+      getText: () => i18n(`playId.${PlayMenu.All_Same_3_SEAK3}`),
     },
     SEAK3_ALL_SEQUENCE: {
       items: [
         PlayMenu.All_Sequence_SEAK3,
       ],
-      getText: (content) => i18n(`playId.${PlayMenu.All_Sequence_SEAK3}`),
+      getText: () => i18n(`playId.${PlayMenu.All_Sequence_SEAK3}`),
     },
     SEAK3_BSOE: {
       items: [
@@ -1904,6 +1919,35 @@ function getOrderInfoTranslatorList(lang) {
       getText: (content) => i18n(`ball.lotto5D.${LOTTO_5D_KEY.BSOE[content]}`),
     },
   };
+
+  const SEAPK10Translator = {
+    SEAPK10_RANK: {
+      items: [
+        PlayMenu.SEA_PK10_RANK,
+      ],
+      getText: (content) => {
+        const data = content.split(',');
+        return `${i18n(`marble_pk10Ranking.${data[0]}`)} @ ${data[1]}`;
+      }
+    },
+    SEAPK10_BSOE: {
+      items: [
+        PlayMenu.SEA_PK10_BS,
+        PlayMenu.SEA_PK10_OE,
+      ],
+      getText: (content) => {
+        const data = content.split(',');
+
+        const ballI18n = {
+          0: 'ball.marble_PK10_BSOE.big',
+          1: 'ball.marble_PK10_BSOE.small',
+          2: 'ball.marble_PK10_BSOE.odd',
+          3: 'ball.marble_PK10_BSOE.even',
+        }[data[1]];
+        return `${i18n(`marble_pk10Ranking.${data[0]}`)} @ ${i18n(ballI18n)}`;
+      },
+    },
+  }
 
   const NNPTranslator = {
     NNP: {
@@ -2373,6 +2417,8 @@ function getOrderInfoTranslatorList(lang) {
     },
 
     ...VBCTranslator,
+    // color game, mini-game
+    ...CLRTranslator,
     ...BCRTranslator,
     ...VXDTranslator,
     ...PK10Translator,
@@ -2392,6 +2438,7 @@ function getOrderInfoTranslatorList(lang) {
     ...SEAK3Translator,
     ...SeaTranslator,
     ...NNPTranslator,
+    ...SEAPK10Translator
   };
 
   return OrderInfoTranslatorList;

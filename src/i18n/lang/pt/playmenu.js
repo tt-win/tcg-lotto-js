@@ -733,6 +733,10 @@ const PlayMenu = {
     2892: 'Par de jogadores',
     2893: 'Super Seis',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // Wingo-Level:1
 
     3060: 'Contagem de corridas', // SEA Wingo 跑数
@@ -792,12 +796,29 @@ const PlayMenu = {
     3087: 'Soma Grande Pequeno Ímpar Par', // SEA SEAK3 大小單雙
     3089: '2 escolhas únicas com o mesmo número', // SEA SEAK3 2同号单选
     3090: '2 seleções com o mesmo número', // SEA SEAK3 2同号复选
-    3092: '3同号单选 ', // SEA SEAK3 3同号单选
+    3092: 'Seleção única de 3 números iguais ', // SEA SEAK3 3同号单选
     3093: '3 números iguais selecionados', // SEA SEAK3 3同号通选
     3095: 'Contínuo', // SEA SEAK3 全順
     3096: '3 diferentes', // SEA SEAK3 3不同
     3097: '2 diferentes', // SEA SEAK3 2不同
 
+    // SEAPK10-Level:1
+
+    3100: 'Classificação', // SEA SEAPK10 第1-10名排名
+    3101: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3102: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:2
+
+    3103: 'Classificação', // SEA SEAPK10 第1-10名排名
+    3104: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3105: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:3
+
+    3106: 'Classificação', // SEA SEAPK10 排名
+    3107: 'Grande/Pequeno', // SEA SEAPK10 大小
+    3108: 'Ímpar/Mesmo', // SEA SEAPK10 單雙
   },
 };
 

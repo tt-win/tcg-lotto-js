@@ -1,4 +1,4 @@
-import { getPlayName, i18nOrderInfo, i18n } from './lott-translator';
+import { getPlayName, i18nOrderInfo, i18n, i18nWithLang } from './lott-translator';
 
 module.exports = {
   translatePlayName(playId, playCode, bettingContent = '') {
@@ -24,5 +24,13 @@ module.exports = {
       return '';
     }
     return i18n(`gameGroupCode.${key}`);
+  },
+  // key: i18nkey, args[]: option insert value
+  translateLottJsi18n(key, ...args) {
+    return i18n(key, ...args);
+  },
+  // lang: lotto language key ,key: i18nkey, args[]: option insert value
+  translateLottJsi18nWithLang(lang, key, ...args) {
+    return i18nWithLang(lang, key, ...args);
   },
 };

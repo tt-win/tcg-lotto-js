@@ -340,8 +340,6 @@ export const PlayMenu = {
   P5First2Straight_LF_Single: 115,
   All5Straight_LF: 2879,
   All5Straight_LF_Single: 2880,
-  P5First4Straight_LF: 2883,
-  P5First4Straight_LF_Single: 2884,
   P5Last4Straight_LF: 2887,
   P5Last4Straight_LF_Single: 2888,
 
@@ -1596,6 +1594,9 @@ export const PlayMenu = {
   Hoo_Hey_How_VBC: 2733,
   Hoo_Hey_How_Main_VBC: 2734,
 
+  // Color Game
+  CLR_Main: 3059,
+
   // PCSO
   Straight_2D_PLAY: 2858,
   Rambolito: 2860,
@@ -1738,4 +1739,22 @@ export const PlayMenu = {
   'All_Sequence_SEAK3': 3095, // SEA SEAK3 全順
   'Different_3_SEAK3': 3096, // SEA SEAK3 3不同
   'Different_2_SEAK3': 3097, // SEA SEAK3 2不同
+
+  // SEAPK10-Level:1
+
+  'RANK_SEAPK10': 3100, // SEA SEAPK10 第1-10名排名
+  'BS_SEAPK10': 3101, // SEA SEAPK10 第1-10名大小
+  'OE_SEAPK10': 3102, // SEA SEAPK10 第1-10名單雙
+
+  // SEAPK10-Level:2
+
+  'RANK_SEAPK10_SECOND_LAYER': 3103, // SEA SEAPK10 第1-10名排名
+  'BS_SEAPK10_SECOND_LAYER': 3104, // SEA SEAPK10 第1-10名大小
+  'OE_SEAPK10_SECOND_LAYER': 3105, // SEA SEAPK10 第1-10名單雙
+
+  // SEAPK10-Level:3
+
+  'SEA_PK10_RANK': 3106, // SEA SEAPK10 排名
+  'SEA_PK10_BS': 3107, // SEA SEAPK10 大小
+  'SEA_PK10_OE': 3108, // SEA SEAPK10 單雙
 };

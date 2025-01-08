@@ -748,6 +748,10 @@ const PlayMenu = {
     2892: 'គូអ្នកលេង',
     2893: 'Super Six',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // Wingo-Level:1
 
     3060: 'លេខរត់', // SEA Wingo 跑数
@@ -812,6 +816,24 @@ const PlayMenu = {
     3095: 'បញ្ជាក់', // SEA SEAK3 全順
     3096: '3ខុសគ្នា', // SEA SEAK3 3不同
     3097: '2ខុសគ្នា', // SEA SEAK3 2不同
+
+    // SEAPK10-Level:1
+
+    3100: 'ចំណាត់ថ្នាក់', // SEA SEAPK10 第1-10名排名
+    3101: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3102: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:2
+
+    3103: 'ចំណាត់ថ្នាក់', // SEA SEAPK10 第1-10名排名
+    3104: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3105: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:3
+
+    3106: 'ចំណាត់ថ្នាក់', // SEA SEAPK10 排名
+    3107: 'Big/Small', // SEA SEAPK10 大小
+    3108: 'Odd/Even', // SEA SEAPK10 單雙
   },
 };
 

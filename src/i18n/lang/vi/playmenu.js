@@ -550,7 +550,7 @@ const PlayMenu = {
     2097: '3 Càng Đặc Biệt', // 上正三位数 Last_3_Straight_1st_VNC
     2099: 'Xiên 3 Đặc Biệt', // 上反三位数 Last_3_Combine_1st_VNC
     2102: 'Đề Đặc Biệt', // 上正二位数 Last_2_Straight_1st_VNC
-    2104: 'ĐỀ ĐUÔI GIẢI NHẤT', // 下正二位数 Last_2_Straight_2nd_VNC
+    2104: 'Đề Giải Nhất', // 下正二位数 Last_2_Straight_2nd_VNC
     2107: 'Xiên Đặc Biệt', // 上跑两位数 Last_2_Any_1st_VNC
     2109: 'Xiên Giải Nhất', // 下跑两位数 Last_2_Any_2nd_VNC
 
@@ -637,8 +637,8 @@ const PlayMenu = {
 
     2279: 'Đề Đặc Biệt - Chọn Số', // 上正二位数(复式) Last_2_Straight_1st_VNC_Multi
     2280: 'Đề Đặc Biệt - Nhập Số', // 上正二位数（单式）Last_2_Straight_1st_VNC_Single
-    2281: 'ĐỀ ĐUÔI GIẢI NHẤT- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
-    2282: 'ĐỀ ĐUÔI GIẢI NHẤT - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
+    2281: 'Đề Giải Nhất- Chọn Số', // 下正二位数（复式）Last_2_Straight_2nd_VNC_Multi
+    2282: 'Đề Giải Nhất - Nhập Số', // 下正二位数（单式）Last_2_Straight_2nd_VNC_Single
 
     2863: 'Rambolito3', // 三星組3
     2864: 'Rambolito6', // 三星組6
@@ -738,6 +738,10 @@ const PlayMenu = {
     2892: 'Người Chơi đôi',
     2893: 'Super 6',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // Wingo-Level:1
 
     3060: 'Số lần chạy', // SEA Wingo 跑数
@@ -765,15 +769,14 @@ const PlayMenu = {
 
     3070: 'Chọn Trực Tiếp Lớn Nhỏ Lẻ Chẵn', // SEA 5D 大小单双
     3078: 'ĐOÁN MÀU', // SEA 5D 直选
-    
-    // 5D-Level:3
-    
-    3071: 'Tổng của lớn/nhỏ lẻ/chẵn', // SEA 5D 和值
-    3072: 'Vị trí A ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第一球
-    3073: 'Vị trí B ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第二球
-    3074: 'Vị trí C ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第三球
-    3075: 'Vị trí D ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第四球
-    3076: 'Vị trí E ,L ớn/Nhỏ,Lẻ/Chẵn', // SEA 5D 第五球
+
+    // 5D-Level:3    
+    3071: 'Tổng của TÀI/XỈU,LẺ/CHẴN', // SEA 5D 和值
+    3072: 'Vị trí A ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第一球
+    3073: 'Vị trí B ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第二球
+    3074: 'Vị trí C ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第三球
+    3075: 'Vị trí D ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第四球
+    3076: 'Vị trí E ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第五球
     3079: 'Lựa chọn số vị trí A', // SEA 5D 第一球
     3080: 'Lựa chọn số vị trí B', // SEA 5D 第二球
     3081: 'Lựa chọn số vị trí C', // SEA 5D 第三球
@@ -794,7 +797,7 @@ const PlayMenu = {
     // SEAK3-Level:3
 
     3086: 'Tích hợp', // SEA SEAK3 和值
-    3087: 'Tổng của lớn/nhỏ lẻ/chẵn', // SEA SEAK3 大小單雙
+    3087: 'Tổng của TÀI/XỈU,LẺ/CHẴN', // SEA SEAK3 大小單雙
     3089: 'Chọn một cặp số giống nhau', // SEA SEAK3 2同号单选
     3090: 'Chọn lại một cặp số giống nhau', // SEA SEAK3 2同号复选
     3092: 'Chọn ba số giống nhau', // SEA SEAK3 3同号单选
@@ -803,6 +806,23 @@ const PlayMenu = {
     3096: 'Ba số khác nhau', // SEA SEAK3 3不同
     3097: 'Hai số khác nhau', // SEA SEAK3 2不同
 
+    // SEAPK10-Level:1
+
+    3100: 'xếp hạng', // SEA SEAPK10 第1-10名排名
+    3101: '1-10 TàiXỉu', // SEA SEAPK10 第1-10名大小
+    3102: '1-10 LẻChẵn', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:2
+
+    3103: 'xếp hạng', // SEA SEAPK10 第1-10名排名
+    3104: '1-10 TàiXỉu', // SEA SEAPK10 第1-10名大小
+    3105: '1-10 LẻChẵn', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:3
+
+    3106: 'xếp hạng', // SEA SEAPK10 排名
+    3107: 'Tài/Xỉu', // SEA SEAPK10 大小
+    3108: 'Lẻ/Chẵn', // SEA SEAPK10 單雙
   },
 };
 

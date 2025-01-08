@@ -750,6 +750,10 @@ const PlayMenu = {
     2892: '플레이어 페어',
     2893: '슈퍼 식스',
 
+    // BCB
+    3098: 'BCB',
+    3099: 'BCB',
+
     // PCSO play group
     2858: 'Straight',
     2860: 'Rambolito',
@@ -888,6 +892,24 @@ const PlayMenu = {
     3095: '연속', // SEA SEAK3 全順
     3096: '3 다른', // SEA SEAK3 3不同
     3097: '2 다름', // SEA SEAK3 2不同
+
+    // SEAPK10-Level:1
+
+    3100: '랭킹', // SEA SEAPK10 第1-10名排名
+    3101: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3102: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:2
+
+    3103: '랭킹', // SEA SEAPK10 第1-10名排名
+    3104: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
+    3105: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+
+    // SEAPK10-Level:3
+
+    3106: '랭킹', // SEA SEAPK10 排名
+    3107: '빅/스몰', // SEA SEAPK10 大小
+    3108: '홀수/짝수', // SEA SEAPK10 單雙
   },
 };
 
