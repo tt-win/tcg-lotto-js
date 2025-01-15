@@ -117,6 +117,8 @@ export const videoType = [
   'HORSE', // PK10 賽馬
   'DICE_CUP', // K3 骰盅
   'LIVE_STREAM', // 新加坡六合彩
+  'CRAZY_BALL_STREAMING', // 瘋狂球視頻
+  'CRAZY_BALL', // 瘋狂球
 ];
 
 // 開獎補償(秒)
