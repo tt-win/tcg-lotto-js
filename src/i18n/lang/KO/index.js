@@ -255,11 +255,11 @@ const LANG = {
     TL6D: "TL6D",
     TL2D: "TL2D",
     TL2D37: 'TL2D37',
-    TL642:  "TL642",
-    TL645:	"TL645",
-    TL649:	"TL649",
-    TL655:	"TL655",
-    TL658:	"TL658",
+    TL642: "TL642",
+    TL645: "TL645",
+    TL649: "TL649",
+    TL655: "TL655",
+    TL658: "TL658",
     VXD: 'VXD',
     VBC: 'VBC',
     NNP: "NNP",
@@ -295,20 +295,20 @@ const LANG = {
     BCR_SUPER_SIX_2: '뱅커의 투 카드, 6점 차로 승리',
     BCR_SUPER_SIX_3: '뱅커의 쓰리 카드, 6점 차로 승리',
 
-     // BCB
-     P_BCB_BANKER: 'Banker',
-     P_BCB_PLAYER: 'Player',
-     P_BCB_TIE_2: 'Tie 2',
-     P_BCB_TIE_3: 'Tie 3',
-     P_BCB_TIE_4: 'Tie 4',
-     P_BCB_TIE_5: 'Tie 5',
-     P_BCB_TIE_6: 'Tie 6',
-     P_BCB_TIE_7: 'Tie 7',
-     P_BCB_TIE_8: 'Tie 8',
-     P_BCB_TIE_9: 'Tie 9',
-     P_BCB_TIE_10: 'Tie 10',
-     P_BCB_TIE_11: 'Tie 11',
-     P_BCB_TIE_12: 'Tie 12',
+    // BCB
+    P_BCB_BANKER: 'Banker',
+    P_BCB_PLAYER: 'Player',
+    P_BCB_TIE_2: 'Tie 2',
+    P_BCB_TIE_3: 'Tie 3',
+    P_BCB_TIE_4: 'Tie 4',
+    P_BCB_TIE_5: 'Tie 5',
+    P_BCB_TIE_6: 'Tie 6',
+    P_BCB_TIE_7: 'Tie 7',
+    P_BCB_TIE_8: 'Tie 8',
+    P_BCB_TIE_9: 'Tie 9',
+    P_BCB_TIE_10: 'Tie 10',
+    P_BCB_TIE_11: 'Tie 11',
+    P_BCB_TIE_12: 'Tie 12',
 
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',
@@ -513,7 +513,7 @@ const LANG = {
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '현재 복권은 판매되지 않습니다. 나중에 다시 시도해주세요.',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: '이미 베팅 한도 금액이 재고를 초과했습니다.',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: '베팅 말뚝이 한도 초과',
-//  VN
+    //  VN
     ORDER_ALREADY_CANCELED: 'The bet has been cancelled.',
     STAKES_IS_OVER_LIMIT_ERROR: '베팅 말뚝이 한도 초과',
     BALANCE_NOT_ENOUGH_ERROR: '잔액 부족',
@@ -553,6 +553,7 @@ const LANG = {
     CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: '이미 베팅 한도 금액이 재고를 초과했습니다.',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: '최대치를 초과하였습니다 > %@',
     PRICE_BETTING_NOT_VALID_ERROR: "플레이어 로또 설정 매개변수 오류",
+    LGS_BETTING_AMOUNT_LESS_THAN_MINIMUM_ERROR: '이 게임의 최소 베팅 금액은 다음 이하일 수 없습니다:',
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
     BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
@@ -573,8 +574,8 @@ const LANG = {
   prize: '배당',
   amount: '금액',
   manualBetPlaceHolderSEA: `텍스트 파일을 가져오려면 파일을 열거나 외부 데이터 범위로 텍스트 파일을 가져올 수 있습니다.\n` +
-      `갈라진사용 되는 가지 텍스트 파일 형식은 다음과 같습니다 TXT 파일.  참고:   차별 " , "  및 " ; "   및   "<우주 >" 열을 가져오거나 있습니다.\n` +
-      `보기를 들어 설명하다`,
+    `갈라진사용 되는 가지 텍스트 파일 형식은 다음과 같습니다 TXT 파일.  참고:   차별 " , "  및 " ; "   및   "<우주 >" 열을 가져오거나 있습니다.\n` +
+    `보기를 들어 설명하다`,
   manualBetAmountIntegerPlaceHolderSEA: '개별 베팅 형식: 숫자@금액 (금액은 정수로 입력해 주세요)',
 
   detail: '베팅 정보',
