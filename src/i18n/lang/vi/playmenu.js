@@ -768,10 +768,10 @@ const PlayMenu = {
     // 5D-Level:2
 
     3070: 'Chọn Trực Tiếp Lớn Nhỏ Lẻ Chẵn', // SEA 5D 大小单双
-    3078: 'ĐOÁN MÀU', // SEA 5D 直选
+    3078: 'ĐOÁN SỐ', // SEA 5D 直选
 
-    // 5D-Level:3    
-    3071: 'Tổng của TÀI/XỈU,LẺ/CHẴN', // SEA 5D 和值
+    // 5D-Level:3
+    3071: 'Cược SUM ( Tổng của kết quả )', // SEA 5D 和值
     3072: 'Vị trí A ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第一球
     3073: 'Vị trí B ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第二球
     3074: 'Vị trí C ,TÀI/XỈU,LẺ/CHẴN', // SEA 5D 第三球
@@ -796,15 +796,15 @@ const PlayMenu = {
 
     // SEAK3-Level:3
 
-    3086: 'Tích hợp', // SEA SEAK3 和值
-    3087: 'Tổng của TÀI/XỈU,LẺ/CHẴN', // SEA SEAK3 大小單雙
-    3089: 'Chọn một cặp số giống nhau', // SEA SEAK3 2同号单选
+    3086: 'Đặt TỔNG', // SEA SEAK3 和值
+    3087: 'Tài hoặc Xỉu/ Chẵn hoặc Lẻ', // SEA SEAK3 大小單雙
+    3089: 'Chọn 1 cặp số + 1 số bất kì', // SEA SEAK3 2同号单选
     3090: 'Chọn lại một cặp số giống nhau', // SEA SEAK3 2同号复选
-    3092: 'Chọn ba số giống nhau', // SEA SEAK3 3同号单选
-    3093: 'Tổng của ba số', // SEA SEAK3 3同号通选
-    3095: 'liên tục', // SEA SEAK3 全順
-    3096: 'Ba số khác nhau', // SEA SEAK3 3不同
-    3097: 'Hai số khác nhau', // SEA SEAK3 2不同
+    3092: 'Đặt bộ 3 số giống nhau', // SEA SEAK3 3同号单选
+    3093: 'Đặt bộ 3 số giống nhau bất kì', // SEA SEAK3 3同号通选
+    3095: 'Đặt 3 số khác nhau liền kề', // SEA SEAK3 全順
+    3096: 'Đặt 3 số khác nhau', // SEA SEAK3 3不同
+    3097: 'Đặt 2 số khác nhau', // SEA SEAK3 2不同
 
     // SEAPK10-Level:1
 
