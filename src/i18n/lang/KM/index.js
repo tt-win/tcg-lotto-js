@@ -356,11 +356,11 @@ const LANG = {
     TL6D: "TL6D",
     TL2D: "TL2D",
     TL2D37: 'TL2D37',
-    TL642:  "TL642",
-    TL645:	"TL645",
-    TL649:	"TL649",
-    TL655:	"TL655",
-    TL658:	"TL658",
+    TL642: "TL642",
+    TL645: "TL645",
+    TL649: "TL649",
+    TL655: "TL655",
+    TL658: "TL658",
     VXD: 'VXD',
     VBC: 'VBC',
     NNP: "NNP",
@@ -395,20 +395,20 @@ const LANG = {
     BCR_SUPER_SIX_2: 'សន្លឹកបៀពីរសន្លឹករបស់ Banker ឈ្នះ 6 ពិន្ទុ។',
     BCR_SUPER_SIX_3: 'សន្លឹកបៀបីសន្លឹករបស់ Banker ឈ្នះ 6 ពិន្ទុ។',
 
-     // BCB
-     P_BCB_BANKER: 'Banker',
-     P_BCB_PLAYER: 'Player',
-     P_BCB_TIE_2: 'Tie 2',
-     P_BCB_TIE_3: 'Tie 3',
-     P_BCB_TIE_4: 'Tie 4',
-     P_BCB_TIE_5: 'Tie 5',
-     P_BCB_TIE_6: 'Tie 6',
-     P_BCB_TIE_7: 'Tie 7',
-     P_BCB_TIE_8: 'Tie 8',
-     P_BCB_TIE_9: 'Tie 9',
-     P_BCB_TIE_10: 'Tie 10',
-     P_BCB_TIE_11: 'Tie 11',
-     P_BCB_TIE_12: 'Tie 12',
+    // BCB
+    P_BCB_BANKER: 'Banker',
+    P_BCB_PLAYER: 'Player',
+    P_BCB_TIE_2: 'Tie 2',
+    P_BCB_TIE_3: 'Tie 3',
+    P_BCB_TIE_4: 'Tie 4',
+    P_BCB_TIE_5: 'Tie 5',
+    P_BCB_TIE_6: 'Tie 6',
+    P_BCB_TIE_7: 'Tie 7',
+    P_BCB_TIE_8: 'Tie 8',
+    P_BCB_TIE_9: 'Tie 9',
+    P_BCB_TIE_10: 'Tie 10',
+    P_BCB_TIE_11: 'Tie 11',
+    P_BCB_TIE_12: 'Tie 12',
 
     // 魚蝦蟹
     VBC_SINGLE_DICE_1: 'ONE DICE',
@@ -614,7 +614,7 @@ const LANG = {
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'ឆ្នោតបច្ចុប្បន្នមិនទាន់មានលក់នៅឡើយទេ សូមសាកល្បងម្ដងទៀតបន្ទាប់មក។',
     LGS_MERCHANT_ITEM_BETTING_AMOUNT_OVER_LIMITS: 'ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     BETTING_STAKES_IS_OVER_LIMIT_STAKES: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ',
-//  VN
+    //  VN
     ORDER_ALREADY_CANCELED: 'បញ្ជាទិញ-គី-បោះបង់',
     STAKES_IS_OVER_LIMIT_ERROR: 'ចំនួនកំណត់ចំណាំបានលើសដែនកំណត់ខាងលើ',
     BALANCE_NOT_ENOUGH_ERROR: 'ទឹកប្រាក់មិនគ្រប់គ្រាន់',
@@ -654,6 +654,7 @@ const LANG = {
     CHASE_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'ឈានដល់ចំនួនទឹកប្រាក់ភ្នាល់អតិបរមាដែលអនុញ្ញាតឱ្យលក់នៅក្នុងសារពើភ័ណ្ឌបច្ចុប្បន្ន។',
     LGS_ITEM_BETTING_AMOUNT_OVER_LIMITS_SEA: 'ការភ្នាល់បរាជ័យចំនួនភ្នាល់លើសចំនួនអតិបរមា > %@',
     PRICE_BETTING_NOT_VALID_ERROR: "កំហុស​ការ​កំណត់​ទំនិញ​ឆ្លើយ​បញ្",
+    LGS_BETTING_AMOUNT_LESS_THAN_MINIMUM_ERROR: 'ចំនួនប្រាក់ភ្នាល់អប្បបរមាសម្រាប់ការលេងនេះមិនអាចតិចជាង៖',
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
     BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
@@ -678,7 +679,7 @@ const LANG = {
   prize: 'ហាងឆេង',
   amount: 'ចំនួនភ្នាល់',
   manualBetPlaceHolderSEA: `ចំណាំនីមួយៗអាចត្រូវបានបំបែកដោយកូនសោបញ្ជាក់, ចន្លោះ [], ក្បៀស [,] ឬសញ្ញាក្បៀស [;]\n` +
-      `សូមនាំចូលឯកសារ TXT ថតចម្លងឬបញ្ចូលទម្រង់គាំទ្រដូចខាងក្រោម៖`,
+    `សូមនាំចូលឯកសារ TXT ថតចម្លងឬបញ្ចូលទម្រង់គាំទ្រដូចខាងក្រោម៖`,
   manualBetAmountIntegerPlaceHolderSEA: 'ទ្រង់ទ្រាយប្រភេទការផ្ទុកពីរ: លេខ@ចំនួន (សូមបញ្ចូលចំនួនជាលេខគត់)',
 
   multiple: 'ច្រើន',
