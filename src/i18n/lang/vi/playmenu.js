@@ -799,7 +799,7 @@ const PlayMenu = {
     3086: 'Đặt TỔNG', // SEA SEAK3 和值
     3087: 'Tài hoặc Xỉu/ Chẵn hoặc Lẻ', // SEA SEAK3 大小單雙
     3089: 'Chọn 1 cặp số + 1 số bất kì', // SEA SEAK3 2同号单选
-    3090: 'Chọn lại một cặp số giống nhau', // SEA SEAK3 2同号复选
+    3090: 'Chọn 1 cặp số giống nhau', // SEA SEAK3 2同号复选
     3092: 'Đặt bộ 3 số giống nhau', // SEA SEAK3 3同号单选
     3093: 'Đặt bộ 3 số giống nhau bất kì', // SEA SEAK3 3同号通选
     3095: 'Đặt 3 số khác nhau liền kề', // SEA SEAK3 全順
