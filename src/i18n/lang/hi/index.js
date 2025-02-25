@@ -337,6 +337,15 @@ const LANG = {
     evenFull: 'Even',
   },
 
+  marblePK10Roadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+    bigSmall: 'B/S',
+    oddEven: 'O/E'
+  },
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11 में से 5 चुनें',

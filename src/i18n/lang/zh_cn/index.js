@@ -521,6 +521,15 @@ const LANG = {
     evenFull: '双',
   },
 
+  marblePK10Roadmap: {
+    big: '大',
+    small: '小',
+    odd: '单',
+    even: '双',
+    bigSmall: '大/小',
+    oddEven: '单/双'
+  },
+
   gameGroupCode: {
     SSC: '时时彩',
     '11X5': '十一选五',
