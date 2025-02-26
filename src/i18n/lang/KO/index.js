@@ -92,6 +92,12 @@ const LANG = {
       odd: '홀수',
       even: '짝수',
     },
+    MARBLE_PK10_BSOE: {
+      big: '빅',
+      small: '스몰',
+      odd: '홀수',
+      even: '짝수',
+    },
     VNC_PK10_DragonTiger: {
       dragonTiger: 'Dragon&Tiger',
     },
@@ -233,7 +239,11 @@ const LANG = {
     odd: 'O',
     even: 'E',
     bigSmall: 'B/S',
-    oddEven: 'O/E'
+    oddEven: 'O/E',
+    bigTranslated: 'Big',
+    smallTranslated: 'Small',
+    oddTranslated: 'Odd',
+    evenTranslated: 'Even',
   },
 
   gameGroupCode: {

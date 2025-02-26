@@ -119,6 +119,12 @@ const LANG = {
       odd: 'Lẻ',
       even: 'Chẵn',
     },
+    MARBLE_PK10_BSOE: {
+      big: 'Tài',
+      small: 'Xỉu',
+      odd: 'Lẻ',
+      even: 'Chẵn',
+    },
     VNC_PK10_DragonTiger: {
       dragon: 'Rồng',
       tiger: 'Hổ',

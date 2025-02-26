@@ -203,6 +203,12 @@ const LANG = {
       odd: '单',
       even: '双',
     },
+    MARBLE_PK10_BSOE: {
+      big: '大',
+      small: '小',
+      odd: '单',
+      even: '双',
+    },
     VNC_PK10_DragonTiger: {
       dragon: '龙',
       tiger: '虎',

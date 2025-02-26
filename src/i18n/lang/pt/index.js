@@ -60,6 +60,12 @@ const LANG = {
       odd: 'Ímpar',
       even: 'Mesmo',
     },
+    MARBLE_PK10_BSOE: {
+      big: 'Grande',
+      small: 'Pequeno',
+      odd: 'Ímpar',
+      even: 'Mesmo',
+    },
     VNC_PK10_DragonTiger: {
       dragon: 'Dragão',
       tiger: 'Tigre',
@@ -280,7 +286,11 @@ const LANG = {
     odd: 'O',
     even: 'E',
     bigSmall: 'B/S',
-    oddEven: 'O/E'
+    oddEven: 'O/E',
+    bigTranslated: 'Big',
+    smallTranslated: 'Small',
+    oddTranslated: 'Odd',
+    evenTranslated: 'Even',
   },
 
   gameGroupCode: {
