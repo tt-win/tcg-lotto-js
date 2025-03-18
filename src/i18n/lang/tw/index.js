@@ -159,6 +159,15 @@ const LANG = {
     evenFull: '雙',
   },
 
+  marblePK10Roadmap: {
+    big: '大',
+    small: '小',
+    odd: '單',
+    even: '雙',
+    bigSmall: '大/小',
+    oddEven: '單/雙'
+  },
+
   // TODO i18n
   errorCode: {
     LGS_BETTING_GAME_CLOSED_ERROR: '投注彩種已關閉',
@@ -428,6 +437,12 @@ const LANG = {
       even: '雙',
     },
     PK10_BSOE: {
+      big: '大',
+      small: '小',
+      odd: '單',
+      even: '雙',
+    },
+    MARBLE_PK10_BSOE: {
       big: '大',
       small: '小',
       odd: '單',

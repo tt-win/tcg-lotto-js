@@ -203,6 +203,12 @@ const LANG = {
       odd: '单',
       even: '双',
     },
+    MARBLE_PK10_BSOE: {
+      big: '大',
+      small: '小',
+      odd: '单',
+      even: '双',
+    },
     VNC_PK10_DragonTiger: {
       dragon: '龙',
       tiger: '虎',
@@ -519,6 +525,15 @@ const LANG = {
     tripleFull: '豹子',
     oddFull: '单',
     evenFull: '双',
+  },
+
+  marblePK10Roadmap: {
+    big: '大',
+    small: '小',
+    odd: '单',
+    even: '双',
+    bigSmall: '大/小',
+    oddEven: '单/双'
   },
 
   gameGroupCode: {

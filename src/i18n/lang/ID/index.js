@@ -90,6 +90,12 @@ const LANG = {
       odd: 'Ganjil',
       even: 'Genap',
     },
+    MARBLE_PK10_BSOE: {
+      big: 'Besar',
+      small: 'Kecil',
+      odd: 'Ganjil',
+      even: 'Genap',
+    },
     VNC_PK10_DragonTiger: {
       dragon: 'Dragon',
       tiger: 'Tiger',
@@ -296,6 +302,19 @@ const LANG = {
     tripleFull: 'Triple',
     oddFull: 'Odd',
     evenFull: 'Even',
+  },
+
+  marblePK10Roadmap: {
+    big: 'B',
+    small: 'S',
+    odd: 'O',
+    even: 'E',
+    bigSmall: 'B/S',
+    oddEven: 'O/E',
+    bigTranslated: 'Big',
+    smallTranslated: 'Small',
+    oddTranslated: 'Odd',
+    evenTranslated: 'Even',
   },
 
   gameGroupCode: {
