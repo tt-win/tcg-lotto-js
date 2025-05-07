@@ -2457,6 +2457,8 @@ const LANG = {
     P_SEAK3_SINGLE_SAME_THREE: '3同號單選',
     P_SEAK3_DIFFERENT_TWO: '2不同',
     P_SEAK3_DIFFERENT_THREE: '3不同',
+
+    MINES: 'Mines',
   },
   longDragon: '長龍投注',
   longDragonLott: '彩種類型',

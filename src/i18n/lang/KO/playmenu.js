@@ -855,9 +855,9 @@ const PlayMenu = {
 
     3070: '직선 선택 대 소 홀 짝', // SEA 5D 大小单双
     3078: '번호 선택', // SEA 5D 直选
-    
+
     // 5D-Level:3
-    
+
     3071: '총합 크기 작은 홀수 짝수', // SEA 5D 和值
     3072: '위치 A 크기 홀짝', // SEA 5D 第一球
     3073: '위치 B 크기 홀짝', // SEA 5D 第二球
@@ -910,6 +910,12 @@ const PlayMenu = {
     3106: '랭킹', // SEA SEAPK10 排名
     3107: '빅/스몰', // SEA SEAPK10 大小
     3108: '홀수/짝수', // SEA SEAPK10 單雙
+
+    // mini game mines
+
+    3109: 'MINES',
+    3110: 'MINES',
+    3111: 'MINES',
   },
 };
 

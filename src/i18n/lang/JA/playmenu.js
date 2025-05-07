@@ -51,7 +51,7 @@ const PlayMenu = {
 
     // 一級選單
 
-    2647: 'Pick', // 任選 - 一級選單 Any_KENO 
+    2647: 'Pick', // 任選 - 一級選單 Any_KENO
     2656: 'Combinations', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單
@@ -101,9 +101,9 @@ const PlayMenu = {
 
     3070: 'ダイレクト選択大小奇偶', // SEA 5D 大小单双
     3078: '番号選択', // SEA 5D 直选
-    
+
     // 5D-Level:3
-    
+
     3071: '合計大小奇偶', // SEA 5D 和值
     3072: '位置Aの大小奇偶', // SEA 5D 第一球
     3073: '位置Bの大小奇偶', // SEA 5D 第二球
@@ -156,6 +156,12 @@ const PlayMenu = {
     3106: 'ランキング', // SEA SEAPK10 排名
     3107: '大/小', // SEA SEAPK10 大小
     3108: '奇/偶', // SEA SEAPK10 單雙
+
+    // mini game mines
+
+    3109: 'Mines',
+    3110: 'Mines',
+    3111: 'Mines',
   },
 };
 

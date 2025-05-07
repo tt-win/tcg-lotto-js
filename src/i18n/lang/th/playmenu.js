@@ -835,6 +835,12 @@ const PlayMenu = {
     3106: 'การจัดอันดับ', // SEA SEAPK10 排名
     3107: 'สูง/ต่ำ', // SEA SEAPK10 大小
     3108: 'คี่/คู่', // SEA SEAPK10 單雙
+
+    // mini game mines
+
+    3109: 'Mines',
+    3110: 'Mines',
+    3111: 'Mines',
   },
 };
 

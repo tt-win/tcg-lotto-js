@@ -461,6 +461,12 @@ const PlayMenu = {
     3106: 'रैंकिंग', // SEA SEAPK10 排名
     3107: 'बड़ा/छोट', // SEA SEAPK10 大小
     3108: 'विषम/सम', // SEA SEAPK10 單雙
+
+    // mini game mines
+
+    3109: 'Mines',
+    3110: 'Mines',
+    3111: 'Mines',
   },
 };
 

@@ -729,7 +729,8 @@ const LANG = {
       '10_8': '10º Lugar - Número 8',
       '10_9': '10º Lugar - Número 9',
       '10_10': '10º Lugar - Número 10',
-    }
+    },
+    MINES: 'Mines',
   },
 };
 

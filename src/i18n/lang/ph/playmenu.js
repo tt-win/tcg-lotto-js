@@ -150,7 +150,7 @@ const PlayMenu = {
     3037: 'Lucky Pick 12', // SEA TL642 Any
 
     // TL645
-    
+
     2919: 'Lucky Pick 3', // SEA TL645 Lucky Pick 3
     2921: 'Lucky Pick 12', // SEA TL645 Lucky Pick 12
     2924: 'Straight', // SEA TL645 Straight
@@ -715,7 +715,7 @@ const PlayMenu = {
 
     // 一級選單
 
-    2647: 'Pick', // 任選 - 一級選單 Any_KENO 
+    2647: 'Pick', // 任選 - 一級選單 Any_KENO
     2656: 'Combinations', // 趣味 - 一級選單 Fun_KENO
 
     // 二級選單

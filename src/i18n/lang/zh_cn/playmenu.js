@@ -1593,6 +1593,12 @@ const PlayMenu = {
     3107: '大/小', // SEA SEAPK10 大小
     3108: '单/双', // SEA SEAPK10 單雙
 
+    // mini game mines
+
+    3109: 'Mines',
+    3110: 'Mines',
+    3111: 'Mines',
+
     null: ' ',
 
   },

@@ -352,7 +352,7 @@ const LANG = {
     bigSmall: 'B/S',
     oddEven: 'O/E'
   },
-  
+
   gameGroupCode: {
     SSC: 'SSC',
     '11X5': '11X5',
@@ -723,7 +723,8 @@ const LANG = {
       '10_8': '10th - No.8',
       '10_9': '10th - No.9',
       '10_10': '10th - No.10',
-    }
+    },
+    MINES: 'Mines',
   },
 
   seriesControlMapping: {

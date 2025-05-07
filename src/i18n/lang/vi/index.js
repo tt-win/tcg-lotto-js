@@ -620,7 +620,8 @@ const LANG = {
       '10_8': 'Hạng 10 - Số 8',
       '10_9': 'Hạng 10 - Số 9',
       '10_10': 'Hạng 10 - Số 10',
-    }
+    },
+    MINES: 'Mines',
   },
 
   // TODO i18n

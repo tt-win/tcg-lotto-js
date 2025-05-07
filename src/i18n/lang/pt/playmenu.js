@@ -764,9 +764,9 @@ const PlayMenu = {
 
     3070: 'Seleção Direta Grande Pequeno Ímpar Par', // SEA 5D 大小单双
     3078: 'Seleção de Números', // SEA 5D 直选
-    
+
     // 5D-Level:3
-    
+
     3071: 'Soma Grande Pequeno Ímpar Par', // SEA 5D 和值
     3072: 'Tamanho da Posição A Ímpar Par', // SEA 5D 第一球
     3073: 'Tamanho da Posição B Ímpar Par', // SEA 5D 第二球
@@ -819,6 +819,12 @@ const PlayMenu = {
     3106: 'Classificação', // SEA SEAPK10 排名
     3107: 'Grande/Pequeno', // SEA SEAPK10 大小
     3108: 'Ímpar/Mesmo', // SEA SEAPK10 單雙
+
+    // mini game mines
+
+    3109: 'Mines',
+    3110: 'Mines',
+    3111: 'Mines',
   },
 };
 

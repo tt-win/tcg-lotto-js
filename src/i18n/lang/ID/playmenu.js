@@ -836,6 +836,12 @@ const PlayMenu = {
     3106: 'Peringkat', // SEA SEAPK10 排名
     3107: 'Besar/Kecil', // SEA SEAPK10 大小
     3108: 'Ganjil/Genap', // SEA SEAPK10 單雙
+
+    // mini game mines
+
+    3109: 'Mines',
+    3110: 'Mines',
+    3111: 'Mines',
   },
 };
 

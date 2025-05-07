@@ -576,7 +576,8 @@ const LANG = {
       '10_8': 'Peringkat 10 - Nomor 8',
       '10_9': 'Peringkat 10 - Nomor 9',
       '10_10': 'Peringkat 10 - Nomor 10',
-    }
+    },
+    MINES: 'Mines',
   },
 
   errorCode: {
