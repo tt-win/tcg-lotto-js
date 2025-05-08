@@ -706,6 +706,7 @@ const LANG = {
     WGG: 'WGG',
     '5D': '5D',
     SEAK3: 'SEAK3',
+    MINES: 'MINES',
   },
   gameCode: {
     T2KFFC: '2000分分彩',
