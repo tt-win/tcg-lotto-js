@@ -1,8 +1,9 @@
 const { resolve } = require('path');
-const NpmCleanWebpackPlugin = require('clean-webpack-plugin');
-
-const isDev = process.env.NODE_ENV === 'development';
 const webpack = require('webpack');
+const TerserPlugin = require('terser-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const JsIncGenerator = require('./webpack.plugins.JsIncGenerator');
 
 // ----------------------------------------------------------------------------
 // plugins
@@ -14,71 +15,72 @@ const definePlugin = new webpack.DefinePlugin({
   },
 });
 
-const loaderOptionsPlugin = new webpack.LoaderOptionsPlugin({
-  options: {
-    eslint: {
-      emitWarning: true,
-    },
-    minimize: true,
+// TODO 調整生產設定
+const terserPlugin = new TerserPlugin({
+  terserOptions: {
+    safari10: true,
+    compress: true,
+    mangle: true,
   },
-});
-
-const cleanWebpackPlugin = new NpmCleanWebpackPlugin(['dist'], {
-  root: resolve(__dirname, '.'),
-  verbose: false,
-  dry: false,
-});
-
-const uglifyJsPlugin = new webpack.optimize.UglifyJsPlugin({
-  sourceMap: false,
-  exclude: /(.*\.min\.js|PIE.*js)/,
-  compress: {
-    dead_code: true,
-    warnings: false,
-  },
-  output: { comments: false },
-  dead_code: true,
-  unused: true,
 });
 
 module.exports = {
+  mode: 'production',
   entry: {
     lottTranslator: ['./src/i18n/lott-translator-export.js'],
     bettingCompress: ['./src/compress/export.js'],
   },
 
   resolve: {
-    alias: {
-      'lott-js': resolve(__dirname, './src/index'),
-    },
     extensions: ['.js', '.jsx'],
   },
 
   output: {
     path: resolve(__dirname, 'dist'),
-    filename: '[name].js',
-    libraryTarget: 'var',
-    library: '[name]',
+    filename: '[name].[contenthash:8].js',
+    library: {
+      type: 'var',
+      name: '[name]',
+    },
   },
 
   plugins: [
-    cleanWebpackPlugin,
-    uglifyJsPlugin,
-    loaderOptionsPlugin,
+    new CleanWebpackPlugin(),
     definePlugin,
-    new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.optimize.ModuleConcatenationPlugin(),
+    new JsIncGenerator(),
+    new HtmlWebpackPlugin({
+      title: 'B2B',
+      filename: 'index.html',
+      template: './src/index.html',
+      inject: 'head', // 將 script 標籤注入到 head
+      scriptLoading: 'defer', // 使用 defer
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true,
+      },
+    }),
   ],
+  optimization: {
+    minimize: true,
+    minimizer: [
+      terserPlugin,
+    ],
+  },
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/,
-        query: {
-          plugins: ['lodash'],
-          presets: ['env'],
+        options: {
+          presets: ['@babel/preset-env'],
+          plugins: [
+            'lodash',
+            ['@babel/plugin-proposal-decorators', { legacy: true }],
+            '@babel/plugin-proposal-class-properties',
+            '@babel/plugin-transform-modules-commonjs',
+          ],
         },
       },
     ],
@@ -86,5 +88,4 @@ module.exports = {
   stats: {
     colors: true,
   },
-  devtool: false,
 };

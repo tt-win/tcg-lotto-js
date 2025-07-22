@@ -104,6 +104,20 @@ module.exports = {
           presets: ['env'],
         },
       },
+      // 新增 asset 模組處理圖片、字體等
+      {
+        test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
+        type: 'asset/resource',
+      },
+      // CSS 處理
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
     ],
   },
   stats: {
