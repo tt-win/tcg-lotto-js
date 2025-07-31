@@ -334,4 +334,41 @@ export default {
     formula: 'straight',
     ballShowPosition: ballShowPosition.LAST_FOUR,
   }),
+
+  // P3P5
+  // Any2_P3P5 任二直选
+  3114: BallBoardConfigRecord({
+    ...baseLFProps,
+    betDigits: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    formula: 'any2OfSSC',
+  }),
+  // Any2Sum_P3P5 任二组选和值
+  3117: BallBoardConfigRecord({
+    ballRange: [1, 17],
+    ballDigit: 1,
+    betDigits: [betDigits.SUM],
+    formula: 'sumOf2Com',
+    canShowStakes: true,
+    canShowHotGap: false,
+    hasToolbar: false,
+    canShowManualDigits: true,
+    manualDigits: [1, 2, 3, 4, 5],
+    manualDigitsI18n: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    defaultManualDigits: [4, 5],
+    minChooseManualDigits: 2,
+    delimiter: ',',
+    forceUseDelimiter: true,
+  }),
+  // Any2Com_P3P5 任二组选
+  3118: BallBoardConfigRecord({
+    ...baseLFProps,
+    betDigits: [betDigits.COM],
+    formula: 'combine6',
+    canShowHotGap: false,
+    canShowManualDigits: true,
+    manualDigits: [1, 2, 3, 4, 5],
+    manualDigitsI18n: [betDigits.TEN_THOUSANDS, betDigits.THOUSANDS, betDigits.HUNDREDS, betDigits.TENS, betDigits.ONES],
+    defaultManualDigits: [4, 5],
+    minChooseManualDigits: 2,
+  }),
 };

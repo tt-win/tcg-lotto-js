@@ -160,6 +160,12 @@ const groupLFConfig = {
   2254: ballBoardConfigLF[2253],
   //Any4_Straight_Single_4D
   2258: ballBoardConfigLF[2257],
+
+  // P3P5
+  // Any2_P3P5_Single 任二直选（单式）
+  3115: ballBoardConfigLF[3114],
+  // Any2Com_P3P5_Single 任二组选（单式）
+  3119: ballBoardConfigLF[3118],
 };
 
 const groupPK10Config = {

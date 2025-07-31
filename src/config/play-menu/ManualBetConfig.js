@@ -372,6 +372,25 @@ const ManualBetConfigLF = {
     bitCompression: true,
     bitCompressionSize: 5000,
   }),
+
+  // P3P5
+  // Any2_P3P5_Single 任二直选（单式）
+  3115: ManualBetConfigRecord({
+    ...manualDigitsProps,
+    defaultManualDigits: [4, 5],
+    minChooseManualDigits: 2,
+    ballCount: 2,
+    anyBallCount: 5,
+  }),
+  // Any2Com_P3P5_Single 任二组选（单式）
+  3119: ManualBetConfigRecord({
+    ...manualDigitsProps,
+    defaultManualDigits: [4, 5],
+    minChooseManualDigits: 2,
+    ballCount: 2,
+    ballDelimiter: '',
+    canAllSame: false,
+  }),
 };
 
 const ManualBetConfigPK10 = {
