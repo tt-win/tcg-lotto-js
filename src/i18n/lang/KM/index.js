@@ -678,6 +678,7 @@ const LANG = {
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
     BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
+    BONUS_ON_DESIGNATED_GAMES_ILLEGAL: 'ដាក់ប្រាក់រង្វាន់របស់អ្នកភ្នាល់លើហ្គេមជាក់លាក់។ អ្នកមិនទាន់បានបំពេញលក្ខខណ្ឌភ្នាល់សម្រាប់ប្រាក់រង្វាន់ទេ។',
   },
   gameHistoryCancel: 'ប្រវត្តិល្បែងត្រូវបានលុប',
   gameHistoryCancel_success: 'ប្រវត្តិល្បែងត្រូវបានលុបដោយ-ជោគជ័យ',

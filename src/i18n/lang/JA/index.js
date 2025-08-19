@@ -280,6 +280,7 @@ const LANG = {
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: '現在、この宝くじは販売されていません。しばらくしてから再試行してください。',
     B2B_TX_FAILED: 'ベットに失敗しました。後でもう一度お試しください',
     LGS_BETTING_AMOUNT_LESS_THAN_MINIMUM_ERROR: 'このプレイの最低ベット額は次の金額未満であってはなりません：',
+    BONUS_ON_DESIGNATED_GAMES_ILLEGAL: 'ボーナスは指定されたゲームでご利用ください。申請したボーナスの賭け条件をまだ達成していません。',
   },
   gameHistoryCancel: 'ベットをキャンセルしますか？',
   gameHistoryCancel_success: 'ベットをキャンセルしました。',

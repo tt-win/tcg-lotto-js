@@ -627,6 +627,7 @@ const LANG = {
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
     BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
+    BONUS_ON_DESIGNATED_GAMES_ILLEGAL: 'Wager your bonus on designated games. You have not yet met the wagering requirement for the claimed bonus.',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'cancelled',
