@@ -683,7 +683,7 @@ const LANG = {
     LGS_BETTING_AMOUNT_LESS_THAN_MINIMUM_ERROR: 'इस खेल के लिए न्यूनतम शर्त राशि इससे कम नहीं हो सकती है:',
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
-    BONUS_ON_DESIGNATED_GAMES_ILLEGAL: 'अपने बोनस को निर्दिष्ट खेलों पर लगाएं। आपने अभी तक दावा किए गए बोनस की वैगरिंग आवश्यकता पूरी नहीं की है।',
+    CUSTOMER_NOT_ALLOW_PLAY_LOTTERY: 'अपने बोनस को निर्दिष्ट खेलों पर लगाएं। आपने अभी तक दावा किए गए बोनस की वैगरिंग आवश्यकता पूरी नहीं की है।',
   },
   gameHistoryCancel: 'Are you sure you want to cancel this ticket？',
   gameHistoryCancel_success: 'रद्द कर दिया',

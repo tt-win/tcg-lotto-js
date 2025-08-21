@@ -441,7 +441,7 @@ const LANG = {
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
     BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
-    BONUS_ON_DESIGNATED_GAMES_ILLEGAL: 'Aposte seu bônus em jogos específicos. Você ainda não cumpriu os requisitos de aposta para o bônus reivindicado.',
+    CUSTOMER_NOT_ALLOW_PLAY_LOTTERY: 'Aposte seu bônus em jogos específicos. Você ainda não cumpriu os requisitos de aposta para o bônus reivindicado.',
   },
   recentlyGames: 'Jogos de Aposta',
   gameHistoryCancel: 'Tem certeza de que deseja cancelar este tíquete？',

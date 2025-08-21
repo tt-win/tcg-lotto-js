@@ -265,7 +265,7 @@ const LANG = {
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
     BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
-    BONUS_ON_DESIGNATED_GAMES_ILLEGAL: '將您的獎金投注於特定遊戲。您尚未達到所申領獎金的投注要求。',
+    CUSTOMER_NOT_ALLOW_PLAY_LOTTERY: '將您的獎金投注於特定遊戲。您尚未達到所申領獎金的投注要求。',
   },
   // new
   bettingApproach: {

@@ -578,7 +578,7 @@ const LANG = {
     // TL swertejtf2
     SWERTEJTF2_BET_NUMBER_BETTING_AMOUNT_OVER_LIMITS_ERROR: 'SOLD OUT',
     BET_NUMBER_IS_SUSPENDED_ERROR: 'Hạn mức tối đa còn lại của các số %@. Vui lòng kiểm tra phiếu cược',
-    BONUS_ON_DESIGNATED_GAMES_ILLEGAL: '보너스를 지정된 게임에 사용하세요. 신청한 보너스의 베팅 조건을 아직 충족하지 못했습니다.',
+    CUSTOMER_NOT_ALLOW_PLAY_LOTTERY: '보너스를 지정된 게임에 사용하세요. 신청한 보너스의 베팅 조건을 아직 충족하지 못했습니다.',
   },
   drawFrequency: '추첨 빈도',
   chooseFile: '가져오려면',
