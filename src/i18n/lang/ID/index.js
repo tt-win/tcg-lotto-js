@@ -375,6 +375,10 @@ const LANG = {
     VXD_3W1R_1: '3 Putih+1 Merah',
     VXD_3R1W_1: '3 Merah+1 Putih',
 
+    Hoo_Hey_How_0: 'Ikan',
+    Hoo_Hey_How_1: 'Udang',
+    Hoo_Hey_How_2: 'Kepiting',
+
     // BCR
     BCR_BANKER_PLAYER_TIE_0: 'Bankir(Gratis)',
     BCR_BANKER_PLAYER_TIE_1: 'Bankir(Komisi)',

@@ -305,6 +305,10 @@ const LANG = {
     VXD_3W1R_1: '흰색3+빨강1',
     VXD_3R1W_1: '빨강3+흰색1',
 
+    Hoo_Hey_How_0: '물고기',
+    Hoo_Hey_How_1: '새우',
+    Hoo_Hey_How_2: '게',
+
     // BCR
     BCR_BANKER_PLAYER_TIE_0: '은행가(커미션 없음)',
     BCR_BANKER_PLAYER_TIE_1: '은행가(커미션)',

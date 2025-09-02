@@ -404,6 +404,10 @@ const LANG = {
     VXD_3W1R_1: '3 ពណ៌ស + 1 ក្រហម',
     VXD_3R1W_1: '3 ក្រហម + 1 ពណ៌ស',
 
+    Hoo_Hey_How_0: 'ត្រី',
+    Hoo_Hey_How_1: 'បង្គា',
+    Hoo_Hey_How_2: 'ក្រាប',
+
     // BCR
     BCR_BANKER_PLAYER_TIE_0: 'ធនាគារិក(គ្មានគណៈកម្មការ)',
     BCR_BANKER_PLAYER_TIE_1: 'ធនាគារិក(គណៈកម្មាការ)',

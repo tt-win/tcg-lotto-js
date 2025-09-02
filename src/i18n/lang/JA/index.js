@@ -69,6 +69,10 @@ const LANG = {
     P_SEAK3_DIFFERENT_TWO: '2つの異なるもの',
     P_SEAK3_DIFFERENT_THREE: '3つの異なるもの',
 
+    Hoo_Hey_How_0: '魚',
+    Hoo_Hey_How_1: 'エビ',
+    Hoo_Hey_How_2: 'カニ',
+
     // BCB
     P_BCB_BANKER: 'Banker',
     P_BCB_PLAYER: 'Player',

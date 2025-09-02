@@ -402,6 +402,10 @@ const LANG = {
     VXD_3W1R_1: 'เหรียญขาว 3+ เหรียญแดง 1',
     VXD_3R1W_1: 'เหรียญแดง 3+ เหรียญขาว 1',
 
+    Hoo_Hey_How_0: 'ปลา',
+    Hoo_Hey_How_1: 'กุ้ง',
+    Hoo_Hey_How_2: 'ปู',
+
     // BCR
     BCR_BANKER_PLAYER_TIE_0: 'เจ้ามือ(ไม่มีค่าใช้จ่าย)',
     BCR_BANKER_PLAYER_TIE_1: 'เจ้ามือ(ค่าใช้จ่าย)',

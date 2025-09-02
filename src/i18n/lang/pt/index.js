@@ -542,6 +542,10 @@ const LANG = {
     VXD_3W1R_1: '3 branco + 1 vermelho',
     VXD_3R1W_1: '3 vermelho + 1 branco',
 
+    Hoo_Hey_How_0: 'Peixe',
+    Hoo_Hey_How_1: 'Camarão',
+    Hoo_Hey_How_2: 'Caranguejo',
+
     // BCR
     BCR_BANKER_PLAYER_TIE_0: 'Banqueira(Sem comissão)',
     BCR_BANKER_PLAYER_TIE_1: 'Banqueira(Comissão)',

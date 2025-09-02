@@ -398,6 +398,10 @@ const LANG = {
     VXD_3W1R_1: '3 Trắng + 1 Đỏ',
     VXD_3R1W_1: '3 Đỏ + 1 Trắng',
 
+    Hoo_Hey_How_0: 'Cá',
+    Hoo_Hey_How_1: 'Tôm',
+    Hoo_Hey_How_2: 'Cua',
+
     // BCR
     BCR_BANKER_PLAYER_TIE_0: 'Nhà Cái(Miễn phí)',
     BCR_BANKER_PLAYER_TIE_1: 'Nhà Cái(Thù lao)',
