@@ -802,7 +802,7 @@ const LANG = {
     INTERNAL_SERVER_ERROR: 'System error',
     OBJECT_NOT_EXIST: 'Hindi wasto ang taya; pakisubukang muli.',
     ILLEGAL_PARAMS_VALUE: 'Hindi wasto ang taya; pakisubukang muli.',
-    BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'Multiple bets exceeded the maximum limit.',
+    BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'Lampas ang iyong multiplier sa pinahintulutang limitasyon.',
     GAME_CLOSED_ERROR: 'Lottery Closed',
     STAKES_ABOVE_LIMIT: 'Lampas sa limit ang Halaga ng Taya > %@',
     REQUEST_TIME_OUT: 'request time out, please check your internet',
@@ -896,6 +896,7 @@ const LANG = {
   },
   emptyDrawHistory: 'No Data',
   query: 'Maghanap',
+  close: 'Isara',
 };
 
 export default LANG;
