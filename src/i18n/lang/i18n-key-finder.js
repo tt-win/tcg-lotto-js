@@ -12,6 +12,7 @@ import TW from './tw';
 import PT from './pt';
 import PH from './ph';
 import HI from './hi';
+import TY from './ty';
 
 export const lang = {
   // for compatibility, both ZH_CN and CN are CN
@@ -28,6 +29,7 @@ export const lang = {
   PT,
   PH,
   HI,
+  TY,
 };
 
 const defaultLang = 'ZH_CN';
