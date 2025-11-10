@@ -764,7 +764,7 @@ const LANG = {
     ACCOUNT_TRANSFER_EXCEED_MIN: 'Minimum transfer amount is 0.01 yuan',
     UNKNOWN_ERROR: 'System error',
     CONNECTION_ERROR_: 'Ang lokasyong ginagamit mo sa pag-access ng website ay kasalukuyang pinaghihigpitan.',
-    CUSTOMER_LOGOUT_: 'You are not logged in yet, please login first!',
+    CUSTOMER_LOGOUT_: 'Hindi ka pa naka-login, pakilog-in muna!',
     DRAW_FAIL_ERROR_: 'Abala ang sistema. Nabigo ang taya.',
     NOT_SUPPORT_LANDSCAPE: 'Please use portrait mode for best experience.',
     CAN_NOT_BETTING_NOT_IN_SALE_TIME: 'The current lottery is not available for sale at the moment. Please try again later.',
