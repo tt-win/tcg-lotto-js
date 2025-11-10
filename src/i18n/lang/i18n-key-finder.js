@@ -10,7 +10,6 @@ import ID from './ID';
 import KO from './KO';
 import TW from './tw';
 import PT from './pt';
-import PH from './ph';
 import HI from './hi';
 import TY from './ty';
 
@@ -27,7 +26,6 @@ export const lang = {
   KO,
   TW,
   PT,
-  PH,
   HI,
   TY,
 };
