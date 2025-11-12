@@ -107,9 +107,9 @@ const LANG = {
   },
   ball: {
     fishPrawnCrab: {
-      fish: 'Fish',
-      prawn: 'Prawn',
-      crab: 'Crab',
+      fish: 'Isda',
+      prawn: 'Hipon',
+      crab: 'Alimango',
     },
     BSOE: {
       big: 'Big',
