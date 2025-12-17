@@ -389,6 +389,8 @@ const LANG = {
     '5D': '5D',
     SEAK3: 'SEAK3',
     MINES: 'MINES',
+    CRG: 'CRG',
+    MINIKENO: 'MINIKENO'
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',
@@ -599,6 +601,8 @@ const LANG = {
       '10_10': 'ចំណាត់ថ្នាក់ 10 - លេខ 10',
     },
     MINES: 'Mines',
+    CRG: 'CRG',
+    MINIKENO: 'Mini Keno'
   },
 
   // TODO i18n

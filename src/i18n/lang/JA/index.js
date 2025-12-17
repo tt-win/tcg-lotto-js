@@ -245,6 +245,8 @@ const LANG = {
 
     },
     MINES: 'Mines',
+    CRG: 'CRG',
+    MINIKENO: 'Mini Keno'
   },
 
   // TODO i18n

@@ -708,6 +708,8 @@ const LANG = {
     '5D': '5D',
     SEAK3: 'SEAK3',
     MINES: 'MINES',
+    CRG: 'CRG',
+    MINIKENO: 'MINIKENO'
   },
   gameCode: {
     T2KFFC: '2000分分彩',
@@ -2456,6 +2458,8 @@ const LANG = {
     P_SEAK3_DIFFERENT_THREE: '3不同',
 
     MINES: 'Mines',
+    CRG: 'CRG',
+    MINIKENO: 'Mini Keno'
   },
   longDragon: '長龍投注',
   longDragonLott: '彩種類型',

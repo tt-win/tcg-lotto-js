@@ -360,6 +360,8 @@ const LANG = {
     '5D': '5D',
     SEAK3: 'SEAK3',
     MINES: 'MINES',
+    CRG: 'CRG',
+    MINIKENO: 'MINIKENO'
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',
@@ -583,6 +585,8 @@ const LANG = {
       '10_10': 'Peringkat 10 - Nomor 10',
     },
     MINES: 'Mines',
+    CRG: 'CRG',
+    MINIKENO: 'Mini Keno'
   },
 
   errorCode: {

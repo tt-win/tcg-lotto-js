@@ -396,6 +396,8 @@ const LANG = {
     '5D': '5D',
     SEAK3: 'SEAK3',
     MINES: 'MINES',
+    CRG: 'CRG',
+    MINIKENO: 'MINIKENO'
   },
 
   prizeListPrizeType: {
@@ -726,6 +728,8 @@ const LANG = {
       '10_10': '10th - No.10',
     },
     MINES: 'Mines',
+    CRG: 'CRG',
+    MINIKENO: 'Mini Keno'
   },
 
   seriesControlMapping: {
