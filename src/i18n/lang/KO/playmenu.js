@@ -918,14 +918,16 @@ const PlayMenu = {
     3111: 'MINES',
 
     // CRG
+
     3123: 'CRG',
     3124: 'CRG',
     3125: 'CRG',
 
     // MINIKENO
-    3126: 'MINIKENO',
-    3127: 'MINIKENO',
-    3128: 'MINIKENO',
+    
+    3126: 'Mini Keno',
+    3127: 'Mini Keno',
+    3128: 'Mini Keno',
   },
 };
 
