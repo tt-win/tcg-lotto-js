@@ -864,11 +864,11 @@ const PlayMenu = {
     3074: 'Position C ,Big/Small,Odd/Even', // SEA 5D 第三球
     3075: 'Position D ,Big/Small,Odd/Even', // SEA 5D 第四球
     3076: 'Position E ,Big/Small,Odd/Even', // SEA 5D 第五球
-    3079: 'Position A Number Selection', // SEA 5D 第一球
-    3080: 'Position B Number Selection', // SEA 5D 第二球
-    3081: 'Position C Number Selection', // SEA 5D 第三球
-    3082: 'Position D Number Selection', // SEA 5D 第四球
-    3083: 'Position E Number Selection', // SEA 5D 第五球
+    3079: 'Pagpili ng Numero para sa Posisyon A', // SEA 5D 第一球
+    3080: 'Pagpili ng Numero para sa Posisyon B', // SEA 5D 第二球
+    3081: 'Pagpili ng Numero para sa Posisyon C', // SEA 5D 第三球
+    3082: 'Pagpili ng Numero para sa Posisyon D', // SEA 5D 第四球
+    3083: 'Pagpili ng Numero para sa Posisyon E', // SEA 5D 第五球
 
     // SEAK3-Level:1
 
@@ -895,21 +895,21 @@ const PlayMenu = {
 
     // SEAPK10-Level:1
 
-    3100: 'Ranking', // SEA SEAPK10 第1-10名排名
-    3101: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
-    3102: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+    3100: 'Ranggo', // SEA SEAPK10 第1-10名排名
+    3101: '1-10 Malaki/Maliit', // SEA SEAPK10 第1-10名大小
+    3102: '1-10 Bihira/Pares', // SEA SEAPK10 第1-10名單雙
 
     // SEAPK10-Level:2
 
-    3103: 'Ranking', // SEA SEAPK10 第1-10名排名
-    3104: '1-10 BigSmall', // SEA SEAPK10 第1-10名大小
-    3105: '1-10 OddEven', // SEA SEAPK10 第1-10名單雙
+    3103: 'Ranggo', // SEA SEAPK10 第1-10名排名
+    3104: '1-10 Malaki/Maliit', // SEA SEAPK10 第1-10名大小
+    3105: '1-10 Bihira/Pares', // SEA SEAPK10 第1-10名單雙
 
     // SEAPK10-Level:3
 
-    3106: 'Ranking', // SEA SEAPK10 排名
-    3107: 'Big/Small', // SEA SEAPK10 大小
-    3108: 'Odd/Even', // SEA SEAPK10 單雙
+    3106: 'Ranggo', // SEA SEAPK10 排名
+    3107: 'Malaki/Maliit', // SEA SEAPK10 大小
+    3108: 'Bihira/Pares', // SEA SEAPK10 單雙
 
     // mini game mines
 
