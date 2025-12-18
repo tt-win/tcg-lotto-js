@@ -385,6 +385,8 @@ const LANG = {
     '5D': '5D',
     SEAK3: 'SEAK3',
     MINES: 'MINES',
+    CRG: 'CRG',
+    MINIKENO: 'MINIKENO'
   },
   prizeListPrizeType: {
     VTX_BS_BIG: 'Tài',
@@ -627,6 +629,8 @@ const LANG = {
       '10_10': 'Hạng 10 - Số 10',
     },
     MINES: 'Mines',
+    CRG: 'CRG',
+    MINIKENO: 'Mini Keno'
   },
 
   // TODO i18n

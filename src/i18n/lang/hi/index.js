@@ -399,6 +399,8 @@ const LANG = {
     '5D': '5D',
     SEAK3: 'SEAK3',
     MINES: 'MINES',
+    CRG: 'CRG',
+    MINIKENO: 'MINIKENO'
   },
 
   prizeListPrizeType: {

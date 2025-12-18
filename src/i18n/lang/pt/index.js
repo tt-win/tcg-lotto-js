@@ -336,6 +336,8 @@ const LANG = {
     '5D': '5D',
     SEAK3: 'SEAK3',
     MINES: 'MINES',
+    CRG: 'CRG',
+    MINIKENO: 'MINIKENO'
   },
 
   gameCode: {
@@ -737,6 +739,8 @@ const LANG = {
       '10_10': '10º Lugar - Número 10',
     },
     MINES: 'Mines',
+    CRG: 'CRG',
+    MINIKENO: 'Mini Keno'
   },
 };
 
