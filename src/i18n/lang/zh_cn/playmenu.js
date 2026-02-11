@@ -1607,9 +1607,9 @@ const PlayMenu = {
 
     // MINIKENO
 
-    3126: 'Mini Keno',
-    3127: 'Mini Keno',
-    3128: 'Mini Keno',
+    3126: '迷你 Keno',
+    3127: '迷你 Keno',
+    3128: '迷你 Keno',
 
     // P3P5
     3112:	'任选',
