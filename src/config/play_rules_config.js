@@ -151,6 +151,9 @@ const LHCPlayRuleConfig = {
   Normal_LHC: [
     PlayMenu.Normal_LHC,
   ],
+  Single_Number_LHC_FIRST_LAYER: [
+    PlayMenu.Single_Number_LHC_FIRST_LAYER,
+  ],
   Two_Sides_Total_Sum_BSOE_LHC: [
     PlayMenu.Two_Sides_Total_Sum_BSOE_LHC,
   ],

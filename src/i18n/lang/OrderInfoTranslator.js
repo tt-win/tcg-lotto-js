@@ -522,6 +522,9 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu['11_Not_in_Winning_Numbers_LHC'],
         PlayMenu['12_Not_in_Winning_Numbers_LHC'],
 
+        // 单码全中
+        PlayMenu.Single_Number_LHC,
+
         //  連碼
         PlayMenu.Two_In_Normal_LHC,
         PlayMenu.Three_In_Normal_LHC,

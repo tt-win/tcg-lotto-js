@@ -221,6 +221,12 @@ const JoinMain = {
   2051: '特串',2052: '特串',
 };
 
+// 單碼全中
+const singleNumber = {
+  3129: '單碼全中',
+  3131: '單碼全中', // Single_Number_LHC 球號1-49
+}
+
 export const lhcPlayId = {
   ...special, // 特碼
   ...bothSide, // 兩面
@@ -235,6 +241,7 @@ export const lhcPlayId = {
   ...chooseNotInWinningNumbers, // 自選不中
   ...joinZodiac, // 連肖
   ...JoinMain, // 連碼
+  ...singleNumber, // 單碼全中
 };
 
 export const lhcBothSideRank = {

@@ -478,6 +478,7 @@ export const PlayMenu = {
   Special_Combine_Zodiac_LHC: 1728,
   Join_Zodiac: 2031,
   Join_Main_LHC: 2040,
+  Single_Number_LHC_FIRST_LAYER: 3129,
 
   Special_Combine_Chinese_Zodiac_LHC: 1730,
   SpecialA_Animal_LHC: 1713,
@@ -593,6 +594,8 @@ export const PlayMenu = {
   '10_Not_in_Winning_Numbers_LHC': 2158,
   '11_Not_in_Winning_Numbers_LHC': 2160,
   '12_Not_in_Winning_Numbers_LHC': 2162,
+  // 单码全中
+  Single_Number_LHC: 3131,
 
   // 11x5 任選膽拖
   Any2_Dantuo_11X5: 2572,
