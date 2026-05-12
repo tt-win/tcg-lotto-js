@@ -594,7 +594,7 @@ export const PlayMenu = {
   '10_Not_in_Winning_Numbers_LHC': 2158,
   '11_Not_in_Winning_Numbers_LHC': 2160,
   '12_Not_in_Winning_Numbers_LHC': 2162,
-  // 单码全中
+  // 7码任中
   Single_Number_LHC: 3131,
 
   // 11x5 任選膽拖

@@ -222,10 +222,10 @@ const JoinMain = {
   2052: '特串',
 };
 
-// 单码全中
+// 7码任中
 const singleNumber = {
-  3129: '单码全中',
-  3131: '单码全中', // Single_Number_LHC 球號1-49
+  3129: '7码任中',
+  3131: '7码任中', // Single_Number_LHC 球號1-49
 }
 
 export const lhcPlayId = {
@@ -242,7 +242,7 @@ export const lhcPlayId = {
   ...chooseNotInWinningNumbers, // 自選不中
   ...joinZodiac, // 連肖
   ...JoinMain, // 连码
-  ...singleNumber, // 单码全中
+  ...singleNumber, // 7码任中
 };
 
 export const lhcBothSideRank = {

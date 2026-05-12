@@ -522,7 +522,7 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu['11_Not_in_Winning_Numbers_LHC'],
         PlayMenu['12_Not_in_Winning_Numbers_LHC'],
 
-        // 单码全中
+        // 7码任中
         PlayMenu.Single_Number_LHC,
 
         //  連碼
