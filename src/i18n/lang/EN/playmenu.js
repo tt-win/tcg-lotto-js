@@ -917,6 +917,12 @@ const PlayMenu = {
     3110: 'Mines',
     3111: 'Mines',
 
+    // RPS
+
+    3120: 'Rock-Paper-Scissors',
+    3121: 'Guess Win or Lose',
+    3122: 'Red / Blue Wins',
+
     // MINIKENO
     
     3126: 'Mini Keno',

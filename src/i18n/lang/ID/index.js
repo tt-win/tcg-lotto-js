@@ -199,6 +199,13 @@ const LANG = {
       5: 'Hijau',
       6: 'Kuning',
     },
+
+    // RPS
+    RPS: {
+      1: 'Merah',
+      2: 'Biru',
+      3: 'Seri',
+    },
   },
   // VXD
   vxd: {
@@ -361,7 +368,8 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS: 'Batu-Gunting-Kertas',
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',

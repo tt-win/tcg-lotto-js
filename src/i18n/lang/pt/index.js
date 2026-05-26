@@ -174,6 +174,13 @@ const LANG = {
       5: 'Verde',
       6: 'Amarelo',
     },
+
+    // RPS
+    RPS: {
+      1: 'Vermelho',
+      2: 'Azul',
+      3: 'Empate',
+    },
   },
 
   // VXD
@@ -337,7 +344,8 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS: 'Jokenpô',
   },
 
   gameCode: {

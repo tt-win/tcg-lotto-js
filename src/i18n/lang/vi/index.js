@@ -228,6 +228,13 @@ const LANG = {
       5: 'Xanh lá',
       6: 'Vàng',
     },
+
+    // RPS
+    RPS: {
+      1: 'Đỏ',
+      2: 'Xanh',
+      3: 'Hòa',
+    },
   },
   // VXD
   vxd: {
@@ -386,7 +393,8 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS: 'Oản tù tì',
   },
   prizeListPrizeType: {
     VTX_BS_BIG: 'Tài',

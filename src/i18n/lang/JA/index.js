@@ -53,6 +53,13 @@ const LANG = {
       5: '緑',
       6: '黄色',
     },
+
+    // RPS
+    RPS: {
+      1: '赤',
+      2: '青',
+      3: '引き分け',
+    },
   },
 
   prizeListPrizeType: {
@@ -246,7 +253,8 @@ const LANG = {
     },
     MINES: 'Mines',
     CRG: 'CRG',
-    MINIKENO: 'Mini Keno'
+    MINIKENO: 'Mini Keno',
+    RPS: 'じゃんけん',
   },
 
   // TODO i18n

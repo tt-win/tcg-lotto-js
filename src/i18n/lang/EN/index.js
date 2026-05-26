@@ -238,6 +238,13 @@ const LANG = {
       5: 'Green',
       6: 'Yellow',
     },
+
+    // RPS
+    RPS: {
+      1: 'Red',
+      2: 'Blue',
+      3: 'Draw',
+    },
   },
 
   // VXD
@@ -397,7 +404,8 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS: 'Rock-Paper-Scissors',
   },
 
   prizeListPrizeType: {

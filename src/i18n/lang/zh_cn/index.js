@@ -422,6 +422,12 @@ const LANG = {
       5: '绿',
       6: '黄',
     },
+
+    // RPS
+    RPS: {
+      1: '红',
+      2: '蓝',
+      3: '平局',
   },
 
   // VXD
@@ -581,7 +587,8 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS: '猜拳',
   },
   gameCode: {
     T2KFFC: '2000分分彩',

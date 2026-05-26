@@ -832,6 +832,12 @@ const PlayMenu = {
     3124: 'CRG',
     3125: 'CRG',
 
+    // RPS
+
+    3120: 'Jokenpô',
+    3121: 'Adivinhar vitória ou derrota',
+    3122: 'Vermelho / Azul vence',
+
     // MINIKENO
     
     3126: 'Mini Keno',

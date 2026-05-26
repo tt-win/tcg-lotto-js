@@ -228,6 +228,13 @@ const LANG = {
       5: 'បៃតង',
       6: 'លឿង',
     },
+
+    // RPS
+    RPS: {
+      1: 'ក្រហម',
+      2: 'ខៀវ',
+      3: 'ស្មើគ្នា',
+    },
   },
   // VXD
   vxd: {
@@ -390,7 +397,8 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS: 'ថ្ម ហ្សសន ក្រ',
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',

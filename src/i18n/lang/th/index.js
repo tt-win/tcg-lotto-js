@@ -226,6 +226,13 @@ const LANG = {
       5: 'สีเขียว',
       6: 'สีเหลือง',
     },
+
+    // RPS
+    RPS: {
+      1: 'ฝ่ายแดง',
+      2: 'ฝ่ายน้ำเงิน',
+      3: 'เสมอ',
+    },
   },
   // VXD
   vxd: {
@@ -388,7 +395,8 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS: 'เป่ายิ้งฉุบ',
   },
   prizeListPrizeType: {
     P_BANKER: 'Banker',

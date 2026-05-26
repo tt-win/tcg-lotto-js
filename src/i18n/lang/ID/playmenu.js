@@ -849,6 +849,12 @@ const PlayMenu = {
     3124: 'CRG',
     3125: 'CRG',
 
+    // RPS
+
+    3120: 'Batu-Gunting-Kertas',
+    3121: 'Tebak menang atau kalah',
+    3122: 'Merah / Biru menang',
+
     // MINIKENO
     
     3126: 'Mini Keno',

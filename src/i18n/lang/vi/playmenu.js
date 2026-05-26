@@ -836,6 +836,12 @@ const PlayMenu = {
     3124: 'CRG',
     3125: 'CRG',
 
+    // RPS
+
+    3120: 'Oản tù tì',
+    3121: 'Dự đoán thắng thua',
+    3122: 'Đỏ / Xanh thắng',
+
     // MINIKENO
     
     3126: 'Mini Keno',

@@ -165,6 +165,13 @@ const LANG = {
       5: '초록',
       6: '노랑',
     },
+
+    // RPS
+    RPS: {
+      1: '빨강',
+      2: '파랑',
+      3: '무승부',
+    },
   },
   // VXD
   vxd: {
@@ -290,7 +297,8 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS: '가위바위보',
   },
 
   prizeListPrizeType: {
