@@ -2472,7 +2472,10 @@ const LANG = {
     P_SEAK3_DIFFERENT_THREE: '3不同',
     MINES: 'Mines',
     CRG: 'CRG',
-    MINIKENO: '迷你 Keno'
+    MINIKENO: '迷你 Keno',
+    RPS_RED: '红',
+    RPS_BLUE: '蓝',
+    RPS_TIE: '平局',
   },
   longDragon: '长龙投注',
   longDragonLott: '彩种类型',

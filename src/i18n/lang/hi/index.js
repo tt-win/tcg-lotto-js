@@ -400,7 +400,10 @@ const LANG = {
     SEAK3: 'SEAK3',
     MINES: 'MINES',
     CRG: 'CRG',
-    MINIKENO: 'MINIKENO'
+    MINIKENO: 'MINIKENO',
+    RPS_RED: 'লাল',
+    RPS_BLUE: 'নীল',
+    RPS_TIE: 'ড্র',
   },
 
   prizeListPrizeType: {
