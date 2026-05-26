@@ -1976,6 +1976,17 @@ function getOrderInfoTranslatorList(lang) {
     },
   }
 
+  const RPSTranslator = {
+    RPS: {
+      items: [
+        PlayMenu.RPS,
+        PlayMenu.RPS_SEC,
+        PlayMenu.RPS_THR,
+      ],
+      getText: (content) => i18n(`ball.RPS.${content}`),
+    }
+  };
+
   // 訂單詳情 / 投注內容 欄位需特殊處理的項目及處理方法
   const OrderInfoTranslatorList = {
     BSOE: {

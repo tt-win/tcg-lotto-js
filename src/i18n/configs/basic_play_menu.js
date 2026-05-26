@@ -1760,4 +1760,16 @@ export const PlayMenu = {
   'SEA_PK10_RANK': 3106, // SEA SEAPK10 排名
   'SEA_PK10_BS': 3107, // SEA SEAPK10 大小
   'SEA_PK10_OE': 3108, // SEA SEAPK10 單雙
+
+  // RPS-Level:1
+
+  'RPS': 3120,
+
+  // RPS-Level:2
+
+  'RPS_SEC': 3121,
+  
+  // RPS-Level:3
+
+  'RPS_THR': 3122,
 };
