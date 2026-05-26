@@ -610,7 +610,10 @@ const LANG = {
     },
     MINES: 'Mines',
     CRG: 'CRG',
-    MINIKENO: 'Mini Keno'
+    MINIKENO: 'Mini Keno',
+    RPS_RED: 'ក្រហម',
+    RPS_BLUE: 'ខៀវ',
+    RPS_TIE: 'ស្មើគ្នា',
   },
 
   // TODO i18n

@@ -2459,7 +2459,10 @@ const LANG = {
 
     MINES: 'Mines',
     CRG: 'CRG',
-    MINIKENO: 'Mini Keno'
+    MINIKENO: 'Mini Keno',
+    RPS_RED: '紅',
+    RPS_BLUE: '藍',
+    RPS_TIE: '平局',
   },
   longDragon: '長龍投注',
   longDragonLott: '彩種類型',

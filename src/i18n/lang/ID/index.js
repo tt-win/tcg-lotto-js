@@ -594,7 +594,10 @@ const LANG = {
     },
     MINES: 'Mines',
     CRG: 'CRG',
-    MINIKENO: 'Mini Keno'
+    MINIKENO: 'Mini Keno',
+    RPS_RED: 'Merah',
+    RPS_BLUE: 'Biru',
+    RPS_TIE: 'Seri',
   },
 
   errorCode: {

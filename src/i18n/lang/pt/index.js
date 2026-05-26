@@ -748,7 +748,10 @@ const LANG = {
     },
     MINES: 'Mines',
     CRG: 'CRG',
-    MINIKENO: 'Mini Keno'
+    MINIKENO: 'Mini Keno',
+    RPS_RED: 'Vermelho',
+    RPS_BLUE: 'Azul',
+    RPS_TIE: 'Empate',
   },
 };
 

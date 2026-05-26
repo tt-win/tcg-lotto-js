@@ -255,6 +255,9 @@ const LANG = {
     CRG: 'CRG',
     MINIKENO: 'Mini Keno',
     RPS: 'じゃんけん',
+    RPS_RED: '赤',
+    RPS_BLUE: '青',
+    RPS_TIE: '引き分け',
   },
 
   // TODO i18n

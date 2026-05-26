@@ -729,7 +729,10 @@ const LANG = {
     },
     MINES: 'Mines',
     CRG: 'CRG',
-    MINIKENO: 'Mini Keno'
+    MINIKENO: 'Mini Keno',
+    RPS_RED: 'Red',
+    RPS_BLUE: 'Blue',
+    RPS_TIE: 'Draw',
   },
 
   seriesControlMapping: {
