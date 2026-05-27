@@ -1983,7 +1983,15 @@ function getOrderInfoTranslatorList(lang) {
         PlayMenu.RPS_SEC,
         PlayMenu.RPS_THR,
       ],
-      getText: (content) => i18n(`ball.RPS.${content}`),
+      getText: (content) => {
+        const ballI18n = {
+          1: 'prizeListPrizeType.RPS_RED',
+          2: 'prizeListPrizeType.RPS_BLUE',
+          3: 'prizeListPrizeType.TIE',
+        }[content];
+
+        return `${i18n(ballI18n)}`;
+      },
     }
   };
 
