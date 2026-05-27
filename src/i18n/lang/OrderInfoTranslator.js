@@ -1987,7 +1987,7 @@ function getOrderInfoTranslatorList(lang) {
         const ballI18n = {
           1: 'prizeListPrizeType.RPS_RED',
           2: 'prizeListPrizeType.RPS_BLUE',
-          3: 'prizeListPrizeType.TIE',
+          3: 'prizeListPrizeType.RPS_TIE',
         }[content];
 
         return `${i18n(ballI18n)}`;
