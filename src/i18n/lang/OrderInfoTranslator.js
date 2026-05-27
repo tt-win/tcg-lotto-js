@@ -2460,7 +2460,8 @@ function getOrderInfoTranslatorList(lang) {
     ...SEAK3Translator,
     ...SeaTranslator,
     ...NNPTranslator,
-    ...SEAPK10Translator
+    ...SEAPK10Translator,
+    ...RPSTranslator,
   };
 
   return OrderInfoTranslatorList;
