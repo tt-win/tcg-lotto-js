@@ -1228,6 +1228,7 @@ const LANG = {
   pkModeConfirmMsg: '訂單含有單挑玩法，獎金上限額 %@ ，超出的獎金無效',
   pkModeWarning: '此訂單含有單挑模式，如中獎系統將自動扣除超出單挑獎金的金額',
   skipOneClickBetMsg: '本次後不再進行確認提示',
+  skipOneClickBetTodayMsg: '今日不再顯示',
   manualBetPlaceHolder: `每注之間可以用回車丶空格[]丶逗號[,]或者分號[;]、["|"]隔開請導入TXT文件丶複製或者輸入支持格式如下：`,
   manualBetPlaceHolder_2Digit: `每注之間可以用回車丶逗號[,]或者分號[;]、["|"]隔開請導入TXT文件丶複製或者輸入支持格式如下：`,
   manualBetPlaceHolder_h5: '每注之間可以用回車丶空格[]丶逗號[,]或者分號[;]、["|"]隔開，請導入TXT文件丶複製或者輸入支持格式如下：',
