@@ -583,8 +583,8 @@ const PlayMenu = {
     2593: 'Đề Đầu Đuôi', // 中南部 二数头尾 Last_2_1st_8th_South_VNC
     2596: 'Đề Đầu', // 中南部 二数头 Last_2_8th_South_VNC
 
-    2580: 'Đầu Đặc Biệt ', // 特等十位 Ten_Digit_1st_VNC
-    2581: 'Đuôi Đặc Biệt', // 特等个位 Unit_Digit_1st_VNC
+    2580: 'Đuôi Đặc Biệt', // 特等十位 Ten_Digit_1st_VNC
+    2581: 'Số Cuối Đặc Biệt', // 特等个位 Unit_Digit_1st_VNC
     2582: 'Đầu Giải Nhất', // 一等十位 Ten_Digit_2nd_VNC
     2583: 'Đuôi Giải Nhất', // 一等个位 Unit_Digit_2nd_VNC
 
