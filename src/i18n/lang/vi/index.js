@@ -713,7 +713,7 @@ const LANG = {
     INTERNAL_SERVER_ERROR: 'lỗi hệ thống',
     OBJECT_NOT_EXIST: 'lỗi hệ thống',
     ILLEGAL_PARAMS_VALUE: 'lỗi hệ thống',
-    BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'đặt cược có hiệu lực của bạn vượt quá giới hạn trên cho phép',
+    BETTING_MULTIPLE_OVER_LIMITS_ERROR: 'Số lần đặt cược của bạn đã vượt quá giới hạn cho phép',
     GAME_CLOSED_ERROR: 'trang đặt cược đã đóng',
     STAKES_ABOVE_LIMIT: 'Chào bạn, Quy định đặt cược là không được bao toàn bộ số, nghĩa là cùng 1 kỳ cùng 1 kiểu chơi cược quá %@ tổng các số. Nên đơn cược này tạm thời không được chấp nhận. Xin vui lòng sửa lại nội dung đơn cược. Mọi bất tiện xin quý khách vui lòng bỏ qua.',
 
